@@ -1,0 +1,122 @@
+metadata:
+  default_from_year: 1990
+  default_to_year: null
+  request_pause_seconds: 0.8
+  note: "Local PDFs and the parent 参考文献 folder are not used as evidence."
+
+directions:
+  - id: A
+    slug: A_high_gravity_carbonation
+    name: 超重力碳化固废
+    zh: "超重力碳化固废"
+    name_en: High gravity carbonation of solid waste
+    note_zh: "覆盖高重力/超重力、旋转填充床、钢渣/转炉渣/固废矿化碳化等关键词。"
+    queries:
+      - '"high gravity" carbonation steel slag'
+      - '"high-gravity carbonation" steel slag'
+      - '"rotating packed bed" carbonation steel slag'
+      - '"high-gravity carbonation" "BOF slag"'
+      - '"rotating packed bed" mineral carbonation'
+      - '"process intensification" carbonation slag'
+      - '"high gravity" "mineral carbonation" slag'
+      - '"steel slag" "CO2 mineralization"'
+      - '"BOF slag" "CO2 sequestration"'
+      - '"solid waste" "accelerated carbonation" slag'
+    exclude_terms:
+      - microgravity
+
+  - id: B
+    slug: B_centrifuged_concrete
+    name: 离心/超重力成型混凝土
+    zh: "离心/超重力成型混凝土"
+    name_en: Centrifuged and spun concrete
+    note_zh: "覆盖离心成型、旋制混凝土、管桩、离心浇筑、离心密实等表达。"
+    queries:
+      - '"centrifuged concrete"'
+      - '"spun concrete" pipe pile'
+      - '"centrifugal casting" concrete'
+      - '"centrifugal compaction" cementitious'
+      - '"centrifugal concrete" durability'
+      - '"concrete pipe pile" centrifuged'
+      - '"prestressed concrete pipe pile" "spun concrete"'
+      - '"centrifugal forming" concrete'
+      - '"centrifugally cast" concrete pile'
+      - '"PHC pile" "centrifugal" concrete'
+    exclude_terms:
+      - soil centrifuge
+
+  - id: C
+    slug: C_gravity_cement_hydration
+    name: 重力场对水泥水化影响
+    zh: "重力场对水泥水化影响"
+    name_en: Gravity field effects on cement hydration
+    note_zh: "覆盖重力、微重力、变重力、超重力条件下水泥浆体/胶凝材料水化。"
+    queries:
+      - '"cement hydration" gravity'
+      - '"microgravity" "cement paste"'
+      - '"gravity effect" "cement hydration"'
+      - '"hypergravity" cement'
+      - '"variable gravity" cementitious materials'
+      - '"cement paste" "microgravity" hydration'
+      - '"cementitious materials" "microgravity"'
+      - '"cement hydration" "microgravity"'
+      - '"cement paste" "gravity effect"'
+      - '"hydration kinetics" cement gravity'
+    exclude_terms: []
+
+  - id: D
+    slug: D_CO2_curing
+    name: CO2养护与碳化混凝土
+    zh: "CO2养护与碳化混凝土"
+    name_en: CO2 curing and carbonated concrete
+    note_zh: "覆盖CO2养护、加速碳化养护、早龄期碳化、砂浆/浆体/混凝土强度和固碳。"
+    queries:
+      - '"accelerated carbonation curing" concrete'
+      - '"CO2 curing" cementitious materials'
+      - '"carbonation curing" cement mortar'
+      - '"early age carbonation" cement paste'
+      - '"CO2 sequestration" concrete curing'
+      - '"carbonation curing" concrete strength'
+      - '"carbon dioxide curing" concrete'
+      - '"CO2 curing" concrete strength'
+      - '"accelerated carbonation" cement paste curing'
+      - '"carbonation curing" recycled aggregate concrete'
+    exclude_terms: []
+
+  - id: E
+    slug: E_carbonated_SCM
+    name: 碳化固废辅助胶凝材料
+    zh: "碳化固废辅助胶凝材料"
+    name_en: Carbonated waste-derived supplementary cementitious materials
+    note_zh: "覆盖碳化钢渣、再生混凝土粉、再生细粉、电石渣和矿化碳化胶凝替代材料。"
+    queries:
+      - '"carbonated steel slag" "supplementary cementitious material"'
+      - '"carbonated waste concrete powder" cement'
+      - '"carbonated recycled concrete fines"'
+      - '"carbide slag carbonation" cement'
+      - '"mineral carbonation" "cement replacement"'
+      - '"carbonated slag" cementitious material'
+      - '"carbonated recycled concrete powder"'
+      - '"carbonated steel slag" cement'
+      - '"carbonated waste powder" cementitious'
+      - '"carbonated construction waste" cement'
+    exclude_terms: []
+
+  - id: F
+    slug: F_RPB_process_intensification
+    name: 旋转填充床与传质强化
+    zh: "旋转填充床与传质强化"
+    name_en: Rotating packed bed and process intensification
+    note_zh: "覆盖旋转填充床、高重力技术、气液固反应、反应结晶、CO2矿化和传质强化。"
+    queries:
+      - '"rotating packed bed" "CO2" "calcium carbonate"'
+      - '"high gravity technology" carbonation'
+      - '"rotating packed bed" reactive crystallization'
+      - '"high gravity" gas liquid solid reaction'
+      - '"process intensification" "mineral carbonation"'
+      - '"rotating packed bed" "carbon dioxide" mineralization'
+      - '"rotating packed bed" "CO2 absorption" carbonation'
+      - '"high gravity" "mass transfer" "CO2"'
+      - '"rotating packed bed" precipitation calcium carbonate'
+      - '"process intensified" carbonation reactor'
+    exclude_terms: []
