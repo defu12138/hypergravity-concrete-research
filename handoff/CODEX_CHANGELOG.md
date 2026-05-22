@@ -37,3 +37,19 @@
 - 不要删除已有研究成果文件。
 - 不要重新设计方向评分体系，除非用户明确要求重新评估。
 - 不要继续联网检索论文，除非用户明确要求。
+
+## 2026-05-22 本地文献来源核验
+
+- 任务：基于 `C:\Users\DELL\Desktop\超重力混凝土\孟老师资料\离心混凝土文献资料` 对当前项目自动检索结果做人工文献来源核验。
+- 修改文件：
+  - `data/local_literature/local_literature_index.csv`
+  - `reports/local_literature/local_literature_audit.md`
+  - `reports/local_literature/core_literature_candidates.md`
+  - `.gitignore`
+  - `handoff/PROJECT_STATE.md`
+  - `handoff/CODEX_CHANGELOG.md`
+  - `handoff/TODO_NEXT.md`
+  - `handoff/NEXT_SESSION_PROMPT.md`
+- 关键结论：本地 22 篇 PDF 中，主题明显偏 B（离心/超重力成型混凝土），可补强离心混凝土工程背景；对当前 E+D+A 主线仅局部补强，重点候选为 concrete sludge-derived material 相关文献和 CO2-CaO 干磨反应文献。
+- 遗留问题：SCI 收录、JCR 分区、中科院分区、中文文献来源级别、部分 DOI/年份和是否最新综述/实验论文仍需人工核验。
+- 原文控制：未复制或提交 PDF、Word、CAJ 或老师资料原件；`.gitignore` 已加入常见文献原文和压缩包扩展名。

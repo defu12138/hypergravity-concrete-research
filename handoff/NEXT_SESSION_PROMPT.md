@@ -24,6 +24,9 @@ C:\Users\DELL\Desktop\超重力混凝土\hypergravity_concrete_scout
 - `reports/direction_score_report.md`
 - `reports/reading_list_by_direction.md`
 - `reports/research_results_file_summary.xlsx`
+- `reports/local_literature/local_literature_audit.md`
+- `reports/local_literature/core_literature_candidates.md`
+- `data/local_literature/local_literature_index.csv`
 - `data/processed/papers_master.csv`
 - `data/processed/direction_score.csv`
 - `data/processed/reading_list_by_direction.csv`
@@ -40,6 +43,7 @@ C:\Users\DELL\Desktop\超重力混凝土\hypergravity_concrete_scout
 - 不要编造论文、作者、期刊、DOI 或实验结果。
 - 如果数据不足，明确写“数据不足，需人工补充检索”。
 - 不要删除已有研究成果文件。
+- 不要把本地 PDF、Word、CAJ、压缩包或老师资料原件复制进仓库或提交到 GitHub。
 - 用中文输出。
 
 ## 当前已经确定的研究判断
@@ -55,14 +59,25 @@ C:\Users\DELL\Desktop\超重力混凝土\hypergravity_concrete_scout
 
 > 碳化固废 SCM + CO2 养护 + 超重力/等效强化碳化变量
 
+## 本地文献核验结果
+
+已完成对 `C:\Users\DELL\Desktop\超重力混凝土\孟老师资料\离心混凝土文献资料` 中 22 个 PDF 的元数据级核验，结果保存在：
+
+- `data/local_literature/local_literature_index.csv`
+- `reports/local_literature/local_literature_audit.md`
+- `reports/local_literature/core_literature_candidates.md`
+
+本地资料明显偏 B（离心/超重力成型混凝土）方向，对 E+D+A 主线只形成局部补强。优先关注 concrete sludge-derived material 相关文献和 CO2-CaO dry grinding 文献；SCI/JCR/中科院分区仍需人工核验。
+
 ## 下一步优先任务
 
 如果用户没有指定具体产出，优先从以下任务之一开始：
 
-1. 开题报告大纲；
-2. E/D/A 三方向核心文献精读表；
-3. 第一轮最小可行实验矩阵；
-4. 实验数据记录模板。
+1. 人工核验本地核心候选文献的 SCI/JCR/中科院分区和中文来源级别；
+2. 开题报告大纲；
+3. E/D/A 三方向核心文献精读表；
+4. 第一轮最小可行实验矩阵；
+5. 实验数据记录模板。
 
 ## 交接与 Git 规则
 

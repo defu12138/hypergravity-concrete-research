@@ -36,6 +36,14 @@
 - `reports/landscape_summary.md`
 - `reports/direction_scores.md`
 
+本地文献核验成果：
+
+- `data/local_literature/local_literature_index.csv`
+- `reports/local_literature/local_literature_audit.md`
+- `reports/local_literature/core_literature_candidates.md`
+
+本轮核验基于本地文件夹 `C:\Users\DELL\Desktop\超重力混凝土\孟老师资料\离心混凝土文献资料` 中的 22 个 PDF 文件，仅提取和保存文献元数据、方向匹配和使用建议；PDF、Word、CAJ 或老师资料原件不得复制进仓库或提交。
+
 说明：用户曾提到 `PROJECT_SUMMARY.md`，但当前项目中未找到该文件，因此本交接不以它作为内容来源。
 
 ## 当前最推荐的研究方向
@@ -48,6 +56,8 @@
 
 B/C/F 当前暂缓，不作为第一阶段主攻方向。
 
+本地文献核验显示：本地资料明显偏 B（离心/超重力成型混凝土）方向，可补强离心混凝土工程背景；对当前 E+D+A 主线仅形成局部补强，其中 `Comparative study of acid mine drainage neutralization by calcium hydroxide and concrete sludge-derived material` 可支撑 E 方向固废/污泥资源化背景，`Reaction between CO2 and CaO under dry grinding` 可支撑 A 方向等效强化碳化机制背景。
+
 ## 未解决问题
 
 - E/D/A 主线需要进一步转化为开题报告中的研究问题、研究内容、技术路线和创新点。
@@ -55,3 +65,4 @@ B/C/F 当前暂缓，不作为第一阶段主攻方向。
 - 第一轮实验矩阵需要结合实际材料来源、CO2 养护条件、仪器条件和测试周期压缩。
 - 固废来源、粒径、预碳化制度、替代率和养护制度仍需明确。
 - XRD、TG、碳酸盐含量、pH/酚酞等测试条件如未确认，应在实验模板中标注“待确认”。
+- 本地文献的 SCI 收录、JCR 分区、中科院分区、中文来源级别和部分 DOI/年份仍需人工核验。
