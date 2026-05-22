@@ -39,8 +39,10 @@
 本地文献核验成果：
 
 - `data/local_literature/local_literature_index.csv`
+- `data/local_literature/local_literature_sci_relevance.csv`
 - `reports/local_literature/local_literature_audit.md`
 - `reports/local_literature/core_literature_candidates.md`
+- `reports/local_literature/sci_mainstream_relevance_audit.md`
 - `scripts/index_local_literature.py`
 
 本轮核验基于本地文件夹 `C:\Users\DELL\Desktop\超重力混凝土\孟老师资料\离心混凝土文献资料` 中的 22 个 PDF 文件，仅提取和保存文献元数据、方向匹配和使用建议；PDF、Word、CAJ 或老师资料原件不得复制进仓库或提交。
@@ -59,6 +61,7 @@
 B/C/F 当前暂缓，不作为第一阶段主攻方向。
 
 本地文献核验显示：本地资料明显偏 B（离心/超重力成型混凝土）方向，可补强离心混凝土工程背景；对当前 E+D+A 主线仅形成局部补强，其中 `Comparative study of acid mine drainage neutralization by calcium hydroxide and concrete sludge-derived material` 可支撑 E 方向固废/污泥资源化背景，`Reaction between CO2 and CaO under dry grinding` 可支撑 A 方向等效强化碳化机制背景。
+本轮进一步核验公开期刊页后，13 篇英文文献可通过期刊页确认来源期刊为 SCIE 收录；但对当前 E+D+A 主线直接有价值的主要仍是 1 篇 E 方向 concrete sludge 文献和 1 篇 A 方向 CO2-CaO 干磨文献。
 
 ## 未解决问题
 
@@ -68,4 +71,5 @@ B/C/F 当前暂缓，不作为第一阶段主攻方向。
 - 固废来源、粒径、预碳化制度、替代率和养护制度仍需明确。
 - XRD、TG、碳酸盐含量、pH/酚酞等测试条件如未确认，应在实验模板中标注“待确认”。
 - 本地文献的 SCI 收录、JCR 分区、中科院分区、中文来源级别和部分 DOI/年份仍需人工核验。
+- 本地 SCI 主流性报告中的 SCIE 状态来自公开期刊页，正式开题引用前仍建议通过 Web of Science/JCR/中科院分区人工复核。
 - 当前系统中的 `python` 可能是 Windows Store 占位符；运行 `scripts/index_local_literature.py` 前需确认 Python 环境可用。

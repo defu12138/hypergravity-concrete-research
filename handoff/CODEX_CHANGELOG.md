@@ -67,3 +67,17 @@
   - `handoff/NEXT_SESSION_PROMPT.md`
 - 关键结论：脚本仅索引文件属性、文件名线索和可选 PDF metadata，不做 OCR，不复制、不移动、不提交原始 PDF。
 - 遗留问题：当前系统 `python` 命令可能是 Windows Store 占位符；脚本实际运行前需确认 Python 环境可用。
+
+## 2026-05-22 本地文献主流 SCI 相关性核验
+
+- 任务：基于本地文献索引和公开期刊页，对本地文献来源做主流 SCI/SCIE 相关性核验。
+- 修改文件：
+  - `data/local_literature/local_literature_sci_relevance.csv`
+  - `reports/local_literature/sci_mainstream_relevance_audit.md`
+  - `handoff/PROJECT_STATE.md`
+  - `handoff/CODEX_CHANGELOG.md`
+  - `handoff/RESEARCH_DECISIONS.md`
+  - `handoff/TODO_NEXT.md`
+  - `handoff/NEXT_SESSION_PROMPT.md`
+- 关键结论：22 篇本地文献中，13 篇英文文献的来源期刊可通过公开期刊页确认 SCIE；但主线 E+D+A 的直接补强仍主要来自 concrete sludge-derived material 和 CO2-CaO dry grinding 两篇，B 方向文献数量和主流期刊背景最强。
+- 遗留问题：中文文献、来源不明文献、JCR 分区和中科院分区仍需人工通过 Web of Science/JCR/中科院分区核验。
