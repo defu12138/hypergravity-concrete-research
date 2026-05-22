@@ -54,10 +54,21 @@ python src/score_directions.py
 - `data/processed/works_master.csv`：清洗和去重后的论文主表。
 - `data/processed/query_audit.csv`：检索请求审计记录。
 - `data/processed/*summary*.csv`：趋势、作者、期刊、方向评分等结构化结果。
+- `data/local_literature/local_literature_index.csv`：本地文献文件夹的元数据索引，不包含 PDF 全文。
 - `reports/`：Markdown 报告。
 - `figures/`：PNG 图表。
 
-## 6. 中文字体说明
+## 6. 本地文献索引
+
+如需基于本地文献文件夹重新生成元数据索引，可运行：
+
+```powershell
+python scripts/index_local_literature.py --source-dir "C:\Users\DELL\Desktop\超重力混凝土\孟老师资料\离心混凝土文献资料"
+```
+
+该脚本默认只读取文件名、扩展名、文件大小、修改时间，并尝试从文件名中识别 DOI、年份和关键词；如果环境中安装了可用的 PDF metadata 读取库，会尝试读取 PDF metadata。脚本不会做大规模 OCR，也不会复制、移动或提交原始 PDF。
+
+## 7. 中文字体说明
 
 报告使用中文，图表标题和坐标轴尽量使用英文以减少字体问题。如果本机 matplotlib 图中的中文显示为方块，可以安装或指定中文字体，例如 SimHei、Microsoft YaHei、Noto Sans CJK。必要时可在脚本开头加入：
 
@@ -67,10 +78,11 @@ plt.rcParams["font.sans-serif"] = ["Microsoft YaHei", "SimHei", "Noto Sans CJK S
 plt.rcParams["axes.unicode_minus"] = False
 ```
 
-## 7. 数据原则
+## 8. 数据原则
 
 - 不编造论文。
 - 不使用本地 PDF 或上级目录 `参考文献/` 作为 seed。
+- 不复制、不提交本地 PDF、Word、CAJ、压缩包或老师资料原件；本地文献只保存元数据索引和核验报告。
 - API 请求失败时写入审计记录，不让整个流程直接崩溃。
 - 缺失字段、冲突字段、无法确认字段统一写 `unclear`。
 - 报告中的判断必须来自 `data/processed/` 中的结构化数据。

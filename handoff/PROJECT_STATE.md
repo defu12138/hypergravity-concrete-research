@@ -41,8 +41,10 @@
 - `data/local_literature/local_literature_index.csv`
 - `reports/local_literature/local_literature_audit.md`
 - `reports/local_literature/core_literature_candidates.md`
+- `scripts/index_local_literature.py`
 
 本轮核验基于本地文件夹 `C:\Users\DELL\Desktop\超重力混凝土\孟老师资料\离心混凝土文献资料` 中的 22 个 PDF 文件，仅提取和保存文献元数据、方向匹配和使用建议；PDF、Word、CAJ 或老师资料原件不得复制进仓库或提交。
+后续可使用 `scripts/index_local_literature.py --source-dir "<本地文献目录>"` 重新生成本地文献元数据索引。该脚本只写入 CSV 元数据，不复制或移动原文文件。
 
 说明：用户曾提到 `PROJECT_SUMMARY.md`，但当前项目中未找到该文件，因此本交接不以它作为内容来源。
 
@@ -66,3 +68,4 @@ B/C/F 当前暂缓，不作为第一阶段主攻方向。
 - 固废来源、粒径、预碳化制度、替代率和养护制度仍需明确。
 - XRD、TG、碳酸盐含量、pH/酚酞等测试条件如未确认，应在实验模板中标注“待确认”。
 - 本地文献的 SCI 收录、JCR 分区、中科院分区、中文来源级别和部分 DOI/年份仍需人工核验。
+- 当前系统中的 `python` 可能是 Windows Store 占位符；运行 `scripts/index_local_literature.py` 前需确认 Python 环境可用。

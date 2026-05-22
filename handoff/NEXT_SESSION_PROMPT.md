@@ -27,6 +27,7 @@ C:\Users\DELL\Desktop\超重力混凝土\hypergravity_concrete_scout
 - `reports/local_literature/local_literature_audit.md`
 - `reports/local_literature/core_literature_candidates.md`
 - `data/local_literature/local_literature_index.csv`
+- `scripts/index_local_literature.py`
 - `data/processed/papers_master.csv`
 - `data/processed/direction_score.csv`
 - `data/processed/reading_list_by_direction.csv`
@@ -66,6 +67,8 @@ C:\Users\DELL\Desktop\超重力混凝土\hypergravity_concrete_scout
 - `data/local_literature/local_literature_index.csv`
 - `reports/local_literature/local_literature_audit.md`
 - `reports/local_literature/core_literature_candidates.md`
+
+可用 `scripts/index_local_literature.py --source-dir "<本地文献目录>"` 重新生成本地文献索引。该脚本只读取文件属性、文件名线索和可选 PDF metadata，不做 OCR，不复制或移动原文文件。
 
 本地资料明显偏 B（离心/超重力成型混凝土）方向，对 E+D+A 主线只形成局部补强。优先关注 concrete sludge-derived material 相关文献和 CO2-CaO dry grinding 文献；SCI/JCR/中科院分区仍需人工核验。
 

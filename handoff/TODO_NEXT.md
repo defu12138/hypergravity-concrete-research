@@ -7,6 +7,7 @@
 1. 人工核验本地核心候选文献的来源级别
    - 对 `reports/local_literature/core_literature_candidates.md` 中的核心必读和背景支撑文献，核验 SCI、JCR 分区、中科院分区、中文期刊来源和年份。
    - 对 DOI 为 `unclear` 的中文或题录不足文献，人工补充题录信息。
+   - 运行 `scripts/index_local_literature.py` 前先确认本机 Python 环境可用。
 
 2. 完成开题报告大纲
    - 基于 E+D+A 组合形成研究问题。
