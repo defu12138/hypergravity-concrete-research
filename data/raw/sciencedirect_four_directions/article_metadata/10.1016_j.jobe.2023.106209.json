@@ -1,0 +1,3257 @@
+{
+  "abstracts-retrieval-response": {
+    "item": {
+      "ait:process-info": {
+        "ait:status": {
+          "@state": "update",
+          "@type": "core",
+          "@stage": "S300"
+        },
+        "ait:date-delivered": {
+          "@day": "26",
+          "@timestamp": "2023-09-26T17:15:25.000025-04:00",
+          "@year": "2023",
+          "@month": "09"
+        },
+        "ait:date-sort": {
+          "@day": "15",
+          "@year": "2023",
+          "@month": "06"
+        }
+      },
+      "xocs:meta": {
+        "xocs:funding-list": {
+          "@pui-match": "primary",
+          "@has-funding-info": "1",
+          "xocs:funding": [
+            {
+              "xocs:funding-agency-matched-string": "National Natural Science Foundation of China",
+              "xocs:funding-agency-acronym": "NSFC",
+              "xocs:funding-agency": "National Natural Science Foundation of China",
+              "xocs:funding-id": "51979169",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "China University of Mining and Technology",
+              "xocs:funding-agency-acronym": "CUMT",
+              "xocs:funding-agency": "China University of Mining and Technology",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100005195",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            }
+          ],
+          "xocs:funding-addon-generated-timestamp": "2023-03-31T13:35:04.689Z",
+          "xocs:funding-text": "The authors are grateful for financial support from the National Natural Science Foundation of China ( 51979169 ), and the device support from the Advanced Analysis and Computation Center of China University of Mining and Technology .",
+          "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }
+      },
+      "bibrecord": {
+        "head": {
+          "author-group": [
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "221116",
+                "@afid": "60073460",
+                "@country": "chn",
+                "city": "Xuzhou",
+                "organization": {
+                  "$": "China University of Mining and Technology"
+                },
+                "affiliation-id": {
+                  "@afid": "60073460"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-947078675-400c31a9f05ccc108fbde3cd200dcfbd-1",
+                "ce:source-text": "China University of Mining and Technology, Xuzhou, 221116, China"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Guo",
+                  "preferred-name": {
+                    "ce:given-name": "Guo",
+                    "ce:initials": "G.",
+                    "ce:surname": "Li",
+                    "ce:indexed-name": "Li G."
+                  },
+                  "@author-instance-id": "OB2BibRecID-947078675-2045120990417de5a83700ab56577371-1",
+                  "@seq": "1",
+                  "ce:initials": "G.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Li",
+                  "@auid": "7407056579",
+                  "@orcid": "0000-0003-0696-1040",
+                  "ce:indexed-name": "Li G."
+                },
+                {
+                  "ce:given-name": "Xianfeng",
+                  "preferred-name": {
+                    "ce:given-name": "Xianfeng",
+                    "ce:initials": "X.",
+                    "ce:surname": "Chen",
+                    "ce:indexed-name": "Chen X."
+                  },
+                  "@author-instance-id": "OB2BibRecID-947078675-bd53e2e8f15e5279c2498d944caf39b5-1",
+                  "@seq": "2",
+                  "ce:initials": "X.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Chen",
+                  "@auid": "58156918500",
+                  "ce:indexed-name": "Chen X."
+                },
+                {
+                  "ce:given-name": "Yongsheng",
+                  "preferred-name": {
+                    "ce:given-name": "Yongsheng",
+                    "ce:initials": "Y.",
+                    "ce:surname": "Zhang",
+                    "ce:indexed-name": "Zhang Y."
+                  },
+                  "@author-instance-id": "OB2BibRecID-947078675-7a7813066e5211de73f6dac07dccb661-1",
+                  "@seq": "3",
+                  "ce:initials": "Y.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Zhang",
+                  "@auid": "58611100000",
+                  "ce:indexed-name": "Zhang Y."
+                },
+                {
+                  "ce:given-name": "Zheng",
+                  "preferred-name": {
+                    "ce:given-name": "Zheng",
+                    "ce:initials": "Z.",
+                    "ce:surname": "Zhuang",
+                    "ce:indexed-name": "Zhuang Z."
+                  },
+                  "@author-instance-id": "OB2BibRecID-947078675-fbf2efe0862b8870ef4ac7b28042d6c5-1",
+                  "@seq": "4",
+                  "ce:initials": "Z.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Zhuang",
+                  "@auid": "57219836079",
+                  "ce:indexed-name": "Zhuang Z."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "450046",
+                "@afid": "60103148",
+                "@country": "chn",
+                "city": "Zhengzhou",
+                "organization": {
+                  "$": "North China University of Water Resources and Electric Power"
+                },
+                "affiliation-id": {
+                  "@afid": "60103148"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-947078675-3f2e5a1515b4b605852d024005f93e3c-1",
+                "ce:source-text": "North China University of Water Resources and Electric Power, Zhengzhou, 450046, China"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Yajun",
+                  "preferred-name": {
+                    "ce:given-name": "Yajun",
+                    "ce:initials": "Y.",
+                    "ce:surname": "Lv",
+                    "ce:indexed-name": "Lv Y."
+                  },
+                  "@author-instance-id": "OB2BibRecID-947078675-0ced2340ae762b4f591b4a45a245c680-1",
+                  "@seq": "5",
+                  "ce:initials": "Y.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Lv",
+                  "@auid": "56734080200",
+                  "ce:indexed-name": "Lv Y."
+                }
+              ]
+            }
+          ],
+          "citation-title": "Studies of nano-SiO2 and subsequent water curing on enhancing the frost resistance of autoclaved PHC pipe pile concrete",
+          "abstracts": "© 2023 Elsevier LtdAutoclave curing will cause severe deterioration on the frost resistance of pre-stressed high-strength concrete (PHC) pipe pile. To clarify the frost resistance degradation mechanism of autoclaved PHC pipe pile concrete and obtain effective improvement measures, nano-SiO2 (NS) with cement replacement ratios of 0.5%, 1.0%, and 1.5% were adopted, and concrete specimens were fabricated and subjected to standard curing, autoclave curing, and autoclave curing + one week of subsequent water curing, respectively. Then, a rapid freeze-thaw cycle experiment was utilized to test their frost resistance. In addition, the micro-morphology and pore structure of different concrete were studied through scanning electron microscopy and nuclear magnetic resonance. The results indicate that the mechanisms of the degradation of autoclaved concrete in frost resistance are the increase of concrete porosity, harmful pore ratio, and concrete brittleness. Compared with standard curing, autoclave curing can result in 68.5% loss in the frost resistance of concrete. Through playing the filling and pozzolanic effects, NS can improve the compactness of autoclaved concrete and increase its frost resistance to a certain extent. Subsequent water curing can replenish water into concrete, promote the hydration of the residual unhydrated cementitious materials in concrete, enhance the compactness of concrete, and play a positive role in improving the frost resistance of concrete. The incorporation of 1.0% NS can enhance the frost resistance of autoclaved concrete by 66.6%, while the combination of 1.0% NS incorporation and one-week subsequent water curing can enhance the frost resistance by 89.2%. Exponential function can be used to simulate the frost resistance degradation of the autoclaved PHC pipe pile and predict its service life based on frost resistance.",
+          "correspondence": [
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "221116",
+                "@country": "chn",
+                "city": "Xuzhou",
+                "organization": {
+                  "$": "China University of Mining and Technology"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-947078675-81602e7f829b3e9b6bfbcc9e51c907e1-1"
+              },
+              "person": {
+                "ce:given-name": "Guo",
+                "@author-instance-id": "OB2BibRecID-947078675-fd9283036f7d145737c49c4575cc12ed-1",
+                "ce:initials": "G.",
+                "ce:surname": "Li",
+                "ce:indexed-name": "Li G."
+              }
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "450046",
+                "@country": "chn",
+                "city": "Zhengzhou",
+                "organization": {
+                  "$": "North China University of Water Resources and Electric Power"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-947078675-e659712f12fbf3b6fb9382421c3429f1-1"
+              },
+              "person": {
+                "ce:given-name": "Yajun",
+                "@author-instance-id": "OB2BibRecID-947078675-960972f5632ddabd25440fe4766a5e7a-1",
+                "ce:initials": "Y.",
+                "ce:surname": "Lv",
+                "ce:indexed-name": "Lv Y."
+              }
+            }
+          ],
+          "citation-info": {
+            "author-keywords": {
+              "author-keyword": [
+                {
+                  "$": "Autoclaved concrete",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Frost resistance",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Nano-SiO2",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "PHC pipe Pile",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Subsequent water curing",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                }
+              ]
+            },
+            "citation-type": {
+              "@code": "ar"
+            },
+            "citation-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "abstract-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            }
+          },
+          "source": {
+            "website": {
+              "ce:e-address": {
+                "$": "http://www.journals.elsevier.com/journal-of-building-engineering/",
+                "@type": "email"
+              }
+            },
+            "translated-sourcetitle": {
+              "@xml:lang": "eng"
+            },
+            "volisspag": {
+              "voliss": {
+                "@volume": "69"
+              }
+            },
+            "@type": "j",
+            "sourcetitle": "Journal of Building Engineering",
+            "publicationdate": {
+              "month": "06",
+              "year": "2023",
+              "date-text": {
+                "@xfab-added": "true",
+                "$": "15 June 2023"
+              },
+              "day": "15"
+            },
+            "sourcetitle-abbrev": "J. Build. Eng.",
+            "@country": "gbr",
+            "issn": {
+              "$": "23527102",
+              "@type": "electronic"
+            },
+            "publicationyear": {
+              "@first": "2023"
+            },
+            "publisher": {
+              "publishername": "Elsevier Ltd"
+            },
+            "article-number": "106209",
+            "@srcid": "21100389518"
+          },
+          "enhancement": {
+            "classificationgroup": {
+              "classifications": [
+                {
+                  "@type": "CPXCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "408.2",
+                      "classification-description": "Structural Members and Shapes"
+                    },
+                    {
+                      "classification-code": "412",
+                      "classification-description": "Concrete"
+                    },
+                    {
+                      "classification-code": "549.3",
+                      "classification-description": "Others, including Bismuth, Boron, Cadmium, Cobalt, Mercury, Niobium, Selenium, Silicon, Tellurium and Zirconium"
+                    },
+                    {
+                      "classification-code": "802.2",
+                      "classification-description": "Chemical Reactions"
+                    },
+                    {
+                      "classification-code": "931.1",
+                      "classification-description": "Mechanics"
+                    },
+                    {
+                      "classification-code": "931.2",
+                      "classification-description": "Physical Properties of Gases, Liquids and Solids"
+                    },
+                    {
+                      "classification-code": "951",
+                      "classification-description": "Materials Science"
+                    }
+                  ]
+                },
+                {
+                  "@type": "FLXCLASS",
+                  "classification": {
+                    "classification-code": "902",
+                    "classification-description": "FLUIDEX; Related Topics"
+                  }
+                },
+                {
+                  "@type": "ASJC",
+                  "classification": [
+                    {
+                      "$": "2205"
+                    },
+                    {
+                      "$": "2216"
+                    },
+                    {
+                      "$": "2215"
+                    },
+                    {
+                      "$": "2213"
+                    },
+                    {
+                      "$": "2211"
+                    }
+                  ]
+                },
+                {
+                  "@type": "SUBJABBR",
+                  "classification": "ENGI"
+                }
+              ]
+            }
+          },
+          "grantlist": {
+            "@complete": "y",
+            "grant-text": {
+              "$": "The authors are grateful for financial support from the National Natural Science Foundation of China (51979169), and the device support from the Advanced Analysis and Computation Center of China University of Mining and Technology.",
+              "@xml:lang": "eng"
+            },
+            "grant": {
+              "grant-id": "51979169",
+              "grant-acronym": "NSFC",
+              "grant-agency": {
+                "@iso-code": "chn",
+                "$": "National Natural Science Foundation of China"
+              },
+              "grant-agency-id": "501100001809"
+            }
+          }
+        },
+        "item-info": {
+          "copyright": {
+            "$": "Copyright 2023 Elsevier B.V., All rights reserved.",
+            "@type": "Elsevier"
+          },
+          "dbcollection": [
+            {
+              "$": "CPX"
+            },
+            {
+              "$": "REAXYSCAR"
+            },
+            {
+              "$": "SCOPUS"
+            },
+            {
+              "$": "SNCPX"
+            },
+            {
+              "$": "Scopusbase"
+            }
+          ],
+          "history": {
+            "date-created": {
+              "@day": "30",
+              "@timestamp": "BST 09:01:14",
+              "@year": "2023",
+              "@month": "03"
+            }
+          },
+          "itemidlist": {
+            "itemid": [
+              {
+                "$": "2023274782",
+                "@idtype": "PUI"
+              },
+              {
+                "$": "947078675",
+                "@idtype": "CAR-ID"
+              },
+              {
+                "$": "20231313810260",
+                "@idtype": "CPX"
+              },
+              {
+                "$": "20230826779",
+                "@idtype": "REAXYSCAR"
+              },
+              {
+                "$": "20231132935",
+                "@idtype": "SCOPUS"
+              },
+              {
+                "$": "2023030156",
+                "@idtype": "SNCPX"
+              },
+              {
+                "$": "85150891681",
+                "@idtype": "SCP"
+              },
+              {
+                "$": "85150891681",
+                "@idtype": "SGR"
+              }
+            ],
+            "ce:pii": "S2352710223003881",
+            "ce:ern": "pii:S2352710223003881",
+            "ce:doi": "10.1016/j.jobe.2023.106209"
+          }
+        },
+        "tail": {
+          "bibliography": {
+            "@refcount": "43",
+            "reference": [
+              {
+                "ref-fulltext": "Wang, D., Xu, L., Wang, C., Application prospect of large cylinder pile and PHC pile in northern China seaport wharf project. Port Waterway Eng.(1), 2013, 152–160.",
+                "@reference-instance-id": "OB2BibRecID-947078675-4e1c0701df51da5021f70ca2dd47e861-1",
+                "@id": "1",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Application prospect of large cylinder pile and PHC pile in northern China seaport wharf project"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib1",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85150875639",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "152",
+                      "@last": "160"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang D."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Port Waterway Eng."
+                },
+                "ce:source-text": "Wang D, Xu L, Wang C. Application prospect of large cylinder pile and PHC pile in northern China seaport wharf project. Port & Waterway Engineering. 2013, (1):152-160."
+              },
+              {
+                "ref-fulltext": "Tung, N.K., Li, W., Nam, D.T., Ngoc, D.M., Thanh, N.M., Research on PHC pile in the application of Vietnam economic development areas. Electron. J. Geotech. Eng. 19:U (2014), 6047–6062.",
+                "@reference-instance-id": "OB2BibRecID-947078675-4f5a183723b9dc709d74f0cdc3ebd2e6-2",
+                "@id": "2",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Research on PHC pile in the application of Vietnam economic development areas"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib2",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84906494889",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "19",
+                      "@issue": "U"
+                    },
+                    "pagerange": {
+                      "@first": "6047",
+                      "@last": "6062"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "N.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Tung",
+                        "ce:indexed-name": "Tung N.K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Nam",
+                        "ce:indexed-name": "Nam D.T."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "D.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Ngoc",
+                        "ce:indexed-name": "Ngoc D.M."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "N.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Thanh",
+                        "ce:indexed-name": "Thanh N.M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Electron. J. Geotech. Eng."
+                },
+                "ce:source-text": "Tung N K, Li W, Nam D T, Ngoc D M, Thanh N M. Research on PHC pile in the application of Vietnam economic development areas. Electronic Journal of Geotechnical Engineering, 2014, 19(U):6047-6062."
+              },
+              {
+                "ref-fulltext": "Deng, C., Tong, X., Zhao, Y., et al. Service life design of PHC pile for dares salaam port, Tanzania. Port Waterway Eng.(4), 2019, 51–55.",
+                "@reference-instance-id": "OB2BibRecID-947078675-94bec8aea816f7022b7c4324443c7b0d-3",
+                "@id": "3",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Service life design of PHC pile for dares salaam port, Tanzania"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib3",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85150915510",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "51",
+                      "@last": "55"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Deng",
+                        "ce:indexed-name": "Deng C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Tong",
+                        "ce:indexed-name": "Tong X."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao Y."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Port Waterway Eng."
+                },
+                "ce:source-text": "Deng C, Tong X, Zhao Y, et al. Service life design of PHC pile for Dares Salaam Port, Tanzania. Port & Waterway Engineering, 2019, (4):51-55."
+              },
+              {
+                "ref-fulltext": "Liu, F., Feng, W., Xiong, Z., et al. Impact performance of new prestressed high-performance concrete pipe piles manufactured with an environmentally friendly technique. J. Clean. Prod. 231 (2019), 683–697.",
+                "@reference-instance-id": "OB2BibRecID-947078675-d7c16398484b5210a7dd45b7c2229457-4",
+                "@id": "4",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Impact performance of new prestressed high-performance concrete pipe piles manufactured with an environmentally friendly technique"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib4",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85067083592",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "231"
+                    },
+                    "pagerange": {
+                      "@first": "683",
+                      "@last": "697"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Feng",
+                        "ce:indexed-name": "Feng W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Xiong",
+                        "ce:indexed-name": "Xiong Z."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "J. Clean. Prod."
+                },
+                "ce:source-text": "Liu F, Feng W, Xiong Z, et al. Impact performance of new prestressed high-performance concrete pipe piles manufactured with an environmentally friendly technique. Journal of Cleaner Production, 2019, 231:683-697."
+              },
+              {
+                "ref-fulltext": "Liu, Z., Bu, L., Wang, Z., et al. Durability and microstructure of steam cured and autoclaved PHC pipe piles. Construct. Build. Mater. 209 (2019), 679–689.",
+                "@reference-instance-id": "OB2BibRecID-947078675-263015313ebe3fefd25c7cbf2fea967e-5",
+                "@id": "5",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Durability and microstructure of steam cured and autoclaved PHC pipe piles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib5",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85063036827",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "209"
+                    },
+                    "pagerange": {
+                      "@first": "679",
+                      "@last": "689"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Bu",
+                        "ce:indexed-name": "Bu L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang Z."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Construct. Build. Mater."
+                },
+                "ce:source-text": "Liu Z, Bu L, Wang Z, et al. Durability and microstructure of steam cured and autoclaved PHC pipe piles. Construction and Building Materials, 2019, 209: 679-689."
+              },
+              {
+                "ref-fulltext": "Li, G., Gao, X., Effects of secondary water curing on the long-term strength and durability of concrete after steam-autoclave curing. J. Southeast Univ. 34:4 (2018), 488–494.",
+                "@reference-instance-id": "OB2BibRecID-947078675-2b2ad202462f04d351a1165645e796a6-6",
+                "@id": "6",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effects of secondary water curing on the long-term strength and durability of concrete after steam-autoclave curing"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib6",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85062850007",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "34",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "488",
+                      "@last": "494"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Gao",
+                        "ce:indexed-name": "Gao X."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Southeast Univ."
+                },
+                "ce:source-text": "Li G, Gao X. Effects of secondary water curing on the long-term strength and durability of concrete after steam-autoclave curing. Journal of Southeast University (English Edition), 2018, 34(4):488-494."
+              },
+              {
+                "ref-fulltext": "Hamada, H., Alattar, A., Tayeh, B., et al. Influence of different curing methods on the compressive strength of ultra-high-performance concrete: a comprehensive review. Case Stud. Constr. Mater., 17, 2022, e01390.",
+                "@reference-instance-id": "OB2BibRecID-947078675-d4290bffc0591fe0eefebecdaf7a8f0e-7",
+                "@id": "7",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Influence of different curing methods on the compressive strength of ultra-high-performance concrete: a comprehensive review"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib7",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "e01390",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85136549630",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "17"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Hamada",
+                        "ce:indexed-name": "Hamada H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Alattar",
+                        "ce:indexed-name": "Alattar A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Tayeh",
+                        "ce:indexed-name": "Tayeh B."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Case Stud. Constr. Mater."
+                },
+                "ce:source-text": "Hamada H, Alattar A, Tayeh B, et al. Influence of different curing methods on the compressive strength of ultra-high-performance concrete: A comprehensive review. Case Studies in Construction Materials, 2022, 17, e01390."
+              },
+              {
+                "ref-fulltext": "Yan, Z., Lu, Y., Zhong, Y., et al. Concrete durability of PHC pipe pile. China Concrete Cement Products(6), 2008, 26–29.",
+                "@reference-instance-id": "OB2BibRecID-947078675-4fb89d3b3339fa0fce42409ac9e70894-8",
+                "@id": "8",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2008"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Concrete durability of PHC pipe pile"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib8",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "79955723465",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "6"
+                    },
+                    "pagerange": {
+                      "@first": "26",
+                      "@last": "29"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Yan",
+                        "ce:indexed-name": "Yan Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Lu",
+                        "ce:indexed-name": "Lu Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhong",
+                        "ce:indexed-name": "Zhong Y."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "China Concrete Cement Products"
+                },
+                "ce:source-text": "Yan Z, Lu Y, Zhong Y, et al. Concrete durability of PHC pipe pile. China Concrete and Cement Products, 2008, (6): 26-29."
+              },
+              {
+                "ref-fulltext": "Tang, M., Hu, H., Yang, Y., et al. Study on the durability of autoclaved PHC pipe piles in coastal areas. China Concrete Cement Products(7), 2014, 33–36.",
+                "@reference-instance-id": "OB2BibRecID-947078675-cec700d7a122443a50536dca7be75496-9",
+                "@id": "9",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Study on the durability of autoclaved PHC pipe piles in coastal areas"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib9",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85150885477",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "7"
+                    },
+                    "pagerange": {
+                      "@first": "33",
+                      "@last": "36"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Tang",
+                        "ce:indexed-name": "Tang M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Hu",
+                        "ce:indexed-name": "Hu H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang Y."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "China Concrete Cement Products"
+                },
+                "ce:source-text": "Tang M, Hu H, Yang Y, et al. Study on the durability of autoclaved PHC pipe piles in coastal areas. China Concrete and Cement Products, 2014, (7): 33-36."
+              },
+              {
+                "ref-fulltext": "Tan, K.F., Zhu, J.Z., Influences of steam and autoclave curing on the strength and chloride permeability of high strength concrete. Mater. Struct., 50, 2017, 56.",
+                "@reference-instance-id": "OB2BibRecID-947078675-ba2115c8eb2422a2158f1255a36214e6-10",
+                "@id": "10",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Influences of steam and autoclave curing on the strength and chloride permeability of high strength concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib10",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84983482991",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "50"
+                    },
+                    "pagerange": {
+                      "@first": "56"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Tan",
+                        "ce:indexed-name": "Tan K.F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhu",
+                        "ce:indexed-name": "Zhu J.Z."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Mater. Struct."
+                },
+                "ce:source-text": "Tan K F, Zhu J Z. Influences of steam and autoclave curing on the strength and chloride permeability of high strength concrete. Materials and Structure, 2017, 50:56."
+              },
+              {
+                "ref-fulltext": "Li, J., Li, L., Chen, H., et al. Advances in concrete pile durability in corrosive environment. J. Harbin Inst. Technol. 49:12 (2017), 1–15.",
+                "@reference-instance-id": "OB2BibRecID-947078675-7eb1c8a21cefcb31d4284ac4ad08f95e-11",
+                "@id": "11",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Advances in concrete pile durability in corrosive environment"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib11",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85042857048",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "49",
+                      "@issue": "12"
+                    },
+                    "pagerange": {
+                      "@first": "1",
+                      "@last": "15"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen H."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "J. Harbin Inst. Technol."
+                },
+                "ce:source-text": "Li J, Li L, Chen H, et al. Advances in concrete pile durability in corrosive environment. Journal of Harbin Institute of Technology, 2017, 49(12):1-15."
+              },
+              {
+                "ref-fulltext": "Zhang, B., Xin, Q., Damage mechanism of prestressed concrete pipe pile induced by radial frost heave in cold regions. J. Liaoning Tech. Univ. 38:5 (2019), 409–415.",
+                "@reference-instance-id": "OB2BibRecID-947078675-c44ff0e7c1683692af7ff80860b9c057-12",
+                "@id": "12",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Damage mechanism of prestressed concrete pipe pile induced by radial frost heave in cold regions"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib12",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85071128632",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "38",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "409",
+                      "@last": "415"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Xin",
+                        "ce:indexed-name": "Xin Q."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Liaoning Tech. Univ."
+                },
+                "ce:source-text": "Zhang B, Xin Q. Damage mechanism of prestressed concrete pipe pile induced by radial frost heave in cold regions. Journal of Liaoning Technical University (Natural Science), 2019, 38(5):409-415."
+              },
+              {
+                "ref-fulltext": "Wu, Z., Pipe pile with pressure steam and non-pressure steam early strength and high pressure concrete. China Concrete Cement Products(1), 1995, 21–23.",
+                "@reference-instance-id": "OB2BibRecID-947078675-c6b67263491469bb2fa23956d823c27e-13",
+                "@id": "13",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1995"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Pipe pile with pressure steam and non-pressure steam early strength and high pressure concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib13",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84907558353",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "21",
+                      "@last": "23"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu Z."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "China Concrete Cement Products"
+                },
+                "ce:source-text": "Wu Z. Pipe pile with pressure steam and non-pressure steam early strength and high pressure concrete. China Concrete and Cement Products, 1995, (1): 21-23."
+              },
+              {
+                "ref-fulltext": "Jiang, Y., Liu, Z., Liu, H., et al. Analysis and treatment of PHC pipe pile. Concrete 8 (2013), 120–126.",
+                "@reference-instance-id": "OB2BibRecID-947078675-64dced3ef83772ed1e866b10a813f796-14",
+                "@id": "14",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Analysis and treatment of PHC pipe pile"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib14",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84901713803",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "8"
+                    },
+                    "pagerange": {
+                      "@first": "120",
+                      "@last": "126"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Jiang",
+                        "ce:indexed-name": "Jiang Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu H."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Concrete"
+                },
+                "ce:source-text": "Jiang Y, Liu Z, Liu H, et al. Analysis and treatment of PHC pipe pile. Concrete, 2013, 8:120-126"
+              },
+              {
+                "ref-fulltext": "Yan, Z., The maintenance process of steaming-autoclaving of PHC pipe pile. China Concrete Cement Products(3), 2015, 32–34.",
+                "@reference-instance-id": "OB2BibRecID-947078675-56156dc785a04792323468c895d0f21a-15",
+                "@id": "15",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The maintenance process of steaming-autoclaving of PHC pipe pile"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib15",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85150937320",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "32",
+                      "@last": "34"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Yan",
+                        "ce:indexed-name": "Yan Z."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "China Concrete Cement Products"
+                },
+                "ce:source-text": "Yan Z. The maintenance process of steaming-autoclaving of PHC pipe pile. China Concrete and Cement Products, 2015, (3): 32-34."
+              },
+              {
+                "ref-fulltext": "Aldea, C.M., Young, F., Wang, K., et al. Effects of curing conditions on properties of concrete using slag replacement. Construct. Build. Mater. 30 (2000), 465–472.",
+                "@reference-instance-id": "OB2BibRecID-947078675-70ffa3fbbe17d99ec950c529d2ebe839-16",
+                "@id": "16",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2000"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effects of curing conditions on properties of concrete using slag replacement"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib16",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0033714608",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "30"
+                    },
+                    "pagerange": {
+                      "@first": "465",
+                      "@last": "472"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Aldea",
+                        "ce:indexed-name": "Aldea C.M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Young",
+                        "ce:indexed-name": "Young F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang K."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Construct. Build. Mater."
+                },
+                "ce:source-text": "Aldea CM, Young F, Wang K, et al. Effects of curing conditions on properties of concrete using slag replacement. Construction and Building Materials, 2000, 30: 465-472."
+              },
+              {
+                "ref-fulltext": "Li, G., Zhuang, Z., Lv, Y., et al. Enhancing carbonation and chloride resistance of autoclaved concrete by incorporating nano-CaCO3. Nanotechnol. Rev. 9 (2020), 998–1008.",
+                "@reference-instance-id": "OB2BibRecID-947078675-39d497c62455b8a9a67d754d70778c89-17",
+                "@id": "17",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Enhancing carbonation and chloride resistance of autoclaved concrete by incorporating nano-CaCO3"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib17",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85095709930",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "9"
+                    },
+                    "pagerange": {
+                      "@first": "998",
+                      "@last": "1008"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhuang",
+                        "ce:indexed-name": "Zhuang Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Lv",
+                        "ce:indexed-name": "Lv Y."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Nanotechnol. Rev."
+                },
+                "ce:source-text": "Li G, Zhuang Z, Lv Y, et al. Enhancing carbonation and chloride resistance of autoclaved concrete by incorporating nano-CaCO3. Nanotechnology Reviews, 2020; 9: 998-1008."
+              },
+              {
+                "ref-fulltext": "Li, G., Zhou, J., Yue, J., et al. Effects of NS and secondary water curing on the carbonation and chloride resistance of autoclaved concrete. Construct. Build. Mater.(235), 2020, 117465.",
+                "@reference-instance-id": "OB2BibRecID-947078675-4a4f12115c6c925f3729bf98d2b17e4c-18",
+                "@id": "18",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effects of NS and secondary water curing on the carbonation and chloride resistance of autoclaved concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib18",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "117465",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85074687441",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "235"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Yue",
+                        "ce:indexed-name": "Yue J."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Construct. Build. Mater."
+                },
+                "ce:source-text": "Li G, Zhou J, Yue J, et al. Effects of NS and secondary water curing on the carbonation and chloride resistance of autoclaved concrete. Construction and Building Materials, 2020, (235), 117465."
+              },
+              {
+                "ref-fulltext": "Wang, D., Tian, W., Wang, C., et al. Research on frost resistance of Raymond cylinder pile and PHC pile. China Harb. Eng.(6), 2012, 42–45.",
+                "@reference-instance-id": "OB2BibRecID-947078675-4e19badb7cf4694d0ccf4150a09731f5-19",
+                "@id": "19",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Research on frost resistance of Raymond cylinder pile and PHC pile"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib19",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85150931004",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "6"
+                    },
+                    "pagerange": {
+                      "@first": "42",
+                      "@last": "45"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang D."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Tian",
+                        "ce:indexed-name": "Tian W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang C."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "China Harb. Eng."
+                },
+                "ce:source-text": "Wang D, Tian W, Wang C, et al. Research on frost resistance of Raymond cylinder pile and PHC pile. China Harbour Engineering, 2012, (6): 42-45."
+              },
+              {
+                "ref-fulltext": "He, Y., Li, L., Liang, B., et al. Study on durability property of PHC pipe pile concrete. China Concrete Cement Products(9), 2016, 29–32.",
+                "@reference-instance-id": "OB2BibRecID-947078675-0e92680a4cef803c96611c6276385d55-20",
+                "@id": "20",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Study on durability property of PHC pipe pile concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib20",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85150921680",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "9"
+                    },
+                    "pagerange": {
+                      "@first": "29",
+                      "@last": "32"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "He",
+                        "ce:indexed-name": "He Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Liang",
+                        "ce:indexed-name": "Liang B."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "China Concrete Cement Products"
+                },
+                "ce:source-text": "He Y, Li L, Liang B, et al. Study on durability property of PHC pipe pile concrete. China Concrete and Cement Products, 2016, (9): 29-32."
+              },
+              {
+                "ref-fulltext": "Yu, H., Sun, W., Yan, L., et al. Research on freezing-thawing durability of air-entrained concrete exposed to salt lakes. J. Wuhan Univ. Technol. 26:3 (2004), 15–18.",
+                "@reference-instance-id": "OB2BibRecID-947078675-52cd0ea471c9d6536a7198af6bde6e83-21",
+                "@id": "21",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2004"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Research on freezing-thawing durability of air-entrained concrete exposed to salt lakes"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib21",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "2942692014",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "26",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "15",
+                      "@last": "18"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Sun",
+                        "ce:indexed-name": "Sun W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Yan",
+                        "ce:indexed-name": "Yan L."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "J. Wuhan Univ. Technol."
+                },
+                "ce:source-text": "Yu H, Sun W, Yan L, et al. Research on freezing-thawing durability of air-entrained concrete exposed to salt lakes. Journal of Wuhan University of Technology, 2004, 26(3):15-18."
+              },
+              {
+                "ref-fulltext": "Yue, Y., Zhou, Y., Xing, F., et al. An industrial applicable method to improve the properties of recycled aggregate concrete by incorporating nano-silica and micro-CaCO3. J. Clean. Prod., 259, 2020, 120920.",
+                "@reference-instance-id": "OB2BibRecID-947078675-11defd21fbb4b17950e1f0002b4958af-22",
+                "@id": "22",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "An industrial applicable method to improve the properties of recycled aggregate concrete by incorporating nano-silica and micro-CaCO3"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib22",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "120920",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85081001890",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "259"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Yue",
+                        "ce:indexed-name": "Yue Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Xing",
+                        "ce:indexed-name": "Xing F."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "J. Clean. Prod."
+                },
+                "ce:source-text": "Yue Y, Zhou Y, Xing F, et al. An industrial applicable method to improve the properties of recycled aggregate concrete by incorporating nano-silica and micro-CaCO3. Journal of Cleaner Production, 2020, 259: 120920."
+              },
+              {
+                "ref-fulltext": "Shaikh, F.U.A., Supit, S.W.M., Mechanical and durability properties of high volume fly ash (HVFA) concrete containing calcium carbonate (CaCO3) nanoparticles. Construct. Build. Mater. 70 (2014), 309–321.",
+                "@reference-instance-id": "OB2BibRecID-947078675-fdc7f8b07044eac141a30cd976d50ac3-23",
+                "@id": "23",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Mechanical and durability properties of high volume fly ash (HVFA) concrete containing calcium carbonate (CaCO3) nanoparticles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib23",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84906534232",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "70"
+                    },
+                    "pagerange": {
+                      "@first": "309",
+                      "@last": "321"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.U.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Shaikh",
+                        "ce:indexed-name": "Shaikh F.U.A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.W.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Supit",
+                        "ce:indexed-name": "Supit S.W.M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Construct. Build. Mater."
+                },
+                "ce:source-text": "Shaikh FUA, Supit SWM. Mechanical and durability properties of high volume fly ash (HVFA) concrete containing calcium carbonate (CaCO3) nanoparticles. Construction and Building Materials, 2014, 70:309-321."
+              },
+              {
+                "ref-fulltext": "Behfarnia, K., Salemi, N., The effects of nano-silica and nano-alumina on frost resistance of normal concrete. Construct. Build. Mater. 48 (2013), 580–584.",
+                "@reference-instance-id": "OB2BibRecID-947078675-519851408b564987c7cd9f1f769d2ca5-24",
+                "@id": "24",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The effects of nano-silica and nano-alumina on frost resistance of normal concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib24",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84882379927",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "48"
+                    },
+                    "pagerange": {
+                      "@first": "580",
+                      "@last": "584"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Behfarnia",
+                        "ce:indexed-name": "Behfarnia K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Salemi",
+                        "ce:indexed-name": "Salemi N."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Construct. Build. Mater."
+                },
+                "ce:source-text": "Behfarnia K, Salemi N. The effects of nano-silica and nano-alumina on frost resistance of normal concrete. Construction and Building Materials, 2013, 48: 580-584."
+              },
+              {
+                "ref-fulltext": "Fan, Y., Zhang, S., Wang, Q., et al. Effects of nano-kaolinite clay on the freeze–thaw resistance of concrete. Cement Concr. Compos. 62 (2015), 1–12.",
+                "@reference-instance-id": "OB2BibRecID-947078675-9e8f2f9f6488945c146ceee68845a707-25",
+                "@id": "25",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effects of nano-kaolinite clay on the freeze–thaw resistance of concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib25",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84930632381",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "62"
+                    },
+                    "pagerange": {
+                      "@first": "1",
+                      "@last": "12"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Fan",
+                        "ce:indexed-name": "Fan Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang Q."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Cement Concr. Compos."
+                },
+                "ce:source-text": "Fan Y, Zhang S, Wang Q, et al. Effects of nano-kaolinite clay on the freeze-thaw resistance of concrete. Cement & Concrete Composites, 2015, 62:1-12."
+              },
+              {
+                "ref-fulltext": "Massana, J., Reyes, E., Bernal, J., et al. Influence of nano- and micro-silica additions on the durability of a high-performance self-compacting concrete. Construct. Build. Mater. 165 (2018), 93–103.",
+                "@reference-instance-id": "OB2BibRecID-947078675-ef1d0c4725e230959892b49032f812ef-26",
+                "@id": "26",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Influence of nano- and micro-silica additions on the durability of a high-performance self-compacting concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib26",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85044866455",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "165"
+                    },
+                    "pagerange": {
+                      "@first": "93",
+                      "@last": "103"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Massana",
+                        "ce:indexed-name": "Massana J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Reyes",
+                        "ce:indexed-name": "Reyes E."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Bernal",
+                        "ce:indexed-name": "Bernal J."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Construct. Build. Mater."
+                },
+                "ce:source-text": "Massana J, Reyes E, Bernal J, et al. Influence of nano- and micro-silica additions on the durability of a high-performance self-compacting concrete. Construction and Building Materials, 2018, 165:93-103."
+              },
+              {
+                "ref-fulltext": "He, R., Yang, Z., Gan, V.J.L., et al. Mechanism of nano-silica to enhance the robustness and durability of concrete in low air pressure for sustainable civil infrastructures. J. Clean. Prod., 321, 2021, 128783.",
+                "@reference-instance-id": "OB2BibRecID-947078675-72404486e114126ff157be7801ef0209-27",
+                "@id": "27",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Mechanism of nano-silica to enhance the robustness and durability of concrete in low air pressure for sustainable civil infrastructures"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib27",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "128783",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85114700225",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "321"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "He",
+                        "ce:indexed-name": "He R."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "V.J.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Gan",
+                        "ce:indexed-name": "Gan V.J.L."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "J. Clean. Prod."
+                },
+                "ce:source-text": "He R, Yang Z, Gan VJL, et al. Mechanism of nano-silica to enhance the robustness and durability of concrete in low air pressure for sustainable civil infrastructures. Journal of Cleaner Production, 2021, 321: 128783."
+              },
+              {
+                "ref-fulltext": "Li, L., Gong, W., Li, J., Service life of prestressed high-strength concrete pile in marine environment considering effects of concrete stratification and temperature. Construct. Build. Mater., 253, 2020, 119233.",
+                "@reference-instance-id": "OB2BibRecID-947078675-86e100f68099ccbd54a06c1774c4c3cb-28",
+                "@id": "28",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Service life of prestressed high-strength concrete pile in marine environment considering effects of concrete stratification and temperature"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib28",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "119233",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85083570205",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "253"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Gong",
+                        "ce:indexed-name": "Gong W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Construct. Build. Mater."
+                },
+                "ce:source-text": "Li L, Gong W, Li J. Service life of prestressed high-strength concrete pile in marine environment considering effects of concrete stratification and temperature. Construction and Building Materials, 2020, 253:119233."
+              },
+              {
+                "ref-fulltext": "GB/T50081—2019. Standard for Test Methods of Concrete Physical and Mechanical Properties. 2019, China Architecture & Building Press, Beijing.",
+                "@reference-instance-id": "OB2BibRecID-947078675-dd14eed2d920fbef60bdbdc692aebef5-29",
+                "@id": "29",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Standard for Test Methods of Concrete Physical and Mechanical Properties"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib29",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85079626569",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "China Architecture & Building Press Beijing",
+                  "ref-authors": {
+                    "collaboration": {
+                      "@seq": "1",
+                      "ce:text": "GB/T50081—2019",
+                      "ce:indexed-name": "GB/T50081-2019"
+                    }
+                  }
+                },
+                "ce:source-text": "GB/T50081-2019 Standard for test methods of concrete physical and mechanical properties. Beijing: China Architecture & Building Press, 2019."
+              },
+              {
+                "ref-fulltext": "GB/T50082—2009. Standard for Test Methods of Long-Term Performance and Durability of Ordinary Concrete. 2009, China Architecture & Building Press, Beijing.",
+                "@reference-instance-id": "OB2BibRecID-947078675-659af75c3cf5acf08470f73882f53778-30",
+                "@id": "30",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Standard for Test Methods of Long-Term Performance and Durability of Ordinary Concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib30",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "79956160082",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "China Architecture & Building Press Beijing",
+                  "ref-authors": {
+                    "collaboration": {
+                      "@seq": "1",
+                      "ce:text": "GB/T50082—2009",
+                      "ce:indexed-name": "GB/T50082-2009"
+                    }
+                  }
+                },
+                "ce:source-text": "GB/T50082-2009 Standard for test methods of long-term performance and durability of ordinary concrete. Beijing: China Architecture & Building Press, 2009."
+              },
+              {
+                "ref-fulltext": "Li, G., Fan, C., Lv, Y., et al. Effect of hydrophobic treatments on improving the salt frost resistance of concrete. Materials, 13, 2020, 5361.",
+                "@reference-instance-id": "OB2BibRecID-947078675-d590f3c6965b944f9f9c0b91bfa8d8a5-31",
+                "@id": "31",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of hydrophobic treatments on improving the salt frost resistance of concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib31",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85096717668",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "13"
+                    },
+                    "pagerange": {
+                      "@first": "5361"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Fan",
+                        "ce:indexed-name": "Fan C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Lv",
+                        "ce:indexed-name": "Lv Y."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Materials"
+                },
+                "ce:source-text": "Li G, Fan C, Lv Y, et al. Effect of hydrophobic treatments on improving the salt frost resistance of concrete. Materials, 2020, 13, 5361."
+              },
+              {
+                "ref-fulltext": "Wei, J., Han, J., Wang, S., et al. Applications of NMR probing into cement-based materials. Concrete 1 (2015), 48–53.",
+                "@reference-instance-id": "OB2BibRecID-947078675-21afd4a0bed452155dad5edb3e88d56d-32",
+                "@id": "32",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Applications of NMR probing into cement-based materials"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib32",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85150885149",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "1"
+                    },
+                    "pagerange": {
+                      "@first": "48",
+                      "@last": "53"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Wei",
+                        "ce:indexed-name": "Wei J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Han",
+                        "ce:indexed-name": "Han J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang S."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Concrete"
+                },
+                "ce:source-text": "Wei J, Han J, Wang S, et al. Applications of NMR probing into cement-based materials. Concrete, 2015, 1:48-53."
+              },
+              {
+                "ref-fulltext": "Li, J., Zhou, K., Zhang, Y., et al. Experimental study of rock porous structure damage characteristics under condition of freezing-thawing cycles based on nuclear magnetic resonance technique. Chin. J. Rock Mech. Eng. 31:6 (2012), 1208–1214.",
+                "@reference-instance-id": "OB2BibRecID-947078675-27482b9abf2528623483c37c2a4f06af-33",
+                "@id": "33",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental study of rock porous structure damage characteristics under condition of freezing-thawing cycles based on nuclear magnetic resonance technique"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib33",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84866353002",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "31",
+                      "@issue": "6"
+                    },
+                    "pagerange": {
+                      "@first": "1208",
+                      "@last": "1214"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou K."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Y."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Chin. J. Rock Mech. Eng."
+                },
+                "ce:source-text": "Li J, Zhou K, Zhang Y, et al. Experimental study of rock porous structure damage characteristics under condition of freezing-thawing cycles based on nuclear magnetic resonance technique. Chinese Journal of Rock Mechanics and Engineering, 2012, 31(6):1208-1214."
+              },
+              {
+                "ref-fulltext": "Wang, X., Shen, X., Wang, H., et al. Nuclear magnetic resonance analysis of freeze-thaw damage in natural pumice concrete. Mater. Construcción, 66(322), 2016, e087.",
+                "@reference-instance-id": "OB2BibRecID-947078675-c7ace7437afadd02fb97872f0922ac8f-34",
+                "@id": "34",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Nuclear magnetic resonance analysis of freeze-thaw damage in natural pumice concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib34",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84971393113",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "66",
+                      "@issue": "322"
+                    },
+                    "pagerange": {
+                      "@first": "e087"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Shen",
+                        "ce:indexed-name": "Shen X."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang H."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Mater. Construcción"
+                },
+                "ce:source-text": "Wang X, Shen X, Wang H, et al. Nuclear magnetic resonance analysis of freeze-thaw damage in natural pumice concrete. Materiales de Construccion, 2016, 66(322): e087."
+              },
+              {
+                "ref-fulltext": "Tan, K., Liu, T., Effect of high temperature curing on compressive strength of concrete. J. Build. Mater.(4), 2006, 473–476.",
+                "@reference-instance-id": "OB2BibRecID-947078675-2a0b62b4a55deaedaaf71d995784def4-35",
+                "@id": "35",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2006"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of high temperature curing on compressive strength of concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib35",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "33749463133",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "473",
+                      "@last": "476"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Tan",
+                        "ce:indexed-name": "Tan K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu T."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Build. Mater."
+                },
+                "ce:source-text": "Tan K, Liu T. Effect of high temperature curing on compressive strength of concrete. Journal of Building Materials, 2006, (4): 473-476."
+              },
+              {
+                "ref-fulltext": "GB13476—2009. Pretensioned Spun Concrete Piles. 2009, Standards Press of China, Beijing.",
+                "@reference-instance-id": "OB2BibRecID-947078675-dbf1d9337788eeeee209905bdb95b9f1-36",
+                "@id": "36",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Pretensioned Spun Concrete Piles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib36",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85048530032",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Standards Press of China Beijing",
+                  "ref-authors": {
+                    "collaboration": {
+                      "@seq": "1",
+                      "ce:text": "GB13476—2009",
+                      "ce:indexed-name": "GB13476-2009"
+                    }
+                  }
+                },
+                "ce:source-text": "GB13476-2009. Pretensioned spun concrete piles. Beijing: Standards Press of China, 2009."
+              },
+              {
+                "ref-fulltext": "Yang, Q., Zhang, S., Huang, S., He, Y., Effect of ground quartz sand on properties of high-strength concrete in the steam-autoclaved curing. Cement Concr. Res. 30:12 (2000), 1993–1998.",
+                "@reference-instance-id": "OB2BibRecID-947078675-4f6f8dda0cade263402c5ddd542ef1ec-37",
+                "@id": "37",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2000"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of ground quartz sand on properties of high-strength concrete in the steam-autoclaved curing"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib37",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0034428897",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "30",
+                      "@issue": "12"
+                    },
+                    "pagerange": {
+                      "@first": "1993",
+                      "@last": "1998"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang Q."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang S."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "He",
+                        "ce:indexed-name": "He Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cement Concr. Res."
+                },
+                "ce:source-text": "Yang Q, Zhang S, Huang S, He Y. Effect of ground quartz sand on properties of high-strength concrete in the steam-autoclaved curing. Cement and Concrete Research, 2000, 30(12):1993-1998."
+              },
+              {
+                "ref-fulltext": "El-Hawary, M., Al-Sulily, A., Internal curing of recycled aggregates concrete. J. Clean. Prod., 275, 2020, 122911.",
+                "@reference-instance-id": "OB2BibRecID-947078675-52a06893b4ad707dc8394347236ccee2-38",
+                "@id": "38",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Internal curing of recycled aggregates concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib38",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "122911",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85088667739",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "275"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "El-Hawary",
+                        "ce:indexed-name": "El-Hawary M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Al-Sulily",
+                        "ce:indexed-name": "Al-Sulily A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Clean. Prod."
+                },
+                "ce:source-text": "El-Hawary M, Al-Sulily A. Internal curing of recycled aggregates concrete. Journal of Cleaner Production, 2020, 275: 122911."
+              },
+              {
+                "ref-fulltext": "He, Z., Long, G., Xie, Y., Influence of subsequent curing on water sorptivity and pore structure of steam-cured concrete. J. Cent. S. Univ. 19 (2012), 1155–1162.",
+                "@reference-instance-id": "OB2BibRecID-947078675-dcc7d516b2201fa4fa50358540650f00-39",
+                "@id": "39",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Influence of subsequent curing on water sorptivity and pore structure of steam-cured concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib39",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84862667968",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "19"
+                    },
+                    "pagerange": {
+                      "@first": "1155",
+                      "@last": "1162"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "He",
+                        "ce:indexed-name": "He Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Long",
+                        "ce:indexed-name": "Long G."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Xie",
+                        "ce:indexed-name": "Xie Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Cent. S. Univ."
+                },
+                "ce:source-text": "He Z, Long G, Xie Y. Influence of subsequent curing on water sorptivity and pore structure of steam-cured concrete. Journal of Central South University, 2012, 19: 1155-1162."
+              },
+              {
+                "ref-fulltext": "Xuan, D., Shu, Z., Cao, B., Investigation on thermal deformation divergence between components of cement-basted materials. J. Wuhan Univ. Technol. 29:1 (2007), 30–32.",
+                "@reference-instance-id": "OB2BibRecID-947078675-3790b9e0f93aef2ad731c869326832a7-40",
+                "@id": "40",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Investigation on thermal deformation divergence between components of cement-basted materials"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib40",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "33947534575",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "29",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "30",
+                      "@last": "32"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Xuan",
+                        "ce:indexed-name": "Xuan D."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Shu",
+                        "ce:indexed-name": "Shu Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Cao",
+                        "ce:indexed-name": "Cao B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Wuhan Univ. Technol."
+                },
+                "ce:source-text": "Xuan D, Shu Z, Cao B. Investigation on thermal deformation divergence between components of cement-basted materials. Journal of Wuhan University of Technology, 2007, 29(1):30-32."
+              },
+              {
+                "ref-fulltext": "Li, J., Peng, X., Deng, Z., et al. Quantitative design on the frost-resistance of concrete. Concrete(12), 2000, 61–65.",
+                "@reference-instance-id": "OB2BibRecID-947078675-723b2f1391e8f33f7fcbd8a9ec4e1b73-41",
+                "@id": "41",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2000"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Quantitative design on the frost-resistance of concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib41",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "34047254619",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "12"
+                    },
+                    "pagerange": {
+                      "@first": "61",
+                      "@last": "65"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Peng",
+                        "ce:indexed-name": "Peng X."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Deng",
+                        "ce:indexed-name": "Deng Z."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Concrete"
+                },
+                "ce:source-text": "Li J, Peng X, Deng Z, et al. Quantitative design on the frost-resistance of concrete. Concrete, 2000, (12): 61-65."
+              },
+              {
+                "ref-fulltext": "JTS 202-2-2011. Quality Control Standard of Concrete for Port and Waterway Engineering. 2011, China Communication Press, Beijing.",
+                "@reference-instance-id": "OB2BibRecID-947078675-2eb2c979c51197258fe554976e421fb1-42",
+                "@id": "42",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Quality Control Standard of Concrete for Port and Waterway Engineering"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib42",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84907393869",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "China Communication Press Beijing",
+                  "ref-authors": {
+                    "collaboration": {
+                      "@seq": "1",
+                      "ce:text": "JTS 202-2-2011",
+                      "ce:indexed-name": "JTS 202-2-2011"
+                    }
+                  }
+                },
+                "ce:source-text": "JTS 202-2-2011. Quality control standard of concrete for port and waterway engineering. Beijing: China Communication Press, 2011."
+              },
+              {
+                "ref-fulltext": "Zhao, Z., Qi, T., Zhou, W., et al. A review on the properties, reinforcing effects, and commercialization of nanomaterials for cement-based materials. Nanotechnol. Rev. 9 (2020), 303–322.",
+                "@reference-instance-id": "OB2BibRecID-947078675-89899d1b3a02b6aae2bc9e20c3b564ca-43",
+                "@id": "43",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A review on the properties, reinforcing effects, and commercialization of nanomaterials for cement-based materials"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib43",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85085544432",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "9"
+                    },
+                    "pagerange": {
+                      "@first": "303",
+                      "@last": "322"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Qi",
+                        "ce:indexed-name": "Qi T."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou W."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Nanotechnol. Rev."
+                },
+                "ce:source-text": "Zhao Z, Qi T, Zhou W, et al. A review on the properties, reinforcing effects, and commercialization of nanomaterials for cement-based materials. Nanotechnology Reviews, 2020, 9: 303-322."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "affiliation": [
+      {
+        "affiliation-city": "Xuzhou",
+        "@id": "60073460",
+        "affilname": "China University of Mining and Technology",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073460",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Zhengzhou",
+        "@id": "60103148",
+        "affilname": "North China University of Water Resources and Electric Power",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60103148",
+        "affiliation-country": "China"
+      }
+    ],
+    "coredata": {
+      "srctype": "j",
+      "eid": "2-s2.0-85150891681",
+      "dc:description": "Autoclave curing will cause severe deterioration on the frost resistance of pre-stressed high-strength concrete (PHC) pipe pile. To clarify the frost resistance degradation mechanism of autoclaved PHC pipe pile concrete and obtain effective improvement measures, nano-SiO2 (NS) with cement replacement ratios of 0.5%, 1.0%, and 1.5% were adopted, and concrete specimens were fabricated and subjected to standard curing, autoclave curing, and autoclave curing + one week of subsequent water curing, respectively. Then, a rapid freeze-thaw cycle experiment was utilized to test their frost resistance. In addition, the micro-morphology and pore structure of different concrete were studied through scanning electron microscopy and nuclear magnetic resonance. The results indicate that the mechanisms of the degradation of autoclaved concrete in frost resistance are the increase of concrete porosity, harmful pore ratio, and concrete brittleness. Compared with standard curing, autoclave curing can result in 68.5% loss in the frost resistance of concrete. Through playing the filling and pozzolanic effects, NS can improve the compactness of autoclaved concrete and increase its frost resistance to a certain extent. Subsequent water curing can replenish water into concrete, promote the hydration of the residual unhydrated cementitious materials in concrete, enhance the compactness of concrete, and play a positive role in improving the frost resistance of concrete. The incorporation of 1.0% NS can enhance the frost resistance of autoclaved concrete by 66.6%, while the combination of 1.0% NS incorporation and one-week subsequent water curing can enhance the frost resistance by 89.2%. Exponential function can be used to simulate the frost resistance degradation of the autoclaved PHC pipe pile and predict its service life based on frost resistance.",
+      "prism:coverDate": "2023-06-15",
+      "prism:aggregationType": "Journal",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85150891681",
+      "subtypeDescription": "Article",
+      "dc:creator": {
+        "author": [
+          {
+            "ce:given-name": "Guo",
+            "preferred-name": {
+              "ce:given-name": "Guo",
+              "ce:initials": "G.",
+              "ce:surname": "Li",
+              "ce:indexed-name": "Li G."
+            },
+            "@seq": "1",
+            "ce:initials": "G.",
+            "@_fa": "true",
+            "affiliation": {
+              "@id": "60073460",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073460"
+            },
+            "ce:surname": "Li",
+            "@auid": "7407056579",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7407056579",
+            "ce:indexed-name": "Li G."
+          }
+        ]
+      },
+      "link": [
+        {
+          "@_fa": "true",
+          "@rel": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85150891681"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85150891681&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85150891681&origin=inward"
+        }
+      ],
+      "prism:publicationName": "Journal of Building Engineering",
+      "source-id": "21100389518",
+      "pii": "S2352710223003881",
+      "citedby-count": "23",
+      "prism:volume": "69",
+      "subtype": "ar",
+      "dc:title": "Studies of nano-SiO2 and subsequent water curing on enhancing the frost resistance of autoclaved PHC pipe pile concrete",
+      "openaccess": "0",
+      "openaccessFlag": "false",
+      "prism:doi": "10.1016/j.jobe.2023.106209",
+      "prism:issn": "23527102",
+      "publishercopyright": "© 2023 Elsevier Ltd",
+      "article-number": "106209",
+      "dc:identifier": "SCOPUS_ID:85150891681",
+      "dc:publisher": "Elsevier Ltd"
+    },
+    "idxterms": {
+      "mainterm": [
+        {
+          "$": "Autoclave curing",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Autoclaved concrete",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "High strength concretes",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Nano-SiO 2",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Pile concretes",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Pipe piles",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Pre-stressed",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Pre-stressed high-strength concrete pipe pile",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Resistance degradation",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Subsequent water curing",
+          "@weight": "b",
+          "@candidate": "n"
+        }
+      ]
+    },
+    "language": {
+      "@xml:lang": "eng"
+    },
+    "authkeywords": {
+      "author-keyword": [
+        {
+          "@_fa": "true",
+          "$": "Autoclaved concrete"
+        },
+        {
+          "@_fa": "true",
+          "$": "Frost resistance"
+        },
+        {
+          "@_fa": "true",
+          "$": "Nano-SiO2"
+        },
+        {
+          "@_fa": "true",
+          "$": "PHC pipe Pile"
+        },
+        {
+          "@_fa": "true",
+          "$": "Subsequent water curing"
+        }
+      ]
+    },
+    "subject-areas": {
+      "subject-area": [
+        {
+          "@_fa": "true",
+          "$": "Civil and Structural Engineering",
+          "@code": "2205",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Architecture",
+          "@code": "2216",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Building and Construction",
+          "@code": "2215",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Safety, Risk, Reliability and Quality",
+          "@code": "2213",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Mechanics of Materials",
+          "@code": "2211",
+          "@abbrev": "ENGI"
+        }
+      ]
+    },
+    "authors": {
+      "author": [
+        {
+          "ce:given-name": "Guo",
+          "preferred-name": {
+            "ce:given-name": "Guo",
+            "ce:initials": "G.",
+            "ce:surname": "Li",
+            "ce:indexed-name": "Li G."
+          },
+          "@seq": "1",
+          "ce:initials": "G.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60073460",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073460"
+          },
+          "ce:surname": "Li",
+          "@auid": "7407056579",
+          "author-url": "https://api.elsevier.com/content/author/author_id/7407056579",
+          "ce:indexed-name": "Li G."
+        },
+        {
+          "ce:given-name": "Xianfeng",
+          "preferred-name": {
+            "ce:given-name": "Xianfeng",
+            "ce:initials": "X.",
+            "ce:surname": "Chen",
+            "ce:indexed-name": "Chen X."
+          },
+          "@seq": "2",
+          "ce:initials": "X.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60073460",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073460"
+          },
+          "ce:surname": "Chen",
+          "@auid": "58156918500",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58156918500",
+          "ce:indexed-name": "Chen X."
+        },
+        {
+          "ce:given-name": "Yongsheng",
+          "preferred-name": {
+            "ce:given-name": "Yongsheng",
+            "ce:initials": "Y.",
+            "ce:surname": "Zhang",
+            "ce:indexed-name": "Zhang Y."
+          },
+          "@seq": "3",
+          "ce:initials": "Y.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60073460",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073460"
+          },
+          "ce:surname": "Zhang",
+          "@auid": "58611100000",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58611100000",
+          "ce:indexed-name": "Zhang Y."
+        },
+        {
+          "ce:given-name": "Zheng",
+          "preferred-name": {
+            "ce:given-name": "Zheng",
+            "ce:initials": "Z.",
+            "ce:surname": "Zhuang",
+            "ce:indexed-name": "Zhuang Z."
+          },
+          "@seq": "4",
+          "ce:initials": "Z.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60073460",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073460"
+          },
+          "ce:surname": "Zhuang",
+          "@auid": "57219836079",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57219836079",
+          "ce:indexed-name": "Zhuang Z."
+        },
+        {
+          "ce:given-name": "Yajun",
+          "preferred-name": {
+            "ce:given-name": "Yajun",
+            "ce:initials": "Y.",
+            "ce:surname": "Lv",
+            "ce:indexed-name": "Lv Y."
+          },
+          "@seq": "5",
+          "ce:initials": "Y.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60103148",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60103148"
+          },
+          "ce:surname": "Lv",
+          "@auid": "56734080200",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56734080200",
+          "ce:indexed-name": "Lv Y."
+        }
+      ]
+    }
+  }
+}

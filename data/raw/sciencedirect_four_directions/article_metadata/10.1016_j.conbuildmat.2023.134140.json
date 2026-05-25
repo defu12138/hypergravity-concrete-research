@@ -1,0 +1,4215 @@
+{
+  "abstracts-retrieval-response": {
+    "item": {
+      "ait:process-info": {
+        "ait:status": {
+          "@state": "update",
+          "@type": "core",
+          "@stage": "S300"
+        },
+        "ait:date-delivered": {
+          "@day": "19",
+          "@timestamp": "2025-03-19T23:24:33.000033-04:00",
+          "@year": "2025",
+          "@month": "03"
+        },
+        "ait:date-sort": {
+          "@day": "15",
+          "@year": "2023",
+          "@month": "12"
+        }
+      },
+      "xocs:meta": {
+        "xocs:funding-list": {
+          "@pui-match": "primary",
+          "@has-funding-info": "1",
+          "xocs:funding": [
+            {
+              "xocs:funding-agency-matched-string": "JSPS",
+              "xocs:funding-agency-acronym": "JSPS",
+              "xocs:funding-agency": "Japan Society for the Promotion of Science",
+              "xocs:funding-id": "21K18756",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001691",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1861060/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "JSPS",
+              "xocs:funding-agency-acronym": "JSPS",
+              "xocs:funding-agency": "Japan Society for the Promotion of Science",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001691",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1861060/"
+            }
+          ],
+          "xocs:funding-addon-generated-timestamp": "2023-12-01T06:21:29.754Z",
+          "xocs:funding-text": "This work was supported by JSPS KAKENHI grant number 21K18756 . The authors would like to thank the engineers at the Kawashima Plant of NC East Nippon Concrete Industries Co., LTD.",
+          "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }
+      },
+      "bibrecord": {
+        "head": {
+          "author-group": [
+            {
+              "affiliation": {
+                "country": "Japan",
+                "postal-code": "169-8555",
+                "@afid": "60023462",
+                "@country": "jpn",
+                "city": "Tokyo",
+                "organization": [
+                  {
+                    "$": "Department of Civil and Environmental Engineering"
+                  },
+                  {
+                    "$": "Waseda University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60023462",
+                  "@dptid": "104187652"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-952335651-e0fe7e4875147bee0adb03c06b806278-1",
+                "ce:source-text": "Department of Civil and Environmental Engineering, Waseda University, Tokyo 169–8555, Japan.",
+                "@dptid": "104187652"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Chi",
+                  "preferred-name": {
+                    "ce:given-name": "Chi",
+                    "ce:initials": "C.",
+                    "ce:surname": "Chen",
+                    "ce:indexed-name": "Chen C."
+                  },
+                  "@author-instance-id": "OB2BibRecID-952335651-d5aa0b36961dc7fffc8246e5ab293068-1",
+                  "@seq": "1",
+                  "ce:initials": "C.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Chen",
+                  "@auid": "59639798500",
+                  "@orcid": "0009-0009-6976-9348",
+                  "ce:indexed-name": "Chen C."
+                },
+                {
+                  "ce:given-name": "Mitsuyoshi",
+                  "preferred-name": {
+                    "ce:given-name": "Mitsuyoshi",
+                    "ce:initials": "M.",
+                    "ce:surname": "Akiyama",
+                    "ce:indexed-name": "Akiyama M."
+                  },
+                  "@author-instance-id": "OB2BibRecID-952335651-a1382d92cf99573ce99c8623fafb8aa1-1",
+                  "@seq": "2",
+                  "ce:initials": "M.",
+                  "@date-locked": "2024-01-20T08:18:53.003",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Akiyama",
+                  "@auid": "35784056100",
+                  "@orcid": "0000-0001-9560-2159",
+                  "ce:indexed-name": "Akiyama M."
+                },
+                {
+                  "ce:given-name": "Yuka",
+                  "preferred-name": {
+                    "ce:given-name": "Yuka",
+                    "ce:initials": "Y.",
+                    "ce:surname": "Hosono",
+                    "ce:indexed-name": "Hosono Y."
+                  },
+                  "@author-instance-id": "OB2BibRecID-952335651-03bd207ad82ce0a593eb84c8a2101f98-1",
+                  "@seq": "5",
+                  "ce:initials": "Y.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Hosono",
+                  "@auid": "57226633076",
+                  "ce:indexed-name": "Hosono Y."
+                },
+                {
+                  "ce:given-name": "Yudan",
+                  "preferred-name": {
+                    "ce:given-name": "Yudan",
+                    "ce:initials": "Y.",
+                    "ce:surname": "Lai",
+                    "ce:indexed-name": "Lai Y."
+                  },
+                  "@author-instance-id": "OB2BibRecID-952335651-c4d335247fc2df169eb00c3d5b81d7a9-1",
+                  "@seq": "6",
+                  "ce:initials": "Y.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Lai",
+                  "@auid": "58718067600",
+                  "ce:indexed-name": "Lai Y."
+                },
+                {
+                  "ce:given-name": "Koki",
+                  "preferred-name": {
+                    "ce:given-name": "Koki",
+                    "ce:initials": "K.",
+                    "ce:surname": "Aoki",
+                    "ce:indexed-name": "Aoki K."
+                  },
+                  "@author-instance-id": "OB2BibRecID-952335651-42efeb8753d370a538949a94574495e7-1",
+                  "@seq": "7",
+                  "ce:initials": "K.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Aoki",
+                  "@auid": "57222168699",
+                  "@orcid": "0000-0001-6956-526X",
+                  "ce:indexed-name": "Aoki K."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "Japan",
+                "postal-code": "169-8555",
+                "@afid": "60023462",
+                "@country": "jpn",
+                "city": "Tokyo",
+                "organization": [
+                  {
+                    "$": "Environmental Research Institute"
+                  },
+                  {
+                    "$": "Waseda University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60023462",
+                  "@dptid": "109210707"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-952335651-d471e29abe368c080c67e38be8876d73-1",
+                "ce:source-text": "Environmental Research Institute, Waseda University, Tokyo 169–8555, Japan.",
+                "@dptid": "109210707"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Sopokhem",
+                  "preferred-name": {
+                    "ce:given-name": "Sopokhem",
+                    "ce:initials": "S.",
+                    "ce:surname": "Lim",
+                    "ce:indexed-name": "Lim S."
+                  },
+                  "@author-instance-id": "OB2BibRecID-952335651-8f1478d83afc396950d46c3df1d7c8a3-1",
+                  "@seq": "3",
+                  "ce:initials": "S.",
+                  "@date-locked": "2024-01-20T08:18:53.003",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Lim",
+                  "@auid": "56828511400",
+                  "@orcid": "0000-0002-8262-9958",
+                  "ce:indexed-name": "Lim S."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "Japan",
+                "@afid": "126636139",
+                "@country": "jpn",
+                "organization": [
+                  {
+                    "$": "Nippon Concrete Industries Co."
+                  },
+                  {
+                    "$": "Ltd"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "126636139"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-952335651-28b1a37ddb500bb598c6fa5dd9c4e514-1",
+                "ce:source-text": "Nippon Concrete Industries Co., Ltd."
+              },
+              "author": [
+                {
+                  "ce:given-name": "Soichiro",
+                  "preferred-name": {
+                    "ce:given-name": "Soichiro",
+                    "ce:initials": "S.",
+                    "ce:surname": "Kondo",
+                    "ce:indexed-name": "Kondo S."
+                  },
+                  "@author-instance-id": "OB2BibRecID-952335651-965d22326e3f11c3948756ced4e1fe11-1",
+                  "@seq": "4",
+                  "ce:initials": "S.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Kondo",
+                  "@auid": "58719440300",
+                  "ce:indexed-name": "Kondo S."
+                }
+              ]
+            }
+          ],
+          "citation-title": "Shear performance of centrifugal forming hollow circular SFRC piles: Feasibility study of replacing stirrups with steel fibers",
+          "abstracts": "© 2023 Elsevier LtdThis paper aims to investigate shear performance and develop an equation for shear strength assessment of centrifugal forming hollow circular steel fiber reinforced concrete (HSFRC) piles in a practical manufacturing condition. The centrifugal forming was optimized using concrete mixes with different steel fibers. The shear performance and size effect of HSFRC and conventional hollow circular reinforced concrete (HRC) piles with/without stirrups were investigated. Results of X-ray visualization show that, after centrifugal forming, steel fibers were evenly distributed and reoriented in the circumferential direction of the piles, effectively enhancing shear performance. Even with a low steel fiber content of 0.5%, HSFRC piles achieve equivalent shear performance and less brittle behavior compared to HRC piles with shear reinforcement ratios of 0.27%. This implies that higher steel fiber contents can potentially be used to replace stirrups for a flexural failure. SFRC remarkably inhibited the size effect of HSFRC piles. Moreover, a proposed equation considering fiber orientation can better predict the shear strength of centrifugal forming HSFRC piles compared to existing equations.",
+          "correspondence": {
+            "affiliation": {
+              "country": "Japan",
+              "address-part": "Building 51-16-09, 3-4-1 Okubo, Shinjuku-ku",
+              "postal-code": "169-8555",
+              "@country": "jpn",
+              "city": "Tokyo",
+              "organization": [
+                {
+                  "$": "Department of Civil and Environmental Engineering"
+                },
+                {
+                  "$": "Waseda University"
+                }
+              ],
+              "@affiliation-instance-id": "OB2BibRecID-952335651-81602e7f829b3e9b6bfbcc9e51c907e1-1"
+            },
+            "person": {
+              "ce:given-name": "Mitsuyoshi",
+              "@author-instance-id": "OB2BibRecID-952335651-0ece06fc3529fa81715272225fac1da8-1",
+              "ce:initials": "M.",
+              "ce:surname": "Akiyama",
+              "ce:indexed-name": "Akiyama M."
+            }
+          },
+          "citation-info": {
+            "author-keywords": {
+              "author-keyword": [
+                {
+                  "$": "Centrifugal forming",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Fiber orientation",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "SFRC pile",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Shear performance",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Size effect",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "X-ray image",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                }
+              ]
+            },
+            "citation-type": {
+              "@code": "ar"
+            },
+            "citation-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "abstract-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            }
+          },
+          "source": {
+            "website": {
+              "ce:e-address": {
+                "$": "https://www.journals.elsevier.com/construction-and-building-materials",
+                "@type": "email"
+              }
+            },
+            "translated-sourcetitle": {
+              "$": "Construction and Building Materials",
+              "@xml:lang": "eng"
+            },
+            "volisspag": {
+              "voliss": {
+                "@volume": "409"
+              }
+            },
+            "@type": "j",
+            "sourcetitle": "Construction and Building Materials",
+            "publicationdate": {
+              "month": "12",
+              "year": "2023",
+              "date-text": {
+                "@xfab-added": "true",
+                "$": "15 December 2023"
+              },
+              "day": "15"
+            },
+            "codencode": "CBUME",
+            "sourcetitle-abbrev": "Constr Build Mater",
+            "@country": "gbr",
+            "issn": {
+              "$": "09500618",
+              "@type": "print"
+            },
+            "publicationyear": {
+              "@first": "2023"
+            },
+            "publisher": {
+              "publishername": "Elsevier Ltd"
+            },
+            "article-number": "134140",
+            "@srcid": "24443"
+          },
+          "enhancement": {
+            "classificationgroup": {
+              "classifications": [
+                {
+                  "@type": "CPXCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "408.2",
+                      "classification-description": "Structural Members and Shapes"
+                    },
+                    {
+                      "classification-code": "412",
+                      "classification-description": "Concrete"
+                    },
+                    {
+                      "classification-code": "631.1",
+                      "classification-description": "Fluid Flow, General"
+                    },
+                    {
+                      "classification-code": "802.3",
+                      "classification-description": "Chemical Operations"
+                    },
+                    {
+                      "classification-code": "817.1",
+                      "classification-description": "Polymer Products"
+                    },
+                    {
+                      "classification-code": "819.4",
+                      "classification-description": "Fiber Products"
+                    }
+                  ]
+                },
+                {
+                  "@type": "FLXCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "78.21",
+                      "classification-description": "FLUID MECHANICS"
+                    },
+                    {
+                      "classification-code": "78.23",
+                      "classification-description": "MIXING AND SEPARATION"
+                    },
+                    {
+                      "classification-code": "79.21",
+                      "classification-description": "FLUID MECHANICS"
+                    }
+                  ]
+                },
+                {
+                  "@type": "ASJC",
+                  "classification": [
+                    {
+                      "$": "2205"
+                    },
+                    {
+                      "$": "2215"
+                    },
+                    {
+                      "$": "2500"
+                    }
+                  ]
+                },
+                {
+                  "@type": "SUBJABBR",
+                  "classification": [
+                    {
+                      "$": "ENGI"
+                    },
+                    {
+                      "$": "MATE"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "grantlist": {
+            "@complete": "y",
+            "grant-text": {
+              "$": "This work was supported by JSPS KAKENHI grant number 21K18756. The authors would like to thank the engineers at the Kawashima Plant of NC East Nippon Concrete Industries Co. LTD.",
+              "@xml:lang": "eng"
+            }
+          }
+        },
+        "item-info": {
+          "copyright": {
+            "$": "Copyright 2023 Elsevier B.V., All rights reserved.",
+            "@type": "Elsevier"
+          },
+          "dbcollection": [
+            {
+              "$": "CPX"
+            },
+            {
+              "$": "REAXYSCAR"
+            },
+            {
+              "$": "SCOPUS"
+            },
+            {
+              "$": "Scopusbase"
+            }
+          ],
+          "history": {
+            "date-created": {
+              "@day": "30",
+              "@timestamp": "BST 09:09:18",
+              "@year": "2023",
+              "@month": "11"
+            }
+          },
+          "itemidlist": {
+            "itemid": [
+              {
+                "$": "2028586606",
+                "@idtype": "PUI"
+              },
+              {
+                "$": "952335651",
+                "@idtype": "CAR-ID"
+              },
+              {
+                "$": "20234815131373",
+                "@idtype": "CPX"
+              },
+              {
+                "$": "20233571820",
+                "@idtype": "REAXYSCAR"
+              },
+              {
+                "$": "20234495149",
+                "@idtype": "SCOPUS"
+              },
+              {
+                "$": "85177749881",
+                "@idtype": "SCP"
+              },
+              {
+                "$": "85177749881",
+                "@idtype": "SGR"
+              }
+            ],
+            "ce:pii": "S0950061823038588",
+            "ce:ern": "pii:S0950061823038588",
+            "ce:doi": "10.1016/j.conbuildmat.2023.134140"
+          }
+        },
+        "tail": {
+          "bibliography": {
+            "@refcount": "55",
+            "reference": [
+              {
+                "ref-fulltext": "Hartman, J.J., Castelli, R.J., Malhotra, S., Design and installation of concrete cylinder piles, 2007, 1–14, 10.1061/40902(221)10.",
+                "@reference-instance-id": "OB2BibRecID-952335651-ba8b6e7c0690a4758635336339f713de-1",
+                "@id": "1",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1061/40902(221)10",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib1",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "34548321612",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "1",
+                      "@last": "14"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Hartman",
+                        "ce:indexed-name": "Hartman J.J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Castelli",
+                        "ce:indexed-name": "Castelli R.J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Malhotra",
+                        "ce:indexed-name": "Malhotra S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Design and installation of concrete cylinder piles"
+                },
+                "ce:source-text": "J.J. Hartman, R.J. Castelli, S. Malhotra, Design and installation of concrete cylinder piles, in: 2007: pp. 1–14. https://doi.org/10.1061/40902(221)10."
+              },
+              {
+                "ref-fulltext": "Orientilize, M., Prakoso, W.A., Lase, Y., Nando, C.K., The behaviour of low confinement spun pile to pile cap connection.: Geotech. Geol. Earthq. Eng., 2022, 1176–1184, 10.1007/978-3-031-11898-2_97.",
+                "@reference-instance-id": "OB2BibRecID-952335651-09fb7ffe0a2fac87a60d4cafe5b76514-2",
+                "@id": "2",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The behaviour of low confinement spun pile to pile cap connection"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/978-3-031-11898-2_97",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib2",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85143226090",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "1176",
+                      "@last": "1184"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Orientilize",
+                        "ce:indexed-name": "Orientilize M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Prakoso",
+                        "ce:indexed-name": "Prakoso W.A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Lase",
+                        "ce:indexed-name": "Lase Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "C.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Nando",
+                        "ce:indexed-name": "Nando C.K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": ": Geotech. Geol. Earthq. Eng."
+                },
+                "ce:source-text": "M. Orientilize, W.A. Prakoso, Y. Lase, C.K. Nando, The behaviour of low confinement spun pile to pile cap connection, in: Geotech. Geol. Earthq. Eng., 2022: pp. 1176–1184. https://doi.org/10.1007/978–3-031–11898-2_97."
+              },
+              {
+                "ref-fulltext": "Chen, C., ming Leng, W., Yang, Q., li Dong, J., Xu, F., Ruan, B., Effect of a filter cake on shear behavior of sand-concrete pile interface. J. Cent. South Univ. 29 (2022), 2019–2032, 10.1007/s11771-022-5080-z.",
+                "@reference-instance-id": "OB2BibRecID-952335651-d8dc4748bc3681b28bbce4801e92b02e-3",
+                "@id": "3",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of a filter cake on shear behavior of sand-concrete pile interface"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s11771-022-5080-z",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib3",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85133194192",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "29"
+                    },
+                    "pagerange": {
+                      "@first": "2019",
+                      "@last": "2032"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "ming Leng",
+                        "ce:indexed-name": "ming Leng W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang Q."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "li Dong",
+                        "ce:indexed-name": "li Dong J."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu F."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Ruan",
+                        "ce:indexed-name": "Ruan B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Cent. South Univ."
+                },
+                "ce:source-text": "C. Chen, W. ming Leng, Q. Yang, J. li Dong, F. Xu, B. Ruan, Effect of a filter cake on shear behavior of sand-concrete pile interface, J. Cent. South Univ. 29 (2022) 2019–2032. https://doi.org/10.1007/s11771–022-5080-z."
+              },
+              {
+                "ref-fulltext": "Jensen, U.G., Hoang, L.C., Shear strength of reinforced concrete piers and piles with hollow circular cross section. Struct. Eng. Int. J. Int. Assoc. Bridg. Struct. Eng. 20 (2010), 260–267, 10.2749/101686610792016899.",
+                "@reference-instance-id": "OB2BibRecID-952335651-f1b114e2feb3fb098eaf935d6438745d-4",
+                "@id": "4",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Shear strength of reinforced concrete piers and piles with hollow circular cross section"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.2749/101686610792016899",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib4",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "77955481913",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "20"
+                    },
+                    "pagerange": {
+                      "@first": "260",
+                      "@last": "267"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "U.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Jensen",
+                        "ce:indexed-name": "Jensen U.G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Hoang",
+                        "ce:indexed-name": "Hoang L.C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Struct. Eng. Int. J. Int. Assoc. Bridg. Struct. Eng."
+                },
+                "ce:source-text": "U.G. Jensen, L.C. Hoang, Shear strength of reinforced concrete piers and piles with hollow circular cross section, Struct. Eng. Int. J. Int. Assoc. Bridg. Struct. Eng. 20 (2010) 260–267. https://doi.org/10.2749/101686610792016899."
+              },
+              {
+                "ref-fulltext": "Ren, J., Xu, Q., Chen, G., Liu, C., Gong, S., Lu, Y., Flexural performance of pretensioned centrifugal spun concrete piles with combined steel strands and reinforcing bars. Structures 34 (2021), 4467–4485, 10.1016/j.istruc.2021.10.052.",
+                "@reference-instance-id": "OB2BibRecID-952335651-18964016c83746225718e6d9596b6d09-5",
+                "@id": "5",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Flexural performance of pretensioned centrifugal spun concrete piles with combined steel strands and reinforcing bars"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.istruc.2021.10.052",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib5",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85117823324",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "34"
+                    },
+                    "pagerange": {
+                      "@first": "4467",
+                      "@last": "4485"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Ren",
+                        "ce:indexed-name": "Ren J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu Q."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen G."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu C."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Gong",
+                        "ce:indexed-name": "Gong S."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Lu",
+                        "ce:indexed-name": "Lu Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Structures"
+                },
+                "ce:source-text": "J. Ren, Q. Xu, G. Chen, C. Liu, S. Gong, Y. Lu, Flexural performance of pretensioned centrifugal spun concrete piles with combined steel strands and reinforcing bars, Structures. 34 (2021) 4467–4485. https://doi.org/10.1016/j.istruc.2021.10.052."
+              },
+              {
+                "ref-fulltext": "Suga, K., Masuda, Y., Study on the influence of mix proportion of high strength concrete on segregation during centrifugal compaction. J. Struct. Constr. Eng. (Trans. AIJ) 71 (2006), 29–34, 10.3130/aijs.71.29_4.",
+                "@reference-instance-id": "OB2BibRecID-952335651-32b70b1aef78208acc643d42b0aeae6f-6",
+                "@id": "6",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2006"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Study on the influence of mix proportion of high strength concrete on segregation during centrifugal compaction"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.3130/aijs.71.29_4",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib6",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85177770235",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "71"
+                    },
+                    "pagerange": {
+                      "@first": "29",
+                      "@last": "34"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Suga",
+                        "ce:indexed-name": "Suga K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Masuda",
+                        "ce:indexed-name": "Masuda Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Struct. Constr. Eng. (Trans. AIJ)"
+                },
+                "ce:source-text": "K. Suga, Y. Masuda, Study on the influence of mix proportion of high strength concrete on segregation during centrifugal compaction, J. Struct. Constr. Eng. (Transactions AIJ). 71 (2006) 29–34. https://doi.org/10.3130/aijs.71.29_4."
+              },
+              {
+                "ref-fulltext": "Algassem, O., Li, Y., Aoude, H., Ability of steel fibers to enhance the shear and flexural behavior of high-strength concrete beams subjected to blast loads. Eng. Struct., 199, 2019, 109611, 10.1016/j.engstruct.2019.109611.",
+                "@reference-instance-id": "OB2BibRecID-952335651-460f9d024da9df440e360e7975781ed3-7",
+                "@id": "7",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Ability of steel fibers to enhance the shear and flexural behavior of high-strength concrete beams subjected to blast loads"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.engstruct.2019.109611",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib7",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "109611",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85071855864",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "199"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "O.",
+                        "@_fa": "true",
+                        "ce:surname": "Algassem",
+                        "ce:indexed-name": "Algassem O."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Aoude",
+                        "ce:indexed-name": "Aoude H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Eng. Struct."
+                },
+                "ce:source-text": "O. Algassem, Y. Li, H. Aoude, Ability of steel fibers to enhance the shear and flexural behavior of high-strength concrete beams subjected to blast loads, Eng. Struct. 199 (2019). 109611. https://doi.org/10.1016/j.engstruct.2019.109611."
+              },
+              {
+                "ref-fulltext": "Yoo, D.Y., Yang, J.M., Effects of stirrup, steel fiber, and beam size on shear behavior of high-strength concrete beams. Cem. Concr. Compos. 87 (2018), 137–148, 10.1016/j.cemconcomp.2017.12.010.",
+                "@reference-instance-id": "OB2BibRecID-952335651-d52989cde45ac18dd817d3fea9e5afe9-8",
+                "@id": "8",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effects of stirrup, steel fiber, and beam size on shear behavior of high-strength concrete beams"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.cemconcomp.2017.12.010",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib8",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85039839057",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "87"
+                    },
+                    "pagerange": {
+                      "@first": "137",
+                      "@last": "148"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Yoo",
+                        "ce:indexed-name": "Yoo D.Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang J.M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Compos."
+                },
+                "ce:source-text": "D.Y. Yoo, J.M. Yang, Effects of stirrup, steel fiber, and beam size on shear behavior of high-strength concrete beams, Cem. Concr. Compos. 87 (2018) 137–148. https://doi.org/10.1016/j.cemconcomp.2017.12.010."
+              },
+              {
+                "ref-fulltext": "Jongvivatsakul, P., Matsumoto, K., Niwa, J., Shear capacity of fiber reinforced concrete beams with various types and combinations of fibers. J. JSCE 1 (2013), 228–241, 10.2208/journalofjsce.1.1_228.",
+                "@reference-instance-id": "OB2BibRecID-952335651-eab0064c6f4720dde73e426f8a3ef3cf-9",
+                "@id": "9",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Shear capacity of fiber reinforced concrete beams with various types and combinations of fibers"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.2208/journalofjsce.1.1_228",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib9",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85059548984",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "1"
+                    },
+                    "pagerange": {
+                      "@first": "228",
+                      "@last": "241"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Jongvivatsakul",
+                        "ce:indexed-name": "Jongvivatsakul P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Matsumoto",
+                        "ce:indexed-name": "Matsumoto K."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Niwa",
+                        "ce:indexed-name": "Niwa J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. JSCE"
+                },
+                "ce:source-text": "P. Jongvivatsakul, K. Matsumoto, J. Niwa, Shear capacity of fiber reinforced concrete beams with various types and combinations of fibers, J. JSCE. 1 (2013) 228–241. https://doi.org/10.2208/journalofjsce.1.1_228."
+              },
+              {
+                "ref-fulltext": "Yuan, T.F., Yoo, D.Y., Yang, J.M., Yoon, Y.S., Shear capacity contribution of steel fiber reinforced high-strength concrete compared with and without stirrup. Int. J. Concr. Struct. Mater., 14, 2020, 10.1186/s40069-020-0396-2.",
+                "@reference-instance-id": "OB2BibRecID-952335651-9728b3c35c929aee096d8395e23da03c-10",
+                "@id": "10",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Shear capacity contribution of steel fiber reinforced high-strength concrete compared with and without stirrup"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1186/s40069-020-0396-2",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib10",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85083648901",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "14"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Yuan",
+                        "ce:indexed-name": "Yuan T.F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Yoo",
+                        "ce:indexed-name": "Yoo D.Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang J.M."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Yoon",
+                        "ce:indexed-name": "Yoon Y.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Int. J. Concr. Struct. Mater."
+                },
+                "ce:source-text": "T.F. Yuan, D.Y. Yoo, J.M. Yang, Y.S. Yoon, Shear capacity contribution of steel fiber reinforced high-strength concrete compared with and without stirrup, Int. J. Concr. Struct. Mater. 14 (2020). s40069–020-0396–2. https://doi.org/10.1186/s40069–020-0396–2."
+              },
+              {
+                "ref-fulltext": "Banthia, N., Sappakittipakorn, M., Toughness enhancement in steel fiber reinforced concrete through fiber hybridization. Cem. Concr. Res. 37 (2007), 1366–1372, 10.1016/j.cemconres.2007.05.005.",
+                "@reference-instance-id": "OB2BibRecID-952335651-cda735e395b82a1f77dd24417d31cc69-11",
+                "@id": "11",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Toughness enhancement in steel fiber reinforced concrete through fiber hybridization"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.cemconres.2007.05.005",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib11",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "34548040173",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "37"
+                    },
+                    "pagerange": {
+                      "@first": "1366",
+                      "@last": "1372"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Banthia",
+                        "ce:indexed-name": "Banthia N."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Sappakittipakorn",
+                        "ce:indexed-name": "Sappakittipakorn M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "N. Banthia, M. Sappakittipakorn, Toughness enhancement in steel fiber reinforced concrete through fiber hybridization, Cem. Concr. Res. 37 (2007) 1366–1372. https://doi.org/10.1016/j.cemconres.2007.05.005."
+              },
+              {
+                "ref-fulltext": "Barr, B.I.G., Lee, M.K., De Place Hansen, E.J., Dupont, D., Erdem, E., Schaerlaekens, S., Schnütgen, B., Stang, H., Vandewalle, L., Round-robin analysis of the RILEM TC 162-TDF beam-bending test: Part 2 - approximation of δ from the CMOD response. Mater. Struct. Constr. 36 (2003), 621–630, 10.1617/13954.",
+                "@reference-instance-id": "OB2BibRecID-952335651-b83292ea647ef8fdbdf0dbc7e89d2b64-12",
+                "@id": "12",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2003"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Round-robin analysis of the RILEM TC 162-TDF beam-bending test: Part 2 - approximation of δ from the CMOD response"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1617/13954",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib12",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0345227311",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "36"
+                    },
+                    "pagerange": {
+                      "@first": "621",
+                      "@last": "630"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.I.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Barr",
+                        "ce:indexed-name": "Barr B.I.G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee M.K."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "E.J.",
+                        "@_fa": "true",
+                        "ce:surname": "De Place Hansen",
+                        "ce:indexed-name": "De Place Hansen E.J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Dupont",
+                        "ce:indexed-name": "Dupont D."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Erdem",
+                        "ce:indexed-name": "Erdem E."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Schaerlaekens",
+                        "ce:indexed-name": "Schaerlaekens S."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Schnütgen",
+                        "ce:indexed-name": "Schnutgen B."
+                      },
+                      {
+                        "@seq": "8",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Stang",
+                        "ce:indexed-name": "Stang H."
+                      },
+                      {
+                        "@seq": "9",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Vandewalle",
+                        "ce:indexed-name": "Vandewalle L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Mater. Struct. Constr."
+                },
+                "ce:source-text": "B.I.G. Barr, M.K. Lee, E.J. De Place Hansen, D. Dupont, E. Erdem, S. Schaerlaekens, B. Schnütgen, H. Stang, L. Vandewalle, Round-robin analysis of the RILEM TC 162-TDF beam-bending test: Part 2 - Approximation of δ from the CMOD response, Mater. Struct. Constr. 36 (2003) 621–630. https://doi.org/10.1617/13954."
+              },
+              {
+                "ref-fulltext": "Desnerck, P., De Schutter, G., Taerwe, L., Bond behaviour of reinforcing bars in self-compacting concrete: experimental determination by using beam tests. Mater. Struct. Constr. 43 (2010), 53–62, 10.1617/s11527-010-9596-6.",
+                "@reference-instance-id": "OB2BibRecID-952335651-82e51aaa1a0e9397e32b861221b4e4c4-13",
+                "@id": "13",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Bond behaviour of reinforcing bars in self-compacting concrete: experimental determination by using beam tests"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1617/s11527-010-9596-6",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib13",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "78650763370",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "43"
+                    },
+                    "pagerange": {
+                      "@first": "53",
+                      "@last": "62"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Desnerck",
+                        "ce:indexed-name": "Desnerck P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "De Schutter",
+                        "ce:indexed-name": "De Schutter G."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Taerwe",
+                        "ce:indexed-name": "Taerwe L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Mater. Struct. Constr."
+                },
+                "ce:source-text": "P. Desnerck, G. De Schutter, L. Taerwe, Bond behaviour of reinforcing bars in self-compacting concrete: Experimental determination by using beam tests, Mater. Struct. Constr. 43 (2010) 53–62. https://doi.org/10.1617/s11527–010-9596–6."
+              },
+              {
+                "ref-fulltext": "Abrishambaf, A., Barros, J.A.O., Cunha, V.M.C.F., Relation between fibre distribution and post-cracking behaviour in steel fibre reinforced self-compacting concrete panels. Cem. Concr. Res. 51 (2013), 57–66, 10.1016/j.cemconres.2013.04.009.",
+                "@reference-instance-id": "OB2BibRecID-952335651-9a99ab7fde02e1dbcb190bb0b8ef7ecc-14",
+                "@id": "14",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Relation between fibre distribution and post-cracking behaviour in steel fibre reinforced self-compacting concrete panels"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.cemconres.2013.04.009",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib14",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84878138136",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "51"
+                    },
+                    "pagerange": {
+                      "@first": "57",
+                      "@last": "66"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Abrishambaf",
+                        "ce:indexed-name": "Abrishambaf A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.A.O.",
+                        "@_fa": "true",
+                        "ce:surname": "Barros",
+                        "ce:indexed-name": "Barros J.A.O."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "V.M.C.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Cunha",
+                        "ce:indexed-name": "Cunha V.M.C.F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "A. Abrishambaf, J.A.O. Barros, V.M.C.F. Cunha, Relation between fibre distribution and post-cracking behaviour in steel fibre reinforced self-compacting concrete panels, Cem. Concr. Res. 51 (2013) 57–66. https://doi.org/10.1016/j.cemconres.2013.04.009."
+              },
+              {
+                "ref-fulltext": "Gao, D., Huang, Y., Yuan, J., Gu, Z., Probability distribution of bond efficiency of steel fiber in tensile zone of reinforced concrete beams. J. Build. Eng., 43, 2021, 102550, 10.1016/j.jobe.2021.102550.",
+                "@reference-instance-id": "OB2BibRecID-952335651-edc7888c04f4966caae8dd713af7054c-15",
+                "@id": "15",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Probability distribution of bond efficiency of steel fiber in tensile zone of reinforced concrete beams"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.jobe.2021.102550",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib15",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "102550",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85105599347",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "43"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Gao",
+                        "ce:indexed-name": "Gao D."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Yuan",
+                        "ce:indexed-name": "Yuan J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Gu",
+                        "ce:indexed-name": "Gu Z."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Build. Eng."
+                },
+                "ce:source-text": "D. Gao, Y. Huang, J. Yuan, Z. Gu, Probability distribution of bond efficiency of steel fiber in tensile zone of reinforced concrete beams, J. Build. Eng. 43 (2021). 102550. https://doi.org/10.1016/j.jobe.2021.102550."
+              },
+              {
+                "ref-fulltext": "Mertol, H.C., Baran, E., Bello, H.J., Flexural behavior of lightly and heavily reinforced steel fiber concrete beams. Constr. Build. Mater. 98 (2015), 185–193, 10.1016/j.conbuildmat.2015.08.032.",
+                "@reference-instance-id": "OB2BibRecID-952335651-a3183acd53e9487f73d2401240848393-16",
+                "@id": "16",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Flexural behavior of lightly and heavily reinforced steel fiber concrete beams"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.conbuildmat.2015.08.032",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib16",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84952310643",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "98"
+                    },
+                    "pagerange": {
+                      "@first": "185",
+                      "@last": "193"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Mertol",
+                        "ce:indexed-name": "Mertol H.C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Baran",
+                        "ce:indexed-name": "Baran E."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Bello",
+                        "ce:indexed-name": "Bello H.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "H.C. Mertol, E. Baran, H.J. Bello, Flexural behavior of lightly and heavily reinforced steel fiber concrete beams, Constr. Build. Mater. 98 (2015) 185–193. https://doi.org/10.1016/j.conbuildmat.2015.08.032."
+              },
+              {
+                "ref-fulltext": "Altun, F., Haktanir, T., Ari, K., Effects of steel fiber addition on mechanical properties of concrete and RC beams. Constr. Build. Mater. 21 (2007), 654–661, 10.1016/j.conbuildmat.2005.12.006.",
+                "@reference-instance-id": "OB2BibRecID-952335651-d8d9419c41bdf963094eb58d149098ea-17",
+                "@id": "17",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effects of steel fiber addition on mechanical properties of concrete and RC beams"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.conbuildmat.2005.12.006",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib17",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "33845315911",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "21"
+                    },
+                    "pagerange": {
+                      "@first": "654",
+                      "@last": "661"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Altun",
+                        "ce:indexed-name": "Altun F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Haktanir",
+                        "ce:indexed-name": "Haktanir T."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Ari",
+                        "ce:indexed-name": "Ari K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "F. Altun, T. Haktanir, K. Ari, Effects of steel fiber addition on mechanical properties of concrete and RC beams, Constr. Build. Mater. 21 (2007) 654–661. https://doi.org/10.1016/j.conbuildmat.2005.12.006."
+              },
+              {
+                "ref-fulltext": "Mahmood, S.M.F., Foster, S.J., Valipour, H., Moment redistribution and post-peak behaviour of lightly reinforced-SFRC continuous slabs. Eng. Struct., 232, 2021, 111834, 10.1016/j.engstruct.2020.111834.",
+                "@reference-instance-id": "OB2BibRecID-952335651-0fecc1da9737247db07d4f6a89b26038-18",
+                "@id": "18",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Moment redistribution and post-peak behaviour of lightly reinforced-SFRC continuous slabs"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.engstruct.2020.111834",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib18",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "111834",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85099786680",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "232"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.M.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Mahmood",
+                        "ce:indexed-name": "Mahmood S.M.F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Foster",
+                        "ce:indexed-name": "Foster S.J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Valipour",
+                        "ce:indexed-name": "Valipour H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Eng. Struct."
+                },
+                "ce:source-text": "S.M.F. Mahmood, S.J. Foster, H. Valipour, Moment redistribution and post-peak behaviour of lightly reinforced-SFRC continuous slabs, Eng. Struct. 232 (2021). 111834. https://doi.org/10.1016/j.engstruct.2020.111834."
+              },
+              {
+                "ref-fulltext": "Zhou, B., Uchida, Y., Influence of flowability, casting time and formwork geometry on fiber orientation and mechanical properties of UHPFRC. Cem. Concr. Res. 95 (2017), 164–177, 10.1016/j.cemconres.2017.02.017.",
+                "@reference-instance-id": "OB2BibRecID-952335651-dce64a5499eff40343e83b113dfea61d-19",
+                "@id": "19",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Influence of flowability, casting time and formwork geometry on fiber orientation and mechanical properties of UHPFRC"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.cemconres.2017.02.017",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib19",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85014729755",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "95"
+                    },
+                    "pagerange": {
+                      "@first": "164",
+                      "@last": "177"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Uchida",
+                        "ce:indexed-name": "Uchida Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "B. Zhou, Y. Uchida, Influence of flowability, casting time and formwork geometry on fiber orientation and mechanical properties of UHPFRC, Cem. Concr. Res. 95 (2017) 164–177. https://doi.org/10.1016/j.cemconres.2017.02.017."
+              },
+              {
+                "ref-fulltext": "Javahershenas, F., Gilani, M.S., Hajforoush, M., Effect of magnetic field exposure time on mechanical and microstructure properties of steel fiber-reinforced concrete (SFRC). J. Build. Eng., 35, 2021, 101975, 10.1016/j.jobe.2020.101975.",
+                "@reference-instance-id": "OB2BibRecID-952335651-c24208ed11e6dfefcf63cef15076a71a-20",
+                "@id": "20",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of magnetic field exposure time on mechanical and microstructure properties of steel fiber-reinforced concrete (SFRC)"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.jobe.2020.101975",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib20",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "101975",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85096466921",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "35"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Javahershenas",
+                        "ce:indexed-name": "Javahershenas F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Gilani",
+                        "ce:indexed-name": "Gilani M.S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Hajforoush",
+                        "ce:indexed-name": "Hajforoush M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Build. Eng."
+                },
+                "ce:source-text": "F. Javahershenas, M.S. Gilani, M. Hajforoush, Effect of magnetic field exposure time on mechanical and microstructure properties of steel fiber-reinforced concrete (SFRC), J. Build. Eng. 35 (2021). 101975. https://doi.org/10.1016/j.jobe.2020.101975."
+              },
+              {
+                "ref-fulltext": "Carmona, S., Molins, C., Aguado, A., Mora, F., Distribution of fibers in SFRC segments for tunnel linings. Tunn. Undergr. Sp. Technol. 51 (2016), 238–249, 10.1016/j.tust.2015.10.040.",
+                "@reference-instance-id": "OB2BibRecID-952335651-2c4638c504c1e455e319511ef72697a1-21",
+                "@id": "21",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Distribution of fibers in SFRC segments for tunnel linings"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2015.10.040",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib21",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84945562253",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "51"
+                    },
+                    "pagerange": {
+                      "@first": "238",
+                      "@last": "249"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Carmona",
+                        "ce:indexed-name": "Carmona S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Molins",
+                        "ce:indexed-name": "Molins C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Aguado",
+                        "ce:indexed-name": "Aguado A."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Mora",
+                        "ce:indexed-name": "Mora F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Sp. Technol."
+                },
+                "ce:source-text": "S. Carmona, C. Molins, A. Aguado, F. Mora, Distribution of fibers in SFRC segments for tunnel linings, Tunn. Undergr. Sp. Technol. 51 (2016) 238–249. https://doi.org/10.1016/j.tust.2015.10.040."
+              },
+              {
+                "ref-fulltext": "Zhang, X., He, F., Chen, J., Yang, C., Xu, F., Orientation of steel fibers in concrete attracted by magnetized rebar and its effects on bond behavior. Cem. Concr. Compos., 138, 2023, 104977, 10.1016/j.cemconcomp.2023.104977.",
+                "@reference-instance-id": "OB2BibRecID-952335651-c5cc9416d4e085fe8866f3fb2bc48083-22",
+                "@id": "22",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Orientation of steel fibers in concrete attracted by magnetized rebar and its effects on bond behavior"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.cemconcomp.2023.104977",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib22",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "104977",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85147852371",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "138"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "He",
+                        "ce:indexed-name": "He F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang C."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Compos."
+                },
+                "ce:source-text": "X. Zhang, F. He, J. Chen, C. Yang, F. Xu, Orientation of steel fibers in concrete attracted by magnetized rebar and its effects on bond behavior, Cem. Concr. Compos. 138 (2023). 104977. https://doi.org/10.1016/j.cemconcomp.2023.104977."
+              },
+              {
+                "ref-fulltext": "Edgington, J., Hannant, D.J., Steel fibre reinforced concrete. The effect on fibre orientation of compaction by vibration. Matér. Constr. 5 (1972), 41–44, 10.1007/BF02479076.",
+                "@reference-instance-id": "OB2BibRecID-952335651-29ff2682fd05b3f0095a3af4f7577cc2-23",
+                "@id": "23",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1972"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Steel fibre reinforced concrete. The effect on fibre orientation of compaction by vibration"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/BF02479076",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib23",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "51249191025",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "5"
+                    },
+                    "pagerange": {
+                      "@first": "41",
+                      "@last": "44"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Edgington",
+                        "ce:indexed-name": "Edgington J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Hannant",
+                        "ce:indexed-name": "Hannant D.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Matér. Constr."
+                },
+                "ce:source-text": "J. Edgington, D.J. Hannant, Steel fibre reinforced concrete. The effect on fibre orientation of compaction by vibration, Matériaux Constr. 5 (1972) 41–44. https://doi.org/10.1007/BF02479076."
+              },
+              {
+                "ref-fulltext": "Stähli, P., Custer, R., Van Mier, J.G.M., On flow properties, fibre distribution, fibre orientation and flexural behaviour of FRC. Mater. Struct. Constr. 41 (2008), 189–196, 10.1617/s11527-007-9229-x.",
+                "@reference-instance-id": "OB2BibRecID-952335651-e332b85fbef3e92ca6fcd01743f4a36a-24",
+                "@id": "24",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2008"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "On flow properties, fibre distribution, fibre orientation and flexural behaviour of FRC"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1617/s11527-007-9229-x",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib24",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "36549088730",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "41"
+                    },
+                    "pagerange": {
+                      "@first": "189",
+                      "@last": "196"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Stähli",
+                        "ce:indexed-name": "Stahli P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Custer",
+                        "ce:indexed-name": "Custer R."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.G.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Van Mier",
+                        "ce:indexed-name": "Van Mier J.G.M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Mater. Struct. Constr."
+                },
+                "ce:source-text": "P. Stähli, R. Custer, J.G.M. Van Mier, On flow properties, fibre distribution, fibre orientation and flexural behaviour of FRC, Mater. Struct. Constr. 41 (2008) 189–196. https://doi.org/10.1617/s11527–007-9229-x."
+              },
+              {
+                "ref-fulltext": "Stähli, P., van Mier, J.G.M., Manufacturing, fibre anisotropy and fracture of hybrid fibre concrete. Eng. Fract. Mech. 74 (2007), 223–242, 10.1016/j.engfracmech.2006.01.028.",
+                "@reference-instance-id": "OB2BibRecID-952335651-70b404eb3dca063c15aa2e8923788f41-25",
+                "@id": "25",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Manufacturing, fibre anisotropy and fracture of hybrid fibre concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.engfracmech.2006.01.028",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib25",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "33748706970",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "74"
+                    },
+                    "pagerange": {
+                      "@first": "223",
+                      "@last": "242"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Stähli",
+                        "ce:indexed-name": "Stahli P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.G.M.",
+                        "@_fa": "true",
+                        "ce:surname": "van Mier",
+                        "ce:indexed-name": "van Mier J.G.M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Eng. Fract. Mech."
+                },
+                "ce:source-text": "P. Stähli, J.G.M. van Mier, Manufacturing, fibre anisotropy and fracture of hybrid fibre concrete, Eng. Fract. Mech. 74 (2007) 223–242. https://doi.org/10.1016/j.engfracmech.2006.01.028."
+              },
+              {
+                "ref-fulltext": "Torrijos, M.C., Barragán, B.E., Zerbino, R.L., Placing conditions, mesostructural characteristics and post-cracking response of fibre reinforced self-compacting concretes. Constr. Build. Mater. 24 (2010), 1078–1085, 10.1016/j.conbuildmat.2009.11.008.",
+                "@reference-instance-id": "OB2BibRecID-952335651-7ebaa219e0175e9786360d910cedeaa4-26",
+                "@id": "26",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Placing conditions, mesostructural characteristics and post-cracking response of fibre reinforced self-compacting concretes"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.conbuildmat.2009.11.008",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib26",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "77949568635",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "24"
+                    },
+                    "pagerange": {
+                      "@first": "1078",
+                      "@last": "1085"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Torrijos",
+                        "ce:indexed-name": "Torrijos M.C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "B.E.",
+                        "@_fa": "true",
+                        "ce:surname": "Barragán",
+                        "ce:indexed-name": "Barragan B.E."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "R.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Zerbino",
+                        "ce:indexed-name": "Zerbino R.L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "M.C. Torrijos, B.E. Barragán, R.L. Zerbino, Placing conditions, mesostructural characteristics and post-cracking response of fibre reinforced self-compacting concretes, Constr. Build. Mater. 24 (2010) 1078–1085. https://doi.org/10.1016/j.conbuildmat.2009.11.008."
+              },
+              {
+                "ref-fulltext": "Raju, R.A., Lim, S., Akiyama, M., Kageyama, T., Effects of concrete flow on the distribution and orientation of fibers and flexural behavior of steel fiber-reinforced self-compacting concrete beams. Constr. Build. Mater., 262, 2020, 119963, 10.1016/j.conbuildmat.2020.119963.",
+                "@reference-instance-id": "OB2BibRecID-952335651-9b895f12f2569705e1884f824e9c3b8d-27",
+                "@id": "27",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effects of concrete flow on the distribution and orientation of fibers and flexural behavior of steel fiber-reinforced self-compacting concrete beams"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.conbuildmat.2020.119963",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib27",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "119963",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85087892297",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "262"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Raju",
+                        "ce:indexed-name": "Raju R.A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Lim",
+                        "ce:indexed-name": "Lim S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Akiyama",
+                        "ce:indexed-name": "Akiyama M."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Kageyama",
+                        "ce:indexed-name": "Kageyama T."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "R.A. Raju, S. Lim, M. Akiyama, T. Kageyama, Effects of concrete flow on the distribution and orientation of fibers and flexural behavior of steel fiber-reinforced self-compacting concrete beams, Constr. Build. Mater. 262 (2020). 119963. https://doi.org/10.1016/j.conbuildmat.2020.119963."
+              },
+              {
+                "ref-fulltext": "Alberti, M.G., Enfedaque, A., Gálvez, J.C., A review on the assessment and prediction of the orientation and distribution of fibres for concrete. Compos. Part B Eng. 151 (2018), 274–290, 10.1016/j.compositesb.2018.05.040.",
+                "@reference-instance-id": "OB2BibRecID-952335651-bbdd376b37dbb107e1aece803d91fa5e-28",
+                "@id": "28",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A review on the assessment and prediction of the orientation and distribution of fibres for concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.compositesb.2018.05.040",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib28",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85049611558",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "151"
+                    },
+                    "pagerange": {
+                      "@first": "274",
+                      "@last": "290"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Alberti",
+                        "ce:indexed-name": "Alberti M.G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Enfedaque",
+                        "ce:indexed-name": "Enfedaque A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Gálvez",
+                        "ce:indexed-name": "Galvez J.C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Compos. Part B Eng."
+                },
+                "ce:source-text": "M.G. Alberti, A. Enfedaque, J.C. Gálvez, A review on the assessment and prediction of the orientation and distribution of fibres for concrete, Compos. Part B Eng. 151 (2018) 274–290. https://doi.org/10.1016/j.compositesb.2018.05.040."
+              },
+              {
+                "ref-fulltext": "Deeb, R., Karihaloo, B.L., Kulasegaram, S., Reorientation of short steel fibres during the flow of self-compacting concrete mix and determination of the fibre orientation factor. Cem. Concr. Res. 56 (2014), 112–120, 10.1016/j.cemconres.2013.10.002.",
+                "@reference-instance-id": "OB2BibRecID-952335651-589c1823a6d9dfd5ef681f5d13b943a6-29",
+                "@id": "29",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Reorientation of short steel fibres during the flow of self-compacting concrete mix and determination of the fibre orientation factor"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.cemconres.2013.10.002",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib29",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84890302889",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "56"
+                    },
+                    "pagerange": {
+                      "@first": "112",
+                      "@last": "120"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Deeb",
+                        "ce:indexed-name": "Deeb R."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "B.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Karihaloo",
+                        "ce:indexed-name": "Karihaloo B.L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Kulasegaram",
+                        "ce:indexed-name": "Kulasegaram S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "R. Deeb, B.L. Karihaloo, S. Kulasegaram, Reorientation of short steel fibres during the flow of self-compacting concrete mix and determination of the fibre orientation factor, Cem. Concr. Res. 56 (2014) 112–120. https://doi.org/10.1016/j.cemconres.2013.10.002."
+              },
+              {
+                "ref-fulltext": "Martinie, L., Roussel, N., Simple tools for fiber orientation prediction in industrial practice. Cem. Concr. Res. 41 (2011), 993–1000, 10.1016/j.cemconres.2011.05.008.",
+                "@reference-instance-id": "OB2BibRecID-952335651-d99f49b0aab08b1469de314cc9897590-30",
+                "@id": "30",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Simple tools for fiber orientation prediction in industrial practice"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.cemconres.2011.05.008",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib30",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "79961017456",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "41"
+                    },
+                    "pagerange": {
+                      "@first": "993",
+                      "@last": "1000"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Martinie",
+                        "ce:indexed-name": "Martinie L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Roussel",
+                        "ce:indexed-name": "Roussel N."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "L. Martinie, N. Roussel, Simple tools for fiber orientation prediction in industrial practice, Cem. Concr. Res. 41 (2011) 993–1000. https://doi.org/10.1016/j.cemconres.2011.05.008."
+              },
+              {
+                "ref-fulltext": "Zhang, S., Liao, L., Song, S., Zhang, C., Experimental and analytical study of the fibre distribution in SFRC: a comparison between image processing and the inductive test. Compos. Struct. 188 (2018), 78–88, 10.1016/j.compstruct.2018.01.006.",
+                "@reference-instance-id": "OB2BibRecID-952335651-2c4a526c1c19366f7361a252e570bc06-31",
+                "@id": "31",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental and analytical study of the fibre distribution in SFRC: a comparison between image processing and the inductive test"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.compstruct.2018.01.006",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib31",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85040086824",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "188"
+                    },
+                    "pagerange": {
+                      "@first": "78",
+                      "@last": "88"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Liao",
+                        "ce:indexed-name": "Liao L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Song",
+                        "ce:indexed-name": "Song S."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Compos. Struct."
+                },
+                "ce:source-text": "S. Zhang, L. Liao, S. Song, C. Zhang, Experimental and analytical study of the fibre distribution in SFRC: A comparison between image processing and the inductive test, Compos. Struct. 188 (2018) 78–88. https://doi.org/10.1016/j.compstruct.2018.01.006."
+              },
+              {
+                "ref-fulltext": "Plagué, T., Desmettre, C., Charron, J.P., Influence of fiber type and fiber orientation on cracking and permeability of reinforced concrete under tensile loading. Cem. Concr. Res. 94 (2017), 59–70, 10.1016/j.cemconres.2017.01.004.",
+                "@reference-instance-id": "OB2BibRecID-952335651-fd78a2563a8d0b5e715194704d3ea0a6-32",
+                "@id": "32",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Influence of fiber type and fiber orientation on cracking and permeability of reinforced concrete under tensile loading"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.cemconres.2017.01.004",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib32",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85010866374",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "94"
+                    },
+                    "pagerange": {
+                      "@first": "59",
+                      "@last": "70"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Plagué",
+                        "ce:indexed-name": "Plague T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Desmettre",
+                        "ce:indexed-name": "Desmettre C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Charron",
+                        "ce:indexed-name": "Charron J.P."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "T. Plagué, C. Desmettre, J.P. Charron, Influence of fiber type and fiber orientation on cracking and permeability of reinforced concrete under tensile loading, Cem. Concr. Res. 94 (2017) 59–70. https://doi.org/10.1016/j.cemconres.2017.01.004."
+              },
+              {
+                "ref-fulltext": "Tsubaki, T., Sumitro, S., Shoji, H., Modeling of tensile and shear mechanical properties of steel fiber reinforced concrete. Trans. Jpn. Concr. Inst. 19 (1997), 121–134, 10.3151/crt1990.8.1_233.",
+                "@reference-instance-id": "OB2BibRecID-952335651-f12a053663e5a0f8d51bd9d334d0e76d-33",
+                "@id": "33",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1997"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Modeling of tensile and shear mechanical properties of steel fiber reinforced concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.3151/crt1990.8.1_233",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib33",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0031370524",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "19"
+                    },
+                    "pagerange": {
+                      "@first": "121",
+                      "@last": "134"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Tsubaki",
+                        "ce:indexed-name": "Tsubaki T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Sumitro",
+                        "ce:indexed-name": "Sumitro S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Shoji",
+                        "ce:indexed-name": "Shoji H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Trans. Jpn. Concr. Inst."
+                },
+                "ce:source-text": "T. Tsubaki, S. Sumitro, H. Shoji, Modeling of tensile and shear mechanical properties of steel fiber reinforced concrete, Trans. Japan Concr. Inst. 19 (1997) 121–134. https://doi.org/10.3151/crt1990.8.1_233."
+              },
+              {
+                "ref-fulltext": "Raju, R.A., Akiyama, M., Lim, S., Kakegawa, T., Hosono, Y., A novel casting procedure for SFRC piles without shear reinforcement using the centrifugal forming technique to manipulate the fiber orientation and distribution. Constr. Build. Mater., 303, 2021, 124232, 10.1016/j.conbuildmat.2021.124232.",
+                "@reference-instance-id": "OB2BibRecID-952335651-26e7025aa55106aaa479c3df121052d6-34",
+                "@id": "34",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A novel casting procedure for SFRC piles without shear reinforcement using the centrifugal forming technique to manipulate the fiber orientation and distribution"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.conbuildmat.2021.124232",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib34",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "124232",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85112132208",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "303"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Raju",
+                        "ce:indexed-name": "Raju R.A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Akiyama",
+                        "ce:indexed-name": "Akiyama M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Lim",
+                        "ce:indexed-name": "Lim S."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Kakegawa",
+                        "ce:indexed-name": "Kakegawa T."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Hosono",
+                        "ce:indexed-name": "Hosono Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "R.A. Raju, M. Akiyama, S. Lim, T. Kakegawa, Y. Hosono, A novel casting procedure for SFRC piles without shear reinforcement using the centrifugal forming technique to manipulate the fiber orientation and distribution, Constr. Build. Mater. 303 (2021). 124232. https://doi.org/10.1016/j.conbuildmat.2021.124232."
+              },
+              {
+                "ref-fulltext": "Minelli, F., Conforti, A., Cuenca, E., Plizzari, G., Are steel fibres able to mitigate or eliminate size effect in shear?. Mater. Struct. Constr. 47 (2014), 459–473, 10.1617/s11527-013-0072-y.",
+                "@reference-instance-id": "OB2BibRecID-952335651-dff787c1e70ed3a480760f1980429eaf-35",
+                "@id": "35",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Are steel fibres able to mitigate or eliminate size effect in shear?"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1617/s11527-013-0072-y",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib35",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84895927955",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "47"
+                    },
+                    "pagerange": {
+                      "@first": "459",
+                      "@last": "473"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Minelli",
+                        "ce:indexed-name": "Minelli F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Conforti",
+                        "ce:indexed-name": "Conforti A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Cuenca",
+                        "ce:indexed-name": "Cuenca E."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Plizzari",
+                        "ce:indexed-name": "Plizzari G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Mater. Struct. Constr."
+                },
+                "ce:source-text": "F. Minelli, A. Conforti, E. Cuenca, G. Plizzari, Are steel fibres able to mitigate or eliminate size effect in shear?, Mater. Struct. Constr. 47 (2014) 459–473. https://doi.org/10.1617/s11527–013-0072-y."
+              },
+              {
+                "ref-fulltext": "Bazant, Z.P., Sun Hsu-Huei, Size effect in diagonal shear failure: influence of aggregate size and stirrups. Acids Mater. J. 84 (1987), 259–272, 10.14359/1614.",
+                "@reference-instance-id": "OB2BibRecID-952335651-9879474d3c8df6868adc305c76f063f8-36",
+                "@id": "36",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1987"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Size effect in diagonal shear failure: influence of aggregate size and stirrups"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.14359/1614",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib36",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0023382248",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "84"
+                    },
+                    "pagerange": {
+                      "@first": "259",
+                      "@last": "272"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Bazant",
+                        "ce:indexed-name": "Bazant Z.P."
+                      },
+                      {
+                        "@seq": "2",
+                        "@_fa": "true",
+                        "ce:surname": "Sun Hsu-Huei",
+                        "ce:indexed-name": "Sun Hsu-Huei"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Acids Mater. J."
+                },
+                "ce:source-text": "Z.P. Bazant, Sun Hsu-Huei, Size effect in diagonal shear failure: influence of aggregate size and stirrups., ACI Mater. J. 84 (1987) 259–272. https://doi.org/10.14359/1614."
+              },
+              {
+                "ref-fulltext": "Taylor, H.P.J., Shear strength of large beams. ASCE J. Struct. Div. 98 (1972), 2473–2490, 10.1061/jsdeag.0003376.",
+                "@reference-instance-id": "OB2BibRecID-952335651-42604ed810f4e708932eabe9333afb3f-37",
+                "@id": "37",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1972"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Shear strength of large beams"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1061/jsdeag.0003376",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib37",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0015431267",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "98"
+                    },
+                    "pagerange": {
+                      "@first": "2473",
+                      "@last": "2490"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.P.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Taylor",
+                        "ce:indexed-name": "Taylor H.P.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "ASCE J. Struct. Div."
+                },
+                "ce:source-text": "H.P.J. Taylor, Shear strength of large beams., ASCE J Struct Div. 98 (1972) 2473–2490. https://doi.org/10.1061/jsdeag.0003376."
+              },
+              {
+                "ref-fulltext": "Sharma, A.K., shear strength of steel fiber reinforced concrete beams. J. Am. Concr. Inst. 83 (1986), 624–628.",
+                "@reference-instance-id": "OB2BibRecID-952335651-1c5c06784d2d8f18c3013ba1e8f6a7c0-38",
+                "@id": "38",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1986"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "shear strength of steel fiber reinforced concrete beams"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib38",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0022756930",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "83"
+                    },
+                    "pagerange": {
+                      "@first": "624",
+                      "@last": "628"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Sharma",
+                        "ce:indexed-name": "Sharma A.K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Am. Concr. Inst."
+                },
+                "ce:source-text": "A.K. Sharma, shear strength of steel fiber reinforced concrete beams., J. Am. Concr. Inst. 83 (1986) 624–628."
+              },
+              {
+                "ref-fulltext": "Dupont, D., Vandewalle, L., Distribution of steel fibres in rectangular sections. Cem. Concr. Compos. 27 (2005), 391–398, 10.1016/j.cemconcomp.2004.03.005.",
+                "@reference-instance-id": "OB2BibRecID-952335651-1eea697d24d01422547926692e775251-39",
+                "@id": "39",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2005"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Distribution of steel fibres in rectangular sections"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.cemconcomp.2004.03.005",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib39",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "12244267734",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "27"
+                    },
+                    "pagerange": {
+                      "@first": "391",
+                      "@last": "398"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Dupont",
+                        "ce:indexed-name": "Dupont D."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Vandewalle",
+                        "ce:indexed-name": "Vandewalle L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Compos."
+                },
+                "ce:source-text": "D. Dupont, L. Vandewalle, Distribution of steel fibres in rectangular sections, Cem. Concr. Compos. 27 (2005). 391–398. https://doi.org/10.1016/j.cemconcomp.2004.03.005."
+              },
+              {
+                "ref-fulltext": "Narayanan, R., Darwish, I.Y.S., Use of steel fibers as shear reinforcement. Acids Struct. J. 84 (1987), 216–227, 10.14359/2654.",
+                "@reference-instance-id": "OB2BibRecID-952335651-f932418003036cff56be0c22e2d01265-40",
+                "@id": "40",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1987"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Use of steel fibers as shear reinforcement"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.14359/2654",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib40",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0023344622",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "84"
+                    },
+                    "pagerange": {
+                      "@first": "216",
+                      "@last": "227"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Narayanan",
+                        "ce:indexed-name": "Narayanan R."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "I.Y.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Darwish",
+                        "ce:indexed-name": "Darwish I.Y.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Acids Struct. J."
+                },
+                "ce:source-text": "R. Narayanan, I.Y.S. Darwish, Use of steel fibers as shear reinforcement., ACI Struct. J. 84 (1987) 216–227. https://doi.org/10.14359/2654."
+              },
+              {
+                "ref-fulltext": "Kwak, Y.K., Eberhard, M.O., Kim, W.S., Kim, J., Shear strength of steel fiber-reinforced concrete beams without stirrups. Acids Struct. J. 99 (2002), 530–538.",
+                "@reference-instance-id": "OB2BibRecID-952335651-4ab3fa4f83e5a261744484461b484485-41",
+                "@id": "41",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2002"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Shear strength of steel fiber-reinforced concrete beams without stirrups"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib41",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0036665164",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "99"
+                    },
+                    "pagerange": {
+                      "@first": "530",
+                      "@last": "538"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Kwak",
+                        "ce:indexed-name": "Kwak Y.K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.O.",
+                        "@_fa": "true",
+                        "ce:surname": "Eberhard",
+                        "ce:indexed-name": "Eberhard M.O."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "W.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim W.S."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Acids Struct. J."
+                },
+                "ce:source-text": "Y.K. Kwak, M.O. Eberhard, W.S. Kim, J. Kim, Shear strength of steel fiber-reinforced concrete beams without stirrups, ACI Struct. J. 99 (2002) 530–538."
+              },
+              {
+                "ref-fulltext": "Ashour, S.A., Hasanain, G.S., Wafa, F.F., Shear behavior of high-strength fiber reinforced concrete beams. Acids Struct. J. 89 (1992), 176–184.",
+                "@reference-instance-id": "OB2BibRecID-952335651-694c392ccbe505933bbcc52a2c0f9e67-42",
+                "@id": "42",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1992"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Shear behavior of high-strength fiber reinforced concrete beams"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib42",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0026839379",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "89"
+                    },
+                    "pagerange": {
+                      "@first": "176",
+                      "@last": "184"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Ashour",
+                        "ce:indexed-name": "Ashour S.A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Hasanain",
+                        "ce:indexed-name": "Hasanain G.S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "F.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Wafa",
+                        "ce:indexed-name": "Wafa F.F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Acids Struct. J."
+                },
+                "ce:source-text": "S.A. Ashour, G.S. Hasanain, F.F. Wafa, Shear behavior of high-strength fiber reinforced concrete beams, ACI Struct. J. 89 (1992) 176–184."
+              },
+              {
+                "ref-fulltext": "Media Cybernetics Inc., Image-pro plus version 7.0 for Windows, Start-Up Guide, Maryland, USA, 2012.",
+                "@reference-instance-id": "OB2BibRecID-952335651-12b6b0f4c588b804c97a75e7a59c881c-43",
+                "@id": "43",
+                "ref-info": {
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib43",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85177765509",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Media Cybernetics Inc., Image-pro plus version 7.0 for Windows, Start-Up Guide, Maryland, USA, 2012."
+                },
+                "ce:source-text": "Media Cybernetics Inc., Image-pro plus version 7.0 for Windows, Start-Up Guide, Maryland, USA, 2012."
+              },
+              {
+                "ref-fulltext": "Sahoo, D.R., Sharma, A., Effect of steel fiber content on behavior of concrete beams with and without stirrups. Acids Struct. J. 111 (2014), 1157–1166, 10.14359/51686821.",
+                "@reference-instance-id": "OB2BibRecID-952335651-0947d63334964dc5d2e2e6245800ec22-44",
+                "@id": "44",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of steel fiber content on behavior of concrete beams with and without stirrups"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.14359/51686821",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib44",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84922347110",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "111"
+                    },
+                    "pagerange": {
+                      "@first": "1157",
+                      "@last": "1166"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Sahoo",
+                        "ce:indexed-name": "Sahoo D.R."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Sharma",
+                        "ce:indexed-name": "Sharma A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Acids Struct. J."
+                },
+                "ce:source-text": "D.R. Sahoo, A. Sharma, Effect of steel fiber content on behavior of concrete beams with and without stirrups, ACI Struct. J. 111 (2014) 1157–1166. https://doi.org/10.14359/51686821."
+              },
+              {
+                "ref-fulltext": "Tahenni, T., Chemrouk, M., Lecompte, T., Effect of steel fibers on the shear behavior of high strength concrete beams. Constr. Build. Mater. 105 (2016), 14–28, 10.1016/j.conbuildmat.2015.12.010.",
+                "@reference-instance-id": "OB2BibRecID-952335651-d29977dd421a1daa09e062a4061a76ae-45",
+                "@id": "45",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of steel fibers on the shear behavior of high strength concrete beams"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.conbuildmat.2015.12.010",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib45",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84954517993",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "105"
+                    },
+                    "pagerange": {
+                      "@first": "14",
+                      "@last": "28"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Tahenni",
+                        "ce:indexed-name": "Tahenni T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Chemrouk",
+                        "ce:indexed-name": "Chemrouk M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Lecompte",
+                        "ce:indexed-name": "Lecompte T."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "T. Tahenni, M. Chemrouk, T. Lecompte, Effect of steel fibers on the shear behavior of high strength concrete beams, Constr. Build. Mater. 105 (2016) 14–28. https://doi.org/10.1016/j.conbuildmat.2015.12.010."
+              },
+              {
+                "ref-fulltext": "JIS A 1136, Method of test for compressive strength of spun concrete. Jpn. Ind. Stand., 2018.",
+                "@reference-instance-id": "OB2BibRecID-952335651-4b01265d8b27ea586a9b4ca0be22cc20-46",
+                "@id": "46",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Method of test for compressive strength of spun concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib46",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85177761060",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "@_fa": "true",
+                        "ce:surname": "JIS A 1136",
+                        "ce:indexed-name": "JIS A 1136"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Jpn. Ind. Stand."
+                },
+                "ce:source-text": "JIS A 1136. Method of test for compressive strength of spun concrete, Japanese Ind. Stand. (2018)."
+              },
+              {
+                "ref-fulltext": "JIS A 1113. Method of test for splitting tensile strength of concrete, Japanese Ind. Stand. (2018).",
+                "@reference-instance-id": "OB2BibRecID-952335651-00207380061c40cb02d708e65e2c544d-47",
+                "@id": "47",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib47",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85177794316",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "JIS A 1113. Method of test for splitting tensile strength of concrete, Japanese Ind. Stand."
+                },
+                "ce:source-text": "JIS A 1113. Method of test for splitting tensile strength of concrete, Japanese Ind. Stand. (2018)."
+              },
+              {
+                "ref-fulltext": "Watanabe, K., Oishi, S., Yonehana, M., Niwa, J., Experimental study on shear capacity of reinforced concrete beams of solid circular cross section. J. Jpn. Soc. Civ. Eng. Ser. E2 (Mater. Concr. Struct. 67 (2011), 200–212, 10.2208/jscejmcs.67.200.",
+                "@reference-instance-id": "OB2BibRecID-952335651-e213317dab280225498a07930afba42d-48",
+                "@id": "48",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental study on shear capacity of reinforced concrete beams of solid circular cross section"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.2208/jscejmcs.67.200",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib48",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84905240393",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "67"
+                    },
+                    "pagerange": {
+                      "@first": "200",
+                      "@last": "212"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Watanabe",
+                        "ce:indexed-name": "Watanabe K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Oishi",
+                        "ce:indexed-name": "Oishi S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Yonehana",
+                        "ce:indexed-name": "Yonehana M."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Niwa",
+                        "ce:indexed-name": "Niwa J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Jpn. Soc. Civ. Eng. Ser. E2 (Mater. Concr. Struct."
+                },
+                "ce:source-text": "K. Watanabe, S. Oishi, M. Yonehana, J. Niwa, Experimental study on shear capacity of reinforced concrete beams of solid circular cross section, J. Japan Soc. Civ. Eng. Ser. E2 (Materials Concr. Struct. 67 (2011) 200–212. https://doi.org/10.2208/jscejmcs.67.200."
+              },
+              {
+                "ref-fulltext": "JSCE, Standard specifications for concrete structures, 2007. 〈 http://conc.civil.okayama-u.ac.jp/~tayano7/JSCE/publication.html.%0Ahttp://conc.civil.okayama-u.ac.jp/~tayano7/JSCE/publication.html〉.",
+                "@reference-instance-id": "OB2BibRecID-952335651-cf24d329d4648c0596dc1a9e9fe7a9fe-49",
+                "@id": "49",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-website": {
+                    "ce:e-address": {
+                      "$": "http://conc.civil.okayama-u.ac.jp/~tayano7/JSCE/publication.html.%0Ahttp://conc.civil.okayama-u.ac.jp/~tayano7/JSCE/publication.html",
+                      "@type": "email"
+                    }
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib49",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85177738355",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "JSCE, Standard specifications for concrete structures 〈〉."
+                },
+                "ce:source-text": "JSCE, Standard specifications for concrete structures, 2007. 〈 http://conc.civil.okayama-u.ac.jp/~tayano7/JSCE/publication.html.%0Ahttp://conc.civil.okayama-u.ac.jp/~tayano7/JSCE/publication.html〉."
+              },
+              {
+                "ref-fulltext": "Study on structural performance evaluation for concrete pile sub-assemble system with post-earthquake functional use Chapter 3. Build. Res. Data, 2019.",
+                "@reference-instance-id": "OB2BibRecID-952335651-712504eaeb4ee3cfa28d541b38ed68eb-50",
+                "@id": "50",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Study on structural performance evaluation for concrete pile sub-assemble system with post-earthquake functional use Chapter 3"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib50",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85177802594",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Build. Res. Data"
+                },
+                "ce:source-text": "Study on structural performance evaluation for concrete pile sub-assemble system with post-earthquake functional use Chapter 3, Build. Res. Data. (2019)."
+              },
+              {
+                "ref-fulltext": "Abdi Moghadam, M., Izadifard, R.A., Prediction of the tensile strength of normal and steel fiber reinforced concrete exposed to high temperatures. Int. J. Concr. Struct. Mater., 15, 2021, 10.1186/s40069-021-00485-6.",
+                "@reference-instance-id": "OB2BibRecID-952335651-8ed3358333630140a07eaa273a4fda53-51",
+                "@id": "51",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Prediction of the tensile strength of normal and steel fiber reinforced concrete exposed to high temperatures"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1186/s40069-021-00485-6",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib51",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85119837422",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "15"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Abdi Moghadam",
+                        "ce:indexed-name": "Abdi Moghadam M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Izadifard",
+                        "ce:indexed-name": "Izadifard R.A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Int. J. Concr. Struct. Mater."
+                },
+                "ce:source-text": "M. Abdi Moghadam, R.A. Izadifard, Prediction of the tensile strength of normal and steel fiber reinforced concrete exposed to high temperatures, Int. J. Concr. Struct. Mater. 15 (2021). s40069–021-00485–6. https://doi.org/10.1186/s40069–021-00485–6."
+              },
+              {
+                "ref-fulltext": "Hemstapat, N., Okubo, K., Niwa, J., Prediction of shear capacity of slender reinforced concrete beams with steel fiber. J. Adv. Concr. Technol. 18 (2020), 179–191, 10.3151/jact.18.179.",
+                "@reference-instance-id": "OB2BibRecID-952335651-3e96261b035248a9a20d124c71f10bd0-52",
+                "@id": "52",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Prediction of shear capacity of slender reinforced concrete beams with steel fiber"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.3151/jact.18.179",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib52",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85085250078",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "18"
+                    },
+                    "pagerange": {
+                      "@first": "179",
+                      "@last": "191"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Hemstapat",
+                        "ce:indexed-name": "Hemstapat N."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Okubo",
+                        "ce:indexed-name": "Okubo K."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Niwa",
+                        "ce:indexed-name": "Niwa J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Adv. Concr. Technol."
+                },
+                "ce:source-text": "N. Hemstapat, K. Okubo, J. Niwa, Prediction of shear capacity of slender reinforced concrete beams with steel fiber, J. Adv. Concr. Technol. 18 (2020) 179–191. https://doi.org/10.3151/jact.18.179."
+              },
+              {
+                "ref-fulltext": "Swamy, R.N., Mangat, P.S., Rao, C.V.S.K., The mechanics of fiber reinforcement of cement matrices. Am. Concr. Inst., Acids Spec. Publ., 1974, 1–28.",
+                "@reference-instance-id": "OB2BibRecID-952335651-d881ad9227397b57f5d3ff59cde90817-53",
+                "@id": "53",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1974"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The mechanics of fiber reinforcement of cement matrices"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib53",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85114718804",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "1",
+                      "@last": "28"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Swamy",
+                        "ce:indexed-name": "Swamy R.N."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "P.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Mangat",
+                        "ce:indexed-name": "Mangat P.S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.V.S.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Rao",
+                        "ce:indexed-name": "Rao C.V.S.K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Am. Concr. Inst., Acids Spec. Publ."
+                },
+                "ce:source-text": "R.N. Swamy, P.S. Mangat, C.V.S.K. Rao, The mechanics of fiber reinforcement of cement matrices, in: Am. Concr. Institute, ACI Spec. Publ., 1974: pp. 1–28."
+              },
+              {
+                "ref-fulltext": "Vecchio, F.J., Collins, M.P., Modified compression-field theory for reinforced concrete elements subjected to shear. J. Am. Concr. Inst. 83 (1986), 219–231, 10.14359/10416.",
+                "@reference-instance-id": "OB2BibRecID-952335651-6e24a588b8e5d6d280153541f198ae65-54",
+                "@id": "54",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1986"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Modified compression-field theory for reinforced concrete elements subjected to shear"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.14359/10416",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib54",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0022675983",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "83"
+                    },
+                    "pagerange": {
+                      "@first": "219",
+                      "@last": "231"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Vecchio",
+                        "ce:indexed-name": "Vecchio F.J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Collins",
+                        "ce:indexed-name": "Collins M.P."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Am. Concr. Inst."
+                },
+                "ce:source-text": "F.J. Vecchio, M.P. Collins, Modified compression-field theory for reinforced concrete elements subjected to shear., J. Am. Concr. Inst. 83 (1986) 219–231. https://doi.org/10.14359/10416."
+              },
+              {
+                "ref-fulltext": "Japan Road Association, Specifications for highway bridges, Part IV. Substructures, 2017.",
+                "@reference-instance-id": "OB2BibRecID-952335651-4b0b511fca33369c714c37fee33c8e19-55",
+                "@id": "55",
+                "ref-info": {
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib55",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85177803912",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Japan Road Association, Specifications for highway bridges, Part IV. Substructures, 2017."
+                },
+                "ce:source-text": "Japan Road Association, Specifications for highway bridges, Part IV. Substructures, 2017."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "affiliation": [
+      {
+        "affiliation-city": "Tokyo",
+        "@id": "60023462",
+        "affilname": "Waseda University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60023462",
+        "affiliation-country": "Japan"
+      },
+      {
+        "affiliation-city": "Tokyo",
+        "@id": "126636139",
+        "affilname": "Ltd.",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/126636139",
+        "affiliation-country": "Japan"
+      }
+    ],
+    "coredata": {
+      "srctype": "j",
+      "eid": "2-s2.0-85177749881",
+      "dc:description": "This paper aims to investigate shear performance and develop an equation for shear strength assessment of centrifugal forming hollow circular steel fiber reinforced concrete (HSFRC) piles in a practical manufacturing condition. The centrifugal forming was optimized using concrete mixes with different steel fibers. The shear performance and size effect of HSFRC and conventional hollow circular reinforced concrete (HRC) piles with/without stirrups were investigated. Results of X-ray visualization show that, after centrifugal forming, steel fibers were evenly distributed and reoriented in the circumferential direction of the piles, effectively enhancing shear performance. Even with a low steel fiber content of 0.5%, HSFRC piles achieve equivalent shear performance and less brittle behavior compared to HRC piles with shear reinforcement ratios of 0.27%. This implies that higher steel fiber contents can potentially be used to replace stirrups for a flexural failure. SFRC remarkably inhibited the size effect of HSFRC piles. Moreover, a proposed equation considering fiber orientation can better predict the shear strength of centrifugal forming HSFRC piles compared to existing equations.",
+      "prism:coverDate": "2023-12-15",
+      "prism:aggregationType": "Journal",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85177749881",
+      "subtypeDescription": "Article",
+      "dc:creator": {
+        "author": [
+          {
+            "ce:given-name": "Chi",
+            "preferred-name": {
+              "ce:given-name": "Chi",
+              "ce:initials": "C.",
+              "ce:surname": "Chen",
+              "ce:indexed-name": "Chen C."
+            },
+            "@seq": "1",
+            "ce:initials": "C.",
+            "@_fa": "true",
+            "affiliation": {
+              "@id": "60023462",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60023462"
+            },
+            "ce:surname": "Chen",
+            "@auid": "59639798500",
+            "author-url": "https://api.elsevier.com/content/author/author_id/59639798500",
+            "ce:indexed-name": "Chen C."
+          }
+        ]
+      },
+      "link": [
+        {
+          "@_fa": "true",
+          "@rel": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85177749881"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85177749881&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85177749881&origin=inward"
+        }
+      ],
+      "prism:publicationName": "Construction and Building Materials",
+      "source-id": "24443",
+      "pii": "S0950061823038588",
+      "citedby-count": "5",
+      "prism:volume": "409",
+      "subtype": "ar",
+      "dc:title": "Shear performance of centrifugal forming hollow circular SFRC piles: Feasibility study of replacing stirrups with steel fibers",
+      "openaccess": "0",
+      "openaccessFlag": "false",
+      "prism:doi": "10.1016/j.conbuildmat.2023.134140",
+      "prism:issn": "09500618",
+      "publishercopyright": "© 2023 Elsevier Ltd",
+      "article-number": "134140",
+      "dc:identifier": "SCOPUS_ID:85177749881",
+      "dc:publisher": "Elsevier Ltd"
+    },
+    "idxterms": {
+      "mainterm": [
+        {
+          "$": "Centrifugal forming",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Circular steels",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Fibre orientation",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Reinforced concrete piles",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "SFRC pile",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Shear performance",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Shears strength",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Sizes effect",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Steel fiber reinforced concretes",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "X-ray image",
+          "@weight": "b",
+          "@candidate": "n"
+        }
+      ]
+    },
+    "language": {
+      "@xml:lang": "eng"
+    },
+    "authkeywords": {
+      "author-keyword": [
+        {
+          "@_fa": "true",
+          "$": "Centrifugal forming"
+        },
+        {
+          "@_fa": "true",
+          "$": "Fiber orientation"
+        },
+        {
+          "@_fa": "true",
+          "$": "SFRC pile"
+        },
+        {
+          "@_fa": "true",
+          "$": "Shear performance"
+        },
+        {
+          "@_fa": "true",
+          "$": "Size effect"
+        },
+        {
+          "@_fa": "true",
+          "$": "X-ray image"
+        }
+      ]
+    },
+    "subject-areas": {
+      "subject-area": [
+        {
+          "@_fa": "true",
+          "$": "Civil and Structural Engineering",
+          "@code": "2205",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Building and Construction",
+          "@code": "2215",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Materials Science (all)",
+          "@code": "2500",
+          "@abbrev": "MATE"
+        }
+      ]
+    },
+    "authors": {
+      "author": [
+        {
+          "ce:given-name": "Chi",
+          "preferred-name": {
+            "ce:given-name": "Chi",
+            "ce:initials": "C.",
+            "ce:surname": "Chen",
+            "ce:indexed-name": "Chen C."
+          },
+          "@seq": "1",
+          "ce:initials": "C.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60023462",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60023462"
+          },
+          "ce:surname": "Chen",
+          "@auid": "59639798500",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59639798500",
+          "ce:indexed-name": "Chen C."
+        },
+        {
+          "ce:given-name": "Mitsuyoshi",
+          "preferred-name": {
+            "ce:given-name": "Mitsuyoshi",
+            "ce:initials": "M.",
+            "ce:surname": "Akiyama",
+            "ce:indexed-name": "Akiyama M."
+          },
+          "@seq": "2",
+          "ce:initials": "M.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60023462",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60023462"
+          },
+          "ce:surname": "Akiyama",
+          "@auid": "35784056100",
+          "author-url": "https://api.elsevier.com/content/author/author_id/35784056100",
+          "ce:indexed-name": "Akiyama M."
+        },
+        {
+          "ce:given-name": "Sopokhem",
+          "preferred-name": {
+            "ce:given-name": "Sopokhem",
+            "ce:initials": "S.",
+            "ce:surname": "Lim",
+            "ce:indexed-name": "Lim S."
+          },
+          "@seq": "3",
+          "ce:initials": "S.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60023462",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60023462"
+          },
+          "ce:surname": "Lim",
+          "@auid": "56828511400",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56828511400",
+          "ce:indexed-name": "Lim S."
+        },
+        {
+          "ce:given-name": "Soichiro",
+          "preferred-name": {
+            "ce:given-name": "Soichiro",
+            "ce:initials": "S.",
+            "ce:surname": "Kondo",
+            "ce:indexed-name": "Kondo S."
+          },
+          "@seq": "4",
+          "ce:initials": "S.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "126636139",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/126636139"
+          },
+          "ce:surname": "Kondo",
+          "@auid": "58719440300",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58719440300",
+          "ce:indexed-name": "Kondo S."
+        },
+        {
+          "ce:given-name": "Yuka",
+          "preferred-name": {
+            "ce:given-name": "Yuka",
+            "ce:initials": "Y.",
+            "ce:surname": "Hosono",
+            "ce:indexed-name": "Hosono Y."
+          },
+          "@seq": "5",
+          "ce:initials": "Y.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60023462",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60023462"
+          },
+          "ce:surname": "Hosono",
+          "@auid": "57226633076",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57226633076",
+          "ce:indexed-name": "Hosono Y."
+        },
+        {
+          "ce:given-name": "Yudan",
+          "preferred-name": {
+            "ce:given-name": "Yudan",
+            "ce:initials": "Y.",
+            "ce:surname": "Lai",
+            "ce:indexed-name": "Lai Y."
+          },
+          "@seq": "6",
+          "ce:initials": "Y.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60023462",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60023462"
+          },
+          "ce:surname": "Lai",
+          "@auid": "58718067600",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58718067600",
+          "ce:indexed-name": "Lai Y."
+        },
+        {
+          "ce:given-name": "Koki",
+          "preferred-name": {
+            "ce:given-name": "Koki",
+            "ce:initials": "K.",
+            "ce:surname": "Aoki",
+            "ce:indexed-name": "Aoki K."
+          },
+          "@seq": "7",
+          "ce:initials": "K.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60023462",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60023462"
+          },
+          "ce:surname": "Aoki",
+          "@auid": "57222168699",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57222168699",
+          "ce:indexed-name": "Aoki K."
+        }
+      ]
+    }
+  }
+}

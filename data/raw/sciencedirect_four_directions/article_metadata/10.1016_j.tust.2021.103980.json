@@ -1,0 +1,4033 @@
+{
+  "abstracts-retrieval-response": {
+    "item": {
+      "ait:process-info": {
+        "ait:status": {
+          "@state": "update",
+          "@type": "core",
+          "@stage": "S300"
+        },
+        "ait:date-delivered": {
+          "@day": "18",
+          "@timestamp": "2025-03-18T17:22:24.000024-04:00",
+          "@year": "2025",
+          "@month": "03"
+        },
+        "ait:date-sort": {
+          "@day": "01",
+          "@year": "2021",
+          "@month": "07"
+        }
+      },
+      "xocs:meta": {
+        "xocs:funding-list": {
+          "@pui-match": "primary",
+          "@has-funding-info": "1",
+          "xocs:funding": [
+            {
+              "xocs:funding-agency-matched-string": "National Natural Science Foundation of China",
+              "xocs:funding-agency-acronym": "NSFC",
+              "xocs:funding-agency": "National Natural Science Foundation of China",
+              "xocs:funding-id": [
+                {
+                  "$": "41630641"
+                },
+                {
+                  "$": "52078337"
+                }
+              ],
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "National Natural Science Foundation of China",
+              "xocs:funding-agency-acronym": "NSFC",
+              "xocs:funding-agency": "National Natural Science Foundation of China",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Natural Science Foundation of Tianjin, China",
+              "xocs:funding-agency": "Natural Science Foundation of Tianjin City",
+              "xocs:funding-id": "20JCQNJC01080",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100006606",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Natural Science Foundation of Tianjin, China",
+              "xocs:funding-agency": "Natural Science Foundation of Tianjin City",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100006606",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            }
+          ],
+          "xocs:funding-addon-generated-timestamp": "2021-06-05T06:24:25.487Z",
+          "xocs:funding-text": "This research was supported by the National Natural Science Foundation of China (No. 41630641, and 52078337) and the Natural Science Foundation of Tianjin, China (No. 20JCQNJC01080). The authors appreciate their financial support.",
+          "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }
+      },
+      "bibrecord": {
+        "head": {
+          "author-group": [
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "300072",
+                "@afid": "60019533",
+                "@country": "chn",
+                "city": "Tianjin",
+                "organization": [
+                  {
+                    "$": "School of Civil Engineering"
+                  },
+                  {
+                    "$": "Tianjin University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60019533"
+                },
+                "@affiliation-instance-id": "S0886779821001711-cb8d7a9a4ade081474f429d1fced6ca5",
+                "ce:source-text": "School of Civil Engineering, Tianjin University, Tianjin 300072, China"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Haizuo",
+                  "preferred-name": {
+                    "ce:given-name": "Haizuo",
+                    "ce:initials": "H.",
+                    "ce:surname": "Zhou",
+                    "ce:indexed-name": "Zhou H."
+                  },
+                  "@author-instance-id": "S0886779821001711-edf045c2b7c23b4743d1091312d0ffb3",
+                  "@seq": "1",
+                  "ce:initials": "H.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Zhou",
+                  "@auid": "56580732300",
+                  "ce:indexed-name": "Zhou H."
+                },
+                {
+                  "ce:given-name": "Huajun",
+                  "preferred-name": {
+                    "ce:given-name": "Huajun",
+                    "ce:initials": "H.",
+                    "ce:surname": "Xu",
+                    "ce:indexed-name": "Xu H."
+                  },
+                  "@author-instance-id": "S0886779821001711-3b08fc317d18b25678cab8e12f7dab93",
+                  "@seq": "2",
+                  "ce:initials": "H.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Xu",
+                  "@auid": "57223152943",
+                  "ce:indexed-name": "Xu H."
+                },
+                {
+                  "ce:given-name": "Pengbo",
+                  "preferred-name": {
+                    "ce:given-name": "Pengbo",
+                    "ce:initials": "P.",
+                    "ce:surname": "Yang",
+                    "ce:indexed-name": "Yang P."
+                  },
+                  "@author-instance-id": "S0886779821001711-9dfd19626c7b6f787b500ed3d5fb0426",
+                  "@seq": "3",
+                  "ce:initials": "P.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Yang",
+                  "@auid": "56146222400",
+                  "ce:indexed-name": "Yang P."
+                },
+                {
+                  "ce:given-name": "Gang",
+                  "preferred-name": {
+                    "ce:given-name": "Gang",
+                    "ce:initials": "G.",
+                    "ce:surname": "Zheng",
+                    "ce:indexed-name": "Zheng G."
+                  },
+                  "@author-instance-id": "S0886779821001711-0b4e7af681461c4f4918b552c4ffb1b3",
+                  "@seq": "4",
+                  "ce:initials": "G.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Zheng",
+                  "@auid": "56506143100",
+                  "ce:indexed-name": "Zheng G."
+                },
+                {
+                  "ce:given-name": "Xiangning",
+                  "preferred-name": {
+                    "ce:given-name": "Xiangning",
+                    "ce:initials": "X.",
+                    "ce:surname": "Liu",
+                    "ce:indexed-name": "Liu X."
+                  },
+                  "@author-instance-id": "S0886779821001711-be89ab7d9a2702e0071e3a462653776a",
+                  "@seq": "5",
+                  "ce:initials": "X.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Liu",
+                  "@auid": "57223165119",
+                  "ce:indexed-name": "Liu X."
+                },
+                {
+                  "ce:given-name": "Wenbin",
+                  "preferred-name": {
+                    "ce:given-name": "Wenbin",
+                    "ce:initials": "W.",
+                    "ce:surname": "Zhang",
+                    "ce:indexed-name": "Zhang W."
+                  },
+                  "@author-instance-id": "S0886779821001711-54a4303b91773c4a9dd2906ca3acfdf9",
+                  "@seq": "6",
+                  "ce:initials": "W.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Zhang",
+                  "@auid": "57195260545",
+                  "ce:indexed-name": "Zhang W."
+                },
+                {
+                  "ce:given-name": "Jiapeng",
+                  "preferred-name": {
+                    "ce:given-name": "Jiapeng",
+                    "ce:initials": "J.",
+                    "ce:surname": "Zhao",
+                    "ce:indexed-name": "Zhao J."
+                  },
+                  "@author-instance-id": "S0886779821001711-8a81246e1ac4030a77c357973516924b",
+                  "@seq": "7",
+                  "ce:initials": "J.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Zhao",
+                  "@auid": "57204655474",
+                  "ce:indexed-name": "Zhao J."
+                },
+                {
+                  "ce:given-name": "Xiaoxuan",
+                  "preferred-name": {
+                    "ce:given-name": "Xiaoxuan",
+                    "ce:initials": "X.",
+                    "ce:surname": "Yu",
+                    "ce:indexed-name": "Yu X."
+                  },
+                  "@author-instance-id": "S0886779821001711-3ddfc2461c7f99178fffacda08c25c0a",
+                  "@seq": "8",
+                  "ce:initials": "X.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Yu",
+                  "@auid": "57196054072",
+                  "ce:indexed-name": "Yu X."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "300072",
+                "@afid": "60019533",
+                "@country": "chn",
+                "city": "Tianjin",
+                "organization": [
+                  {
+                    "$": "Key Laboratory of Coast Civil Structure Safety"
+                  },
+                  {
+                    "$": "Tianjin University"
+                  },
+                  {
+                    "$": "Ministry of Education"
+                  }
+                ],
+                "affiliation-id": [
+                  {
+                    "@afid": "60019533"
+                  },
+                  {
+                    "@afid": "60001604"
+                  }
+                ],
+                "@affiliation-instance-id": "S0886779821001711-aba6fe40c2f7dcfa5e717f125c52b518",
+                "ce:source-text": "Key Laboratory of Coast Civil Structure Safety, Tianjin University, Ministry of Education, Tianjin 300072, China"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Haizuo",
+                  "preferred-name": {
+                    "ce:given-name": "Haizuo",
+                    "ce:initials": "H.",
+                    "ce:surname": "Zhou",
+                    "ce:indexed-name": "Zhou H."
+                  },
+                  "@author-instance-id": "S0886779821001711-edf045c2b7c23b4743d1091312d0ffb3",
+                  "@seq": "1",
+                  "ce:initials": "H.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Zhou",
+                  "@auid": "56580732300",
+                  "ce:indexed-name": "Zhou H."
+                },
+                {
+                  "ce:given-name": "Huajun",
+                  "preferred-name": {
+                    "ce:given-name": "Huajun",
+                    "ce:initials": "H.",
+                    "ce:surname": "Xu",
+                    "ce:indexed-name": "Xu H."
+                  },
+                  "@author-instance-id": "S0886779821001711-3b08fc317d18b25678cab8e12f7dab93",
+                  "@seq": "2",
+                  "ce:initials": "H.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Xu",
+                  "@auid": "57223152943",
+                  "ce:indexed-name": "Xu H."
+                },
+                {
+                  "ce:given-name": "Pengbo",
+                  "preferred-name": {
+                    "ce:given-name": "Pengbo",
+                    "ce:initials": "P.",
+                    "ce:surname": "Yang",
+                    "ce:indexed-name": "Yang P."
+                  },
+                  "@author-instance-id": "S0886779821001711-9dfd19626c7b6f787b500ed3d5fb0426",
+                  "@seq": "3",
+                  "ce:initials": "P.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Yang",
+                  "@auid": "56146222400",
+                  "ce:indexed-name": "Yang P."
+                },
+                {
+                  "ce:given-name": "Gang",
+                  "preferred-name": {
+                    "ce:given-name": "Gang",
+                    "ce:initials": "G.",
+                    "ce:surname": "Zheng",
+                    "ce:indexed-name": "Zheng G."
+                  },
+                  "@author-instance-id": "S0886779821001711-0b4e7af681461c4f4918b552c4ffb1b3",
+                  "@seq": "4",
+                  "ce:initials": "G.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Zheng",
+                  "@auid": "56506143100",
+                  "ce:indexed-name": "Zheng G."
+                },
+                {
+                  "ce:given-name": "Xiangning",
+                  "preferred-name": {
+                    "ce:given-name": "Xiangning",
+                    "ce:initials": "X.",
+                    "ce:surname": "Liu",
+                    "ce:indexed-name": "Liu X."
+                  },
+                  "@author-instance-id": "S0886779821001711-be89ab7d9a2702e0071e3a462653776a",
+                  "@seq": "5",
+                  "ce:initials": "X.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Liu",
+                  "@auid": "57223165119",
+                  "ce:indexed-name": "Liu X."
+                },
+                {
+                  "ce:given-name": "Wenbin",
+                  "preferred-name": {
+                    "ce:given-name": "Wenbin",
+                    "ce:initials": "W.",
+                    "ce:surname": "Zhang",
+                    "ce:indexed-name": "Zhang W."
+                  },
+                  "@author-instance-id": "S0886779821001711-54a4303b91773c4a9dd2906ca3acfdf9",
+                  "@seq": "6",
+                  "ce:initials": "W.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Zhang",
+                  "@auid": "57195260545",
+                  "ce:indexed-name": "Zhang W."
+                },
+                {
+                  "ce:given-name": "Jiapeng",
+                  "preferred-name": {
+                    "ce:given-name": "Jiapeng",
+                    "ce:initials": "J.",
+                    "ce:surname": "Zhao",
+                    "ce:indexed-name": "Zhao J."
+                  },
+                  "@author-instance-id": "S0886779821001711-8a81246e1ac4030a77c357973516924b",
+                  "@seq": "7",
+                  "ce:initials": "J.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Zhao",
+                  "@auid": "57204655474",
+                  "ce:indexed-name": "Zhao J."
+                },
+                {
+                  "ce:given-name": "Xiaoxuan",
+                  "preferred-name": {
+                    "ce:given-name": "Xiaoxuan",
+                    "ce:initials": "X.",
+                    "ce:surname": "Yu",
+                    "ce:indexed-name": "Yu X."
+                  },
+                  "@author-instance-id": "S0886779821001711-3ddfc2461c7f99178fffacda08c25c0a",
+                  "@seq": "8",
+                  "ce:initials": "X.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Yu",
+                  "@auid": "57196054072",
+                  "ce:indexed-name": "Yu X."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "300072",
+                "@afid": "60019533",
+                "@country": "chn",
+                "city": "Tianjin",
+                "organization": [
+                  {
+                    "$": "State Key Laboratory of Hydraulic Engineering Simulation and Safety"
+                  },
+                  {
+                    "$": "Tianjin University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60019533"
+                },
+                "@affiliation-instance-id": "S0886779821001711-b24b71c55dde37ec7fdfedf9dc299ed7",
+                "ce:source-text": "State Key Laboratory of Hydraulic Engineering Simulation and Safety, Tianjin University, Tianjin 300072, China"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Haizuo",
+                  "preferred-name": {
+                    "ce:given-name": "Haizuo",
+                    "ce:initials": "H.",
+                    "ce:surname": "Zhou",
+                    "ce:indexed-name": "Zhou H."
+                  },
+                  "@author-instance-id": "S0886779821001711-edf045c2b7c23b4743d1091312d0ffb3",
+                  "@seq": "1",
+                  "ce:initials": "H.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Zhou",
+                  "@auid": "56580732300",
+                  "ce:indexed-name": "Zhou H."
+                },
+                {
+                  "ce:given-name": "Gang",
+                  "preferred-name": {
+                    "ce:given-name": "Gang",
+                    "ce:initials": "G.",
+                    "ce:surname": "Zheng",
+                    "ce:indexed-name": "Zheng G."
+                  },
+                  "@author-instance-id": "S0886779821001711-0b4e7af681461c4f4918b552c4ffb1b3",
+                  "@seq": "4",
+                  "ce:initials": "G.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Zheng",
+                  "@auid": "56506143100",
+                  "ce:indexed-name": "Zheng G."
+                }
+              ]
+            }
+          ],
+          "citation-title": "Centrifuge and numerical modelling of the seismic response of tunnels in two-layered soils",
+          "abstracts": "© 2021 Elsevier LtdSoil deposits inevitably affect the seismic performance of underground structures, and underground tunnels are commonly constructed on sites composed of layered soil deposits. In this study, dynamic centrifuge tests and numerical modelling are conducted to enhance the fundamental understanding of the kinematic soil-tunnel interaction for tunnels constructed in layered soils that consist of muddy clay and silty clay. The site seismic response and tunnel seismic performance between the centrifuge and numerical modelling are compared. The acceleration time histories, amplification factors of the input motions, and the Fourier spectra between free field and structural field are experimentally and numerically investigated. For comparative purposes, parametric studies of tunnels in a single muddy clay and a single silty clay using verified numerical modelling are carried out. In addition, the dynamic bending moment and axial forces obtained by centrifuge and numerical modelling are compared with the solutions predicted by analytical methods in prior studies.",
+          "correspondence": {
+            "affiliation": {
+              "country": "China",
+              "postal-code": "300072",
+              "@country": "chn",
+              "city": "Tianjin",
+              "organization": [
+                {
+                  "$": "School of Civil Engineering"
+                },
+                {
+                  "$": "Tianjin University"
+                }
+              ]
+            },
+            "person": {
+              "ce:given-name": "Gang",
+              "ce:initials": "G.",
+              "ce:surname": "Zheng",
+              "ce:indexed-name": "Zheng G."
+            }
+          },
+          "citation-info": {
+            "author-keywords": {
+              "author-keyword": [
+                {
+                  "$": "Acceleration response",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Centrifuge tests",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Muddy clay",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Numerical modelling",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Silty clay",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                }
+              ]
+            },
+            "citation-type": {
+              "@code": "ar"
+            },
+            "citation-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "abstract-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            }
+          },
+          "source": {
+            "website": {
+              "ce:e-address": {
+                "$": "www.elsevier.com/inca/publications/store/7/9/9/",
+                "@type": "email"
+              }
+            },
+            "translated-sourcetitle": {
+              "$": "Tunnelling and Underground Space Technology",
+              "@xml:lang": "eng"
+            },
+            "volisspag": {
+              "voliss": {
+                "@volume": "113"
+              }
+            },
+            "@type": "j",
+            "sourcetitle": "Tunnelling and Underground Space Technology",
+            "publicationdate": {
+              "month": "07",
+              "year": "2021",
+              "date-text": "July 2021",
+              "day": "01"
+            },
+            "sourcetitle-abbrev": "Tunn. Undergr. Space Technol.",
+            "@country": "gbr",
+            "issn": {
+              "$": "08867798",
+              "@type": "print"
+            },
+            "publicationyear": {
+              "@first": "2021"
+            },
+            "publisher": {
+              "publishername": "Elsevier Ltd"
+            },
+            "article-number": "103980",
+            "@srcid": "14642"
+          },
+          "enhancement": {
+            "classificationgroup": {
+              "classifications": [
+                {
+                  "@type": "CPXCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "401.2",
+                      "classification-description": "Tunnels and Tunneling"
+                    },
+                    {
+                      "classification-code": "483.1",
+                      "classification-description": "Soils and Soil Mechanics"
+                    },
+                    {
+                      "classification-code": "484",
+                      "classification-description": "Seismology"
+                    },
+                    {
+                      "classification-code": "484.2",
+                      "classification-description": "Secondary Earthquake Effects"
+                    },
+                    {
+                      "classification-code": "802.1",
+                      "classification-description": "Chemical Plants and Equipment"
+                    },
+                    {
+                      "classification-code": "921",
+                      "classification-description": "Mathematics"
+                    },
+                    {
+                      "classification-code": "921.6",
+                      "classification-description": "Numerical Methods"
+                    }
+                  ]
+                },
+                {
+                  "@type": "FLXCLASS",
+                  "classification": {
+                    "classification-code": "78.23",
+                    "classification-description": "MIXING AND SEPARATION"
+                  }
+                },
+                {
+                  "@type": "GEOCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "72.13.4",
+                      "classification-description": "Engineering seismology"
+                    },
+                    {
+                      "classification-code": "77.10.12",
+                      "classification-description": "Influence of dynamic loads"
+                    }
+                  ]
+                },
+                {
+                  "@type": "ASJC",
+                  "classification": [
+                    {
+                      "$": "2215"
+                    },
+                    {
+                      "$": "1909"
+                    }
+                  ]
+                },
+                {
+                  "@type": "SUBJABBR",
+                  "classification": [
+                    {
+                      "$": "ENGI"
+                    },
+                    {
+                      "$": "EART"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "grantlist": {
+            "@complete": "y",
+            "grant-text": {
+              "$": "This research was supported by the National Natural Science Foundation of China (No. 41630641, and 52078337) and the Natural Science Foundation of Tianjin, China (No. 20JCQNJC01080). The authors appreciate their financial support.",
+              "@xml:lang": "eng"
+            }
+          }
+        },
+        "item-info": {
+          "copyright": {
+            "$": "Copyright 2021 Elsevier B.V., All rights reserved.",
+            "@type": "Elsevier"
+          },
+          "dbcollection": [
+            {
+              "$": "CPX"
+            },
+            {
+              "$": "FLX"
+            },
+            {
+              "$": "GEO"
+            },
+            {
+              "$": "REAXYSCAR"
+            },
+            {
+              "$": "SCOPUS"
+            },
+            {
+              "$": "Scopusbase"
+            }
+          ],
+          "history": {
+            "date-created": {
+              "@day": "14",
+              "@timestamp": "BST 08:45:30",
+              "@year": "2021",
+              "@month": "06"
+            }
+          },
+          "itemidlist": {
+            "itemid": [
+              {
+                "$": "2011905779",
+                "@idtype": "PUI"
+              },
+              {
+                "$": "932824473",
+                "@idtype": "CAR-ID"
+              },
+              {
+                "$": "20211810306984",
+                "@idtype": "CPX"
+              },
+              {
+                "$": "1607296",
+                "@idtype": "FLX"
+              },
+              {
+                "$": "6252208",
+                "@idtype": "GEO"
+              },
+              {
+                "$": "20211831039",
+                "@idtype": "REAXYSCAR"
+              },
+              {
+                "$": "20211462535",
+                "@idtype": "SCOPUS"
+              },
+              {
+                "$": "85105069501",
+                "@idtype": "SCP"
+              },
+              {
+                "$": "85105069501",
+                "@idtype": "SGR"
+              }
+            ],
+            "ce:pii": "S0886779821001711",
+            "ce:ern": "pii:S0886779821001711",
+            "ce:doi": "10.1016/j.tust.2021.103980"
+          }
+        },
+        "tail": {
+          "bibliography": {
+            "@refcount": "48",
+            "reference": [
+              {
+                "ref-fulltext": "Abuhajar, O., El Naggar, H., Newson, T., Experimental and numerical investigations of the effect of buried box culverts on earthquake excitation. Soil Dyn. Earthq. Eng. 79 (2015), 130–148.",
+                "@id": "1",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental and numerical investigations of the effect of buried box culverts on earthquake excitation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0005",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84943392292",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "79"
+                    },
+                    "pagerange": {
+                      "@first": "130",
+                      "@last": "148"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "O.",
+                        "@_fa": "true",
+                        "ce:surname": "Abuhajar",
+                        "ce:indexed-name": "Abuhajar O."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "El Naggar",
+                        "ce:indexed-name": "El Naggar H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Newson",
+                        "ce:indexed-name": "Newson T."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dyn. Earthq. Eng."
+                },
+                "ce:source-text": "Abuhajar, O, El Naggar, H, Newson, T., 2015. Experimental and numerical investigations of the effect of buried box culverts on earthquake excitation, Soil Dynamics and Earthquake Engineering,79, 130-148."
+              },
+              {
+                "ref-fulltext": "Amorosi, A., Boldini, D., Numerical modelling of the transverse dynamic behaviour of circular tunnels in clayey soils. Soil Dyn. Earthq. Eng. 29:6 (2009), 1059–1072.",
+                "@id": "2",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Numerical modelling of the transverse dynamic behaviour of circular tunnels in clayey soils"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0010",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "61749084915",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "29",
+                      "@issue": "6"
+                    },
+                    "pagerange": {
+                      "@first": "1059",
+                      "@last": "1072"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Amorosi",
+                        "ce:indexed-name": "Amorosi A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Boldini",
+                        "ce:indexed-name": "Boldini D."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dyn. Earthq. Eng."
+                },
+                "ce:source-text": "Amorosi, A., Boldini, D., 2009. Numerical modelling of the transverse dynamic behaviour of circular tunnels in clayey soils. Soil Dyn. Earthquake Eng. 29 (6), 1059-1072."
+              },
+              {
+                "ref-fulltext": "Anastasopoulos, I., Gerolymos, N., Drosos, V., Georgarakos, T., Kourkoulis, R., Gazetas, G., Behavior of deep immersed tunnel under combined normal fault rupture deformation and subsequent seismic shaking. Bull Earthq Eng. 6:2 (2008), 213–239.",
+                "@id": "3",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2008"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Behavior of deep immersed tunnel under combined normal fault rupture deformation and subsequent seismic shaking"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0015",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "42649142888",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "6",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "213",
+                      "@last": "239"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "I.",
+                        "@_fa": "true",
+                        "ce:surname": "Anastasopoulos",
+                        "ce:indexed-name": "Anastasopoulos I."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Gerolymos",
+                        "ce:indexed-name": "Gerolymos N."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "V.",
+                        "@_fa": "true",
+                        "ce:surname": "Drosos",
+                        "ce:indexed-name": "Drosos V."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Georgarakos",
+                        "ce:indexed-name": "Georgarakos T."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Kourkoulis",
+                        "ce:indexed-name": "Kourkoulis R."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Gazetas",
+                        "ce:indexed-name": "Gazetas G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Bull Earthq Eng."
+                },
+                "ce:source-text": "Anastasopoulos I, Gerolymos N, Drosos V, Georgarakos T, Kourkoulis R, Gazetas G., 2008. Behavior of deep immersed tunnel under combined normal fault rupture deformation and subsequent seismic shaking. Bull Earthq Eng. 6 (2): 213-239."
+              },
+              {
+                "ref-fulltext": "Argyroudis, S.A., Pitilakis, K.D., Seismic fragility curves of shallow tunnels in alluvial deposits. Soil Dyn. Earthq. Eng. 35 (2012), 1–12.",
+                "@id": "4",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic fragility curves of shallow tunnels in alluvial deposits"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0020",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84855237097",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "35"
+                    },
+                    "pagerange": {
+                      "@first": "1",
+                      "@last": "12"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Argyroudis",
+                        "ce:indexed-name": "Argyroudis S.A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Pitilakis",
+                        "ce:indexed-name": "Pitilakis K.D."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dyn. Earthq. Eng."
+                },
+                "ce:source-text": "Argyroudis, S.A., Pitilakis, K.D., 2012. Seismic fragility curves of shallow tunnels in alluvial deposits. Soil Dynamics and Earthquake Engineering, 35, 1-12."
+              },
+              {
+                "ref-fulltext": "Bakker, K.J., 2000. Soil Retaining Structures: Development of Models for Structural Analysis. Ph.D. thesis, Delft University of Technology.",
+                "@id": "5",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2000"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0025",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85105051425",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Soil Retaining Structures: Development of Models for Structural Analysis. Ph.D. thesis, Delft University of Technology.",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Bakker",
+                        "ce:indexed-name": "Bakker K.J."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Bakker, K.J., 2000. Soil Retaining Structures: Development of Models for Structural Analysis. Ph.D. thesis, Delft University of Technology."
+              },
+              {
+                "ref-fulltext": "Baziar, M.H., Moghadam, M.R., Kim, D.S., Choo, Y.W., Effect of underground tunnel on the ground surface acceleration. Tunn. Undergr. Space Technol. 44 (2014), 10–22.",
+                "@id": "6",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of underground tunnel on the ground surface acceleration"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0030",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84905647548",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "44"
+                    },
+                    "pagerange": {
+                      "@first": "10",
+                      "@last": "22"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Baziar",
+                        "ce:indexed-name": "Baziar M.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Moghadam",
+                        "ce:indexed-name": "Moghadam M.R."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim D.S."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Choo",
+                        "ce:indexed-name": "Choo Y.W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Baziar, M.H., Moghadam, M.R., Kim, D.S., Choo, Y. W., 2014. Effect of underground tunnel on the ground surface acceleration. Tunnelling and Underground Space Technology, 44, 10-22."
+              },
+              {
+                "ref-fulltext": "Baziar, M.H., Moghadam, M.R., Choo, Y.W., Kim, D.S., Tunnel flexibility effect on the ground surface acceleration response. Earthq. Eng. Eng. Vibrat. 15:3 (2016), 457–476.",
+                "@id": "7",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Tunnel flexibility effect on the ground surface acceleration response"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0035",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85008497194",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "15",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "457",
+                      "@last": "476"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Baziar",
+                        "ce:indexed-name": "Baziar M.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Moghadam",
+                        "ce:indexed-name": "Moghadam M.R."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Choo",
+                        "ce:indexed-name": "Choo Y.W."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "D.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim D.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Earthq. Eng. Eng. Vibrat."
+                },
+                "ce:source-text": "Baziar, M. H., Moghadam, M. R., Choo, Y. W., & Kim, D. S. (2016). Tunnel flexibility effect on the ground surface acceleration response. Earthquake Engineering and Engineering Vibration, 15(3), 457-476."
+              },
+              {
+                "ref-fulltext": "Bilotta, E., Lanzano, G., Madabhushi, S.P.G., Silvestri, F., A numerical round robin on tunnels under seismic actions. Acta Geotech. 9:4 (2014), 563–579.",
+                "@id": "8",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A numerical round robin on tunnels under seismic actions"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0040",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84904980748",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "9",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "563",
+                      "@last": "579"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Bilotta",
+                        "ce:indexed-name": "Bilotta E."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Lanzano",
+                        "ce:indexed-name": "Lanzano G."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.P.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Madabhushi",
+                        "ce:indexed-name": "Madabhushi S.P.G."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Silvestri",
+                        "ce:indexed-name": "Silvestri F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Acta Geotech."
+                },
+                "ce:source-text": "Bilotta E, Lanzano G, Madabhushi SPG, Silvestri F., 2014. A numerical round robin on tunnels under seismic actions. Acta Geotech. 9(4):563-579."
+              },
+              {
+                "ref-fulltext": "Blom, C.B.M., Design Philosophy of Concrete Linings for Tunnels in Soft Soils. Ph.D. thesis, 2002, Delft University of Technology.",
+                "@id": "9",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2002"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Design Philosophy of Concrete Linings for Tunnels in Soft Soils"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0045",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0242646361",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Ph.D. thesis Delft University of Technology",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.B.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Blom",
+                        "ce:indexed-name": "Blom C.B.M."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Blom, C.B.M., 2002. Design Philosophy of Concrete Linings for Tunnels in Soft Soils. Ph.D. thesis, Delft University of Technology."
+              },
+              {
+                "ref-fulltext": "Bobet, A., Effect of pore water pressure on tunnel support during static and seismic loading. Tunn. Undergr. Space Technol. 18:4 (2003), 377–393.",
+                "@id": "10",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2003"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of pore water pressure on tunnel support during static and seismic loading"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0050",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0037668087",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "18",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "377",
+                      "@last": "393"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Bobet",
+                        "ce:indexed-name": "Bobet A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Bobet, A. (2003). Effect of pore water pressure on tunnel support during static and seismic loading. Tunnelling and Underground Space Technology, 18(4), 377–393."
+              },
+              {
+                "ref-fulltext": "Bobet, A., Fernandez, G., Huo, H., Ramirez, J., A practical iterative procedure to estimate seismic-induced deformations of shallow rectangular structures. Can. Geotech. J. 45 (2008), 923–938.",
+                "@id": "11",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2008"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A practical iterative procedure to estimate seismic-induced deformations of shallow rectangular structures"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0055",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "47749133426",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "45"
+                    },
+                    "pagerange": {
+                      "@first": "923",
+                      "@last": "938"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Bobet",
+                        "ce:indexed-name": "Bobet A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Fernandez",
+                        "ce:indexed-name": "Fernandez G."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Huo",
+                        "ce:indexed-name": "Huo H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Ramirez",
+                        "ce:indexed-name": "Ramirez J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Can. Geotech. J."
+                },
+                "ce:source-text": "Bobet, A., Fernandez, G., Huo, H., Ramirez, J., 2008. A practical iterative procedure to estimate seismic-induced deformations of shallow rectangular structures. Can. Geotech. J. 45, 923-938."
+              },
+              {
+                "ref-fulltext": "Bobet, A., Drained and undrained response of deep tunnels subjected to far-field shear loading. Tunn. Undergr. Space Technol. 25 (2010), 21–31.",
+                "@id": "12",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Drained and undrained response of deep tunnels subjected to far-field shear loading"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0060",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "74249109982",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "25"
+                    },
+                    "pagerange": {
+                      "@first": "21",
+                      "@last": "31"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Bobet",
+                        "ce:indexed-name": "Bobet A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Bobet, A., 2010. Drained and undrained response of deep tunnels subjected to far-field shear loading. Tunn. Undergr. Space Technol. 25, 21-31."
+              },
+              {
+                "ref-fulltext": "Chen, J., Jiang, L., Li, J., Shi, X., Numerical simulation of shaking table test on utility tunnel under non-uniform earthquake excitation. Tunn. Undergr. Space Technol. 30 (2012), 205–216.",
+                "@id": "13",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Numerical simulation of shaking table test on utility tunnel under non-uniform earthquake excitation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0065",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84860633185",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "30"
+                    },
+                    "pagerange": {
+                      "@first": "205",
+                      "@last": "216"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Jiang",
+                        "ce:indexed-name": "Jiang L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi X."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Chen, J., Jiang, L., Li, J., Shi, X. (2012). Numerical simulation of shaking table test on utility tunnel under non-uniform earthquake excitation. Tunnelling and Underground Space Technology, 30, 205-216."
+              },
+              {
+                "ref-fulltext": "Chou, H.S., Yang, C.Y., Hsieh, B.J., Chang, S.S., A study of liquefaction related damages on shield tunnels. Tunn. Undergr. Space Technol. 16:3 (2001), 185–193.",
+                "@id": "14",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2001"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A study of liquefaction related damages on shield tunnels"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0070",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0035401947",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "16",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "185",
+                      "@last": "193"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Chou",
+                        "ce:indexed-name": "Chou H.S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang C.Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "B.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Hsieh",
+                        "ce:indexed-name": "Hsieh B.J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "S.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Chang",
+                        "ce:indexed-name": "Chang S.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Chou HS, Yang CY, Hsieh BJ, Chang SS., 2001. A study of liquefaction related damages on shield tunnels. Tunnelling and Underground Space Technology. 16 (3), 185-193."
+              },
+              {
+                "ref-fulltext": "Chian, S.C., Tokimatsu, K., Madabhushi, S.P.G., Soil liquefaction-induced uplift of underground structures: physical and numerical modeling. J. Geotech. Geoenviron. Eng., 140(10), 2014, 04014057.",
+                "@id": "15",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Soil liquefaction-induced uplift of underground structures: physical and numerical modeling"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0075",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84928887828",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "140",
+                      "@issue": "10"
+                    },
+                    "pagerange": {
+                      "@first": "04014057"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Chian",
+                        "ce:indexed-name": "Chian S.C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Tokimatsu",
+                        "ce:indexed-name": "Tokimatsu K."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.P.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Madabhushi",
+                        "ce:indexed-name": "Madabhushi S.P.G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Geotech. Geoenviron. Eng."
+                },
+                "ce:source-text": "Chian SC, Tokimatsu K, Madabhushi SPG., 2014. Soil liquefaction-induced uplift of underground structures: physical and numerical modeling. Journal of Geotechnical and Geoenvironmental Engineering. 140 (10), 04014057."
+              },
+              {
+                "ref-fulltext": "Cilingir, U., Madabhushi, S.P.G., Effect of depth on the seismic response of square tunnels. Soils Found. 51:3 (2011), 449–457.",
+                "@id": "16",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of depth on the seismic response of square tunnels"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0080",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84866920307",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "51",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "449",
+                      "@last": "457"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "U.",
+                        "@_fa": "true",
+                        "ce:surname": "Cilingir",
+                        "ce:indexed-name": "Cilingir U."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.P.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Madabhushi",
+                        "ce:indexed-name": "Madabhushi S.P.G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soils Found."
+                },
+                "ce:source-text": "Cilingir, U., Madabhushi, S.P.G., 2011a. Effect of depth on the seismic response of square tunnels. Soils Found. 51 (3), 449-457."
+              },
+              {
+                "ref-fulltext": "Cilingir, U., Madabhushi, S.P.G., Effect of depth on the seismic response of circular tunnels. Can. Geotech. J. 48:1 (2011), 117–127.",
+                "@id": "17",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of depth on the seismic response of circular tunnels"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0085",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "78951481651",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "48",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "117",
+                      "@last": "127"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "U.",
+                        "@_fa": "true",
+                        "ce:surname": "Cilingir",
+                        "ce:indexed-name": "Cilingir U."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.P.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Madabhushi",
+                        "ce:indexed-name": "Madabhushi S.P.G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Can. Geotech. J."
+                },
+                "ce:source-text": "Cilingir, U., Madabhushi, S.P.G., 2011b. Effect of depth on the seismic response of circular tunnels. Can. Geotech. J. 48 (1), 117-127."
+              },
+              {
+                "ref-fulltext": "Cilingir, U., Madabhushi, S.P.G., A model study on the effects of input motion on the seismic behaviour of tunnels. Soil Dyn. Earthq. Eng. 31 (2011), 452–462.",
+                "@id": "18",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A model study on the effects of input motion on the seismic behaviour of tunnels"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0090",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "78650561999",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "31"
+                    },
+                    "pagerange": {
+                      "@first": "452",
+                      "@last": "462"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "U.",
+                        "@_fa": "true",
+                        "ce:surname": "Cilingir",
+                        "ce:indexed-name": "Cilingir U."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.P.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Madabhushi",
+                        "ce:indexed-name": "Madabhushi S.P.G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dyn. Earthq. Eng."
+                },
+                "ce:source-text": "Cilingir, U., Madabhushi, S.P.G., 2011c. A model study on the effects of input motion on the seismic behaviour of tunnels. Soil Dyn. Earthquake Eng. 31, 452–462."
+              },
+              {
+                "ref-fulltext": "Conti, R., Viggiani, G., Perugini, F., Numerical modelling of centrifuge dynamic tests of circular tunnels in dry sand. Acta Geotech. 9:4 (2013), 597–612.",
+                "@id": "19",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Numerical modelling of centrifuge dynamic tests of circular tunnels in dry sand"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0095",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84905050187",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "9",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "597",
+                      "@last": "612"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Conti",
+                        "ce:indexed-name": "Conti R."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Viggiani",
+                        "ce:indexed-name": "Viggiani G."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Perugini",
+                        "ce:indexed-name": "Perugini F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Acta Geotech."
+                },
+                "ce:source-text": "Conti, R., Viggiani, G., Perugini, F., 2013. Numerical modelling of centrifuge dynamic tests of circular tunnels in dry sand. Acta Geotechnica, 9(4), 597-612."
+              },
+              {
+                "ref-fulltext": "Dashti, S., Hashash, Y.M.A., Gillis, K., Musgrove, M., Walker, M., Development of dynamic centrifuge models of underground structures near tall buildings. Soil Dyn. Earthq. Eng. 86 (2016), 89–105.",
+                "@id": "20",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Development of dynamic centrifuge models of underground structures near tall buildings"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0100",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84964931564",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "86"
+                    },
+                    "pagerange": {
+                      "@first": "89",
+                      "@last": "105"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Dashti",
+                        "ce:indexed-name": "Dashti S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.M.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Hashash",
+                        "ce:indexed-name": "Hashash Y.M.A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Gillis",
+                        "ce:indexed-name": "Gillis K."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Musgrove",
+                        "ce:indexed-name": "Musgrove M."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Walker",
+                        "ce:indexed-name": "Walker M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dyn. Earthq. Eng."
+                },
+                "ce:source-text": "Dashti S, Hashash YMA, Gillis K, Musgrove M, Walker M., 2016. Development of dynamic centrifuge models of underground structures near tall buildings.Soil Dynamics and Earthquake Engineering. 86, 89-105."
+              },
+              {
+                "ref-fulltext": "Fargnoli, V., Boldini, D., Amorosi, A., Twin tunnel excavation in coarse grained soils: observations and numerical back-predictions under free field conditions and in presence of a surface structure. Tunn. Undergr. Sp. Technol. 49 (2015), 454–469.",
+                "@id": "21",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Twin tunnel excavation in coarse grained soils: observations and numerical back-predictions under free field conditions and in presence of a surface structure"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0105",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84934954035",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "49"
+                    },
+                    "pagerange": {
+                      "@first": "454",
+                      "@last": "469"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "V.",
+                        "@_fa": "true",
+                        "ce:surname": "Fargnoli",
+                        "ce:indexed-name": "Fargnoli V."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Boldini",
+                        "ce:indexed-name": "Boldini D."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Amorosi",
+                        "ce:indexed-name": "Amorosi A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Sp. Technol."
+                },
+                "ce:source-text": "Fargnoli, V., Boldini, D., Amorosi, A., 2015. Twin tunnel excavation in coarse grained soils: Observations and numerical back-predictions under free field conditions and in presence of a surface structure. Tunn. Undergr. Sp. Technol. 49, 454-469."
+              },
+              {
+                "ref-fulltext": "Green, R.A., Olgun, C.G., Cameron, W.I., Response and modeling of cantilever retaining walls subjected to seismic motions. Comput.-Aided Civ. Infrastruct. Eng. 23 (2008), 309–322.",
+                "@id": "22",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2008"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Response and modeling of cantilever retaining walls subjected to seismic motions"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0110",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "41149149233",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "23"
+                    },
+                    "pagerange": {
+                      "@first": "309",
+                      "@last": "322"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Green",
+                        "ce:indexed-name": "Green R.A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Olgun",
+                        "ce:indexed-name": "Olgun C.G."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "W.I.",
+                        "@_fa": "true",
+                        "ce:surname": "Cameron",
+                        "ce:indexed-name": "Cameron W.I."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Comput.-Aided Civ. Infrastruct. Eng."
+                },
+                "ce:source-text": "Green, R.A., Olgun, C.G., Cameron, W.I., 2008. Response and modeling of cantilever retaining walls subjected to seismic motions. Comput.-Aided Civ. Infrastruct. Eng. 23, 309-322."
+              },
+              {
+                "ref-fulltext": "Gomes, R.C., Gouveia, F., Torcato, D., Santos, J., Seismic response of shallow circular tunnels in two-layered ground. Soil Dyn. Earthq. Eng. 75 (2015), 37–43.",
+                "@id": "23",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic response of shallow circular tunnels in two-layered ground"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0115",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84927725930",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "75"
+                    },
+                    "pagerange": {
+                      "@first": "37",
+                      "@last": "43"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Gomes",
+                        "ce:indexed-name": "Gomes R.C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Gouveia",
+                        "ce:indexed-name": "Gouveia F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Torcato",
+                        "ce:indexed-name": "Torcato D."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Santos",
+                        "ce:indexed-name": "Santos J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dyn. Earthq. Eng."
+                },
+                "ce:source-text": "Gomes, R. C., Gouveia, Fátima, Torcato, D., Santos, J., 2015. Seismic response of shallow circular tunnels in two-layered ground. Soil Dynamics and Earthquake Engineering, 75, 37-43."
+              },
+              {
+                "ref-fulltext": "Hamada, M., Liquefaction induced ground displacement and its related damage to lifeline facilities. Soils Found., 1996, 81–97.",
+                "@id": "24",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1996"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Liquefaction induced ground displacement and its related damage to lifeline facilities"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0120",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0029716489",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "81",
+                      "@last": "97"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Hamada",
+                        "ce:indexed-name": "Hamada M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soils Found."
+                },
+                "ce:source-text": "Hamada M., 1996. Liquefaction induced ground displacement and its related damage to lifeline facilities. Soils and Foundations. 81-97."
+              },
+              {
+                "ref-fulltext": "Hashash, Y.M.A., Hook, J.J., Schmidt, B., Yao, J.I.C., Seismic design and analysis of underground structures. Tunn. Under Space Technol. 16:2 (2001), 247–293.",
+                "@id": "25",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2001"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic design and analysis of underground structures"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0125",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0035492228",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "16",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "247",
+                      "@last": "293"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.M.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Hashash",
+                        "ce:indexed-name": "Hashash Y.M.A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Hook",
+                        "ce:indexed-name": "Hook J.J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Schmidt",
+                        "ce:indexed-name": "Schmidt B."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.I.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Yao",
+                        "ce:indexed-name": "Yao J.I.C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Under Space Technol."
+                },
+                "ce:source-text": "Hashash, Y.M.A., Hook, J.J., Schmidt, B., Yao, J.I.C., 2001. Seismic design and analysis of underground structures. Tunn. Under Space Technol. 16(2), 247-293."
+              },
+              {
+                "ref-fulltext": "Hashash, Y.M.A., Park, D., Yao, J.I.C., Ovaling deformations of circular tunnels under seismic loading an update on seismic design and analysis of underground structures. Tunn. Undergr. Space Technol. 20:5 (2005), 435–441.",
+                "@id": "26",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2005"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Ovaling deformations of circular tunnels under seismic loading an update on seismic design and analysis of underground structures"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0130",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "20844444643",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "20",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "435",
+                      "@last": "441"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.M.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Hashash",
+                        "ce:indexed-name": "Hashash Y.M.A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Park",
+                        "ce:indexed-name": "Park D."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.I.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Yao",
+                        "ce:indexed-name": "Yao J.I.C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Hashash, Y.M.A., Park, D., Yao, J.I.C., 2005. Ovaling deformations of circular tunnels under seismic loading an update on seismic design and analysis of underground structures. Tunn. Undergr. Space Technol. 20 (5), 435-441."
+              },
+              {
+                "ref-fulltext": "Hu, Z.F., Yue, Z.Q., Zhou, J., Tham, L.G., Design and construction of a deep excavation in soft soils adjacent to the shanghai metro tunnels. Can. Geotech. J. 40:5 (2003), 933–948.",
+                "@id": "27",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2003"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Design and construction of a deep excavation in soft soils adjacent to the shanghai metro tunnels"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0135",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0346056717",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "40",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "933",
+                      "@last": "948"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Hu",
+                        "ce:indexed-name": "Hu Z.F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Yue",
+                        "ce:indexed-name": "Yue Z.Q."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "L.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Tham",
+                        "ce:indexed-name": "Tham L.G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Can. Geotech. J."
+                },
+                "ce:source-text": "Hu, Z. F., Yue, Z. Q., Zhou, J., Tham, L. G., 2003. Design and construction of a deep excavation in soft soils adjacent to the shanghai metro tunnels. Canadian Geotechnical Journal, 40(5), 933-948."
+              },
+              {
+                "ref-fulltext": "Huo, H., Bodet, A., Fernandez, G., Ramirez, J., Load transfer mechanisms between underground structure and surrounding ground: evaluation of the failure of the Daikai station. J. Geotech. Geoenviron. Eng. 131:12 (2005), 1522–1533.",
+                "@id": "28",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2005"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Load transfer mechanisms between underground structure and surrounding ground: evaluation of the failure of the Daikai station"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0140",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "28444479856",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "131",
+                      "@issue": "12"
+                    },
+                    "pagerange": {
+                      "@first": "1522",
+                      "@last": "1533"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Huo",
+                        "ce:indexed-name": "Huo H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Bodet",
+                        "ce:indexed-name": "Bodet A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Fernandez",
+                        "ce:indexed-name": "Fernandez G."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Ramirez",
+                        "ce:indexed-name": "Ramirez J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Geotech. Geoenviron. Eng."
+                },
+                "ce:source-text": "Huo, H., Bodet, A., Fernandez, G., Ramirez, J., 2005. Load transfer mechanisms between underground structure and surrounding ground: evaluation of the failure of the Daikai station. J. Geotech. Geoenviron. Eng. 131 (12), 1522-1533."
+              },
+              {
+                "ref-fulltext": "Itasca Consulting Group. FLAC - Fast Lagrangian Analysis of Continua;Ver. 7.0 User's Guide. Minneapolis: Itasca; 2014.",
+                "@id": "29",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0145",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85105064683",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Itasca Consulting Group. FLAC - Fast Lagrangian Analysis of Continua;Ver. 7.0 User's Guide. Minneapolis: Itasca;."
+                },
+                "ce:source-text": "Itasca Consulting Group. FLAC - Fast Lagrangian Analysis of Continua;Ver. 7.0 User's Guide. Minneapolis: Itasca; 2014."
+              },
+              {
+                "ref-fulltext": "Kontoe, S., Avgerinos, V., Potts, D.M., Numerical validation of analytical solutions and their use for equivalent-linear seismic analysis of circular tunnels. Soil Dyn. Earthq. Eng. 66 (2014), 206–219.",
+                "@id": "30",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Numerical validation of analytical solutions and their use for equivalent-linear seismic analysis of circular tunnels"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0150",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84905263057",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "66"
+                    },
+                    "pagerange": {
+                      "@first": "206",
+                      "@last": "219"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Kontoe",
+                        "ce:indexed-name": "Kontoe S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "V.",
+                        "@_fa": "true",
+                        "ce:surname": "Avgerinos",
+                        "ce:indexed-name": "Avgerinos V."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Potts",
+                        "ce:indexed-name": "Potts D.M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dyn. Earthq. Eng."
+                },
+                "ce:source-text": "Kontoe, S., Avgerinos, V., Potts, D.M., 2014. Numerical validation of analytical solutions and their use for equivalent-linear seismic analysis of circular tunnels.Soil Dynamics and Earthquake Engineering, 66, 206-219."
+              },
+              {
+                "ref-fulltext": "Kontoe, S., Zdravkovic, L., Potts, D., Mentiki, C., On the relative merits of simple and advanced constitutive models in dynamic analysis of tunnels. Geotechnique 61:10 (2011), 815–829.",
+                "@id": "31",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "On the relative merits of simple and advanced constitutive models in dynamic analysis of tunnels"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0155",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "80053225055",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "61",
+                      "@issue": "10"
+                    },
+                    "pagerange": {
+                      "@first": "815",
+                      "@last": "829"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Kontoe",
+                        "ce:indexed-name": "Kontoe S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Zdravkovic",
+                        "ce:indexed-name": "Zdravkovic L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Potts",
+                        "ce:indexed-name": "Potts D."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Mentiki",
+                        "ce:indexed-name": "Mentiki C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geotechnique"
+                },
+                "ce:source-text": "Kontoe, S., Zdravkovic, L., Potts, D., Mentiki, C., 2011. On the relative merits of simple and advanced constitutive models in dynamic analysis of tunnels. Geotechnique. 61 (10), 815-829."
+              },
+              {
+                "ref-fulltext": "Lanzano, G., Bilotta, E., Russo, G., Silvestri, F., Madabhushi, S.P.G., Centrifuge modelling of seismic loading on tunnels in sand. Geotech. Test. J. 35:6 (2012), 854–869.",
+                "@id": "32",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Centrifuge modelling of seismic loading on tunnels in sand"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0160",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84867869836",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "35",
+                      "@issue": "6"
+                    },
+                    "pagerange": {
+                      "@first": "854",
+                      "@last": "869"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Lanzano",
+                        "ce:indexed-name": "Lanzano G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Bilotta",
+                        "ce:indexed-name": "Bilotta E."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Russo",
+                        "ce:indexed-name": "Russo G."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Silvestri",
+                        "ce:indexed-name": "Silvestri F."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "S.P.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Madabhushi",
+                        "ce:indexed-name": "Madabhushi S.P.G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geotech. Test. J."
+                },
+                "ce:source-text": "Lanzano, G., Bilotta, E., Russo, G., Silvestri, F., Madabhushi, S.P.G., 2012. Centrifuge modelling of seismic loading on tunnels in sand. Geotech. Test. J. 35 (6), 854-869."
+              },
+              {
+                "ref-fulltext": "Meng, F.Y., Ren-Peng, C., Xin, K., Effects of tunneling-induced soil disturbance on the post-construction settlement in structured soft soils. Tunn. Undergr. Space Technol. 80 (2018), 53–63.",
+                "@id": "33",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effects of tunneling-induced soil disturbance on the post-construction settlement in structured soft soils"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0165",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85048406920",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "80"
+                    },
+                    "pagerange": {
+                      "@first": "53",
+                      "@last": "63"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Meng",
+                        "ce:indexed-name": "Meng F.Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Ren-Peng",
+                        "ce:indexed-name": "Ren-Peng C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Xin",
+                        "ce:indexed-name": "Xin K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Meng FY, Ren-Peng C., Xin, K., 2018. Effects of tunneling-induced soil disturbance on the post-construction settlement in structured soft soils. Tunnelling and Underground Space Technology, 80, 53-63."
+              },
+              {
+                "ref-fulltext": "Patil, M., Choudhury, D., Ranjith, P.G., Zhao, J., Behavior of shallow tunnel in soft soil under seismic conditions. Tunn. Undergr. Space Technol. 82 (2018), 30–38.",
+                "@id": "34",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Behavior of shallow tunnel in soft soil under seismic conditions"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0170",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85050266373",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "82"
+                    },
+                    "pagerange": {
+                      "@first": "30",
+                      "@last": "38"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Patil",
+                        "ce:indexed-name": "Patil M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Choudhury",
+                        "ce:indexed-name": "Choudhury D."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "P.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Ranjith",
+                        "ce:indexed-name": "Ranjith P.G."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Patil, M, Choudhury, D, Ranjith, P.G., Zhao, J, 2018. Behavior of shallow tunnel in soft soil under seismic conditions, Tunnelling and Underground Space Technology, 82, 30-38."
+              },
+              {
+                "ref-fulltext": "Penzien, J., Seismically induced racking of tunnels linings. Int. J. Earthquake Eng. Struct. Dyn. 29 (2000), 683–691.",
+                "@id": "35",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2000"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismically induced racking of tunnels linings"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0175",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0034017594",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "29"
+                    },
+                    "pagerange": {
+                      "@first": "683",
+                      "@last": "691"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Penzien",
+                        "ce:indexed-name": "Penzien J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Int. J. Earthquake Eng. Struct. Dyn."
+                },
+                "ce:source-text": "Penzien, J., 2000. Seismically induced racking of tunnels linings. Int. J. Earthquake Eng. Struct. Dyn. 29, 683-691."
+              },
+              {
+                "ref-fulltext": "Rabeti Moghadam, M., Baziar, M.H., Seismic ground motion amplification pattern induced by a subway tunnel: shaking table testing and numerical simulation. Soil Dyn. Earthquake Eng. 83 (2016), 81–97.",
+                "@id": "36",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic ground motion amplification pattern induced by a subway tunnel: shaking table testing and numerical simulation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0180",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84955596206",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "83"
+                    },
+                    "pagerange": {
+                      "@first": "81",
+                      "@last": "97"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Rabeti Moghadam",
+                        "ce:indexed-name": "Rabeti Moghadam M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Baziar",
+                        "ce:indexed-name": "Baziar M.H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dyn. Earthquake Eng."
+                },
+                "ce:source-text": "Rabeti Moghadam, M., Baziar, M. H., 2016. Seismic ground motion amplification pattern induced by a subway tunnel: shaking table testing and numerical simulation. Soil Dynamics and Earthquake Engineering, 83, 81-97."
+              },
+              {
+                "ref-fulltext": "Schofield, A.N., Dynamic and earthquake centrifuge modelling. Proceedings of international conference on advances in geotechnical earthquake engineering and soil dynamics. 1981, University of Missouri, Rolla, MO, USA, 1081–1100.",
+                "@id": "37",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1981"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Dynamic and earthquake centrifuge modelling. Proceedings of international conference on advances in geotechnical earthquake engineering and soil dynamics"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0185",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0001072301",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "1081",
+                      "@last": "1100"
+                    }
+                  },
+                  "ref-text": "University of Missouri Rolla, MO, USA",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Schofield",
+                        "ce:indexed-name": "Schofield A.N."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Schofield, A. N., 1981. Dynamic and earthquake centrifuge modelling. Proceedings of international conference on advances in geotechnical earthquake engineering and soil dynamics, 1081-1100. Rolla, MO, USA: University of Missouri."
+              },
+              {
+                "ref-fulltext": "Sun, Q.Q., Dias, D., Ribeiro e Sousa, L., Impact of an underlying soft soil layer on tunnel lining in seismic conditions. Tunn. Undergr. Space Technol. 90 (2019), 293–308.",
+                "@id": "38",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Impact of an underlying soft soil layer on tunnel lining in seismic conditions"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0190",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85065717107",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "90"
+                    },
+                    "pagerange": {
+                      "@first": "293",
+                      "@last": "308"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Q.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Sun",
+                        "ce:indexed-name": "Sun Q.Q."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Dias",
+                        "ce:indexed-name": "Dias D."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Ribeiro e Sousa",
+                        "ce:indexed-name": "Ribeiro e Sousa L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Sun Q. Q., Daniel Dias, Luis Ribeiro e Sousa, 2019. Impact of an underlying soft soil layer on tunnel lining in seismic conditions. Tunnelling and Underground Space Technology. 90, 293-308."
+              },
+              {
+                "ref-fulltext": "Sandoval, E., Bobet, A., Seismic response of underground structures under undrained loading with excess pore pressures accumulation. Tunn. Undergr. Space Technol., 99, 2020, 103255.",
+                "@id": "39",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic response of underground structures under undrained loading with excess pore pressures accumulation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0195",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "103255",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85080985936",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "99"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Sandoval",
+                        "ce:indexed-name": "Sandoval E."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Bobet",
+                        "ce:indexed-name": "Bobet A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Sandoval, E., & Bobet, A. (2020). Seismic response of underground structures under undrained loading with excess pore pressures accumulation. Tunnelling and Underground Space Technology, 99, 103255."
+              },
+              {
+                "ref-fulltext": "Tsinidis, G., Pitilakis, K., Madabhushi, G., Heron, C., Dynamic response of flexible square tunnels: centrifuge testing and validation of existing design methodologies. Geotechnique 65:5 (2015), 401–417.",
+                "@id": "40",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Dynamic response of flexible square tunnels: centrifuge testing and validation of existing design methodologies"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0200",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84928892999",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "65",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "401",
+                      "@last": "417"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Tsinidis",
+                        "ce:indexed-name": "Tsinidis G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Pitilakis",
+                        "ce:indexed-name": "Pitilakis K."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Madabhushi",
+                        "ce:indexed-name": "Madabhushi G."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Heron",
+                        "ce:indexed-name": "Heron C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geotechnique"
+                },
+                "ce:source-text": "Tsinidis, G., Pitilakis, K., Madabhushi, G., Heron, C., 2015. Dynamic response of flexible square tunnels: centrifuge testing and validation of existing design methodologies. Geotechnique. 65 (5), 401-417."
+              },
+              {
+                "ref-fulltext": "Tsinidis, G., Rovithis, E., Pitilakis, K., Chazelas, J.L., Seismic response of box-type tunnels in soft soil: experimental and numerical investigation. Tunn. Undergr. Space Technol. 59 (2016), 199–214.",
+                "@id": "41",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic response of box-type tunnels in soft soil: experimental and numerical investigation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0205",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84979737560",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "59"
+                    },
+                    "pagerange": {
+                      "@first": "199",
+                      "@last": "214"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Tsinidis",
+                        "ce:indexed-name": "Tsinidis G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Rovithis",
+                        "ce:indexed-name": "Rovithis E."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Pitilakis",
+                        "ce:indexed-name": "Pitilakis K."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Chazelas",
+                        "ce:indexed-name": "Chazelas J.L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Tsinidis, G., Rovithis, E., Pitilakis, K., Chazelas, J.L., 2016. Seismic response of box-type tunnels in soft soil: experimental and numerical investigation. Tunn. Undergr. Space Technol. 59, 199-214."
+              },
+              {
+                "ref-fulltext": "Tsinidis, G., Response characteristics of rectangular tunnels in soft soil subjected to transversal ground shaking. Tunn. Undergr. Space Technol. 62 (2017), 1–22.",
+                "@id": "42",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Response characteristics of rectangular tunnels in soft soil subjected to transversal ground shaking"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0210",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84996618808",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "62"
+                    },
+                    "pagerange": {
+                      "@first": "1",
+                      "@last": "22"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Tsinidis",
+                        "ce:indexed-name": "Tsinidis G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Tsinidis, G., 2017. Response characteristics of rectangular tunnels in soft soil subjected to transversal ground shaking. Tunn. Undergr. Space Technol. 62, 1-22."
+              },
+              {
+                "ref-fulltext": "Wang, J.N., Seismic design of tunnel-A simple state of the art design approach. 1993, Parson Brinckerhoff Quade & Douglas Inc., New York, Monograph.",
+                "@id": "43",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1993"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic design of tunnel-A simple state of the art design approach"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0215",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0343963993",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Parson Brinckerhoff Quade & Douglas Inc. New York, Monograph",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang J.N."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Wang, J.N., 1993. Seismic design of tunnel-A simple state of the art design approach. Parson Brinckerhoff Quade & Douglas Inc., New York, Monograph."
+              },
+              {
+                "ref-fulltext": "Wang, W.L., Wang, T.T., Su, J.J., Lin, C.H., Seng, C.R., Huang, T.H., Assessment of damage in mountain tunnels due to the Taiwan Chi-Chi earthquake. Tunn. Undergr. Space Technol. 16:3 (2001), 133–150.",
+                "@id": "44",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2001"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Assessment of damage in mountain tunnels due to the Taiwan Chi-Chi earthquake"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0225",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0035402054",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "16",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "133",
+                      "@last": "150"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang W.L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang T.T."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Su",
+                        "ce:indexed-name": "Su J.J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "C.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Lin",
+                        "ce:indexed-name": "Lin C.H."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "C.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Seng",
+                        "ce:indexed-name": "Seng C.R."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "T.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang T.H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Wang WL, Wang TT, Su JJ, Lin CH, Seng CR, Huang TH., 2001. Assessment of damage in mountain tunnels due to the Taiwan Chi-Chi earthquake. Tunnelling and Underground Space Technology. 16 (3), 133-150."
+              },
+              {
+                "ref-fulltext": "Zheng, G., Yang, X.Y., Zhou, H.Z., Du, Y.M., Sun, J.Y., Yu, X.X., A simplified prediction method for evaluating tunnel displacement induced by laterally adjacent excavations. Comput. Geotech. 95 (2018), 119–128.",
+                "@id": "45",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A simplified prediction method for evaluating tunnel displacement induced by laterally adjacent excavations"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0230",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85031409927",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "95"
+                    },
+                    "pagerange": {
+                      "@first": "119",
+                      "@last": "128"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Zheng",
+                        "ce:indexed-name": "Zheng G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang X.Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou H.Z."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Du",
+                        "ce:indexed-name": "Du Y.M."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "J.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Sun",
+                        "ce:indexed-name": "Sun J.Y."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "X.X.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu X.X."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Comput. Geotech."
+                },
+                "ce:source-text": "Zheng G, Yang XY, Zhou HZ, Du YM, Sun JY, Yu XX., 2018. A simplified prediction method for evaluating tunnel displacement induced by laterally adjacent excavations, Computers and Geotechnics, 95, 119-128."
+              },
+              {
+                "ref-fulltext": "Zheng, G., Fan, Q., Zhang, T.Q., Zheng, W.H., Sun, J.B., Zhou, H.Z., Diao, Y., Multistage regulation strategy as a tool to control the vertical displacement of railway tracks placed over the building site of two overlapped shield tunnels. Tunn. Undergr. Space Technol. 83 (2019), 282–290.",
+                "@id": "46",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Multistage regulation strategy as a tool to control the vertical displacement of railway tracks placed over the building site of two overlapped shield tunnels"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0235",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85054882321",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "83"
+                    },
+                    "pagerange": {
+                      "@first": "282",
+                      "@last": "290"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Zheng",
+                        "ce:indexed-name": "Zheng G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Fan",
+                        "ce:indexed-name": "Fan Q."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "T.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang T.Q."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "W.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Zheng",
+                        "ce:indexed-name": "Zheng W.H."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "J.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Sun",
+                        "ce:indexed-name": "Sun J.B."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "H.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou H.Z."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Diao",
+                        "ce:indexed-name": "Diao Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Zheng G, Fan Q, Zhang TQ, Zheng WH, Sun JB, Zhou HZ, Diao Y., 2019. Multistage regulation strategy as a tool to control the vertical displacement of railway tracks placed over the building site of two overlapped shield tunnels, Tunnelling and Underground Space Technology, 83, 282-290."
+              },
+              {
+                "ref-fulltext": "Zheng, G., Yu, X., Zhou, H., Yang, X., Guo, W., Yang, P., Influence of geosynthetic reinforcement on the stability of an embankments with rigid columns embedded in an inclined underlying stratum. Geotext. Geomembr. 49:1 (2021), 180–187.",
+                "@id": "47",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Influence of geosynthetic reinforcement on the stability of an embankments with rigid columns embedded in an inclined underlying stratum"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0240",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85095754281",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "49",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "180",
+                      "@last": "187"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Zheng",
+                        "ce:indexed-name": "Zheng G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu X."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang X."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Guo",
+                        "ce:indexed-name": "Guo W."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang P."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geotext. Geomembr."
+                },
+                "ce:source-text": "Zheng G, Yu X, Zhou H, Yang X, Guo W, Yang P. 2021. Influence of geosynthetic reinforcement on the stability of an embankments with rigid columns embedded in an inclined underlying stratum. Geotextiles and Geomembranes., 49(1): 180-187."
+              },
+              {
+                "ref-fulltext": "Zou, Y., Liu, H.B., Jing, L.P., Cui, J., A pseudo-static method for seismic response of underground frame structures subjected to increasing excitations. Tunn. Undergr. Sp. Technol. 65 (2017), 106–120.",
+                "@id": "48",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A pseudo-static method for seismic response of underground frame structures subjected to increasing excitations"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0245",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85014391163",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "65"
+                    },
+                    "pagerange": {
+                      "@first": "106",
+                      "@last": "120"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Zou",
+                        "ce:indexed-name": "Zou Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu H.B."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "L.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Jing",
+                        "ce:indexed-name": "Jing L.P."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Cui",
+                        "ce:indexed-name": "Cui J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Sp. Technol."
+                },
+                "ce:source-text": "Zou, Y., Liu, H.B., Jing, L.P., Cui, J., 2017. A pseudo-static method for seismic response of underground frame structures subjected to increasing excitations. Tunn. Undergr. Sp. Technol. 65, 106-120."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "affiliation": {
+      "affiliation-city": "Tianjin",
+      "@id": "60019533",
+      "affilname": "Tianjin University",
+      "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019533",
+      "affiliation-country": "China"
+    },
+    "coredata": {
+      "srctype": "j",
+      "eid": "2-s2.0-85105069501",
+      "dc:description": "Soil deposits inevitably affect the seismic performance of underground structures, and underground tunnels are commonly constructed on sites composed of layered soil deposits. In this study, dynamic centrifuge tests and numerical modelling are conducted to enhance the fundamental understanding of the kinematic soil-tunnel interaction for tunnels constructed in layered soils that consist of muddy clay and silty clay. The site seismic response and tunnel seismic performance between the centrifuge and numerical modelling are compared. The acceleration time histories, amplification factors of the input motions, and the Fourier spectra between free field and structural field are experimentally and numerically investigated. For comparative purposes, parametric studies of tunnels in a single muddy clay and a single silty clay using verified numerical modelling are carried out. In addition, the dynamic bending moment and axial forces obtained by centrifuge and numerical modelling are compared with the solutions predicted by analytical methods in prior studies.",
+      "prism:coverDate": "2021-07-01",
+      "prism:aggregationType": "Journal",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85105069501",
+      "subtypeDescription": "Article",
+      "dc:creator": {
+        "author": [
+          {
+            "ce:given-name": "Haizuo",
+            "preferred-name": {
+              "ce:given-name": "Haizuo",
+              "ce:initials": "H.",
+              "ce:surname": "Zhou",
+              "ce:indexed-name": "Zhou H."
+            },
+            "@seq": "1",
+            "ce:initials": "H.",
+            "@_fa": "true",
+            "affiliation": [
+              {
+                "@id": "60019533",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019533"
+              },
+              {
+                "@id": "60019533",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019533"
+              },
+              {
+                "@id": "60019533",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019533"
+              }
+            ],
+            "ce:surname": "Zhou",
+            "@auid": "56580732300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56580732300",
+            "ce:indexed-name": "Zhou H."
+          }
+        ]
+      },
+      "link": [
+        {
+          "@_fa": "true",
+          "@rel": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85105069501"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85105069501&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85105069501&origin=inward"
+        }
+      ],
+      "prism:publicationName": "Tunnelling and Underground Space Technology",
+      "source-id": "14642",
+      "pii": "S0886779821001711",
+      "citedby-count": "38",
+      "prism:volume": "113",
+      "subtype": "ar",
+      "dc:title": "Centrifuge and numerical modelling of the seismic response of tunnels in two-layered soils",
+      "openaccess": "0",
+      "openaccessFlag": "false",
+      "prism:doi": "10.1016/j.tust.2021.103980",
+      "prism:issn": "08867798",
+      "publishercopyright": "© 2021 Elsevier Ltd",
+      "article-number": "103980",
+      "dc:identifier": "SCOPUS_ID:85105069501",
+      "dc:publisher": "Elsevier Ltd"
+    },
+    "idxterms": {
+      "mainterm": [
+        {
+          "$": "Acceleration response",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Acceleration-time history",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Centrifuge tests",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Layered soils",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Muddy clays",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Seismic Performance",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Silty-clay",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Soil deposits",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Two-layered soils",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Underground tunnels",
+          "@weight": "b",
+          "@candidate": "n"
+        }
+      ]
+    },
+    "language": {
+      "@xml:lang": "eng"
+    },
+    "authkeywords": {
+      "author-keyword": [
+        {
+          "@_fa": "true",
+          "$": "Acceleration response"
+        },
+        {
+          "@_fa": "true",
+          "$": "Centrifuge tests"
+        },
+        {
+          "@_fa": "true",
+          "$": "Muddy clay"
+        },
+        {
+          "@_fa": "true",
+          "$": "Numerical modelling"
+        },
+        {
+          "@_fa": "true",
+          "$": "Silty clay"
+        }
+      ]
+    },
+    "subject-areas": {
+      "subject-area": [
+        {
+          "@_fa": "true",
+          "$": "Building and Construction",
+          "@code": "2215",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Geotechnical Engineering and Engineering Geology",
+          "@code": "1909",
+          "@abbrev": "EART"
+        }
+      ]
+    },
+    "authors": {
+      "author": [
+        {
+          "ce:given-name": "Haizuo",
+          "preferred-name": {
+            "ce:given-name": "Haizuo",
+            "ce:initials": "H.",
+            "ce:surname": "Zhou",
+            "ce:indexed-name": "Zhou H."
+          },
+          "@seq": "1",
+          "ce:initials": "H.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "60019533",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019533"
+            },
+            {
+              "@id": "60019533",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019533"
+            },
+            {
+              "@id": "60019533",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019533"
+            }
+          ],
+          "ce:surname": "Zhou",
+          "@auid": "56580732300",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56580732300",
+          "ce:indexed-name": "Zhou H."
+        },
+        {
+          "ce:given-name": "Huajun",
+          "preferred-name": {
+            "ce:given-name": "Huajun",
+            "ce:initials": "H.",
+            "ce:surname": "Xu",
+            "ce:indexed-name": "Xu H."
+          },
+          "@seq": "2",
+          "ce:initials": "H.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "60019533",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019533"
+            },
+            {
+              "@id": "60019533",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019533"
+            }
+          ],
+          "ce:surname": "Xu",
+          "@auid": "57223152943",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57223152943",
+          "ce:indexed-name": "Xu H."
+        },
+        {
+          "ce:given-name": "Pengbo",
+          "preferred-name": {
+            "ce:given-name": "Pengbo",
+            "ce:initials": "P.",
+            "ce:surname": "Yang",
+            "ce:indexed-name": "Yang P."
+          },
+          "@seq": "3",
+          "ce:initials": "P.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "60019533",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019533"
+            },
+            {
+              "@id": "60019533",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019533"
+            }
+          ],
+          "ce:surname": "Yang",
+          "@auid": "56146222400",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56146222400",
+          "ce:indexed-name": "Yang P."
+        },
+        {
+          "ce:given-name": "Gang",
+          "preferred-name": {
+            "ce:given-name": "Gang",
+            "ce:initials": "G.",
+            "ce:surname": "Zheng",
+            "ce:indexed-name": "Zheng G."
+          },
+          "@seq": "4",
+          "ce:initials": "G.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "60019533",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019533"
+            },
+            {
+              "@id": "60019533",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019533"
+            },
+            {
+              "@id": "60019533",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019533"
+            }
+          ],
+          "ce:surname": "Zheng",
+          "@auid": "56506143100",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56506143100",
+          "ce:indexed-name": "Zheng G."
+        },
+        {
+          "ce:given-name": "Xiangning",
+          "preferred-name": {
+            "ce:given-name": "Xiangning",
+            "ce:initials": "X.",
+            "ce:surname": "Liu",
+            "ce:indexed-name": "Liu X."
+          },
+          "@seq": "5",
+          "ce:initials": "X.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "60019533",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019533"
+            },
+            {
+              "@id": "60019533",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019533"
+            }
+          ],
+          "ce:surname": "Liu",
+          "@auid": "57223165119",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57223165119",
+          "ce:indexed-name": "Liu X."
+        },
+        {
+          "ce:given-name": "Wenbin",
+          "preferred-name": {
+            "ce:given-name": "Wenbin",
+            "ce:initials": "W.",
+            "ce:surname": "Zhang",
+            "ce:indexed-name": "Zhang W."
+          },
+          "@seq": "6",
+          "ce:initials": "W.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "60019533",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019533"
+            },
+            {
+              "@id": "60019533",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019533"
+            }
+          ],
+          "ce:surname": "Zhang",
+          "@auid": "57195260545",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57195260545",
+          "ce:indexed-name": "Zhang W."
+        },
+        {
+          "ce:given-name": "Jiapeng",
+          "preferred-name": {
+            "ce:given-name": "Jiapeng",
+            "ce:initials": "J.",
+            "ce:surname": "Zhao",
+            "ce:indexed-name": "Zhao J."
+          },
+          "@seq": "7",
+          "ce:initials": "J.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "60019533",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019533"
+            },
+            {
+              "@id": "60019533",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019533"
+            }
+          ],
+          "ce:surname": "Zhao",
+          "@auid": "57204655474",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57204655474",
+          "ce:indexed-name": "Zhao J."
+        },
+        {
+          "ce:given-name": "Xiaoxuan",
+          "preferred-name": {
+            "ce:given-name": "Xiaoxuan",
+            "ce:initials": "X.",
+            "ce:surname": "Yu",
+            "ce:indexed-name": "Yu X."
+          },
+          "@seq": "8",
+          "ce:initials": "X.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "60019533",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019533"
+            },
+            {
+              "@id": "60019533",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019533"
+            }
+          ],
+          "ce:surname": "Yu",
+          "@auid": "57196054072",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57196054072",
+          "ce:indexed-name": "Yu X."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2118 @@
+{
+  "abstracts-retrieval-response": {
+    "item": {
+      "ait:process-info": {
+        "ait:status": {
+          "@state": "new",
+          "@type": "core",
+          "@stage": "S300"
+        },
+        "ait:date-delivered": {
+          "@day": "02",
+          "@timestamp": "2025-08-02T23:23:09.000009-04:00",
+          "@year": "2025",
+          "@month": "08"
+        },
+        "ait:date-sort": {
+          "@day": "01",
+          "@year": "2025",
+          "@month": "10"
+        }
+      },
+      "xocs:meta": {
+        "xocs:funding-list": {
+          "@pui-match": "primary",
+          "@has-funding-info": "1",
+          "xocs:funding": [
+            {
+              "xocs:funding-agency-matched-string": "Science and Technology Planning Project of Guangzhou Municipal Construction Group Co. Ltd"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Science and Technology Planning Project of Guangdong Provincial Department of Housing and Urban-Rural Development",
+              "xocs:funding-agency": "Science and Technology Planning Project of Guangdong Province",
+              "xocs:funding-id": [
+                {
+                  "$": "2023-K26-484279"
+                },
+                {
+                  "$": "2022-K26-503115"
+                }
+              ],
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100012245",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Science and Technology Planning Project of Guangdong Provincial Department of Housing and Urban-Rural Development",
+              "xocs:funding-agency": "Science and Technology Planning Project of Guangdong Province",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100012245",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Science and Technology Planning Project of Guangzhou Municipal Construction Group Co.",
+              "xocs:funding-agency": "Guangzhou Municipal Science and Technology Program key projects",
+              "xocs:funding-id": "2023-KJ011",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100004000",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Science and Technology Planning Project of Guangzhou Municipal Construction Group Co.",
+              "xocs:funding-agency": "Guangzhou Municipal Science and Technology Program key projects",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100004000",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            }
+          ],
+          "xocs:funding-addon-generated-timestamp": "2025-08-03T00:47:03.549Z",
+          "xocs:funding-text": [
+            {
+              "$": "The study is supported by Science and Technology Planning Project of Guangdong Provincial Department of Housing and Urban-Rural Development (2023-K26-484279, 2022-K26-503115); and Science and Technology Planning Project of Guangzhou Municipal Construction Group Co. Ltd (2023-KJ011)."
+            },
+            {
+              "$": "The study is supported by Science and Technology Planning Project of Guangdong Provincial Department of Housing and Urban-Rural Development ( 2023-K26-484279 , 2022-K26-503115 ); and Science and Technology Planning Project of Guangzhou Municipal Construction Group Co., Ltd ( 2023-KJ011 )."
+            }
+          ],
+          "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }
+      },
+      "bibrecord": {
+        "head": {
+          "author-group": [
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "510440",
+                "@afid": "126239326",
+                "@country": "chn",
+                "city": "Guangzhou",
+                "organization": [
+                  {
+                    "$": "Guangzhou Institute of Building Science Group Co."
+                  },
+                  {
+                    "$": "Ltd"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "126239326"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-966441590-339aea746a9b6fc213d62a9f6c68f126-1",
+                "ce:source-text": "Guangzhou Institute of Building Science Group Co., Ltd, Guangzhou, 510440, PR China"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Zhenglong",
+                  "preferred-name": {
+                    "ce:given-name": "Zhenglong",
+                    "ce:initials": "Z.",
+                    "ce:surname": "Yang",
+                    "ce:indexed-name": "Yang Z."
+                  },
+                  "@author-instance-id": "OB2BibRecID-966441590-198cb774f20c650b1a574af593d97e02-1",
+                  "@seq": "1",
+                  "ce:initials": "Z.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Yang",
+                  "@auid": "57215874197",
+                  "@orcid": "0000-0002-3201-113X",
+                  "ce:indexed-name": "Yang Z."
+                },
+                {
+                  "ce:given-name": "Zhiguo",
+                  "preferred-name": {
+                    "ce:given-name": "Zhiguo",
+                    "ce:initials": "Z.",
+                    "ce:surname": "Zhou",
+                    "ce:indexed-name": "Zhou Z."
+                  },
+                  "@author-instance-id": "OB2BibRecID-966441590-0f3d79a94118096ee91c92305905139b-1",
+                  "@seq": "2",
+                  "ce:initials": "Z.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Zhou",
+                  "@auid": "55728182600",
+                  "ce:indexed-name": "Zhou Z."
+                },
+                {
+                  "ce:given-name": "Xiaoli",
+                  "preferred-name": {
+                    "ce:given-name": "Xiaoli",
+                    "ce:initials": "X.",
+                    "ce:surname": "Sun",
+                    "ce:indexed-name": "Sun X."
+                  },
+                  "@author-instance-id": "OB2BibRecID-966441590-57fcdf7e26ce867ef0ca3d9c12a78369-1",
+                  "@seq": "3",
+                  "ce:initials": "X.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Sun",
+                  "@auid": "57221083037",
+                  "ce:indexed-name": "Sun X."
+                },
+                {
+                  "ce:given-name": "Jun",
+                  "preferred-name": {
+                    "ce:given-name": "Jun",
+                    "ce:initials": "J.",
+                    "ce:surname": "Yang",
+                    "ce:indexed-name": "Yang J."
+                  },
+                  "@author-instance-id": "OB2BibRecID-966441590-44f6f3c1ed0d7f10a4e73df371536dd0-1",
+                  "@seq": "4",
+                  "ce:initials": "J.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Yang",
+                  "@auid": "60020082000",
+                  "ce:indexed-name": "Yang J."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "510520",
+                "@afid": "126338265",
+                "@country": "chn",
+                "city": "Guangzhou",
+                "organization": [
+                  {
+                    "$": "Guangzhou Municipal Engineering Testing Co."
+                  },
+                  {
+                    "$": "Ltd"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "126338265"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-966441590-4d44587e73d729ca6c9a59abc1d4d158-1",
+                "ce:source-text": "Guangzhou Municipal Engineering Testing Co.,Ltd, Guangzhou, 510520, PR China"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Zhenglong",
+                  "preferred-name": {
+                    "ce:given-name": "Zhenglong",
+                    "ce:initials": "Z.",
+                    "ce:surname": "Yang",
+                    "ce:indexed-name": "Yang Z."
+                  },
+                  "@author-instance-id": "OB2BibRecID-966441590-198cb774f20c650b1a574af593d97e02-1",
+                  "@seq": "1",
+                  "ce:initials": "Z.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Yang",
+                  "@auid": "57215874197",
+                  "@orcid": "0000-0002-3201-113X",
+                  "ce:indexed-name": "Yang Z."
+                },
+                {
+                  "ce:given-name": "Zhiguo",
+                  "preferred-name": {
+                    "ce:given-name": "Zhiguo",
+                    "ce:initials": "Z.",
+                    "ce:surname": "Zhou",
+                    "ce:indexed-name": "Zhou Z."
+                  },
+                  "@author-instance-id": "OB2BibRecID-966441590-0f3d79a94118096ee91c92305905139b-1",
+                  "@seq": "2",
+                  "ce:initials": "Z.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Zhou",
+                  "@auid": "55728182600",
+                  "ce:indexed-name": "Zhou Z."
+                },
+                {
+                  "ce:given-name": "Xiaoli",
+                  "preferred-name": {
+                    "ce:given-name": "Xiaoli",
+                    "ce:initials": "X.",
+                    "ce:surname": "Sun",
+                    "ce:indexed-name": "Sun X."
+                  },
+                  "@author-instance-id": "OB2BibRecID-966441590-57fcdf7e26ce867ef0ca3d9c12a78369-1",
+                  "@seq": "3",
+                  "ce:initials": "X.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Sun",
+                  "@auid": "57221083037",
+                  "ce:indexed-name": "Sun X."
+                },
+                {
+                  "ce:given-name": "Jun",
+                  "preferred-name": {
+                    "ce:given-name": "Jun",
+                    "ce:initials": "J.",
+                    "ce:surname": "Yang",
+                    "ce:indexed-name": "Yang J."
+                  },
+                  "@author-instance-id": "OB2BibRecID-966441590-44f6f3c1ed0d7f10a4e73df371536dd0-1",
+                  "@seq": "4",
+                  "ce:initials": "J.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Yang",
+                  "@auid": "60020082000",
+                  "ce:indexed-name": "Yang J."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "address-part": "Shanghai",
+                "postal-code": "200092",
+                "@afid": "60073652",
+                "@country": "chn",
+                "organization": [
+                  {
+                    "$": "College of Civil Engineering"
+                  },
+                  {
+                    "$": "Department of Bridge Engineering"
+                  },
+                  {
+                    "$": "Tongji University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60073652",
+                  "@dptid": "104830277"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-966441590-3cc3a3c6aa9ce13f6ea3e3508bfb3b16-1",
+                "ce:source-text": "College of Civil Engineering, Department of Bridge Engineering, Tongji University, Shanghai, 200092, PR China",
+                "@dptid": "104830277"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Zhenglong",
+                  "preferred-name": {
+                    "ce:given-name": "Zhenglong",
+                    "ce:initials": "Z.",
+                    "ce:surname": "Yang",
+                    "ce:indexed-name": "Yang Z."
+                  },
+                  "@author-instance-id": "OB2BibRecID-966441590-198cb774f20c650b1a574af593d97e02-1",
+                  "@seq": "1",
+                  "ce:initials": "Z.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Yang",
+                  "@auid": "57215874197",
+                  "@orcid": "0000-0002-3201-113X",
+                  "ce:indexed-name": "Yang Z."
+                },
+                {
+                  "ce:given-name": "Danhui",
+                  "preferred-name": {
+                    "ce:given-name": "Danhui",
+                    "ce:initials": "D.",
+                    "ce:surname": "Dan",
+                    "ce:indexed-name": "Dan D."
+                  },
+                  "@author-instance-id": "OB2BibRecID-966441590-e31097d35600a25ddc127ed87d29c68f-1",
+                  "@seq": "5",
+                  "ce:initials": "D.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Dan",
+                  "@auid": "7004963131",
+                  "ce:indexed-name": "Dan D."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "414006",
+                "@afid": "60073729",
+                "@country": "chn",
+                "city": "Yueyang",
+                "organization": [
+                  {
+                    "$": "College of Civil Engineering & Architecture"
+                  },
+                  {
+                    "$": "Hunan Institute Of Science And Technology"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60073729",
+                  "@dptid": "109220575"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-966441590-278ef23bf944e4611f79573129647828-1",
+                "ce:source-text": "College of Civil Engineering & Architecture, Hunan Institute Of Science And Technology, Yueyang 414006, PR China",
+                "@dptid": "109220575"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Jianliang",
+                  "preferred-name": {
+                    "ce:given-name": "Jianliang",
+                    "ce:initials": "J.",
+                    "ce:surname": "Wu",
+                    "ce:indexed-name": "Wu J."
+                  },
+                  "@author-instance-id": "OB2BibRecID-966441590-49cecb5bfcbe1280e606c7e33a70de26-1",
+                  "@seq": "6",
+                  "ce:initials": "J.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Wu",
+                  "@auid": "58046927000",
+                  "ce:indexed-name": "Wu J."
+                }
+              ]
+            }
+          ],
+          "citation-title": "Pile bottom ramming test of prestressed end-bearing pipe piles in weathered rock strata",
+          "abstracts": "© 2025 The AuthorsThis paper introduces a method for reinforcing the pile-end holding layer through the continuous impact of a rammer on the debris and weak rock layer at the bottom of the pipe pile under underwater conditions. The simulation tests on the ramming of rock-embedded precast pipe pile bottoms and inspections of the pile foundation post-reinforcement were conducted. Simultaneously, an analysis of vibration energy propagation in surrounding buildings and strata was performed. The field test results demonstrate that the presented tamping reinforcement method effectively crushes sediment and the weak rock layer at the pile bottom. It creates a hole with a certain enlargement effect at the bottom of the pipe pile, allowing concrete to replace the weak bearing layer and form a robust bond between the pile end and the simulated bedrock. Besides, a significant improvement in dynamic stiffness of the piles was presented, ranging from 67% to 175%, highlighting the efficacy of the reinforcement process. Vibration monitoring during the tamping process reveals that the height of the hammer and the water level in the hole play pivotal roles in tamping energy. Additionally, the adverse impact of vibration energy on adjacent structures can be mitigated by injecting water into the respective buildings.",
+          "correspondence": {
+            "affiliation": {
+              "country": "China",
+              "postal-code": "510440",
+              "@country": "chn",
+              "city": "Guangzhou",
+              "organization": [
+                {
+                  "$": "Guangzhou Institute of Building Science Group Co."
+                },
+                {
+                  "$": "Ltd"
+                }
+              ],
+              "@affiliation-instance-id": "OB2BibRecID-966441590-81602e7f829b3e9b6bfbcc9e51c907e1-1"
+            },
+            "person": {
+              "ce:given-name": "Zhenglong",
+              "@author-instance-id": "OB2BibRecID-966441590-2bb24fb580e2358fe06ac056a579a7bf-1",
+              "ce:initials": "Z.",
+              "ce:surname": "Yang",
+              "ce:indexed-name": "Yang Z."
+            }
+          },
+          "citation-info": {
+            "author-keywords": {
+              "author-keyword": [
+                {
+                  "$": "Bearing capacity",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "DPC pipe",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Pipe piles",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Ramping",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Rock socketed pile",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Vibration monitoring",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Weathered layer",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                }
+              ]
+            },
+            "citation-type": {
+              "@code": "ar"
+            },
+            "citation-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "abstract-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            }
+          },
+          "source": {
+            "website": {
+              "ce:e-address": {
+                "$": "https://www.sciencedirect.com/journal/ksce-journal-of-civil-engineering",
+                "@type": "email"
+              }
+            },
+            "translated-sourcetitle": {
+              "$": "KSCE Journal of Civil Engineering",
+              "@xml:lang": "eng"
+            },
+            "volisspag": {
+              "voliss": {
+                "@volume": "29",
+                "@issue": "10"
+              }
+            },
+            "@type": "j",
+            "sourcetitle": "KSCE Journal of Civil Engineering",
+            "publicationdate": {
+              "month": "10",
+              "year": "2025",
+              "date-text": "October 2025",
+              "day": "01"
+            },
+            "sourcetitle-abbrev": "KSCE J. Civ. Eng.",
+            "@country": "usa",
+            "issn": [
+              {
+                "$": "19763808",
+                "@type": "electronic"
+              },
+              {
+                "$": "12267988",
+                "@type": "print"
+              }
+            ],
+            "publicationyear": {
+              "@first": "2025"
+            },
+            "publisher": {
+              "publishername": "Elsevier Inc."
+            },
+            "article-number": "100218",
+            "@srcid": "17600155006"
+          },
+          "enhancement": {
+            "classificationgroup": {
+              "classifications": [
+                {
+                  "@type": "CPXCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "214.1",
+                      "classification-description": "Mechanical Properties of Materials"
+                    },
+                    {
+                      "classification-code": "217.2",
+                      "classification-description": "Concrete"
+                    },
+                    {
+                      "classification-code": "408.1",
+                      "classification-description": "Structural Members and Shapes"
+                    },
+                    {
+                      "classification-code": "482.2",
+                      "classification-description": "Rocks"
+                    },
+                    {
+                      "classification-code": "483.2",
+                      "classification-description": "Foundations"
+                    },
+                    {
+                      "classification-code": "751.1",
+                      "classification-description": "Acoustic Waves"
+                    },
+                    {
+                      "classification-code": "941.5",
+                      "classification-description": "Mechanical Variables Measurements"
+                    }
+                  ]
+                },
+                {
+                  "@type": "FLXCLASS",
+                  "classification": {
+                    "classification-code": "902",
+                    "classification-description": "FLUIDEX; Related Topics"
+                  }
+                },
+                {
+                  "@type": "ASJC",
+                  "classification": "2205"
+                },
+                {
+                  "@type": "SUBJABBR",
+                  "classification": "ENGI"
+                }
+              ]
+            }
+          },
+          "grantlist": {
+            "@complete": "y",
+            "grant-text": {
+              "$": "The study is supported by Science and Technology Planning Project of Guangdong Provincial Department of Housing and Urban-Rural Development (2023-K26-484279, 2022-K26-503115); and Science and Technology Planning Project of Guangzhou Municipal Construction Group Co. Ltd (2023-KJ011).",
+              "@xml:lang": "eng"
+            }
+          }
+        },
+        "item-info": {
+          "copyright": {
+            "$": "Copyright 2025 Elsevier B.V., All rights reserved.",
+            "@type": "Elsevier"
+          },
+          "dbcollection": [
+            {
+              "$": "CPX"
+            },
+            {
+              "$": "REAXYSCAR"
+            },
+            {
+              "$": "SCOPUS"
+            },
+            {
+              "$": "Scopusbase"
+            }
+          ],
+          "history": {
+            "date-created": {
+              "@day": "02",
+              "@timestamp": "BST 00:01:15",
+              "@year": "2025",
+              "@month": "08"
+            }
+          },
+          "itemidlist": {
+            "itemid": [
+              {
+                "$": "2039828850",
+                "@idtype": "PUI"
+              },
+              {
+                "$": "966441590",
+                "@idtype": "CAR-ID"
+              },
+              {
+                "$": "20253118906982",
+                "@idtype": "CPX"
+              },
+              {
+                "$": "20252290858",
+                "@idtype": "REAXYSCAR"
+              },
+              {
+                "$": "20253242963",
+                "@idtype": "SCOPUS"
+              },
+              {
+                "$": "966441590#79582999",
+                "@idtype": "SRC-OCC-ID"
+              },
+              {
+                "$": "105012018931",
+                "@idtype": "SCP"
+              },
+              {
+                "$": "105012018931",
+                "@idtype": "SGR"
+              }
+            ],
+            "ce:pii": "S1226798825003332",
+            "ce:ern": "pii:S1226798825003332",
+            "ce:doi": "10.1016/j.kscej.2025.100218"
+          }
+        },
+        "tail": {
+          "bibliography": {
+            "@refcount": "16",
+            "reference": [
+              {
+                "ref-fulltext": "Chen, R., Zhang, J., Chen, Z., Gu, M., A novel numerical method for calculating vertical bearing capacity of prestressed pipe piles. Advances in Civil Engineering, 2020(1), 2020, 8828587, 10.1155/2020/8828587.",
+                "@reference-instance-id": "OB2BibRecID-966441590-4e1bc57e78cd1154bedbe116b36ae477-1",
+                "@id": "1",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A novel numerical method for calculating vertical bearing capacity of prestressed pipe piles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1155/2020/8828587",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib0001",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "8828587",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85097269982",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "2020",
+                      "@issue": "1"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen R."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen Z."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Gu",
+                        "ce:indexed-name": "Gu M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Advances in Civil Engineering"
+                },
+                "ce:source-text": "Chen R., Zhang J., Chen Z., Gu M. (2020) A novel numerical method for calculating vertical bearing capacity of prestressed pipe piles. Advances in Civil Engineering 2020(1): 8828587, DOI:10.1155/2020/8828587"
+              },
+              {
+                "ref-fulltext": "Chu, J., Ma, M., Liu, J., Analysis of dynamic stiffness of bridge cap-pile system. Shock and Vibration, 2018(1), 2018, 7645726, 10.1155/2018/7645726.",
+                "@reference-instance-id": "OB2BibRecID-966441590-25d3b5fb10e59004dc7f918080c5e15c-2",
+                "@id": "2",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Analysis of dynamic stiffness of bridge cap-pile system"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1155/2018/7645726",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib0002",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "7645726",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85046789797",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "2018",
+                      "@issue": "1"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Chu",
+                        "ce:indexed-name": "Chu J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Ma",
+                        "ce:indexed-name": "Ma M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Shock and Vibration"
+                },
+                "ce:source-text": "Chu J., Ma M., Liu J. (2018) Analysis of dynamic stiffness of bridge cap-pile system. Shock and Vibration 2018(1):7645726, Doi:10.1155/2018/7645726"
+              },
+              {
+                "ref-fulltext": "Hou, Z.K., Liu, Y.P., Han, Z.J., Tang, M.X., Gong, X., Su, D.L., Wang, L., Experimental study of the bearing characteristics of a novel energy-saving and environmentally friendly pile: drilling with prestressed concrete pipe cased piles. International Journal of Geomechanics, 24(4), 2024, 04024035, 10.1061/IJGNAI.GMENG-9062.",
+                "@reference-instance-id": "OB2BibRecID-966441590-5d599e6b91820295edc253abef1bd434-3",
+                "@id": "3",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental study of the bearing characteristics of a novel energy-saving and environmentally friendly pile: drilling with prestressed concrete pipe cased piles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1061/IJGNAI.GMENG-9062",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib0003",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "04024035",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85184149669",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "24",
+                      "@issue": "4"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Hou",
+                        "ce:indexed-name": "Hou Z.K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu Y.P."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Z.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Han",
+                        "ce:indexed-name": "Han Z.J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "M.X.",
+                        "@_fa": "true",
+                        "ce:surname": "Tang",
+                        "ce:indexed-name": "Tang M.X."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Gong",
+                        "ce:indexed-name": "Gong X."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "D.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Su",
+                        "ce:indexed-name": "Su D.L."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "International Journal of Geomechanics"
+                },
+                "ce:source-text": "Hou Z.K., Liu Y.P., Han Z.J., Tang M.X., Gong X., Su D.L., Wang L (2024) Experimental study of the bearing characteristics of a novel energy-saving and environmentally friendly pile: drilling with prestressed concrete pipe cased piles. International Journal of Geomechanics 24(4):04024035, Doi: 10.1061/IJGNAI.GMENG-9062"
+              },
+              {
+                "ref-fulltext": "Jafari, M., Gharsallaoui, H., Victor, K.H., Holeyman, A., End bearing response of open-ended pipe piles embedded in rock. International Journal of Rock Mechanics and Mining Sciences 119 (2019), 46–57, 10.1016/j.ijrmms.2019.04.008.",
+                "@reference-instance-id": "OB2BibRecID-966441590-fda1f44c69159339be9a34035b6e93aa-4",
+                "@id": "4",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "End bearing response of open-ended pipe piles embedded in rock"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.ijrmms.2019.04.008",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib0004",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85064889696",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "119"
+                    },
+                    "pagerange": {
+                      "@first": "46",
+                      "@last": "57"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Jafari",
+                        "ce:indexed-name": "Jafari M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Gharsallaoui",
+                        "ce:indexed-name": "Gharsallaoui H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "K.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Victor",
+                        "ce:indexed-name": "Victor K.H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Holeyman",
+                        "ce:indexed-name": "Holeyman A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "International Journal of Rock Mechanics and Mining Sciences"
+                },
+                "ce:source-text": "Jafari M., Gharsallaoui H., Victor K.H., Holeyman A. (2019) End bearing response of open-ended pipe piles embedded in rock. International Journal of Rock Mechanics and Mining Sciences 119:46–57, DOI: 10.1016/j.ijrmms.2019.04.008"
+              },
+              {
+                "ref-fulltext": "Lade, P.V., Yamamuro, J.A., Bopp, P.A., Significance of particle crushing in granular materials. Journal of Geotechnical Engineering 122:4 (1996), 309–316, 10.1061/(ASCE)0733-9410(1996)122:4(309.",
+                "@reference-instance-id": "OB2BibRecID-966441590-29e5be8d41796b8ba8f8527b382ed614-5",
+                "@id": "5",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1996"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Significance of particle crushing in granular materials"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1061/(ASCE)0733-9410(1996)122:4(309",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib0005",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0030390147",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "122",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "309",
+                      "@last": "316"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.V.",
+                        "@_fa": "true",
+                        "ce:surname": "Lade",
+                        "ce:indexed-name": "Lade P.V."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Yamamuro",
+                        "ce:indexed-name": "Yamamuro J.A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "P.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Bopp",
+                        "ce:indexed-name": "Bopp P.A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Journal of Geotechnical Engineering"
+                },
+                "ce:source-text": "Lade P.V., Yamamuro J.A., Bopp P.A. (1996) Significance of particle crushing in granular materials. Journal of Geotechnical Engineering 122(4):309–316, DOI:10.1061/(ASCE)0733-9410(1996)122:4(309)"
+              },
+              {
+                "ref-fulltext": "Liu, J.L., Ma, M., Analysis of the dynamic stiffness and bearing capacity for pile foundations. Vibroengineering Procedia 5 (2015), 134–139.",
+                "@reference-instance-id": "OB2BibRecID-966441590-0bd0fc92cc4f9ab7da6f46fb8daa7f70-6",
+                "@id": "6",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Analysis of the dynamic stiffness and bearing capacity for pile foundations"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0006",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84954237199",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "5"
+                    },
+                    "pagerange": {
+                      "@first": "134",
+                      "@last": "139"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu J.L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Ma",
+                        "ce:indexed-name": "Ma M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Vibroengineering Procedia"
+                },
+                "ce:source-text": "Liu J.L., Ma M. (2015) Analysis of the dynamic stiffness and bearing capacity for pile foundations. Vibroengineering Procedia 5:134–139."
+              },
+              {
+                "ref-fulltext": "Liu, C.Y., Zhao, M.X., Liu, Y., Reliability analysis of the vertical bearing capacity of prestressed pipe pile foundations. Advanced Materials Research 671 (2013), 90–93, 10.4028/www.scientific.net/AMR.671-674.90.",
+                "@reference-instance-id": "OB2BibRecID-966441590-48ce49d16980c55734c75cd3d8502eaa-7",
+                "@id": "7",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Reliability analysis of the vertical bearing capacity of prestressed pipe pile foundations"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.4028/www.scientific.net/AMR.671-674.90",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib0007",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84875769124",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "671"
+                    },
+                    "pagerange": {
+                      "@first": "90",
+                      "@last": "93"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu C.Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.X.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao M.X."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Advanced Materials Research"
+                },
+                "ce:source-text": "Liu C.Y., Zhao M.X., Liu Y. (2013) Reliability analysis of the vertical bearing capacity of prestressed pipe pile foundations. Advanced Materials Research 671:90–93, DOI:10.4028/www.scientific.net/AMR.671-674.90"
+              },
+              {
+                "ref-fulltext": "Liu, C.L., Tang, M.X., Hu, H.S., Yue, Y.P., Hou, Z.K., Chen, H., An experimental study of vertical bearing capacity of DPC piles considering sediment effect at pile bottom. Rock and Soil Mechanics 42:1 (2021), 177–186, 10.16285/j.rsm.2020.0550 (in chinese).",
+                "@reference-instance-id": "OB2BibRecID-966441590-2867d3826d2450cc409d3ceda2b35fb7-8",
+                "@id": "8",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "An experimental study of vertical bearing capacity of DPC piles considering sediment effect at pile bottom"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.16285/j.rsm.2020.0550",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib0008",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85100347530",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "42",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "177",
+                      "@last": "186"
+                    }
+                  },
+                  "ref-text": "(in chinese)",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu C.L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.X.",
+                        "@_fa": "true",
+                        "ce:surname": "Tang",
+                        "ce:indexed-name": "Tang M.X."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Hu",
+                        "ce:indexed-name": "Hu H.S."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Yue",
+                        "ce:indexed-name": "Yue Y.P."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Z.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Hou",
+                        "ce:indexed-name": "Hou Z.K."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Rock and Soil Mechanics"
+                },
+                "ce:source-text": "Liu C.L., Tang M.X., Hu H.S., Yue Y.P., Hou Z.K., Chen H. (2021) An experimental study of vertical bearing capacity of DPC piles considering sediment effect at pile bottom Rock and Soil Mechanics 42(1):177–186, DOI:10.16285/j.rsm.2020.0550 (in chinese)"
+              },
+              {
+                "ref-fulltext": "Lyu, F., Shao, H., Zhang, W., Comparative analysis about carbon emission of precast pile and cast-in-situ pile. Energy Reports 8 (2022), 514–525, 10.1016/j.egyr.2022.03.101.",
+                "@reference-instance-id": "OB2BibRecID-966441590-afbff452d1acf3beb72f759ed03bface-9",
+                "@id": "9",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Comparative analysis about carbon emission of precast pile and cast-in-situ pile"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.egyr.2022.03.101",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib0009",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85127107958",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "8"
+                    },
+                    "pagerange": {
+                      "@first": "514",
+                      "@last": "525"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Lyu",
+                        "ce:indexed-name": "Lyu F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Shao",
+                        "ce:indexed-name": "Shao H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Energy Reports"
+                },
+                "ce:source-text": "Lyu F., Shao H., Zhang W. (2022) Comparative analysis about carbon emission of precast pile and cast-in-situ pile. Energy Reports 8:514–525, DOI:10.1016/j.egyr.2022.03.101"
+              },
+              {
+                "ref-fulltext": "Ma, M., Liu, J.L., Ke, Z.T., Gao, Y., Bearing capacity estimation of bridge piles using the impulse transient response method. Shock and Vibration, 2016(1), 2016, 4187026, 10.1155/2016/4187026.",
+                "@reference-instance-id": "OB2BibRecID-966441590-d1e4bcda96e492b0a0359fc2539c9ceb-10",
+                "@id": "10",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Bearing capacity estimation of bridge piles using the impulse transient response method"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1155/2016/4187026",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib0010",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "4187026",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "84955459619",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "2016",
+                      "@issue": "1"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Ma",
+                        "ce:indexed-name": "Ma M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu J.L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Z.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Ke",
+                        "ce:indexed-name": "Ke Z.T."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Gao",
+                        "ce:indexed-name": "Gao Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Shock and Vibration"
+                },
+                "ce:source-text": "Ma M., Liu J.L., Ke Z.T., Gao Y. (2016) Bearing capacity estimation of bridge piles using the impulse transient response method. Shock and Vibration 2016(1):4187026, Doi:10.1155/2016/4187026"
+              },
+              {
+                "ref-fulltext": "Niu, Y.L., Cao, Y.X., Liu, Y., Construction technique of dynamic consolidation on saturated silt. Advanced Materials Research 671 (2013), 190–194, 10.4028/www.scientific.net/AMR.671-674.190.",
+                "@reference-instance-id": "OB2BibRecID-966441590-1a492ea854d9948352be02fade8ec91c-11",
+                "@id": "11",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Construction technique of dynamic consolidation on saturated silt"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.4028/www.scientific.net/AMR.671-674.190",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib0011",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84875772444",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "671"
+                    },
+                    "pagerange": {
+                      "@first": "190",
+                      "@last": "194"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Niu",
+                        "ce:indexed-name": "Niu Y.L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.X.",
+                        "@_fa": "true",
+                        "ce:surname": "Cao",
+                        "ce:indexed-name": "Cao Y.X."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Advanced Materials Research"
+                },
+                "ce:source-text": "Niu Y.L., Cao Y.X., Liu Y. (2013) Construction technique of dynamic consolidation on saturated silt. Advanced Materials Research 671:190–194, DOI:10.4028/www.scientific.net/AMR.671-674.190"
+              },
+              {
+                "ref-fulltext": "Tang, M.X., Li, B., Liu, C.L., Ling, Z., Su, D.L., Hou, Z.K., Field tests on bearing characteristics of DPC pipe piles including effects of end sealing and side grouting. Acta Geotechnica 19:4 (2024), 1729–1744, 10.1007/s11440-023-01983-5.",
+                "@reference-instance-id": "OB2BibRecID-966441590-940f74ba20c988ddcc5ccf33834ede15-12",
+                "@id": "12",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Field tests on bearing characteristics of DPC pipe piles including effects of end sealing and side grouting"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s11440-023-01983-5",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib0012",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85165179204",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "19",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "1729",
+                      "@last": "1744"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.X.",
+                        "@_fa": "true",
+                        "ce:surname": "Tang",
+                        "ce:indexed-name": "Tang M.X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li B."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu C.L."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Ling",
+                        "ce:indexed-name": "Ling Z."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "D.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Su",
+                        "ce:indexed-name": "Su D.L."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "Z.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Hou",
+                        "ce:indexed-name": "Hou Z.K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Acta Geotechnica"
+                },
+                "ce:source-text": "Tang M.X., Li B., Liu C.L., Ling Z., Su D.L., Hou Z.K. (2024) Field tests on bearing characteristics of DPC pipe piles including effects of end sealing and side grouting. Acta Geotechnica 19(4): 1729–1744, DOI:10.1007/s11440-023-01983-5"
+              },
+              {
+                "ref-fulltext": "Xu, Z.J., Si, B.W., Si, A., Xu, H., New technology for foundation treatment: down the hole dynamic compaction. 2011, China Architecture & Building Press, Beijing, China (in Chinese).",
+                "@reference-instance-id": "OB2BibRecID-966441590-09757e74a1cef602a4608f549fb13ace-13",
+                "@id": "13",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "New technology for foundation treatment: down the hole dynamic compaction"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0013",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84904968308",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "China Architecture & Building Press Beijing, China (in Chinese)",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu Z.J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "B.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Si",
+                        "ce:indexed-name": "Si B.W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Si",
+                        "ce:indexed-name": "Si A."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu H."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Xu Z.J., Si B.W., Si A., Xu H. (2011) New technology for foundation treatment: down the hole dynamic compaction. China Architecture & Building Press, Beijing, China (in Chinese)"
+              },
+              {
+                "ref-fulltext": "Yea, G.G., Yun, D.H., Yun, D.K., Choi, Y., Study (II) on development of charts and formulae predicting allowable axial bearing capacity for prebored PHC pile socketed into weathered rock through Sandy soil layer-improvement measures of current design method by analyzing current design data for prebored PHC piles. Journal of The Korean Geotechnical Society 35:8 (2019), 31–42, 10.7843/kgs.2019.35.8.31.",
+                "@reference-instance-id": "OB2BibRecID-966441590-63f2f14b2f91b8421ba05d8dd63914e3-14",
+                "@id": "14",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Study (II) on development of charts and formulae predicting allowable axial bearing capacity for prebored PHC pile socketed into weathered rock through Sandy soil layer-improvement measures of current design method by analyzing current design data for prebored PHC piles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.7843/kgs.2019.35.8.31",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib0014",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105012028545",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "35",
+                      "@issue": "8"
+                    },
+                    "pagerange": {
+                      "@first": "31",
+                      "@last": "42"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Yea",
+                        "ce:indexed-name": "Yea G.G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Yun",
+                        "ce:indexed-name": "Yun D.H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Yun",
+                        "ce:indexed-name": "Yun D.K."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Choi",
+                        "ce:indexed-name": "Choi Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Journal of The Korean Geotechnical Society"
+                },
+                "ce:source-text": "Yea G.G., Yun D.H., Yun D.K., Choi Y. (2019) Study (II) on development of charts and formulae predicting allowable axial bearing capacity for prebored PHC pile socketed into weathered rock through Sandy soil layer-improvement measures of current design method by analyzing current design data for prebored PHC piles. Journal of The Korean Geotechnical Society 35(8):31–42, DOI:10.7843/kgs.2019.35.8.31"
+              },
+              {
+                "ref-fulltext": "Yu, J., Cai, Y.Y., Wu, W.B., Effect of sediment on vertical dynamic impedance of rock-socketed pile with large diameter. Journal of Central South University 20:10 (2013), 2856–2862, 10.1007/s11771-013-1806-2.",
+                "@reference-instance-id": "OB2BibRecID-966441590-ad55667789004f02f7ea53483e118fec-15",
+                "@id": "15",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of sediment on vertical dynamic impedance of rock-socketed pile with large diameter"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s11771-013-1806-2",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib0015",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84892583894",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "20",
+                      "@issue": "10"
+                    },
+                    "pagerange": {
+                      "@first": "2856",
+                      "@last": "2862"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Cai",
+                        "ce:indexed-name": "Cai Y.Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "W.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu W.B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Journal of Central South University"
+                },
+                "ce:source-text": "Yu J., Cai Y.Y., Wu W.B. (2013) Effect of sediment on vertical dynamic impedance of rock-socketed pile with large diameter. Journal of Central South University 20(10):2856–2862, DOI:10.1007/s11771-013-1806-2"
+              },
+              {
+                "ref-fulltext": "Zhang, Y., Wang, J.C., Wang, X.F., Shi, J.C., Research on the relationship between the dynamic stiffness and pile bearing capacity. Proceedings of the conference in 2022 8th International Conference on Hydraulic and Civil Engineering: Deep Space Intelligent Development and Utilization Forum (ICHCE), November 25-27, Xian, Shanxi, China, 2022.",
+                "@reference-instance-id": "OB2BibRecID-966441590-ee982fb4b335861fda73369521c3cd98-16",
+                "@id": "16",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Research on the relationship between the dynamic stiffness and pile bearing capacity"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0016",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85149126235",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang J.C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang X.F."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi J.C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Proceedings of the conference in 2022 8th International Conference on Hydraulic and Civil Engineering: Deep Space Intelligent Development and Utilization Forum (ICHCE), November 25-27, Xian, Shanxi, China"
+                },
+                "ce:source-text": "Zhang Y., Wang J.C., Wang X.F., Shi J.C. (2022) Research on the relationship between the dynamic stiffness and pile bearing capacity. Proceedings of the conference in 2022 8th International Conference on Hydraulic and Civil Engineering: Deep Space Intelligent Development and Utilization Forum (ICHCE), November 25-27, Xian, Shanxi, China"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "affiliation": [
+      {
+        "affiliation-city": "Shanghai",
+        "@id": "60073652",
+        "affilname": "Tongji University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073652",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Yueyang",
+        "@id": "60073729",
+        "affilname": "Hunan Institute of Science and Technology",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073729",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Guangzhou",
+        "@id": "126239326",
+        "affilname": "Ltd.",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/126239326",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Guangzhou",
+        "@id": "126338265",
+        "affilname": "Ltd.",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/126338265",
+        "affiliation-country": "China"
+      }
+    ],
+    "coredata": {
+      "srctype": "j",
+      "eid": "2-s2.0-105012018931",
+      "dc:description": "This paper introduces a method for reinforcing the pile-end holding layer through the continuous impact of a rammer on the debris and weak rock layer at the bottom of the pipe pile under underwater conditions. The simulation tests on the ramming of rock-embedded precast pipe pile bottoms and inspections of the pile foundation post-reinforcement were conducted. Simultaneously, an analysis of vibration energy propagation in surrounding buildings and strata was performed. The field test results demonstrate that the presented tamping reinforcement method effectively crushes sediment and the weak rock layer at the pile bottom. It creates a hole with a certain enlargement effect at the bottom of the pipe pile, allowing concrete to replace the weak bearing layer and form a robust bond between the pile end and the simulated bedrock. Besides, a significant improvement in dynamic stiffness of the piles was presented, ranging from 67% to 175%, highlighting the efficacy of the reinforcement process. Vibration monitoring during the tamping process reveals that the height of the hammer and the water level in the hole play pivotal roles in tamping energy. Additionally, the adverse impact of vibration energy on adjacent structures can be mitigated by injecting water into the respective buildings.",
+      "prism:coverDate": "2025-10-01",
+      "prism:aggregationType": "Journal",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105012018931",
+      "dc:creator": {
+        "author": [
+          {
+            "ce:given-name": "Zhenglong",
+            "preferred-name": {
+              "ce:given-name": "Zhenglong",
+              "ce:initials": "Z.",
+              "ce:surname": "Yang",
+              "ce:indexed-name": "Yang Z."
+            },
+            "@seq": "1",
+            "ce:initials": "Z.",
+            "@_fa": "true",
+            "affiliation": [
+              {
+                "@id": "126239326",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/126239326"
+              },
+              {
+                "@id": "126338265",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/126338265"
+              },
+              {
+                "@id": "60073652",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073652"
+              }
+            ],
+            "ce:surname": "Yang",
+            "@auid": "57215874197",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57215874197",
+            "ce:indexed-name": "Yang Z."
+          }
+        ]
+      },
+      "link": [
+        {
+          "@_fa": "true",
+          "@rel": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105012018931"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105012018931&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105012018931&origin=inward"
+        }
+      ],
+      "source-id": "17600155006",
+      "pii": "S1226798825003332",
+      "citedby-count": "0",
+      "prism:volume": "29",
+      "subtype": "ar",
+      "dc:title": "Pile bottom ramming test of prestressed end-bearing pipe piles in weathered rock strata",
+      "openaccess": "1",
+      "prism:issn": "19763808 12267988",
+      "publishercopyright": "© 2025 The Authors",
+      "article-number": "100218",
+      "prism:issueIdentifier": "10",
+      "subtypeDescription": "Article",
+      "prism:publicationName": "KSCE Journal of Civil Engineering",
+      "openaccessFlag": "true",
+      "prism:doi": "10.1016/j.kscej.2025.100218",
+      "dc:identifier": "SCOPUS_ID:105012018931",
+      "dc:publisher": "Elsevier Inc."
+    },
+    "idxterms": {
+      "mainterm": [
+        {
+          "$": "DPC pipe",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Pile bottom",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Pipe piles",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Ramping",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Rock layers",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Rock-socketed piles",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Vibration energies",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Vibration monitoring",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Weak rock",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Weathered layer",
+          "@weight": "b",
+          "@candidate": "n"
+        }
+      ]
+    },
+    "language": {
+      "@xml:lang": "eng"
+    },
+    "authkeywords": {
+      "author-keyword": [
+        {
+          "@_fa": "true",
+          "$": "Bearing capacity"
+        },
+        {
+          "@_fa": "true",
+          "$": "DPC pipe"
+        },
+        {
+          "@_fa": "true",
+          "$": "Pipe piles"
+        },
+        {
+          "@_fa": "true",
+          "$": "Ramping"
+        },
+        {
+          "@_fa": "true",
+          "$": "Rock socketed pile"
+        },
+        {
+          "@_fa": "true",
+          "$": "Vibration monitoring"
+        },
+        {
+          "@_fa": "true",
+          "$": "Weathered layer"
+        }
+      ]
+    },
+    "subject-areas": {
+      "subject-area": [
+        {
+          "@_fa": "true",
+          "$": "Civil and Structural Engineering",
+          "@code": "2205",
+          "@abbrev": "ENGI"
+        }
+      ]
+    },
+    "authors": {
+      "author": [
+        {
+          "ce:given-name": "Zhenglong",
+          "preferred-name": {
+            "ce:given-name": "Zhenglong",
+            "ce:initials": "Z.",
+            "ce:surname": "Yang",
+            "ce:indexed-name": "Yang Z."
+          },
+          "@seq": "1",
+          "ce:initials": "Z.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "126239326",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/126239326"
+            },
+            {
+              "@id": "126338265",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/126338265"
+            },
+            {
+              "@id": "60073652",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073652"
+            }
+          ],
+          "ce:surname": "Yang",
+          "@auid": "57215874197",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57215874197",
+          "ce:indexed-name": "Yang Z."
+        },
+        {
+          "ce:given-name": "Zhiguo",
+          "preferred-name": {
+            "ce:given-name": "Zhiguo",
+            "ce:initials": "Z.",
+            "ce:surname": "Zhou",
+            "ce:indexed-name": "Zhou Z."
+          },
+          "@seq": "2",
+          "ce:initials": "Z.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "126239326",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/126239326"
+            },
+            {
+              "@id": "126338265",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/126338265"
+            }
+          ],
+          "ce:surname": "Zhou",
+          "@auid": "55728182600",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55728182600",
+          "ce:indexed-name": "Zhou Z."
+        },
+        {
+          "ce:given-name": "Xiaoli",
+          "preferred-name": {
+            "ce:given-name": "Xiaoli",
+            "ce:initials": "X.",
+            "ce:surname": "Sun",
+            "ce:indexed-name": "Sun X."
+          },
+          "@seq": "3",
+          "ce:initials": "X.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "126239326",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/126239326"
+            },
+            {
+              "@id": "126338265",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/126338265"
+            }
+          ],
+          "ce:surname": "Sun",
+          "@auid": "57221083037",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57221083037",
+          "ce:indexed-name": "Sun X."
+        },
+        {
+          "ce:given-name": "Jun",
+          "preferred-name": {
+            "ce:given-name": "Jun",
+            "ce:initials": "J.",
+            "ce:surname": "Yang",
+            "ce:indexed-name": "Yang J."
+          },
+          "@seq": "4",
+          "ce:initials": "J.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "126239326",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/126239326"
+            },
+            {
+              "@id": "126338265",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/126338265"
+            }
+          ],
+          "ce:surname": "Yang",
+          "@auid": "60020082000",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60020082000",
+          "ce:indexed-name": "Yang J."
+        },
+        {
+          "ce:given-name": "Danhui",
+          "preferred-name": {
+            "ce:given-name": "Danhui",
+            "ce:initials": "D.",
+            "ce:surname": "Dan",
+            "ce:indexed-name": "Dan D."
+          },
+          "@seq": "5",
+          "ce:initials": "D.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60073652",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073652"
+          },
+          "ce:surname": "Dan",
+          "@auid": "7004963131",
+          "author-url": "https://api.elsevier.com/content/author/author_id/7004963131",
+          "ce:indexed-name": "Dan D."
+        },
+        {
+          "ce:given-name": "Jianliang",
+          "preferred-name": {
+            "ce:given-name": "Jianliang",
+            "ce:initials": "J.",
+            "ce:surname": "Wu",
+            "ce:indexed-name": "Wu J."
+          },
+          "@seq": "6",
+          "ce:initials": "J.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60073729",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073729"
+          },
+          "ce:surname": "Wu",
+          "@auid": "58046927000",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58046927000",
+          "ce:indexed-name": "Wu J."
+        }
+      ]
+    }
+  }
+}

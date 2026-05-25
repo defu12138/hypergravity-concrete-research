@@ -1,0 +1,1616 @@
+{
+  "abstracts-retrieval-response": {
+    "item": {
+      "ait:process-info": {
+        "ait:status": {
+          "@state": "update",
+          "@type": "core",
+          "@stage": "S300"
+        },
+        "ait:date-delivered": {
+          "@day": "26",
+          "@year": "2019",
+          "@timestamp": "2019-12-26T03:49:31.000031-05:00",
+          "@month": "12"
+        },
+        "ait:date-sort": {
+          "@day": "01",
+          "@year": "2014",
+          "@month": "01"
+        }
+      },
+      "xocs:meta": {
+        "xocs:funding-list": {
+          "@pui-match": "primary",
+          "@has-funding-info": "1",
+          "xocs:funding": [
+            {
+              "xocs:funding-agency-matched-string": "Soil - Foundation"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Ministry of Knowledge Economy",
+              "xocs:funding-agency-acronym": "MKE",
+              "xocs:funding-agency": "Ministry of Knowledge Economy",
+              "xocs:funding-id": "2010T100101048",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100002994",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1835841/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Korea Institute of Energy Technology Evaluation and Planning",
+              "xocs:funding-agency-acronym": "KETEP",
+              "xocs:funding-agency": "Korea Institute of Energy Technology Evaluation and Planning",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100007053",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1835841/"
+            }
+          ],
+          "xocs:funding-addon-generated-timestamp": "2021-02-04T23:37:29.757306Z",
+          "xocs:funding-text": "This research was supported by the Korea Institute of Energy Technology Evaluation and Planning (KETEP) grant funded by the Ministry of Knowledge Economy (Grant no. 2010T100101048, Dynamic Geo-centrifuge Technology for Seismic Design Loads of Soil - Foundation - NPP Containment System).",
+          "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }
+      },
+      "bibrecord": {
+        "head": {
+          "author-group": [
+            {
+              "affiliation": {
+                "country": "South Korea",
+                "@afid": "60032144",
+                "@country": "kor",
+                "organization": {
+                  "$": "Department of Civil and Environmental Engineering, Korea Advanced Institute of Science and Technology (KAIST)"
+                },
+                "affiliation-id": {
+                  "@afid": "60032144",
+                  "@dptid": "107983928"
+                },
+                "@dptid": "107983928"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Jeong Gon",
+                  "preferred-name": {
+                    "ce:given-name": "Jeong Gon",
+                    "ce:initials": "J.G.",
+                    "ce:surname": "Ha",
+                    "ce:indexed-name": "Ha J."
+                  },
+                  "@seq": "1",
+                  "ce:initials": "J.G.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Ha",
+                  "@auid": "55938047500",
+                  "ce:indexed-name": "Ha J.G."
+                },
+                {
+                  "ce:given-name": "Dong-Soo",
+                  "preferred-name": {
+                    "ce:given-name": "Dong Soo",
+                    "ce:initials": "D.S.",
+                    "ce:surname": "Kim",
+                    "ce:indexed-name": "Kim D."
+                  },
+                  "@seq": "3",
+                  "ce:initials": "D.-S.",
+                  "@date-locked": "2019-09-18T04:02:58.234",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Kim",
+                  "@auid": "55677030900",
+                  "ce:indexed-name": "Kim D.-S."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "South Korea",
+                "@afid": "60068699",
+                "@country": "kor",
+                "organization": {
+                  "$": "Structural System and Site Evaluation Department, Korea Institute of Nuclear Safety (KINS)"
+                },
+                "affiliation-id": {
+                  "@afid": "60068699",
+                  "@dptid": "104742373"
+                },
+                "@dptid": "104742373"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Sei-Hyun",
+                  "preferred-name": {
+                    "ce:given-name": "Sei Hyun",
+                    "ce:initials": "S.H.",
+                    "ce:surname": "Lee",
+                    "ce:indexed-name": "Lee S."
+                  },
+                  "@seq": "2",
+                  "ce:initials": "S.-H.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Lee",
+                  "@auid": "15136161600",
+                  "ce:indexed-name": "Lee S.-H."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "South Korea",
+                "@afid": "60103616",
+                "@country": "kor",
+                "organization": {
+                  "$": "Department of Civil and Environmental Engineering, College of Engineering, Kongju National University"
+                },
+                "affiliation-id": {
+                  "@afid": "60103616",
+                  "@dptid": "112654346"
+                },
+                "@dptid": "112654346"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Yun Wook",
+                  "preferred-name": {
+                    "ce:given-name": "Yun Wook",
+                    "ce:initials": "Y.W.",
+                    "ce:surname": "Choo",
+                    "ce:indexed-name": "Choo Y."
+                  },
+                  "@seq": "4",
+                  "ce:initials": "Y.W.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Choo",
+                  "@auid": "12803794500",
+                  "ce:indexed-name": "Choo Y.W."
+                }
+              ]
+            }
+          ],
+          "citation-title": "Simulation of soil-foundation-structure interaction of Hualien large-scale seismic test using dynamic centrifuge test",
+          "abstracts": "Understanding the soil-structure interaction (SSI) mechanism is crucial in the seismic design of nuclear power plant (NPP) containment systems. Although the numerical analysis method is generally used in seismic design, there is a need for experimental verification for the reliable estimation of SSI behavior. In this study a dynamic centrifuge test was performed to simulate the SSI behavior of a Hualien large-scale seismic test (LSST) during the Chi-Chi earthquake. To simulate the soil profile and dynamic soil properties of the Hualien site, a series of resonant column (RC) tests was performed to determine the model soil preparation conditions, such as the compaction density and the ratio of soil-gravel contents. The variations in the shear wave velocity (VS) profiles of the sand, gravel, and backfill layers in the model were estimated using the RC test results. During the centrifuge test, the VS profiles of the model were evaluated using in-flight bender element tests and compared with the in-situ VS profile at Hualien. The containment building model was modeled using aluminum and the proper scaling laws. A series of dynamic centrifuge tests was performed with a 1/50 scale model using the base motion recorded during the Chi-Chi-earthquake. In the soil layer and foundation level, the centrifuge test results were similar to the LSST data in both the time and frequency domains, but there were differences in the structure owing to the complex structural response as well as the material damping difference between the concrete in the prototype and aluminum in the model. In addition, as the input base motion amplitude was increased to a maximum value of 0.4g (prototype scale), the responses of the soil and containment model were measured. This study shows the potential of utilizing dynamic centrifuge tests as an experimental modeling tool for site specific SSI analyses of soil-foundation-NPP containment system. © 2014 Elsevier Ltd.",
+          "correspondence": {
+            "affiliation": {
+              "country": "South Korea",
+              "@country": "kor",
+              "organization": {
+                "$": "Department of Civil and Environmental Engineering, Korea Advanced Institute of Science and Technology (KAIST)"
+              }
+            },
+            "person": {
+              "ce:initials": "D.-S.",
+              "ce:surname": "Kim",
+              "ce:indexed-name": "Kim D.-S."
+            }
+          },
+          "citation-info": {
+            "author-keywords": {
+              "author-keyword": [
+                {
+                  "$": "Dynamic centrifuge test",
+                  "@xml:lang": "eng"
+                },
+                {
+                  "$": "Hualien large scale seismic test",
+                  "@xml:lang": "eng"
+                },
+                {
+                  "$": "Resonant column test",
+                  "@xml:lang": "eng"
+                },
+                {
+                  "$": "Soil modeling",
+                  "@xml:lang": "eng"
+                },
+                {
+                  "$": "Soil-structure interaction",
+                  "@xml:lang": "eng"
+                }
+              ]
+            },
+            "citation-type": {
+              "@code": "ar"
+            },
+            "citation-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "abstract-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            }
+          },
+          "source": {
+            "sourcetitle-abbrev": "Soil Dyn. Earthqu. Eng.",
+            "website": {
+              "ce:e-address": {
+                "$": "http://www.elsevier.com/inca/publications/store/4/2/2/9/2/4/index.htt",
+                "@type": "email"
+              }
+            },
+            "@country": "gbr",
+            "translated-sourcetitle": {
+              "$": "Soil Dynamics and Earthquake Engineering",
+              "@xml:lang": "eng"
+            },
+            "issn": {
+              "$": "02677261",
+              "@type": "print"
+            },
+            "volisspag": {
+              "voliss": {
+                "@volume": "61-62"
+              },
+              "pagerange": {
+                "@first": "176",
+                "@last": "187"
+              }
+            },
+            "@type": "j",
+            "publicationyear": {
+              "@first": "2014"
+            },
+            "publisher": {
+              "publishername": "Elsevier BV"
+            },
+            "sourcetitle": "Soil Dynamics and Earthquake Engineering",
+            "@srcid": "28960",
+            "publicationdate": {
+              "year": "2014",
+              "date-text": "June 2014"
+            }
+          },
+          "enhancement": {
+            "classificationgroup": {
+              "classifications": [
+                {
+                  "@type": "CPXCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "408",
+                      "classification-description": "Structural Design"
+                    },
+                    {
+                      "classification-code": "483.1",
+                      "classification-description": "Soils and Soil Mechanics"
+                    },
+                    {
+                      "classification-code": "483.2",
+                      "classification-description": "Foundations"
+                    },
+                    {
+                      "classification-code": "484",
+                      "classification-description": "Seismology"
+                    },
+                    {
+                      "classification-code": "541.1",
+                      "classification-description": "Aluminum"
+                    },
+                    {
+                      "classification-code": "613",
+                      "classification-description": "Nuclear Power Plants"
+                    },
+                    {
+                      "classification-code": "711",
+                      "classification-description": "Electromagnetic Waves"
+                    },
+                    {
+                      "classification-code": "802.1",
+                      "classification-description": "Chemical Plants and Equipment"
+                    },
+                    {
+                      "classification-code": "921",
+                      "classification-description": "Applied Mathematics"
+                    }
+                  ]
+                },
+                {
+                  "@type": "FLXCLASS",
+                  "classification": {
+                    "classification-code": "78.23",
+                    "classification-description": "MIXING AND SEPARATION"
+                  }
+                },
+                {
+                  "@type": "GEOCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "72.13.4",
+                      "classification-description": "Engineering seismology"
+                    },
+                    {
+                      "classification-code": "77.9.11",
+                      "classification-description": "Influence of dynamic loads"
+                    }
+                  ]
+                },
+                {
+                  "@type": "ASJC",
+                  "classification": [
+                    {
+                      "$": "2205"
+                    },
+                    {
+                      "$": "1909"
+                    },
+                    {
+                      "$": "1111"
+                    }
+                  ]
+                },
+                {
+                  "@type": "SUBJABBR",
+                  "classification": [
+                    {
+                      "$": "ENGI"
+                    },
+                    {
+                      "$": "EART"
+                    },
+                    {
+                      "$": "AGRI"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "item-info": {
+          "copyright": {
+            "$": "Copyright 2014 Elsevier B.V., All rights reserved.",
+            "@type": "Elsevier"
+          },
+          "dbcollection": [
+            {
+              "$": "CPX"
+            },
+            {
+              "$": "GEO"
+            },
+            {
+              "$": "SCOPUS"
+            },
+            {
+              "$": "Scopusbase"
+            }
+          ],
+          "history": {
+            "date-created": {
+              "@day": "01",
+              "@year": "2014",
+              "@month": "04"
+            }
+          },
+          "itemidlist": {
+            "itemid": [
+              {
+                "$": "372649994",
+                "@idtype": "PUI"
+              },
+              {
+                "$": "346073630",
+                "@idtype": "CAR-ID"
+              },
+              {
+                "$": "20141317513106",
+                "@idtype": "CPX"
+              },
+              {
+                "$": "4216345",
+                "@idtype": "GEO"
+              },
+              {
+                "$": "84896497541",
+                "@idtype": "SCP"
+              },
+              {
+                "$": "84896497541",
+                "@idtype": "SGR"
+              }
+            ],
+            "ce:pii": "S0267726114000098",
+            "ce:doi": "10.1016/j.soildyn.2014.01.008"
+          }
+        },
+        "tail": {
+          "bibliography": {
+            "@refcount": "20",
+            "reference": [
+              {
+                "ref-fulltext": "Ghosh B., Madabhushi S.P.G. Centrifuge modelling of seismic soil structure interaction effects. Nucl Eng Design 2007, 237:887-896.",
+                "@id": "1",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Centrifuge modelling of seismic soil structure interaction effects"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "33947321319",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "237"
+                    },
+                    "pagerange": {
+                      "@first": "887",
+                      "@last": "896"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Ghosh",
+                        "ce:indexed-name": "Ghosh B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.P.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Madabhushi",
+                        "ce:indexed-name": "Madabhushi S.P.G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Nucl Eng Design"
+                }
+              },
+              {
+                "ref-fulltext": "Graves H.L., Tang H.T., Liao Y.C. Large-scale seismic test program at Hualien, Taiwan. Nucl Eng Design 1996, 163:323-332.",
+                "@id": "2",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1996"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Large-scale seismic test program at Hualien, Taiwan"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "0030190264",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "163"
+                    },
+                    "pagerange": {
+                      "@first": "323",
+                      "@last": "332"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Graves",
+                        "ce:indexed-name": "Graves H.L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Tang",
+                        "ce:indexed-name": "Tang H.T."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Liao",
+                        "ce:indexed-name": "Liao Y.C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Nucl Eng Design"
+                }
+              },
+              {
+                "ref-fulltext": "Central Research Institute of Electric Power Industry (CRIEPI) Report, The Hualien LSST for SSI research - proposal on strain dependency of stiffness ratio and damping ratio of soils for Dynamic Simulation Analysis, 1998.",
+                "@id": "3",
+                "ref-info": {
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84896528521",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-text": "Central Research Institute of Electric Power Industry (CRIEPI) Report, The Hualien LSST for SSI research - proposal on strain dependency of stiffness ratio and damping ratio of soils for Dynamic Simulation Analysis, 1998."
+                }
+              },
+              {
+                "ref-fulltext": "Chen C.H., Hsu S.Y. Seismic motions at Hualien LSST arrays during the 1999 Chi-Chi earthquake. Earthquake geotechnical case histories for performance-based design 2009, 245-257.",
+                "@id": "4",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic motions at Hualien LSST arrays during the 1999 Chi-Chi earthquake"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84904755548",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "245",
+                      "@last": "257"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen C.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Hsu",
+                        "ce:indexed-name": "Hsu S.Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Earthquake geotechnical case histories for performance-based design"
+                }
+              },
+              {
+                "ref-fulltext": "Korea Institute of Nuclear Safety (KINS) Report, Development of seismic safety assessment technology for soil-structure system of nuclear power plants, 1997.",
+                "@id": "5",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1997"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84896509150",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-text": "Korea Institute of Nuclear Safety (KINS) Report, Development of seismic safety assessment technology for soil-structure system of nuclear power plants"
+                }
+              },
+              {
+                "ref-fulltext": "Kim M.K., Lee S.H., Choo Y.W., Kim D.S. Seismic behaviors of earth-core and concrete-faced rock-fill dams by dynamic centrifuge tests. Soil Dyn Earthq Eng 2011, 31:1579-1593.",
+                "@id": "6",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic behaviors of earth-core and concrete-faced rock-fill dams by dynamic centrifuge tests"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "80051813309",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "31"
+                    },
+                    "pagerange": {
+                      "@first": "1579",
+                      "@last": "1593"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim M.K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee S.H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Choo",
+                        "ce:indexed-name": "Choo Y.W."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "D.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim D.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dyn Earthq Eng"
+                }
+              },
+              {
+                "ref-fulltext": "Kim MK, Lee SH, Choo YW, Kim DS, Kwon HK. Seismic behaviors of rockfill dam and CFRD in dynamic centrifuge tests. In: Proceedings of the Korean society of civil engineers. Korea; 2010. p. 413-6.",
+                "@id": "7",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84896517475",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "413",
+                      "@last": "416"
+                    }
+                  },
+                  "ref-text": "Seismic behaviors of rockfill dam and CFRD in dynamic centrifuge tests. In: Proceedings of the Korean society of civil engineers. Korea",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim M.K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee S.H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Choo",
+                        "ce:indexed-name": "Choo Y.W."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "D.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim D.S."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "H.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Kwon",
+                        "ce:indexed-name": "Kwon H.K."
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "ref-fulltext": "Schofield A.N. Cambridge geotechnical centrifuge operations. Geotechnique 1980, 30:227-268.",
+                "@id": "8",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1980"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Cambridge geotechnical centrifuge operations"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "0019229042",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "30"
+                    },
+                    "pagerange": {
+                      "@first": "227",
+                      "@last": "268"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Schofield",
+                        "ce:indexed-name": "Schofield A.N."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geotechnique"
+                }
+              },
+              {
+                "ref-fulltext": "Schofield AN. Dynamic and earthquake geotechnical centrifuge modeling. In: Proceedings of the international conference on recent advances in geotechnical earthquake engineering and soil dynamics. St. Louis; 1981. p. 1081-100.",
+                "@id": "9",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1981"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "0001072301",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "1081",
+                      "@last": "1100"
+                    }
+                  },
+                  "ref-text": "Dynamic and earthquake geotechnical centrifuge modeling. In: Proceedings of the international conference on recent advances in geotechnical earthquake engineering and soil dynamics. St. Louis",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Schofield",
+                        "ce:indexed-name": "Schofield A.N."
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "ref-fulltext": "Gunturi V.R., Elgamal A.-W.M., Tang H.T. Hualien seismic downhole data analysis. Eng Geol 1998, 50:9-29.",
+                "@id": "10",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1998"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Hualien seismic downhole data analysis"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "0032172408",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "50"
+                    },
+                    "pagerange": {
+                      "@first": "9",
+                      "@last": "29"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "V.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Gunturi",
+                        "ce:indexed-name": "Gunturi V.R."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.-W.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Elgamal",
+                        "ce:indexed-name": "Elgamal A.-W.M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Tang",
+                        "ce:indexed-name": "Tang H.T."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Eng Geol"
+                }
+              },
+              {
+                "ref-fulltext": "Kim D.S., Kim N.R., Choo Y.W., Cho G.C. A newly developed state-of-the-art geotechnical centrifuge in Korea. KSCE Journal of Civil Engineering 2013, 17(1):77-84.",
+                "@id": "11",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A newly developed state-of-the-art geotechnical centrifuge in Korea"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84871968697",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "17",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "77",
+                      "@last": "84"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim D.S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "N.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim N.R."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Choo",
+                        "ce:indexed-name": "Choo Y.W."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "G.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Cho",
+                        "ce:indexed-name": "Cho G.C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "KSCE Journal of Civil Engineering"
+                }
+              },
+              {
+                "ref-fulltext": "Kim D.S., Lee S.H., Choo Y.W., Perdriat J. Self-balanced earthquake simulator on centrifuge and dynamic performance verication. KSCE Journal of Civil Engineering 2013, 17(4):651-661.",
+                "@id": "12",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Self-balanced earthquake simulator on centrifuge and dynamic performance verication"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84877152903",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "17",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "651",
+                      "@last": "661"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim D.S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee S.H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Choo",
+                        "ce:indexed-name": "Choo Y.W."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Perdriat",
+                        "ce:indexed-name": "Perdriat J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "KSCE Journal of Civil Engineering"
+                }
+              },
+              {
+                "ref-fulltext": "Zeng X., Schofield A.N. Design and performance of an equivalent-shear-beam container for earthquake centrifuge modelling. Geotechnique 1996, 46:83-102.",
+                "@id": "13",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1996"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Design and performance of an equivalent-shear-beam container for earthquake centrifuge modelling"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "0029667308",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "46"
+                    },
+                    "pagerange": {
+                      "@first": "83",
+                      "@last": "102"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Zeng",
+                        "ce:indexed-name": "Zeng X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Schofield",
+                        "ce:indexed-name": "Schofield A.N."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geotechnique"
+                }
+              },
+              {
+                "ref-fulltext": "Lee S.H., Choo Y.W., Kim D.S. Performance of equivalent shear beam (ESB) model container for dynamic geotechnical centrifuge tests. Soil Dyn Earthq Eng 2013, 44:102-114.",
+                "@id": "14",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Performance of equivalent shear beam (ESB) model container for dynamic geotechnical centrifuge tests"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84867617159",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "44"
+                    },
+                    "pagerange": {
+                      "@first": "102",
+                      "@last": "114"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee S.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Choo",
+                        "ce:indexed-name": "Choo Y.W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim D.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dyn Earthq Eng"
+                }
+              },
+              {
+                "ref-fulltext": "Zhang J., Andrus R.D., Juang C.H. Normalized shear modulus and material damping ratio relationships. J Geotech Geoenviron Eng 2005, 131:453-465.",
+                "@id": "15",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2005"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Normalized shear modulus and material damping ratio relationships"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "15844373144",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "131"
+                    },
+                    "pagerange": {
+                      "@first": "453",
+                      "@last": "465"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Andrus",
+                        "ce:indexed-name": "Andrus R.D."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Juang",
+                        "ce:indexed-name": "Juang C.H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Geotech Geoenviron Eng"
+                }
+              },
+              {
+                "ref-fulltext": "Hardin B.O., Drenevich V.P. Shear modulus and damping in soils: measurements and parameter effects. J Soil Mech Found Div 1972, 98:603-624.",
+                "@id": "16",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1972"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Shear modulus and damping in soils: measurements and parameter effects"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "0015360542",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "98"
+                    },
+                    "pagerange": {
+                      "@first": "603",
+                      "@last": "624"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.O.",
+                        "@_fa": "true",
+                        "ce:surname": "Hardin",
+                        "ce:indexed-name": "Hardin B.O."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "V.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Drenevich",
+                        "ce:indexed-name": "Drenevich V.P."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Soil Mech Found Div"
+                }
+              },
+              {
+                "ref-fulltext": "Stone KJL, Hensley PJ. A centrifuge study of rectangular box culverts. In: Proceedings of the international conference centrifuge, vol. 91. Rotterdam; 1991. p. 107-12.",
+                "@id": "17",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1991"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84896527522",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "107",
+                      "@last": "112"
+                    }
+                  },
+                  "ref-text": "A centrifuge study of rectangular box culverts. In: Proceedings of the international conference centrifuge, vol. 91. Rotterdam",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.J.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Stone",
+                        "ce:indexed-name": "Stone K.J.L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "P.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Hensley",
+                        "ce:indexed-name": "Hensley P.J."
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "ref-fulltext": "Bolton M.D., Powrie W. The collapse of diaphragm walls retaining clay. Geotechnique 1987, 37:335-353.",
+                "@id": "18",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1987"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The collapse of diaphragm walls retaining clay"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "0023412941",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "37"
+                    },
+                    "pagerange": {
+                      "@first": "335",
+                      "@last": "353"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Bolton",
+                        "ce:indexed-name": "Bolton M.D."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Powrie",
+                        "ce:indexed-name": "Powrie W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geotechnique"
+                }
+              },
+              {
+                "ref-fulltext": "Zhang L., Hu T., Zhang J. Evaluation of the cut-off structures of a rockfill dam. Proceedings of the international conference centrifuge 1994, vol. 94:593-598. Balkema, Rotterdam.",
+                "@id": "19",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1994"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Evaluation of the cut-off structures of a rockfill dam"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "33750877390",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "94"
+                    },
+                    "pagerange": {
+                      "@first": "593",
+                      "@last": "598"
+                    }
+                  },
+                  "ref-text": "Balkema, Rotterdam",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Hu",
+                        "ce:indexed-name": "Hu T."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Proceedings of the international conference centrifuge"
+                }
+              },
+              {
+                "ref-fulltext": "Chen C.H., Chiu H.C. Anisotropic seismic ground responses identified from the Hualien vertical array. Soil Dyn Earthq Eng 1998, 17:371-395.",
+                "@id": "20",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1998"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Anisotropic seismic ground responses identified from the Hualien vertical array"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "0032144644",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "17"
+                    },
+                    "pagerange": {
+                      "@first": "371",
+                      "@last": "395"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen C.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Chiu",
+                        "ce:indexed-name": "Chiu H.C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dyn Earthq Eng"
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "affiliation": [
+      {
+        "affiliation-city": "Daejeon",
+        "@id": "60032144",
+        "affilname": "Korea Advanced Institute of Science and Technology",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60032144",
+        "affiliation-country": "South Korea"
+      },
+      {
+        "affiliation-city": "Gongju",
+        "@id": "60103616",
+        "affilname": "Kongju National University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60103616",
+        "affiliation-country": "South Korea"
+      },
+      {
+        "affiliation-city": "Yusong",
+        "@id": "60068699",
+        "affilname": "Korea Institute of Nuclear Safety",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60068699",
+        "affiliation-country": "South Korea"
+      }
+    ],
+    "coredata": {
+      "srctype": "j",
+      "eid": "2-s2.0-84896497541",
+      "dc:description": "Understanding the soil-structure interaction (SSI) mechanism is crucial in the seismic design of nuclear power plant (NPP) containment systems. Although the numerical analysis method is generally used in seismic design, there is a need for experimental verification for the reliable estimation of SSI behavior. In this study a dynamic centrifuge test was performed to simulate the SSI behavior of a Hualien large-scale seismic test (LSST) during the Chi-Chi earthquake. To simulate the soil profile and dynamic soil properties of the Hualien site, a series of resonant column (RC) tests was performed to determine the model soil preparation conditions, such as the compaction density and the ratio of soil-gravel contents. The variations in the shear wave velocity (VS) profiles of the sand, gravel, and backfill layers in the model were estimated using the RC test results. During the centrifuge test, the VS profiles of the model were evaluated using in-flight bender element tests and compared with the in-situ VS profile at Hualien. The containment building model was modeled using aluminum and the proper scaling laws. A series of dynamic centrifuge tests was performed with a 1/50 scale model using the base motion recorded during the Chi-Chi-earthquake. In the soil layer and foundation level, the centrifuge test results were similar to the LSST data in both the time and frequency domains, but there were differences in the structure owing to the complex structural response as well as the material damping difference between the concrete in the prototype and aluminum in the model. In addition, as the input base motion amplitude was increased to a maximum value of 0.4g (prototype scale), the responses of the soil and containment model were measured. This study shows the potential of utilizing dynamic centrifuge tests as an experimental modeling tool for site specific SSI analyses of soil-foundation-NPP containment system. © 2014 Elsevier Ltd.",
+      "prism:coverDate": "2014-01-01",
+      "prism:aggregationType": "Journal",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/84896497541",
+      "dc:creator": {
+        "author": [
+          {
+            "ce:given-name": "Jeong Gon",
+            "preferred-name": {
+              "ce:given-name": "Jeong Gon",
+              "ce:initials": "J.G.",
+              "ce:surname": "Ha",
+              "ce:indexed-name": "Ha J."
+            },
+            "@seq": "1",
+            "ce:initials": "J.G.",
+            "@_fa": "true",
+            "affiliation": {
+              "@id": "60032144",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60032144"
+            },
+            "ce:surname": "Ha",
+            "@auid": "55938047500",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55938047500",
+            "ce:indexed-name": "Ha J.G."
+          }
+        ]
+      },
+      "link": [
+        {
+          "@_fa": "true",
+          "@rel": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84896497541"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84896497541&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84896497541&origin=inward"
+        }
+      ],
+      "source-id": "28960",
+      "pii": "S0267726114000098",
+      "citedby-count": "36",
+      "prism:volume": "61-62",
+      "subtype": "ar",
+      "dc:title": "Simulation of soil-foundation-structure interaction of Hualien large-scale seismic test using dynamic centrifuge test",
+      "openaccess": "0",
+      "prism:issn": "02677261",
+      "subtypeDescription": "Article",
+      "prism:publicationName": "Soil Dynamics and Earthquake Engineering",
+      "prism:pageRange": "176-187",
+      "prism:endingPage": "187",
+      "openaccessFlag": "false",
+      "prism:doi": "10.1016/j.soildyn.2014.01.008",
+      "prism:startingPage": "176",
+      "dc:identifier": "SCOPUS_ID:84896497541",
+      "dc:publisher": "Elsevier BV"
+    },
+    "idxterms": {
+      "mainterm": [
+        {
+          "$": "Centrifuge tests",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Dynamic soil properties",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Experimental verification",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Resonant column tests",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Seismic test",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Soil model",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Soil-foundation-structure interactions",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Time and frequency domains",
+          "@weight": "b",
+          "@candidate": "n"
+        }
+      ]
+    },
+    "language": {
+      "@xml:lang": "eng"
+    },
+    "authkeywords": {
+      "author-keyword": [
+        {
+          "@_fa": "true",
+          "$": "Dynamic centrifuge test"
+        },
+        {
+          "@_fa": "true",
+          "$": "Hualien large scale seismic test"
+        },
+        {
+          "@_fa": "true",
+          "$": "Resonant column test"
+        },
+        {
+          "@_fa": "true",
+          "$": "Soil modeling"
+        },
+        {
+          "@_fa": "true",
+          "$": "Soil-structure interaction"
+        }
+      ]
+    },
+    "subject-areas": {
+      "subject-area": [
+        {
+          "@_fa": "true",
+          "$": "Civil and Structural Engineering",
+          "@code": "2205",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Geotechnical Engineering and Engineering Geology",
+          "@code": "1909",
+          "@abbrev": "EART"
+        },
+        {
+          "@_fa": "true",
+          "$": "Soil Science",
+          "@code": "1111",
+          "@abbrev": "AGRI"
+        }
+      ]
+    },
+    "authors": {
+      "author": [
+        {
+          "ce:given-name": "Jeong Gon",
+          "preferred-name": {
+            "ce:given-name": "Jeong Gon",
+            "ce:initials": "J.G.",
+            "ce:surname": "Ha",
+            "ce:indexed-name": "Ha J."
+          },
+          "@seq": "1",
+          "ce:initials": "J.G.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60032144",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60032144"
+          },
+          "ce:surname": "Ha",
+          "@auid": "55938047500",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55938047500",
+          "ce:indexed-name": "Ha J.G."
+        },
+        {
+          "ce:given-name": "Sei-Hyun",
+          "preferred-name": {
+            "ce:given-name": "Sei Hyun",
+            "ce:initials": "S.H.",
+            "ce:surname": "Lee",
+            "ce:indexed-name": "Lee S."
+          },
+          "@seq": "2",
+          "ce:initials": "S.-H.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60068699",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60068699"
+          },
+          "ce:surname": "Lee",
+          "@auid": "15136161600",
+          "author-url": "https://api.elsevier.com/content/author/author_id/15136161600",
+          "ce:indexed-name": "Lee S.-H."
+        },
+        {
+          "ce:given-name": "Dong-Soo",
+          "preferred-name": {
+            "ce:given-name": "Dong Soo",
+            "ce:initials": "D.S.",
+            "ce:surname": "Kim",
+            "ce:indexed-name": "Kim D."
+          },
+          "@seq": "3",
+          "ce:initials": "D.-S.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60032144",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60032144"
+          },
+          "ce:surname": "Kim",
+          "@auid": "55677030900",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55677030900",
+          "ce:indexed-name": "Kim D.-S."
+        },
+        {
+          "ce:given-name": "Yun Wook",
+          "preferred-name": {
+            "ce:given-name": "Yun Wook",
+            "ce:initials": "Y.W.",
+            "ce:surname": "Choo",
+            "ce:indexed-name": "Choo Y."
+          },
+          "@seq": "4",
+          "ce:initials": "Y.W.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60103616",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60103616"
+          },
+          "ce:surname": "Choo",
+          "@auid": "12803794500",
+          "author-url": "https://api.elsevier.com/content/author/author_id/12803794500",
+          "ce:indexed-name": "Choo Y.W."
+        }
+      ]
+    }
+  }
+}

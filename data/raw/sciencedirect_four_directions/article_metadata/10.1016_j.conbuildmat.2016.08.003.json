@@ -1,0 +1,2247 @@
+{
+  "abstracts-retrieval-response": {
+    "item": {
+      "ait:process-info": {
+        "ait:status": {
+          "@state": "update",
+          "@type": "core",
+          "@stage": "S300"
+        },
+        "ait:date-delivered": {
+          "@day": "16",
+          "@timestamp": "2020-04-16T02:45:17.000017-04:00",
+          "@year": "2020",
+          "@month": "04"
+        },
+        "ait:date-sort": {
+          "@day": "30",
+          "@year": "2016",
+          "@month": "10"
+        }
+      },
+      "xocs:meta": {
+        "xocs:funding-list": {
+          "@pui-match": "primary",
+          "@has-funding-info": "1",
+          "xocs:funding": [
+            {
+              "xocs:funding-agency-matched-string": "Ministry of Trade, Industry and Energy",
+              "xocs:funding-agency-acronym": "MOTIE",
+              "xocs:funding-agency": "Ministry of Trade, Industry and Energy",
+              "xocs:funding-id": "20164010201020",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100003052",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1835841/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "National Research Foundation of Korea",
+              "xocs:funding-agency-acronym": "NRF",
+              "xocs:funding-agency": "National Research Foundation of Korea",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100003725",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1835841/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Ministry of Education, Science and Technology",
+              "xocs:funding-agency-acronym": "MEST",
+              "xocs:funding-agency": "Ministry of Education, Science and Technology",
+              "xocs:funding-id": "NRF-2015R1A2A2A01002978",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100004085",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1835841/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Korea Institute of Energy Technology Evaluation and Planning",
+              "xocs:funding-agency-acronym": "KETEP",
+              "xocs:funding-agency": "Korea Institute of Energy Technology Evaluation and Planning",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100007053",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1835841/"
+            }
+          ],
+          "xocs:funding-addon-generated-timestamp": "2022-06-10T12:36:26.514334Z",
+          "xocs:funding-text": "This research was supported by the Korea Institute of Energy Technology Evaluation and Planning (KETEP) and the Ministry of Trade, Industry and Energy (MOTIE) of the Republic of Korea (No. 20164010201020 ), and also supported by Basic Science Research Program through the National Research Foundation of Korea (NRF) funded by the Ministry of Education, Science and Technology ( NRF-2015R1A2A2A01002978 ).",
+          "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }
+      },
+      "bibrecord": {
+        "head": {
+          "author-group": [
+            {
+              "affiliation": {
+                "country": "South Korea",
+                "address-part": "309 Pilmun-daero, Dong-gu",
+                "postal-code": "501-759",
+                "@afid": "60009950",
+                "@country": "kor",
+                "city": "Gwangju",
+                "organization": [
+                  {
+                    "$": "School of Architecture"
+                  },
+                  {
+                    "$": "Chosun University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60009950",
+                  "@dptid": "103542445"
+                },
+                "@dptid": "103542445"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Hyeong-Ki",
+                  "preferred-name": {
+                    "ce:given-name": "Hyeong Ki",
+                    "ce:initials": "H.K.",
+                    "ce:surname": "Kim",
+                    "ce:indexed-name": "Kim H.K."
+                  },
+                  "@seq": "1",
+                  "ce:initials": "H.-K.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Kim",
+                  "@auid": "57216295445",
+                  "ce:indexed-name": "Kim H.-K."
+                },
+                {
+                  "ce:given-name": "Min-Ju",
+                  "preferred-name": {
+                    "ce:given-name": "Min Ju",
+                    "ce:initials": "M.J.",
+                    "ce:surname": "Lim",
+                    "ce:indexed-name": "Lim M.J."
+                  },
+                  "@seq": "3",
+                  "ce:initials": "M.-J.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Lim",
+                  "@auid": "57190687525",
+                  "ce:indexed-name": "Lim M.-J."
+                },
+                {
+                  "ce:given-name": "Chang-Geun",
+                  "preferred-name": {
+                    "ce:given-name": "Chang Geun",
+                    "ce:initials": "C.G.",
+                    "ce:surname": "Cho",
+                    "ce:indexed-name": "Cho C.G."
+                  },
+                  "@seq": "4",
+                  "ce:initials": "C.-G.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Cho",
+                  "@auid": "24722559700",
+                  "@orcid": "0000-0002-0415-3405",
+                  "ce:indexed-name": "Cho C.-G."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "South Korea",
+                "address-part": "291 Daehak-ro, Yuseong-gu",
+                "postal-code": "34141",
+                "@afid": "60032144",
+                "@country": "kor",
+                "city": "Daejeon",
+                "organization": [
+                  {
+                    "$": "Department of Civil and Environmental Engineering"
+                  },
+                  {
+                    "$": "Korea Advanced Institute of Science and Technology"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60032144",
+                  "@dptid": "107983928"
+                },
+                "@dptid": "107983928"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Jeong Gook",
+                  "preferred-name": {
+                    "ce:given-name": "Jeong Gook",
+                    "ce:initials": "J.G.",
+                    "ce:surname": "Jang",
+                    "ce:indexed-name": "Jang J.G."
+                  },
+                  "@seq": "2",
+                  "ce:initials": "J.G.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Jang",
+                  "@auid": "55898208200",
+                  "ce:indexed-name": "Jang J.G."
+                }
+              ]
+            }
+          ],
+          "citation-title": "Effect of fiber addition on fresh and hardened properties of spun cast concrete",
+          "abstracts": "© 2016 Elsevier LtdThe effect of fiber addition on the properties of fresh and hardened concretes casted by centrifugation was investigated. Workability of fresh concrete mixtures, sludge bleeding after centrifuging, and mechanical properties of hardened concrete including compressive and splitting tensile strengths and modulus of elasticity were examined. Post-crack behavior of spun cast concrete was investigated by splitting tensile testing. Considering sanitary sewer environments, concrete resistances against sulfuric acid erosion and sulfate expansion were evaluated. Although the addition of low fiber fractions (below 0.15 vol.%) did not significantly affect workability and strength of the spun cast concretes, it enhanced their toughness and resistance against sulfate expansion.",
+          "correspondence": {
+            "affiliation": {
+              "country": "South Korea",
+              "address-part": "309 Pilmun-daero, Dong-gu",
+              "postal-code": "501-759",
+              "@country": "kor",
+              "city": "Gwangju",
+              "organization": [
+                {
+                  "$": "School of Architecture"
+                },
+                {
+                  "$": "Chosun University"
+                }
+              ]
+            },
+            "person": {
+              "ce:given-name": "Chang-Geun",
+              "ce:initials": "C.-G.",
+              "ce:surname": "Cho",
+              "ce:indexed-name": "Cho C.-G."
+            }
+          },
+          "citation-info": {
+            "author-keywords": {
+              "author-keyword": [
+                {
+                  "$": "Centrifugal compaction",
+                  "@xml:lang": "eng"
+                },
+                {
+                  "$": "Post-crack behavior",
+                  "@xml:lang": "eng"
+                },
+                {
+                  "$": "Spun cast concrete",
+                  "@xml:lang": "eng"
+                },
+                {
+                  "$": "Sulfate expansion",
+                  "@xml:lang": "eng"
+                },
+                {
+                  "$": "Sulfuric acid attack",
+                  "@xml:lang": "eng"
+                },
+                {
+                  "$": "Toughness",
+                  "@xml:lang": "eng"
+                }
+              ]
+            },
+            "citation-type": {
+              "@code": "ar"
+            },
+            "citation-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "abstract-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            }
+          },
+          "source": {
+            "codencode": "CBUME",
+            "sourcetitle-abbrev": "Constr Build Mater",
+            "@country": "gbr",
+            "translated-sourcetitle": {
+              "$": "Construction and Building Materials",
+              "@xml:lang": "eng"
+            },
+            "issn": {
+              "$": "09500618",
+              "@type": "print"
+            },
+            "volisspag": {
+              "voliss": {
+                "@volume": "125"
+              },
+              "pagerange": {
+                "@first": "306",
+                "@last": "315"
+              }
+            },
+            "@type": "j",
+            "publicationyear": {
+              "@first": "2016"
+            },
+            "publisher": {
+              "publishername": "Elsevier Ltd"
+            },
+            "sourcetitle": "Construction and Building Materials",
+            "@srcid": "24443",
+            "publicationdate": {
+              "month": "10",
+              "year": "2016",
+              "date-text": {
+                "@xfab-added": "true",
+                "$": "30 October 2016"
+              },
+              "day": "30"
+            }
+          },
+          "enhancement": {
+            "classificationgroup": {
+              "classifications": [
+                {
+                  "@type": "CPXCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "412",
+                      "classification-description": "Concrete"
+                    },
+                    {
+                      "classification-code": "537.1",
+                      "classification-description": "Heat Treatment Processes"
+                    },
+                    {
+                      "classification-code": "802.3",
+                      "classification-description": "Chemical Operations"
+                    },
+                    {
+                      "classification-code": "804.2",
+                      "classification-description": "Inorganic Compounds"
+                    },
+                    {
+                      "classification-code": "819.3",
+                      "classification-description": "Fiber Chemistry and Processing"
+                    },
+                    {
+                      "classification-code": "951",
+                      "classification-description": "Materials Science"
+                    }
+                  ]
+                },
+                {
+                  "@type": "FLXCLASS",
+                  "classification": {
+                    "classification-code": "902",
+                    "classification-description": "FLUIDEX; Related Topics"
+                  }
+                },
+                {
+                  "@type": "ASJC",
+                  "classification": [
+                    {
+                      "$": "2205"
+                    },
+                    {
+                      "$": "2215"
+                    },
+                    {
+                      "$": "2500"
+                    }
+                  ]
+                },
+                {
+                  "@type": "SUBJABBR",
+                  "classification": [
+                    {
+                      "$": "ENGI"
+                    },
+                    {
+                      "$": "MATE"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "grantlist": {
+            "@complete": "y",
+            "grant-text": {
+              "$": "This research was supported by the Korea Institute of Energy Technology Evaluation and Planning (KETEP) and the Ministry of Trade, Industry and Energy (MOTIE) of the Republic of Korea (No. 20164010201020), and also supported by Basic Science Research Program through the National Research Foundation of Korea (NRF) funded by the Ministry of Education, Science and Technology (NRF-2015R1A2A2A01002978).",
+              "@xml:lang": "eng"
+            },
+            "grant": [
+              {
+                "grant-acronym": "KETEP",
+                "grant-agency": "Korea Institute of Energy Technology Evaluation and Planning"
+              },
+              {
+                "grant-id": "20164010201020",
+                "grant-acronym": "MOTIE",
+                "grant-agency": "Ministry of Trade, Industry and Energy"
+              },
+              {
+                "grant-id": "NRF-2015R1A2A2A01002978",
+                "grant-acronym": "NRF",
+                "grant-agency": "National Research Foundation of Korea"
+              }
+            ]
+          }
+        },
+        "item-info": {
+          "copyright": {
+            "$": "Copyright 2017 Elsevier B.V., All rights reserved.",
+            "@type": "Elsevier"
+          },
+          "dbcollection": [
+            {
+              "$": "CPX"
+            },
+            {
+              "$": "REAXYSCAR"
+            },
+            {
+              "$": "SCOPUS"
+            },
+            {
+              "$": "Scopusbase"
+            }
+          ],
+          "history": {
+            "date-created": {
+              "@day": "24",
+              "@timestamp": "BST 08:05:31",
+              "@year": "2016",
+              "@month": "08"
+            }
+          },
+          "itemidlist": {
+            "itemid": [
+              {
+                "$": "611720600",
+                "@idtype": "PUI"
+              },
+              {
+                "$": "653973130",
+                "@idtype": "CAR-ID"
+              },
+              {
+                "$": "20163402731417",
+                "@idtype": "CPX"
+              },
+              {
+                "$": "20161778445",
+                "@idtype": "REAXYSCAR"
+              },
+              {
+                "$": "84982273196",
+                "@idtype": "SCP"
+              },
+              {
+                "$": "84982273196",
+                "@idtype": "SGR"
+              }
+            ],
+            "ce:pii": "S0950061816312636",
+            "ce:doi": "10.1016/j.conbuildmat.2016.08.003"
+          }
+        },
+        "tail": {
+          "bibliography": {
+            "@refcount": "31",
+            "reference": [
+              {
+                "ref-fulltext": "[1] N.R.J. Van, U.S. Patent No. 2,349,213. Washington, DC: U.S. Patent and Trademark Office, 1944.",
+                "@id": "1",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1944"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84982290095",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-text": "U.S. Patent No. 2,349,213. Washington, DC: U.S. Patent and Trademark Office,",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "N.R.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Van",
+                        "ce:indexed-name": "Van N.R.J."
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "ref-fulltext": "[2] American Concrete Pipe Association, Concrete Pipe Design Manual. 1987, American Concrete Pipe Association.",
+                "@id": "2",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1987"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Concrete Pipe Design Manual"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84894722022",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-text": "American Concrete Pipe Association",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "@_fa": "true",
+                        "ce:surname": "American Concrete Pipe Association",
+                        "ce:indexed-name": "American Concrete Pipe Association"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "ref-fulltext": "[3] Peyvandi, A., Soroushian, P., Jahangirnejad, S., Enhancement of the structural efficiency and performance of concrete pipes through fiber reinforcement. Constr. Build. Mater. 45 (2013), 36–44.",
+                "@id": "3",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Enhancement of the structural efficiency and performance of concrete pipes through fiber reinforcement"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84876943603",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "45"
+                    },
+                    "pagerange": {
+                      "@first": "36",
+                      "@last": "44"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Peyvandi",
+                        "ce:indexed-name": "Peyvandi A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Soroushian",
+                        "ce:indexed-name": "Soroushian P."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Jahangirnejad",
+                        "ce:indexed-name": "Jahangirnejad S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                }
+              },
+              {
+                "ref-fulltext": "[4] Haktanir, T., Ari, K., Altun, F., Karahan, O., A comparative experimental investigation of concrete, reinforced-concrete and steel-fibre concrete pipes under three-edge-bearing test. Constr. Build. Mater. 21:8 (2007), 1702–1708.",
+                "@id": "4",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A comparative experimental investigation of concrete, reinforced-concrete and steel-fibre concrete pipes under three-edge-bearing test"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "33847687360",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "21",
+                      "@issue": "8"
+                    },
+                    "pagerange": {
+                      "@first": "1702",
+                      "@last": "1708"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Haktanir",
+                        "ce:indexed-name": "Haktanir T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Ari",
+                        "ce:indexed-name": "Ari K."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Altun",
+                        "ce:indexed-name": "Altun F."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "O.",
+                        "@_fa": "true",
+                        "ce:surname": "Karahan",
+                        "ce:indexed-name": "Karahan O."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                }
+              },
+              {
+                "ref-fulltext": "[5] Völgyi, I., Farkas, G., Rebound testing of cylindrical spun-cast concrete elements. Periodica Polytech. Civ. Eng., 55(2), 2011, 129.",
+                "@id": "5",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Rebound testing of cylindrical spun-cast concrete elements"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "83755205570",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "55",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "129"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "I.",
+                        "@_fa": "true",
+                        "ce:surname": "Völgyi",
+                        "ce:indexed-name": "Volgyi I."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Farkas",
+                        "ce:indexed-name": "Farkas G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Periodica Polytech. Civ. Eng."
+                }
+              },
+              {
+                "ref-fulltext": "[6] Kaufmann, J.P., Winnefeld, F., Hesselbarth, D., Trindler, W., Evaluation of the consistency of fiber reinforced cementitious composites. Mater. Struct. 39:6 (2006), 645–654.",
+                "@id": "6",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2006"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Evaluation of the consistency of fiber reinforced cementitious composites"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "33747124397",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "39",
+                      "@issue": "6"
+                    },
+                    "pagerange": {
+                      "@first": "645",
+                      "@last": "654"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Kaufmann",
+                        "ce:indexed-name": "Kaufmann J.P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Winnefeld",
+                        "ce:indexed-name": "Winnefeld F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Hesselbarth",
+                        "ce:indexed-name": "Hesselbarth D."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Trindler",
+                        "ce:indexed-name": "Trindler W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Mater. Struct."
+                }
+              },
+              {
+                "ref-fulltext": "[7] Kaufmann, J.P., Hesselbarth, D., Moser, K., Terrasi, G.P., Application of fiber reinforced high performance composites in spun-cast elements. Mater. Struct. 38:5 (2005), 549–555.",
+                "@id": "7",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2005"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Application of fiber reinforced high performance composites in spun-cast elements"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "20444374815",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "38",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "549",
+                      "@last": "555"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Kaufmann",
+                        "ce:indexed-name": "Kaufmann J.P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Hesselbarth",
+                        "ce:indexed-name": "Hesselbarth D."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Moser",
+                        "ce:indexed-name": "Moser K."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "G.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Terrasi",
+                        "ce:indexed-name": "Terrasi G.P."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Mater. Struct."
+                }
+              },
+              {
+                "ref-fulltext": "[8] Kaufmann, J., Hesselbarth, D., High performance composites in spun-cast elements. Cement Concr. Compos. 29:10 (2007), 713–722.",
+                "@id": "8",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "High performance composites in spun-cast elements"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "34748875330",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "29",
+                      "@issue": "10"
+                    },
+                    "pagerange": {
+                      "@first": "713",
+                      "@last": "722"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Kaufmann",
+                        "ce:indexed-name": "Kaufmann J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Hesselbarth",
+                        "ce:indexed-name": "Hesselbarth D."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cement Concr. Compos."
+                }
+              },
+              {
+                "ref-fulltext": "[9] Banthia, N., Sappakittipakorn, M., Toughness enhancement in steel fiber reinforced concrete through fiber hybridization. Cem. Concr. Res. 37:9 (2007), 1366–1372.",
+                "@id": "9",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Toughness enhancement in steel fiber reinforced concrete through fiber hybridization"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "34548040173",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "37",
+                      "@issue": "9"
+                    },
+                    "pagerange": {
+                      "@first": "1366",
+                      "@last": "1372"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Banthia",
+                        "ce:indexed-name": "Banthia N."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Sappakittipakorn",
+                        "ce:indexed-name": "Sappakittipakorn M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                }
+              },
+              {
+                "ref-fulltext": "[10] Kim, H.K., Jang, J.G., Choi, Y.C., Lee, H.K., Improved chloride resistance of high-strength concrete amended with coal bottom ash for internal curing. Constr. Build. Mater. 71 (2014), 334–343.",
+                "@id": "10",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Improved chloride resistance of high-strength concrete amended with coal bottom ash for internal curing"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84907500289",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "71"
+                    },
+                    "pagerange": {
+                      "@first": "334",
+                      "@last": "343"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim H.K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Jang",
+                        "ce:indexed-name": "Jang J.G."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Choi",
+                        "ce:indexed-name": "Choi Y.C."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "H.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee H.K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                }
+              },
+              {
+                "ref-fulltext": "[11] Safiuddin, M., Hearn, N., Comparison of ASTM saturation techniques for measuring the permeable porosity of concrete. Cem. Concr. Res. 35:5 (2005), 1008–1013.",
+                "@id": "11",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2005"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Comparison of ASTM saturation techniques for measuring the permeable porosity of concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "17644387562",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "35",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "1008",
+                      "@last": "1013"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Safiuddin",
+                        "ce:indexed-name": "Safiuddin M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Hearn",
+                        "ce:indexed-name": "Hearn N."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                }
+              },
+              {
+                "ref-fulltext": "[12] Medeiros, M.H., Helene, P., Surface treatment of reinforced concrete in marine environment: influence on chloride diffusion coefficient and capillary water absorption. Constr. Build. Mater. 23:3 (2009), 1476–1484.",
+                "@id": "12",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Surface treatment of reinforced concrete in marine environment: influence on chloride diffusion coefficient and capillary water absorption"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "57749181790",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "23",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "1476",
+                      "@last": "1484"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Medeiros",
+                        "ce:indexed-name": "Medeiros M.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Helene",
+                        "ce:indexed-name": "Helene P."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                }
+              },
+              {
+                "ref-fulltext": "[13] Kim, H.K., Jeon, J.H., Lee, H.K., Flow, water absorption, and mechanical characteristics of normal-and high-strength mortar incorporating fine bottom ash aggregates. Constr. Build. Mater. 26:1 (2012), 249–256.",
+                "@id": "13",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Flow, water absorption, and mechanical characteristics of normal-and high-strength mortar incorporating fine bottom ash aggregates"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "80052875853",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "26",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "249",
+                      "@last": "256"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim H.K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Jeon",
+                        "ce:indexed-name": "Jeon J.H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee H.K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                }
+              },
+              {
+                "ref-fulltext": "[14] Monteny, J., Vincke, E., Beeldens, A., De Belie, N., Taerwe, L., Van Gemert, D., Verstraete, W., Chemical, microbiological, and in situ test methods for biogenic sulfuric acid corrosion of concrete. Cem. Concr. Res. 30:4 (2000), 623–634.",
+                "@id": "14",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2000"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Chemical, microbiological, and in situ test methods for biogenic sulfuric acid corrosion of concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "0034171725",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "30",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "623",
+                      "@last": "634"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Monteny",
+                        "ce:indexed-name": "Monteny J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Vincke",
+                        "ce:indexed-name": "Vincke E."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Beeldens",
+                        "ce:indexed-name": "Beeldens A."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "De Belie",
+                        "ce:indexed-name": "De Belie N."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Taerwe",
+                        "ce:indexed-name": "Taerwe L."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Van Gemert",
+                        "ce:indexed-name": "Van Gemert D."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Verstraete",
+                        "ce:indexed-name": "Verstraete W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                }
+              },
+              {
+                "ref-fulltext": "[15] De Belie, N., Monteny, J., Beeldens, A., Vincke, E., Van Gemert, D., Verstraete, W., Experimental research and prediction of the effect of chemical and biogenic sulfuric acid on different types of commercially produced concrete sewer pipes. Cem. Concr. Res. 34:12 (2004), 2223–2236.",
+                "@id": "15",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2004"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental research and prediction of the effect of chemical and biogenic sulfuric acid on different types of commercially produced concrete sewer pipes"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "10044231397",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "34",
+                      "@issue": "12"
+                    },
+                    "pagerange": {
+                      "@first": "2223",
+                      "@last": "2236"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "De Belie",
+                        "ce:indexed-name": "De Belie N."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Monteny",
+                        "ce:indexed-name": "Monteny J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Beeldens",
+                        "ce:indexed-name": "Beeldens A."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Vincke",
+                        "ce:indexed-name": "Vincke E."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Van Gemert",
+                        "ce:indexed-name": "Van Gemert D."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Verstraete",
+                        "ce:indexed-name": "Verstraete W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                }
+              },
+              {
+                "ref-fulltext": "[16] Al-Akhras, N.M., Durability of metakaolin concrete to sulfate attack. Cem. Concr. Res. 36:9 (2006), 1727–1734.",
+                "@id": "16",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2006"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Durability of metakaolin concrete to sulfate attack"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "33748754640",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "36",
+                      "@issue": "9"
+                    },
+                    "pagerange": {
+                      "@first": "1727",
+                      "@last": "1734"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "N.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Al-Akhras",
+                        "ce:indexed-name": "Al-Akhras N.M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                }
+              },
+              {
+                "ref-fulltext": "[17] Alexander, M.G., Fourie, C., Performance of sewer pipe concrete mixtures with portland and calcium aluminate cements subject to mineral and biogenic acid attack. Mater. Struct. 44:1 (2011), 313–330.",
+                "@id": "17",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Performance of sewer pipe concrete mixtures with portland and calcium aluminate cements subject to mineral and biogenic acid attack"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "79952004024",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "44",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "313",
+                      "@last": "330"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Alexander",
+                        "ce:indexed-name": "Alexander M.G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Fourie",
+                        "ce:indexed-name": "Fourie C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Mater. Struct."
+                }
+              },
+              {
+                "ref-fulltext": "[18] Aydın, S., Yazıcı, H., Yiğiter, H., Baradan, B., Sulfuric acid resistance of high-volume fly ash concrete. Build. Environ. 42:2 (2007), 717–721.",
+                "@id": "18",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Sulfuric acid resistance of high-volume fly ash concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "33748924664",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "42",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "717",
+                      "@last": "721"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Aydın",
+                        "ce:indexed-name": "Aydin S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Yazıcı",
+                        "ce:indexed-name": "Yazici H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Yiğiter",
+                        "ce:indexed-name": "Yigiter H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Baradan",
+                        "ce:indexed-name": "Baradan B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Build. Environ."
+                }
+              },
+              {
+                "ref-fulltext": "[19] Roy, D.M., Arjunan, P., Silsbee, M.R., Effect of silica fume, metakaolin, and low-calcium fly ash on chemical resistance of concrete. Cem. Concr. Res. 31:12 (2001), 1809–1813.",
+                "@id": "19",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2001"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of silica fume, metakaolin, and low-calcium fly ash on chemical resistance of concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "0035656620",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "31",
+                      "@issue": "12"
+                    },
+                    "pagerange": {
+                      "@first": "1809",
+                      "@last": "1813"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Roy",
+                        "ce:indexed-name": "Roy D.M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Arjunan",
+                        "ce:indexed-name": "Arjunan P."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Silsbee",
+                        "ce:indexed-name": "Silsbee M.R."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                }
+              },
+              {
+                "ref-fulltext": "[20] Chen, B., Liu, J., Contribution of hybrid fibers on the properties of the high-strength lightweight concrete having good workability. Cem. Concr. Res. 35:5 (2005), 913–917.",
+                "@id": "20",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2005"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Contribution of hybrid fibers on the properties of the high-strength lightweight concrete having good workability"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "17644397857",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "35",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "913",
+                      "@last": "917"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                }
+              },
+              {
+                "ref-fulltext": "[21] Grünewald, S., Performance-Based Design of Self-Compacting Fibre Reinforced Concrete. 2004, TU Delft, Delft University of Technology.",
+                "@id": "21",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2004"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Performance-Based Design of Self-Compacting Fibre Reinforced Concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "10244281246",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-text": "TU Delft, Delft University of Technology",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Grünewald",
+                        "ce:indexed-name": "Grunewald S."
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "ref-fulltext": "[22] Tawie, R., Lee, H.K., Park, S.H., Non-destructive evaluation of concrete quality using PZT transducers. Smart Struct. Syst. 6:7 (2010), 851–866.",
+                "@id": "22",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Non-destructive evaluation of concrete quality using PZT transducers"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "77958580215",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "6",
+                      "@issue": "7"
+                    },
+                    "pagerange": {
+                      "@first": "851",
+                      "@last": "866"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Tawie",
+                        "ce:indexed-name": "Tawie R."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee H.K."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Park",
+                        "ce:indexed-name": "Park S.H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Smart Struct. Syst."
+                }
+              },
+              {
+                "ref-fulltext": "[23] Miloud, B., Permeability and porosity characteristics of steel fiber reinforced concrete. Asian J. Civ. Eng. (Build. Hous.) 6:4 (2005), 317–330.",
+                "@id": "23",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2005"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Permeability and porosity characteristics of steel fiber reinforced concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "79952501440",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "6",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "317",
+                      "@last": "330"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Miloud",
+                        "ce:indexed-name": "Miloud B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Asian J. Civ. Eng. (Build. Hous.)"
+                }
+              },
+              {
+                "ref-fulltext": "[24] Bhargava, A., Banthia, N., Permeability of concrete with fiber reinforcement and service life predictions. Mater. Struct. 41:2 (2008), 363–372.",
+                "@id": "24",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2008"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Permeability of concrete with fiber reinforcement and service life predictions"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "38749137734",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "41",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "363",
+                      "@last": "372"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Bhargava",
+                        "ce:indexed-name": "Bhargava A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Banthia",
+                        "ce:indexed-name": "Banthia N."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Mater. Struct."
+                }
+              },
+              {
+                "ref-fulltext": "[25] Alhozaimy, A.M., Soroushian, P., Mirza, F., Mechanical properties of polypropylene fiber reinforced concrete and the effects of pozzolanic materials. Cement Concr. Compos. 18:2 (1996), 85–92.",
+                "@id": "25",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1996"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Mechanical properties of polypropylene fiber reinforced concrete and the effects of pozzolanic materials"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "0030125376",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "18",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "85",
+                      "@last": "92"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Alhozaimy",
+                        "ce:indexed-name": "Alhozaimy A.M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Soroushian",
+                        "ce:indexed-name": "Soroushian P."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Mirza",
+                        "ce:indexed-name": "Mirza F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cement Concr. Compos."
+                }
+              },
+              {
+                "ref-fulltext": "[26] Gao, J., Sun, W., Morino, K., Mechanical properties of steel fiber-reinforced, high-strength, lightweight concrete. Cement Concr. Compos. 19:4 (1997), 307–313.",
+                "@id": "26",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1997"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Mechanical properties of steel fiber-reinforced, high-strength, lightweight concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "0031197898",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "19",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "307",
+                      "@last": "313"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Gao",
+                        "ce:indexed-name": "Gao J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Sun",
+                        "ce:indexed-name": "Sun W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Morino",
+                        "ce:indexed-name": "Morino K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cement Concr. Compos."
+                }
+              },
+              {
+                "ref-fulltext": "[27] ACI Standard, 211.1, Standard practice for selecting proportions for normal, heavyweight, and mass concrete. ACI Manual of Concrete Practice, Part, 1, 211-1, 1996.",
+                "@id": "27",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1996"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84982246903",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-text": "211.1, Standard practice for selecting proportions for normal, heavyweight, and mass concrete. ACI Manual of Concrete Practice, Part, 1, 211-1,",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.C.I.",
+                        "@_fa": "true",
+                        "ce:surname": "Standard",
+                        "ce:indexed-name": "Standard A.C.I."
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "ref-fulltext": "[28] Jang, J.G., Kim, H.K., Kim, T.S., Min, B.J., Lee, H.K., Improved flexural fatigue resistance of PVA fiber-reinforced concrete subjected to freezing and thawing cycles. Constr. Build. Mater. 59 (2014), 129–135.",
+                "@id": "28",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Improved flexural fatigue resistance of PVA fiber-reinforced concrete subjected to freezing and thawing cycles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84896444629",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "59"
+                    },
+                    "pagerange": {
+                      "@first": "129",
+                      "@last": "135"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Jang",
+                        "ce:indexed-name": "Jang J.G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim H.K."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "T.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim T.S."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "B.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Min",
+                        "ce:indexed-name": "Min B.J."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "H.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee H.K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                }
+              },
+              {
+                "ref-fulltext": "[29] American Concrete Institute (ACI) Committee, 544.1 R-96: Report on Fiber Reinforced Concrete, 1996.",
+                "@id": "29",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1996"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84982248257",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-text": "American Concrete Institute (ACI) Committee, 544.1 R-96: Report on Fiber Reinforced Concrete,"
+                }
+              },
+              {
+                "ref-fulltext": "[30] Dinakar, P., Babu, K.G., Santhanam, M., Durability properties of high volume fly ash self compacting concretes. Cement Concr. Compos. 30:10 (2008), 880–886.",
+                "@id": "30",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2008"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Durability properties of high volume fly ash self compacting concretes"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "55849098089",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "30",
+                      "@issue": "10"
+                    },
+                    "pagerange": {
+                      "@first": "880",
+                      "@last": "886"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Dinakar",
+                        "ce:indexed-name": "Dinakar P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Babu",
+                        "ce:indexed-name": "Babu K.G."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Santhanam",
+                        "ce:indexed-name": "Santhanam M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cement Concr. Compos."
+                }
+              },
+              {
+                "ref-fulltext": "[31] Bassuoni, M.T., Nehdi, M.L., Durability of self-consolidating concrete to sulfate attack under combined cyclic environments and flexural loading. Cem. Concr. Res. 39:3 (2009), 206–226.",
+                "@id": "31",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Durability of self-consolidating concrete to sulfate attack under combined cyclic environments and flexural loading"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "59649125259",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "39",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "206",
+                      "@last": "226"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Bassuoni",
+                        "ce:indexed-name": "Bassuoni M.T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Nehdi",
+                        "ce:indexed-name": "Nehdi M.L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "affiliation": [
+      {
+        "affiliation-city": "Daejeon",
+        "@id": "60032144",
+        "affilname": "Korea Advanced Institute of Science and Technology",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60032144",
+        "affiliation-country": "South Korea"
+      },
+      {
+        "affiliation-city": "Gwangju",
+        "@id": "60009950",
+        "affilname": "Chosun University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60009950",
+        "affiliation-country": "South Korea"
+      }
+    ],
+    "coredata": {
+      "srctype": "j",
+      "eid": "2-s2.0-84982273196",
+      "dc:description": "The effect of fiber addition on the properties of fresh and hardened concretes casted by centrifugation was investigated. Workability of fresh concrete mixtures, sludge bleeding after centrifuging, and mechanical properties of hardened concrete including compressive and splitting tensile strengths and modulus of elasticity were examined. Post-crack behavior of spun cast concrete was investigated by splitting tensile testing. Considering sanitary sewer environments, concrete resistances against sulfuric acid erosion and sulfate expansion were evaluated. Although the addition of low fiber fractions (below 0.15 vol.%) did not significantly affect workability and strength of the spun cast concretes, it enhanced their toughness and resistance against sulfate expansion.",
+      "prism:coverDate": "2016-10-30",
+      "prism:aggregationType": "Journal",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/84982273196",
+      "dc:creator": {
+        "author": [
+          {
+            "ce:given-name": "Hyeong-Ki",
+            "preferred-name": {
+              "ce:given-name": "Hyeong Ki",
+              "ce:initials": "H.K.",
+              "ce:surname": "Kim",
+              "ce:indexed-name": "Kim H.K."
+            },
+            "@seq": "1",
+            "ce:initials": "H.-K.",
+            "@_fa": "true",
+            "affiliation": {
+              "@id": "60009950",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60009950"
+            },
+            "ce:surname": "Kim",
+            "@auid": "57216295445",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57216295445",
+            "ce:indexed-name": "Kim H.-K."
+          }
+        ]
+      },
+      "link": [
+        {
+          "@_fa": "true",
+          "@rel": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84982273196"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84982273196&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84982273196&origin=inward"
+        }
+      ],
+      "source-id": "24443",
+      "pii": "S0950061816312636",
+      "citedby-count": "5",
+      "prism:volume": "125",
+      "subtype": "ar",
+      "dc:title": "Effect of fiber addition on fresh and hardened properties of spun cast concrete",
+      "openaccess": "0",
+      "prism:issn": "09500618",
+      "publishercopyright": "© 2016 Elsevier Ltd",
+      "subtypeDescription": "Article",
+      "prism:publicationName": "Construction and Building Materials",
+      "prism:pageRange": "306-315",
+      "prism:endingPage": "315",
+      "openaccessFlag": "false",
+      "prism:doi": "10.1016/j.conbuildmat.2016.08.003",
+      "prism:startingPage": "306",
+      "dc:identifier": "SCOPUS_ID:84982273196",
+      "dc:publisher": "Elsevier Ltd"
+    },
+    "idxterms": {
+      "mainterm": [
+        {
+          "$": "Compressive and splitting tensile strengths",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Concrete resistance",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Crack behavior",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Fiber fractions",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Fresh and hardened properties",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Hardened concrete",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Properties of hardened concrete",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Sulfuric acid attack",
+          "@weight": "b",
+          "@candidate": "n"
+        }
+      ]
+    },
+    "language": {
+      "@xml:lang": "eng"
+    },
+    "authkeywords": {
+      "author-keyword": [
+        {
+          "@_fa": "true",
+          "$": "Centrifugal compaction"
+        },
+        {
+          "@_fa": "true",
+          "$": "Post-crack behavior"
+        },
+        {
+          "@_fa": "true",
+          "$": "Spun cast concrete"
+        },
+        {
+          "@_fa": "true",
+          "$": "Sulfate expansion"
+        },
+        {
+          "@_fa": "true",
+          "$": "Sulfuric acid attack"
+        },
+        {
+          "@_fa": "true",
+          "$": "Toughness"
+        }
+      ]
+    },
+    "subject-areas": {
+      "subject-area": [
+        {
+          "@_fa": "true",
+          "$": "Civil and Structural Engineering",
+          "@code": "2205",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Building and Construction",
+          "@code": "2215",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Materials Science (all)",
+          "@code": "2500",
+          "@abbrev": "MATE"
+        }
+      ]
+    },
+    "authors": {
+      "author": [
+        {
+          "ce:given-name": "Hyeong-Ki",
+          "preferred-name": {
+            "ce:given-name": "Hyeong Ki",
+            "ce:initials": "H.K.",
+            "ce:surname": "Kim",
+            "ce:indexed-name": "Kim H.K."
+          },
+          "@seq": "1",
+          "ce:initials": "H.-K.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60009950",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60009950"
+          },
+          "ce:surname": "Kim",
+          "@auid": "57216295445",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57216295445",
+          "ce:indexed-name": "Kim H.-K."
+        },
+        {
+          "ce:given-name": "Jeong Gook",
+          "preferred-name": {
+            "ce:given-name": "Jeong Gook",
+            "ce:initials": "J.G.",
+            "ce:surname": "Jang",
+            "ce:indexed-name": "Jang J.G."
+          },
+          "@seq": "2",
+          "ce:initials": "J.G.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60032144",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60032144"
+          },
+          "ce:surname": "Jang",
+          "@auid": "55898208200",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55898208200",
+          "ce:indexed-name": "Jang J.G."
+        },
+        {
+          "ce:given-name": "Min-Ju",
+          "preferred-name": {
+            "ce:given-name": "Min Ju",
+            "ce:initials": "M.J.",
+            "ce:surname": "Lim",
+            "ce:indexed-name": "Lim M.J."
+          },
+          "@seq": "3",
+          "ce:initials": "M.-J.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60009950",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60009950"
+          },
+          "ce:surname": "Lim",
+          "@auid": "57190687525",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57190687525",
+          "ce:indexed-name": "Lim M.-J."
+        },
+        {
+          "ce:given-name": "Chang-Geun",
+          "preferred-name": {
+            "ce:given-name": "Chang Geun",
+            "ce:initials": "C.G.",
+            "ce:surname": "Cho",
+            "ce:indexed-name": "Cho C.G."
+          },
+          "@seq": "4",
+          "ce:initials": "C.-G.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60009950",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60009950"
+          },
+          "ce:surname": "Cho",
+          "@auid": "24722559700",
+          "author-url": "https://api.elsevier.com/content/author/author_id/24722559700",
+          "ce:indexed-name": "Cho C.-G."
+        }
+      ]
+    }
+  }
+}

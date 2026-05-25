@@ -1,0 +1,3458 @@
+{
+  "abstracts-retrieval-response": {
+    "item": {
+      "ait:process-info": {
+        "ait:status": {
+          "@state": "new",
+          "@type": "core",
+          "@stage": "S300"
+        },
+        "ait:date-delivered": {
+          "@day": "23",
+          "@timestamp": "2025-11-23T00:35:40.000040-05:00",
+          "@year": "2025",
+          "@month": "11"
+        },
+        "ait:date-sort": {
+          "@day": "14",
+          "@year": "2025",
+          "@month": "11"
+        }
+      },
+      "xocs:meta": {
+        "xocs:funding-list": {
+          "@pui-match": "primary",
+          "@has-funding-info": "1",
+          "xocs:funding": [
+            {
+              "xocs:funding-agency-matched-string": "Huaxin Cement CO."
+            },
+            {
+              "xocs:funding-agency-matched-string": "Natural Science Foundation of China",
+              "xocs:funding-agency-acronym": "NNSF",
+              "xocs:funding-agency": "National Natural Science Foundation of China",
+              "xocs:funding-id": "52078204",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Guangxi Science and Technology Base and Talent Project",
+              "xocs:funding-agency": "Specific Research Project of Guangxi for Research Bases and Talents",
+              "xocs:funding-id": "2022AC21053",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100018571",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            }
+          ],
+          "xocs:funding-addon-generated-timestamp": "2025-12-18T10:53:04.745Z",
+          "xocs:funding-text": "The authors would like to acknowledge the financial support from the Natural Science Foundation of China under Project No. 52078204 and the Guangxi Science and Technology Base and Talent Project. No. 2022AC21053. The enthusiastic support from Huaxin Cement CO., LTD is also appreciated.",
+          "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }
+      },
+      "bibrecord": {
+        "head": {
+          "author-group": [
+            {
+              "affiliation": {
+                "country": "China",
+                "address-part": "Hubei",
+                "postal-code": "430070",
+                "@afid": "60129468",
+                "@country": "chn",
+                "city": "Wuhan",
+                "organization": [
+                  {
+                    "$": "State Key Laboratory of Silicate Materials for Architectures"
+                  },
+                  {
+                    "$": "College of Materials Science and Engineering"
+                  },
+                  {
+                    "$": "Wuhan University of Technology"
+                  }
+                ],
+                "affiliation-id": [
+                  {
+                    "@afid": "60129468",
+                    "@dptid": "130014975"
+                  },
+                  {
+                    "@afid": "60022414"
+                  }
+                ],
+                "@affiliation-instance-id": "OB2BibRecID-969494531-abb5ad25bf65a131582ad2b18cf8e04a-1",
+                "ce:source-text": "State Key Laboratory of Silicate Materials for Architectures, College of Materials Science and Engineering, Wuhan University of Technology, Wuhan, Hubei 430070, PR China",
+                "@dptid": "130014975"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Yeqing",
+                  "preferred-name": {
+                    "ce:given-name": "Yeqing",
+                    "ce:initials": "Y.",
+                    "ce:surname": "Li",
+                    "ce:indexed-name": "Li Y."
+                  },
+                  "@author-instance-id": "OB2BibRecID-969494531-734ba11a40ff2388febbdfae6c8784d5-1",
+                  "@seq": "1",
+                  "ce:initials": "Y.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Li",
+                  "@auid": "56457815200",
+                  "ce:indexed-name": "Li Y."
+                },
+                {
+                  "ce:given-name": "Jianping",
+                  "preferred-name": {
+                    "ce:given-name": "Jianping",
+                    "ce:initials": "J.",
+                    "ce:surname": "Tian",
+                    "ce:indexed-name": "Tian J."
+                  },
+                  "@author-instance-id": "OB2BibRecID-969494531-fe677c75f1615ca4b5374acc8b9f0aae-1",
+                  "@seq": "2",
+                  "ce:initials": "J.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Tian",
+                  "@auid": "13103680500",
+                  "ce:indexed-name": "Tian J."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "@afid": "128387699",
+                "@country": "chn",
+                "organization": [
+                  {
+                    "$": "Huaxin Cement Co."
+                  },
+                  {
+                    "$": "Ltd."
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "128387699"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-969494531-4fb6a46c2648a1757b396f669c3a598c-1",
+                "ce:source-text": "Huaxin Cement Co., Ltd., PR China"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Yeqing",
+                  "preferred-name": {
+                    "ce:given-name": "Yeqing",
+                    "ce:initials": "Y.",
+                    "ce:surname": "Li",
+                    "ce:indexed-name": "Li Y."
+                  },
+                  "@author-instance-id": "OB2BibRecID-969494531-734ba11a40ff2388febbdfae6c8784d5-1",
+                  "@seq": "1",
+                  "ce:initials": "Y.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Li",
+                  "@auid": "56457815200",
+                  "ce:indexed-name": "Li Y."
+                },
+                {
+                  "ce:given-name": "Jianping",
+                  "preferred-name": {
+                    "ce:given-name": "Jianping",
+                    "ce:initials": "J.",
+                    "ce:surname": "Tian",
+                    "ce:indexed-name": "Tian J."
+                  },
+                  "@author-instance-id": "OB2BibRecID-969494531-fe677c75f1615ca4b5374acc8b9f0aae-1",
+                  "@seq": "2",
+                  "ce:initials": "J.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Tian",
+                  "@auid": "13103680500",
+                  "ce:indexed-name": "Tian J."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "410082",
+                "@afid": "60032356",
+                "@country": "chn",
+                "city": "Changsha",
+                "organization": [
+                  {
+                    "$": "Key Laboratory for Green & Advanced Civil Engineering Materials and Application Technology of Hunan Province"
+                  },
+                  {
+                    "$": "College of Civil Engineering"
+                  },
+                  {
+                    "$": "Hunan University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60032356"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-969494531-456d38efaa21324f5cf058a8ee20bab7-1",
+                "ce:source-text": "Key Laboratory for Green & Advanced Civil Engineering Materials and Application Technology of Hunan Province, College of Civil Engineering, Hunan University, Changsha 410082, PR China"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Yue",
+                  "preferred-name": {
+                    "ce:given-name": "Yue",
+                    "ce:initials": "Y.",
+                    "ce:surname": "Wang",
+                    "ce:indexed-name": "Wang Y."
+                  },
+                  "@author-instance-id": "OB2BibRecID-969494531-3de0ae22ae1bae25c91eedc31ce87186-1",
+                  "@seq": "3",
+                  "ce:initials": "Y.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Wang",
+                  "@auid": "57200971233",
+                  "ce:indexed-name": "Wang Y."
+                },
+                {
+                  "ce:given-name": "Xiang",
+                  "preferred-name": {
+                    "ce:given-name": "Xiang",
+                    "ce:initials": "X.",
+                    "ce:surname": "Hu",
+                    "ce:indexed-name": "Hu X."
+                  },
+                  "@author-instance-id": "OB2BibRecID-969494531-9f47b2da0fab5f81ae174c4802a4f88b-1",
+                  "@seq": "5",
+                  "ce:initials": "X.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Hu",
+                  "@auid": "55673998700",
+                  "ce:indexed-name": "Hu X."
+                },
+                {
+                  "ce:given-name": "Xujia",
+                  "preferred-name": {
+                    "ce:given-name": "Xujia",
+                    "ce:initials": "X.",
+                    "ce:surname": "You",
+                    "ce:indexed-name": "You X."
+                  },
+                  "@author-instance-id": "OB2BibRecID-969494531-5c44617b75f9d52f2b8128c4b397b394-1",
+                  "@seq": "6",
+                  "ce:initials": "X.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "You",
+                  "@auid": "57306122400",
+                  "ce:indexed-name": "You X."
+                },
+                {
+                  "ce:given-name": "Yuguang",
+                  "preferred-name": {
+                    "ce:given-name": "Yuguang",
+                    "ce:initials": "Y.",
+                    "ce:surname": "Mao",
+                    "ce:indexed-name": "Mao Y."
+                  },
+                  "@author-instance-id": "OB2BibRecID-969494531-7c3cd6769fa94ef0cfab9adc9853073e-1",
+                  "@seq": "7",
+                  "ce:initials": "Y.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Mao",
+                  "@auid": "57216994041",
+                  "ce:indexed-name": "Mao Y."
+                },
+                {
+                  "ce:given-name": "Caijun",
+                  "preferred-name": {
+                    "ce:given-name": "Caijun",
+                    "ce:initials": "C.",
+                    "ce:surname": "Shi",
+                    "ce:indexed-name": "Shi C."
+                  },
+                  "@author-instance-id": "OB2BibRecID-969494531-be91e128e294bac8173ba9cda28e26f7-1",
+                  "@seq": "8",
+                  "ce:initials": "C.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Shi",
+                  "@auid": "7402120890",
+                  "ce:indexed-name": "Shi C."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "530004",
+                "@afid": "60030270",
+                "@country": "chn",
+                "city": "Nanning",
+                "organization": [
+                  {
+                    "$": "Key Laboratory of Disaster Prevention and Structural Safety of China Ministry of Education"
+                  },
+                  {
+                    "$": "School of Civil Engineering and Architecture"
+                  },
+                  {
+                    "$": "Guangxi University"
+                  }
+                ],
+                "affiliation-id": [
+                  {
+                    "@afid": "60030270",
+                    "@dptid": "104529807"
+                  },
+                  {
+                    "@afid": "60001604"
+                  }
+                ],
+                "@affiliation-instance-id": "OB2BibRecID-969494531-9cb70cbfaecbaad0d4c91049d1adae32-1",
+                "ce:source-text": "Key Laboratory of Disaster Prevention and Structural Safety of China Ministry of Education, School of Civil Engineering and Architecture, Guangxi University, Nanning 530004, PR China",
+                "@dptid": "104529807"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Jianhui",
+                  "preferred-name": {
+                    "ce:given-name": "Jianhui",
+                    "ce:initials": "J.",
+                    "ce:surname": "Liu",
+                    "ce:indexed-name": "Liu J."
+                  },
+                  "@author-instance-id": "OB2BibRecID-969494531-b59bd5dc0f078d664f811d8230fe58cf-1",
+                  "@seq": "4",
+                  "ce:initials": "J.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Liu",
+                  "@auid": "56825249600",
+                  "@orcid": "0000-0003-4533-1973",
+                  "ce:indexed-name": "Liu J."
+                }
+              ]
+            }
+          ],
+          "citation-title": "Properties and microstructure of carbonated concrete brick through CO2 mineralization with cement kiln exhaust gas",
+          "abstracts": "Copyright © 2025. Published by Elsevier Ltd.This paper investigates the properties and microstructure of concrete bricks produced through accelerated CO2 curing using cement kiln exhaust gas. Based on two years of data from a commercial production line, we demonstrate that the carbonated bricks meet national standard requirements. The compressive strength further increases when stored under appropriate conditions. A comparative analysis with autoclaved bricks reveals the distinct composition and microstructure developed during carbonation. The technology is also evaluated for its eco-efficiency, considering environmental impact, performance, and economic benefits, while its practical applications and advantages are discussed.",
+          "correspondence": {
+            "affiliation": {
+              "country": "China",
+              "postal-code": "410082",
+              "@country": "chn",
+              "city": "Changsha",
+              "organization": [
+                {
+                  "$": "Key Laboratory for Green & Advanced Civil Engineering Materials and Application Technology of Hunan Province"
+                },
+                {
+                  "$": "College of Civil Engineering"
+                },
+                {
+                  "$": "Hunan University"
+                }
+              ],
+              "@affiliation-instance-id": "OB2BibRecID-969494531-5018c507395f82792fafb289c1f8df8a-1",
+              "ce:source-text": "Key Laboratory for Green & Advanced Civil Engineering Materials and Application Technology of Hunan Province, College of Civil Engineering, Hunan University, Changsha 410082, PR China"
+            },
+            "person": {
+              "ce:given-name": "Caijun",
+              "@author-instance-id": "OB2BibRecID-969494531-3328c81078504c6a0ecb3dec54900414-1",
+              "ce:initials": "C.",
+              "ce:surname": "Shi",
+              "ce:indexed-name": "Shi C."
+            }
+          },
+          "citation-info": {
+            "author-keywords": {
+              "author-keyword": [
+                {
+                  "$": "Cement kiln exhaust gas",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Commercial CO2mineralization",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Concrete brick",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Eco-efficiency",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Microstructure",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                }
+              ]
+            },
+            "citation-type": {
+              "@code": "ar"
+            },
+            "citation-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "abstract-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            }
+          },
+          "source": {
+            "website": {
+              "ce:e-address": {
+                "$": "https://www.sciencedirect.com/science/journal/09500618",
+                "@type": "email"
+              }
+            },
+            "translated-sourcetitle": {
+              "$": "Construction and Building Materials",
+              "@xml:lang": "eng"
+            },
+            "volisspag": {
+              "voliss": {
+                "@volume": "499"
+              }
+            },
+            "@type": "j",
+            "sourcetitle": "Construction and Building Materials",
+            "publicationdate": {
+              "month": "11",
+              "year": "2025",
+              "date-text": {
+                "@xfab-added": "true",
+                "$": "14 November 2025"
+              },
+              "day": "14"
+            },
+            "codencode": "CBUME",
+            "sourcetitle-abbrev": "Constr Build Mater",
+            "@country": "gbr",
+            "issn": {
+              "$": "09500618",
+              "@type": "print"
+            },
+            "publicationyear": {
+              "@first": "2025"
+            },
+            "publisher": {
+              "publishername": "Elsevier Ltd"
+            },
+            "article-number": "144153",
+            "@srcid": "24443"
+          },
+          "enhancement": {
+            "classificationgroup": {
+              "classifications": [
+                {
+                  "@type": "CPXCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "1009",
+                      "classification-description": "Energy Management"
+                    },
+                    {
+                      "classification-code": "1502",
+                      "classification-description": "Environmental Engineering"
+                    },
+                    {
+                      "classification-code": "1502.1",
+                      "classification-description": "Environmental Impact and Protection"
+                    },
+                    {
+                      "classification-code": "214",
+                      "classification-description": "Materials Science"
+                    },
+                    {
+                      "classification-code": "217.2",
+                      "classification-description": "Concrete"
+                    },
+                    {
+                      "classification-code": "217.2.1",
+                      "classification-description": "Cement"
+                    },
+                    {
+                      "classification-code": "217.4.1",
+                      "classification-description": "Brick and Mortar"
+                    },
+                    {
+                      "classification-code": "301",
+                      "classification-description": "Fluids"
+                    },
+                    {
+                      "classification-code": "303.2",
+                      "classification-description": "Industrial Furnaces and Components"
+                    },
+                    {
+                      "classification-code": "482",
+                      "classification-description": "Mineralogy"
+                    },
+                    {
+                      "classification-code": "802.2",
+                      "classification-description": "Chemical Reactions"
+                    },
+                    {
+                      "classification-code": "804.2",
+                      "classification-description": "Inorganic Compounds"
+                    },
+                    {
+                      "classification-code": "902.3",
+                      "classification-description": "Legal Aspects"
+                    },
+                    {
+                      "classification-code": "971",
+                      "classification-description": "Social Sciences"
+                    }
+                  ]
+                },
+                {
+                  "@type": "FLXCLASS",
+                  "classification": {
+                    "classification-code": "902",
+                    "classification-description": "FLUIDEX; Related Topics"
+                  }
+                },
+                {
+                  "@type": "ASJC",
+                  "classification": [
+                    {
+                      "$": "2205"
+                    },
+                    {
+                      "$": "2215"
+                    },
+                    {
+                      "$": "2500"
+                    }
+                  ]
+                },
+                {
+                  "@type": "SUBJABBR",
+                  "classification": [
+                    {
+                      "$": "ENGI"
+                    },
+                    {
+                      "$": "MATE"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "grantlist": {
+            "@complete": "y",
+            "grant-text": {
+              "$": "The authors would like to acknowledge the financial support from the Natural Science Foundation of China under Project No. 52078204 and the Guangxi Science and Technology Base and Talent Project. No. 2022AC21053. The enthusiastic support from Huaxin Cement CO., LTD is also appreciated.",
+              "@xml:lang": "eng"
+            },
+            "grant": {
+              "grant-id": "52078204",
+              "grant-acronym": "NSFC, NNSF, NNSFC",
+              "grant-agency": {
+                "@iso-code": "chn",
+                "$": "National Natural Science Foundation of China"
+              },
+              "grant-agency-id": "501100001809"
+            }
+          }
+        },
+        "item-info": {
+          "copyright": {
+            "$": "Copyright 2025 Elsevier B.V., All rights reserved.",
+            "@type": "Elsevier"
+          },
+          "dbcollection": [
+            {
+              "$": "CPX"
+            },
+            {
+              "$": "REAXYSCAR"
+            },
+            {
+              "$": "SCOPUS"
+            },
+            {
+              "$": "Scopusbase"
+            }
+          ],
+          "history": {
+            "date-created": {
+              "@day": "22",
+              "@timestamp": "BST 08:57:49",
+              "@year": "2025",
+              "@month": "11"
+            }
+          },
+          "itemidlist": {
+            "itemid": [
+              {
+                "$": "2040712539",
+                "@idtype": "PUI"
+              },
+              {
+                "$": "969494531",
+                "@idtype": "CAR-ID"
+              },
+              {
+                "$": "20254719550355",
+                "@idtype": "CPX"
+              },
+              {
+                "$": "20253624446",
+                "@idtype": "REAXYSCAR"
+              },
+              {
+                "$": "20254890163",
+                "@idtype": "SCOPUS"
+              },
+              {
+                "$": "969494531#77332799",
+                "@idtype": "SRC-OCC-ID"
+              },
+              {
+                "$": "105022154900",
+                "@idtype": "SCP"
+              },
+              {
+                "$": "105022154900",
+                "@idtype": "SGR"
+              }
+            ],
+            "ce:pii": "S0950061825043041",
+            "ce:ern": "pii:S0950061825043041",
+            "ce:doi": "10.1016/j.conbuildmat.2025.144153"
+          }
+        },
+        "tail": {
+          "bibliography": {
+            "@refcount": "51",
+            "reference": [
+              {
+                "ref-fulltext": "Hu, X., P. He, and C. Shi, Carbonate binders: Historic developments and perspectives. Cement and Concrete Research, 2024. 175.",
+                "@reference-instance-id": "OB2BibRecID-969494531-4081e905a1c2939998140d551df0de4d-1",
+                "@id": "1",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Carbonate binders: historic developments and perspectives"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib1",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85174709343",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "175"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Hu",
+                        "ce:indexed-name": "Hu X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "He",
+                        "ce:indexed-name": "He P."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Hu, X., P. He, and C. Shi, Carbonate binders: Historic developments and perspectives. Cement and Concrete Research, 2024. 175."
+              },
+              {
+                "ref-fulltext": "Shi, C., B. Qu, and J.L. Provis, Recent progress in low-carbon binders. Cement and Concrete Research, 2019. 122: p. 227–250.",
+                "@reference-instance-id": "OB2BibRecID-969494531-58f6115d8e29c6c3bc8177c4f388f8bf-2",
+                "@id": "2",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Recent progress in low-carbon binders"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib2",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85065850533",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "122"
+                    },
+                    "pagerange": {
+                      "@first": "227",
+                      "@last": "250"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Qu",
+                        "ce:indexed-name": "Qu B."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Provis",
+                        "ce:indexed-name": "Provis J.L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Shi, C., B. Qu, and J.L. Provis, Recent progress in low-carbon binders. Cement and Concrete Research, 2019. 122: p. 227–250."
+              },
+              {
+                "ref-fulltext": "Wang, Y., et al., Utilization of accelerated carbonation to enhance the application of steel slag: a review. Journal of Sustainable Cement-Based Materials, 2023. 12(4): p. 471–486.",
+                "@reference-instance-id": "OB2BibRecID-969494531-f6f2694b848738fa1de3f79ea87b9bd8-3",
+                "@id": "3",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Utilization of accelerated carbonation to enhance the application of steel slag: a review"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib3",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85144908695",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "12",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "471",
+                      "@last": "486"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Sustain. Cem. Based Mater."
+                },
+                "ce:source-text": "Wang, Y., et al., Utilization of accelerated carbonation to enhance the application of steel slag: a review. Journal of Sustainable Cement-Based Materials, 2023. 12(4): p. 471–486."
+              },
+              {
+                "ref-fulltext": "Shi, C. and Y. Wu, Studies on some factors affecting CO2 curing of lightweight concrete products. Resources, Conservation and Recycling, 2008. 52(8–9): p. 1087–1092.",
+                "@reference-instance-id": "OB2BibRecID-969494531-3fa3aa17feacbdccd14b2302bed6489c-4",
+                "@id": "4",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2008"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Studies on some factors affecting Co2curing of lightweight concrete products"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib4",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "47049102721",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "52",
+                      "@issue": "8-9"
+                    },
+                    "pagerange": {
+                      "@first": "1087",
+                      "@last": "1092"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Resour. Conserv. Recycl."
+                },
+                "ce:source-text": "Shi, C. and Y. Wu, Studies on some factors affecting CO2 curing of lightweight concrete products. Resources, Conservation and Recycling, 2008. 52(8–9): p. 1087–1092."
+              },
+              {
+                "ref-fulltext": "Shi, C., F. He, and Y. Wu, Effect of pre-conditioning on CO2 curing of lightweight concrete blocks mixtures. Construction and Building Materials, 2012. 26(1): p. 257–267.",
+                "@reference-instance-id": "OB2BibRecID-969494531-55f25fc4d08e384349d32e999c44293e-5",
+                "@id": "5",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of pre-conditioning on Co2curing of lightweight concrete blocks mixtures"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib5",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "80052900440",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "26",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "257",
+                      "@last": "267"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "He",
+                        "ce:indexed-name": "He F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "Shi, C., F. He, and Y. Wu, Effect of pre-conditioning on CO2 curing of lightweight concrete blocks mixtures. Construction and Building Materials, 2012. 26(1): p. 257–267."
+              },
+              {
+                "ref-fulltext": "Shi, C., et al., Weathering properties of CO2-cured concrete blocks. Resources, Conservation and Recycling, 2012. 65: p. 11–17.",
+                "@reference-instance-id": "OB2BibRecID-969494531-e8b49e64bee90cb303a28fa89060c5cd-6",
+                "@id": "6",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Weathering properties of Co2-cured concrete blocks"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib6",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84862257265",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "65"
+                    },
+                    "pagerange": {
+                      "@first": "11",
+                      "@last": "17"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Resour. Conserv. Recycl."
+                },
+                "ce:source-text": "Shi, C., et al., Weathering properties of CO2-cured concrete blocks. Resources, Conservation and Recycling, 2012. 65: p. 11–17."
+              },
+              {
+                "ref-fulltext": "Shi, C., et al., Factors affecting kinetics of CO2 curing of concrete. Journal of Sustainable Cement-Based Materials, 2012. 1(1–2): p. 24–33.",
+                "@reference-instance-id": "OB2BibRecID-969494531-49403db141c7166dc2f6670d39ce10fe-7",
+                "@id": "7",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Factors affecting kinetics of Co2curing of concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib7",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85007821556",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "1",
+                      "@issue": "1-2"
+                    },
+                    "pagerange": {
+                      "@first": "24",
+                      "@last": "33"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Sustain. Cem. Based Mater."
+                },
+                "ce:source-text": "Shi, C., et al., Factors affecting kinetics of CO2 curing of concrete. Journal of Sustainable Cement-Based Materials, 2012. 1(1–2): p. 24–33."
+              },
+              {
+                "ref-fulltext": "Wang, Y., et al., Effect of CO2 surface treatment on penetrability and microstructure of cement-fly ash–slag ternary concrete. Cement and Concrete Composites, 2021. 123: p. 104194.",
+                "@reference-instance-id": "OB2BibRecID-969494531-bf3686ae9d9b5c24e78ad9226c88bcbf-8",
+                "@id": "8",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of Co2surface treatment on penetrability and microstructure of cement-fly ash–slag ternary concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib8",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "104194",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85111288391",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "123"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Compos."
+                },
+                "ce:source-text": "Wang, Y., et al., Effect of CO2 surface treatment on penetrability and microstructure of cement-fly ash–slag ternary concrete. Cement and Concrete Composites, 2021. 123: p. 104194."
+              },
+              {
+                "ref-fulltext": "Zhang, D. and Y. Shao, Early age carbonation curing for precast reinforced concretes. Construction and Building Materials, 2016. 113: p. 134–143.",
+                "@reference-instance-id": "OB2BibRecID-969494531-d13dff019991c9328e99e8b4f553606d-9",
+                "@id": "9",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Early age carbonation curing for precast reinforced concretes"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib9",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84960948695",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "113"
+                    },
+                    "pagerange": {
+                      "@first": "134",
+                      "@last": "143"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang D."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Shao",
+                        "ce:indexed-name": "Shao Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "Zhang, D. and Y. Shao, Early age carbonation curing for precast reinforced concretes. Construction and Building Materials, 2016. 113: p. 134–143."
+              },
+              {
+                "ref-fulltext": "Ye, X., T. Chen, and J. Chen, Carbonation of cement paste under different pressures. Construction and Building Materials, 2023. 370.",
+                "@reference-instance-id": "OB2BibRecID-969494531-f6dc3fe015a9979ebc1ddcb4676513d2-10",
+                "@id": "10",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Carbonation of cement paste under different pressures"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib10",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85147605614",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "370"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Ye",
+                        "ce:indexed-name": "Ye X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen T."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "Ye, X., T. Chen, and J. Chen, Carbonation of cement paste under different pressures. Construction and Building Materials, 2023. 370."
+              },
+              {
+                "ref-fulltext": "Li, N., L. Mo, and C. Unluer, Emerging CO2 utilization technologies for construction materials: A review. Journal of CO2 Utilization, 2022. 65.",
+                "@reference-instance-id": "OB2BibRecID-969494531-4013ff24e623fdc33e85e9c34220c37c-11",
+                "@id": "11",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Emerging Co2utilization technologies for construction materials: a review"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib11",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85139850798",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "65"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li N."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Mo",
+                        "ce:indexed-name": "Mo L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Unluer",
+                        "ce:indexed-name": "Unluer C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. CO2Util."
+                },
+                "ce:source-text": "Li, N., L. Mo, and C. Unluer, Emerging CO2 utilization technologies for construction materials: A review. Journal of CO2 Utilization, 2022. 65."
+              },
+              {
+                "ref-fulltext": "Scholes, C.A., et al., Membrane gas separation processes for CO2 capture from cement kiln flue gas. International Journal of Greenhouse Gas Control, 2014. 24: p. 78–86.",
+                "@reference-instance-id": "OB2BibRecID-969494531-4cd0e8b4c6482dd17b64e4d03f5423da-12",
+                "@id": "12",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Membrane gas separation processes for Co2capture from cement kiln flue gas"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib12",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84897878652",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "24"
+                    },
+                    "pagerange": {
+                      "@first": "78",
+                      "@last": "86"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Scholes",
+                        "ce:indexed-name": "Scholes C.A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Int. J. Greenh. Gas Control"
+                },
+                "ce:source-text": "Scholes, C.A., et al., Membrane gas separation processes for CO2 capture from cement kiln flue gas. International Journal of Greenhouse Gas Control, 2014. 24: p. 78–86."
+              },
+              {
+                "ref-fulltext": "Proaño, L., et al., Techno-economic evaluation of indirect carbonation for CO2 emissions capture in cement industry: A system dynamics approach. Journal of Cleaner Production, 2020. 263.",
+                "@reference-instance-id": "OB2BibRecID-969494531-40082fd65a89dec5744f6dde8d3d057c-13",
+                "@id": "13",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Techno-economic evaluation of indirect carbonation for Co2emissions capture in cement industry: a system dynamics approach"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib13",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85083313952",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "263"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Proaño",
+                        "ce:indexed-name": "Proano L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Clean. Prod."
+                },
+                "ce:source-text": "Proaño, L., et al., Techno-economic evaluation of indirect carbonation for CO2 emissions capture in cement industry: A system dynamics approach. Journal of Cleaner Production, 2020. 263."
+              },
+              {
+                "ref-fulltext": "Mouedhen, I., et al., Effect of pCO2 on direct flue gas mineral carbonation at pilot scale. J Environ Manage, 2017. 198(Pt 1): p. 1–8.",
+                "@reference-instance-id": "OB2BibRecID-969494531-8fbcba6db8d2282183cd434f950fad98-14",
+                "@id": "14",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of pCo2on direct flue gas mineral carbonation at pilot scale"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib14",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85018467837",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "198",
+                      "@issue": "Pt 1"
+                    },
+                    "pagerange": {
+                      "@first": "1",
+                      "@last": "8"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "I.",
+                        "@_fa": "true",
+                        "ce:surname": "Mouedhen",
+                        "ce:indexed-name": "Mouedhen I."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Environ. Manag."
+                },
+                "ce:source-text": "Mouedhen, I., et al., Effect of pCO2 on direct flue gas mineral carbonation at pilot scale. J Environ Manage, 2017. 198(Pt 1): p. 1–8."
+              },
+              {
+                "ref-fulltext": "Wang, L., et al., Accelerated carbonation of reactive MgO and Portland cement blends under flowing CO2 gas. Cement and Concrete Composites, 2020. 106.",
+                "@reference-instance-id": "OB2BibRecID-969494531-1cc6bca73a0933abeda0364aa35275c7-15",
+                "@id": "15",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Accelerated Carbonation of reactive MgO and Portland cement blends under flowing Co2gas"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib15",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85076631829",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "106"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Compos."
+                },
+                "ce:source-text": "Wang, L., et al., Accelerated carbonation of reactive MgO and Portland cement blends under flowing CO2 gas. Cement and Concrete Composites, 2020. 106."
+              },
+              {
+                "ref-fulltext": "Liu, J., et al., Carbonated concrete brick capturing carbon dioxide from cement kiln exhaust gas. Case Studies in Construction Materials, 2022. 17.",
+                "@reference-instance-id": "OB2BibRecID-969494531-e0bbd3b9791fedf060e410009b901c71-16",
+                "@id": "16",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Carbonated concrete brick capturing carbon dioxide from cement kiln exhaust gas"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib16",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85138048529",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "17"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Case Stud. Constr. Mater."
+                },
+                "ce:source-text": "Liu, J., et al., Carbonated concrete brick capturing carbon dioxide from cement kiln exhaust gas. Case Studies in Construction Materials, 2022. 17."
+              },
+              {
+                "ref-fulltext": "Zhao, Y., et al., Determination of free chloride in seawater cement paste with low water-binder ratio. Cement and Concrete Composites, 2021. 124.",
+                "@reference-instance-id": "OB2BibRecID-969494531-7c46539014f82afc8994120f4a892c4d-17",
+                "@id": "17",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Determination of free chloride in seawater cement paste with low water-binder ratio"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib17",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85113222807",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "124"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Compos."
+                },
+                "ce:source-text": "Zhao, Y., et al., Determination of free chloride in seawater cement paste with low water-binder ratio. Cement and Concrete Composites, 2021. 124."
+              },
+              {
+                "ref-fulltext": "Lu, B., et al., Microstructure of Portland cement paste subjected to different CO2 concentrations and further water curing. Journal of CO2 Utilization, 2021. 53.",
+                "@reference-instance-id": "OB2BibRecID-969494531-211c8d36a214b1409d75734a49bc89a2-18",
+                "@id": "18",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Microstructure of Portland cement paste subjected to different Co2concentrations and further water curing"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib18",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85114663801",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "53"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Lu",
+                        "ce:indexed-name": "Lu B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. CO2Util."
+                },
+                "ce:source-text": "Lu, B., et al., Microstructure of Portland cement paste subjected to different CO2 concentrations and further water curing. Journal of CO2 Utilization, 2021. 53."
+              },
+              {
+                "ref-fulltext": "Ferrara, G., et al., Testing procedures for CO2 uptake assessment of accelerated carbonation products: Experimental application on basic oxygen furnace steel slag samples. Construction and Building Materials, 2023. 406.",
+                "@reference-instance-id": "OB2BibRecID-969494531-d6e398a7202680556ef16530736d3187-19",
+                "@id": "19",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Testing procedures for Co2uptake assessment of accelerated carbonation products: experimental application on basic oxygen furnace steel slag samples"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib19",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85172334715",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "406"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Ferrara",
+                        "ce:indexed-name": "Ferrara G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "Ferrara, G., et al., Testing procedures for CO2 uptake assessment of accelerated carbonation products: Experimental application on basic oxygen furnace steel slag samples. Construction and Building Materials, 2023. 406."
+              },
+              {
+                "ref-fulltext": "Pan, X., et al., Properties and microstructure of CO2 surface treated cement mortars with subsequent lime-saturated water curing. Cement and Concrete Composites, 2019. 99: p. 89–99.",
+                "@reference-instance-id": "OB2BibRecID-969494531-4614d88625556713eb8670b074557819-20",
+                "@id": "20",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Properties and microstructure of Co2surface treated cement mortars with subsequent lime-saturated water curing"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib20",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85063047440",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "99"
+                    },
+                    "pagerange": {
+                      "@first": "89",
+                      "@last": "99"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Pan",
+                        "ce:indexed-name": "Pan X."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Compos."
+                },
+                "ce:source-text": "Pan, X., et al., Properties and microstructure of CO2 surface treated cement mortars with subsequent lime-saturated water curing. Cement and Concrete Composites, 2019. 99: p. 89–99."
+              },
+              {
+                "ref-fulltext": "Zajac, M., et al., Phase assemblage and microstructure of cement paste subjected to enforced, wet carbonation. Cement and Concrete Research, 2020. 130.",
+                "@reference-instance-id": "OB2BibRecID-969494531-ff7eb970306eba66c2b310fce1df8b51-21",
+                "@id": "21",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Phase assemblage and microstructure of cement paste subjected to enforced, wet carbonation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib21",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85079007974",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "130"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Zajac",
+                        "ce:indexed-name": "Zajac M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Zajac, M., et al., Phase assemblage and microstructure of cement paste subjected to enforced, wet carbonation. Cement and Concrete Research, 2020. 130."
+              },
+              {
+                "ref-fulltext": "Drissi, S., et al., Relationship between the composition and hydration-microstructure-mechanical properties of cement-metakaolin-limestone ternary system. Construction and Building Materials, 2021. 302.",
+                "@reference-instance-id": "OB2BibRecID-969494531-b7dec7c806163a3eb062466547993bc1-22",
+                "@id": "22",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Relationship between the composition and hydration-microstructure-mechanical properties of cement-metakaolin-limestone ternary system"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib22",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85110430329",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "302"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Drissi",
+                        "ce:indexed-name": "Drissi S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "Drissi, S., et al., Relationship between the composition and hydration-microstructure-mechanical properties of cement-metakaolin-limestone ternary system. Construction and Building Materials, 2021. 302."
+              },
+              {
+                "ref-fulltext": "Steinour, H.H., Some effects of carbon dioxide on mortars and concrete-discussion. J. Am. Concr. Inst, 1959. 30: p. 905–907.",
+                "@reference-instance-id": "OB2BibRecID-969494531-7a7435b58ad9b6b531f114c517df375e-23",
+                "@id": "23",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1959"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Some effects of carbon dioxide on mortars and concrete-discussion"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib23",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0038519344",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "30"
+                    },
+                    "pagerange": {
+                      "@first": "905",
+                      "@last": "907"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Steinour",
+                        "ce:indexed-name": "Steinour H.H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Am. Concr. Inst."
+                },
+                "ce:source-text": "Steinour, H.H., Some effects of carbon dioxide on mortars and concrete-discussion. J. Am. Concr. Inst, 1959. 30: p. 905–907."
+              },
+              {
+                "ref-fulltext": "Singh, S. and S. Patel, Development of angular-shaped lightweight coarse aggregate with low calcium fly ash using autoclave curing - Experimental and microstructural study. Journal of Building Engineering, 2023. 79.",
+                "@reference-instance-id": "OB2BibRecID-969494531-eef19ac08b0cb0ce512a03cb9d1071b8-24",
+                "@id": "24",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Development of angular-shaped lightweight coarse aggregate with low calcium Fly ash using autoclave curing - experimental and microstructural study"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib24",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85173148088",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "79"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Singh",
+                        "ce:indexed-name": "Singh S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Patel",
+                        "ce:indexed-name": "Patel S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Build. Eng."
+                },
+                "ce:source-text": "Singh, S. and S. Patel, Development of angular-shaped lightweight coarse aggregate with low calcium fly ash using autoclave curing - Experimental and microstructural study. Journal of Building Engineering, 2023. 79."
+              },
+              {
+                "ref-fulltext": "Hartmann, A., M. Khakhutov, and J.C. Buhl, Hydrothermal synthesis of CSH-phases (tobermorite) under influence of Ca-formate. Materials Research Bulletin, 2014. 51: p. 389–396.",
+                "@reference-instance-id": "OB2BibRecID-969494531-a39e55320167a4bb2df3c5e2b8acc751-25",
+                "@id": "25",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Hydrothermal synthesis of CSH-phases (tobermorite) under influence of Ca-formate"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib25",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84892700247",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "51"
+                    },
+                    "pagerange": {
+                      "@first": "389",
+                      "@last": "396"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Hartmann",
+                        "ce:indexed-name": "Hartmann A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Khakhutov",
+                        "ce:indexed-name": "Khakhutov M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Buhl",
+                        "ce:indexed-name": "Buhl J.C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Mater. Res. Bull."
+                },
+                "ce:source-text": "Hartmann, A., M. Khakhutov, and J.C. Buhl, Hydrothermal synthesis of CSH-phases (tobermorite) under influence of Ca-formate. Materials Research Bulletin, 2014. 51: p. 389–396."
+              },
+              {
+                "ref-fulltext": "Kostrzewa-Demczuk, P., et al., The use of basalt powder in autoclaved brick as a method of production waste management. Journal of Cleaner Production, 2021. 320.",
+                "@reference-instance-id": "OB2BibRecID-969494531-2ace254e0978859139f8b94c89872946-26",
+                "@id": "26",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The use of basalt powder in autoclaved brick as a method of production waste management"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib26",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85114135554",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "320"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Kostrzewa-Demczuk",
+                        "ce:indexed-name": "Kostrzewa-Demczuk P."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Clean. Prod."
+                },
+                "ce:source-text": "Kostrzewa-Demczuk, P., et al., The use of basalt powder in autoclaved brick as a method of production waste management. Journal of Cleaner Production, 2021. 320."
+              },
+              {
+                "ref-fulltext": "Shen, X., et al., New insights into the non-classical nucleation of C-S-H. Cement and Concrete Research, 2023. 168.",
+                "@reference-instance-id": "OB2BibRecID-969494531-37678221284edc07840a4e3474e44250-27",
+                "@id": "27",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "New insights into the non-classical nucleation of C-S-H"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib27",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85150778660",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "168"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Shen",
+                        "ce:indexed-name": "Shen X."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Shen, X., et al., New insights into the non-classical nucleation of C-S-H. Cement and Concrete Research, 2023. 168."
+              },
+              {
+                "ref-fulltext": "Kogo, M., et al., Control of aragonite formation and its crystal shape in CaCl2-Na2CO3-H2O reaction system. Journal of Crystal Growth, 2021. 559.",
+                "@reference-instance-id": "OB2BibRecID-969494531-9f7f32c220a08f319b7bd8fc4490b755-28",
+                "@id": "28",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Control of aragonite formation and its crystal shape in Cacl2-Na2CO3-H2o reaction system"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib28",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85100442042",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "559"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Kogo",
+                        "ce:indexed-name": "Kogo M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Cryst. Growth"
+                },
+                "ce:source-text": "Kogo, M., et al., Control of aragonite formation and its crystal shape in CaCl2-Na2CO3-H2O reaction system. Journal of Crystal Growth, 2021. 559."
+              },
+              {
+                "ref-fulltext": "Mavromatis, V., J.-M. Brazier, and K.E. Goetschl, Controls of temperature and mineral growth rate on Mg incorporation in aragonite. Geochimica et Cosmochimica Acta, 2022. 317: p. 53–64.",
+                "@reference-instance-id": "OB2BibRecID-969494531-e8d4f010c6df55427cd6565a71b109e1-29",
+                "@id": "29",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Controls of temperature and mineral growth rate on mg incorporation in aragonite"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib29",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85119194022",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "317"
+                    },
+                    "pagerange": {
+                      "@first": "53",
+                      "@last": "64"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "V.",
+                        "@_fa": "true",
+                        "ce:surname": "Mavromatis",
+                        "ce:indexed-name": "Mavromatis V."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.-M.",
+                        "@_fa": "true",
+                        "ce:surname": "Brazier",
+                        "ce:indexed-name": "Brazier J.-M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "K.E.",
+                        "@_fa": "true",
+                        "ce:surname": "Goetschl",
+                        "ce:indexed-name": "Goetschl K.E."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geochim. Et. Cosmochim. Acta"
+                },
+                "ce:source-text": "Mavromatis, V., J.-M. Brazier, and K.E. Goetschl, Controls of temperature and mineral growth rate on Mg incorporation in aragonite. Geochimica et Cosmochimica Acta, 2022. 317: p. 53–64."
+              },
+              {
+                "ref-fulltext": "Higl, J., et al., Detailed in situ ATR-FTIR spectroscopy study of the early stages of C-S-H formation during hydration of monoclinic C3S. Cement and Concrete Research, 2021. 142.",
+                "@reference-instance-id": "OB2BibRecID-969494531-dd651d4b3b7eab98e47cd76e481a6164-30",
+                "@id": "30",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Detailed in situ atr-ftir spectroscopy study of the early stages of C-S-H formation during hydration of monoclinic C"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib30",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85100209179",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "142"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Higl",
+                        "ce:indexed-name": "Higl J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Higl, J., et al., Detailed in situ ATR-FTIR spectroscopy study of the early stages of C-S-H formation during hydration of monoclinic C3S. Cement and Concrete Research, 2021. 142."
+              },
+              {
+                "ref-fulltext": "Wang, D., J. Chang, and W.S. Ansari, The effects of carbonation and hydration on the mineralogy and microstructure of basic oxygen furnace slag products. Journal of CO2 Utilization, 2019. 34: p. 87–98.",
+                "@reference-instance-id": "OB2BibRecID-969494531-f885bd01b4b3c31346f0173f80ce666a-31",
+                "@id": "31",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The effects of carbonation and hydration on the mineralogy and microstructure of basic oxygen furnace slag products"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib31",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85068196213",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "34"
+                    },
+                    "pagerange": {
+                      "@first": "87",
+                      "@last": "98"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang D."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Chang",
+                        "ce:indexed-name": "Chang J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "W.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Ansari",
+                        "ce:indexed-name": "Ansari W.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. CO2Util."
+                },
+                "ce:source-text": "Wang, D., J. Chang, and W.S. Ansari, The effects of carbonation and hydration on the mineralogy and microstructure of basic oxygen furnace slag products. Journal of CO2 Utilization, 2019. 34: p. 87–98."
+              },
+              {
+                "ref-fulltext": "Liu, L., et al., Superior CO2 uptake and enhanced compressive strength for carbonation curing of cement-based materials via flue gas. Construction and Building Materials, 2022. 346.",
+                "@reference-instance-id": "OB2BibRecID-969494531-afea2af5d316ba05ffae41ff2a89e970-32",
+                "@id": "32",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Superior Co2uptake and enhanced compressive strength for carbonation curing of cement-based materials via flue gas"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib32",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85134610748",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "346"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "Liu, L., et al., Superior CO2 uptake and enhanced compressive strength for carbonation curing of cement-based materials via flue gas. Construction and Building Materials, 2022. 346."
+              },
+              {
+                "ref-fulltext": "Zhou, C., et al., Why permeability to water is anomalously lower than that to many other fluids for cement-based material? Cement and Concrete Research, 2017. 100: p. 373–384.",
+                "@reference-instance-id": "OB2BibRecID-969494531-b536b20eaa5ff22ec7f6459c5643b284-33",
+                "@id": "33",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Why permeability to water is anomalously lower than that to many other fluids for cement-based material?"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib33",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85027858869",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "100"
+                    },
+                    "pagerange": {
+                      "@first": "373",
+                      "@last": "384"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Zhou, C., et al., Why permeability to water is anomalously lower than that to many other fluids for cement-based material? Cement and Concrete Research, 2017. 100: p. 373–384."
+              },
+              {
+                "ref-fulltext": "Ren, F., et al., Quantifying the anomalous water absorption behavior of cement mortar in view of its physical sensitivity to water. Cement and Concrete Research, 2021. 143.",
+                "@reference-instance-id": "OB2BibRecID-969494531-4e7e383e4e20a2ef5271f04c495226a1-34",
+                "@id": "34",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Quantifying the anomalous water absorption behavior of cement mortar in view of its physical sensitivity to water"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib34",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85101166640",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "143"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Ren",
+                        "ce:indexed-name": "Ren F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Ren, F., et al., Quantifying the anomalous water absorption behavior of cement mortar in view of its physical sensitivity to water. Cement and Concrete Research, 2021. 143."
+              },
+              {
+                "ref-fulltext": "Ren, F., et al., Effects of pure carbonation on pore structure and water permeability of white cement mortars. Cement, 2022. 9.",
+                "@reference-instance-id": "OB2BibRecID-969494531-6ffa88dc53cc0c00ecc4965ccc6bee3b-35",
+                "@id": "35",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effects of pure carbonation on pore structure and water permeability of White cement mortars"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib35",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85152226498",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "9"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Ren",
+                        "ce:indexed-name": "Ren F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cement"
+                },
+                "ce:source-text": "Ren, F., et al., Effects of pure carbonation on pore structure and water permeability of white cement mortars. Cement, 2022. 9."
+              },
+              {
+                "ref-fulltext": "Maruyama, I., et al., Dynamic microstructural evolution of hardened cement paste during first drying monitored by 1H NMR relaxometry. Cement and Concrete Research, 2019. 122: p. 107–117.",
+                "@reference-instance-id": "OB2BibRecID-969494531-8eed7770e6842aa4262f25b41823dd2a-36",
+                "@id": "36",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Dynamic microstructural evolution of hardened cement paste during first drying monitored by1H NMR relaxometry"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib36",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85065245799",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "122"
+                    },
+                    "pagerange": {
+                      "@first": "107",
+                      "@last": "117"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "I.",
+                        "@_fa": "true",
+                        "ce:surname": "Maruyama",
+                        "ce:indexed-name": "Maruyama I."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Maruyama, I., et al., Dynamic microstructural evolution of hardened cement paste during first drying monitored by 1H NMR relaxometry. Cement and Concrete Research, 2019. 122: p. 107–117."
+              },
+              {
+                "ref-fulltext": "Gajewicz, A.M., et al., A 1H NMR relaxometry investigation of gel-pore drying shrinkage in cement pastes. Cement and Concrete Research, 2016. 86: p. 12–19.",
+                "@reference-instance-id": "OB2BibRecID-969494531-4418375fba0a151448f88f20cf77e856-37",
+                "@id": "37",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A 1H NMR relaxometry investigation of gel-pore drying shrinkage in cement pastes"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib37",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84966355772",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "86"
+                    },
+                    "pagerange": {
+                      "@first": "12",
+                      "@last": "19"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Gajewicz",
+                        "ce:indexed-name": "Gajewicz A.M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Gajewicz, A.M., et al., A 1H NMR relaxometry investigation of gel-pore drying shrinkage in cement pastes. Cement and Concrete Research, 2016. 86: p. 12–19."
+              },
+              {
+                "ref-fulltext": "Luo, S., et al., Microwave hydrothermal synthesis of tobermorite for the solidification of iron. Case Studies in Construction Materials, 2023. 19.",
+                "@reference-instance-id": "OB2BibRecID-969494531-339684e291072a539f54c2fdb54c69a7-38",
+                "@id": "38",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Microwave hydrothermal synthesis of tobermorite for the solidification of iron"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib38",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85164242706",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "19"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Luo",
+                        "ce:indexed-name": "Luo S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Case Stud. Constr. Mater."
+                },
+                "ce:source-text": "Luo, S., et al., Microwave hydrothermal synthesis of tobermorite for the solidification of iron. Case Studies in Construction Materials, 2023. 19."
+              },
+              {
+                "ref-fulltext": "Liu, J., et al., A new enhanced carbonation curing method using monoethanolamine (MEA) solution Their effects on hydration and microstructure of cement-based materials. Construction and Building Materials, 2023. 396(8): p. 132172.",
+                "@reference-instance-id": "OB2BibRecID-969494531-68f43e1debc857ac2d789a631dd1e536-39",
+                "@id": "39",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A new enhanced carbonation curing method using monoethanolamine (MEA) solution their effects on hydration and microstructure of cement-based materials"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib39",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "132172",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85164240379",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "396",
+                      "@issue": "8"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "Liu, J., et al., A new enhanced carbonation curing method using monoethanolamine (MEA) solution Their effects on hydration and microstructure of cement-based materials. Construction and Building Materials, 2023. 396(8): p. 132172."
+              },
+              {
+                "ref-fulltext": "Jeong, J., et al., Phase profiling of carbonated cement paste: Quantitative X-ray diffraction analysis and numerical modeling. Case Studies in Construction Materials, 2022. 16.",
+                "@reference-instance-id": "OB2BibRecID-969494531-a22f8033913d6ef093437e43da267d8e-40",
+                "@id": "40",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Phase profiling of carbonated cement paste: quantitative X-ray diffraction analysis and numerical modeling"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib40",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85123724252",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "16"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Jeong",
+                        "ce:indexed-name": "Jeong J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Case Stud. Constr. Mater."
+                },
+                "ce:source-text": "Jeong, J., et al., Phase profiling of carbonated cement paste: Quantitative X-ray diffraction analysis and numerical modeling. Case Studies in Construction Materials, 2022. 16."
+              },
+              {
+                "ref-fulltext": "Hu, L., et al., An insight of carbonation-hydration kinetics and microstructure characterization of cement paste under accelerated carbonation at early age. Cement and Concrete Composites, 2022. 134.",
+                "@reference-instance-id": "OB2BibRecID-969494531-d6dec1cc38000ee2683f33279ce33436-41",
+                "@id": "41",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "An insight of carbonation-hydration kinetics and microstructure characterization of cement paste under accelerated carbonation at early age"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib41",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85138154575",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "134"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Hu",
+                        "ce:indexed-name": "Hu L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Compos."
+                },
+                "ce:source-text": "Hu, L., et al., An insight of carbonation-hydration kinetics and microstructure characterization of cement paste under accelerated carbonation at early age. Cement and Concrete Composites, 2022. 134."
+              },
+              {
+                "ref-fulltext": "Damineli, B.L., et al., Measuring the eco-efficiency of cement use. Cement and Concrete Composites, 2010. 32(8): p. 555–562.",
+                "@reference-instance-id": "OB2BibRecID-969494531-5eb54304d24a50ef5e41974cc74e1d24-42",
+                "@id": "42",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Measuring the eco-efficiency of cement use"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib42",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "77955715344",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "32",
+                      "@issue": "8"
+                    },
+                    "pagerange": {
+                      "@first": "555",
+                      "@last": "562"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Damineli",
+                        "ce:indexed-name": "Damineli B.L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Compos."
+                },
+                "ce:source-text": "Damineli, B.L., et al., Measuring the eco-efficiency of cement use. Cement and Concrete Composites, 2010. 32(8): p. 555–562."
+              },
+              {
+                "ref-fulltext": "Zhang, S., et al., Production of cleaner high-strength cementing material using steel slag under elevated-temperature carbonation. Journal of Cleaner Production, 2022. 342.",
+                "@reference-instance-id": "OB2BibRecID-969494531-ce0e967b20807c9aa35d08e6b7e9399c-43",
+                "@id": "43",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Production of cleaner high-strength cementing material using steel slag under elevated-temperature carbonation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib43",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85124653876",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "342"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Clean. Prod."
+                },
+                "ce:source-text": "Zhang, S., et al., Production of cleaner high-strength cementing material using steel slag under elevated-temperature carbonation. Journal of Cleaner Production, 2022. 342."
+              },
+              {
+                "ref-fulltext": "Ozturk, E., et al., Factors affecting the CO2 emissions, cost efficiency and eco-strength efficiency of concrete containing rice husk ash: A database study. Construction and Building Materials, 2022. 326.",
+                "@reference-instance-id": "OB2BibRecID-969494531-f847cba0119dddb75f96ef3018797177-44",
+                "@id": "44",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Factors affecting the Co2emissions, cost efficiency and eco-strength efficiency of concrete containing rice husk ash: a database study"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib44",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85124892322",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "326"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Ozturk",
+                        "ce:indexed-name": "Ozturk E."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "Ozturk, E., et al., Factors affecting the CO2 emissions, cost efficiency and eco-strength efficiency of concrete containing rice husk ash: A database study. Construction and Building Materials, 2022. 326."
+              },
+              {
+                "ref-fulltext": "Wang, Y., et al., The eco-efficiency evaluation in China's cement industry: A city-level study. Science of The Total Environment, 2023. 865.",
+                "@reference-instance-id": "OB2BibRecID-969494531-8ca284ab6a58f9ffab80da265bebf101-45",
+                "@id": "45",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The eco-efficiency evaluation in China's cement industry: a city-level study"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib45",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85145206887",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "865"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Sci. Total Environ."
+                },
+                "ce:source-text": "Wang, Y., et al., The eco-efficiency evaluation in China's cement industry: A city-level study. Science of The Total Environment, 2023. 865."
+              },
+              {
+                "ref-fulltext": "Alnahhal, M.F., et al., Assessment on engineering properties and CO2 emissions of recycled aggregate concrete incorporating waste products as supplements to Portland cement. Journal of Cleaner Production, 2018. 203: p. 822–835.",
+                "@reference-instance-id": "OB2BibRecID-969494531-25e2bb44657e60aa59e41b51d5575617-46",
+                "@id": "46",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Assessment on engineering properties and Co2emissions of recycled aggregate concrete incorporating waste products as supplements to portland cement"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib46",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85052750799",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "203"
+                    },
+                    "pagerange": {
+                      "@first": "822",
+                      "@last": "835"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Alnahhal",
+                        "ce:indexed-name": "Alnahhal M.F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Clean. Prod."
+                },
+                "ce:source-text": "Alnahhal, M.F., et al., Assessment on engineering properties and CO2 emissions of recycled aggregate concrete incorporating waste products as supplements to Portland cement. Journal of Cleaner Production, 2018. 203: p. 822–835."
+              },
+              {
+                "ref-fulltext": "Vembu, P.R.S. and A.K. Ammasi, Eco-efficiency evaluation of sustainable self-compacting concrete using magnesite mine waste. Case Studies in Construction Materials, 2024. 20.",
+                "@reference-instance-id": "OB2BibRecID-969494531-402c117fd957f90e5eff45eb0770c9cb-47",
+                "@id": "47",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Eco-efficiency evaluation of sustainable self-compacting concrete using magnesite mine waste"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib47",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85179126283",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "20"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.R.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Vembu",
+                        "ce:indexed-name": "Vembu P.R.S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Ammasi",
+                        "ce:indexed-name": "Ammasi A.K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Case Stud. Constr. Mater."
+                },
+                "ce:source-text": "Vembu, P.R.S. and A.K. Ammasi, Eco-efficiency evaluation of sustainable self-compacting concrete using magnesite mine waste. Case Studies in Construction Materials, 2024. 20."
+              },
+              {
+                "ref-fulltext": "Shi, Y., et al., Design and preparation of ultra-high performance concrete with low environmental impact. Journal of Cleaner Production, 2019. 214: p. 633–643.",
+                "@reference-instance-id": "OB2BibRecID-969494531-3fada9205195a32f7cad05cd32378112-48",
+                "@id": "48",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Design and preparation of ultra-high performance concrete with low environmental impact"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib48",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85060017737",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "214"
+                    },
+                    "pagerange": {
+                      "@first": "633",
+                      "@last": "643"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Clean. Prod."
+                },
+                "ce:source-text": "Shi, Y., et al., Design and preparation of ultra-high performance concrete with low environmental impact. Journal of Cleaner Production, 2019. 214: p. 633–643."
+              },
+              {
+                "ref-fulltext": "Josa, A., et al., Comparative analysis of the life cycle impact assessment of available cement inventories in the EU. Cement and Concrete Research, 2007. 37(5): p. 781–788.",
+                "@reference-instance-id": "OB2BibRecID-969494531-9d77b617413fa984b9229d3a5345a159-49",
+                "@id": "49",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Comparative analysis of the life cycle impact assessment of available cement inventories in the EU"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib49",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "34147104837",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "37",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "781",
+                      "@last": "788"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Josa",
+                        "ce:indexed-name": "Josa A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Josa, A., et al., Comparative analysis of the life cycle impact assessment of available cement inventories in the EU. Cement and Concrete Research, 2007. 37(5): p. 781–788."
+              },
+              {
+                "ref-fulltext": "Sharma, R. and R.A. Khan, Sustainable use of copper slag in self compacting concrete containing supplementary cementitious materials. Journal of Cleaner Production, 2017. 151: p. 179–192.",
+                "@reference-instance-id": "OB2BibRecID-969494531-5d4f87666d95a0ccd2f1f4255b68ce06-50",
+                "@id": "50",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Sustainable use of copper slag in self compacting concrete containing supplementary cementitious materials"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib50",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85016450373",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "151"
+                    },
+                    "pagerange": {
+                      "@first": "179",
+                      "@last": "192"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Sharma",
+                        "ce:indexed-name": "Sharma R."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Khan",
+                        "ce:indexed-name": "Khan R.A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Clean. Prod."
+                },
+                "ce:source-text": "Sharma, R. and R.A. Khan, Sustainable use of copper slag in self compacting concrete containing supplementary cementitious materials. Journal of Cleaner Production, 2017. 151: p. 179–192."
+              },
+              {
+                "ref-fulltext": "2006 IPCC Guidelines for National Greenhouse Gas Inventories. 2006. .",
+                "@reference-instance-id": "OB2BibRecID-969494531-a56cc5a22339cead2a6407e64ab3217e-51",
+                "@id": "51",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2006"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib51",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "70349601496",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "2006.",
+                  "ref-sourcetitle": "IPCC Guidelines for National Greenhouse Gas Inventories"
+                },
+                "ce:source-text": "2006 IPCC Guidelines for National Greenhouse Gas Inventories. 2006. ."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "affiliation": [
+      {
+        "affiliation-city": "Changsha",
+        "@id": "60032356",
+        "affilname": "Hunan University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60032356",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Nanning",
+        "@id": "60030270",
+        "affilname": "Guangxi University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60030270",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Wuhan",
+        "@id": "60129468",
+        "affilname": "State Key Laboratory of Silicate Materials for Architectures",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60129468",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Zhuzhou",
+        "@id": "128387699",
+        "affilname": "Ltd.",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/128387699",
+        "affiliation-country": "China"
+      }
+    ],
+    "coredata": {
+      "srctype": "j",
+      "eid": "2-s2.0-105022154900",
+      "dc:description": "This paper investigates the properties and microstructure of concrete bricks produced through accelerated CO2 curing using cement kiln exhaust gas. Based on two years of data from a commercial production line, we demonstrate that the carbonated bricks meet national standard requirements. The compressive strength further increases when stored under appropriate conditions. A comparative analysis with autoclaved bricks reveals the distinct composition and microstructure developed during carbonation. The technology is also evaluated for its eco-efficiency, considering environmental impact, performance, and economic benefits, while its practical applications and advantages are discussed.",
+      "prism:coverDate": "2025-11-14",
+      "prism:aggregationType": "Journal",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105022154900",
+      "subtypeDescription": "Article",
+      "dc:creator": {
+        "author": [
+          {
+            "ce:given-name": "Yeqing",
+            "preferred-name": {
+              "ce:given-name": "Yeqing",
+              "ce:initials": "Y.",
+              "ce:surname": "Li",
+              "ce:indexed-name": "Li Y."
+            },
+            "@seq": "1",
+            "ce:initials": "Y.",
+            "@_fa": "true",
+            "affiliation": [
+              {
+                "@id": "60129468",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60129468"
+              },
+              {
+                "@id": "128387699",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/128387699"
+              }
+            ],
+            "ce:surname": "Li",
+            "@auid": "56457815200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56457815200",
+            "ce:indexed-name": "Li Y."
+          }
+        ]
+      },
+      "link": [
+        {
+          "@_fa": "true",
+          "@rel": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105022154900"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105022154900&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105022154900&origin=inward"
+        }
+      ],
+      "prism:publicationName": "Construction and Building Materials",
+      "source-id": "24443",
+      "pii": "S0950061825043041",
+      "citedby-count": "3",
+      "prism:volume": "499",
+      "subtype": "ar",
+      "dc:title": "Properties and microstructure of carbonated concrete brick through CO2 mineralization with cement kiln exhaust gas",
+      "openaccess": "0",
+      "openaccessFlag": "false",
+      "prism:doi": "10.1016/j.conbuildmat.2025.144153",
+      "prism:issn": "09500618",
+      "publishercopyright": "Copyright © 2025. Published by Elsevier Ltd.",
+      "article-number": "144153",
+      "dc:identifier": "SCOPUS_ID:105022154900",
+      "dc:publisher": "Elsevier Ltd"
+    },
+    "idxterms": {
+      "mainterm": [
+        {
+          "$": "Carbonated concretes",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Cement kiln",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Cement kiln exhaust gas",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Commercial CO2 mineralization",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Commercial productions",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Concrete bricks",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Eco-efficiency",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Mineralisation",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Production line",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Properties and microstructures",
+          "@weight": "b",
+          "@candidate": "n"
+        }
+      ]
+    },
+    "language": {
+      "@xml:lang": "eng"
+    },
+    "authkeywords": {
+      "author-keyword": [
+        {
+          "@_fa": "true",
+          "$": "Cement kiln exhaust gas"
+        },
+        {
+          "@_fa": "true",
+          "$": "Commercial CO2 mineralization"
+        },
+        {
+          "@_fa": "true",
+          "$": "Concrete brick"
+        },
+        {
+          "@_fa": "true",
+          "$": "Eco-efficiency"
+        },
+        {
+          "@_fa": "true",
+          "$": "Microstructure"
+        }
+      ]
+    },
+    "subject-areas": {
+      "subject-area": [
+        {
+          "@_fa": "true",
+          "$": "Civil and Structural Engineering",
+          "@code": "2205",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Building and Construction",
+          "@code": "2215",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Materials Science (all)",
+          "@code": "2500",
+          "@abbrev": "MATE"
+        }
+      ]
+    },
+    "authors": {
+      "author": [
+        {
+          "ce:given-name": "Yeqing",
+          "preferred-name": {
+            "ce:given-name": "Yeqing",
+            "ce:initials": "Y.",
+            "ce:surname": "Li",
+            "ce:indexed-name": "Li Y."
+          },
+          "@seq": "1",
+          "ce:initials": "Y.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "60129468",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60129468"
+            },
+            {
+              "@id": "128387699",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/128387699"
+            }
+          ],
+          "ce:surname": "Li",
+          "@auid": "56457815200",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56457815200",
+          "ce:indexed-name": "Li Y."
+        },
+        {
+          "ce:given-name": "Jianping",
+          "preferred-name": {
+            "ce:given-name": "Jianping",
+            "ce:initials": "J.",
+            "ce:surname": "Tian",
+            "ce:indexed-name": "Tian J."
+          },
+          "@seq": "2",
+          "ce:initials": "J.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "60129468",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60129468"
+            },
+            {
+              "@id": "128387699",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/128387699"
+            }
+          ],
+          "ce:surname": "Tian",
+          "@auid": "13103680500",
+          "author-url": "https://api.elsevier.com/content/author/author_id/13103680500",
+          "ce:indexed-name": "Tian J."
+        },
+        {
+          "ce:given-name": "Yue",
+          "preferred-name": {
+            "ce:given-name": "Yue",
+            "ce:initials": "Y.",
+            "ce:surname": "Wang",
+            "ce:indexed-name": "Wang Y."
+          },
+          "@seq": "3",
+          "ce:initials": "Y.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60032356",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60032356"
+          },
+          "ce:surname": "Wang",
+          "@auid": "57200971233",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57200971233",
+          "ce:indexed-name": "Wang Y."
+        },
+        {
+          "ce:given-name": "Jianhui",
+          "preferred-name": {
+            "ce:given-name": "Jianhui",
+            "ce:initials": "J.",
+            "ce:surname": "Liu",
+            "ce:indexed-name": "Liu J."
+          },
+          "@seq": "4",
+          "ce:initials": "J.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60030270",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60030270"
+          },
+          "ce:surname": "Liu",
+          "@auid": "56825249600",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56825249600",
+          "ce:indexed-name": "Liu J."
+        },
+        {
+          "ce:given-name": "Xiang",
+          "preferred-name": {
+            "ce:given-name": "Xiang",
+            "ce:initials": "X.",
+            "ce:surname": "Hu",
+            "ce:indexed-name": "Hu X."
+          },
+          "@seq": "5",
+          "ce:initials": "X.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60032356",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60032356"
+          },
+          "ce:surname": "Hu",
+          "@auid": "55673998700",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55673998700",
+          "ce:indexed-name": "Hu X."
+        },
+        {
+          "ce:given-name": "Xujia",
+          "preferred-name": {
+            "ce:given-name": "Xujia",
+            "ce:initials": "X.",
+            "ce:surname": "You",
+            "ce:indexed-name": "You X."
+          },
+          "@seq": "6",
+          "ce:initials": "X.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60032356",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60032356"
+          },
+          "ce:surname": "You",
+          "@auid": "57306122400",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57306122400",
+          "ce:indexed-name": "You X."
+        },
+        {
+          "ce:given-name": "Yuguang",
+          "preferred-name": {
+            "ce:given-name": "Yuguang",
+            "ce:initials": "Y.",
+            "ce:surname": "Mao",
+            "ce:indexed-name": "Mao Y."
+          },
+          "@seq": "7",
+          "ce:initials": "Y.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60032356",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60032356"
+          },
+          "ce:surname": "Mao",
+          "@auid": "57216994041",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57216994041",
+          "ce:indexed-name": "Mao Y."
+        },
+        {
+          "ce:given-name": "Caijun",
+          "preferred-name": {
+            "ce:given-name": "Caijun",
+            "ce:initials": "C.",
+            "ce:surname": "Shi",
+            "ce:indexed-name": "Shi C."
+          },
+          "@seq": "8",
+          "ce:initials": "C.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60032356",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60032356"
+          },
+          "ce:surname": "Shi",
+          "@auid": "7402120890",
+          "author-url": "https://api.elsevier.com/content/author/author_id/7402120890",
+          "ce:indexed-name": "Shi C."
+        }
+      ]
+    }
+  }
+}

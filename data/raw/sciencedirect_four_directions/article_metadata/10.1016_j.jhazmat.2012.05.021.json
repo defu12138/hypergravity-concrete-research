@@ -1,0 +1,2442 @@
+{
+  "abstracts-retrieval-response": {
+    "item": {
+      "ait:process-info": {
+        "ait:status": {
+          "@state": "update",
+          "@type": "core",
+          "@stage": "S300"
+        },
+        "ait:date-delivered": {
+          "@day": "11",
+          "@timestamp": "2025-08-11T09:50:11.000011-04:00",
+          "@year": "2025",
+          "@month": "08"
+        },
+        "ait:date-sort": {
+          "@day": "15",
+          "@year": "2012",
+          "@month": "08"
+        }
+      },
+      "xocs:meta": {
+        "xocs:funding-list": {
+          "@pui-match": "primary",
+          "@has-funding-info": "1",
+          "xocs:funding": [
+            {
+              "xocs:funding-agency-matched-string": "National Science Council of Taiwan",
+              "xocs:funding-agency-acronym": "NSC",
+              "xocs:funding-agency": "National Science Council",
+              "xocs:funding-id": "NSC-101-3113-E-007-005",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001868",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1668284/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "National Science Council of Taiwan",
+              "xocs:funding-agency-acronym": "NSC",
+              "xocs:funding-agency": "National Science Council",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001868",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1668284/"
+            }
+          ],
+          "xocs:funding-addon-generated-timestamp": "2021-06-03T21:14:45.783Z",
+          "xocs:funding-text": "This study was support by National Science Council of Taiwan, R.O.C., under Grant No. NSC-101-3113-E-007-005. The China Steel Corporation and CHC Resources Corporation were highly appreciated by authors for providing the steelmaking slag in this investigation.",
+          "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }
+      },
+      "bibrecord": {
+        "head": {
+          "author-group": [
+            {
+              "affiliation": {
+                "city-group": "Taipei",
+                "country": "Taiwan",
+                "@afid": "60022095",
+                "@country": "twn",
+                "organization": [
+                  {
+                    "$": "Department of Biochemistry"
+                  },
+                  {
+                    "$": "Taipei Medical University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60022095",
+                  "@dptid": "104129174"
+                },
+                "@dptid": "104129174"
+              },
+              "author": [
+                {
+                  "preferred-name": {
+                    "ce:given-name": "E. E.",
+                    "ce:initials": "E.E.",
+                    "ce:surname": "Chang",
+                    "ce:indexed-name": "Chang E.E."
+                  },
+                  "@seq": "1",
+                  "ce:initials": "E.-E.",
+                  "@date-locked": "2018-10-22T08:42:28.794",
+                  "@_fa": "true",
+                  "ce:surname": "Chang",
+                  "@auid": "56948196100",
+                  "ce:indexed-name": "Chang E.-E."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "Taiwan",
+                "@afid": "60005429",
+                "@country": "twn",
+                "organization": [
+                  {
+                    "$": "Graduate Institute of Environmental Engineering"
+                  },
+                  {
+                    "$": "National Taiwan University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60005429",
+                  "@dptid": "103316173"
+                },
+                "@dptid": "103316173"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Shu-Yuan",
+                  "preferred-name": {
+                    "ce:given-name": "Shu Yuan",
+                    "ce:initials": "S.Y.",
+                    "ce:surname": "Pan",
+                    "ce:indexed-name": "Pan S.Y."
+                  },
+                  "@seq": "2",
+                  "ce:initials": "S.-Y.",
+                  "@_fa": "true",
+                  "ce:surname": "Pan",
+                  "@auid": "40361380800",
+                  "ce:indexed-name": "Pan S.-Y."
+                },
+                {
+                  "ce:given-name": "Pen-Chi",
+                  "preferred-name": {
+                    "ce:given-name": "Pen Chi",
+                    "ce:initials": "P.C.",
+                    "ce:surname": "Chiang",
+                    "ce:indexed-name": "Chiang P.C."
+                  },
+                  "@seq": "5",
+                  "ce:initials": "P.-C.",
+                  "@_fa": "true",
+                  "ce:surname": "Chiang",
+                  "@auid": "7102736555",
+                  "ce:indexed-name": "Chiang P.-C."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "Taiwan",
+                "@afid": "60012392",
+                "@country": "twn",
+                "organization": [
+                  {
+                    "$": "Department of Chemical Engineering and Biotechnology"
+                  },
+                  {
+                    "$": "National Taipei University of Technology"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60012392",
+                  "@dptid": "103655331"
+                },
+                "@dptid": "103655331"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Yi-Hung",
+                  "preferred-name": {
+                    "ce:given-name": "Yi Hung",
+                    "ce:initials": "Y.H.",
+                    "ce:surname": "Chen",
+                    "ce:indexed-name": "Chen Y.H."
+                  },
+                  "@seq": "3",
+                  "ce:initials": "Y.-H.",
+                  "@_fa": "true",
+                  "ce:surname": "Chen",
+                  "@auid": "56113704000",
+                  "ce:indexed-name": "Chen Y.-H."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "Taiwan",
+                "@afid": "60018029",
+                "@country": "twn",
+                "organization": [
+                  {
+                    "$": "Department of Chemical Engineering"
+                  },
+                  {
+                    "$": "National Tsing Hua University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60018029",
+                  "@dptid": "112441477"
+                },
+                "@dptid": "112441477"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Chung-Sung",
+                  "preferred-name": {
+                    "ce:given-name": "Chung Sung",
+                    "ce:initials": "C.S.",
+                    "ce:surname": "Tan",
+                    "ce:indexed-name": "Tan C.S."
+                  },
+                  "@seq": "4",
+                  "ce:initials": "C.-S.",
+                  "@_fa": "true",
+                  "ce:surname": "Tan",
+                  "@auid": "7402811392",
+                  "ce:indexed-name": "Tan C.-S."
+                }
+              ]
+            }
+          ],
+          "citation-title": "Accelerated carbonation of steelmaking slags in a high-gravity rotating packed bed",
+          "abstracts": "Carbon dioxide (CO 2) sequestration using the accelerated carbonation of basic oxygen furnace (BOF) slag in a high-gravity rotating packed bed (RPB) under various operational conditions was investigated. The effects of reaction time, reaction temperature, rotation speed and slurry flow rate on the CO 2 sequestration process were evaluated. The samples of reacted slurry were analyzed quantitatively using thermogravimetric analysis (TGA) and atomic absorption spectrometry (AAS) and qualitatively using X-ray diffraction (XRD), scanning electron microscopy with energy-dispersive X-ray spectroscopy (SEM-EDX), and transmission electron microscopy (TEM). The sequestration experiments were performed at a liquid-to-solid ratio of 20:1 with a flow rate of 2.5Lmin -1 of a pure CO 2 stream under atmospheric temperature and pressure. The results show that a maximum conversion of BOF slag was 93.5% at a reaction time of 30min and a rotation speed of 750rpm at 65°C. The experimental data were utilized to determine the rate-limiting mechanism based on the shrinking core model (SCM), which was validated by the observations of SEM and TEM. Accelerated carbonation in a RPB was confirmed to be a viable method due to its higher mass-transfer rate. © 2012 Elsevier B.V..",
+          "correspondence": {
+            "affiliation": {
+              "city-group": "Taipei",
+              "country": "Taiwan",
+              "address-part": "No. 71 Chou-shan Rd.",
+              "@country": "twn",
+              "organization": [
+                {
+                  "$": "Graduate Institute of Environmental Engineering"
+                },
+                {
+                  "$": "National Taiwan University"
+                }
+              ]
+            },
+            "person": {
+              "ce:initials": "P.-C.",
+              "ce:surname": "Chiang",
+              "ce:indexed-name": "Chiang P.-C."
+            }
+          },
+          "citation-info": {
+            "author-keywords": {
+              "author-keyword": [
+                {
+                  "$": "Alkaline solid wastes",
+                  "@xml:lang": "eng"
+                },
+                {
+                  "$": "Basic oxygen furnace slag",
+                  "@xml:lang": "eng"
+                },
+                {
+                  "$": "Calcium carbonate",
+                  "@xml:lang": "eng"
+                },
+                {
+                  "$": "CO2sequestration",
+                  "@xml:lang": "eng"
+                },
+                {
+                  "$": "Shrinking core model",
+                  "@xml:lang": "eng"
+                }
+              ]
+            },
+            "citation-type": {
+              "@code": "ar"
+            },
+            "citation-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "abstract-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            }
+          },
+          "source": {
+            "codencode": "JHMAD",
+            "sourcetitle-abbrev": "J. Hazard. Mater.",
+            "@country": "nld",
+            "issn": [
+              {
+                "$": "03043894",
+                "@type": "print"
+              },
+              {
+                "$": "18733336",
+                "@type": "electronic"
+              }
+            ],
+            "volisspag": {
+              "voliss": {
+                "@volume": "227-228"
+              },
+              "pagerange": {
+                "@first": "97",
+                "@last": "106"
+              }
+            },
+            "@type": "j",
+            "publicationyear": {
+              "@first": "2012"
+            },
+            "sourcetitle": "Journal of Hazardous Materials",
+            "@srcid": "25858",
+            "publicationdate": {
+              "month": "08",
+              "year": "2012",
+              "date-text": {
+                "@xfab-added": "true",
+                "$": "15 August 2012"
+              },
+              "day": "15"
+            }
+          },
+          "enhancement": {
+            "classificationgroup": {
+              "classifications": [
+                {
+                  "@type": "CABSCLASS",
+                  "classification": {
+                    "classification-code": "99",
+                    "classification-description": "General"
+                  }
+                },
+                {
+                  "@type": "CPXCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "951",
+                      "classification-description": "Materials Science"
+                    },
+                    {
+                      "classification-code": "801",
+                      "classification-description": "Chemistry"
+                    },
+                    {
+                      "classification-code": "802.1",
+                      "classification-description": "Chemical Plants and Equipment"
+                    },
+                    {
+                      "classification-code": "802.2",
+                      "classification-description": "Chemical Reactions"
+                    },
+                    {
+                      "classification-code": "804",
+                      "classification-description": "Chemical Products Generally"
+                    },
+                    {
+                      "classification-code": "804.2",
+                      "classification-description": "Inorganic Compounds"
+                    },
+                    {
+                      "classification-code": "931.3",
+                      "classification-description": "Atomic and Molecular Physics"
+                    },
+                    {
+                      "classification-code": "741.3",
+                      "classification-description": "Optical Devices and Systems"
+                    },
+                    {
+                      "classification-code": "631",
+                      "classification-description": "Fluid Flow"
+                    },
+                    {
+                      "classification-code": "545.3",
+                      "classification-description": "Steel"
+                    },
+                    {
+                      "classification-code": "413",
+                      "classification-description": "Insulating Materials"
+                    },
+                    {
+                      "classification-code": "412",
+                      "classification-description": "Concrete"
+                    },
+                    {
+                      "classification-code": "406",
+                      "classification-description": "Highway Engineering"
+                    },
+                    {
+                      "classification-code": "741.1",
+                      "classification-description": "Light and Optics"
+                    }
+                  ]
+                },
+                {
+                  "@type": "EMCLASS",
+                  "classification": {
+                    "classification-code": "46.2.5",
+                    "classification-description": "Environmental Health and Pollution Control; CHEMICAL POLLUTION; Environmental impact"
+                  }
+                },
+                {
+                  "@type": "GEOCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "Related Topics"
+                    },
+                    {
+                      "classification-code": "Related Topics"
+                    }
+                  ]
+                },
+                {
+                  "@type": "ASJC",
+                  "classification": [
+                    {
+                      "$": "2305"
+                    },
+                    {
+                      "$": "2304"
+                    },
+                    {
+                      "$": "2311"
+                    },
+                    {
+                      "$": "2310"
+                    },
+                    {
+                      "$": "2307"
+                    }
+                  ]
+                },
+                {
+                  "@type": "SUBJABBR",
+                  "classification": "ENVI"
+                }
+              ]
+            },
+            "chemicalgroup": {
+              "chemicals": [
+                {
+                  "@source": "esbd",
+                  "chemical": [
+                    {
+                      "cas-registry-number": [
+                        {
+                          "$": "124-38-9"
+                        },
+                        {
+                          "$": "58561-67-4"
+                        }
+                      ],
+                      "chemical-name": "carbon dioxide"
+                    },
+                    {
+                      "cas-registry-number": "12597-69-2",
+                      "chemical-name": "steel"
+                    }
+                  ]
+                },
+                {
+                  "@source": "nlm",
+                  "chemical": [
+                    {
+                      "cas-registry-number": "124-38-9",
+                      "chemical-name": "Carbon Dioxide"
+                    },
+                    {
+                      "cas-registry-number": "0",
+                      "chemical-name": "Carbonates"
+                    },
+                    {
+                      "cas-registry-number": "0",
+                      "chemical-name": "Industrial Waste"
+                    },
+                    {
+                      "cas-registry-number": "12597-69-2",
+                      "chemical-name": "Steel"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "item-info": {
+          "copyright": [
+            {
+              "$": "Copyright 2012 Elsevier B.V., All rights reserved.",
+              "@type": "Elsevier"
+            },
+            {
+              "$": "MEDLINE® is the source for the MeSH terms of this document.",
+              "@type": "Medline Descriptors"
+            }
+          ],
+          "dbcollection": [
+            {
+              "$": "EMBASE"
+            },
+            {
+              "$": "CABS"
+            },
+            {
+              "$": "GEO"
+            },
+            {
+              "$": "FLX"
+            },
+            {
+              "$": "CPX"
+            },
+            {
+              "$": "CHEM"
+            },
+            {
+              "$": "EMBIO"
+            },
+            {
+              "$": "MEDL"
+            },
+            {
+              "$": "SCOPUS"
+            },
+            {
+              "$": "Scopusbase"
+            }
+          ],
+          "history": {
+            "date-created": {
+              "@day": "25",
+              "@year": "2012",
+              "@month": "05"
+            }
+          },
+          "itemidlist": {
+            "itemid": [
+              {
+                "$": "52029475",
+                "@idtype": "PUI"
+              },
+              {
+                "$": "2012359407",
+                "@idtype": "EMBASE"
+              },
+              {
+                "$": "2012193570",
+                "@idtype": "CABS"
+              },
+              {
+                "$": "3850034",
+                "@idtype": "GEO"
+              },
+              {
+                "$": "904790",
+                "@idtype": "FLX"
+              },
+              {
+                "$": "20122615180193",
+                "@idtype": "CPX"
+              },
+              {
+                "$": "2012103389",
+                "@idtype": "CHEM"
+              },
+              {
+                "$": "2012231494",
+                "@idtype": "EMBIO"
+              },
+              {
+                "$": "22633879",
+                "@idtype": "MEDL"
+              },
+              {
+                "$": "84862644936",
+                "@idtype": "SCP"
+              },
+              {
+                "$": "84862644936",
+                "@idtype": "SGR"
+              }
+            ],
+            "ce:pii": "S0304389412005031",
+            "ce:doi": "10.1016/j.jhazmat.2012.05.021"
+          }
+        },
+        "tail": {
+          "bibliography": {
+            "@refcount": "28",
+            "reference": [
+              {
+                "ref-fulltext": "Lackner K.S. A guide to CO2sequestration. Science 2003, 300:1677-1678.",
+                "@id": "1",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2003"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A guide to CO2sequestration"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "0037504154",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "300"
+                    },
+                    "pagerange": {
+                      "@first": "1677",
+                      "@last": "1678"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Lackner",
+                        "ce:indexed-name": "Lackner K.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Science"
+                }
+              },
+              {
+                "ref-fulltext": "Eloneva S., Teir S., Salminen J., Fogelholm C.J., Zevenhoven R. Fixation of CO2by carbonating calcium derived from blast furnace slag. Energy 2008, 33:1461-1467.",
+                "@id": "2",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2008"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Fixation of CO2by carbonating calcium derived from blast furnace slag"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "48949115125",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "33"
+                    },
+                    "pagerange": {
+                      "@first": "1461",
+                      "@last": "1467"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Eloneva",
+                        "ce:indexed-name": "Eloneva S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Teir",
+                        "ce:indexed-name": "Teir S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Salminen",
+                        "ce:indexed-name": "Salminen J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "C.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Fogelholm",
+                        "ce:indexed-name": "Fogelholm C.J."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Zevenhoven",
+                        "ce:indexed-name": "Zevenhoven R."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Energy"
+                }
+              },
+              {
+                "ref-fulltext": "Fernandez-Bertos M., Simons S.J., Hills C.D., Carey P.J. A review of accelerated carbonation technology in the treatment of cement-based materials and sequestration of CO2. J. Hazard. Mater. 2004, 112:193-205.",
+                "@id": "3",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2004"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A review of accelerated carbonation technology in the treatment of cement-based materials and sequestration of CO2"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "4043150689",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "112"
+                    },
+                    "pagerange": {
+                      "@first": "193",
+                      "@last": "205"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Fernandez-Bertos",
+                        "ce:indexed-name": "Fernandez-Bertos M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Simons",
+                        "ce:indexed-name": "Simons S.J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Hills",
+                        "ce:indexed-name": "Hills C.D."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "P.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Carey",
+                        "ce:indexed-name": "Carey P.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Hazard. Mater."
+                }
+              },
+              {
+                "ref-fulltext": "Chen Y.H., Chang C.Y., Su W.L., Chen C.C., Chiu C.Y., Yu Y.H., Chiang P.C., Chiang S.I.M. Modeling ozone contacting process in a rotating packed bed. Ind. Eng. Chem. Res. 2004, 43:228-236.",
+                "@id": "4",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2004"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Modeling ozone contacting process in a rotating packed bed"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "0347362551",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "43"
+                    },
+                    "pagerange": {
+                      "@first": "228",
+                      "@last": "236"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen Y.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Chang",
+                        "ce:indexed-name": "Chang C.Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "W.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Su",
+                        "ce:indexed-name": "Su W.L."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "C.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen C.C."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "C.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Chiu",
+                        "ce:indexed-name": "Chiu C.Y."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "Y.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu Y.H."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "P.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Chiang",
+                        "ce:indexed-name": "Chiang P.C."
+                      },
+                      {
+                        "@seq": "8",
+                        "ce:initials": "S.I.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Chiang",
+                        "ce:indexed-name": "Chiang S.I.M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Ind. Eng. Chem. Res."
+                }
+              },
+              {
+                "ref-fulltext": "Tan C., Chen J. Absorption of carbon dioxide with piperazine and its mixtures in a rotating packed bed. Sep. Purif. Technol. 2006, 49:174-180.",
+                "@id": "5",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2006"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Absorption of carbon dioxide with piperazine and its mixtures in a rotating packed bed"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "33645223292",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "49"
+                    },
+                    "pagerange": {
+                      "@first": "174",
+                      "@last": "180"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Tan",
+                        "ce:indexed-name": "Tan C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Sep. Purif. Technol."
+                }
+              },
+              {
+                "ref-fulltext": "Cheng H.-H., Tan C.-S. Removal of CO2from indoor air by alkanolamine in a rotating packed bed. Sep. Purif. Technol. 2011, 82:156-166.",
+                "@id": "6",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Removal of CO2from indoor air by alkanolamine in a rotating packed bed"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "80054004340",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "82"
+                    },
+                    "pagerange": {
+                      "@first": "156",
+                      "@last": "166"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.-H.",
+                        "@_fa": "true",
+                        "ce:surname": "Cheng",
+                        "ce:indexed-name": "Cheng H.-H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.-S.",
+                        "@_fa": "true",
+                        "ce:surname": "Tan",
+                        "ce:indexed-name": "Tan C.-S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Sep. Purif. Technol."
+                }
+              },
+              {
+                "ref-fulltext": "Chen Y.H., Huang Y.H., Lin R.H., Shang N.C. A continuous-flow biodiesel production process using a rotating packed bed. Bioresour. Technol. 2010, 101:668-673.",
+                "@id": "7",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A continuous-flow biodiesel production process using a rotating packed bed"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "70349411503",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "101"
+                    },
+                    "pagerange": {
+                      "@first": "668",
+                      "@last": "673"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen Y.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang Y.H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "R.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Lin",
+                        "ce:indexed-name": "Lin R.H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "N.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Shang",
+                        "ce:indexed-name": "Shang N.C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Bioresour. Technol."
+                }
+              },
+              {
+                "ref-fulltext": "Lin C.C., Liu W.T., Tan C.S. Removal of carbon dioxide by absorption in a rotating packed bed. Ind. Eng. Chem. Res. 2003, 42:2381-2386.",
+                "@id": "8",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2003"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Removal of carbon dioxide by absorption in a rotating packed bed"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "0037840850",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "42"
+                    },
+                    "pagerange": {
+                      "@first": "2381",
+                      "@last": "2386"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Lin",
+                        "ce:indexed-name": "Lin C.C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu W.T."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Tan",
+                        "ce:indexed-name": "Tan C.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Ind. Eng. Chem. Res."
+                }
+              },
+              {
+                "ref-fulltext": "Marsh B.K., Day R.L. Pozzolanic and cementious reactions of fly ash in blended cement pastes. Cem. Concr. Res. 1988, 18:301-310.",
+                "@id": "9",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1988"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Pozzolanic and cementious reactions of fly ash in blended cement pastes"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "0023983018",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "18"
+                    },
+                    "pagerange": {
+                      "@first": "301",
+                      "@last": "310"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Marsh",
+                        "ce:indexed-name": "Marsh B.K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Day",
+                        "ce:indexed-name": "Day R.L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                }
+              },
+              {
+                "ref-fulltext": "Huijgen W.J.J., Comans R.N.J. Carbonation of steel slag for CO2sequestration: leaching of products and reaction mechanisms. Environ. Sci. Technol. 2006, 40:2790-2796.",
+                "@id": "10",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2006"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Carbonation of steel slag for CO2sequestration: leaching of products and reaction mechanisms"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "33646049738",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "40"
+                    },
+                    "pagerange": {
+                      "@first": "2790",
+                      "@last": "2796"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.J.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Huijgen",
+                        "ce:indexed-name": "Huijgen W.J.J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.N.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Comans",
+                        "ce:indexed-name": "Comans R.N.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Environ. Sci. Technol."
+                }
+              },
+              {
+                "ref-fulltext": "Teir S. Fixation of Carbon Dioxide by Producing Carbonates from Minerals and Steelmaking Slags 2008, Department of Energy Technology, Helsinki University of Technology.",
+                "@id": "11",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2008"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "67650203133",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-text": "Department of Energy Technology, Helsinki University of Technology",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Teir",
+                        "ce:indexed-name": "Teir S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Fixation of Carbon Dioxide by Producing Carbonates from Minerals and Steelmaking Slags"
+                }
+              },
+              {
+                "ref-fulltext": "Park A.H.A., Jadhav R., Fan L.S. CO2mineral sequestration: chemically enhanced aqueous carbonation of serpentine. Can. J. Chem. Eng. 2003, 81:885-890.",
+                "@id": "12",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2003"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "CO2mineral sequestration: chemically enhanced aqueous carbonation of serpentine"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "2542468994",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "81"
+                    },
+                    "pagerange": {
+                      "@first": "885",
+                      "@last": "890"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.H.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Park",
+                        "ce:indexed-name": "Park A.H.A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Jadhav",
+                        "ce:indexed-name": "Jadhav R."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "L.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Fan",
+                        "ce:indexed-name": "Fan L.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Can. J. Chem. Eng."
+                }
+              },
+              {
+                "ref-fulltext": "Chang E.E., Chen C.H., Chen Y.H., Pan S.Y., Chiang P.C. Performance evaluation for carbonation of steel-making slags in a slurry reactor. J. Hazard. Mater. 2011, 186:558-564.",
+                "@id": "13",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Performance evaluation for carbonation of steel-making slags in a slurry reactor"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "79551564006",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "186"
+                    },
+                    "pagerange": {
+                      "@first": "558",
+                      "@last": "564"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "E.E.",
+                        "@_fa": "true",
+                        "ce:surname": "Chang",
+                        "ce:indexed-name": "Chang E.E."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen C.H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen Y.H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "S.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Pan",
+                        "ce:indexed-name": "Pan S.Y."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "P.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Chiang",
+                        "ce:indexed-name": "Chiang P.C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Hazard. Mater."
+                }
+              },
+              {
+                "ref-fulltext": "Nyambura M.G., Mugera G.W., Felicia P.L., Gathura N.P. Carbonation of brine impacted fractionated coal fly ash: implications for CO2sequestration. J. Environ. Manage. 2011, 92:655-664.",
+                "@id": "14",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Carbonation of brine impacted fractionated coal fly ash: implications for CO2sequestration"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "78650524187",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "92"
+                    },
+                    "pagerange": {
+                      "@first": "655",
+                      "@last": "664"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Nyambura",
+                        "ce:indexed-name": "Nyambura M.G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Mugera",
+                        "ce:indexed-name": "Mugera G.W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "P.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Felicia",
+                        "ce:indexed-name": "Felicia P.L."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "N.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Gathura",
+                        "ce:indexed-name": "Gathura N.P."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Environ. Manage."
+                }
+              },
+              {
+                "ref-fulltext": "Santos A., Ajbary M., Morales-Florez V., Kherbeche A., Pinero M., Esquivias L. Larnite powders and larnite/silica aerogel composites as effective agents for CO2sequestration by carbonation. J. Hazard. Mater. 2009, 168:1397-1403.",
+                "@id": "15",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Larnite powders and larnite/silica aerogel composites as effective agents for CO2sequestration by carbonation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "67649760673",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "168"
+                    },
+                    "pagerange": {
+                      "@first": "1397",
+                      "@last": "1403"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Santos",
+                        "ce:indexed-name": "Santos A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Ajbary",
+                        "ce:indexed-name": "Ajbary M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "V.",
+                        "@_fa": "true",
+                        "ce:surname": "Morales-Florez",
+                        "ce:indexed-name": "Morales-Florez V."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Kherbeche",
+                        "ce:indexed-name": "Kherbeche A."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Pinero",
+                        "ce:indexed-name": "Pinero M."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Esquivias",
+                        "ce:indexed-name": "Esquivias L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Hazard. Mater."
+                }
+              },
+              {
+                "ref-fulltext": "Baciocchi R., Costa G., Polettini A., Pomi R., Prigiobbe V. Comparison of different reaction routes for carbonation of APC residues. Energy Procedia 2009, 1:4851-4858.",
+                "@id": "16",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Comparison of different reaction routes for carbonation of APC residues"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "78650749487",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "1"
+                    },
+                    "pagerange": {
+                      "@first": "4851",
+                      "@last": "4858"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Baciocchi",
+                        "ce:indexed-name": "Baciocchi R."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Costa",
+                        "ce:indexed-name": "Costa G."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Polettini",
+                        "ce:indexed-name": "Polettini A."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Pomi",
+                        "ce:indexed-name": "Pomi R."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "V.",
+                        "@_fa": "true",
+                        "ce:surname": "Prigiobbe",
+                        "ce:indexed-name": "Prigiobbe V."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Energy Procedia"
+                }
+              },
+              {
+                "ref-fulltext": "Uibu M., Uus M., Kuusik R. CO2mineral sequestration in oil-shale wastes from Estonian power production. J. Environ. Manage. 2009, 90:1253-1260.",
+                "@id": "17",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "CO2mineral sequestration in oil-shale wastes from Estonian power production"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "56549105670",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "90"
+                    },
+                    "pagerange": {
+                      "@first": "1253",
+                      "@last": "1260"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Uibu",
+                        "ce:indexed-name": "Uibu M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Uus",
+                        "ce:indexed-name": "Uus M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Kuusik",
+                        "ce:indexed-name": "Kuusik R."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Environ. Manage."
+                }
+              },
+              {
+                "ref-fulltext": "Lekakh S.N., Rawlins C.H., Robertson D.G.C., Richards V.L., Peaslee K.D. Kinetics of aqueous leaching and carbonization of steelmaking slag. Metal. Mater. Trans. B 2008, 39:125-134.",
+                "@id": "18",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2008"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Kinetics of aqueous leaching and carbonization of steelmaking slag"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "40349096770",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "39"
+                    },
+                    "pagerange": {
+                      "@first": "125",
+                      "@last": "134"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Lekakh",
+                        "ce:indexed-name": "Lekakh S.N."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Rawlins",
+                        "ce:indexed-name": "Rawlins C.H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.G.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Robertson",
+                        "ce:indexed-name": "Robertson D.G.C."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "V.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Richards",
+                        "ce:indexed-name": "Richards V.L."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "K.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Peaslee",
+                        "ce:indexed-name": "Peaslee K.D."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Metal. Mater. Trans. B"
+                }
+              },
+              {
+                "ref-fulltext": "Chang E.E., Pan S.Y., Chen Y., Chu H.H.W., Wang C.F., Chiang P.C. CO2sequestration by carbonation of steelmaking slags in an autoclave reactor. J. Hazard. Mater. 2011, 195:107-114.",
+                "@id": "19",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "CO2sequestration by carbonation of steelmaking slags in an autoclave reactor"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "80054114972",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "195"
+                    },
+                    "pagerange": {
+                      "@first": "107",
+                      "@last": "114"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "E.E.",
+                        "@_fa": "true",
+                        "ce:surname": "Chang",
+                        "ce:indexed-name": "Chang E.E."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Pan",
+                        "ce:indexed-name": "Pan S.Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "H.H.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Chu",
+                        "ce:indexed-name": "Chu H.H.W."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "C.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang C.F."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "P.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Chiang",
+                        "ce:indexed-name": "Chiang P.C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Hazard. Mater."
+                }
+              },
+              {
+                "ref-fulltext": "Pan S.Y. Carbonation of Steelmaking Slag in a High-gravity Rotating Packed Bed 2011, Graduate Institute of Environmental Engineering, National Taiwan University, Taipei, pp. 224.",
+                "@id": "20",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84862670222",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "224"
+                    }
+                  },
+                  "ref-text": "Graduate Institute of Environmental Engineering, National Taiwan University, Taipei.",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Pan",
+                        "ce:indexed-name": "Pan S.Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Carbonation of Steelmaking Slag in a High-gravity Rotating Packed Bed"
+                }
+              },
+              {
+                "ref-fulltext": "Steinour H.H. Some effects of carbon dioxide on mortars and concrete - discussion. J. Am. Concr. Inst. 1959, 30:905-907.",
+                "@id": "21",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1959"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Some effects of carbon dioxide on mortars and concrete - discussion"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "0038519344",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "30"
+                    },
+                    "pagerange": {
+                      "@first": "905",
+                      "@last": "907"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Steinour",
+                        "ce:indexed-name": "Steinour H.H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Am. Concr. Inst."
+                }
+              },
+              {
+                "ref-fulltext": "Qiang W., Peiyu Y. Hydration properties of basic oxygen furnace steel slag. Constr. Build. Mater. 2010, 24:1134-1140.",
+                "@id": "22",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Hydration properties of basic oxygen furnace steel slag"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "77950340719",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "24"
+                    },
+                    "pagerange": {
+                      "@first": "1134",
+                      "@last": "1140"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Qiang",
+                        "ce:indexed-name": "Qiang W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Peiyu",
+                        "ce:indexed-name": "Peiyu Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                }
+              },
+              {
+                "ref-fulltext": "Zhao H., Shao L., Chen J.-F. High-gravity process intensification technology and application. Chem. Eng. J. 2010, 156:588-593.",
+                "@id": "23",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "High-gravity process intensification technology and application"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "74149087071",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "156"
+                    },
+                    "pagerange": {
+                      "@first": "588",
+                      "@last": "593"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Shao",
+                        "ce:indexed-name": "Shao L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.-F.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen J.-F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Chem. Eng. J."
+                }
+              },
+              {
+                "ref-fulltext": "Chemical Reaction Engineering 1999, John Wiley and Sons. third edition. O. Levenspiel (Ed.).",
+                "@id": "24",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1999"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "0003570376",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-text": "John Wiley and Sons, O. Levenspiel (Ed.)",
+                  "ref-sourcetitle": "Chemical Reaction Engineering"
+                }
+              },
+              {
+                "ref-fulltext": "Sohn H.Y., Szekely J. Reactions between solids through gaseous intermediates - I. Reactions controlled by chemical kinetics. Chem. Eng. Sci. 1973, 28:1789-1801.",
+                "@id": "25",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1973"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Reactions between solids through gaseous intermediates - I. Reactions controlled by chemical kinetics"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "0015671661",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "28"
+                    },
+                    "pagerange": {
+                      "@first": "1789",
+                      "@last": "1801"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Sohn",
+                        "ce:indexed-name": "Sohn H.Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Szekely",
+                        "ce:indexed-name": "Szekely J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Chem. Eng. Sci."
+                }
+              },
+              {
+                "ref-fulltext": "Sohn H.Y. The effects of reactant starvation and mass transfer in the rate measurement of fluid-solid reactions with small equilibrium constants. Chem. Eng. Sci. 2004, 59:4361-4368.",
+                "@id": "26",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2004"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The effects of reactant starvation and mass transfer in the rate measurement of fluid-solid reactions with small equilibrium constants"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "4644266698",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "59"
+                    },
+                    "pagerange": {
+                      "@first": "4361",
+                      "@last": "4368"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Sohn",
+                        "ce:indexed-name": "Sohn H.Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Chem. Eng. Sci."
+                }
+              },
+              {
+                "ref-fulltext": "Huntzinger D.N., Gierke J.S., Kawatra S.K., Eisele T.C., Sutter L.L. Carbon dioxide sequestration in cement kiln dust through mineral carbonation. Environ. Sci. Technol. 2009, 43:1986-1992.",
+                "@id": "27",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Carbon dioxide sequestration in cement kiln dust through mineral carbonation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "64549083173",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "43"
+                    },
+                    "pagerange": {
+                      "@first": "1986",
+                      "@last": "1992"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Huntzinger",
+                        "ce:indexed-name": "Huntzinger D.N."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Gierke",
+                        "ce:indexed-name": "Gierke J.S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Kawatra",
+                        "ce:indexed-name": "Kawatra S.K."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "T.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Eisele",
+                        "ce:indexed-name": "Eisele T.C."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "L.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Sutter",
+                        "ce:indexed-name": "Sutter L.L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Environ. Sci. Technol."
+                }
+              },
+              {
+                "ref-fulltext": "Montes-Hernandez G., Perez-Lopez R., Renard F., Nieto J.M., Charlet L. Mineral sequestration of CO2by aqueous carbonation of coal combustion fly-ash. J. Hazard. Mater. 2009, 161:1347-1354.",
+                "@id": "28",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Mineral sequestration of CO2by aqueous carbonation of coal combustion fly-ash"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "56249127485",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "161"
+                    },
+                    "pagerange": {
+                      "@first": "1347",
+                      "@last": "1354"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Montes-Hernandez",
+                        "ce:indexed-name": "Montes-Hernandez G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Perez-Lopez",
+                        "ce:indexed-name": "Perez-Lopez R."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Renard",
+                        "ce:indexed-name": "Renard F."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Nieto",
+                        "ce:indexed-name": "Nieto J.M."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Charlet",
+                        "ce:indexed-name": "Charlet L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Hazard. Mater."
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "affiliation": [
+      {
+        "affiliation-city": "Taipei",
+        "@id": "60005429",
+        "affilname": "National Taiwan University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60005429",
+        "affiliation-country": "Taiwan"
+      },
+      {
+        "affiliation-city": "Hsinchu",
+        "@id": "60018029",
+        "affilname": "National Tsing Hua University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60018029",
+        "affiliation-country": "Taiwan"
+      },
+      {
+        "affiliation-city": "Taipei",
+        "@id": "60022095",
+        "affilname": "Taipei Medical University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60022095",
+        "affiliation-country": "Taiwan"
+      },
+      {
+        "affiliation-city": "Taipei",
+        "@id": "60012392",
+        "affilname": "National Taipei University of Technology",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012392",
+        "affiliation-country": "Taiwan"
+      }
+    ],
+    "coredata": {
+      "srctype": "j",
+      "eid": "2-s2.0-84862644936",
+      "dc:description": "Carbon dioxide (CO 2) sequestration using the accelerated carbonation of basic oxygen furnace (BOF) slag in a high-gravity rotating packed bed (RPB) under various operational conditions was investigated. The effects of reaction time, reaction temperature, rotation speed and slurry flow rate on the CO 2 sequestration process were evaluated. The samples of reacted slurry were analyzed quantitatively using thermogravimetric analysis (TGA) and atomic absorption spectrometry (AAS) and qualitatively using X-ray diffraction (XRD), scanning electron microscopy with energy-dispersive X-ray spectroscopy (SEM-EDX), and transmission electron microscopy (TEM). The sequestration experiments were performed at a liquid-to-solid ratio of 20:1 with a flow rate of 2.5Lmin -1 of a pure CO 2 stream under atmospheric temperature and pressure. The results show that a maximum conversion of BOF slag was 93.5% at a reaction time of 30min and a rotation speed of 750rpm at 65°C. The experimental data were utilized to determine the rate-limiting mechanism based on the shrinking core model (SCM), which was validated by the observations of SEM and TEM. Accelerated carbonation in a RPB was confirmed to be a viable method due to its higher mass-transfer rate. © 2012 Elsevier B.V..",
+      "pubmed-id": "22633879",
+      "prism:coverDate": "2012-08-15",
+      "prism:aggregationType": "Journal",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/84862644936",
+      "dc:creator": {
+        "author": [
+          {
+            "preferred-name": {
+              "ce:given-name": "E. E.",
+              "ce:initials": "E.E.",
+              "ce:surname": "Chang",
+              "ce:indexed-name": "Chang E.E."
+            },
+            "@seq": "1",
+            "ce:initials": "E.-E.",
+            "@_fa": "true",
+            "affiliation": {
+              "@id": "60022095",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60022095"
+            },
+            "ce:surname": "Chang",
+            "@auid": "56948196100",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56948196100",
+            "ce:indexed-name": "Chang E.-E."
+          }
+        ]
+      },
+      "link": [
+        {
+          "@_fa": "true",
+          "@rel": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84862644936"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84862644936&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84862644936&origin=inward"
+        }
+      ],
+      "source-id": "25858",
+      "pii": "S0304389412005031",
+      "citedby-count": "250",
+      "prism:volume": "227-228",
+      "subtype": "ar",
+      "dc:title": "Accelerated carbonation of steelmaking slags in a high-gravity rotating packed bed",
+      "openaccess": null,
+      "prism:issn": "03043894 18733336",
+      "subtypeDescription": "Article",
+      "prism:publicationName": "Journal of Hazardous Materials",
+      "prism:pageRange": "97-106",
+      "prism:endingPage": "106",
+      "openaccessFlag": null,
+      "prism:doi": "10.1016/j.jhazmat.2012.05.021",
+      "prism:startingPage": "97",
+      "dc:identifier": "SCOPUS_ID:84862644936"
+    },
+    "idxterms": {
+      "mainterm": [
+        {
+          "$": "Accelerated carbonation",
+          "@weight": "a",
+          "@candidate": "n"
+        },
+        {
+          "$": "Basic oxygen furnace slag",
+          "@weight": "a",
+          "@candidate": "n"
+        },
+        {
+          "$": "BOF slags",
+          "@weight": "a",
+          "@candidate": "n"
+        },
+        {
+          "$": "Energy dispersive x-ray spectroscopy",
+          "@weight": "a",
+          "@candidate": "n"
+        },
+        {
+          "$": "Experimental data",
+          "@weight": "a",
+          "@candidate": "n"
+        },
+        {
+          "$": "High-gravity",
+          "@weight": "a",
+          "@candidate": "n"
+        },
+        {
+          "$": "Mass transfer rate",
+          "@weight": "a",
+          "@candidate": "n"
+        },
+        {
+          "$": "Operational conditions",
+          "@weight": "a",
+          "@candidate": "n"
+        },
+        {
+          "$": "Rate limiting",
+          "@weight": "a",
+          "@candidate": "n"
+        },
+        {
+          "$": "Reaction temperature",
+          "@weight": "a",
+          "@candidate": "n"
+        },
+        {
+          "$": "Rotating packed bed",
+          "@weight": "a",
+          "@candidate": "n"
+        },
+        {
+          "$": "Rotation speed",
+          "@weight": "a",
+          "@candidate": "n"
+        },
+        {
+          "$": "SEM and TEM",
+          "@weight": "a",
+          "@candidate": "n"
+        },
+        {
+          "$": "SEM-EDX",
+          "@weight": "a",
+          "@candidate": "n"
+        },
+        {
+          "$": "Sequestration process",
+          "@weight": "a",
+          "@candidate": "n"
+        },
+        {
+          "$": "Shrinking core model",
+          "@weight": "a",
+          "@candidate": "n"
+        },
+        {
+          "$": "Slurry flow rates",
+          "@weight": "a",
+          "@candidate": "n"
+        },
+        {
+          "$": "Transmission electron microscopy tem",
+          "@weight": "a",
+          "@candidate": "n"
+        }
+      ]
+    },
+    "language": {
+      "@xml:lang": "eng"
+    },
+    "authkeywords": {
+      "author-keyword": [
+        {
+          "@_fa": "true",
+          "$": "Alkaline solid wastes"
+        },
+        {
+          "@_fa": "true",
+          "$": "Basic oxygen furnace slag"
+        },
+        {
+          "@_fa": "true",
+          "$": "Calcium carbonate"
+        },
+        {
+          "@_fa": "true",
+          "$": "CO 2 sequestration"
+        },
+        {
+          "@_fa": "true",
+          "$": "Shrinking core model"
+        }
+      ]
+    },
+    "subject-areas": {
+      "subject-area": [
+        {
+          "@_fa": "true",
+          "$": "Environmental Engineering",
+          "@code": "2305",
+          "@abbrev": "ENVI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Environmental Chemistry",
+          "@code": "2304",
+          "@abbrev": "ENVI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Waste Management and Disposal",
+          "@code": "2311",
+          "@abbrev": "ENVI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Pollution",
+          "@code": "2310",
+          "@abbrev": "ENVI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Health, Toxicology and Mutagenesis",
+          "@code": "2307",
+          "@abbrev": "ENVI"
+        }
+      ]
+    },
+    "authors": {
+      "author": [
+        {
+          "preferred-name": {
+            "ce:given-name": "E. E.",
+            "ce:initials": "E.E.",
+            "ce:surname": "Chang",
+            "ce:indexed-name": "Chang E.E."
+          },
+          "@seq": "1",
+          "ce:initials": "E.-E.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60022095",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60022095"
+          },
+          "ce:surname": "Chang",
+          "@auid": "56948196100",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56948196100",
+          "ce:indexed-name": "Chang E.-E."
+        },
+        {
+          "ce:given-name": "Shu-Yuan",
+          "preferred-name": {
+            "ce:given-name": "Shu Yuan",
+            "ce:initials": "S.Y.",
+            "ce:surname": "Pan",
+            "ce:indexed-name": "Pan S.Y."
+          },
+          "@seq": "2",
+          "ce:initials": "S.-Y.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60005429",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60005429"
+          },
+          "ce:surname": "Pan",
+          "@auid": "40361380800",
+          "author-url": "https://api.elsevier.com/content/author/author_id/40361380800",
+          "ce:indexed-name": "Pan S.-Y."
+        },
+        {
+          "ce:given-name": "Yi-Hung",
+          "preferred-name": {
+            "ce:given-name": "Yi Hung",
+            "ce:initials": "Y.H.",
+            "ce:surname": "Chen",
+            "ce:indexed-name": "Chen Y.H."
+          },
+          "@seq": "3",
+          "ce:initials": "Y.-H.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60012392",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012392"
+          },
+          "ce:surname": "Chen",
+          "@auid": "56113704000",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56113704000",
+          "ce:indexed-name": "Chen Y.-H."
+        },
+        {
+          "ce:given-name": "Chung-Sung",
+          "preferred-name": {
+            "ce:given-name": "Chung Sung",
+            "ce:initials": "C.S.",
+            "ce:surname": "Tan",
+            "ce:indexed-name": "Tan C.S."
+          },
+          "@seq": "4",
+          "ce:initials": "C.-S.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60018029",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60018029"
+          },
+          "ce:surname": "Tan",
+          "@auid": "7402811392",
+          "author-url": "https://api.elsevier.com/content/author/author_id/7402811392",
+          "ce:indexed-name": "Tan C.-S."
+        },
+        {
+          "ce:given-name": "Pen-Chi",
+          "preferred-name": {
+            "ce:given-name": "Pen Chi",
+            "ce:initials": "P.C.",
+            "ce:surname": "Chiang",
+            "ce:indexed-name": "Chiang P.C."
+          },
+          "@seq": "5",
+          "ce:initials": "P.-C.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60005429",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60005429"
+          },
+          "ce:surname": "Chiang",
+          "@auid": "7102736555",
+          "author-url": "https://api.elsevier.com/content/author/author_id/7102736555",
+          "ce:indexed-name": "Chiang P.-C."
+        }
+      ]
+    }
+  }
+}

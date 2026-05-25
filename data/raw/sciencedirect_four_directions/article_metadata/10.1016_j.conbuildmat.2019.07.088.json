@@ -1,0 +1,3040 @@
+{
+  "abstracts-retrieval-response": {
+    "item": {
+      "ait:process-info": {
+        "ait:status": {
+          "@state": "update",
+          "@type": "core",
+          "@stage": "S300"
+        },
+        "ait:date-delivered": {
+          "@day": "16",
+          "@year": "2020",
+          "@timestamp": "2020-12-16T14:30:53.000053-05:00",
+          "@month": "12"
+        },
+        "ait:date-sort": {
+          "@day": "20",
+          "@year": "2019",
+          "@month": "11"
+        }
+      },
+      "xocs:meta": {
+        "xocs:funding-list": {
+          "@pui-match": "primary",
+          "@has-funding-info": "1",
+          "xocs:funding": [
+            {
+              "xocs:funding-agency-matched-string": "111 Project of International Corporation on Advanced Cement-based Materials",
+              "xocs:funding-id": "D17001"
+            },
+            {
+              "xocs:funding-agency-matched-string": "National Natural Science Foundation of China",
+              "xocs:funding-agency-acronym": "NSFC",
+              "xocs:funding-agency": "National Natural Science Foundation of China",
+              "xocs:funding-id": [
+                {
+                  "$": "51702121"
+                },
+                {
+                  "$": "51872120"
+                },
+                {
+                  "$": "61872419"
+                }
+              ],
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "National High-tech Research and Development Program of China",
+              "xocs:funding-agency": "National High-tech Research and Development Program",
+              "xocs:funding-id": [
+                {
+                  "$": "2015AA034701"
+                },
+                {
+                  "$": "863program"
+                }
+              ],
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100012164",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "National Key Research and Development Program of China",
+              "xocs:funding-agency": "National Basic Research Program of China (973 Program)",
+              "xocs:funding-id": [
+                {
+                  "$": "2017YFB0309905"
+                },
+                {
+                  "$": "2017YFE0120900"
+                }
+              ],
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100012166",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Shandong Province Science and Technology Major Project",
+              "xocs:funding-agency": "Major Science and Technology Project of Hainan Province",
+              "xocs:funding-id": "2015ZDXX0702B01",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100013072",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            }
+          ],
+          "xocs:funding-addon-generated-timestamp": "2021-02-04T18:43:26.761534Z",
+          "xocs:funding-text": [
+            {
+              "$": "This research was funded from National Key Research and Development Program of China (2017YFB0309905, 2017YFE0120900), National Natural Science Foundation of China (No. 51702121, No. 51872120, No. 61872419), National High-tech Research and Development Program of China (863program) (2015AA034701), 111 Project of International Corporation on Advanced Cement-based Materials (No. D17001), Shandong Province Science and Technology Major Project (new industry) (2015ZDXX0702B01). None."
+            },
+            {
+              "$": "This research was funded from National Key Research and Development Program of China ( 2017YFB0309905 , 2017YFE0120900 ), National Natural Science Foundation of China (No. 51702121 , No. 51872120 , No. 61872419 ), National High-tech Research and Development Program of China (863program) ( 2015AA034701 ), 111 Project of International Corporation on Advanced Cement-based Materials (No. D17001), Shandong Province Science and Technology Major Project (new industry) (2015ZDXX0702B01)."
+            }
+          ],
+          "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }
+      },
+      "bibrecord": {
+        "head": {
+          "author-group": [
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "250022",
+                "@afid": "60103801",
+                "@country": "chn",
+                "city": "Jinan",
+                "organization": [
+                  {
+                    "$": "Shandong Provincial Key Laboratory of Preparation and Measurement of Building Materials"
+                  },
+                  {
+                    "$": "University of Jinan"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60103801",
+                  "@dptid": "110879852"
+                },
+                "@affiliation-instance-id": "S0950061819317623-64314ea06e9922e6925a594c58cbec41",
+                "ce:source-text": "Shandong Provincial Key Laboratory of Preparation and Measurement of Building Materials, University of Jinan, Jinan 250022, China",
+                "@dptid": "110879852"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Jinbang",
+                  "preferred-name": {
+                    "ce:given-name": "Jinbang",
+                    "ce:initials": "J.",
+                    "ce:surname": "Wang",
+                    "ce:indexed-name": "Wang J."
+                  },
+                  "@seq": "1",
+                  "@author-instance-id": "S0950061819317623-38bde452ee3f2d1398f91cb265428425",
+                  "ce:initials": "J.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Wang",
+                  "@auid": "36775505800",
+                  "ce:indexed-name": "Wang J."
+                },
+                {
+                  "ce:given-name": "Dongyu",
+                  "preferred-name": {
+                    "ce:given-name": "Dongyu",
+                    "ce:initials": "D.",
+                    "ce:surname": "Xu",
+                    "ce:indexed-name": "Xu D."
+                  },
+                  "@seq": "3",
+                  "@author-instance-id": "S0950061819317623-4048369e5429f6eb534442d5391dc3ed",
+                  "ce:initials": "D.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Xu",
+                  "@auid": "14033444100",
+                  "ce:indexed-name": "Xu D."
+                },
+                {
+                  "ce:given-name": "Peng",
+                  "preferred-name": {
+                    "ce:given-name": "Peng",
+                    "ce:initials": "P.",
+                    "ce:surname": "Du",
+                    "ce:indexed-name": "Du P."
+                  },
+                  "@seq": "4",
+                  "@author-instance-id": "S0950061819317623-0f091df5b5c4ab0a87d30f56582b6ff0",
+                  "ce:initials": "P.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Du",
+                  "@auid": "57210916773",
+                  "ce:indexed-name": "Du P."
+                },
+                {
+                  "ce:given-name": "Zonghui",
+                  "preferred-name": {
+                    "ce:given-name": "Zonghui",
+                    "ce:initials": "Z.",
+                    "ce:surname": "Zhou",
+                    "ce:indexed-name": "Zhou Z."
+                  },
+                  "@seq": "5",
+                  "@author-instance-id": "S0950061819317623-6e50ce513bbbe5c8be80416293cf7d79",
+                  "ce:initials": "Z.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Zhou",
+                  "@auid": "15021634600",
+                  "@orcid": "0000-0002-5604-4673",
+                  "ce:indexed-name": "Zhou Z."
+                },
+                {
+                  "ce:given-name": "Lianwang",
+                  "preferred-name": {
+                    "ce:given-name": "Lianwang",
+                    "ce:initials": "L.",
+                    "ce:surname": "Yuan",
+                    "ce:indexed-name": "Yuan L."
+                  },
+                  "@seq": "6",
+                  "@author-instance-id": "S0950061819317623-324bcf2bd8a4d33b7ebaf1fda4369157",
+                  "ce:initials": "L.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Yuan",
+                  "@auid": "57210150388",
+                  "ce:indexed-name": "Yuan L."
+                },
+                {
+                  "ce:given-name": "Xin",
+                  "preferred-name": {
+                    "ce:given-name": "Xin",
+                    "ce:initials": "X.",
+                    "ce:surname": "Cheng",
+                    "ce:indexed-name": "Cheng X."
+                  },
+                  "@seq": "7",
+                  "@author-instance-id": "S0950061819317623-13598d8345e79d43c92c27977b306e8c",
+                  "ce:initials": "X.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Cheng",
+                  "@auid": "57212073080",
+                  "ce:indexed-name": "Cheng X."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "261000",
+                "@afid": "122920334",
+                "@country": "chn",
+                "city": "Weifang",
+                "organization": {
+                  "$": "Shandong Lianke Functional Materials Co. Ltd."
+                },
+                "affiliation-id": {
+                  "@afid": "122920334"
+                },
+                "@affiliation-instance-id": "S0950061819317623-1b11bfaf7cc306bb8f720354a59830ae",
+                "ce:source-text": "Shandong Lianke Functional Materials Co. Ltd., Weifang 261000, China"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Hongxin",
+                  "preferred-name": {
+                    "ce:given-name": "Hongxin",
+                    "ce:initials": "H.",
+                    "ce:surname": "Xu",
+                    "ce:indexed-name": "Xu H."
+                  },
+                  "@seq": "2",
+                  "@author-instance-id": "S0950061819317623-dd4659bc4a18ec838d8f8f8a926fbc3e",
+                  "ce:initials": "H.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Xu",
+                  "@auid": "56573055200",
+                  "ce:indexed-name": "Xu H."
+                }
+              ]
+            }
+          ],
+          "citation-title": "Accelerated carbonation of hardened cement pastes: Influence of porosity",
+          "abstracts": "© 2019 Elsevier LtdRecently, with the development of accelerating mineral carbonation technology, the preparation of building materials by using carbonation curing cement-based materials has attracted wide attention. The diffusion and transfer mechanism of carbon dioxide in porous cementitious materials was the key point that restricts the improvement of materials carbonation rate. In order to obtain comprehensive information that affects accelerating carbonation rate of porous cement-based materials, this paper talks about the influences of paste porosity controlled by water to cement ratio (w/c) on carbonation and the paste micro-structures evolution. Also, mineral compositions before and after carbonation curing were evaluated. Results show that the carbonation rate, carbonation depth and compressive strength are improved after carbonation, while total porosity of complete carbonation zone decreases with the growth of paste porosity. The pores with diameter larger than 200 nm played a leading role in carbon dioxide diffusion, which were reduced by 84.25% of the total volume after carbonation curing. The carbonization reaction mainly occurred in the first six hours in carbonation curing, while the subsequent carbonation curing were unprofitable to the carbonation effect due to the generation of calcium carbonate prevents the diffusion of CO2, making the subsequent carbonation become difficult. XRD results revealed that during carbonation curing the major reactants were C2S, C3S and some hydration products of Ca(OH)2 after 1 d hydration.",
+          "correspondence": {
+            "affiliation": {
+              "country": "China",
+              "postal-code": "250022",
+              "@country": "chn",
+              "city": "Jinan",
+              "organization": [
+                {
+                  "$": "Shandong Provincial Key Laboratory of Preparation and Measurement of Building Materials"
+                },
+                {
+                  "$": "University of Jinan"
+                }
+              ]
+            },
+            "person": {
+              "ce:given-name": "Zonghui",
+              "ce:initials": "Z.",
+              "ce:surname": "Zhou",
+              "ce:indexed-name": "Zhou Z."
+            }
+          },
+          "citation-info": {
+            "author-keywords": {
+              "author-keyword": [
+                {
+                  "$": "Accelerating carbonation rate",
+                  "@xml:lang": "eng"
+                },
+                {
+                  "$": "Cement pastes",
+                  "@xml:lang": "eng"
+                },
+                {
+                  "$": "Porosity",
+                  "@xml:lang": "eng"
+                },
+                {
+                  "$": "W/c ratio",
+                  "@xml:lang": "eng"
+                }
+              ]
+            },
+            "citation-type": {
+              "@code": "ar"
+            },
+            "citation-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "abstract-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            }
+          },
+          "source": {
+            "website": {
+              "ce:e-address": {
+                "$": "https://www.journals.elsevier.com/construction-and-building-materials",
+                "@type": "email"
+              }
+            },
+            "translated-sourcetitle": {
+              "$": "Construction and Building Materials",
+              "@xml:lang": "eng"
+            },
+            "volisspag": {
+              "voliss": {
+                "@volume": "225"
+              },
+              "pagerange": {
+                "@first": "159",
+                "@last": "169"
+              }
+            },
+            "@type": "j",
+            "sourcetitle": "Construction and Building Materials",
+            "publicationdate": {
+              "month": "11",
+              "year": "2019",
+              "date-text": "20 November 2019",
+              "day": "20"
+            },
+            "codencode": "CBUME",
+            "sourcetitle-abbrev": "Constr Build Mater",
+            "@country": "gbr",
+            "issn": {
+              "$": "09500618",
+              "@type": "print"
+            },
+            "publicationyear": {
+              "@first": "2019"
+            },
+            "publisher": {
+              "publishername": "Elsevier Ltd"
+            },
+            "@srcid": "24443"
+          },
+          "enhancement": {
+            "classificationgroup": {
+              "classifications": [
+                {
+                  "@type": "CPXCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "412.1",
+                      "classification-description": "Cement"
+                    },
+                    {
+                      "classification-code": "802.2",
+                      "classification-description": "Chemical Reactions"
+                    },
+                    {
+                      "classification-code": "804",
+                      "classification-description": "Chemical Products Generally"
+                    },
+                    {
+                      "classification-code": "804.2",
+                      "classification-description": "Inorganic Compounds"
+                    },
+                    {
+                      "classification-code": "931.2",
+                      "classification-description": "Physical Properties of Gases, Liquids and Solids"
+                    }
+                  ]
+                },
+                {
+                  "@type": "FLXCLASS",
+                  "classification": {
+                    "classification-code": "902",
+                    "classification-description": "FLUIDEX; Related Topics"
+                  }
+                },
+                {
+                  "@type": "ASJC",
+                  "classification": [
+                    {
+                      "$": "2205"
+                    },
+                    {
+                      "$": "2215"
+                    },
+                    {
+                      "$": "2500"
+                    }
+                  ]
+                },
+                {
+                  "@type": "SUBJABBR",
+                  "classification": [
+                    {
+                      "$": "ENGI"
+                    },
+                    {
+                      "$": "MATE"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "grantlist": {
+            "@complete": "y",
+            "grant-text": {
+              "$": "This research was funded from National Key Research and Development Program of China (2017YFB0309905, 2017YFE0120900), National Natural Science Foundation of China (No. 51702121, No. 51872120, No. 61872419), National High-tech Research and Development Program of China (863program) (2015AA034701), 111 Project of International Corporation on Advanced Cement-based Materials (No. D17001), Shandong Province Science and Technology Major Project (new industry) (2015ZDXX0702B01). None.",
+              "@xml:lang": "eng"
+            },
+            "grant": [
+              {
+                "grant-id": "2015AA034701",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "National High-tech Research and Development Program"
+                },
+                "grant-agency-id": "501100012164"
+              },
+              {
+                "grant-id": "2017YFB0309905",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "National Basic Research Program of China (973 Program)"
+                },
+                "grant-agency-id": "501100012166"
+              },
+              {
+                "grant-id": "2017YFE0120900",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "National Basic Research Program of China (973 Program)"
+                },
+                "grant-agency-id": "501100012166"
+              },
+              {
+                "grant-id": "51702121",
+                "grant-acronym": "NSFC",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "National Natural Science Foundation of China"
+                },
+                "grant-agency-id": "501100001809"
+              },
+              {
+                "grant-id": "51872120",
+                "grant-acronym": "NSFC",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "National Natural Science Foundation of China"
+                },
+                "grant-agency-id": "501100001809"
+              },
+              {
+                "grant-id": "61872419",
+                "grant-acronym": "NSFC",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "National Natural Science Foundation of China"
+                },
+                "grant-agency-id": "501100001809"
+              }
+            ]
+          }
+        },
+        "item-info": {
+          "copyright": {
+            "$": "Copyright 2019 Elsevier B.V., All rights reserved.",
+            "@type": "Elsevier"
+          },
+          "dbcollection": [
+            {
+              "$": "CPX"
+            },
+            {
+              "$": "REAXYSCAR"
+            },
+            {
+              "$": "SCOPUS"
+            },
+            {
+              "$": "Scopusbase"
+            }
+          ],
+          "history": {
+            "date-created": {
+              "@day": "27",
+              "@year": "2019",
+              "@timestamp": "BST 09:10:14",
+              "@month": "07"
+            }
+          },
+          "itemidlist": {
+            "itemid": [
+              {
+                "$": "2002369054",
+                "@idtype": "PUI"
+              },
+              {
+                "$": "918971645",
+                "@idtype": "CAR-ID"
+              },
+              {
+                "$": "20193007235437",
+                "@idtype": "CPX"
+              },
+              {
+                "$": "20191422084",
+                "@idtype": "REAXYSCAR"
+              },
+              {
+                "$": "20192103712",
+                "@idtype": "SCOPUS"
+              },
+              {
+                "$": "85069736950",
+                "@idtype": "SCP"
+              },
+              {
+                "$": "85069736950",
+                "@idtype": "SGR"
+              }
+            ],
+            "ce:pii": "S0950061819317623",
+            "ce:ern": "pii:S0950061819317623",
+            "ce:doi": "10.1016/j.conbuildmat.2019.07.088"
+          }
+        },
+        "tail": {
+          "bibliography": {
+            "@refcount": "37",
+            "reference": [
+              {
+                "ref-fulltext": "BNL, Detection and attribution of climate change: From global to regional. Egu General Assembly Conference, EGU General Assembly Conference Abstracts, 2013.",
+                "@id": "1",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0005",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85069725758",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "BNL, Detection and attribution of climate change: From global to regional. Egu General Assembly Conference, EGU General Assembly Conference Abstracts."
+                },
+                "ce:source-text": "BNL, Detection and attribution of climate change: From global to regional. Egu General Assembly Conference, EGU General Assembly Conference Abstracts, 2013."
+              },
+              {
+                "ref-fulltext": "Wang, Y., Zhu, Q., Geng, Y., Trajectory and driving factors for GHG emissions in the Chinese cement industry. J. Cleaner Prod. 53 (2013), 252–260.",
+                "@id": "2",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Trajectory and driving factors for GHG emissions in the Chinese cement industry"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0010",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85015339461",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "53"
+                    },
+                    "pagerange": {
+                      "@first": "252",
+                      "@last": "260"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhu",
+                        "ce:indexed-name": "Zhu Q."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Geng",
+                        "ce:indexed-name": "Geng Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Cleaner Prod."
+                },
+                "ce:source-text": "Wang, Y., Zhu, Q., Geng, Y., Trajectory and driving factors for GHG emissions in the Chinese cement industry. J. Cleaner Prod. 53 (2013), 252–260."
+              },
+              {
+                "ref-fulltext": "Ke, J., Zheng, N., Fridley, D., Price, L., Zhou, N., Potential energy savings and CO2emissions reduction of China's cement industry. Energy Policy 45 (2012), 739–751.",
+                "@id": "3",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Potential energy savings and CO2emissions reduction of China's cement industry"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0015",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84859755277",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "45"
+                    },
+                    "pagerange": {
+                      "@first": "739",
+                      "@last": "751"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Ke",
+                        "ce:indexed-name": "Ke J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Zheng",
+                        "ce:indexed-name": "Zheng N."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Fridley",
+                        "ce:indexed-name": "Fridley D."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Price",
+                        "ce:indexed-name": "Price L."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou N."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Energy Policy"
+                },
+                "ce:source-text": "Ke, J., Zheng, N., Fridley, D., Price, L., Zhou, N., Potential energy savings and CO2 emissions reduction of China's cement industry. Energy Policy 45 (2012), 739–751."
+              },
+              {
+                "ref-fulltext": "Lothenbach, B., Scrivener, K., Hooton, R.D., Supplementary cementitious materials. Cem. Concr. Res. 41:12 (2011), 1244–1256.",
+                "@id": "4",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Supplementary cementitious materials"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0020",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "80054015055",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "41",
+                      "@issue": "12"
+                    },
+                    "pagerange": {
+                      "@first": "1244",
+                      "@last": "1256"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Lothenbach",
+                        "ce:indexed-name": "Lothenbach B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Scrivener",
+                        "ce:indexed-name": "Scrivener K."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "R.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Hooton",
+                        "ce:indexed-name": "Hooton R.D."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Lothenbach, B., Scrivener, K., Hooton, R.D., Supplementary cementitious materials. Cem. Concr. Res. 41:12 (2011), 1244–1256."
+              },
+              {
+                "ref-fulltext": "Karellas, S., Leontaritis, A.D., Panousis, G., Bellos, E., Kakaras, E., Energetic and exergetic analysis of waste heat recovery systems in the cement industry. Energy 58 (2013), 147–156.",
+                "@id": "5",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Energetic and exergetic analysis of waste heat recovery systems in the cement industry"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0025",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84881107834",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "58"
+                    },
+                    "pagerange": {
+                      "@first": "147",
+                      "@last": "156"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Karellas",
+                        "ce:indexed-name": "Karellas S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Leontaritis",
+                        "ce:indexed-name": "Leontaritis A.D."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Panousis",
+                        "ce:indexed-name": "Panousis G."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Bellos",
+                        "ce:indexed-name": "Bellos E."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Kakaras",
+                        "ce:indexed-name": "Kakaras E."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Energy"
+                },
+                "ce:source-text": "Karellas, S., Leontaritis, A.D., Panousis, G., Bellos, E., Kakaras, E., Energetic and exergetic analysis of waste heat recovery systems in the cement industry. Energy 58 (2013), 147–156."
+              },
+              {
+                "ref-fulltext": "Koelbl, B.S., van den Broek, M.A., van Ruijven, B.J., Faaij, A.P.C., van Vuuren, D.P., Uncertainty in the deployment of Carbon Capture and Storage (CCS): a sensitivity analysis to techno-economic parameter uncertainty. Int. J. Greenhouse Gas Control 27 (2014), 81–102.",
+                "@id": "6",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Uncertainty in the deployment of Carbon Capture and Storage (CCS): a sensitivity analysis to techno-economic parameter uncertainty"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0030",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84902981719",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "27"
+                    },
+                    "pagerange": {
+                      "@first": "81",
+                      "@last": "102"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Koelbl",
+                        "ce:indexed-name": "Koelbl B.S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.A.",
+                        "@_fa": "true",
+                        "ce:surname": "van den Broek",
+                        "ce:indexed-name": "van den Broek M.A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "B.J.",
+                        "@_fa": "true",
+                        "ce:surname": "van Ruijven",
+                        "ce:indexed-name": "van Ruijven B.J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "A.P.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Faaij",
+                        "ce:indexed-name": "Faaij A.P.C."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "D.P.",
+                        "@_fa": "true",
+                        "ce:surname": "van Vuuren",
+                        "ce:indexed-name": "van Vuuren D.P."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Int. J. Greenhouse Gas Control"
+                },
+                "ce:source-text": "Koelbl, B.S., van den Broek, M.A., van Ruijven, B.J., Faaij, A.P.C., van Vuuren, D.P., Uncertainty in the deployment of Carbon Capture and Storage (CCS): a sensitivity analysis to techno-economic parameter uncertainty. Int. J. Greenhouse Gas Control 27 (2014), 81–102."
+              },
+              {
+                "ref-fulltext": "Lackner, K.S., Wendt, C.H., Butt, D.P., et al. Carbon dioxide disposal in carbonate minerals. Energy 20:11 (1995), 1153–1170.",
+                "@id": "7",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1995"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Carbon dioxide disposal in carbonate minerals"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0035",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0029394796",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "20",
+                      "@issue": "11"
+                    },
+                    "pagerange": {
+                      "@first": "1153",
+                      "@last": "1170"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Lackner",
+                        "ce:indexed-name": "Lackner K.S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Wendt",
+                        "ce:indexed-name": "Wendt C.H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Butt",
+                        "ce:indexed-name": "Butt D.P."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Energy"
+                },
+                "ce:source-text": "Lackner, K.S., Wendt, C.H., Butt, D.P., et al. Carbon dioxide disposal in carbonate minerals. Energy 20:11 (1995), 1153–1170."
+              },
+              {
+                "ref-fulltext": "Krevor, S.C., Lackner, K.S., Enhancing process kinetics for mineral carbon sequestration. Energy Proc. 1:1 (2009), 4867–4871.",
+                "@id": "8",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Enhancing process kinetics for mineral carbon sequestration"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0040",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "67650161909",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "1",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "4867",
+                      "@last": "4871"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Krevor",
+                        "ce:indexed-name": "Krevor S.C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Lackner",
+                        "ce:indexed-name": "Lackner K.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Energy Proc."
+                },
+                "ce:source-text": "Krevor, S.C., Lackner, K.S., Enhancing process kinetics for mineral carbon sequestration. Energy Proc. 1:1 (2009), 4867–4871."
+              },
+              {
+                "ref-fulltext": "O'Connor, W.K., Dahlin, D.C., Nilsen, D.N., et al. Carbon dioxide sequestration by direct aqueous mineral carbonation. Inorgan. Organ. Phys. Anal. Chem., 2000.",
+                "@id": "9",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2000"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Carbon dioxide sequestration by direct aqueous mineral carbonation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0045",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85069721145",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.K.",
+                        "@_fa": "true",
+                        "ce:surname": "O'Connor",
+                        "ce:indexed-name": "O'Connor W.K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Dahlin",
+                        "ce:indexed-name": "Dahlin D.C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Nilsen",
+                        "ce:indexed-name": "Nilsen D.N."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Inorgan. Organ. Phys. Anal. Chem."
+                },
+                "ce:source-text": "O'Connor, W.K., Dahlin, D.C., Nilsen, D.N., et al. Carbon dioxide sequestration by direct aqueous mineral carbonation. Inorgan. Organ. Phys. Anal. Chem., 2000."
+              },
+              {
+                "ref-fulltext": "O'Connor, W.K., Dahlin, D.C., et al. Carbon dioxide sequestration by direct mineral carbonation: process mineralogy of feed and products. Miner. Metall. Process. 19:19 (2002), 95–101.",
+                "@id": "10",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2002"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Carbon dioxide sequestration by direct mineral carbonation: process mineralogy of feed and products"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0050",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0036578302",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "19",
+                      "@issue": "19"
+                    },
+                    "pagerange": {
+                      "@first": "95",
+                      "@last": "101"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.K.",
+                        "@_fa": "true",
+                        "ce:surname": "O'Connor",
+                        "ce:indexed-name": "O'Connor W.K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Dahlin",
+                        "ce:indexed-name": "Dahlin D.C."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Miner. Metall. Process."
+                },
+                "ce:source-text": "O'Connor, W.K., Dahlin, D.C., et al. Carbon dioxide sequestration by direct mineral carbonation: process mineralogy of feed and products. Miner. Metall. Process. 19:19 (2002), 95–101."
+              },
+              {
+                "ref-fulltext": "Bodénan, F., Bourgeois, F., Petiot, C., Augé, T., Bonfils, B., Julcour-Lebigue, C., et al. Ex situ mineral carbonation for CO2mitigation: Evaluation of mining waste resources, aqueous carbonation processability and life cycle assessment (Carmex project). Miner. Eng. 59 (2014), 52–63.",
+                "@id": "11",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Ex situ mineral carbonation for CO2mitigation: Evaluation of mining waste resources, aqueous carbonation processability and life cycle assessment (Carmex project)"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0055",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84897109372",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "59"
+                    },
+                    "pagerange": {
+                      "@first": "52",
+                      "@last": "63"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Bodénan",
+                        "ce:indexed-name": "Bodenan F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Bourgeois",
+                        "ce:indexed-name": "Bourgeois F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Petiot",
+                        "ce:indexed-name": "Petiot C."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Augé",
+                        "ce:indexed-name": "Auge T."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Bonfils",
+                        "ce:indexed-name": "Bonfils B."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Julcour-Lebigue",
+                        "ce:indexed-name": "Julcour-Lebigue C."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Miner. Eng."
+                },
+                "ce:source-text": "Bodénan, F., Bourgeois, F., Petiot, C., Augé, T., Bonfils, B., Julcour-Lebigue, C., et al. Ex situ mineral carbonation for CO2 mitigation: Evaluation of mining waste resources, aqueous carbonation processability and life cycle assessment (Carmex project). Miner. Eng. 59 (2014), 52–63."
+              },
+              {
+                "ref-fulltext": "Shao, Y., Mirza, M.S., Wu, X., CO2sequestration using calcium-silicate concrete. Can. J. Civ. Eng. 33:6 (2006), 776–784.",
+                "@id": "12",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2006"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "CO2sequestration using calcium-silicate concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0060",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "33751221294",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "33",
+                      "@issue": "6"
+                    },
+                    "pagerange": {
+                      "@first": "776",
+                      "@last": "784"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Shao",
+                        "ce:indexed-name": "Shao Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Mirza",
+                        "ce:indexed-name": "Mirza M.S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu X."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Can. J. Civ. Eng."
+                },
+                "ce:source-text": "Shao, Y., Mirza, M.S., Wu, X., CO2 sequestration using calcium-silicate concrete. Can. J. Civ. Eng. 33:6 (2006), 776–784."
+              },
+              {
+                "ref-fulltext": "Kashef-Haghighi, S., Ghoshal, S., CO2sequestration in concrete through accelerated carbonation curing in a flow-through reactor. Ind. Eng. Chem. Res. 49:3 (2010), 1143–1149.",
+                "@id": "13",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "CO2sequestration in concrete through accelerated carbonation curing in a flow-through reactor"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0065",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "76049129147",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "49",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "1143",
+                      "@last": "1149"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Kashef-Haghighi",
+                        "ce:indexed-name": "Kashef-Haghighi S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Ghoshal",
+                        "ce:indexed-name": "Ghoshal S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Ind. Eng. Chem. Res."
+                },
+                "ce:source-text": "Kashef-Haghighi, S., Ghoshal, S., CO2 sequestration in concrete through accelerated carbonation curing in a flow-through reactor. Ind. Eng. Chem. Res. 49:3 (2010), 1143–1149."
+              },
+              {
+                "ref-fulltext": "Rostami, V., Shao, Y., Boyd, A.J., Durability of concrete pipes subjected to combined steam and carbonation curing. Constr. Build. Mater. 25:8 (2011), 3345–3355.",
+                "@id": "14",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Durability of concrete pipes subjected to combined steam and carbonation curing"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0070",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "79955600653",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "25",
+                      "@issue": "8"
+                    },
+                    "pagerange": {
+                      "@first": "3345",
+                      "@last": "3355"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "V.",
+                        "@_fa": "true",
+                        "ce:surname": "Rostami",
+                        "ce:indexed-name": "Rostami V."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Shao",
+                        "ce:indexed-name": "Shao Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Boyd",
+                        "ce:indexed-name": "Boyd A.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "Rostami, V., Shao, Y., Boyd, A.J., Durability of concrete pipes subjected to combined steam and carbonation curing. Constr. Build. Mater. 25:8 (2011), 3345–3355."
+              },
+              {
+                "ref-fulltext": "Pang, B., Zhou, Z., Xu, H., Utilization of carbonated and granulated steel slag aggregate in concrete. Constr. Build. Mater. 84 (2015), 454–467.",
+                "@id": "15",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Utilization of carbonated and granulated steel slag aggregate in concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0075",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84925834699",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "84"
+                    },
+                    "pagerange": {
+                      "@first": "454",
+                      "@last": "467"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Pang",
+                        "ce:indexed-name": "Pang B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "Pang, B., Zhou, Z., Xu, H., Utilization of carbonated and granulated steel slag aggregate in concrete. Constr. Build. Mater. 84 (2015), 454–467."
+              },
+              {
+                "ref-fulltext": "Parrott, L.J., Some effects of cement and curing upon carbonation and reinforcement corrosion in concrete. Mater. Struct. 29 (1996), 164–173.",
+                "@id": "16",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1996"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Some effects of cement and curing upon carbonation and reinforcement corrosion in concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0080",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0001190309",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "29"
+                    },
+                    "pagerange": {
+                      "@first": "164",
+                      "@last": "173"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Parrott",
+                        "ce:indexed-name": "Parrott L.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Mater. Struct."
+                },
+                "ce:source-text": "Parrott, L.J., Some effects of cement and curing upon carbonation and reinforcement corrosion in concrete. Mater. Struct. 29 (1996), 164–173."
+              },
+              {
+                "ref-fulltext": "Dias, W.P.S., Reduction of concrete sorptivity with age through carbonation. Cem. Concret. Res. 30 (2000), 1255–1261.",
+                "@id": "17",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2000"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Reduction of concrete sorptivity with age through carbonation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0085",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0034244353",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "30"
+                    },
+                    "pagerange": {
+                      "@first": "1255",
+                      "@last": "1261"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.P.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Dias",
+                        "ce:indexed-name": "Dias W.P.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concret. Res."
+                },
+                "ce:source-text": "Dias, W.P.S., Reduction of concrete sorptivity with age through carbonation. Cem. Concret. Res. 30 (2000), 1255–1261."
+              },
+              {
+                "ref-fulltext": "Johannesson, B., Utgenannt, P., Microstructural changes caused by carbonation of cement mortar. Cem. Concr. Res. 31:6 (2001), 925–931.",
+                "@id": "18",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2001"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Microstructural changes caused by carbonation of cement mortar"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0090",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0035331660",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "31",
+                      "@issue": "6"
+                    },
+                    "pagerange": {
+                      "@first": "925",
+                      "@last": "931"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Johannesson",
+                        "ce:indexed-name": "Johannesson B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Utgenannt",
+                        "ce:indexed-name": "Utgenannt P."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Johannesson, B., Utgenannt, P., Microstructural changes caused by carbonation of cement mortar. Cem. Concr. Res. 31:6 (2001), 925–931."
+              },
+              {
+                "ref-fulltext": "Pizzol, V.D., Mendes, L.M., Frezzatti, L., Savastano, H. Jr, Tonoli, G.H.D., Effect of accelerated carbonation on the microstructure and physical properties of hybrid fiber-cement composites. Miner. Eng. 59 (2014), 101–106.",
+                "@id": "19",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of accelerated carbonation on the microstructure and physical properties of hybrid fiber-cement composites"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0095",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84897116732",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "59"
+                    },
+                    "pagerange": {
+                      "@first": "101",
+                      "@last": "106"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "V.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Pizzol",
+                        "ce:indexed-name": "Pizzol V.D."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Mendes",
+                        "ce:indexed-name": "Mendes L.M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Frezzatti",
+                        "ce:indexed-name": "Frezzatti L."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Savastano",
+                        "ce:suffix": "Jr",
+                        "ce:indexed-name": "Savastano H."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "G.H.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Tonoli",
+                        "ce:indexed-name": "Tonoli G.H.D."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Miner. Eng."
+                },
+                "ce:source-text": "Pizzol, V.D., Mendes, L.M., Frezzatti, L., Savastano, H. Jr, Tonoli, G.H.D., Effect of accelerated carbonation on the microstructure and physical properties of hybrid fiber-cement composites. Miner. Eng. 59 (2014), 101–106."
+              },
+              {
+                "ref-fulltext": "Teir, S., Eloneva, S., Zevenhoven, R., Production of precipitated calcium carbonate from calcium silicates and carbon dioxide. Energy Convers. Manage. 46:18–19 (2005), 2954–2979.",
+                "@id": "20",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2005"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Production of precipitated calcium carbonate from calcium silicates and carbon dioxide"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0100",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "19844368797",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "46",
+                      "@issue": "18-19"
+                    },
+                    "pagerange": {
+                      "@first": "2954",
+                      "@last": "2979"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Teir",
+                        "ce:indexed-name": "Teir S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Eloneva",
+                        "ce:indexed-name": "Eloneva S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Zevenhoven",
+                        "ce:indexed-name": "Zevenhoven R."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Energy Convers. Manage."
+                },
+                "ce:source-text": "Teir, S., Eloneva, S., Zevenhoven, R., Production of precipitated calcium carbonate from calcium silicates and carbon dioxide. Energy Convers. Manage. 46:18–19 (2005), 2954–2979."
+              },
+              {
+                "ref-fulltext": "Kashef-Haghighi, S., Shao, Y., Ghoshal, S., Mathematical modeling of CO2uptake by concrete during accelerated carbonation curing. Cem. Concr. Res. 67 (2015), 1–10.",
+                "@id": "21",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Mathematical modeling of CO2uptake by concrete during accelerated carbonation curing"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0105",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84906692213",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "67"
+                    },
+                    "pagerange": {
+                      "@first": "1",
+                      "@last": "10"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Kashef-Haghighi",
+                        "ce:indexed-name": "Kashef-Haghighi S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Shao",
+                        "ce:indexed-name": "Shao Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Ghoshal",
+                        "ce:indexed-name": "Ghoshal S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Kashef-Haghighi, S., Shao, Y., Ghoshal, S., Mathematical modeling of CO2 uptake by concrete during accelerated carbonation curing. Cem. Concr. Res. 67 (2015), 1–10."
+              },
+              {
+                "ref-fulltext": "Song, H.-W., Kwon, S.-J., Permeability characteristics of carbonated concrete considering capillary pore structure. Cem. Concr. Res. 37:6 (2007), 909–915.",
+                "@id": "22",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Permeability characteristics of carbonated concrete considering capillary pore structure"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0110",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "34249324122",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "37",
+                      "@issue": "6"
+                    },
+                    "pagerange": {
+                      "@first": "909",
+                      "@last": "915"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.-W.",
+                        "@_fa": "true",
+                        "ce:surname": "Song",
+                        "ce:indexed-name": "Song H.-W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.-J.",
+                        "@_fa": "true",
+                        "ce:surname": "Kwon",
+                        "ce:indexed-name": "Kwon S.-J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Song, H.-W., Kwon, S.-J., Permeability characteristics of carbonated concrete considering capillary pore structure. Cem. Concr. Res. 37:6 (2007), 909–915."
+              },
+              {
+                "ref-fulltext": "ISO 679, Cement-Test methods-Determination of strength. International Standards Organization, 2009.",
+                "@id": "23",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0115",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85069628618",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "ISO 679, Cement-Test methods-Determination of strength. International Standards Organization."
+                },
+                "ce:source-text": "ISO 679, Cement-Test methods-Determination of strength. International Standards Organization, 2009."
+              },
+              {
+                "ref-fulltext": "Xu, Z., Zhou, Z., Du, P., Cheng, X., Effects of nano-silica on hydration properties of tricalcium silicate. Constr. Build. Mater. 125 (2016), 1169–1177.",
+                "@id": "24",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effects of nano-silica on hydration properties of tricalcium silicate"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0120",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84986557822",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "125"
+                    },
+                    "pagerange": {
+                      "@first": "1169",
+                      "@last": "1177"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Du",
+                        "ce:indexed-name": "Du P."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Cheng",
+                        "ce:indexed-name": "Cheng X."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "Xu, Z., Zhou, Z., Du, P., Cheng, X., Effects of nano-silica on hydration properties of tricalcium silicate. Constr. Build. Mater. 125 (2016), 1169–1177."
+              },
+              {
+                "ref-fulltext": "Bullard, J.W., Jennings, H.M., Livingston, R.A., Nonat, A., Scherer, G.W., Schweitzer, J.S., et al. Mechanisms of cement hydration. Cem. Concr. Res. 41:12 (2011), 1208–1223.",
+                "@id": "25",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Mechanisms of cement hydration"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0125",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "80053961547",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "41",
+                      "@issue": "12"
+                    },
+                    "pagerange": {
+                      "@first": "1208",
+                      "@last": "1223"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Bullard",
+                        "ce:indexed-name": "Bullard J.W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Jennings",
+                        "ce:indexed-name": "Jennings H.M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "R.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Livingston",
+                        "ce:indexed-name": "Livingston R.A."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Nonat",
+                        "ce:indexed-name": "Nonat A."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "G.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Scherer",
+                        "ce:indexed-name": "Scherer G.W."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "J.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Schweitzer",
+                        "ce:indexed-name": "Schweitzer J.S."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Bullard, J.W., Jennings, H.M., Livingston, R.A., Nonat, A., Scherer, G.W., Schweitzer, J.S., et al. Mechanisms of cement hydration. Cem. Concr. Res. 41:12 (2011), 1208–1223."
+              },
+              {
+                "ref-fulltext": "Aruhan, P.Y., Carbonation characteristics of concrete with different fly–ash contents. J. Chin. Ceram. Soc. 39:1 (2011), 7–12.",
+                "@id": "26",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Carbonation characteristics of concrete with different fly–ash contents"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0130",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "79951717501",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "39",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "7",
+                      "@last": "12"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Aruhan",
+                        "ce:indexed-name": "Aruhan P.Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Chin. Ceram. Soc."
+                },
+                "ce:source-text": "Aruhan, P.Y., Carbonation characteristics of concrete with different fly–ash contents. J. Chin. Ceram. Soc. 39:1 (2011), 7–12."
+              },
+              {
+                "ref-fulltext": "Frías, M., Goñi, S., Accelerated carbonation effect on behaviour of ternary Portland cements. Compos. B Eng. 48 (2013), 122–128.",
+                "@id": "27",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Accelerated carbonation effect on behaviour of ternary Portland cements"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0135",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84873599275",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "48"
+                    },
+                    "pagerange": {
+                      "@first": "122",
+                      "@last": "128"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Frías",
+                        "ce:indexed-name": "Frias M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Goñi",
+                        "ce:indexed-name": "Goni S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Compos. B Eng."
+                },
+                "ce:source-text": "Frías, M., Goñi, S., Accelerated carbonation effect on behaviour of ternary Portland cements. Compos. B Eng. 48 (2013), 122–128."
+              },
+              {
+                "ref-fulltext": "Wu, Z.W., Lian, H.L., High Performance Concrete. 1999, China Railway Press, Beijing.",
+                "@id": "28",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1999"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "High Performance Concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0140",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0003834746",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "China Railway Press Beijing",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu Z.W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Lian",
+                        "ce:indexed-name": "Lian H.L."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Wu, Z.W., Lian, H.L., High Performance Concrete. 1999, China Railway Press, Beijing."
+              },
+              {
+                "ref-fulltext": "Jang, J.G., Lee, H.K., Microstructural densification and CO2uptake promoted by the carbonation curing of belite-rich Portland cement. Cem. Concr. Res. 82 (2016), 50–57.",
+                "@id": "29",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Microstructural densification and CO2uptake promoted by the carbonation curing of belite-rich Portland cement"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0145",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84954285023",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "82"
+                    },
+                    "pagerange": {
+                      "@first": "50",
+                      "@last": "57"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Jang",
+                        "ce:indexed-name": "Jang J.G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee H.K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Jang, J.G., Lee, H.K., Microstructural densification and CO2 uptake promoted by the carbonation curing of belite-rich Portland cement. Cem. Concr. Res. 82 (2016), 50–57."
+              },
+              {
+                "ref-fulltext": "Ngala, V.T., Page, C.L., Effects of carbonation on pore structure and diffusional properties of hydrated cement pastes. Cem. Concr. Res. 27:7 (1997), 995–1007.",
+                "@id": "30",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1997"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effects of carbonation on pore structure and diffusional properties of hydrated cement pastes"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0150",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0000531676",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "27",
+                      "@issue": "7"
+                    },
+                    "pagerange": {
+                      "@first": "995",
+                      "@last": "1007"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "V.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Ngala",
+                        "ce:indexed-name": "Ngala V.T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Page",
+                        "ce:indexed-name": "Page C.L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Ngala, V.T., Page, C.L., Effects of carbonation on pore structure and diffusional properties of hydrated cement pastes. Cem. Concr. Res. 27:7 (1997), 995–1007."
+              },
+              {
+                "ref-fulltext": "Chen, X., Wu, S., Zhou, J., Experimental study and analytical model for pore structure of hydrated cement paste. Appl. Clay Sci. 101 (2014), 159–167.",
+                "@id": "31",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental study and analytical model for pore structure of hydrated cement paste"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0155",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84908359907",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "101"
+                    },
+                    "pagerange": {
+                      "@first": "159",
+                      "@last": "167"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Appl. Clay Sci."
+                },
+                "ce:source-text": "Chen, X., Wu, S., Zhou, J., Experimental study and analytical model for pore structure of hydrated cement paste. Appl. Clay Sci. 101 (2014), 159–167."
+              },
+              {
+                "ref-fulltext": "Quenard, D.A., Xu, K., Künzel, Hartwig M., et al. Microstructure and transport properties of porous building materials. Mater. Struct. 31:5 (1998), 317–324.",
+                "@id": "32",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1998"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Microstructure and transport properties of porous building materials"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0160",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0032099837",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "31",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "317",
+                      "@last": "324"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Quenard",
+                        "ce:indexed-name": "Quenard D.A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu K."
+                      },
+                      {
+                        "ce:given-name": "Hartwig M.",
+                        "@seq": "3",
+                        "ce:initials": "H.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Künzel",
+                        "ce:indexed-name": "Kunzel H.M."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Mater. Struct."
+                },
+                "ce:source-text": "Quenard, D.A., Xu, K., Künzel, Hartwig M., et al. Microstructure and transport properties of porous building materials. Mater. Struct. 31:5 (1998), 317–324."
+              },
+              {
+                "ref-fulltext": "Kim, J.J., Rahman, M.K., Reda Taha, M.M., Examining microstructural composition of hardened cement paste cured under high temperature and pressure using nanoindentation and 29Si MAS NMR. Appl. Nanosci. 2:4 (2012), 445–456.",
+                "@id": "33",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Examining microstructural composition of hardened cement paste cured under high temperature and pressure using nanoindentation and 29Si MAS NMR"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0165",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84899648336",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "2",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "445",
+                      "@last": "456"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim J.J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Rahman",
+                        "ce:indexed-name": "Rahman M.K."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Reda Taha",
+                        "ce:indexed-name": "Reda Taha M.M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Appl. Nanosci."
+                },
+                "ce:source-text": "Kim, J.J., Rahman, M.K., Reda Taha, M.M., Examining microstructural composition of hardened cement paste cured under high temperature and pressure using nanoindentation and 29Si MAS NMR. Appl. Nanosci. 2:4 (2012), 445–456."
+              },
+              {
+                "ref-fulltext": "Fang, Y., Chang, J., Microstructure changes of waste hydrated cement paste induced by accelerated carbonation. Constr. Build. Mater. 76 (2015), 360–365.",
+                "@id": "34",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Microstructure changes of waste hydrated cement paste induced by accelerated carbonation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0170",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84919725180",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "76"
+                    },
+                    "pagerange": {
+                      "@first": "360",
+                      "@last": "365"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Fang",
+                        "ce:indexed-name": "Fang Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Chang",
+                        "ce:indexed-name": "Chang J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "Fang, Y., Chang, J., Microstructure changes of waste hydrated cement paste induced by accelerated carbonation. Constr. Build. Mater. 76 (2015), 360–365."
+              },
+              {
+                "ref-fulltext": "Tai, C.Y., Chen, F.B., Polymorphism of CaCO3, precipitated in a constant-composition environment. AIChE J. 44:8 (1998), 1790–1798.",
+                "@id": "35",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1998"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Polymorphism of CaCO3, precipitated in a constant-composition environment"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0175",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0032144698",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "44",
+                      "@issue": "8"
+                    },
+                    "pagerange": {
+                      "@first": "1790",
+                      "@last": "1798"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Tai",
+                        "ce:indexed-name": "Tai C.Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen F.B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "AIChE J."
+                },
+                "ce:source-text": "Tai, C.Y., Chen, F.B., Polymorphism of CaCO3, precipitated in a constant-composition environment. AIChE J. 44:8 (1998), 1790–1798."
+              },
+              {
+                "ref-fulltext": "Hidalgo, A., Domingo, C., Garcia, C., Petit, S., Andrade, C., Alonso, C., Microstructural changes induced in Portland cement-based materials due to natural and supercritical carbonation. J. Mater. Sci. 43:9 (2008), 3101–3111.",
+                "@id": "36",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2008"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Microstructural changes induced in Portland cement-based materials due to natural and supercritical carbonation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0180",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "41549119319",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "43",
+                      "@issue": "9"
+                    },
+                    "pagerange": {
+                      "@first": "3101",
+                      "@last": "3111"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Hidalgo",
+                        "ce:indexed-name": "Hidalgo A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Domingo",
+                        "ce:indexed-name": "Domingo C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Garcia",
+                        "ce:indexed-name": "Garcia C."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Petit",
+                        "ce:indexed-name": "Petit S."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Andrade",
+                        "ce:indexed-name": "Andrade C."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Alonso",
+                        "ce:indexed-name": "Alonso C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Mater. Sci."
+                },
+                "ce:source-text": "Hidalgo, A., Domingo, C., Garcia, C., Petit, S., Andrade, C., Alonso, C., Microstructural changes induced in Portland cement-based materials due to natural and supercritical carbonation. J. Mater. Sci. 43:9 (2008), 3101–3111."
+              },
+              {
+                "ref-fulltext": "Villain, G., Thiery, M., Platret, G., Measurement methods of carbonation profiles in concrete: Thermogravimetry, chemical analysis and gammadensimetry. Cem. Concr. Res. 37:8 (2007), 1182–1192.",
+                "@id": "37",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Measurement methods of carbonation profiles in concrete: Thermogravimetry, chemical analysis and gammadensimetry"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0185",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "34547653549",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "37",
+                      "@issue": "8"
+                    },
+                    "pagerange": {
+                      "@first": "1182",
+                      "@last": "1192"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Villain",
+                        "ce:indexed-name": "Villain G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Thiery",
+                        "ce:indexed-name": "Thiery M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Platret",
+                        "ce:indexed-name": "Platret G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Villain, G., Thiery, M., Platret, G., Measurement methods of carbonation profiles in concrete: Thermogravimetry, chemical analysis and gammadensimetry. Cem. Concr. Res. 37:8 (2007), 1182–1192."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "affiliation": [
+      {
+        "affiliation-city": "Jinan",
+        "@id": "60103801",
+        "affilname": "University of Jinan",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60103801",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Weifang",
+        "@id": "122920334",
+        "affilname": "Shandong Lianke Functional Materials Co. Ltd.",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/122920334",
+        "affiliation-country": "China"
+      }
+    ],
+    "coredata": {
+      "srctype": "j",
+      "eid": "2-s2.0-85069736950",
+      "dc:description": "Recently, with the development of accelerating mineral carbonation technology, the preparation of building materials by using carbonation curing cement-based materials has attracted wide attention. The diffusion and transfer mechanism of carbon dioxide in porous cementitious materials was the key point that restricts the improvement of materials carbonation rate. In order to obtain comprehensive information that affects accelerating carbonation rate of porous cement-based materials, this paper talks about the influences of paste porosity controlled by water to cement ratio (w/c) on carbonation and the paste micro-structures evolution. Also, mineral compositions before and after carbonation curing were evaluated. Results show that the carbonation rate, carbonation depth and compressive strength are improved after carbonation, while total porosity of complete carbonation zone decreases with the growth of paste porosity. The pores with diameter larger than 200 nm played a leading role in carbon dioxide diffusion, which were reduced by 84.25% of the total volume after carbonation curing. The carbonization reaction mainly occurred in the first six hours in carbonation curing, while the subsequent carbonation curing were unprofitable to the carbonation effect due to the generation of calcium carbonate prevents the diffusion of CO2, making the subsequent carbonation become difficult. XRD results revealed that during carbonation curing the major reactants were C2S, C3S and some hydration products of Ca(OH)2 after 1 d hydration.",
+      "prism:coverDate": "2019-11-20",
+      "prism:aggregationType": "Journal",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85069736950",
+      "dc:creator": {
+        "author": [
+          {
+            "ce:given-name": "Jinbang",
+            "preferred-name": {
+              "ce:given-name": "Jinbang",
+              "ce:initials": "J.",
+              "ce:surname": "Wang",
+              "ce:indexed-name": "Wang J."
+            },
+            "@seq": "1",
+            "ce:initials": "J.",
+            "@_fa": "true",
+            "affiliation": {
+              "@id": "60103801",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60103801"
+            },
+            "ce:surname": "Wang",
+            "@auid": "36775505800",
+            "author-url": "https://api.elsevier.com/content/author/author_id/36775505800",
+            "ce:indexed-name": "Wang J."
+          }
+        ]
+      },
+      "link": [
+        {
+          "@_fa": "true",
+          "@rel": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85069736950"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85069736950&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85069736950&origin=inward"
+        }
+      ],
+      "source-id": "24443",
+      "pii": "S0950061819317623",
+      "citedby-count": "206",
+      "prism:volume": "225",
+      "subtype": "ar",
+      "dc:title": "Accelerated carbonation of hardened cement pastes: Influence of porosity",
+      "openaccess": "0",
+      "prism:issn": "09500618",
+      "publishercopyright": "© 2019 Elsevier Ltd",
+      "subtypeDescription": "Article",
+      "prism:publicationName": "Construction and Building Materials",
+      "prism:pageRange": "159-169",
+      "prism:endingPage": "169",
+      "openaccessFlag": "false",
+      "prism:doi": "10.1016/j.conbuildmat.2019.07.088",
+      "prism:startingPage": "159",
+      "dc:identifier": "SCOPUS_ID:85069736950",
+      "dc:publisher": "Elsevier Ltd"
+    },
+    "idxterms": {
+      "mainterm": [
+        {
+          "$": "Accelerated carbonation",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Cement based material",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Cement paste",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Cementitious materials",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Comprehensive information",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Porous cement-based materials",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "W/c ratio",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Water-to-cement ratios",
+          "@weight": "b",
+          "@candidate": "n"
+        }
+      ]
+    },
+    "language": {
+      "@xml:lang": "eng"
+    },
+    "authkeywords": {
+      "author-keyword": [
+        {
+          "@_fa": "true",
+          "$": "Accelerating carbonation rate"
+        },
+        {
+          "@_fa": "true",
+          "$": "Cement pastes"
+        },
+        {
+          "@_fa": "true",
+          "$": "Porosity"
+        },
+        {
+          "@_fa": "true",
+          "$": "W/c ratio"
+        }
+      ]
+    },
+    "subject-areas": {
+      "subject-area": [
+        {
+          "@_fa": "true",
+          "$": "Civil and Structural Engineering",
+          "@code": "2205",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Building and Construction",
+          "@code": "2215",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Materials Science (all)",
+          "@code": "2500",
+          "@abbrev": "MATE"
+        }
+      ]
+    },
+    "authors": {
+      "author": [
+        {
+          "ce:given-name": "Jinbang",
+          "preferred-name": {
+            "ce:given-name": "Jinbang",
+            "ce:initials": "J.",
+            "ce:surname": "Wang",
+            "ce:indexed-name": "Wang J."
+          },
+          "@seq": "1",
+          "ce:initials": "J.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60103801",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60103801"
+          },
+          "ce:surname": "Wang",
+          "@auid": "36775505800",
+          "author-url": "https://api.elsevier.com/content/author/author_id/36775505800",
+          "ce:indexed-name": "Wang J."
+        },
+        {
+          "ce:given-name": "Hongxin",
+          "preferred-name": {
+            "ce:given-name": "Hongxin",
+            "ce:initials": "H.",
+            "ce:surname": "Xu",
+            "ce:indexed-name": "Xu H."
+          },
+          "@seq": "2",
+          "ce:initials": "H.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "122920334",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/122920334"
+          },
+          "ce:surname": "Xu",
+          "@auid": "56573055200",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56573055200",
+          "ce:indexed-name": "Xu H."
+        },
+        {
+          "ce:given-name": "Dongyu",
+          "preferred-name": {
+            "ce:given-name": "Dongyu",
+            "ce:initials": "D.",
+            "ce:surname": "Xu",
+            "ce:indexed-name": "Xu D."
+          },
+          "@seq": "3",
+          "ce:initials": "D.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60103801",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60103801"
+          },
+          "ce:surname": "Xu",
+          "@auid": "14033444100",
+          "author-url": "https://api.elsevier.com/content/author/author_id/14033444100",
+          "ce:indexed-name": "Xu D."
+        },
+        {
+          "ce:given-name": "Peng",
+          "preferred-name": {
+            "ce:given-name": "Peng",
+            "ce:initials": "P.",
+            "ce:surname": "Du",
+            "ce:indexed-name": "Du P."
+          },
+          "@seq": "4",
+          "ce:initials": "P.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60103801",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60103801"
+          },
+          "ce:surname": "Du",
+          "@auid": "57210916773",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57210916773",
+          "ce:indexed-name": "Du P."
+        },
+        {
+          "ce:given-name": "Zonghui",
+          "preferred-name": {
+            "ce:given-name": "Zonghui",
+            "ce:initials": "Z.",
+            "ce:surname": "Zhou",
+            "ce:indexed-name": "Zhou Z."
+          },
+          "@seq": "5",
+          "ce:initials": "Z.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60103801",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60103801"
+          },
+          "ce:surname": "Zhou",
+          "@auid": "15021634600",
+          "author-url": "https://api.elsevier.com/content/author/author_id/15021634600",
+          "ce:indexed-name": "Zhou Z."
+        },
+        {
+          "ce:given-name": "Lianwang",
+          "preferred-name": {
+            "ce:given-name": "Lianwang",
+            "ce:initials": "L.",
+            "ce:surname": "Yuan",
+            "ce:indexed-name": "Yuan L."
+          },
+          "@seq": "6",
+          "ce:initials": "L.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60103801",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60103801"
+          },
+          "ce:surname": "Yuan",
+          "@auid": "57210150388",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57210150388",
+          "ce:indexed-name": "Yuan L."
+        },
+        {
+          "ce:given-name": "Xin",
+          "preferred-name": {
+            "ce:given-name": "Xin",
+            "ce:initials": "X.",
+            "ce:surname": "Cheng",
+            "ce:indexed-name": "Cheng X."
+          },
+          "@seq": "7",
+          "ce:initials": "X.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60103801",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60103801"
+          },
+          "ce:surname": "Cheng",
+          "@auid": "57212073080",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57212073080",
+          "ce:indexed-name": "Cheng X."
+        }
+      ]
+    }
+  }
+}

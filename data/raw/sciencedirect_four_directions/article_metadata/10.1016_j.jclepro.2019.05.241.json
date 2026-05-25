@@ -1,0 +1,2245 @@
+{
+  "abstracts-retrieval-response": {
+    "item": {
+      "ait:process-info": {
+        "ait:status": {
+          "@state": "update",
+          "@type": "core",
+          "@stage": "S300"
+        },
+        "ait:date-delivered": {
+          "@day": "14",
+          "@timestamp": "2020-12-14T12:28:55.000055-05:00",
+          "@year": "2020",
+          "@month": "12"
+        },
+        "ait:date-sort": {
+          "@day": "10",
+          "@year": "2019",
+          "@month": "09"
+        }
+      },
+      "xocs:meta": {
+        "xocs:funding-list": {
+          "@pui-match": "primary",
+          "@has-funding-info": "1",
+          "xocs:funding": [
+            {
+              "xocs:funding-agency-matched-string": "Science and Technology Planning Project of Guangzhou City",
+              "xocs:funding-id": "201704030057"
+            },
+            {
+              "xocs:funding-agency-matched-string": "National Natural Science Foundation of China",
+              "xocs:funding-agency-acronym": "NSFC",
+              "xocs:funding-agency": "National Natural Science Foundation of China",
+              "xocs:funding-id": [
+                {
+                  "$": "11472084"
+                },
+                {
+                  "$": "51278132"
+                }
+              ],
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Science and Technology Project of Guangdong Province",
+              "xocs:funding-agency": "Science and Technology Planning Project of Guangdong Province",
+              "xocs:funding-id": "2017B020238006",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100012245",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Science and Technology Major Project of Guangdong Province",
+              "xocs:funding-agency": "Major Science and Technology Project of Hainan Province",
+              "xocs:funding-id": "2012A010800029",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100013072",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            }
+          ],
+          "xocs:funding-addon-generated-timestamp": "2021-02-04T12:17:02.135658Z",
+          "xocs:funding-text": "The authors gratefully acknowledge the financial support provided by the National Natural Science Foundation of China [grant numbers: 11472084 and 51278132 ]; the Science and Technology Project of Guangdong Province [grant number 2017B020238006 ]; the Science and Technology Major Project of Guangdong Province [grant number 2012A010800029 ]; and the Science and Technology Planning Project of Guangzhou City [grant number 201704030057 ].",
+          "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }
+      },
+      "bibrecord": {
+        "head": {
+          "author-group": [
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "510006",
+                "@afid": "60007155",
+                "@country": "chn",
+                "city": "Guangzhou",
+                "organization": [
+                  {
+                    "$": "School of Civil and Transportation Engineering"
+                  },
+                  {
+                    "$": "Guangdong University of Technology"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60007155",
+                  "@dptid": "107276381"
+                },
+                "@affiliation-instance-id": "S0959652619317755-6fba2171f40990edd3f7a9fd522af5dd",
+                "ce:source-text": "School of Civil and Transportation Engineering, Guangdong University of Technology, Guangzhou, 510006, China",
+                "@dptid": "107276381"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Feng",
+                  "preferred-name": {
+                    "ce:given-name": "Feng",
+                    "ce:initials": "F.",
+                    "ce:surname": "Liu",
+                    "ce:indexed-name": "Liu F."
+                  },
+                  "@author-instance-id": "S0959652619317755-22b8a77adc90427b5748ad46ced7f110",
+                  "@seq": "1",
+                  "ce:initials": "F.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Liu",
+                  "@auid": "57188767097",
+                  "ce:indexed-name": "Liu F."
+                },
+                {
+                  "ce:given-name": "Wanhui",
+                  "preferred-name": {
+                    "ce:given-name": "Wanhui",
+                    "ce:initials": "W.",
+                    "ce:surname": "Feng",
+                    "ce:indexed-name": "Feng W."
+                  },
+                  "@author-instance-id": "S0959652619317755-325c90187131c27213bc0898a9b2f3f9",
+                  "@seq": "2",
+                  "ce:initials": "W.",
+                  "@date-locked": "2019-08-14T05:13:12.278",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Feng",
+                  "@auid": "57210103755",
+                  "ce:indexed-name": "Feng W."
+                },
+                {
+                  "ce:given-name": "Zhe",
+                  "preferred-name": {
+                    "ce:given-name": "Zhe",
+                    "ce:initials": "Z.",
+                    "ce:surname": "Xiong",
+                    "ce:indexed-name": "Xiong Z."
+                  },
+                  "@author-instance-id": "S0959652619317755-26ae07489a6620db137a74b66fc97457",
+                  "@seq": "3",
+                  "ce:initials": "Z.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Xiong",
+                  "@auid": "56260786600",
+                  "ce:indexed-name": "Xiong Z."
+                },
+                {
+                  "ce:given-name": "Lijuan",
+                  "preferred-name": {
+                    "ce:given-name": "Lijuan",
+                    "ce:initials": "L.",
+                    "ce:surname": "Li",
+                    "ce:indexed-name": "Li L."
+                  },
+                  "@author-instance-id": "S0959652619317755-a2b52ceebae40d939866781d63d65a03",
+                  "@seq": "4",
+                  "ce:initials": "L.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Li",
+                  "@auid": "36065125900",
+                  "ce:indexed-name": "Li L."
+                },
+                {
+                  "ce:given-name": "Hai",
+                  "preferred-name": {
+                    "ce:given-name": "Hai",
+                    "ce:initials": "H.",
+                    "ce:surname": "Lin",
+                    "ce:indexed-name": "Lin H."
+                  },
+                  "@author-instance-id": "S0959652619317755-bc65426a735ea4c5443ce09c920ac29e",
+                  "@seq": "6",
+                  "ce:initials": "H.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Lin",
+                  "@auid": "57220565488",
+                  "ce:indexed-name": "Lin H."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "510641",
+                "@afid": "60024542",
+                "@country": "chn",
+                "city": "Guangzhou",
+                "organization": [
+                  {
+                    "$": "School of Civil Engineering and Transportation"
+                  },
+                  {
+                    "$": "South China University of Technology"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60024542",
+                  "@dptid": "106285696"
+                },
+                "@affiliation-instance-id": "S0959652619317755-a0e8fad50c309fe3edf0610d3ef15f9c",
+                "ce:source-text": "School of Civil Engineering and Transportation, South China University of Technology, Guangzhou, 510641, China",
+                "@dptid": "106285696"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Yibo",
+                  "preferred-name": {
+                    "ce:given-name": "Yibo",
+                    "ce:initials": "Y.",
+                    "ce:surname": "Yang",
+                    "ce:indexed-name": "Yang Y."
+                  },
+                  "@author-instance-id": "S0959652619317755-6e4591a6db15b572cf1be984b2bba430",
+                  "@seq": "5",
+                  "ce:initials": "Y.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Yang",
+                  "@auid": "14059351500",
+                  "ce:indexed-name": "Yang Y."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "510640",
+                "@afid": "60024542",
+                "@country": "chn",
+                "city": "Guangzhou",
+                "organization": [
+                  {
+                    "$": "The State Key Laboratory of Subtropical Architecture Science"
+                  },
+                  {
+                    "$": "South China University of Technology"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60024542",
+                  "@dptid": "107046592"
+                },
+                "@affiliation-instance-id": "S0959652619317755-deee86525d24fa6405782933e1da55f7",
+                "ce:source-text": "The State Key Laboratory of Subtropical Architecture Science, South China University of Technology, Guangzhou, 510640, China",
+                "@dptid": "107046592"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Yibo",
+                  "preferred-name": {
+                    "ce:given-name": "Yibo",
+                    "ce:initials": "Y.",
+                    "ce:surname": "Yang",
+                    "ce:indexed-name": "Yang Y."
+                  },
+                  "@author-instance-id": "S0959652619317755-6e4591a6db15b572cf1be984b2bba430",
+                  "@seq": "5",
+                  "ce:initials": "Y.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Yang",
+                  "@auid": "14059351500",
+                  "ce:indexed-name": "Yang Y."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "510620",
+                "@afid": "100940340",
+                "@country": "chn",
+                "city": "Guangzhou",
+                "organization": [
+                  {
+                    "$": "Guangdong Foundation Engineering Group CO."
+                  },
+                  {
+                    "$": "LTD"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "100940340"
+                },
+                "@affiliation-instance-id": "S0959652619317755-3578da73bf1e68b67a27bfa166026274",
+                "ce:source-text": "Guangdong Foundation Engineering Group CO., LTD, Guangzhou, 510620, China"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Yangjin",
+                  "preferred-name": {
+                    "ce:given-name": "Yangjin",
+                    "ce:initials": "Y.",
+                    "ce:surname": "Shen",
+                    "ce:indexed-name": "Shen Y."
+                  },
+                  "@author-instance-id": "S0959652619317755-e07c0028819fefb1f013cc9278acef1c",
+                  "@seq": "7",
+                  "ce:initials": "Y.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Shen",
+                  "@auid": "57209246748",
+                  "ce:indexed-name": "Shen Y."
+                }
+              ]
+            }
+          ],
+          "citation-title": "Impact performance of new prestressed high-performance concrete pipe piles manufactured with an environmentally friendly technique",
+          "abstracts": "© 2019 Elsevier LtdTo satisfy the requirements of energy reduction, environmental protection, and cost reduction, a new environmentally friendly technique of prestressed high-performance concrete (PHC) pipe piles without the high temperature and pressure steam curing step was proposed in this paper. An impact performance test on four PHC pipe piles manufactured with the traditional and new processing techniques was conducted. Five impact levels with the hammer heights of 6.3 m, 4.2 m, 1.6 m, 1.1 m and 0.6 m were considered in the test. The failure modes were presented. The impact force, strain, and energy absorption capacity of two kinds of PHC pipe piles were measured and discussed. Finally, finite element simulations with non-linear code LS-DYNA were performed to further understand the impact response of the pile specimens. It is found that (1) the PHC pipe piles manufactured with traditional and new processing techniques had good impact performance; (2) the impact force and the maximum axial strain increased with the increase of the hammer height (or impact energy); (4) two kinds of pile specimens had similar energy absorption capabilities under impact loadings; and (5) the finite element model can fully simulate the impact performance of PHC pipe piles.",
+          "correspondence": {
+            "affiliation": {
+              "country": "China",
+              "address-part": "No. 100, Outer Ring Road, Panyu District",
+              "@country": "chn",
+              "city": "Guangzhou",
+              "state": "Guangdong",
+              "ce:source-text": "No. 100, Outer Ring Road, Panyu District, Guangzhou, Guangdong, China"
+            },
+            "person": {
+              "ce:given-name": "Zhe",
+              "ce:initials": "Z.",
+              "ce:surname": "Xiong",
+              "ce:indexed-name": "Xiong Z."
+            }
+          },
+          "citation-info": {
+            "author-keywords": {
+              "author-keyword": [
+                {
+                  "$": "Energy reduction",
+                  "@xml:lang": "eng"
+                },
+                {
+                  "$": "Finite element simulation",
+                  "@xml:lang": "eng"
+                },
+                {
+                  "$": "Impact performance test",
+                  "@xml:lang": "eng"
+                },
+                {
+                  "$": "New environmentally friendly technique",
+                  "@xml:lang": "eng"
+                },
+                {
+                  "$": "PHC pipe piles",
+                  "@xml:lang": "eng"
+                }
+              ]
+            },
+            "citation-type": {
+              "@code": "ar"
+            },
+            "citation-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "abstract-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            }
+          },
+          "source": {
+            "website": {
+              "ce:e-address": {
+                "$": "https://www.journals.elsevier.com/journal-of-cleaner-production",
+                "@type": "email"
+              }
+            },
+            "translated-sourcetitle": {
+              "$": "Journal of Cleaner Production",
+              "@xml:lang": "eng"
+            },
+            "volisspag": {
+              "voliss": {
+                "@volume": "231"
+              },
+              "pagerange": {
+                "@first": "683",
+                "@last": "697"
+              }
+            },
+            "@type": "j",
+            "sourcetitle": "Journal of Cleaner Production",
+            "publicationdate": {
+              "month": "09",
+              "year": "2019",
+              "date-text": "10 September 2019",
+              "day": "10"
+            },
+            "codencode": "JCROE",
+            "sourcetitle-abbrev": "J. Clean. Prod.",
+            "@country": "gbr",
+            "issn": {
+              "$": "09596526",
+              "@type": "print"
+            },
+            "publicationyear": {
+              "@first": "2019"
+            },
+            "publisher": {
+              "publishername": "Elsevier Ltd"
+            },
+            "@srcid": "19167"
+          },
+          "enhancement": {
+            "classificationgroup": {
+              "classifications": [
+                {
+                  "@type": "CPXCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "408.2",
+                      "classification-description": "Structural Members and Shapes"
+                    },
+                    {
+                      "classification-code": "412",
+                      "classification-description": "Concrete"
+                    },
+                    {
+                      "classification-code": "605.2",
+                      "classification-description": "Small Tools, Unpowered"
+                    },
+                    {
+                      "classification-code": "921.6",
+                      "classification-description": "Numerical Methods"
+                    }
+                  ]
+                },
+                {
+                  "@type": "FLXCLASS",
+                  "classification": {
+                    "classification-code": "902",
+                    "classification-description": "FLUIDEX; Related Topics"
+                  }
+                },
+                {
+                  "@type": "ASJC",
+                  "classification": [
+                    {
+                      "$": "2105"
+                    },
+                    {
+                      "$": "2300"
+                    },
+                    {
+                      "$": "1408"
+                    },
+                    {
+                      "$": "2209"
+                    }
+                  ]
+                },
+                {
+                  "@type": "SUBJABBR",
+                  "classification": [
+                    {
+                      "$": "ENER"
+                    },
+                    {
+                      "$": "ENVI"
+                    },
+                    {
+                      "$": "BUSI"
+                    },
+                    {
+                      "$": "ENGI"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "grantlist": {
+            "@complete": "y",
+            "grant-text": {
+              "$": "The authors gratefully acknowledge the financial support provided by the National Natural Science Foundation of China [grant numbers: 11472084 and 51278132]; the Science and Technology Project of Guangdong Province [grant number 2017B020238006]; the Science and Technology Major Project of Guangdong Province [grant number 2012A010800029]; and the Science and Technology Planning Project of Guangzhou City [grant number 201704030057].",
+              "@xml:lang": "eng"
+            },
+            "grant": [
+              {
+                "grant-id": "11472084",
+                "grant-acronym": "NSFC",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "National Natural Science Foundation of China"
+                },
+                "grant-agency-id": "501100001809"
+              },
+              {
+                "grant-id": "51278132",
+                "grant-acronym": "NSFC",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "National Natural Science Foundation of China"
+                },
+                "grant-agency-id": "501100001809"
+              }
+            ]
+          }
+        },
+        "item-info": {
+          "copyright": {
+            "$": "Copyright 2019 Elsevier B.V., All rights reserved.",
+            "@type": "Elsevier"
+          },
+          "dbcollection": [
+            {
+              "$": "CHEM"
+            },
+            {
+              "$": "CPX"
+            },
+            {
+              "$": "EMBIO"
+            },
+            {
+              "$": "REAXYSCAR"
+            },
+            {
+              "$": "SCOPUS"
+            },
+            {
+              "$": "Scopusbase"
+            }
+          ],
+          "history": {
+            "date-created": {
+              "@day": "15",
+              "@timestamp": "BST 09:01:23",
+              "@year": "2019",
+              "@month": "06"
+            }
+          },
+          "itemidlist": {
+            "itemid": [
+              {
+                "$": "2002096477",
+                "@idtype": "PUI"
+              },
+              {
+                "$": "918001487",
+                "@idtype": "CAR-ID"
+              },
+              {
+                "$": "2019122185",
+                "@idtype": "CHEM"
+              },
+              {
+                "$": "20192407047736",
+                "@idtype": "CPX"
+              },
+              {
+                "$": "2018176784",
+                "@idtype": "EMBIO"
+              },
+              {
+                "$": "20191108734",
+                "@idtype": "REAXYSCAR"
+              },
+              {
+                "$": "20191663274",
+                "@idtype": "SCOPUS"
+              },
+              {
+                "$": "85067083592",
+                "@idtype": "SCP"
+              },
+              {
+                "$": "85067083592",
+                "@idtype": "SGR"
+              }
+            ],
+            "ce:pii": "S0959652619317755",
+            "ce:ern": "pii:S0959652619317755",
+            "ce:doi": "10.1016/j.jclepro.2019.05.241"
+          }
+        },
+        "tail": {
+          "bibliography": {
+            "@refcount": "24",
+            "reference": [
+              {
+                "ref-fulltext": "American Concrete Institute, ACI Committee 318: Building Code Requirements for Reinforced Concrete and Commentary. 1989, ACI, Farmington Hills, MI.",
+                "@id": "1",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1989"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "ACI Committee 318: Building Code Requirements for Reinforced Concrete and Commentary"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib1",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "78651265757",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "ACI Farmington Hills, MI",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "@_fa": "true",
+                        "ce:surname": "American Concrete Institute",
+                        "ce:indexed-name": "American Concrete Institute"
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "American Concrete Institute, ACI Committee 318: Building Code Requirements for Reinforced Concrete and Commentary. 1989, ACI, Farmington Hills, MI."
+              },
+              {
+                "ref-fulltext": "Chinese standard, JGJ 55, Specification for Mix Proportion Design of Ordinary Concrete. Beijing. 2011.",
+                "@id": "2",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Specification for Mix Proportion Design of Ordinary Concrete. Beijing"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib2",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84859180868",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "@_fa": "true",
+                        "ce:surname": "Chinese standard, JGJ 55",
+                        "ce:indexed-name": "Chinese standard, JGJ 55"
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Chinese standard, JGJ 55, Specification for Mix Proportion Design of Ordinary Concrete. Beijing. 2011."
+              },
+              {
+                "ref-fulltext": "Chinese standard, JGJ/T 281, Technical Specification for Application of High Strength Concrete. Beijing. 2012.",
+                "@id": "3",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Technical Specification for Application of High Strength Concrete. Beijing"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib4",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84969159776",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "@_fa": "true",
+                        "ce:surname": "Chinese standard, JGJ/T 281",
+                        "ce:indexed-name": "Chinese standard, JGJ/T 281"
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Chinese standard, JGJ/T 281, Technical Specification for Application of High Strength Concrete. Beijing. 2012."
+              },
+              {
+                "ref-fulltext": "Chinese standard, T/CBMF 27, Methods and Requirements of Low-Carbon Products Evaluation for Ready-Mixed Concrete. Beijing. 2018.",
+                "@id": "4",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Methods and Requirements of Low-Carbon Products Evaluation for Ready-Mixed Concrete. Beijing"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib5",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85067038239",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "@_fa": "true",
+                        "ce:surname": "Chinese standard, T/CBMF 27",
+                        "ce:indexed-name": "Chinese standard, T/CBMF 27"
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Chinese standard, T/CBMF 27, Methods and Requirements of Low-Carbon Products Evaluation for Ready-Mixed Concrete. Beijing. 2018."
+              },
+              {
+                "ref-fulltext": "Flynn, K.N., Mccabe, B.A., Energy Transfer Ratio for Hydraulic Pile Driving Hammers. Civil Engineering Research in Ireland 2016. 2016, National University of Ireland Galway, Galway.",
+                "@id": "5",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Energy Transfer Ratio for Hydraulic Pile Driving Hammers. Civil Engineering Research in Ireland 2016"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib6",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85067045054",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "National University of Ireland Galway Galway",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Flynn",
+                        "ce:indexed-name": "Flynn K.N."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "B.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Mccabe",
+                        "ce:indexed-name": "Mccabe B.A."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Flynn, K.N., Mccabe, B.A., Energy Transfer Ratio for Hydraulic Pile Driving Hammers. Civil Engineering Research in Ireland 2016. 2016, National University of Ireland Galway, Galway."
+              },
+              {
+                "ref-fulltext": "Grizi, A., Athanasopoulos-Zekkos, A., Woods, R.D., Ground vibration measurements near impact pile driving. J. Geotech. Geoenviron. Eng., 142(8), 2016, 04016035 https://doi.org/10.1061/(ASCE)GT.1943-5606.0001499.",
+                "@id": "6",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Ground vibration measurements near impact pile driving"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1061/(ASCE)GT.1943-5606.0001499",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib7",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "04016035",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "84978657971",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "142",
+                      "@issue": "8"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Grizi",
+                        "ce:indexed-name": "Grizi A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Athanasopoulos-Zekkos",
+                        "ce:indexed-name": "Athanasopoulos-Zekkos A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "R.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Woods",
+                        "ce:indexed-name": "Woods R.D."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Geotech. Geoenviron. Eng."
+                },
+                "ce:source-text": "Grizi, A., Athanasopoulos-Zekkos, A., Woods, R.D., Ground vibration measurements near impact pile driving. J. Geotech. Geoenviron. Eng., 142(8), 2016, 04016035 https://doi.org/10.1061/(ASCE)GT.1943-5606.0001499."
+              },
+              {
+                "ref-fulltext": "Han, S., Plank, J., Mechanistic study on the effect of sulfate ions on polycarboxylate superplasticisers in cement. Adv. Cem. Res. 25:4 (2013), 200–207 https://doi.org/10.1680/adcr.12.00002.",
+                "@id": "7",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Mechanistic study on the effect of sulfate ions on polycarboxylate superplasticisers in cement"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1680/adcr.12.00002",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib8",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84892395520",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "25",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "200",
+                      "@last": "207"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Han",
+                        "ce:indexed-name": "Han S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Plank",
+                        "ce:indexed-name": "Plank J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Adv. Cem. Res."
+                },
+                "ce:source-text": "Han, S., Plank, J., Mechanistic study on the effect of sulfate ions on polycarboxylate superplasticisers in cement. Adv. Cem. Res. 25:4 (2013), 200–207 https://doi.org/10.1680/adcr.12.00002."
+              },
+              {
+                "ref-fulltext": "Huang, H.L., Qian, C.X., Zhao, F., et al. Improvement on microstructure of concrete by polycarboxylate superplasticizer (PCE) and its influence on durability of concrete. Constr. Build. Mater. 110 (2016), 293–299 https://doi.org/10.1016/j.conbuildmat.2016.02.041.",
+                "@id": "8",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Improvement on microstructure of concrete by polycarboxylate superplasticizer (PCE) and its influence on durability of concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.conbuildmat.2016.02.041",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib9",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84959291799",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "110"
+                    },
+                    "pagerange": {
+                      "@first": "293",
+                      "@last": "299"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang H.L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.X.",
+                        "@_fa": "true",
+                        "ce:surname": "Qian",
+                        "ce:indexed-name": "Qian C.X."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao F."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "Huang, H.L., Qian, C.X., Zhao, F., et al. Improvement on microstructure of concrete by polycarboxylate superplasticizer (PCE) and its influence on durability of concrete. Constr. Build. Mater. 110 (2016), 293–299 https://doi.org/10.1016/j.conbuildmat.2016.02.041."
+              },
+              {
+                "ref-fulltext": "Jang, H.S., Jeon, S.H., So, H.S., A study of the possibility of using TFT-LCD waste glass as an admixture for steam-cured PHC piles. Mag. Concr. Res. 66:4 (2014), 196–208 https://doi.org/10.4191/KCERS.2010.47.5.419.",
+                "@id": "9",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A study of the possibility of using TFT-LCD waste glass as an admixture for steam-cured PHC piles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.4191/KCERS.2010.47.5.419",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib10",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84896785654",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "66",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "196",
+                      "@last": "208"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Jang",
+                        "ce:indexed-name": "Jang H.S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Jeon",
+                        "ce:indexed-name": "Jeon S.H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.S.",
+                        "@_fa": "true",
+                        "ce:surname": "So",
+                        "ce:indexed-name": "So H.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Mag. Concr. Res."
+                },
+                "ce:source-text": "Jang, H.S., Jeon, S.H., So, H.S., A study of the possibility of using TFT-LCD waste glass as an admixture for steam-cured PHC piles. Mag. Concr. Res. 66:4 (2014), 196–208 https://doi.org/10.4191/KCERS.2010.47.5.419."
+              },
+              {
+                "ref-fulltext": "Johnson, G.R., Holmquist, T.J., A computational constitutive model for brittle materials subjected to large strains, high strain rates and high pressures. Shock-Wave and High-Strain-Rate Phenomena in Materials, 1990, 1075–1081 https://doi.org/10.1115/1.4004326.",
+                "@id": "10",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1990"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A computational constitutive model for brittle materials subjected to large strains, high strain rates and high pressures"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1115/1.4004326",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib11",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "79961211843",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "1075",
+                      "@last": "1081"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Johnson",
+                        "ce:indexed-name": "Johnson G.R."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Holmquist",
+                        "ce:indexed-name": "Holmquist T.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Shock-Wave and High-Strain-Rate Phenomena in Materials"
+                },
+                "ce:source-text": "Johnson, G.R., Holmquist, T.J., A computational constitutive model for brittle materials subjected to large strains, high strain rates and high pressures. Shock-Wave and High-Strain-Rate Phenomena in Materials, 1990, 1075–1081 https://doi.org/10.1115/1.4004326."
+              },
+              {
+                "ref-fulltext": "Justason, M.D., Intelligent pile-driving with a diesel impact hammer. International Foundation Congress and Equipment Expo 2009, March 15-19, 2009, Orlando, Florida, United States, 2009 https://doi.org/10.1061/41021(335)36.",
+                "@id": "11",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Intelligent pile-driving with a diesel impact hammer"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1061/41021(335)36",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib12",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "69949106759",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Justason",
+                        "ce:indexed-name": "Justason M.D."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "International Foundation Congress and Equipment Expo 2009, March 15-19, 2009, Orlando, Florida, United States"
+                },
+                "ce:source-text": "Justason, M.D., Intelligent pile-driving with a diesel impact hammer. International Foundation Congress and Equipment Expo 2009, March 15-19, 2009, Orlando, Florida, United States, 2009 https://doi.org/10.1061/41021(335)36."
+              },
+              {
+                "ref-fulltext": "Kou, H.L., Chu, J., Guo, W., et al. Field study of residual forces developed in PHC pipe piles. Can. Geotech. J. 53:4 (2016), 696–707 https://doi.org/10.1139/cgj-2015-0177.",
+                "@id": "12",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Field study of residual forces developed in PHC pipe piles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1139/cgj-2015-0177",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib13",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84962019955",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "53",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "696",
+                      "@last": "707"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Kou",
+                        "ce:indexed-name": "Kou H.L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Chu",
+                        "ce:indexed-name": "Chu J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Guo",
+                        "ce:indexed-name": "Guo W."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Can. Geotech. J."
+                },
+                "ce:source-text": "Kou, H.L., Chu, J., Guo, W., et al. Field study of residual forces developed in PHC pipe piles. Can. Geotech. J. 53:4 (2016), 696–707 https://doi.org/10.1139/cgj-2015-0177."
+              },
+              {
+                "ref-fulltext": "Kou, H.L., Guo, W., Zhang, M.Y., Field study of set-up effect in open-ended PHC pipe piles. Mar. Georesour. Geotechnol. 35:2 (2017), 208–215 https://doi.org/10.1080/1064119X.2015.1133742.",
+                "@id": "13",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Field study of set-up effect in open-ended PHC pipe piles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1080/1064119X.2015.1133742",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib14",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84973121745",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "35",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "208",
+                      "@last": "215"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Kou",
+                        "ce:indexed-name": "Kou H.L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Guo",
+                        "ce:indexed-name": "Guo W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang M.Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Mar. Georesour. Geotechnol."
+                },
+                "ce:source-text": "Kou, H.L., Guo, W., Zhang, M.Y., Field study of set-up effect in open-ended PHC pipe piles. Mar. Georesour. Geotechnol. 35:2 (2017), 208–215 https://doi.org/10.1080/1064119X.2015.1133742."
+              },
+              {
+                "ref-fulltext": "Li, G.W., Pei, H.F., Yin, J.H., et al. Monitoring and analysis of PHC pipe piles under hydraulic jacking using FBG sensing technology. Measurement 49 (2014), 358–367 https://doi.org/10.1016/j.measurement.2013.11.046.",
+                "@id": "14",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Monitoring and analysis of PHC pipe piles under hydraulic jacking using FBG sensing technology"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.measurement.2013.11.046",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib15",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84891721743",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "49"
+                    },
+                    "pagerange": {
+                      "@first": "358",
+                      "@last": "367"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li G.W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Pei",
+                        "ce:indexed-name": "Pei H.F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Yin",
+                        "ce:indexed-name": "Yin J.H."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Measurement"
+                },
+                "ce:source-text": "Li, G.W., Pei, H.F., Yin, J.H., et al. Monitoring and analysis of PHC pipe piles under hydraulic jacking using FBG sensing technology. Measurement 49 (2014), 358–367 https://doi.org/10.1016/j.measurement.2013.11.046."
+              },
+              {
+                "ref-fulltext": "Lu, X.C., Li, G.W., Pei, H.F., et al. Experimental investigations on load transfer of PHC piles in highway foundation using FBG sensing technology. Int. J. Geomech., 17(6), 2016 https://doi.org/10.1061/(ASCE)GM.1943-5622.0000797.",
+                "@id": "15",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental investigations on load transfer of PHC piles in highway foundation using FBG sensing technology"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1061/(ASCE)GM.1943-5622.0000797",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib16",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85017502222",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "17",
+                      "@issue": "6"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Lu",
+                        "ce:indexed-name": "Lu X.C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li G.W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Pei",
+                        "ce:indexed-name": "Pei H.F."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Int. J. Geomech."
+                },
+                "ce:source-text": "Lu, X.C., Li, G.W., Pei, H.F., et al. Experimental investigations on load transfer of PHC piles in highway foundation using FBG sensing technology. Int. J. Geomech., 17(6), 2016 https://doi.org/10.1061/(ASCE)GM.1943-5622.0000797."
+              },
+              {
+                "ref-fulltext": "Muhammad, F., Huang, X., Li, S., et al. Strength evaluation by using polycarboxylate superplasticizer and solidification efficiency of Cr6+, Pb2+and Cd2+in composite based geopolymer. J. Clean. Prod. 188 (2018), 807–815 https://doi.org/10.1016/j.jclepro.2018.04.033.",
+                "@id": "16",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Strength evaluation by using polycarboxylate superplasticizer and solidification efficiency of Cr6+, Pb2+and Cd2+in composite based geopolymer"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.jclepro.2018.04.033",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib17",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85047647615",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "188"
+                    },
+                    "pagerange": {
+                      "@first": "807",
+                      "@last": "815"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Muhammad",
+                        "ce:indexed-name": "Muhammad F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang X."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li S."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "J. Clean. Prod."
+                },
+                "ce:source-text": "Muhammad, F., Huang, X., Li, S., et al. Strength evaluation by using polycarboxylate superplasticizer and solidification efficiency of Cr6+, Pb2+ and Cd2+ in composite based geopolymer. J. Clean. Prod. 188 (2018), 807–815 https://doi.org/10.1016/j.jclepro.2018.04.033."
+              },
+              {
+                "ref-fulltext": "Paik, K., Salgado, R., Lee, J., et al. Behavior of open- and closed-ended piles driven into sands. J. Geotech. Geoenviron. Eng. 129:4 (2003), 296–306 https://doi.org/10.1061/(ASCE)1090-0241(2003)129:4(296).",
+                "@id": "17",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2003"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Behavior of open- and closed-ended piles driven into sands"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1061/(ASCE)1090-0241(2003)129:4(296)",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib18",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0038237364",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "129",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "296",
+                      "@last": "306"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Paik",
+                        "ce:indexed-name": "Paik K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Salgado",
+                        "ce:indexed-name": "Salgado R."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee J."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "J. Geotech. Geoenviron. Eng."
+                },
+                "ce:source-text": "Paik, K., Salgado, R., Lee, J., et al. Behavior of open- and closed-ended piles driven into sands. J. Geotech. Geoenviron. Eng. 129:4 (2003), 296–306 https://doi.org/10.1061/(ASCE)1090-0241(2003)129:4(296)."
+              },
+              {
+                "ref-fulltext": "Peng, B., Influence of Steam-Curing System on Performance of High Strength Concrete. 2007, Wuhan University of Technology, Wuhan, China.",
+                "@id": "18",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Influence of Steam-Curing System on Performance of High Strength Concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib21",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "79961223087",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Wuhan University of Technology Wuhan, China",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Peng",
+                        "ce:indexed-name": "Peng B."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Peng, B., Influence of Steam-Curing System on Performance of High Strength Concrete. 2007, Wuhan University of Technology, Wuhan, China."
+              },
+              {
+                "ref-fulltext": "Ren, G., Wu, H., Fang, Q., et al. Parameters of Holmquist-Johnson-Cook model for high-strength concrete-like materials under projectile impact. International Journal of Protective Structures 8:3 (2017), 352–367 https://doi.org/10.1177/2041419617721552.",
+                "@id": "19",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Parameters of Holmquist-Johnson-Cook model for high-strength concrete-like materials under projectile impact"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1177/2041419617721552",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib22",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85029610653",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "8",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "352",
+                      "@last": "367"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Ren",
+                        "ce:indexed-name": "Ren G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Fang",
+                        "ce:indexed-name": "Fang Q."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "International Journal of Protective Structures"
+                },
+                "ce:source-text": "Ren, G., Wu, H., Fang, Q., et al. Parameters of Holmquist-Johnson-Cook model for high-strength concrete-like materials under projectile impact. International Journal of Protective Structures 8:3 (2017), 352–367 https://doi.org/10.1177/2041419617721552."
+              },
+              {
+                "ref-fulltext": "Rong, X., Wang, X.Y., Li, Y.Y., Experimental study on seismic behavior of PHC pipe piles with steel fibers. Building Structure 44:8 (2014), 10–14.",
+                "@id": "20",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental study on seismic behavior of PHC pipe piles with steel fibers"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib23",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85024879813",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "44",
+                      "@issue": "8"
+                    },
+                    "pagerange": {
+                      "@first": "10",
+                      "@last": "14"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Rong",
+                        "ce:indexed-name": "Rong X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang X.Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li Y.Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Building Structure"
+                },
+                "ce:source-text": "Rong, X., Wang, X.Y., Li, Y.Y., Experimental study on seismic behavior of PHC pipe piles with steel fibers. Building Structure 44:8 (2014), 10–14."
+              },
+              {
+                "ref-fulltext": "Si, R.Z., Wang, J.Q., Guo, S.C., et al. Evaluation of laboratory performance of self-consolidating concrete with recycled tire rubber. J. Clean. Prod. 180 (2018), 823–831 https://doi.org/10.1016/j.jclepro.2018.01.180.",
+                "@id": "21",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Evaluation of laboratory performance of self-consolidating concrete with recycled tire rubber"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.jclepro.2018.01.180",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib24",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85042083519",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "180"
+                    },
+                    "pagerange": {
+                      "@first": "823",
+                      "@last": "831"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Si",
+                        "ce:indexed-name": "Si R.Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang J.Q."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Guo",
+                        "ce:indexed-name": "Guo S.C."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "J. Clean. Prod."
+                },
+                "ce:source-text": "Si, R.Z., Wang, J.Q., Guo, S.C., et al. Evaluation of laboratory performance of self-consolidating concrete with recycled tire rubber. J. Clean. Prod. 180 (2018), 823–831 https://doi.org/10.1016/j.jclepro.2018.01.180."
+              },
+              {
+                "ref-fulltext": "Tan, Y., Lan, H.L., Vibration effects attributable to driving of PHC pipe piles. J. Perform. Constr. Facil. 26:5 (2012), 679–690 https://doi.org/10.1061/(ASCE)CF.1943-5509.0000278.",
+                "@id": "22",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Vibration effects attributable to driving of PHC pipe piles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1061/(ASCE)CF.1943-5509.0000278",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib25",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84873861262",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "26",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "679",
+                      "@last": "690"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Tan",
+                        "ce:indexed-name": "Tan Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Lan",
+                        "ce:indexed-name": "Lan H.L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Perform. Constr. Facil."
+                },
+                "ce:source-text": "Tan, Y., Lan, H.L., Vibration effects attributable to driving of PHC pipe piles. J. Perform. Constr. Facil. 26:5 (2012), 679–690 https://doi.org/10.1061/(ASCE)CF.1943-5509.0000278."
+              },
+              {
+                "ref-fulltext": "Wei, D.M., Wang, P., In vestigation on corrosion of welded joint of prestressed high-strength concrete pipe piles. Procedia Engineering 210 (2017), 79–86 https://doi.org/10.1016/j.proeng.2017.11.051.",
+                "@id": "23",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "In vestigation on corrosion of welded joint of prestressed high-strength concrete pipe piles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.proeng.2017.11.051",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib26",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85042631712",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "210"
+                    },
+                    "pagerange": {
+                      "@first": "79",
+                      "@last": "86"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Wei",
+                        "ce:indexed-name": "Wei D.M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang P."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Procedia Engineering"
+                },
+                "ce:source-text": "Wei, D.M., Wang, P., In vestigation on corrosion of welded joint of prestressed high-strength concrete pipe piles. Procedia Engineering 210 (2017), 79–86 https://doi.org/10.1016/j.proeng.2017.11.051."
+              },
+              {
+                "ref-fulltext": "Zhan, Y., Yang, Y.B., Wu, X.H., et al. Experimental study on non-autoclaved PHC pile concrete applying polycarboxylate superplasticizer. Key Eng. Mater. 629–630 (2014), 345–350 https://doi.org/10.4028/www.scientific.net/KEM.629-630.345.",
+                "@id": "24",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental study on non-autoclaved PHC pile concrete applying polycarboxylate superplasticizer"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.4028/www.scientific.net/KEM.629-630.345",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib27",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84920747145",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "629-630"
+                    },
+                    "pagerange": {
+                      "@first": "345",
+                      "@last": "350"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhan",
+                        "ce:indexed-name": "Zhan Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang Y.B."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu X.H."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Key Eng. Mater."
+                },
+                "ce:source-text": "Zhan, Y., Yang, Y.B., Wu, X.H., et al. Experimental study on non-autoclaved PHC pile concrete applying polycarboxylate superplasticizer. Key Eng. Mater. 629–630 (2014), 345–350 https://doi.org/10.4028/www.scientific.net/KEM.629-630.345."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "affiliation": [
+      {
+        "affiliation-city": "Guangzhou",
+        "@id": "60024542",
+        "affilname": "South China University of Technology",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60024542",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Guangzhou",
+        "@id": "60007155",
+        "affilname": "Guangdong University of Technology",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60007155",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Guangzhou",
+        "@id": "100940340",
+        "affilname": "Guangdong Foundation Engineering Company",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/100940340",
+        "affiliation-country": "China"
+      }
+    ],
+    "coredata": {
+      "srctype": "j",
+      "eid": "2-s2.0-85067083592",
+      "dc:description": "To satisfy the requirements of energy reduction, environmental protection, and cost reduction, a new environmentally friendly technique of prestressed high-performance concrete (PHC) pipe piles without the high temperature and pressure steam curing step was proposed in this paper. An impact performance test on four PHC pipe piles manufactured with the traditional and new processing techniques was conducted. Five impact levels with the hammer heights of 6.3 m, 4.2 m, 1.6 m, 1.1 m and 0.6 m were considered in the test. The failure modes were presented. The impact force, strain, and energy absorption capacity of two kinds of PHC pipe piles were measured and discussed. Finally, finite element simulations with non-linear code LS-DYNA were performed to further understand the impact response of the pile specimens. It is found that (1) the PHC pipe piles manufactured with traditional and new processing techniques had good impact performance; (2) the impact force and the maximum axial strain increased with the increase of the hammer height (or impact energy); (4) two kinds of pile specimens had similar energy absorption capabilities under impact loadings; and (5) the finite element model can fully simulate the impact performance of PHC pipe piles.",
+      "prism:coverDate": "2019-09-10",
+      "prism:aggregationType": "Journal",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85067083592",
+      "dc:creator": {
+        "author": [
+          {
+            "ce:given-name": "Feng",
+            "preferred-name": {
+              "ce:given-name": "Feng",
+              "ce:initials": "F.",
+              "ce:surname": "Liu",
+              "ce:indexed-name": "Liu F."
+            },
+            "@seq": "1",
+            "ce:initials": "F.",
+            "@_fa": "true",
+            "affiliation": {
+              "@id": "60007155",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60007155"
+            },
+            "ce:surname": "Liu",
+            "@auid": "57188767097",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57188767097",
+            "ce:indexed-name": "Liu F."
+          }
+        ]
+      },
+      "link": [
+        {
+          "@_fa": "true",
+          "@rel": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85067083592"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85067083592&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85067083592&origin=inward"
+        }
+      ],
+      "source-id": "19167",
+      "pii": "S0959652619317755",
+      "citedby-count": "21",
+      "prism:volume": "231",
+      "subtype": "ar",
+      "dc:title": "Impact performance of new prestressed high-performance concrete pipe piles manufactured with an environmentally friendly technique",
+      "openaccess": "0",
+      "prism:issn": "09596526",
+      "publishercopyright": "© 2019 Elsevier Ltd",
+      "subtypeDescription": "Article",
+      "prism:publicationName": "Journal of Cleaner Production",
+      "prism:pageRange": "683-697",
+      "prism:endingPage": "697",
+      "openaccessFlag": "false",
+      "prism:doi": "10.1016/j.jclepro.2019.05.241",
+      "prism:startingPage": "683",
+      "dc:identifier": "SCOPUS_ID:85067083592",
+      "dc:publisher": "Elsevier Ltd"
+    },
+    "idxterms": {
+      "mainterm": [
+        {
+          "$": "Energy reduction",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Finite element simulations",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Impact performance",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "New environmentally friendly technique",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "PHC pipe piles",
+          "@weight": "b",
+          "@candidate": "n"
+        }
+      ]
+    },
+    "language": {
+      "@xml:lang": "eng"
+    },
+    "authkeywords": {
+      "author-keyword": [
+        {
+          "@_fa": "true",
+          "$": "Energy reduction"
+        },
+        {
+          "@_fa": "true",
+          "$": "Finite element simulation"
+        },
+        {
+          "@_fa": "true",
+          "$": "Impact performance test"
+        },
+        {
+          "@_fa": "true",
+          "$": "New environmentally friendly technique"
+        },
+        {
+          "@_fa": "true",
+          "$": "PHC pipe piles"
+        }
+      ]
+    },
+    "subject-areas": {
+      "subject-area": [
+        {
+          "@_fa": "true",
+          "$": "Renewable Energy, Sustainability and the Environment",
+          "@code": "2105",
+          "@abbrev": "ENER"
+        },
+        {
+          "@_fa": "true",
+          "$": "Environmental Science (all)",
+          "@code": "2300",
+          "@abbrev": "ENVI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Strategy and Management",
+          "@code": "1408",
+          "@abbrev": "BUSI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Industrial and Manufacturing Engineering",
+          "@code": "2209",
+          "@abbrev": "ENGI"
+        }
+      ]
+    },
+    "authors": {
+      "author": [
+        {
+          "ce:given-name": "Feng",
+          "preferred-name": {
+            "ce:given-name": "Feng",
+            "ce:initials": "F.",
+            "ce:surname": "Liu",
+            "ce:indexed-name": "Liu F."
+          },
+          "@seq": "1",
+          "ce:initials": "F.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60007155",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60007155"
+          },
+          "ce:surname": "Liu",
+          "@auid": "57188767097",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57188767097",
+          "ce:indexed-name": "Liu F."
+        },
+        {
+          "ce:given-name": "Wanhui",
+          "preferred-name": {
+            "ce:given-name": "Wanhui",
+            "ce:initials": "W.",
+            "ce:surname": "Feng",
+            "ce:indexed-name": "Feng W."
+          },
+          "@seq": "2",
+          "ce:initials": "W.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60007155",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60007155"
+          },
+          "ce:surname": "Feng",
+          "@auid": "57210103755",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57210103755",
+          "ce:indexed-name": "Feng W."
+        },
+        {
+          "ce:given-name": "Zhe",
+          "preferred-name": {
+            "ce:given-name": "Zhe",
+            "ce:initials": "Z.",
+            "ce:surname": "Xiong",
+            "ce:indexed-name": "Xiong Z."
+          },
+          "@seq": "3",
+          "ce:initials": "Z.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60007155",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60007155"
+          },
+          "ce:surname": "Xiong",
+          "@auid": "56260786600",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56260786600",
+          "ce:indexed-name": "Xiong Z."
+        },
+        {
+          "ce:given-name": "Lijuan",
+          "preferred-name": {
+            "ce:given-name": "Lijuan",
+            "ce:initials": "L.",
+            "ce:surname": "Li",
+            "ce:indexed-name": "Li L."
+          },
+          "@seq": "4",
+          "ce:initials": "L.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60007155",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60007155"
+          },
+          "ce:surname": "Li",
+          "@auid": "36065125900",
+          "author-url": "https://api.elsevier.com/content/author/author_id/36065125900",
+          "ce:indexed-name": "Li L."
+        },
+        {
+          "ce:given-name": "Yibo",
+          "preferred-name": {
+            "ce:given-name": "Yibo",
+            "ce:initials": "Y.",
+            "ce:surname": "Yang",
+            "ce:indexed-name": "Yang Y."
+          },
+          "@seq": "5",
+          "ce:initials": "Y.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "60024542",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60024542"
+            },
+            {
+              "@id": "60024542",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60024542"
+            }
+          ],
+          "ce:surname": "Yang",
+          "@auid": "14059351500",
+          "author-url": "https://api.elsevier.com/content/author/author_id/14059351500",
+          "ce:indexed-name": "Yang Y."
+        },
+        {
+          "ce:given-name": "Hai",
+          "preferred-name": {
+            "ce:given-name": "Hai",
+            "ce:initials": "H.",
+            "ce:surname": "Lin",
+            "ce:indexed-name": "Lin H."
+          },
+          "@seq": "6",
+          "ce:initials": "H.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60007155",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60007155"
+          },
+          "ce:surname": "Lin",
+          "@auid": "57220565488",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57220565488",
+          "ce:indexed-name": "Lin H."
+        },
+        {
+          "ce:given-name": "Yangjin",
+          "preferred-name": {
+            "ce:given-name": "Yangjin",
+            "ce:initials": "Y.",
+            "ce:surname": "Shen",
+            "ce:indexed-name": "Shen Y."
+          },
+          "@seq": "7",
+          "ce:initials": "Y.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "100940340",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/100940340"
+          },
+          "ce:surname": "Shen",
+          "@auid": "57209246748",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57209246748",
+          "ce:indexed-name": "Shen Y."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2720 @@
+{
+  "abstracts-retrieval-response": {
+    "item": {
+      "ait:process-info": {
+        "ait:status": {
+          "@state": "update",
+          "@type": "core",
+          "@stage": "S300"
+        },
+        "ait:date-delivered": {
+          "@day": "17",
+          "@timestamp": "2025-10-17T13:25:40.000040-04:00",
+          "@year": "2025",
+          "@month": "10"
+        },
+        "ait:date-sort": {
+          "@day": "01",
+          "@year": "2023",
+          "@month": "04"
+        }
+      },
+      "xocs:meta": {
+        "xocs:funding-list": {
+          "@pui-match": "primary",
+          "@has-funding-info": "1",
+          "xocs:funding": [
+            {
+              "xocs:funding-agency-matched-string": "National Natural Science Foundation of China",
+              "xocs:funding-agency-acronym": "NSFC",
+              "xocs:funding-agency": "National Natural Science Foundation of China",
+              "xocs:funding-id": "52071290",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "National Natural Science Foundation of China",
+              "xocs:funding-agency-acronym": "NSFC",
+              "xocs:funding-agency": "National Natural Science Foundation of China",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            }
+          ],
+          "xocs:funding-addon-generated-timestamp": "2023-03-10T00:48:26.482Z",
+          "xocs:funding-text": "The authors acknowledge the financial supports from the National Natural Science Foundation of China (Grant number: 52071290).",
+          "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }
+      },
+      "bibrecord": {
+        "head": {
+          "author-group": [
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "310058",
+                "@afid": "60117841",
+                "@country": "chn",
+                "city": "Hangzhou",
+                "organization": [
+                  {
+                    "$": "Department of Civil Engineering"
+                  },
+                  {
+                    "$": "Zhejiang University"
+                  }
+                ],
+                "affiliation-id": [
+                  {
+                    "@afid": "60117841"
+                  },
+                  {
+                    "@afid": "60003970"
+                  }
+                ],
+                "@affiliation-instance-id": "S2352012423002655-4e84d81149dfc844af19e1ded365d662",
+                "ce:source-text": "Department of Civil Engineering, Zhejiang University, Hangzhou 310058, China"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Junwei",
+                  "preferred-name": {
+                    "ce:given-name": "Junwei",
+                    "ce:initials": "J.",
+                    "ce:surname": "Ren",
+                    "ce:indexed-name": "Ren J."
+                  },
+                  "@author-instance-id": "OB2BibRecID-946432856-2896c0d19291773b02eca82d2f84e813-1",
+                  "@seq": "1",
+                  "ce:initials": "J.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Ren",
+                  "@auid": "57311073500",
+                  "ce:indexed-name": "Ren J."
+                },
+                {
+                  "ce:given-name": "Shunfeng",
+                  "preferred-name": {
+                    "ce:given-name": "Shunfeng",
+                    "ce:initials": "S.",
+                    "ce:surname": "Gong",
+                    "ce:indexed-name": "Gong S."
+                  },
+                  "@author-instance-id": "OB2BibRecID-946432856-22077e6be6fc4a65bde26704a54cac99-1",
+                  "@seq": "5",
+                  "ce:initials": "S.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Gong",
+                  "@auid": "7203001478",
+                  "ce:indexed-name": "Gong S."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "310028",
+                "@afid": "60342457",
+                "@country": "chn",
+                "city": "Hangzhou",
+                "organization": [
+                  {
+                    "$": "Architectural Design & Research Institute of Zhejiang University Co. Ltd."
+                  },
+                  {
+                    "$": "Research Center for Balance Architecture"
+                  },
+                  {
+                    "$": "Zhejiang University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60342457",
+                  "@dptid": "133182500"
+                },
+                "@affiliation-instance-id": "S2352012423002655-7bf40747fc8bac6b2ab52a5aa87186aa",
+                "ce:source-text": "Architectural Design & Research Institute of Zhejiang University Co. Ltd., and Research Center for Balance Architecture, Zhejiang University, Hangzhou 310028, China",
+                "@dptid": "133182500"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Quanbiao",
+                  "preferred-name": {
+                    "ce:given-name": "Quanbiao",
+                    "ce:initials": "Q.",
+                    "ce:surname": "Xu",
+                    "ce:indexed-name": "Xu Q."
+                  },
+                  "@author-instance-id": "OB2BibRecID-946432856-1133ebf66ef4add18fc2a6cd25302752-1",
+                  "@seq": "2",
+                  "ce:initials": "Q.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Xu",
+                  "@auid": "7403744032",
+                  "ce:indexed-name": "Xu Q."
+                },
+                {
+                  "ce:given-name": "Gang",
+                  "preferred-name": {
+                    "ce:given-name": "Gang",
+                    "ce:initials": "G.",
+                    "ce:surname": "Chen",
+                    "ce:indexed-name": "Chen G."
+                  },
+                  "@author-instance-id": "OB2BibRecID-946432856-4ad1e3831ace6fd0c617c0fb1cd446e1-1",
+                  "@seq": "3",
+                  "ce:initials": "G.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Chen",
+                  "@auid": "57113788000",
+                  "ce:indexed-name": "Chen G."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "315450",
+                "@afid": "128052421",
+                "@country": "chn",
+                "city": "Ningbo",
+                "organization": {
+                  "$": "Ningbo Yizhong Concrete Pile Co. Ltd."
+                },
+                "affiliation-id": {
+                  "@afid": "128052421"
+                },
+                "@affiliation-instance-id": "S2352012423002655-5e2691c08d0bb98c4a72167d8b0e76fd",
+                "ce:source-text": "Ningbo Yizhong Concrete Pile Co. Ltd., Ningbo 315450, China"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Xiaodong",
+                  "preferred-name": {
+                    "ce:given-name": "Xiaodong",
+                    "ce:initials": "X.",
+                    "ce:surname": "Yu",
+                    "ce:indexed-name": "Yu X."
+                  },
+                  "@author-instance-id": "OB2BibRecID-946432856-887b9fa4e1e01aee5bc2b5549be7e713-1",
+                  "@seq": "4",
+                  "ce:initials": "X.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Yu",
+                  "@auid": "57652251300",
+                  "ce:indexed-name": "Yu X."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "United Kingdom",
+                "postal-code": "EH9 3JL",
+                "@afid": "60027272",
+                "@country": "gbr",
+                "city": "Edinburgh",
+                "organization": [
+                  {
+                    "$": "Institute for Infrastructure and Environment"
+                  },
+                  {
+                    "$": "School of Engineering"
+                  },
+                  {
+                    "$": "The University of Edinburgh"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60027272",
+                  "@dptid": "104382906"
+                },
+                "@affiliation-instance-id": "S2352012423002655-35f2615de589594ec47c6b3295542f5e",
+                "ce:source-text": "Institute for Infrastructure and Environment, School of Engineering, The University of Edinburgh, Edinburgh EH9 3JL, United Kingdom",
+                "@dptid": "104382906"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Yong",
+                  "preferred-name": {
+                    "ce:given-name": "Yong",
+                    "ce:initials": "Y.",
+                    "ce:surname": "Lu",
+                    "ce:indexed-name": "Lu Y."
+                  },
+                  "@author-instance-id": "OB2BibRecID-946432856-edcf9e9cb09c289f14bd302053d34991-1",
+                  "@seq": "6",
+                  "ce:initials": "Y.",
+                  "@date-locked": "2023-03-23T12:13:01.660",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Lu",
+                  "@auid": "55697705900",
+                  "@orcid": "0000-0002-2142-1299",
+                  "ce:indexed-name": "Lu Y."
+                }
+              ]
+            }
+          ],
+          "citation-title": "Seismic performance of pretensioned centrifugal spun concrete piles with steel strands",
+          "abstracts": "© 2023 Institution of Structural EngineersPretensioned centrifugal spun concrete piles with steel strands (PSC piles) have been developed to improve the seismic performance of the piles by using higher strength and more ductile prestressing steel strands, instead of the more traditional high strength steel bars. This paper presents a systematic evaluation of the seismic behavior of PSC piles by means of full-scale test and finite element (FE) simulation. Lateral cyclic loading tests have been carried out on three full-scale PSC pile specimens subjected to different axial compressive forces. The performances of test specimens, including cracking pattern, lateral bearing and deformation capacities, stiffness degradation, energy dissipation and failure mode are examined. The performances of PSC piles are subsequently compared with piles reinforced by high strength steel bars (referred as PHC piles) tested in a previous study. A detailed FE model was developed to simulate the hysteretic behavior of PSC piles using DIANA. This model was validated against test results and then used for parametric analyses. The effects of four key design parameters, in terms of axial force ratio, steel strand ratio, prestressing level of steel strands and concrete wall thickness, on the cyclic behavior of PSC piles have been investigated. The results show that all PSC pile specimens are dominated by the bending damage, and their cyclic behavior and failure mode are influenced significantly by the axial force. The lateral bearing capacity increases remarkably while the deformation capacity generally decreases with the increase of the axial force ratio. The PSC pile failure is mainly dominated by the tensile rupture of steel strands under lower axial force ratios, while concrete crushing under higher axial force ratios. Compared with PHC piles, PSC piles with a smaller reinforcement ratio demonstrate better overall seismic performance, especially ductility, under low to medium axial force ratios, as in such cases the high ductility of steel strands can be fully utilized. Further improvement of the seismic performance of PSC piles under higher axial force ratios can generally be achieved by increasing concrete wall thickness.",
+          "correspondence": {
+            "affiliation": {
+              "country": "China",
+              "postal-code": "310058",
+              "@country": "chn",
+              "city": "Hangzhou",
+              "organization": [
+                {
+                  "$": "Department of Civil Engineering"
+                },
+                {
+                  "$": "Zhejiang University"
+                }
+              ],
+              "@affiliation-instance-id": "OB2BibRecID-946432856-81602e7f829b3e9b6bfbcc9e51c907e1-1"
+            },
+            "person": {
+              "ce:given-name": "Shunfeng",
+              "@author-instance-id": "OB2BibRecID-946432856-c596db4d9f1f22465f1f6f633a30aede-1",
+              "ce:initials": "S.",
+              "ce:surname": "Gong",
+              "ce:indexed-name": "Gong S."
+            }
+          },
+          "citation-info": {
+            "author-keywords": {
+              "author-keyword": [
+                {
+                  "$": "Axial force ratio",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Lateral bearing capacity",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Pretensioned spun concrete pile",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Seismic performance",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Steel strand",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                }
+              ]
+            },
+            "citation-type": {
+              "@code": "ar"
+            },
+            "citation-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "abstract-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            }
+          },
+          "source": {
+            "website": {
+              "ce:e-address": {
+                "$": "https://www.journals.elsevier.com/structures",
+                "@type": "email"
+              }
+            },
+            "translated-sourcetitle": {
+              "@xml:lang": "eng"
+            },
+            "volisspag": {
+              "voliss": {
+                "@volume": "50"
+              },
+              "pagerange": {
+                "@first": "1303",
+                "@last": "1319"
+              }
+            },
+            "@type": "j",
+            "sourcetitle": "Structures",
+            "publicationdate": {
+              "month": "04",
+              "year": "2023",
+              "date-text": "April 2023",
+              "day": "01"
+            },
+            "sourcetitle-abbrev": "Structures",
+            "@country": "gbr",
+            "issn": {
+              "$": "23520124",
+              "@type": "electronic"
+            },
+            "preferred-sourcetitle": "Structures",
+            "publicationyear": {
+              "@first": "2023"
+            },
+            "publisher": {
+              "publishername": "Elsevier Ltd"
+            },
+            "@srcid": "21100372467"
+          },
+          "enhancement": {
+            "classificationgroup": {
+              "classifications": [
+                {
+                  "@type": "ASJC",
+                  "classification": [
+                    {
+                      "$": "2216"
+                    },
+                    {
+                      "$": "2205"
+                    },
+                    {
+                      "$": "2215"
+                    },
+                    {
+                      "$": "2213"
+                    }
+                  ]
+                },
+                {
+                  "@type": "SUBJABBR",
+                  "classification": "ENGI"
+                }
+              ]
+            }
+          },
+          "grantlist": {
+            "@complete": "y",
+            "grant-text": {
+              "$": "The authors acknowledge the financial supports from the National Natural Science Foundation of China (Grant number: 52071290).",
+              "@xml:lang": "eng"
+            }
+          }
+        },
+        "item-info": {
+          "copyright": {
+            "$": "Copyright 2023 Elsevier B.V., All rights reserved.",
+            "@type": "Elsevier"
+          },
+          "dbcollection": [
+            {
+              "$": "CPX"
+            },
+            {
+              "$": "REAXYSCAR"
+            },
+            {
+              "$": "SCOPUS"
+            },
+            {
+              "$": "SNCPX"
+            },
+            {
+              "$": "Scopusbase"
+            }
+          ],
+          "history": {
+            "date-created": {
+              "@day": "17",
+              "@timestamp": "BST 09:05:31",
+              "@year": "2023",
+              "@month": "05"
+            }
+          },
+          "itemidlist": {
+            "itemid": [
+              {
+                "$": "2023106990",
+                "@idtype": "PUI"
+              },
+              {
+                "$": "946432856",
+                "@idtype": "CAR-ID"
+              },
+              {
+                "$": "20232014095170",
+                "@idtype": "CPX"
+              },
+              {
+                "$": "20230596498",
+                "@idtype": "REAXYSCAR"
+              },
+              {
+                "$": "20230822568",
+                "@idtype": "SCOPUS"
+              },
+              {
+                "$": "2023022651",
+                "@idtype": "SNCPX"
+              },
+              {
+                "$": "85149269283",
+                "@idtype": "SCP"
+              },
+              {
+                "$": "85149269283",
+                "@idtype": "SGR"
+              }
+            ],
+            "ce:pii": "S2352012423002655",
+            "ce:ern": "pii:S2352012423002655",
+            "ce:doi": "10.1016/j.istruc.2023.02.107"
+          }
+        },
+        "tail": {
+          "bibliography": {
+            "@refcount": "35",
+            "reference": [
+              {
+                "ref-fulltext": "Ren, J.W., Xu, Q.B., Chen, G., Liu, C.B., Gong, S.F., Lu, Y., Flexural performance of pretensioned centrifugal spun concrete piles with combined steel strands and reinforcing bars. Structures 34 (2021), 4467–4485.",
+                "@reference-instance-id": "OB2BibRecID-946432856-f862047ba8c1baff4f1f2c87fbeac646-1",
+                "@id": "1",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Flexural performance of pretensioned centrifugal spun concrete piles with combined steel strands and reinforcing bars"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0005",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85117823324",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "34"
+                    },
+                    "pagerange": {
+                      "@first": "4467",
+                      "@last": "4485"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Ren",
+                        "ce:indexed-name": "Ren J.W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Q.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu Q.B."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen G."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "C.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu C.B."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "S.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Gong",
+                        "ce:indexed-name": "Gong S.F."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Lu",
+                        "ce:indexed-name": "Lu Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Structures"
+                },
+                "ce:source-text": "Ren JW, Xu QB, Chen G, Liu CB, Gong SF, Lu Y. Flexural performance of pretensioned centrifugal spun concrete piles with combined steel strands and reinforcing bars. Structures 2021; 34: 4467-4485."
+              },
+              {
+                "ref-fulltext": "Zhang, X.W., Gong, S.F., Xu, Q.B., Gan, G., Yu, X.D., Lu, Y., Flexural performance of pretensioned spun concrete piles reinforced with steel strands. Mag Concr Res 74:15 (2022), 757–777.",
+                "@reference-instance-id": "OB2BibRecID-946432856-114724ca5a4053b09a8da3dc86a5c698-2",
+                "@id": "2",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Flexural performance of pretensioned spun concrete piles reinforced with steel strands"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0010",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85129087045",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "74",
+                      "@issue": "15"
+                    },
+                    "pagerange": {
+                      "@first": "757",
+                      "@last": "777"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang X.W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Gong",
+                        "ce:indexed-name": "Gong S.F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Q.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu Q.B."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Gan",
+                        "ce:indexed-name": "Gan G."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "X.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu X.D."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Lu",
+                        "ce:indexed-name": "Lu Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Mag Concr Res"
+                },
+                "ce:source-text": "Zhang XW, Gong SF, Xu QB, Gan G, Yu XD, Lu Y. Flexural performance of pretensioned spun concrete piles reinforced with steel strands. Magazine of Concrete Research 2022; 74(15): 757-777."
+              },
+              {
+                "ref-fulltext": "Tokimatsu, K., Tamura, S., Suzuki, H., Katsumata, K., Building damage associated with geotechnical problems in the 2011 Tohoku Pacific Earthquake. Soils Found 52:5 (2012), 956–974.",
+                "@reference-instance-id": "OB2BibRecID-946432856-35e29a67a463b20233a7902d090a32f9-3",
+                "@id": "3",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Building damage associated with geotechnical problems in the 2011 Tohoku Pacific Earthquake"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0015",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84876678705",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "52",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "956",
+                      "@last": "974"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Tokimatsu",
+                        "ce:indexed-name": "Tokimatsu K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Tamura",
+                        "ce:indexed-name": "Tamura S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Suzuki",
+                        "ce:indexed-name": "Suzuki H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Katsumata",
+                        "ce:indexed-name": "Katsumata K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soils Found"
+                },
+                "ce:source-text": "Tokimatsu K, Tamura S, Suzuki H, Katsumata K. Building damage associated with geotechnical problems in the 2011 Tohoku Pacific Earthquake. Soils and Foundations 2012; 52(5): 956-974."
+              },
+              {
+                "ref-fulltext": "Dolati, S.S.K., Mehrabi, A., Review of available systems and materials for splicing prestressed-precast concrete piles. Structures 30 (2021), 850–865.",
+                "@reference-instance-id": "OB2BibRecID-946432856-c72278d3401afc0c8a0220c34a7a2491-4",
+                "@id": "4",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Review of available systems and materials for splicing prestressed-precast concrete piles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0020",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85100382224",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "30"
+                    },
+                    "pagerange": {
+                      "@first": "850",
+                      "@last": "865"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.S.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Dolati",
+                        "ce:indexed-name": "Dolati S.S.K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Mehrabi",
+                        "ce:indexed-name": "Mehrabi A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Structures"
+                },
+                "ce:source-text": "Dolati SSK, Mehrabi A. Review of available systems and materials for splicing prestressed-precast concrete piles. Structures 2021; 30: 850-865."
+              },
+              {
+                "ref-fulltext": "Muguruma H, Watanabe F, Nishiyama M. Improving the flexural ductility of pretensioned high strength spun concrete piles by lateral confining of concrete. In: Proceedings of the Pacific Conference on Earthquake Engineering, Wairakei, New Zealand, 1987; 1: 385-396.",
+                "@reference-instance-id": "OB2BibRecID-946432856-686b33a9692ac53947e5acd242aba251-5",
+                "@id": "5",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1987"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0025",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85158664116",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "385",
+                      "@last": "396"
+                    }
+                  },
+                  "ref-text": "Improving the flexural ductility of pretensioned high strength spun concrete piles by lateral confining of concrete. In: Proceedings of the Pacific Conference on Earthquake Engineering, Wairakei, New Zealand 1:",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Muguruma",
+                        "ce:indexed-name": "Muguruma H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Watanabe",
+                        "ce:indexed-name": "Watanabe F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Nishiyama",
+                        "ce:indexed-name": "Nishiyama M."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Muguruma H, Watanabe F, Nishiyama M. Improving the flexural ductility of pretensioned high strength spun concrete piles by lateral confining of concrete. In: Proceedings of the Pacific Conference on Earthquake Engineering, Wairakei, New Zealand, 1987; 1: 385-396."
+              },
+              {
+                "ref-fulltext": "Akiyama, M., Abe, S., Aoki, N., Suzuki, M., Flexural test of precast high-strength reinforced concrete pile prestressed with unbonded bars arranged at the center of the cross-section. Eng Struct 34 (2012), 259–270.",
+                "@reference-instance-id": "OB2BibRecID-946432856-037b3f9359471206790a5d97c7227fc1-6",
+                "@id": "6",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Flexural test of precast high-strength reinforced concrete pile prestressed with unbonded bars arranged at the center of the cross-section"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0030",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "80155156948",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "34"
+                    },
+                    "pagerange": {
+                      "@first": "259",
+                      "@last": "270"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Akiyama",
+                        "ce:indexed-name": "Akiyama M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Abe",
+                        "ce:indexed-name": "Abe S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Aoki",
+                        "ce:indexed-name": "Aoki N."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Suzuki",
+                        "ce:indexed-name": "Suzuki M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Eng Struct"
+                },
+                "ce:source-text": "Akiyama M, Abe S, Aoki N, Suzuki M. Flexural test of precast high-strength reinforced concrete pile prestressed with unbonded bars arranged at the center of the cross-section. Engineering Structures 2012; 34: 259-270."
+              },
+              {
+                "ref-fulltext": "Wu, P., Guo, Y., Zhu, D.Y., Jin, W.L., Lee, C.F., Flexural performances of pre-stressed concrete piles reinforced with hybrid BFRP and steel bars. Eur J Environ Civ Eng 26:4 (2022), 1433–1452.",
+                "@reference-instance-id": "OB2BibRecID-946432856-b3e08ef8d40490a08eff06dcd1fd4c16-7",
+                "@id": "7",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Flexural performances of pre-stressed concrete piles reinforced with hybrid BFRP and steel bars"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0035",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85078455374",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "26",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "1433",
+                      "@last": "1452"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Guo",
+                        "ce:indexed-name": "Guo Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhu",
+                        "ce:indexed-name": "Zhu D.Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "W.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Jin",
+                        "ce:indexed-name": "Jin W.L."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "C.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee C.F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Eur J Environ Civ Eng"
+                },
+                "ce:source-text": "Wu P, Guo Y, Zhu DY, Jin WL, Lee CF. Flexural performances of pre-stressed concrete piles reinforced with hybrid BFRP and steel bars. European Journal of Environmental and Civil Engineering 2022; 26(4): 1433-1452."
+              },
+              {
+                "ref-fulltext": "Park, R., Falconer, T.J., Ductility of prestressed concrete piles subjected to simulated seismic loading. PCI J 28:5 (1983), 112–144.",
+                "@reference-instance-id": "OB2BibRecID-946432856-b7520640e46055ed08c90633d8ba8b4b-8",
+                "@id": "8",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1983"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Ductility of prestressed concrete piles subjected to simulated seismic loading"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0040",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0020811793",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "28",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "112",
+                      "@last": "144"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Park",
+                        "ce:indexed-name": "Park R."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Falconer",
+                        "ce:indexed-name": "Falconer T.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "PCI J"
+                },
+                "ce:source-text": "Park R, Falconer TJ. Ductility of prestressed concrete piles subjected to simulated seismic loading. PCI Journal 1983; 28(5): 112-144."
+              },
+              {
+                "ref-fulltext": "Joen, P.H., Park, R., Flexural strength and ductility analysis of spirally reinforced prestressed concrete piles. PCI J 35:4 (1990), 64–83.",
+                "@reference-instance-id": "OB2BibRecID-946432856-972496954e4d179b36da62f39e1bdf65-9",
+                "@id": "9",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1990"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Flexural strength and ductility analysis of spirally reinforced prestressed concrete piles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0045",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0025450372",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "35",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "64",
+                      "@last": "83"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Joen",
+                        "ce:indexed-name": "Joen P.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Park",
+                        "ce:indexed-name": "Park R."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "PCI J"
+                },
+                "ce:source-text": "Joen PH, Park R. Flexural strength and ductility analysis of spirally reinforced prestressed concrete piles. PCI Journal 1990; 35(4): 64-83."
+              },
+              {
+                "ref-fulltext": "Silva, P.F., Seible, F., Priestley, M.J.N., Influence of strand development length in formation of plastic hinges in prestressed piles. PCI J 46:3 (2001), 76–89.",
+                "@reference-instance-id": "OB2BibRecID-946432856-aff82c14107899d1ba3e0d0eaacedd24-10",
+                "@id": "10",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2001"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Influence of strand development length in formation of plastic hinges in prestressed piles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0050",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0035327287",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "46",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "76",
+                      "@last": "89"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Silva",
+                        "ce:indexed-name": "Silva P.F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Seible",
+                        "ce:indexed-name": "Seible F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.J.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Priestley",
+                        "ce:indexed-name": "Priestley M.J.N."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "PCI J"
+                },
+                "ce:source-text": "Silva PF, Seible F, Priestley MJN. Influence of strand development length in formation of plastic hinges in prestressed piles. PCI Journal 2001; 46(3): 76-89."
+              },
+              {
+                "ref-fulltext": "Nagae T, Hayashi S. Earthquake-resistant property of prefabricated high-strength concrete pile. In: Proceedings of the International Conference on High Performance Materials in Bridges, Kona, Hawaii, 2003; 173-182.",
+                "@reference-instance-id": "OB2BibRecID-946432856-72fb27ef9c6ee019431b4d529d38f52a-11",
+                "@id": "11",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2003"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0055",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0242720959",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "173",
+                      "@last": "182"
+                    }
+                  },
+                  "ref-text": "Earthquake-resistant property of prefabricated high-strength concrete pile. In: Proceedings of the International Conference on High Performance Materials in Bridges, Kona, Hawaii",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Nagae",
+                        "ce:indexed-name": "Nagae T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Hayashi",
+                        "ce:indexed-name": "Hayashi S."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Nagae T, Hayashi S. Earthquake-resistant property of prefabricated high-strength concrete pile. In: Proceedings of the International Conference on High Performance Materials in Bridges, Kona, Hawaii, 2003; 173-182."
+              },
+              {
+                "ref-fulltext": "Wang, T.C., Wang, W.J., Zhao, H.L., Yang, Z.J., Seismic performance of pre-stressed high-strength concrete pile reinforced with steel fibre. Mater Res Innov 19:Suppl. 8 (2015), 125–131.",
+                "@reference-instance-id": "OB2BibRecID-946432856-3a621aea22df4e2aa53f4b8577009034-12",
+                "@id": "12",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic performance of pre-stressed high-strength concrete pile reinforced with steel fibre"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0060",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84948145969",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "19"
+                    },
+                    "pagerange": {
+                      "@first": "125",
+                      "@last": "131"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang T.C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang W.J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao H.L."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Z.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang Z.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Mater Res Innov"
+                },
+                "ce:source-text": "Wang TC, Wang WJ, Zhao HL, Yang ZJ. Seismic performance of pre-stressed high-strength concrete pile reinforced with steel fibre. Materials Research Innovations 2015; 19(Suppl. 8): 125-131."
+              },
+              {
+                "ref-fulltext": "Yang, Z., Li, G., Wang, W., Experimental investigation and nonlinear finite element analysis on seismic performance of PHC piles. Struct Eng Int 28:4 (2018), 475–488.",
+                "@reference-instance-id": "OB2BibRecID-946432856-92530341062f9cbc3eae372eff02546d-13",
+                "@id": "13",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental investigation and nonlinear finite element analysis on seismic performance of PHC piles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0065",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85059286278",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "28",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "475",
+                      "@last": "488"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li G."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Struct Eng Int"
+                },
+                "ce:source-text": "Yang ZJ, Li GC, Wang WJ. Experimental investigation and nonlinear finite element analysis on seismic performance of PHC piles. Structural Engineering International 2018; 28(4): 475-488."
+              },
+              {
+                "ref-fulltext": "Zhang, X.Z., Niu, S.X., Yan, J.B., Zhang, S.H., Seismic behaviour of prestressed high-strength concrete piles under combined axial compression and cyclic horizontal loads. Adv Struct Eng 22:5 (2019), 1089–1105.",
+                "@reference-instance-id": "OB2BibRecID-946432856-9b7491176dac740fc206deaf7e4cae00-14",
+                "@id": "14",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic behaviour of prestressed high-strength concrete piles under combined axial compression and cyclic horizontal loads"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0070",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85060235893",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "22",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "1089",
+                      "@last": "1105"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang X.Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.X.",
+                        "@_fa": "true",
+                        "ce:surname": "Niu",
+                        "ce:indexed-name": "Niu S.X."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Yan",
+                        "ce:indexed-name": "Yan J.B."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "S.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang S.H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Adv Struct Eng"
+                },
+                "ce:source-text": "Zhang XZ, Niu SX, Yan JB, Zhang SH. Seismic behaviour of prestressed high-strength concrete piles under combined axial compression and cyclic horizontal loads. Advances in Structural Engineering 2019; 22(5): 1089-1105."
+              },
+              {
+                "ref-fulltext": "Ren, J., Xu, Q., Chen, G., Yu, X., Gong, S., Lu, Y., Full-scale experimental study of the seismic performance of pretensioned spun high-strength concrete piles. Soil Dyn Earthq Eng, 162, 2022, 107467.",
+                "@reference-instance-id": "OB2BibRecID-946432856-bde34a50aeff89838a147e18680aa9ed-15",
+                "@id": "15",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Full-scale experimental study of the seismic performance of pretensioned spun high-strength concrete piles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0075",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85135723586",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "162"
+                    },
+                    "pagerange": {
+                      "@first": "107467"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Ren",
+                        "ce:indexed-name": "Ren J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu Q."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen G."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu X."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Gong",
+                        "ce:indexed-name": "Gong S."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Lu",
+                        "ce:indexed-name": "Lu Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dyn Earthq Eng"
+                },
+                "ce:source-text": "Ren JW, Xu QB, Chen G, Yu XD, Gong SF, Lu Y. Full-scale experimental study of the seismic performance of pretensioned spun high-strength concrete piles. Soil Dynamics and Earthquake Engineering 2022; 162: 107467."
+              },
+              {
+                "ref-fulltext": "Huang, F.Y., Wu, S.W., Luo, X.Y., Chen, B.C., Lin, Y.W., Pseudo-static low cycle test on the mechanical behavior of PHC pipe piles with consideration of soil-pile interaction. Eng Struct 171 (2018), 992–1006.",
+                "@reference-instance-id": "OB2BibRecID-946432856-78dbde436f6516938ba811ec7612e4f9-16",
+                "@id": "16",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Pseudo-static low cycle test on the mechanical behavior of PHC pipe piles with consideration of soil-pile interaction"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0080",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85044515925",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "171"
+                    },
+                    "pagerange": {
+                      "@first": "992",
+                      "@last": "1006"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang F.Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu S.W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Luo",
+                        "ce:indexed-name": "Luo X.Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "B.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen B.C."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Y.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Lin",
+                        "ce:indexed-name": "Lin Y.W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Eng Struct"
+                },
+                "ce:source-text": "Huang FY, Wu SW, Luo XY, Chen BC, Lin YW. Pseudo-static low cycle test on the mechanical behavior of PHC pipe piles with consideration of soil-pile interaction. Engineering Structures 2018; 171: 992-1006."
+              },
+              {
+                "ref-fulltext": "DIANA FEA, Diana user's manual, Release 10.4. 2020, DIANA FEA BV.",
+                "@reference-instance-id": "OB2BibRecID-946432856-373a32ea015d0bd398c66ecc0a0ed921-17",
+                "@id": "17",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Diana user's manual, Release 10.4"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0085",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85117622980",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "DIANA FEA BV",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "@_fa": "true",
+                        "ce:surname": "DIANA FEA",
+                        "ce:indexed-name": "DIANA FEA"
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "DIANA FEA. Diana user's manual, Release 10.4. DIANA FEA BV, 2020."
+              },
+              {
+                "ref-fulltext": "Zhejiang Architectural Standard Design Atlas. GT47-2020 Pretensioned centrifugal spun concrete piles with steel strands. Zhejiang Standard Design Station, 2020.",
+                "@reference-instance-id": "OB2BibRecID-946432856-5f977aa5c6a7d7b6b3d5fed0fa8d95c0-18",
+                "@id": "18",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0090",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85158681553",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Zhejiang Architectural Standard Design Atlas. GT47-2020 Pretensioned centrifugal spun concrete piles with steel strands. Zhejiang Standard Design Station."
+                },
+                "ce:source-text": "Zhejiang Architectural Standard Design Atlas. GT47-2020 Pretensioned centrifugal spun concrete piles with steel strands. Zhejiang Standard Design Station, 2020."
+              },
+              {
+                "ref-fulltext": "Nagae, T., Kishida, S., Yanase, T., Katori, K., Hayashi, S., Relationship between earthquake-resistant property and amount of lateral reinforcement of PRC pile: In case where diameter and axial load differ. J Struct Constr Eng (Trans AIJ) 67:551 (2002), 95–102 in Japanese.",
+                "@reference-instance-id": "OB2BibRecID-946432856-38293d31b1f6e35d3a213c461d94ac6c-19",
+                "@id": "19",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2002"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Relationship between earthquake-resistant property and amount of lateral reinforcement of PRC pile: In case where diameter and axial load differ"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0095",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84976479195",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "67",
+                      "@issue": "551"
+                    },
+                    "pagerange": {
+                      "@first": "95",
+                      "@last": "102"
+                    }
+                  },
+                  "ref-text": "in Japanese",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Nagae",
+                        "ce:indexed-name": "Nagae T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Kishida",
+                        "ce:indexed-name": "Kishida S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Yanase",
+                        "ce:indexed-name": "Yanase T."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Katori",
+                        "ce:indexed-name": "Katori K."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Hayashi",
+                        "ce:indexed-name": "Hayashi S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Struct Constr Eng (Trans AIJ)"
+                },
+                "ce:source-text": "Nagae T, Kishida S, Yanase T, Katori K, Hayashi S. Relationship between earthquake-resistant property and amount of lateral reinforcement of PRC pile: In case where diameter and axial load differ. Journal of Structural and Construction Engineering (Transactions of AIJ) 2002; 67(551): 95-102 (in Japanese)."
+              },
+              {
+                "ref-fulltext": "Mansur, M.A., Islam, M.M., Interpretation of concrete strength for nonstandard specimens. ASCE J Mater Civ Eng 14:2 (2002), 151–155.",
+                "@reference-instance-id": "OB2BibRecID-946432856-67d5bc083d873ea3cc653dc580216361-20",
+                "@id": "20",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2002"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Interpretation of concrete strength for nonstandard specimens"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0100",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0036494728",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "14",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "151",
+                      "@last": "155"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Mansur",
+                        "ce:indexed-name": "Mansur M.A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Islam",
+                        "ce:indexed-name": "Islam M.M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "ASCE J Mater Civ Eng"
+                },
+                "ce:source-text": "Mansur MA, Islam MM. Interpretation of concrete strength for nonstandard specimens. ASCE Journal of Materials in Civil Engineering 2002; 14(2): 151-155."
+              },
+              {
+                "ref-fulltext": "Ke, X.J., Study on seismic performance and design method of new high-strength concrete composite columns. 2014, Xian University of Architecture and Technology, Xian PhD Thesis,(in Chinese.",
+                "@reference-instance-id": "OB2BibRecID-946432856-489985f30aa94f99254f2673c5f7596d-21",
+                "@id": "21",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Study on seismic performance and design method of new high-strength concrete composite columns"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0105",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84920466319",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Xian University of Architecture and Technology Xian PhD Thesis,(in Chinese",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Ke",
+                        "ce:indexed-name": "Ke X.J."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Ke XJ. Study on seismic performance and design method of new high-strength concrete composite columns. PhD Thesis, Xian University of Architecture and Technology, Xian, 2014 (in Chinese)."
+              },
+              {
+                "ref-fulltext": "Ou, Y.-C., Lau, J.V.J., Li, J.-Y., Havlásek, P., Bittnar, Z., Cyclic behavior of reinforced concrete columns with five-spiral reinforcement. J Build Eng, 61, 2022, 105245.",
+                "@reference-instance-id": "OB2BibRecID-946432856-0e7330483d6c96ac6ae53370be9e6a47-22",
+                "@id": "22",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Cyclic behavior of reinforced concrete columns with five-spiral reinforcement"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0110",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85138826579",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "61"
+                    },
+                    "pagerange": {
+                      "@first": "105245"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.-C.",
+                        "@_fa": "true",
+                        "ce:surname": "Ou",
+                        "ce:indexed-name": "Ou Y.-C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.V.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Lau",
+                        "ce:indexed-name": "Lau J.V.J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.-Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li J.-Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Havlásek",
+                        "ce:indexed-name": "Havlasek P."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Bittnar",
+                        "ce:indexed-name": "Bittnar Z."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Build Eng"
+                },
+                "ce:source-text": "Ou YC, Lau JVJ, Li JY, Havlásek P, Bittnar Z. Cyclic behavior of reinforced concrete columns with five-spiral reinforcement. Journal of Building Engineering 2022; 61: 105245."
+              },
+              {
+                "ref-fulltext": "Park, R., Evaluation of ductility of structures and structural assemblages from laboratory testing. Bull New Zealand Nat Soc Earthquake Eng 22:3 (1989), 155–166.",
+                "@reference-instance-id": "OB2BibRecID-946432856-e778450314b72ff5b1f2edc4cdbb61d6-23",
+                "@id": "23",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1989"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Evaluation of ductility of structures and structural assemblages from laboratory testing"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0115",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0001217392",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "22",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "155",
+                      "@last": "166"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Park",
+                        "ce:indexed-name": "Park R."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Bull New Zealand Nat Soc Earthquake Eng"
+                },
+                "ce:source-text": "Park R. Evaluation of ductility of structures and structural assemblages from laboratory testing. Bulletin of the New Zealand National Society for Earthquake Engineering 1989; 22(3): 155-166."
+              },
+              {
+                "ref-fulltext": "Gautham, A., Sahoo, D.R., Behavior of steel-reinforced composite concrete columns under combined axial and lateral cyclic loading. J Build Eng, 39, 2021, 102305.",
+                "@reference-instance-id": "OB2BibRecID-946432856-8ec57dae62a2782e1ed9633994fb0c91-24",
+                "@id": "24",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Behavior of steel-reinforced composite concrete columns under combined axial and lateral cyclic loading"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0120",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85101315958",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "39"
+                    },
+                    "pagerange": {
+                      "@first": "102305"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Gautham",
+                        "ce:indexed-name": "Gautham A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Sahoo",
+                        "ce:indexed-name": "Sahoo D.R."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Build Eng"
+                },
+                "ce:source-text": "Gautham A, Sahoo DR. Behavior of steel-reinforced composite concrete columns under combined axial and lateral cyclic loading. Journal of Building Engineering 2021; 39: 102305."
+              },
+              {
+                "ref-fulltext": "ASCE (American Society of Civil Engineers). Prestandard and commentary for the seismic rehabilitation of buildings. FEMA-356. Washington, DC, 2000.",
+                "@reference-instance-id": "OB2BibRecID-946432856-f9cfaee11f049ddcf2bb86d942947f19-25",
+                "@id": "25",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2000"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0125",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85158561001",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "ASCE (American Society of Civil Engineers). Prestandard and commentary for the seismic rehabilitation of buildings. FEMA-356. Washington, DC."
+                },
+                "ce:source-text": "ASCE (American Society of Civil Engineers). Prestandard and commentary for the seismic rehabilitation of buildings. FEMA-356. Washington, DC, 2000."
+              },
+              {
+                "ref-fulltext": "Kowalsky, M.J., Priestley, M.J.N., Macrae, G.A., Displacement-based design of RC bridge columns in seismic regions. Earthq Eng Struct Dyn 24:12 (1995), 1623–1643.",
+                "@reference-instance-id": "OB2BibRecID-946432856-686d9d6c841f9aa58540831fe6513cdf-26",
+                "@id": "26",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1995"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Displacement-based design of RC bridge columns in seismic regions"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0130",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0029415956",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "24",
+                      "@issue": "12"
+                    },
+                    "pagerange": {
+                      "@first": "1623",
+                      "@last": "1643"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Kowalsky",
+                        "ce:indexed-name": "Kowalsky M.J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.J.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Priestley",
+                        "ce:indexed-name": "Priestley M.J.N."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "G.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Macrae",
+                        "ce:indexed-name": "Macrae G.A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Earthq Eng Struct Dyn"
+                },
+                "ce:source-text": "Kowalsky MJ, Priestley MJN, Macrae GA. Displacement-based design of RC bridge columns in seismic regions. Earthquake Engineering and Structural Dynamics 1995; 24(12): 1623-1643."
+              },
+              {
+                "ref-fulltext": "Zhou, F., Mosalam, K.M., Nakashima, M., Finite-element analysis of a composite frame under large lateral cyclic loading. ASCE J Struct Eng 133:7 (2007), 1018–1026.",
+                "@reference-instance-id": "OB2BibRecID-946432856-3dcad7945cb9aa4389dc216b4ec6dfe2-27",
+                "@id": "27",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Finite-element analysis of a composite frame under large lateral cyclic loading"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0135",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "34250683505",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "133",
+                      "@issue": "7"
+                    },
+                    "pagerange": {
+                      "@first": "1018",
+                      "@last": "1026"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Mosalam",
+                        "ce:indexed-name": "Mosalam K.M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Nakashima",
+                        "ce:indexed-name": "Nakashima M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "ASCE J Struct Eng"
+                },
+                "ce:source-text": "Zhou F, Mosalam KM, Nakashima M. Finite-element analysis of a composite frame under large lateral cyclic loading. ASCE Journal of Structural Engineering 2007; 133(7): 1018-1026."
+              },
+              {
+                "ref-fulltext": "Maekawa, K., Okamura, H., Pimanmas, A., Non-linear mechanics of reinforced concrete. 2003, CRC Press.",
+                "@reference-instance-id": "OB2BibRecID-946432856-f32357039c9855bb3ef66f3054d9b187-28",
+                "@id": "28",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2003"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Non-linear mechanics of reinforced concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0140",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "3142659863",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "CRC Press",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Maekawa",
+                        "ce:indexed-name": "Maekawa K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Okamura",
+                        "ce:indexed-name": "Okamura H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Pimanmas",
+                        "ce:indexed-name": "Pimanmas A."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Maekawa K, Okamura H, Pimanmas A. Non-linear mechanics of reinforced concrete. CRC Press, 2003."
+              },
+              {
+                "ref-fulltext": "Lai, B., Liew, J.Y.R., Investigation on axial load-shorting behaviour of high strength concrete encased steel composite section. Eng Struct, 227, 2021, 111401.",
+                "@reference-instance-id": "OB2BibRecID-946432856-0d541d0239ffdcfba7c22d2998a3ada3-29",
+                "@id": "29",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Investigation on axial load-shorting behaviour of high strength concrete encased steel composite section"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0145",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85094141459",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "227"
+                    },
+                    "pagerange": {
+                      "@first": "111401"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Lai",
+                        "ce:indexed-name": "Lai B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.Y.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Liew",
+                        "ce:indexed-name": "Liew J.Y.R."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Eng Struct"
+                },
+                "ce:source-text": "Lai B, Liew JYR. Investigation on axial load-shorting behaviour of high strength concrete encased steel composite section. Engineering Structures 2021; 227: 111401."
+              },
+              {
+                "ref-fulltext": "FIB. Fib model code for concrete structures 2010. Fédération Internationale du Béton, 2013.",
+                "@reference-instance-id": "OB2BibRecID-946432856-91cb5278f7dd000d2c1a2b1174e8367d-30",
+                "@id": "30",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0150",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85158648481",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "FIB. Fib model code for concrete structures 2010. Fédération Internationale du Béton."
+                },
+                "ce:source-text": "FIB. Fib model code for concrete structures 2010. Fédération Internationale du Béton, 2013."
+              },
+              {
+                "ref-fulltext": "JSCE. JSCE guidelines for concrete no. 15: Standard specifications for concrete structures - 2007 “Design”. Japan Society of Civil Engineers, 2010.",
+                "@reference-instance-id": "OB2BibRecID-946432856-610bccfc081abadc6ba32a1413b627c4-31",
+                "@id": "31",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0155",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85158730734",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "JSCE. JSCE guidelines for concrete no. 15: Standard specifications for concrete structures - 2007 “Design”. Japan Society of Civil Engineers."
+                },
+                "ce:source-text": "JSCE. JSCE guidelines for concrete no. 15: Standard specifications for concrete structures - 2007 “Design”. Japan Society of Civil Engineers, 2010."
+              },
+              {
+                "ref-fulltext": "Chen, Z.Y., Zhu, J.Q., Wu, P.G., High strength concrete and its applications. 1993, Tsinghua University Press, Beijing in Chinese.",
+                "@reference-instance-id": "OB2BibRecID-946432856-d344e083d6253937344e500917293fd8-32",
+                "@id": "32",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1993"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "High strength concrete and its applications"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0160",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0004512736",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Tsinghua University Press Beijing in Chinese",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen Z.Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhu",
+                        "ce:indexed-name": "Zhu J.Q."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "P.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu P.G."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Chen ZY, Zhu JQ, Wu PG. High strength concrete and its applications. Tsinghua University Press, Beijing, 1993 (in Chinese)."
+              },
+              {
+                "ref-fulltext": "Zhang, D., Wu, K.R., Fracture properties of high-strength concrete. ASCE J Mater Civ Eng 13:1 (2001), 86–88.",
+                "@reference-instance-id": "OB2BibRecID-946432856-97627ef7e44d23571c7db6c7ee4b79d4-33",
+                "@id": "33",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2001"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Fracture properties of high-strength concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0165",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0035136602",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "13",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "86",
+                      "@last": "88"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang D."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu K.R."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "ASCE J Mater Civ Eng"
+                },
+                "ce:source-text": "Zhang D, Wu KR. Fracture properties of high-strength concrete. ASCE Journal of Materials in Civil Engineering 2001; 13(1): 86-88."
+              },
+              {
+                "ref-fulltext": "Menegotto M, Pinto PE. Method of analysis for cyclically loaded reinforced concrete plane frame including changes in geometry and nonelastic behavior of elements under combined normal force and bending. In: Proceedings of IABSE symposium on resistance and ultimate deformability of structures acted on by well-defined repeated loads, Lisbon, 1973.",
+                "@reference-instance-id": "OB2BibRecID-946432856-84dde9e8723ae80b8008bb9da2bcabd5-34",
+                "@id": "34",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1973"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0170",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85158782124",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Method of analysis for cyclically loaded reinforced concrete plane frame including changes in geometry and nonelastic behavior of elements under combined normal force and bending. In: Proceedings of IABSE symposium on resistance and ultimate deformability of structures acted on by well-defined repeated loads, Lisbon.",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Menegotto",
+                        "ce:indexed-name": "Menegotto M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "P.E.",
+                        "@_fa": "true",
+                        "ce:surname": "Pinto",
+                        "ce:indexed-name": "Pinto P.E."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Menegotto M, Pinto PE. Method of analysis for cyclically loaded reinforced concrete plane frame including changes in geometry and nonelastic behavior of elements under combined normal force and bending. In: Proceedings of IABSE symposium on resistance and ultimate deformability of structures acted on by well-defined repeated loads, Lisbon, 1973."
+              },
+              {
+                "ref-fulltext": "Dörr, K., Ein beitrag zur berechnung von stahlbetonscheiben unter besonderer berücksichtigung des verbundverhaltens. 1980, Darmstadt University Ph.D. thesis,.",
+                "@reference-instance-id": "OB2BibRecID-946432856-b0d435c655ce1174b6328bc02ef6f4db-35",
+                "@id": "35",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1980"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Ein beitrag zur berechnung von stahlbetonscheiben unter besonderer berücksichtigung des verbundverhaltens"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0175",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0009015563",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Darmstadt University Ph.D. thesis",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Dörr",
+                        "ce:indexed-name": "Dorr K."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Dörr K. Ein beitrag zur berechnung von stahlbetonscheiben unter besonderer berücksichtigung des verbundverhaltens. Ph.D. thesis, Darmstadt University, 1980."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "affiliation": [
+      {
+        "affiliation-city": "Edinburgh",
+        "@id": "60027272",
+        "affilname": "The University of Edinburgh",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60027272",
+        "affiliation-country": "United Kingdom"
+      },
+      {
+        "affiliation-city": "Hangzhou",
+        "@id": "60117841",
+        "affilname": "College of Civil Engineering and Architecture Zhejiang University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60117841",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Hangzhou",
+        "@id": "60342457",
+        "affilname": "The Architectural Design and Research Institute of Zhejiang University Co. Ltd",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60342457",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Ningbo",
+        "@id": "128052421",
+        "affilname": "Ningbo Yizhong Concrete Pile Co. Ltd.",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/128052421",
+        "affiliation-country": "China"
+      }
+    ],
+    "coredata": {
+      "srctype": "j",
+      "eid": "2-s2.0-85149269283",
+      "dc:description": "Pretensioned centrifugal spun concrete piles with steel strands (PSC piles) have been developed to improve the seismic performance of the piles by using higher strength and more ductile prestressing steel strands, instead of the more traditional high strength steel bars. This paper presents a systematic evaluation of the seismic behavior of PSC piles by means of full-scale test and finite element (FE) simulation. Lateral cyclic loading tests have been carried out on three full-scale PSC pile specimens subjected to different axial compressive forces. The performances of test specimens, including cracking pattern, lateral bearing and deformation capacities, stiffness degradation, energy dissipation and failure mode are examined. The performances of PSC piles are subsequently compared with piles reinforced by high strength steel bars (referred as PHC piles) tested in a previous study. A detailed FE model was developed to simulate the hysteretic behavior of PSC piles using DIANA. This model was validated against test results and then used for parametric analyses. The effects of four key design parameters, in terms of axial force ratio, steel strand ratio, prestressing level of steel strands and concrete wall thickness, on the cyclic behavior of PSC piles have been investigated. The results show that all PSC pile specimens are dominated by the bending damage, and their cyclic behavior and failure mode are influenced significantly by the axial force. The lateral bearing capacity increases remarkably while the deformation capacity generally decreases with the increase of the axial force ratio. The PSC pile failure is mainly dominated by the tensile rupture of steel strands under lower axial force ratios, while concrete crushing under higher axial force ratios. Compared with PHC piles, PSC piles with a smaller reinforcement ratio demonstrate better overall seismic performance, especially ductility, under low to medium axial force ratios, as in such cases the high ductility of steel strands can be fully utilized. Further improvement of the seismic performance of PSC piles under higher axial force ratios can generally be achieved by increasing concrete wall thickness.",
+      "prism:coverDate": "2023-04-01",
+      "prism:aggregationType": "Journal",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85149269283",
+      "dc:creator": {
+        "author": [
+          {
+            "ce:given-name": "Junwei",
+            "preferred-name": {
+              "ce:given-name": "Junwei",
+              "ce:initials": "J.",
+              "ce:surname": "Ren",
+              "ce:indexed-name": "Ren J."
+            },
+            "@seq": "1",
+            "ce:initials": "J.",
+            "@_fa": "true",
+            "affiliation": {
+              "@id": "60117841",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60117841"
+            },
+            "ce:surname": "Ren",
+            "@auid": "57311073500",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57311073500",
+            "ce:indexed-name": "Ren J."
+          }
+        ]
+      },
+      "link": [
+        {
+          "@_fa": "true",
+          "@rel": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85149269283"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85149269283&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85149269283&origin=inward"
+        }
+      ],
+      "source-id": "21100372467",
+      "pii": "S2352012423002655",
+      "citedby-count": "10",
+      "prism:volume": "50",
+      "subtype": "ar",
+      "dc:title": "Seismic performance of pretensioned centrifugal spun concrete piles with steel strands",
+      "openaccess": "2",
+      "prism:issn": "23520124",
+      "publishercopyright": "© 2023 Institution of Structural Engineers",
+      "subtypeDescription": "Article",
+      "prism:publicationName": "Structures",
+      "prism:pageRange": "1303-1319",
+      "prism:endingPage": "1319",
+      "openaccessFlag": null,
+      "prism:doi": "10.1016/j.istruc.2023.02.107",
+      "prism:startingPage": "1303",
+      "dc:identifier": "SCOPUS_ID:85149269283",
+      "dc:publisher": "Elsevier Ltd"
+    },
+    "idxterms": null,
+    "language": {
+      "@xml:lang": "eng"
+    },
+    "authkeywords": {
+      "author-keyword": [
+        {
+          "@_fa": "true",
+          "$": "Axial force ratio"
+        },
+        {
+          "@_fa": "true",
+          "$": "Lateral bearing capacity"
+        },
+        {
+          "@_fa": "true",
+          "$": "Pretensioned spun concrete pile"
+        },
+        {
+          "@_fa": "true",
+          "$": "Seismic performance"
+        },
+        {
+          "@_fa": "true",
+          "$": "Steel strand"
+        }
+      ]
+    },
+    "subject-areas": {
+      "subject-area": [
+        {
+          "@_fa": "true",
+          "$": "Architecture",
+          "@code": "2216",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Civil and Structural Engineering",
+          "@code": "2205",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Building and Construction",
+          "@code": "2215",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Safety, Risk, Reliability and Quality",
+          "@code": "2213",
+          "@abbrev": "ENGI"
+        }
+      ]
+    },
+    "authors": {
+      "author": [
+        {
+          "ce:given-name": "Junwei",
+          "preferred-name": {
+            "ce:given-name": "Junwei",
+            "ce:initials": "J.",
+            "ce:surname": "Ren",
+            "ce:indexed-name": "Ren J."
+          },
+          "@seq": "1",
+          "ce:initials": "J.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60117841",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60117841"
+          },
+          "ce:surname": "Ren",
+          "@auid": "57311073500",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57311073500",
+          "ce:indexed-name": "Ren J."
+        },
+        {
+          "ce:given-name": "Quanbiao",
+          "preferred-name": {
+            "ce:given-name": "Quanbiao",
+            "ce:initials": "Q.",
+            "ce:surname": "Xu",
+            "ce:indexed-name": "Xu Q."
+          },
+          "@seq": "2",
+          "ce:initials": "Q.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60342457",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60342457"
+          },
+          "ce:surname": "Xu",
+          "@auid": "7403744032",
+          "author-url": "https://api.elsevier.com/content/author/author_id/7403744032",
+          "ce:indexed-name": "Xu Q."
+        },
+        {
+          "ce:given-name": "Gang",
+          "preferred-name": {
+            "ce:given-name": "Gang",
+            "ce:initials": "G.",
+            "ce:surname": "Chen",
+            "ce:indexed-name": "Chen G."
+          },
+          "@seq": "3",
+          "ce:initials": "G.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60342457",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60342457"
+          },
+          "ce:surname": "Chen",
+          "@auid": "57113788000",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57113788000",
+          "ce:indexed-name": "Chen G."
+        },
+        {
+          "ce:given-name": "Xiaodong",
+          "preferred-name": {
+            "ce:given-name": "Xiaodong",
+            "ce:initials": "X.",
+            "ce:surname": "Yu",
+            "ce:indexed-name": "Yu X."
+          },
+          "@seq": "4",
+          "ce:initials": "X.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "128052421",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/128052421"
+          },
+          "ce:surname": "Yu",
+          "@auid": "57652251300",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57652251300",
+          "ce:indexed-name": "Yu X."
+        },
+        {
+          "ce:given-name": "Shunfeng",
+          "preferred-name": {
+            "ce:given-name": "Shunfeng",
+            "ce:initials": "S.",
+            "ce:surname": "Gong",
+            "ce:indexed-name": "Gong S."
+          },
+          "@seq": "5",
+          "ce:initials": "S.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60117841",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60117841"
+          },
+          "ce:surname": "Gong",
+          "@auid": "7203001478",
+          "author-url": "https://api.elsevier.com/content/author/author_id/7203001478",
+          "ce:indexed-name": "Gong S."
+        },
+        {
+          "ce:given-name": "Yong",
+          "preferred-name": {
+            "ce:given-name": "Yong",
+            "ce:initials": "Y.",
+            "ce:surname": "Lu",
+            "ce:indexed-name": "Lu Y."
+          },
+          "@seq": "6",
+          "ce:initials": "Y.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60027272",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60027272"
+          },
+          "ce:surname": "Lu",
+          "@auid": "55697705900",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55697705900",
+          "ce:indexed-name": "Lu Y."
+        }
+      ]
+    }
+  }
+}

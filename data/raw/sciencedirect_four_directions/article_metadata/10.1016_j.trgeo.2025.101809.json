@@ -1,0 +1,4230 @@
+{
+  "abstracts-retrieval-response": {
+    "item": {
+      "ait:process-info": {
+        "ait:status": {
+          "@state": "update",
+          "@type": "core",
+          "@stage": "S300"
+        },
+        "ait:date-delivered": {
+          "@day": "23",
+          "@timestamp": "2026-01-23T02:27:49.000049-05:00",
+          "@year": "2026",
+          "@month": "01"
+        },
+        "ait:date-sort": {
+          "@day": "01",
+          "@year": "2026",
+          "@month": "01"
+        }
+      },
+      "xocs:meta": {
+        "xocs:funding-list": {
+          "@pui-match": "primary",
+          "@has-funding-info": "1",
+          "xocs:funding": [
+            {
+              "xocs:funding-agency-matched-string": "China Postdoctoral Science Foundation",
+              "xocs:funding-agency": "China Postdoctoral Science Foundation",
+              "xocs:funding-id": "2025 M770468",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100002858",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "China Postdoctoral Science Foundation",
+              "xocs:funding-agency": "China Postdoctoral Science Foundation",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100002858",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "National Key Research and Development Program of China",
+              "xocs:funding-agency-acronym": "NKPs",
+              "xocs:funding-agency": "National Key Research and Development Program of China",
+              "xocs:funding-id": [
+                {
+                  "$": "2023YFC3008300"
+                },
+                {
+                  "$": "2019YFC1509700"
+                }
+              ],
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100012166",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "National Key Research and Development Program of China",
+              "xocs:funding-agency-acronym": "NKPs",
+              "xocs:funding-agency": "National Key Research and Development Program of China",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100012166",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            }
+          ],
+          "xocs:funding-addon-generated-timestamp": "2025-12-18T20:11:38.818Z",
+          "xocs:funding-text": "This research is supported by the China Postdoctoral Science Foundation (Grant No. 2025 M770468 ), and National Key Research and Development Program of China (Grant No. 2023YFC3008300 and 2019YFC1509700 ).",
+          "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }
+      },
+      "bibrecord": {
+        "head": {
+          "author-group": [
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "200092",
+                "@afid": "60073652",
+                "@country": "chn",
+                "city": "Shanghai",
+                "organization": [
+                  {
+                    "$": "Department of Geotechnical Engineering"
+                  },
+                  {
+                    "$": "College of Civil Engineering"
+                  },
+                  {
+                    "$": "Tongji University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60073652",
+                  "@dptid": "104830272"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-969677048-bfdbc20324cb20e89a18f66eb00de0e1-1",
+                "ce:source-text": "Department of Geotechnical Engineering, College of Civil Engineering, Tongji University, Shanghai 200092, China",
+                "@dptid": "104830272"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Fei",
+                  "preferred-name": {
+                    "ce:given-name": "Fei",
+                    "ce:initials": "F.",
+                    "ce:surname": "Zhao",
+                    "ce:indexed-name": "Zhao F."
+                  },
+                  "@author-instance-id": "OB2BibRecID-969677048-e5b201be3a0fbfbada60115ca8831744-1",
+                  "@seq": "1",
+                  "ce:initials": "F.",
+                  "@date-locked": "2025-12-09T04:40:21.336",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Zhao",
+                  "@auid": "57212021226",
+                  "@orcid": "0000-0002-7032-3492",
+                  "ce:indexed-name": "Zhao F."
+                },
+                {
+                  "ce:given-name": "Zhenming",
+                  "preferred-name": {
+                    "ce:given-name": "Zhenming",
+                    "ce:initials": "Z.",
+                    "ce:surname": "Shi",
+                    "ce:indexed-name": "Shi Z."
+                  },
+                  "@author-instance-id": "OB2BibRecID-969677048-90a2798f9cbf0b1c5c0b5091004a8ff4-1",
+                  "@seq": "2",
+                  "ce:initials": "Z.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Shi",
+                  "@auid": "7403734462",
+                  "ce:indexed-name": "Shi Z."
+                },
+                {
+                  "ce:given-name": "Songbo",
+                  "preferred-name": {
+                    "ce:given-name": "Songbo",
+                    "ce:initials": "S.",
+                    "ce:surname": "Yu",
+                    "ce:indexed-name": "Yu S."
+                  },
+                  "@author-instance-id": "OB2BibRecID-969677048-1c900ea770e1e23d5d5a2e0821db54d9-1",
+                  "@seq": "3",
+                  "ce:initials": "S.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Yu",
+                  "@auid": "7405731975",
+                  "ce:indexed-name": "Yu S."
+                },
+                {
+                  "ce:given-name": "Ming",
+                  "preferred-name": {
+                    "ce:given-name": "Ming",
+                    "ce:initials": "M.",
+                    "ce:surname": "Peng",
+                    "ce:indexed-name": "Peng M."
+                  },
+                  "@author-instance-id": "OB2BibRecID-969677048-976c57c3c7a6adfb5bf172ec5be4aa2a-1",
+                  "@seq": "4",
+                  "ce:initials": "M.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Peng",
+                  "@auid": "37108434300",
+                  "@orcid": "0000-0001-9134-4391",
+                  "ce:indexed-name": "Peng M."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "200092",
+                "@afid": "60129289",
+                "@country": "chn",
+                "city": "Shanghai",
+                "organization": [
+                  {
+                    "$": "Key Laboratory of Geotechnical and Underground Engineering"
+                  },
+                  {
+                    "$": "Ministry of Education"
+                  },
+                  {
+                    "$": "Tongji University"
+                  }
+                ],
+                "affiliation-id": [
+                  {
+                    "@afid": "60129289"
+                  },
+                  {
+                    "@afid": "60073652"
+                  },
+                  {
+                    "@afid": "60001604"
+                  }
+                ],
+                "@affiliation-instance-id": "OB2BibRecID-969677048-2db8e87cb9a2b2f812df678a00491ec5-1",
+                "ce:source-text": "Key Laboratory of Geotechnical and Underground Engineering, Ministry of Education, Tongji University, Shanghai 200092, China"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Fei",
+                  "preferred-name": {
+                    "ce:given-name": "Fei",
+                    "ce:initials": "F.",
+                    "ce:surname": "Zhao",
+                    "ce:indexed-name": "Zhao F."
+                  },
+                  "@author-instance-id": "OB2BibRecID-969677048-e5b201be3a0fbfbada60115ca8831744-1",
+                  "@seq": "1",
+                  "ce:initials": "F.",
+                  "@date-locked": "2025-12-09T04:40:21.336",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Zhao",
+                  "@auid": "57212021226",
+                  "@orcid": "0000-0002-7032-3492",
+                  "ce:indexed-name": "Zhao F."
+                },
+                {
+                  "ce:given-name": "Zhenming",
+                  "preferred-name": {
+                    "ce:given-name": "Zhenming",
+                    "ce:initials": "Z.",
+                    "ce:surname": "Shi",
+                    "ce:indexed-name": "Shi Z."
+                  },
+                  "@author-instance-id": "OB2BibRecID-969677048-90a2798f9cbf0b1c5c0b5091004a8ff4-1",
+                  "@seq": "2",
+                  "ce:initials": "Z.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Shi",
+                  "@auid": "7403734462",
+                  "ce:indexed-name": "Shi Z."
+                },
+                {
+                  "ce:given-name": "Songbo",
+                  "preferred-name": {
+                    "ce:given-name": "Songbo",
+                    "ce:initials": "S.",
+                    "ce:surname": "Yu",
+                    "ce:indexed-name": "Yu S."
+                  },
+                  "@author-instance-id": "OB2BibRecID-969677048-1c900ea770e1e23d5d5a2e0821db54d9-1",
+                  "@seq": "3",
+                  "ce:initials": "S.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Yu",
+                  "@auid": "7405731975",
+                  "ce:indexed-name": "Yu S."
+                },
+                {
+                  "ce:given-name": "Ming",
+                  "preferred-name": {
+                    "ce:given-name": "Ming",
+                    "ce:initials": "M.",
+                    "ce:surname": "Peng",
+                    "ce:indexed-name": "Peng M."
+                  },
+                  "@author-instance-id": "OB2BibRecID-969677048-976c57c3c7a6adfb5bf172ec5be4aa2a-1",
+                  "@seq": "4",
+                  "ce:initials": "M.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Peng",
+                  "@auid": "37108434300",
+                  "@orcid": "0000-0001-9134-4391",
+                  "ce:indexed-name": "Peng M."
+                }
+              ]
+            }
+          ],
+          "citation-title": "Seismic Response and Pile-Rock Interaction Mechanisms in Bedding Rock Slope: A Combined Centrifuge Modeling and Numerical Simulation Study",
+          "abstracts": "© 2025 Elsevier Ltd.Anti-slide piles exhibit remarkable reinforcement efficacy in slope stabilization under seismic conditions. Drawing on the failure characteristics of conventional anti-slide pile structures, this study proposes a novel seismic-resistant anti-slide pile system (double rows of anti-slide piles connected with flexible structures, FSDRP). Subsequently, taking the Shaba rock slope along the Duyun - Shangri-La highway in Yunnan, China as the research case, the mechanical properties, reinforcement effects, and internal mechanisms of single row of anti-slide piles (SRP), double rows of anti-slide piles (DRP), and FSDRP are analyzed via centrifuge shaking table tests and numerical simulations, under peak ground accelerations (PGAs) ranging from 0.05g to 0.20g. Key findings indicate that the seismic dynamic response of rock slopes with weak interlayers is jointly influenced by rock mass properties, earthquake intensity, and reinforcement structure types. All three reinforcement systems effectively suppress slope deformation; notably, FSDRP demonstrates superior stabilization performance compared to DRP and SRP. For SRP and DRP, the maximum shear forces and bending moments are concentrated at the interface of the weak interlayer. In contrast, the flexible connecting structures in FSDRP alter the force distribution pattern, thereby transforming the pile-rock interaction from passive to active reinforcement. This enhancement in the integrated “pile-rock-pile” structure enables coordinated deformation between the piles and the surrounding geotechnical mass, ultimately achieving more efficient dissipation of seismic energy. These findings provide critical theoretical support for evaluating reinforcement strategies for stratified landslides in seismic-prone regions, and offer significant implications for geohazard mitigation and engineering practice.",
+          "correspondence": {
+            "affiliation": {
+              "country": "China",
+              "postal-code": "200092",
+              "@country": "chn",
+              "city": "Shanghai",
+              "organization": [
+                {
+                  "$": "Department of Geotechnical Engineering"
+                },
+                {
+                  "$": "College of Civil Engineering"
+                },
+                {
+                  "$": "Tongji University"
+                }
+              ],
+              "@affiliation-instance-id": "OB2BibRecID-969677048-bfdbc20324cb20e89a18f66eb00de0e1-1",
+              "ce:source-text": "Department of Geotechnical Engineering, College of Civil Engineering, Tongji University, Shanghai 200092, China"
+            },
+            "person": {
+              "ce:given-name": "Songbo",
+              "@author-instance-id": "OB2BibRecID-969677048-701031f5b26c8a8b6a8653dd574d658e-1",
+              "ce:initials": "S.",
+              "ce:surname": "Yu",
+              "ce:indexed-name": "Yu S."
+            }
+          },
+          "citation-info": {
+            "author-keywords": {
+              "author-keyword": [
+                {
+                  "$": "Bedding rock slope",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Centrifuge modeling",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Pile-rock interaction mechanism",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Seismic response",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "The “pile-rock-pile” structure",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                }
+              ]
+            },
+            "citation-type": {
+              "@code": "ar"
+            },
+            "citation-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "abstract-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            }
+          },
+          "source": {
+            "sourcetitle-abbrev": "Transp. Geotech.",
+            "website": {
+              "ce:e-address": {
+                "$": "https://www.sciencedirect.com/science/journal/22143912",
+                "@type": "email"
+              }
+            },
+            "@country": "gbr",
+            "issn": {
+              "$": "22143912",
+              "@type": "electronic"
+            },
+            "volisspag": {
+              "voliss": {
+                "@volume": "56"
+              }
+            },
+            "@type": "j",
+            "publicationyear": {
+              "@first": "2026"
+            },
+            "publisher": {
+              "publishername": "Elsevier Ltd"
+            },
+            "sourcetitle": "Transportation Geotechnics",
+            "article-number": "101809",
+            "@srcid": "21100316068",
+            "publicationdate": {
+              "month": "01",
+              "year": "2026",
+              "date-text": "January 2026",
+              "day": "01"
+            }
+          },
+          "enhancement": {
+            "classificationgroup": {
+              "classifications": [
+                {
+                  "@type": "GEOCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "71.2.9",
+                      "classification-description": "Slopes"
+                    },
+                    {
+                      "classification-code": "72.13.4",
+                      "classification-description": "Engineering seismology"
+                    },
+                    {
+                      "classification-code": "77.9.11",
+                      "classification-description": "Influence of dynamic loads"
+                    }
+                  ]
+                },
+                {
+                  "@type": "ASJC",
+                  "classification": [
+                    {
+                      "$": "2205"
+                    },
+                    {
+                      "$": "3313"
+                    },
+                    {
+                      "$": "1909"
+                    }
+                  ]
+                },
+                {
+                  "@type": "SUBJABBR",
+                  "classification": [
+                    {
+                      "$": "ENGI"
+                    },
+                    {
+                      "$": "SOCI"
+                    },
+                    {
+                      "$": "EART"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "grantlist": {
+            "@complete": "y",
+            "grant-text": {
+              "$": "This research is supported by the China Postdoctoral Science Foundation (Grant No. 2025 M770468), and National Key Research and Development Program of China (Grant No. 2023YFC3008300 and 2019YFC1509700).",
+              "@xml:lang": "eng"
+            },
+            "grant": [
+              {
+                "grant-id": "2019YFC1509700",
+                "grant-acronym": "NKRDPC, NKPs",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "National Key Research and Development Program of China"
+                },
+                "grant-agency-id": "501100012166"
+              },
+              {
+                "grant-id": "2023YFC3008300",
+                "grant-acronym": "NKRDPC, NKPs",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "National Key Research and Development Program of China"
+                },
+                "grant-agency-id": "501100012166"
+              },
+              {
+                "grant-id": "M770468",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "China Postdoctoral Science Foundation"
+                },
+                "grant-agency-id": "501100002858"
+              }
+            ]
+          }
+        },
+        "item-info": {
+          "copyright": {
+            "$": "Copyright 2025 Elsevier B.V., All rights reserved.",
+            "@type": "Elsevier"
+          },
+          "dbcollection": [
+            {
+              "$": "GEO"
+            },
+            {
+              "$": "REAXYSCAR"
+            },
+            {
+              "$": "SCOPUS"
+            },
+            {
+              "$": "SNGEO"
+            },
+            {
+              "$": "Scopusbase"
+            }
+          ],
+          "history": {
+            "date-created": {
+              "@day": "03",
+              "@timestamp": "BST 16:07:44",
+              "@year": "2025",
+              "@month": "12"
+            }
+          },
+          "itemidlist": {
+            "itemid": [
+              {
+                "$": "2041343420",
+                "@idtype": "PUI"
+              },
+              {
+                "$": "969677048",
+                "@idtype": "CAR-ID"
+              },
+              {
+                "$": "11358357",
+                "@idtype": "GEO"
+              },
+              {
+                "$": "20253693871",
+                "@idtype": "REAXYSCAR"
+              },
+              {
+                "$": "20254995051",
+                "@idtype": "SCOPUS"
+              },
+              {
+                "$": "2025025267",
+                "@idtype": "SNGEO"
+              },
+              {
+                "$": "969677048#347649799",
+                "@idtype": "SRC-OCC-ID"
+              },
+              {
+                "$": "105022827771",
+                "@idtype": "SCP"
+              },
+              {
+                "$": "105022827771",
+                "@idtype": "SGR"
+              }
+            ],
+            "ce:pii": "S2214391225003289",
+            "ce:ern": "pii:S2214391225003289",
+            "ce:doi": "10.1016/j.trgeo.2025.101809"
+          }
+        },
+        "tail": {
+          "bibliography": {
+            "@refcount": "58",
+            "reference": [
+              {
+                "ref-fulltext": "Al-Defae A H, Knappett J A (2014) Centrifuge modeling of the seismic performance of pile reinforced slopes. Journal of Geotechnical and Geoenvironmental Engineering, 140(6):04014014.",
+                "@reference-instance-id": "OB2BibRecID-969677048-80642ccccedf1ffcc700e5f19ca7fb21-1",
+                "@id": "1",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Centrifuge modeling of the seismic performance of pile reinforced slopes"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0005",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "04014014",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "84907025084",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "140",
+                      "@issue": "6"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Al-Defae",
+                        "ce:indexed-name": "Al-Defae A.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Knappett",
+                        "ce:indexed-name": "Knappett J.A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Geotech Geoenviron Eng"
+                },
+                "ce:source-text": "Al-Defae A H, Knappett J A (2014) Centrifuge modeling of the seismic performance of pile reinforced slopes. Journal of Geotechnical and Geoenvironmental Engineering, 140(6):04014014."
+              },
+              {
+                "ref-fulltext": "Chen J F, Du C C, Peng M, et al. (2023) System reliability analysis of a slope stabilized with anchor cables and piles under seismic loading. Acta Geotechnica, 18(8):4493–4514.",
+                "@reference-instance-id": "OB2BibRecID-969677048-463fe6b140cf12c984570cb3fe7d62f8-2",
+                "@id": "2",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "System reliability analysis of a slope stabilized with anchor cables and piles under seismic loading"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0010",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85148533459",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "18",
+                      "@issue": "8"
+                    },
+                    "pagerange": {
+                      "@first": "4493",
+                      "@last": "4514"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen J.F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Du",
+                        "ce:indexed-name": "Du C.C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Peng",
+                        "ce:indexed-name": "Peng M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Acta Geotech"
+                },
+                "ce:source-text": "Chen J F, Du C C, Peng M, et al. (2023) System reliability analysis of a slope stabilized with anchor cables and piles under seismic loading. Acta Geotechnica, 18(8):4493–4514."
+              },
+              {
+                "ref-fulltext": "Deng W, Ding X, Yang C, et al. (2025) Seismic response of high-filled reinforced embankment supported by pile and slab structure on slope terrain. Transportation Geotechnics, 50:101475.",
+                "@reference-instance-id": "OB2BibRecID-969677048-7d9b5123e63e272c641a1ca7de112a4a-3",
+                "@id": "3",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2025"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic response of high-filled reinforced embankment supported by pile and slab structure on slope terrain"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0015",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "101475",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85212606600",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "50"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Deng",
+                        "ce:indexed-name": "Deng W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Ding",
+                        "ce:indexed-name": "Ding X."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Transp Geotech"
+                },
+                "ce:source-text": "Deng W, Ding X, Yang C, et al. (2025) Seismic response of high-filled reinforced embankment supported by pile and slab structure on slope terrain. Transportation Geotechnics, 50:101475."
+              },
+              {
+                "ref-fulltext": "Fan G, Zhang J, Qi S, et al. (2019) Dynamic response of a slope reinforced by double-row anti-sliding piles and pre-stressed anchor cables. Journal of Mountain Science, 16(1):226–241.",
+                "@reference-instance-id": "OB2BibRecID-969677048-559b54f63a1be1035c1ff37f3edd5b62-4",
+                "@id": "4",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Dynamic response of a slope reinforced by double-row anti-sliding piles and pre-stressed anchor cables"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0020",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85060274792",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "16",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "226",
+                      "@last": "241"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Fan",
+                        "ce:indexed-name": "Fan G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Qi",
+                        "ce:indexed-name": "Qi S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Mt Sci"
+                },
+                "ce:source-text": "Fan G, Zhang J, Qi S, et al. (2019) Dynamic response of a slope reinforced by double-row anti-sliding piles and pre-stressed anchor cables. Journal of Mountain Science, 16(1):226–241."
+              },
+              {
+                "ref-fulltext": "Fang K, Tang H M, Li C D, et al. (2023) Centrifuge modelling of landslides and landslide hazard mitigation: A review. Geoscience Frontiers, 14(1):101493.",
+                "@reference-instance-id": "OB2BibRecID-969677048-d9255491bab536312a11ebee478b3e0e-5",
+                "@id": "5",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Centrifuge modelling of landslides and landslide hazard mitigation: a review"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0025",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "101493",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85140807297",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "14",
+                      "@issue": "1"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Fang",
+                        "ce:indexed-name": "Fang K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Tang",
+                        "ce:indexed-name": "Tang H.M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li C.D."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geosci Front"
+                },
+                "ce:source-text": "Fang K, Tang H M, Li C D, et al. (2023) Centrifuge modelling of landslides and landslide hazard mitigation: A review. Geoscience Frontiers, 14(1):101493."
+              },
+              {
+                "ref-fulltext": "Feng S, Wu H G, Ai H, et al. (2018) Seismic optimum design and experimental research on anti-slide pile with pre-stressed anchor cable. Science Technology and Engineering, 18(12):248–255 (In Chinese).",
+                "@reference-instance-id": "OB2BibRecID-969677048-caad7f9c452abdbdf88c3966b0e0febb-6",
+                "@id": "6",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic optimum design and experimental research on anti-slide pile with pre-stressed anchor cable"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0030",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85100607631",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "18",
+                      "@issue": "12"
+                    },
+                    "pagerange": {
+                      "@first": "248",
+                      "@last": "255"
+                    }
+                  },
+                  "ref-text": "In Chinese",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Feng",
+                        "ce:indexed-name": "Feng S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu H.G."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Ai",
+                        "ce:indexed-name": "Ai H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Science Technology and Engineering"
+                },
+                "ce:source-text": "Feng S, Wu H G, Ai H, et al. (2018) Seismic optimum design and experimental research on anti-slide pile with pre-stressed anchor cable. Science Technology and Engineering, 18(12):248–255 (In Chinese)."
+              },
+              {
+                "ref-fulltext": "Gao X (2024) Development laws of geological hazards along urban highway in Southwest China and countermeasures for prevention and control. Geohazard Mechanics, 2(1): 13-20.",
+                "@reference-instance-id": "OB2BibRecID-969677048-79d95c21faed28df3d96d31629eeb92f-7",
+                "@id": "7",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Development laws of geological hazards along urban highway in Southwest China and countermeasures for prevention and control"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0035",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105000016523",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "2",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "13",
+                      "@last": "20"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Gao",
+                        "ce:indexed-name": "Gao X."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geohazard Mechanics"
+                },
+                "ce:source-text": "Gao X (2024) Development laws of geological hazards along urban highway in Southwest China and countermeasures for prevention and control. Geohazard Mechanics, 2(1): 13-20."
+              },
+              {
+                "ref-fulltext": "Gong W B, Li J P, Li L (2018) Limit analysis on seismic stability of anisotropic and nonhomogeneous slopes with anti-slide piles. Science China Technological Sciences, 61(1):140–146.",
+                "@reference-instance-id": "OB2BibRecID-969677048-b5e4f3d1ce10c69c23dd7bbecde742a8-8",
+                "@id": "8",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Limit analysis on seismic stability of anisotropic and nonhomogeneous slopes with anti-slide piles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0040",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85031817644",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "61",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "140",
+                      "@last": "146"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Gong",
+                        "ce:indexed-name": "Gong W.B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li J.P."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Sci China Technol Sci"
+                },
+                "ce:source-text": "Gong W B, Li J P, Li L (2018) Limit analysis on seismic stability of anisotropic and nonhomogeneous slopes with anti-slide piles. Science China Technological Sciences, 61(1):140–146."
+              },
+              {
+                "ref-fulltext": "Guo S, Qi S, Yang G, et al. (2017) An analytical solution for block toppling failure of rock slopes during an earthquake. Applied Sciences, 7(10):1008.",
+                "@reference-instance-id": "OB2BibRecID-969677048-a641c1d8423bffbc304a12e1d86d9224-9",
+                "@id": "9",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "An analytical solution for block toppling failure of rock slopes during an earthquake"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0045",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85030643745",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "7",
+                      "@issue": "10"
+                    },
+                    "pagerange": {
+                      "@first": "1008"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Guo",
+                        "ce:indexed-name": "Guo S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Qi",
+                        "ce:indexed-name": "Qi S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Appl Sci"
+                },
+                "ce:source-text": "Guo S, Qi S, Yang G, et al. (2017) An analytical solution for block toppling failure of rock slopes during an earthquake. Applied Sciences, 7(10):1008."
+              },
+              {
+                "ref-fulltext": "Gupta P, Mehndiratta S (2025) Exploring the efficacy of slope stabilization using piles: a comprehensive review.Indian Geotechnical Journal,55, 3442–3459.",
+                "@reference-instance-id": "OB2BibRecID-969677048-2b5ecd65be6ecd92add1616f62bf2544-10",
+                "@id": "10",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2025"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Exploring the efficacy of slope stabilization using piles: a comprehensive review"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0050",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85210398270",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "55"
+                    },
+                    "pagerange": {
+                      "@first": "3442",
+                      "@last": "3459"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Gupta",
+                        "ce:indexed-name": "Gupta P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Mehndiratta",
+                        "ce:indexed-name": "Mehndiratta S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Indian Geotechnical Journal"
+                },
+                "ce:source-text": "Gupta P, Mehndiratta S (2025) Exploring the efficacy of slope stabilization using piles: a comprehensive review.Indian Geotechnical Journal,55, 3442–3459."
+              },
+              {
+                "ref-fulltext": "Jiang P, Jing S, Li P, et al. (2020) Mechanism and application of pre-stressed grouting bolt with constant resistance and large deformation. Geotechnical and Geological Engineering, 38(6):5969–5977",
+                "@reference-instance-id": "OB2BibRecID-969677048-7fe6fd3dea0b1049805b6a5392c1cf37-11",
+                "@id": "11",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Mechanism and application of pre-stressed grouting bolt with constant resistance and large deformation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0055",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85086322277",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "38",
+                      "@issue": "6"
+                    },
+                    "pagerange": {
+                      "@first": "5969",
+                      "@last": "5977"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Jiang",
+                        "ce:indexed-name": "Jiang P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Jing",
+                        "ce:indexed-name": "Jing S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li P."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geotech Geol Eng"
+                },
+                "ce:source-text": "Jiang P, Jing S, Li P, et al. (2020) Mechanism and application of pre-stressed grouting bolt with constant resistance and large deformation. Geotechnical and Geological Engineering, 38(6):5969–5977"
+              },
+              {
+                "ref-fulltext": "Lai J, Zheng Y R, Liu Y, et al. (2014) Shaking table tests on double row anti-slide piles of slopes under earthquakes. Chinese Journal of Geotechnical Engineering, 36(4):680–686 (In Chinese)",
+                "@reference-instance-id": "OB2BibRecID-969677048-4e66c1449f305369f831b409d55c7fc2-12",
+                "@id": "12",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Shaking table tests on double row anti-slide piles of slopes under earthquakes"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0060",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84899734182",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "36",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "680",
+                      "@last": "686"
+                    }
+                  },
+                  "ref-text": "In Chinese",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Lai",
+                        "ce:indexed-name": "Lai J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Zheng",
+                        "ce:indexed-name": "Zheng Y.R."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Chinese Journal of Geotechnical Engineering"
+                },
+                "ce:source-text": "Lai J, Zheng Y R, Liu Y, et al. (2014) Shaking table tests on double row anti-slide piles of slopes under earthquakes. Chinese Journal of Geotechnical Engineering, 36(4):680–686 (In Chinese)"
+              },
+              {
+                "ref-fulltext": "Lei H, Qian J G, Wu H G (2023). Dynamic response and failure mode of the twin tunnel-landslide using shaking table tests. Acta Geotechnica, 18(8):1–23",
+                "@reference-instance-id": "OB2BibRecID-969677048-01b093dedd051c269ec20ef53a932763-13",
+                "@id": "13",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Dynamic response and failure mode of the twin tunnel-landslide using shaking table tests"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0065",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85149021410",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "18",
+                      "@issue": "8"
+                    },
+                    "pagerange": {
+                      "@first": "1",
+                      "@last": "23"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Lei",
+                        "ce:indexed-name": "Lei H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Qian",
+                        "ce:indexed-name": "Qian J.G."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu H.G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Acta Geotech"
+                },
+                "ce:source-text": "Lei H, Qian J G, Wu H G (2023). Dynamic response and failure mode of the twin tunnel-landslide using shaking table tests. Acta Geotechnica, 18(8):1–23"
+              },
+              {
+                "ref-fulltext": "Li H, Wang H, Yue G, et al. (2021) Arch antislide pile-wall structure system: model and optimization. Mathematical Problems in Engineering, 2021(1):1-16.",
+                "@reference-instance-id": "OB2BibRecID-969677048-6266b2b53747e62cb9e4d4e96c7bc40b-14",
+                "@id": "14",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "(2021) Arch antislide pile-wall structure system: model and optimization"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0070",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85101509415",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "1"
+                    },
+                    "pagerange": {
+                      "@first": "1",
+                      "@last": "16"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Yue",
+                        "ce:indexed-name": "Yue G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Math Probl Eng"
+                },
+                "ce:source-text": "Li H, Wang H, Yue G, et al. (2021) Arch antislide pile-wall structure system: model and optimization. Mathematical Problems in Engineering, 2021(1):1-16."
+              },
+              {
+                "ref-fulltext": "Li Q, Shi Z M, Zhao F, et al. (2023a) Mechanical performance evaluation of steel fiber-reinforced concrete (FRC) based on multi-mechanical indicators from split hopkinson pressure bar (SHPB) test. Journal of Building Engineering, 79:107898",
+                "@reference-instance-id": "OB2BibRecID-969677048-636f9efcb6857439ef8c3c592c4e43bc-15",
+                "@id": "15",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Mechanical performance evaluation of steel fiber-reinforced concrete (FRC) based on multi-mechanical indicators from split hopkinson pressure bar (SHPB) test"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0075",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "107898",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85174827031",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "79"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li Q."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi Z.M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Journal of Building Engineering"
+                },
+                "ce:source-text": "Li Q, Shi Z M, Zhao F, et al. (2023a) Mechanical performance evaluation of steel fiber-reinforced concrete (FRC) based on multi-mechanical indicators from split hopkinson pressure bar (SHPB) test. Journal of Building Engineering, 79:107898"
+              },
+              {
+                "ref-fulltext": "Li S, Wu Q, Wang L, et al. (2023b) Seismic behavior analysis of soft and hard interbedded rock slope considering vibration deterioration of discontinuities at the interface between different rock types in meizoseismal area—a case study. Bulletin of Engineering Geology and the Environment, 82:14",
+                "@reference-instance-id": "OB2BibRecID-969677048-fc493c075e656eb510abf0d7e8d1a24e-16",
+                "@id": "16",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic behavior analysis of soft and hard interbedded rock slope considering vibration deterioration of discontinuities at the interface between different rock types in meizoseismal area—a case study"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0080",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85144179431",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "82"
+                    },
+                    "pagerange": {
+                      "@first": "14"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu Q."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Bull Eng Geol Environ"
+                },
+                "ce:source-text": "Li S, Wu Q, Wang L, et al. (2023b) Seismic behavior analysis of soft and hard interbedded rock slope considering vibration deterioration of discontinuities at the interface between different rock types in meizoseismal area—a case study. Bulletin of Engineering Geology and the Environment, 82:14"
+              },
+              {
+                "ref-fulltext": "Lin M L, Wang K L (2006) Seismic slope behavior in a large-scale shaking table model test. Engineering Geology, 86(2):118-133",
+                "@reference-instance-id": "OB2BibRecID-969677048-4c27f18d46478e7e4beced8297add0da-17",
+                "@id": "17",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2006"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic slope behavior in a large-scale shaking table model test"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0085",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "33746408700",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "86",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "118",
+                      "@last": "133"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Lin",
+                        "ce:indexed-name": "Lin M.L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang K.L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Eng Geol"
+                },
+                "ce:source-text": "Lin M L, Wang K L (2006) Seismic slope behavior in a large-scale shaking table model test. Engineering Geology, 86(2):118-133"
+              },
+              {
+                "ref-fulltext": "Lin Y, Yang G, Yang X, et al. (2017) Response of gravity retaining wall with anchoring frame beam supporting a steep rock slope subjected to earthquake loading. Soil Dynamics and Earthquake Engineering, 92:633–649",
+                "@reference-instance-id": "OB2BibRecID-969677048-1d98be0231ac88427be09646b90963cd-18",
+                "@id": "18",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Response of gravity retaining wall with anchoring frame beam supporting a steep rock slope subjected to earthquake loading"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0090",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84995595996",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "92"
+                    },
+                    "pagerange": {
+                      "@first": "633",
+                      "@last": "649"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Lin",
+                        "ce:indexed-name": "Lin Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang G."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang X."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dyn Earthq Eng"
+                },
+                "ce:source-text": "Lin Y, Yang G, Yang X, et al. (2017) Response of gravity retaining wall with anchoring frame beam supporting a steep rock slope subjected to earthquake loading. Soil Dynamics and Earthquake Engineering, 92:633–649"
+              },
+              {
+                "ref-fulltext": "Lin Y, Cheng X, Yang G, et al. (2018) Seismic response of a sheet-pile wall with anchoring frame beam by numerical simulation and shaking table test. Soil Dynamics and Earthquake Engineering, 115:352–364",
+                "@reference-instance-id": "OB2BibRecID-969677048-2a52b2b854b62f650fee1d422f8c4d36-19",
+                "@id": "19",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic response of a sheet-pile wall with anchoring frame beam by numerical simulation and shaking table test"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0095",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85053538057",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "115"
+                    },
+                    "pagerange": {
+                      "@first": "352",
+                      "@last": "364"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Lin",
+                        "ce:indexed-name": "Lin Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Cheng",
+                        "ce:indexed-name": "Cheng X."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dyn Earthq Eng"
+                },
+                "ce:source-text": "Lin Y, Cheng X, Yang G, et al. (2018) Seismic response of a sheet-pile wall with anchoring frame beam by numerical simulation and shaking table test. Soil Dynamics and Earthquake Engineering, 115:352–364"
+              },
+              {
+                "ref-fulltext": "Lin Y, Lu L, Yang G (2020) Seismic behavior of a single-form lattice anchoring structure and a combined retaining structure supporting soil slope: a comparison. Environmental Earth Sciences, 79(3):78",
+                "@reference-instance-id": "OB2BibRecID-969677048-516bba7d483e4595d3dc2c17fa0bf581-20",
+                "@id": "20",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic behavior of a single-form lattice anchoring structure and a combined retaining structure supporting soil slope: a comparison"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0100",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85078766130",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "79",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "78"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Lin",
+                        "ce:indexed-name": "Lin Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Lu",
+                        "ce:indexed-name": "Lu L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Environ Earth Sci"
+                },
+                "ce:source-text": "Lin Y, Lu L, Yang G (2020) Seismic behavior of a single-form lattice anchoring structure and a combined retaining structure supporting soil slope: a comparison. Environmental Earth Sciences, 79(3):78"
+              },
+              {
+                "ref-fulltext": "Liu L, Li S, Zheng M, et al. (2024) Inverting the rock mass P-wave velocity field ahead of deep buried tunnel face while borehole drilling. International Journal of Mining Science and Technology, 34(5): 681–697.",
+                "@reference-instance-id": "OB2BibRecID-969677048-97b8f0cee291658cf09c83b6150d772e-21",
+                "@id": "21",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Inverting the rock mass P-wave velocity field ahead of deep buried tunnel face while borehole drilling"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0105",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85196652967",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "34",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "681",
+                      "@last": "697"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Zheng",
+                        "ce:indexed-name": "Zheng M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Int J Min Sci Technol"
+                },
+                "ce:source-text": "Liu L, Li S, Zheng M, et al. (2024) Inverting the rock mass P-wave velocity field ahead of deep buried tunnel face while borehole drilling. International Journal of Mining Science and Technology, 34(5): 681–697."
+              },
+              {
+                "ref-fulltext": "Long Z, Yan Z X, Liu C B (2020) Shear Effects on the anchorage interfaces and seismic responses of a rock slope containing a weak layer under seismic action. Mathematical Problems in Engineering, 1424167",
+                "@reference-instance-id": "OB2BibRecID-969677048-23d1d6fb3ef8091d20b10bfa3321de81-22",
+                "@id": "22",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Shear Effects on the anchorage interfaces and seismic responses of a rock slope containing a weak layer under seismic action"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0110",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85085162124",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Long",
+                        "ce:indexed-name": "Long Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.X.",
+                        "@_fa": "true",
+                        "ce:surname": "Yan",
+                        "ce:indexed-name": "Yan Z.X."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu C.B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Math Probl Eng"
+                },
+                "ce:source-text": "Long Z, Yan Z X, Liu C B (2020) Shear Effects on the anchorage interfaces and seismic responses of a rock slope containing a weak layer under seismic action. Mathematical Problems in Engineering, 1424167"
+              },
+              {
+                "ref-fulltext": "Ma N, Wu H, Ma H, et al. (2019) Examining dynamic soil pressures and the effectiveness of different pile structures inside reinforced slopes using shaking table tests. Soil Dynamics and Earthquake Engineering, 116:293–303",
+                "@reference-instance-id": "OB2BibRecID-969677048-55c788093e05188d9e83b6a6915148e9-23",
+                "@id": "23",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Examining dynamic soil pressures and the effectiveness of different pile structures inside reinforced slopes using shaking table tests"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0115",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85056197503",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "116"
+                    },
+                    "pagerange": {
+                      "@first": "293",
+                      "@last": "303"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Ma",
+                        "ce:indexed-name": "Ma N."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Ma",
+                        "ce:indexed-name": "Ma H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dyn Earthq Eng"
+                },
+                "ce:source-text": "Ma N, Wu H, Ma H, et al. (2019) Examining dynamic soil pressures and the effectiveness of different pile structures inside reinforced slopes using shaking table tests. Soil Dynamics and Earthquake Engineering, 116:293–303"
+              },
+              {
+                "ref-fulltext": "Nian T K, Jiang J C, Wang F W, et al. (2016) Seismic stability analysis of slope reinforced with a row of piles. Soil Dynamics and Earthquake Engineering, 84:83–93.",
+                "@reference-instance-id": "OB2BibRecID-969677048-8ee60d3712d66365a2223aebfb12aacc-24",
+                "@id": "24",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic stability analysis of slope reinforced with a row of piles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0120",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84959341667",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "84"
+                    },
+                    "pagerange": {
+                      "@first": "83",
+                      "@last": "93"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Nian",
+                        "ce:indexed-name": "Nian T.K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Jiang",
+                        "ce:indexed-name": "Jiang J.C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "F.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang F.W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dyn Earthq Eng"
+                },
+                "ce:source-text": "Nian T K, Jiang J C, Wang F W, et al. (2016) Seismic stability analysis of slope reinforced with a row of piles. Soil Dynamics and Earthquake Engineering, 84:83–93."
+              },
+              {
+                "ref-fulltext": "Peng W, Zhao M, Zhao H, et al. (2023) Field and laboratory experiments on performance of double-pile substructure of bridge along slope strike. Transportation Geotechnics, 41: 101013.",
+                "@reference-instance-id": "OB2BibRecID-969677048-27a536ca119d48ccdd1d6dcc9b18a57c-25",
+                "@id": "25",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Field and laboratory experiments on performance of double-pile substructure of bridge along slope strike"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0125",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "101013",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85159155296",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "41"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Peng",
+                        "ce:indexed-name": "Peng W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Transp Geotech"
+                },
+                "ce:source-text": "Peng W, Zhao M, Zhao H, et al. (2023) Field and laboratory experiments on performance of double-pile substructure of bridge along slope strike. Transportation Geotechnics, 41: 101013."
+              },
+              {
+                "ref-fulltext": "Qi H, Du C, Peng M,et al. (2024)Seismic displacement of bedding slopes stabilized with anchor cables and piles considering dynamic yield acceleration.Bulletin of Engineering Geology and the Environment,83:208.",
+                "@reference-instance-id": "OB2BibRecID-969677048-e94f7d5ed5e1378b07310be1d4af1694-26",
+                "@id": "26",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic displacement of bedding slopes stabilized with anchor cables and piles considering dynamic yield acceleration"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0130",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85192055731",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "83"
+                    },
+                    "pagerange": {
+                      "@first": "208"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Qi",
+                        "ce:indexed-name": "Qi H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Du",
+                        "ce:indexed-name": "Du C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Peng",
+                        "ce:indexed-name": "Peng M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Bull Eng Geol Environ"
+                },
+                "ce:source-text": "Qi H, Du C, Peng M,et al. (2024)Seismic displacement of bedding slopes stabilized with anchor cables and piles considering dynamic yield acceleration.Bulletin of Engineering Geology and the Environment,83:208."
+              },
+              {
+                "ref-fulltext": "Qu H L, Luo H, Liu L, et al. (2017) Analysis of dynamic coupling characteristics of the slope reinforced by sheet pile wall. Shock and Vibration, 9043518.",
+                "@reference-instance-id": "OB2BibRecID-969677048-efb9a050a484171e30c3d499d3f91982-27",
+                "@id": "27",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Analysis of dynamic coupling characteristics of the slope reinforced by sheet pile wall"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0135",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85018996878",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Qu",
+                        "ce:indexed-name": "Qu H.L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Luo",
+                        "ce:indexed-name": "Luo H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Shock Vib"
+                },
+                "ce:source-text": "Qu H L, Luo H, Liu L, et al. (2017) Analysis of dynamic coupling characteristics of the slope reinforced by sheet pile wall. Shock and Vibration, 9043518."
+              },
+              {
+                "ref-fulltext": "Qu H L, Wang C, Zhang G, et al. (2019) Seismic damage mechanism of bedrock and overburden layer slope reinforced by sheet pile wall. Journal of Geophysics and Engineering, 16(4):667–679",
+                "@reference-instance-id": "OB2BibRecID-969677048-032f56c6eb6527feb8f87a6fd9aefafc-28",
+                "@id": "28",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic damage mechanism of bedrock and overburden layer slope reinforced by sheet pile wall"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0140",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85073504112",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "16",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "667",
+                      "@last": "679"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Qu",
+                        "ce:indexed-name": "Qu H.L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Geophys Eng"
+                },
+                "ce:source-text": "Qu H L, Wang C, Zhang G, et al. (2019) Seismic damage mechanism of bedrock and overburden layer slope reinforced by sheet pile wall. Journal of Geophysics and Engineering, 16(4):667–679"
+              },
+              {
+                "ref-fulltext": "Song D, Chen Z, Chao H, et al. (2020) Numerical study on seismic response of a rock slope with discontinuities based on the time-frequency joint analysis method. Soil Dynamics and Earthquake Engineering, 133:106112",
+                "@reference-instance-id": "OB2BibRecID-969677048-93103d22b2270e569d641de07997b06e-29",
+                "@id": "29",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Numerical study on seismic response of a rock slope with discontinuities based on the time-frequency joint analysis method"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0145",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "106112",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85080114782",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "133"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Song",
+                        "ce:indexed-name": "Song D."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Chao",
+                        "ce:indexed-name": "Chao H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dyn Earthq Eng"
+                },
+                "ce:source-text": "Song D, Chen Z, Chao H, et al. (2020) Numerical study on seismic response of a rock slope with discontinuities based on the time-frequency joint analysis method. Soil Dynamics and Earthquake Engineering, 133:106112"
+              },
+              {
+                "ref-fulltext": "Theland F, Lombaert G, François S, et al. (2025) The influence of pile–soil–pile interaction on the vertical response of end-bearing pile groups in soil on bedrock subjected to a vertical load at the soil’s surface. Transportation Geotechnics, 51:101525.",
+                "@reference-instance-id": "OB2BibRecID-969677048-fc82133796fef75a52b648ecd876ad1c-30",
+                "@id": "30",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2025"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The influence of pile–soil–pile interaction on the vertical response of end-bearing pile groups in soil on bedrock subjected to a vertical load at the soil’s surface"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0150",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "101525",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85219436857",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "51"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Theland",
+                        "ce:indexed-name": "Theland F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Lombaert",
+                        "ce:indexed-name": "Lombaert G."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "François",
+                        "ce:indexed-name": "Francois S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Transp Geotech"
+                },
+                "ce:source-text": "Theland F, Lombaert G, François S, et al. (2025) The influence of pile–soil–pile interaction on the vertical response of end-bearing pile groups in soil on bedrock subjected to a vertical load at the soil’s surface. Transportation Geotechnics, 51:101525."
+              },
+              {
+                "ref-fulltext": "Tian J J, Li T, Pei X J,et al.(2024)Experimental study on multistage seismic damage process of bedding rock slope: A case study of the Xinmo landslide.Journal of Earth Science, 35, 1594–1612.",
+                "@reference-instance-id": "OB2BibRecID-969677048-60e1c2d8b6b5c9a824ad3654aa01e5d9-31",
+                "@id": "31",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental study on multistage seismic damage process of bedding rock slope: a case study of the Xinmo landslide"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0155",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85207163044",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "35"
+                    },
+                    "pagerange": {
+                      "@first": "1594",
+                      "@last": "1612"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Tian",
+                        "ce:indexed-name": "Tian J.J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li T."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Pei",
+                        "ce:indexed-name": "Pei X.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Earth Sci"
+                },
+                "ce:source-text": "Tian J J, Li T, Pei X J,et al.(2024)Experimental study on multistage seismic damage process of bedding rock slope: A case study of the Xinmo landslide.Journal of Earth Science, 35, 1594–1612."
+              },
+              {
+                "ref-fulltext": "Tian, X C, Tao, T J, Xie C J (2022) Study of impactdynamiccharacteristics and damage morphology oflayeredrockmass. Geofluids, 2022:835775.",
+                "@reference-instance-id": "OB2BibRecID-969677048-5b840f102471e8aeb5068723c790b298-32",
+                "@id": "32",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Study of impactdynamiccharacteristics and damage morphology oflayeredrockmass"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0160",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "835775",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85141698675",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "2022"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Tian",
+                        "ce:indexed-name": "Tian X.C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Tao",
+                        "ce:indexed-name": "Tao T.J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Xie",
+                        "ce:indexed-name": "Xie C.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geofluids"
+                },
+                "ce:source-text": "Tian, X C, Tao, T J, Xie C J (2022) Study of impactdynamiccharacteristics and damage morphology oflayeredrockmass. Geofluids, 2022:835775."
+              },
+              {
+                "ref-fulltext": "Wang L P, Zhang G A (2014) Centrifuge model test study on pile reinforcement behavior of cohesive soil slopes under earthquake conditions. Landslides, 11(2):213–223.",
+                "@reference-instance-id": "OB2BibRecID-969677048-1b09ad129d2b2bda44a1b620798afd58-33",
+                "@id": "33",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Centrifuge model test study on pile reinforcement behavior of cohesive soil slopes under earthquake conditions"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0165",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84897583006",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "11",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "213",
+                      "@last": "223"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang L.P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang G.A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Landslides"
+                },
+                "ce:source-text": "Wang L P, Zhang G A (2014) Centrifuge model test study on pile reinforcement behavior of cohesive soil slopes under earthquake conditions. Landslides, 11(2):213–223."
+              },
+              {
+                "ref-fulltext": "Wei H, Tao Z, He M,et al.(2024) The cumulative damage evolution law of multi anchor circular piles reinforced landslide under earthquake action. Rock Mechanics and Rock Engineering, 57: 6321–6336.",
+                "@reference-instance-id": "OB2BibRecID-969677048-09457aa0bce88bd39c0ae5675bddad41-34",
+                "@id": "34",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The cumulative damage evolution law of multi anchor circular piles reinforced landslide under earthquake action"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0170",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85190534147",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "57"
+                    },
+                    "pagerange": {
+                      "@first": "6321",
+                      "@last": "6336"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Wei",
+                        "ce:indexed-name": "Wei H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Tao",
+                        "ce:indexed-name": "Tao Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "He",
+                        "ce:indexed-name": "He M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Rock Mech Rock Eng"
+                },
+                "ce:source-text": "Wei H, Tao Z, He M,et al.(2024) The cumulative damage evolution law of multi anchor circular piles reinforced landslide under earthquake action. Rock Mechanics and Rock Engineering, 57: 6321–6336."
+              },
+              {
+                "ref-fulltext": "Wu WY, Xu C, Wang XQ, et al. (2020) Landslides triggered by the 3 August 2014 Ludian (China) Mw 6.2 earthquake: An updated inventory and analysis of their spatial distribution. Journal of Earth Science, 31(4): 853-866.",
+                "@reference-instance-id": "OB2BibRecID-969677048-a158c05b638ad816a4645ddb03a38d8f-35",
+                "@id": "35",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Landslides triggered by the 3 August 2014 Ludian (China) Mw 6.2 earthquake: an updated inventory and analysis of their spatial distribution"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0175",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85090027245",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "31",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "853",
+                      "@last": "866"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu W.Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang X.Q."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Earth Sci"
+                },
+                "ce:source-text": "Wu WY, Xu C, Wang XQ, et al. (2020) Landslides triggered by the 3 August 2014 Ludian (China) Mw 6.2 earthquake: An updated inventory and analysis of their spatial distribution. Journal of Earth Science, 31(4): 853-866."
+              },
+              {
+                "ref-fulltext": "Wu Q, Kulatilake PHSW, Tang HM (2011) Comparison of rock discontinuity mean trace length and density estimation methods using discontinuity data from an outcrop in Wenchuan area, China. Computers and Geotechnics, 38(2): 258-268.",
+                "@reference-instance-id": "OB2BibRecID-969677048-c7efda8a293cb1f0a77cc2d40143c60b-36",
+                "@id": "36",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Comparison of rock discontinuity mean trace length and density estimation methods using discontinuity data from an outcrop in Wenchuan area"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0180",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "79551495177",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "38",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "258",
+                      "@last": "268"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu Q."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "P.H.S.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Kulatilake",
+                        "ce:indexed-name": "Kulatilake P.H.S.W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Tang",
+                        "ce:indexed-name": "Tang H.M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "China Computers and Geotechnics"
+                },
+                "ce:source-text": "Wu Q, Kulatilake PHSW, Tang HM (2011) Comparison of rock discontinuity mean trace length and density estimation methods using discontinuity data from an outcrop in Wenchuan area, China. Computers and Geotechnics, 38(2): 258-268."
+              },
+              {
+                "ref-fulltext": "Wu Q, Kulatilake PHSW (2012) REV and its properties on fracture system and mechanical properties, and an orthotropic constitutive model for a jointed rock mass in a dam site in China. Computers and Geotechnics, 43: 124-142.",
+                "@reference-instance-id": "OB2BibRecID-969677048-a4e36e6f29769843ccbf6d35eb2ef4b8-37",
+                "@id": "37",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "REV and its properties on fracture system and mechanical properties, and an orthotropic constitutive model for a jointed rock mass in a dam site in China"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0185",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84860532936",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "43"
+                    },
+                    "pagerange": {
+                      "@first": "124",
+                      "@last": "142"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu Q."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "P.H.S.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Kulatilake",
+                        "ce:indexed-name": "Kulatilake P.H.S.W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Comput Geotech"
+                },
+                "ce:source-text": "Wu Q, Kulatilake PHSW (2012) REV and its properties on fracture system and mechanical properties, and an orthotropic constitutive model for a jointed rock mass in a dam site in China. Computers and Geotechnics, 43: 124-142."
+              },
+              {
+                "ref-fulltext": "Wu Q, Liu Y, Tang H, et al. (2023) Experimental study of the influence of wetting and drying cycles on the strength of intact rock samples from a red stratum in the Three Gorges Reservoir area. Engineering Geology, 314:107013.",
+                "@reference-instance-id": "OB2BibRecID-969677048-74a8f88f2c7b0271afa5c7a369bc5d21-38",
+                "@id": "38",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental study of the influence of wetting and drying cycles on the strength of intact rock samples from a red stratum in the three Gorges Reservoir area"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0190",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "107013",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85146711018",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "314"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu Q."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Tang",
+                        "ce:indexed-name": "Tang H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Eng Geol"
+                },
+                "ce:source-text": "Wu Q, Liu Y, Tang H, et al. (2023) Experimental study of the influence of wetting and drying cycles on the strength of intact rock samples from a red stratum in the Three Gorges Reservoir area. Engineering Geology, 314:107013."
+              },
+              {
+                "ref-fulltext": "Xu X, Du X, Huang Y. Dynamic centrifuge tests on the synergistic mechanism of pile-anchor structure retaining rock slopes. Soil Dynamics and Earthquake Engineering, 2024, 176: 108349.",
+                "@reference-instance-id": "OB2BibRecID-969677048-7d4fdf489e399cdc5f0527a21063bc12-39",
+                "@id": "39",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Dynamic centrifuge tests on the synergistic mechanism of pile-anchor structure retaining rock slopes"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0195",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "108349",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85177224056",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "176"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Du",
+                        "ce:indexed-name": "Du X."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dyn Earthq Eng"
+                },
+                "ce:source-text": "Xu X, Du X, Huang Y. Dynamic centrifuge tests on the synergistic mechanism of pile-anchor structure retaining rock slopes. Soil Dynamics and Earthquake Engineering, 2024, 176: 108349."
+              },
+              {
+                "ref-fulltext": "Yan K M, Liu F C, Zhu C H, et al. (2017) Dynamic responses of slopes with intercalated soft layers under seismic excitations. Chinese Journal of Rock Mechanics and Engineering, 36(11):2686–2698. (In Chinese)",
+                "@reference-instance-id": "OB2BibRecID-969677048-fe06a7e6a09b912e2fbe4144e044c49e-40",
+                "@id": "40",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Dynamic responses of slopes with intercalated soft layers under seismic excitations"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0200",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85045454831",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "36",
+                      "@issue": "11"
+                    },
+                    "pagerange": {
+                      "@first": "2686",
+                      "@last": "2698"
+                    }
+                  },
+                  "ref-text": "In Chinese",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Yan",
+                        "ce:indexed-name": "Yan K.M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu F.C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhu",
+                        "ce:indexed-name": "Zhu C.H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Chin J Rock Mech Eng"
+                },
+                "ce:source-text": "Yan K M, Liu F C, Zhu C H, et al. (2017) Dynamic responses of slopes with intercalated soft layers under seismic excitations. Chinese Journal of Rock Mechanics and Engineering, 36(11):2686–2698. (In Chinese)"
+              },
+              {
+                "ref-fulltext": "Yu Y Z, Deng L J, Sun X, et al. (2010) Centrifuge modeling of dynamic behavior of pile-reinforced slopes during earthquakes. Journal of Central South University of Technology, 17(5):1070–1078.",
+                "@reference-instance-id": "OB2BibRecID-969677048-111825df400da4ab6134be8f83bf8adb-41",
+                "@id": "41",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Centrifuge modeling of dynamic behavior of pile-reinforced slopes during earthquakes"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0205",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "78650124794",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "17",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "1070",
+                      "@last": "1078"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu Y.Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Deng",
+                        "ce:indexed-name": "Deng L.J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Sun",
+                        "ce:indexed-name": "Sun X."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Cent South Univ Technol"
+                },
+                "ce:source-text": "Yu Y Z, Deng L J, Sun X, et al. (2010) Centrifuge modeling of dynamic behavior of pile-reinforced slopes during earthquakes. Journal of Central South University of Technology, 17(5):1070–1078."
+              },
+              {
+                "ref-fulltext": "Zhang C, Jiang G, Lei D,et al. (2021)Large-scale shaking table test on seismic behaviour of anti-slide pile-reinforced bridge foundation and gravel landslide: a case study.Bulletin of Engineering Geology and the Environment, 80:1303–1316.",
+                "@reference-instance-id": "OB2BibRecID-969677048-8a52535f72f1034534b33e16ee6687db-42",
+                "@id": "42",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Large-scale shaking table test on seismic behaviour of anti-slide pile-reinforced bridge foundation and gravel landslide: a case study"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0210",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85092601245",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "80"
+                    },
+                    "pagerange": {
+                      "@first": "1303",
+                      "@last": "1316"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Jiang",
+                        "ce:indexed-name": "Jiang G."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Lei",
+                        "ce:indexed-name": "Lei D."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Bull Eng Geol Environ"
+                },
+                "ce:source-text": "Zhang C, Jiang G, Lei D,et al. (2021)Large-scale shaking table test on seismic behaviour of anti-slide pile-reinforced bridge foundation and gravel landslide: a case study.Bulletin of Engineering Geology and the Environment, 80:1303–1316."
+              },
+              {
+                "ref-fulltext": "Zhang H, Xing H F, Xue D R, et al. (2021) Field test and numerical analysis on deformation response of h-type antislide pile: case study of Longjiayan landslide, China. Natural Hazards Review, 22(4): 1–12.",
+                "@reference-instance-id": "OB2BibRecID-969677048-8a287785368e048baabc0e40fd9e5396-43",
+                "@id": "43",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Field test and numerical analysis on deformation response of h-type antislide pile: case study of Longjiayan landslide"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0215",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85114960628",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "22",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "1",
+                      "@last": "12"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Xing",
+                        "ce:indexed-name": "Xing H.F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Xue",
+                        "ce:indexed-name": "Xue D.R."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "China Natural Hazards Review"
+                },
+                "ce:source-text": "Zhang H, Xing H F, Xue D R, et al. (2021) Field test and numerical analysis on deformation response of h-type antislide pile: case study of Longjiayan landslide, China. Natural Hazards Review, 22(4): 1–12."
+              },
+              {
+                "ref-fulltext": "Zhang H, Xing H F, Xue D R.et al. (2023) Centrifuge and numerical modeling of h-type anti-slide pile reinforced soil-rock mixture slope.Journal of Mountain Science,20: 1441–1457.",
+                "@reference-instance-id": "OB2BibRecID-969677048-47b21d20aed518fe9b525f0a51eb5869-44",
+                "@id": "44",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Centrifuge and numerical modeling of h-type anti-slide pile reinforced soil-rock mixture slope"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0220",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85160095646",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "20"
+                    },
+                    "pagerange": {
+                      "@first": "1441",
+                      "@last": "1457"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Xing",
+                        "ce:indexed-name": "Xing H.F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Xue",
+                        "ce:indexed-name": "Xue D.R."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Mt Sci"
+                },
+                "ce:source-text": "Zhang H, Xing H F, Xue D R.et al. (2023) Centrifuge and numerical modeling of h-type anti-slide pile reinforced soil-rock mixture slope.Journal of Mountain Science,20: 1441–1457."
+              },
+              {
+                "ref-fulltext": "Zhang J J, Qu H L, Liao Y, et al. (2012) Seismic damage of earth structures of road engineering in the 2008 Wenchuan earthquake. Environmental Earth Sciences, 65(4): 987–993.",
+                "@reference-instance-id": "OB2BibRecID-969677048-c41c60988357711ea2db04a0dafe025f-45",
+                "@id": "45",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic damage of earth structures of road engineering in the 2008 Wenchuan earthquake"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0225",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84856360093",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "65",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "987",
+                      "@last": "993"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang J.J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Qu",
+                        "ce:indexed-name": "Qu H.L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Liao",
+                        "ce:indexed-name": "Liao Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Environ Earth Sci"
+                },
+                "ce:source-text": "Zhang J J, Qu H L, Liao Y, et al. (2012) Seismic damage of earth structures of road engineering in the 2008 Wenchuan earthquake. Environmental Earth Sciences, 65(4): 987–993."
+              },
+              {
+                "ref-fulltext": "Zhang W, He X, Xu Q, et al. (2024) Investigation on internal evolution process of slope under seismic loading: insights from a transparent soil test and shaking table test. Transportation Geotechnics, 49.",
+                "@reference-instance-id": "OB2BibRecID-969677048-d6288e1ac6dc1ff9d593f3077ab5c9ac-46",
+                "@id": "46",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Investigation on internal evolution process of slope under seismic loading: insights from a transparent soil test and shaking table test"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0230",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85206459822",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "49"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "He",
+                        "ce:indexed-name": "He X."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu Q."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Transp Geotech"
+                },
+                "ce:source-text": "Zhang W, He X, Xu Q, et al. (2024) Investigation on internal evolution process of slope under seismic loading: insights from a transparent soil test and shaking table test. Transportation Geotechnics, 49."
+              },
+              {
+                "ref-fulltext": "Zhao B, Wang Y S, Wang Y, et al. (2017) Retaining mechanism and structural characteristics of h type anti-slide pile (hTP pile) and experience with its engineering application. Engineering Geology, 222:29–37.",
+                "@reference-instance-id": "OB2BibRecID-969677048-c89ed1ab0d1dea5400f6bc79696fa386-47",
+                "@id": "47",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Retaining mechanism and structural characteristics of h type anti-slide pile (hTP pile) and experience with its engineering application"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0235",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85016805860",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "222"
+                    },
+                    "pagerange": {
+                      "@first": "29",
+                      "@last": "37"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang Y.S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Eng Geol"
+                },
+                "ce:source-text": "Zhao B, Wang Y S, Wang Y, et al. (2017) Retaining mechanism and structural characteristics of h type anti-slide pile (hTP pile) and experience with its engineering application. Engineering Geology, 222:29–37."
+              },
+              {
+                "ref-fulltext": "Zhao F, Shi Z, Chen J, et al. (2022) A type of anti-slide pile: China, CN114197495B. (in Chinese).",
+                "@reference-instance-id": "OB2BibRecID-969677048-386fe787878a23fa325974a414f34596-48",
+                "@id": "48",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A type of anti-slide pile"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0240",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105022784731",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "(in Chinese), China, CN114197495B",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen J."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Zhao F, Shi Z, Chen J, et al. (2022) A type of anti-slide pile: China, CN114197495B. (in Chinese)."
+              },
+              {
+                "ref-fulltext": "Zhao, F, Shi, Z M, Yu S (2023) Research on application of new combined support structures in reinforcing rocky slopes containing weak interlayers. Paper presented at the 15th ISRM Congress, Salzburg, Austria, October 2023.",
+                "@reference-instance-id": "OB2BibRecID-969677048-d4ac46262954e7cb84818b834f4b3071-49",
+                "@id": "49",
+                "ref-info": {
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0245",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105022851486",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Zhao, F, Shi, Z M, Yu S (2023) Research on application of new combined support structures in reinforcing rocky slopes containing weak interlayers. Paper presented at the 15th ISRM Congress, Salzburg, Austria, October 2023."
+              },
+              {
+                "ref-fulltext": "Zhao F, Shi Z M, Yu S, et al. (2024a) Reinforcement mechanism of new flexible combined piles (FCP) for rocky slopes under earthquake. In: Wang, S., Huang, R., Azzam, R., Marinos, V.P. (eds) Engineering Geology for a Habitable Earth: IAEG XIV Congress 2023 Proceedings, Chengdu, China. IAEG 2023. Environmental Science and Engineering. Springer, Singapore.",
+                "@reference-instance-id": "OB2BibRecID-969677048-8e23a2ccb04e230a6fb15701349f9ccd-50",
+                "@id": "50",
+                "ref-info": {
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0250",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105022826100",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": ", (2024a) Reinforcement mechanism of new flexible combined piles (FCP) for rocky slopes under earthquake. In Wang, S., Huang, R., Azzam, R., Marinos, V.P. (eds) Engineering Geology for a Habitable Earth IAEG XIV Congress 2023 Proceedings, Chengdu, China. IAEG 2023. Environmental Science and Engineering. Springer, Singapore.",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao F."
+                      },
+                      {
+                        "ce:given-name": "Z M",
+                        "@seq": "2",
+                        "ce:initials": "Z.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi Z.M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu S."
+                      }
+                    ],
+                    "et-al": null
+                  }
+                },
+                "ce:source-text": "Zhao F, Shi Z M, Yu S, et al. (2024a) Reinforcement mechanism of new flexible combined piles (FCP) for rocky slopes under earthquake. In: Wang, S., Huang, R., Azzam, R., Marinos, V.P. (eds) Engineering Geology for a Habitable Earth: IAEG XIV Congress 2023 Proceedings, Chengdu, China. IAEG 2023. Environmental Science and Engineering. Springer, Singapore."
+              },
+              {
+                "ref-fulltext": "Zhao F, Shi Z M, Li Q, et al. (2024b) A comprehensive performance evaluation and optimization of steel/carbon fiber-reinforced eco-efficient concrete (FREC) utilizing multi-mechanical indicators. Journal of Cleaner Production, 441:140993.",
+                "@reference-instance-id": "OB2BibRecID-969677048-9fc6af4d123c6f8a0a3a5a02adc30cd6-51",
+                "@id": "51",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A comprehensive performance evaluation and optimization of steel/carbon fiber-reinforced eco-efficient concrete (FREC) utilizing multi-mechanical indicators"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0255",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "140993",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85184056622",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "441"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi Z.M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li Q."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Clean Prod"
+                },
+                "ce:source-text": "Zhao F, Shi Z M, Li Q, et al. (2024b) A comprehensive performance evaluation and optimization of steel/carbon fiber-reinforced eco-efficient concrete (FREC) utilizing multi-mechanical indicators. Journal of Cleaner Production, 441:140993."
+              },
+              {
+                "ref-fulltext": "Zhao F, Shi Z M, Li B, et al. (2025) Research on dynamic performance optimization and stability evaluation of seismic pile-cable composite structure for bedding rock slope in meizoseismal areas. Earth Science, 50(10): 3943–3954.",
+                "@reference-instance-id": "OB2BibRecID-969677048-e898c05bac2b8a47f4a23feff502b125-52",
+                "@id": "52",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2025"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Research on dynamic performance optimization and stability evaluation of seismic pile-cable composite structure for bedding rock slope in meizoseismal areas"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0260",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105027815941",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "50",
+                      "@issue": "10"
+                    },
+                    "pagerange": {
+                      "@first": "3943",
+                      "@last": "3954"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi Z.M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Earth Sci"
+                },
+                "ce:source-text": "Zhao F, Shi Z M, Li B, et al. (2025) Research on dynamic performance optimization and stability evaluation of seismic pile-cable composite structure for bedding rock slope in meizoseismal areas. Earth Science, 50(10): 3943–3954."
+              },
+              {
+                "ref-fulltext": "Zhao Z, Chen X, Xu C, et al. (2021) Discrete element modelling and scenario prediction of failure, movement and energy dissipation of a potential landslide under a seismic loading. Bulletin of Engineering Geology and the Environment, 80(5):3767–3782.",
+                "@reference-instance-id": "OB2BibRecID-969677048-d74994d44dee18a566591163cd082b12-53",
+                "@id": "53",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Discrete element modelling and scenario prediction of failure, movement and energy dissipation of a potential landslide under a seismic loading"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0265",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85102847971",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "80",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "3767",
+                      "@last": "3782"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen X."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Bull Eng Geol Environ"
+                },
+                "ce:source-text": "Zhao Z, Chen X, Xu C, et al. (2021) Discrete element modelling and scenario prediction of failure, movement and energy dissipation of a potential landslide under a seismic loading. Bulletin of Engineering Geology and the Environment, 80(5):3767–3782."
+              },
+              {
+                "ref-fulltext": "Zhou H F, Ye F, Fu W X, et al. (2024b) Dynamic effect of landslides triggered by earthquake: A case study in Moxi town of Luding county, China. Journal of Earth Science, 35(1): 221–234.",
+                "@reference-instance-id": "OB2BibRecID-969677048-1ed37252bdb7df5688cc1169ac2f520d-54",
+                "@id": "54",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Dynamic effect of landslides triggered by earthquake: a case study in Moxi town of Luding county"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0270",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85185323772",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "35",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "221",
+                      "@last": "234"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou H.F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Ye",
+                        "ce:indexed-name": "Ye F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "W.X.",
+                        "@_fa": "true",
+                        "ce:surname": "Fu",
+                        "ce:indexed-name": "Fu W.X."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "China Journal of Earth Science"
+                },
+                "ce:source-text": "Zhou H F, Ye F, Fu W X, et al. (2024b) Dynamic effect of landslides triggered by earthquake: A case study in Moxi town of Luding county, China. Journal of Earth Science, 35(1): 221–234."
+              },
+              {
+                "ref-fulltext": "Zhou Y G, Sun Z B, Chen Y M (2016) Curved raypaths of shear waves and measurement accuracy of bender elements in centrifuge model tests. Journal of Geotechnical and Geoenvironmental Engineering, 1-10. DOI: 10.1061/(ASCE)GT.1943-5606.0001472.",
+                "@reference-instance-id": "OB2BibRecID-969677048-137b7133575070d9a48ba43186187700-55",
+                "@id": "55",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Curved raypaths of shear waves and measurement accuracy of bender elements in centrifuge model tests"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1061/(ASCE)GT.1943-5606.0001472",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0275",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84969544894",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "1-10"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou Y.G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Sun",
+                        "ce:indexed-name": "Sun Z.B."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen Y.M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Geotech Geoenviron Eng"
+                },
+                "ce:source-text": "Zhou Y G, Sun Z B, Chen Y M (2016) Curved raypaths of shear waves and measurement accuracy of bender elements in centrifuge model tests. Journal of Geotechnical and Geoenvironmental Engineering, 1-10. DOI: 10.1061/(ASCE)GT.1943-5606.0001472."
+              },
+              {
+                "ref-fulltext": "Zhou Y Y, Zhao F, Shi Z M (2024a) Dynamic response mechanism of bedding slopes with alternatively distributed soft and hard rock layers under different seismic excitation directions: Insights from numerical simulations.Materials, 17(23): 5939.",
+                "@reference-instance-id": "OB2BibRecID-969677048-c2dea375a477e3fcc58267d0cf05b41a-56",
+                "@id": "56",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Dynamic response mechanism of bedding slopes with alternatively distributed soft and hard rock layers under different seismic excitation directions: Insights from numerical simulations"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0280",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85211796023",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "17",
+                      "@issue": "23"
+                    },
+                    "pagerange": {
+                      "@first": "5939"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou Y.Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Z.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi Z.M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Materials"
+                },
+                "ce:source-text": "Zhou Y Y, Zhao F, Shi Z M (2024a) Dynamic response mechanism of bedding slopes with alternatively distributed soft and hard rock layers under different seismic excitation directions: Insights from numerical simulations.Materials, 17(23): 5939."
+              },
+              {
+                "ref-fulltext": "Zhu B, Ren L, Feng K, et al. (2024) Investigation of the dynamic response of h-type anti-slide pile based on shaking table test. Soil Dynamics and Earthquake Engineering, 182: 108736.",
+                "@reference-instance-id": "OB2BibRecID-969677048-747448536d9ef57e4e878720c56ffd72-57",
+                "@id": "57",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Investigation of the dynamic response of h-type anti-slide pile based on shaking table test"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0285",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "108736",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85194069963",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "182"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhu",
+                        "ce:indexed-name": "Zhu B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Ren",
+                        "ce:indexed-name": "Ren L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Feng",
+                        "ce:indexed-name": "Feng K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dyn Earthq Eng"
+                },
+                "ce:source-text": "Zhu B, Ren L, Feng K, et al. (2024) Investigation of the dynamic response of h-type anti-slide pile based on shaking table test. Soil Dynamics and Earthquake Engineering, 182: 108736."
+              },
+              {
+                "ref-fulltext": "Zhu L, Luo L G, Cui S H, et al. (2025) Investigation on the damage accumulation mechanisms of landslides in earthquake-prone area: Role of loading-unloading cycles. Geohazard Mechanics, 3(1): 59-72.",
+                "@reference-instance-id": "OB2BibRecID-969677048-4674a5bc75d5c81c68c82199eeeeb192-58",
+                "@id": "58",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2025"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Investigation on the damage accumulation mechanisms of landslides in earthquake-prone area: Role of loading-unloading cycles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0290",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105001315679",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "3",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "59",
+                      "@last": "72"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhu",
+                        "ce:indexed-name": "Zhu L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Luo",
+                        "ce:indexed-name": "Luo L.G."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Cui",
+                        "ce:indexed-name": "Cui S.H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geohazard Mechanics"
+                },
+                "ce:source-text": "Zhu L, Luo L G, Cui S H, et al. (2025) Investigation on the damage accumulation mechanisms of landslides in earthquake-prone area: Role of loading-unloading cycles. Geohazard Mechanics, 3(1): 59-72."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "affiliation": [
+      {
+        "affiliation-city": "Shanghai",
+        "@id": "60073652",
+        "affilname": "Tongji University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073652",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Shanghai",
+        "@id": "60129289",
+        "affilname": "Key Laboratory of Geotechnical and Underground Engineering, Ministry of Education",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60129289",
+        "affiliation-country": "China"
+      }
+    ],
+    "coredata": {
+      "srctype": "j",
+      "eid": "2-s2.0-105022827771",
+      "dc:description": "Anti-slide piles exhibit remarkable reinforcement efficacy in slope stabilization under seismic conditions. Drawing on the failure characteristics of conventional anti-slide pile structures, this study proposes a novel seismic-resistant anti-slide pile system (double rows of anti-slide piles connected with flexible structures, FSDRP). Subsequently, taking the Shaba rock slope along the Duyun - Shangri-La highway in Yunnan, China as the research case, the mechanical properties, reinforcement effects, and internal mechanisms of single row of anti-slide piles (SRP), double rows of anti-slide piles (DRP), and FSDRP are analyzed via centrifuge shaking table tests and numerical simulations, under peak ground accelerations (PGAs) ranging from 0.05g to 0.20g. Key findings indicate that the seismic dynamic response of rock slopes with weak interlayers is jointly influenced by rock mass properties, earthquake intensity, and reinforcement structure types. All three reinforcement systems effectively suppress slope deformation; notably, FSDRP demonstrates superior stabilization performance compared to DRP and SRP. For SRP and DRP, the maximum shear forces and bending moments are concentrated at the interface of the weak interlayer. In contrast, the flexible connecting structures in FSDRP alter the force distribution pattern, thereby transforming the pile-rock interaction from passive to active reinforcement. This enhancement in the integrated “pile-rock-pile” structure enables coordinated deformation between the piles and the surrounding geotechnical mass, ultimately achieving more efficient dissipation of seismic energy. These findings provide critical theoretical support for evaluating reinforcement strategies for stratified landslides in seismic-prone regions, and offer significant implications for geohazard mitigation and engineering practice.",
+      "prism:coverDate": "2026-01-01",
+      "prism:aggregationType": "Journal",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105022827771",
+      "subtypeDescription": "Article",
+      "dc:creator": {
+        "author": [
+          {
+            "ce:given-name": "Fei",
+            "preferred-name": {
+              "ce:given-name": "Fei",
+              "ce:initials": "F.",
+              "ce:surname": "Zhao",
+              "ce:indexed-name": "Zhao F."
+            },
+            "@seq": "1",
+            "ce:initials": "F.",
+            "@_fa": "true",
+            "affiliation": [
+              {
+                "@id": "60073652",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073652"
+              },
+              {
+                "@id": "60129289",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60129289"
+              }
+            ],
+            "ce:surname": "Zhao",
+            "@auid": "57212021226",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57212021226",
+            "ce:indexed-name": "Zhao F."
+          }
+        ]
+      },
+      "link": [
+        {
+          "@_fa": "true",
+          "@rel": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105022827771"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105022827771&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105022827771&origin=inward"
+        }
+      ],
+      "prism:publicationName": "Transportation Geotechnics",
+      "source-id": "21100316068",
+      "pii": "S2214391225003289",
+      "citedby-count": "1",
+      "prism:volume": "56",
+      "subtype": "ar",
+      "dc:title": "Seismic Response and Pile-Rock Interaction Mechanisms in Bedding Rock Slope: A Combined Centrifuge Modeling and Numerical Simulation Study",
+      "openaccess": "0",
+      "openaccessFlag": "false",
+      "prism:doi": "10.1016/j.trgeo.2025.101809",
+      "prism:issn": "22143912",
+      "publishercopyright": "© 2025 Elsevier Ltd.",
+      "article-number": "101809",
+      "dc:identifier": "SCOPUS_ID:105022827771",
+      "dc:publisher": "Elsevier Ltd"
+    },
+    "idxterms": null,
+    "language": {
+      "@xml:lang": "eng"
+    },
+    "authkeywords": {
+      "author-keyword": [
+        {
+          "@_fa": "true",
+          "$": "Bedding rock slope"
+        },
+        {
+          "@_fa": "true",
+          "$": "Centrifuge modeling"
+        },
+        {
+          "@_fa": "true",
+          "$": "Pile-rock interaction mechanism"
+        },
+        {
+          "@_fa": "true",
+          "$": "Seismic response"
+        },
+        {
+          "@_fa": "true",
+          "$": "The “pile-rock-pile” structure"
+        }
+      ]
+    },
+    "subject-areas": {
+      "subject-area": [
+        {
+          "@_fa": "true",
+          "$": "Civil and Structural Engineering",
+          "@code": "2205",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Transportation",
+          "@code": "3313",
+          "@abbrev": "SOCI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Geotechnical Engineering and Engineering Geology",
+          "@code": "1909",
+          "@abbrev": "EART"
+        }
+      ]
+    },
+    "authors": {
+      "author": [
+        {
+          "ce:given-name": "Fei",
+          "preferred-name": {
+            "ce:given-name": "Fei",
+            "ce:initials": "F.",
+            "ce:surname": "Zhao",
+            "ce:indexed-name": "Zhao F."
+          },
+          "@seq": "1",
+          "ce:initials": "F.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "60073652",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073652"
+            },
+            {
+              "@id": "60129289",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60129289"
+            }
+          ],
+          "ce:surname": "Zhao",
+          "@auid": "57212021226",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57212021226",
+          "ce:indexed-name": "Zhao F."
+        },
+        {
+          "ce:given-name": "Zhenming",
+          "preferred-name": {
+            "ce:given-name": "Zhenming",
+            "ce:initials": "Z.",
+            "ce:surname": "Shi",
+            "ce:indexed-name": "Shi Z."
+          },
+          "@seq": "2",
+          "ce:initials": "Z.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "60073652",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073652"
+            },
+            {
+              "@id": "60129289",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60129289"
+            }
+          ],
+          "ce:surname": "Shi",
+          "@auid": "7403734462",
+          "author-url": "https://api.elsevier.com/content/author/author_id/7403734462",
+          "ce:indexed-name": "Shi Z."
+        },
+        {
+          "ce:given-name": "Songbo",
+          "preferred-name": {
+            "ce:given-name": "Songbo",
+            "ce:initials": "S.",
+            "ce:surname": "Yu",
+            "ce:indexed-name": "Yu S."
+          },
+          "@seq": "3",
+          "ce:initials": "S.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "60073652",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073652"
+            },
+            {
+              "@id": "60129289",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60129289"
+            }
+          ],
+          "ce:surname": "Yu",
+          "@auid": "7405731975",
+          "author-url": "https://api.elsevier.com/content/author/author_id/7405731975",
+          "ce:indexed-name": "Yu S."
+        },
+        {
+          "ce:given-name": "Ming",
+          "preferred-name": {
+            "ce:given-name": "Ming",
+            "ce:initials": "M.",
+            "ce:surname": "Peng",
+            "ce:indexed-name": "Peng M."
+          },
+          "@seq": "4",
+          "ce:initials": "M.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "60073652",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073652"
+            },
+            {
+              "@id": "60129289",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60129289"
+            }
+          ],
+          "ce:surname": "Peng",
+          "@auid": "37108434300",
+          "author-url": "https://api.elsevier.com/content/author/author_id/37108434300",
+          "ce:indexed-name": "Peng M."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,3692 @@
+{
+  "abstracts-retrieval-response": {
+    "item": {
+      "ait:process-info": {
+        "ait:status": {
+          "@state": "update",
+          "@type": "core",
+          "@stage": "S300"
+        },
+        "ait:date-delivered": {
+          "@day": "19",
+          "@timestamp": "2025-05-19T23:28:45.000045-04:00",
+          "@year": "2025",
+          "@month": "05"
+        },
+        "ait:date-sort": {
+          "@day": "01",
+          "@year": "2025",
+          "@month": "05"
+        }
+      },
+      "xocs:meta": {
+        "xocs:funding-list": {
+          "@pui-match": "primary",
+          "@has-funding-info": "1",
+          "xocs:funding": [
+            {
+              "xocs:funding-agency-matched-string": "National Natural Science Foundation of China",
+              "xocs:funding-agency-acronym": "NSFC",
+              "xocs:funding-agency": "National Natural Science Foundation of China",
+              "xocs:funding-id": [
+                {
+                  "$": "52208355"
+                },
+                {
+                  "$": "52378308"
+                }
+              ],
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "National Natural Science Foundation of China",
+              "xocs:funding-agency-acronym": "NSFC",
+              "xocs:funding-agency": "National Natural Science Foundation of China",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Shenzhen University's 2035 Program for Excellent Research",
+              "xocs:funding-agency-acronym": "SZU",
+              "xocs:funding-agency": "Shenzhen University",
+              "xocs:funding-id": "00000219",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100009019",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Shenzhen University's 2035 Program for Excellent Research",
+              "xocs:funding-agency-acronym": "SZU",
+              "xocs:funding-agency": "Shenzhen University",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100009019",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            }
+          ],
+          "xocs:funding-addon-generated-timestamp": "2025-05-16T00:52:41.680Z",
+          "xocs:funding-text": "We acknowledge the funding support from the National Natural Science Foundation of China (Grant Nos. 52208355and 52378308), and Shenzhen University's 2035 Program for Excellent Research (Grant No. 00000219).",
+          "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }
+      },
+      "bibrecord": {
+        "head": {
+          "author-group": [
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "518060",
+                "@afid": "130360125",
+                "@country": "chn",
+                "city": "Shenzhen",
+                "organization": {
+                  "$": "State Key Laboratory of Intelligent Geotechnics and Tunnelling"
+                },
+                "affiliation-id": {
+                  "@afid": "130360125"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-964033631-9c964cd99509260e4f672c88865b5f9e-1",
+                "ce:source-text": "State Key Laboratory of Intelligent Geotechnics and Tunnelling, Shenzhen, 518060, China"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Xing-Tao",
+                  "preferred-name": {
+                    "ce:given-name": "Xing Tao",
+                    "ce:initials": "X.T.",
+                    "ce:surname": "Lin",
+                    "ce:indexed-name": "Lin X.T."
+                  },
+                  "@author-instance-id": "OB2BibRecID-964033631-ff11db44b9754bb39f041eddeee779fc-1",
+                  "@seq": "1",
+                  "ce:initials": "X.-T.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Lin",
+                  "@auid": "57194450993",
+                  "ce:indexed-name": "Lin X.-T."
+                },
+                {
+                  "ce:given-name": "Xuetao",
+                  "preferred-name": {
+                    "ce:given-name": "Xuetao",
+                    "ce:initials": "X.",
+                    "ce:surname": "Wang",
+                    "ce:indexed-name": "Wang X."
+                  },
+                  "@author-instance-id": "OB2BibRecID-964033631-c051d139a096001c4cdfbc54aa768973-1",
+                  "@seq": "3",
+                  "ce:initials": "X.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Wang",
+                  "@auid": "57212769538",
+                  "ce:indexed-name": "Wang X."
+                },
+                {
+                  "ce:given-name": "Xiangsheng",
+                  "preferred-name": {
+                    "ce:given-name": "Xiangsheng",
+                    "ce:initials": "X.",
+                    "ce:surname": "Chen",
+                    "ce:indexed-name": "Chen X."
+                  },
+                  "@author-instance-id": "OB2BibRecID-964033631-f8ffe0513f8660cdd19443c34c2e5103-1",
+                  "@seq": "5",
+                  "ce:initials": "X.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Chen",
+                  "@auid": "55191034700",
+                  "@orcid": "0000-0002-0880-579X",
+                  "ce:indexed-name": "Chen X."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "518061",
+                "@afid": "60000937",
+                "@country": "chn",
+                "city": "Shenzhen",
+                "organization": [
+                  {
+                    "$": "College of Civil and Transportation Engineering"
+                  },
+                  {
+                    "$": "Shenzhen University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60000937",
+                  "@dptid": "103091685"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-964033631-a1af4dcf5037fe66049f419eb4c6896f-1",
+                "ce:source-text": "College of Civil and Transportation Engineering, Shenzhen University, Shenzhen, 518061, China",
+                "@dptid": "103091685"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Xing-Tao",
+                  "preferred-name": {
+                    "ce:given-name": "Xing Tao",
+                    "ce:initials": "X.T.",
+                    "ce:surname": "Lin",
+                    "ce:indexed-name": "Lin X.T."
+                  },
+                  "@author-instance-id": "OB2BibRecID-964033631-ff11db44b9754bb39f041eddeee779fc-1",
+                  "@seq": "1",
+                  "ce:initials": "X.-T.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Lin",
+                  "@auid": "57194450993",
+                  "ce:indexed-name": "Lin X.-T."
+                },
+                {
+                  "ce:given-name": "Hui",
+                  "preferred-name": {
+                    "ce:given-name": "Hui",
+                    "ce:initials": "H.",
+                    "ce:surname": "Zeng",
+                    "ce:indexed-name": "Zeng H."
+                  },
+                  "@author-instance-id": "OB2BibRecID-964033631-b17957732539fa76dcf87f580407097a-1",
+                  "@seq": "2",
+                  "ce:initials": "H.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Zeng",
+                  "@auid": "58776442700",
+                  "ce:indexed-name": "Zeng H."
+                },
+                {
+                  "ce:given-name": "Xuetao",
+                  "preferred-name": {
+                    "ce:given-name": "Xuetao",
+                    "ce:initials": "X.",
+                    "ce:surname": "Wang",
+                    "ce:indexed-name": "Wang X."
+                  },
+                  "@author-instance-id": "OB2BibRecID-964033631-c051d139a096001c4cdfbc54aa768973-1",
+                  "@seq": "3",
+                  "ce:initials": "X.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Wang",
+                  "@auid": "57212769538",
+                  "ce:indexed-name": "Wang X."
+                },
+                {
+                  "ce:given-name": "Xiangsheng",
+                  "preferred-name": {
+                    "ce:given-name": "Xiangsheng",
+                    "ce:initials": "X.",
+                    "ce:surname": "Chen",
+                    "ce:indexed-name": "Chen X."
+                  },
+                  "@author-instance-id": "OB2BibRecID-964033631-f8ffe0513f8660cdd19443c34c2e5103-1",
+                  "@seq": "5",
+                  "ce:initials": "X.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Chen",
+                  "@auid": "55191034700",
+                  "@orcid": "0000-0002-0880-579X",
+                  "ce:indexed-name": "Chen X."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "518060",
+                "@afid": "60000937",
+                "@country": "chn",
+                "city": "Shenzhen",
+                "organization": [
+                  {
+                    "$": "Key Laboratory for Resilient Infrastructures of Coastal Cities (MOE)"
+                  },
+                  {
+                    "$": "Shenzhen University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60000937"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-964033631-96cb1c4445851e288998443677e03ae8-1",
+                "ce:source-text": "Key Laboratory for Resilient Infrastructures of Coastal Cities (MOE), Shenzhen University, Shenzhen, 518060, China"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Xing-Tao",
+                  "preferred-name": {
+                    "ce:given-name": "Xing Tao",
+                    "ce:initials": "X.T.",
+                    "ce:surname": "Lin",
+                    "ce:indexed-name": "Lin X.T."
+                  },
+                  "@author-instance-id": "OB2BibRecID-964033631-ff11db44b9754bb39f041eddeee779fc-1",
+                  "@seq": "1",
+                  "ce:initials": "X.-T.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Lin",
+                  "@auid": "57194450993",
+                  "ce:indexed-name": "Lin X.-T."
+                },
+                {
+                  "ce:given-name": "Xuetao",
+                  "preferred-name": {
+                    "ce:given-name": "Xuetao",
+                    "ce:initials": "X.",
+                    "ce:surname": "Wang",
+                    "ce:indexed-name": "Wang X."
+                  },
+                  "@author-instance-id": "OB2BibRecID-964033631-c051d139a096001c4cdfbc54aa768973-1",
+                  "@seq": "3",
+                  "ce:initials": "X.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Wang",
+                  "@auid": "57212769538",
+                  "ce:indexed-name": "Wang X."
+                },
+                {
+                  "ce:given-name": "Xiangsheng",
+                  "preferred-name": {
+                    "ce:given-name": "Xiangsheng",
+                    "ce:initials": "X.",
+                    "ce:surname": "Chen",
+                    "ce:indexed-name": "Chen X."
+                  },
+                  "@author-instance-id": "OB2BibRecID-964033631-f8ffe0513f8660cdd19443c34c2e5103-1",
+                  "@seq": "5",
+                  "ce:initials": "X.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Chen",
+                  "@auid": "55191034700",
+                  "@orcid": "0000-0002-0880-579X",
+                  "ce:indexed-name": "Chen X."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "430056",
+                "@afid": "60118343",
+                "@country": "chn",
+                "city": "Wuhan",
+                "organization": [
+                  {
+                    "$": "China Communications Construction Company Second Highway Consultant Co."
+                  },
+                  {
+                    "$": "Ltd."
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60118343"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-964033631-b87c6a221bf358618f8e22f5be7f4619-1",
+                "ce:source-text": "China Communications Construction Company Second Highway Consultant Co., Ltd., Wuhan, 430056, China"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Ming",
+                  "preferred-name": {
+                    "ce:given-name": "Ming",
+                    "ce:initials": "M.",
+                    "ce:surname": "Song",
+                    "ce:indexed-name": "Song M."
+                  },
+                  "@author-instance-id": "OB2BibRecID-964033631-4acfb78f4ae38a9e85ccbb5bdfc1251f-1",
+                  "@seq": "4",
+                  "ce:initials": "M.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Song",
+                  "@auid": "59276785700",
+                  "ce:indexed-name": "Song M."
+                }
+              ]
+            }
+          ],
+          "citation-title": "Super-large-diameter shield tunnel undercrossing an intercity railway with oblique angle: Centrifuge test and numerical analysis",
+          "abstracts": "© 2025 Institute of Rock and Soil Mechanics, Chinese Academy of SciencesWith the development of urban infrastructure, it is inevitable that shield tunnels will undercross intercity railways. However, the safe operation of intercity railways requires strict subgrade deformation. On the basis of the engineering background of the Lianghu Tunnel in Wuhan, the three-dimensional centrifuge test and numerical back analysis were used to study the development of subgrade surface settlement during shield tunneling. A three-dimensional numerical model with the same size as the prototype was subsequently established to further study the settlement development and torsion behavior of the subgrade during tunnel excavation. The results show that the maximum settlement point of the transverse settlement trough gradually moves to the tunnel axis during tunnel excavation and that the entire subgrade experiences torsional deformation. Moreover, the effect of the intersection angle between the axes of the tunnel and the subgrade on the surface settlement of the subgrade was further studied. The results show that the intersection angle has no effect on the maximum settlement, but the width of the settlement trough increases gradually with increasing angle. Finally, on the basis of the soil arching effect caused by tunnel excavation, the subgrade settlement during tunnel excavation is reduced by reinforcing the soil in different zones of soil arching. The results show that the settlement of the subgrade caused by the shield tunnel can be effectively controlled by adding reinforcement directly to the top of the tunnel, and the maximum settlement of the subgrade surface is reduced from 24.41 mm to 9.47 mm, a reduction of approximately 61.2%.",
+          "correspondence": {
+            "affiliation": {
+              "country": "China",
+              "postal-code": "518061",
+              "@country": "chn",
+              "city": "Shenzhen",
+              "organization": [
+                {
+                  "$": "College of Civil and Transportation Engineering"
+                },
+                {
+                  "$": "Shenzhen University"
+                }
+              ],
+              "@affiliation-instance-id": "OB2BibRecID-964033631-81602e7f829b3e9b6bfbcc9e51c907e1-1"
+            },
+            "person": {
+              "ce:given-name": "Xing-Tao",
+              "@author-instance-id": "OB2BibRecID-964033631-f5f7c8f74fc18fdc171d8aa54824f05d-1",
+              "ce:initials": "X.-T.",
+              "ce:surname": "Lin",
+              "ce:indexed-name": "Lin X.-T."
+            }
+          },
+          "citation-info": {
+            "author-keywords": {
+              "author-keyword": [
+                {
+                  "$": "Centrifuge test",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Intercity railway",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Numerical analysis",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Oblique undercrossing",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Super-large-diameter shield",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                }
+              ]
+            },
+            "citation-type": {
+              "@code": "ar"
+            },
+            "citation-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "abstract-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            }
+          },
+          "source": {
+            "sourcetitle-abbrev": "J. Rock Mech. Geotech. Eng.",
+            "website": {
+              "ce:e-address": {
+                "$": "https://www.sciencedirect.com/science/journal/16747755",
+                "@type": "email"
+              }
+            },
+            "@country": "chn",
+            "translated-sourcetitle": {
+              "$": "Journal of Rock Mechanics and Geotechnical Engineering",
+              "@xml:lang": "eng"
+            },
+            "issn": [
+              {
+                "$": "25890417",
+                "@type": "electronic"
+              },
+              {
+                "$": "16747755",
+                "@type": "print"
+              }
+            ],
+            "volisspag": {
+              "voliss": {
+                "@volume": "17",
+                "@issue": "5"
+              },
+              "pagerange": {
+                "@first": "2741",
+                "@last": "2757"
+              }
+            },
+            "@type": "j",
+            "publicationyear": {
+              "@first": "2025"
+            },
+            "publisher": {
+              "publishername": "Chinese Academy of Sciences"
+            },
+            "sourcetitle": "Journal of Rock Mechanics and Geotechnical Engineering",
+            "@srcid": "21100381006",
+            "publicationdate": {
+              "month": "05",
+              "year": "2025",
+              "date-text": "May 2025",
+              "day": "01"
+            }
+          },
+          "enhancement": {
+            "classificationgroup": {
+              "classifications": [
+                {
+                  "@type": "GEOCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "72.13.3",
+                      "classification-description": "Underground excavations"
+                    },
+                    {
+                      "classification-code": "77.10.4",
+                      "classification-description": "Tunnels"
+                    }
+                  ]
+                },
+                {
+                  "@type": "ASJC",
+                  "classification": "1909"
+                },
+                {
+                  "@type": "SUBJABBR",
+                  "classification": "EART"
+                }
+              ]
+            }
+          },
+          "grantlist": {
+            "@complete": "y",
+            "grant-text": {
+              "$": "We acknowledge the funding support from the National Natural Science Foundation of China (Grant Nos. 52208355and 52378308), and Shenzhen University's 2035 Program for Excellent Research (Grant No. 00000219).",
+              "@xml:lang": "eng"
+            },
+            "grant": [
+              {
+                "grant-id": "52208355",
+                "grant-acronym": "NSFC",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "National Natural Science Foundation of China"
+                },
+                "grant-agency-id": "501100001809"
+              },
+              {
+                "grant-id": "52378308",
+                "grant-acronym": "NSFC",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "National Natural Science Foundation of China"
+                },
+                "grant-agency-id": "501100001809"
+              }
+            ]
+          }
+        },
+        "item-info": {
+          "copyright": {
+            "$": "Copyright 2025 Elsevier B.V., All rights reserved.",
+            "@type": "Elsevier"
+          },
+          "dbcollection": [
+            {
+              "$": "GEO"
+            },
+            {
+              "$": "REAXYSCAR"
+            },
+            {
+              "$": "SCOPUS"
+            },
+            {
+              "$": "Scopusbase"
+            }
+          ],
+          "history": {
+            "date-created": {
+              "@day": "19",
+              "@timestamp": "BST 18:07:15",
+              "@year": "2025",
+              "@month": "05"
+            }
+          },
+          "itemidlist": {
+            "itemid": [
+              {
+                "$": "2038447458",
+                "@idtype": "PUI"
+              },
+              {
+                "$": "964033631",
+                "@idtype": "CAR-ID"
+              },
+              {
+                "$": "11150053",
+                "@idtype": "GEO"
+              },
+              {
+                "$": "20251209683",
+                "@idtype": "REAXYSCAR"
+              },
+              {
+                "$": "20251674463",
+                "@idtype": "SCOPUS"
+              },
+              {
+                "$": "964033631#319732199",
+                "@idtype": "SRC-OCC-ID"
+              },
+              {
+                "$": "105003214800",
+                "@idtype": "SCP"
+              },
+              {
+                "$": "105003214800",
+                "@idtype": "SGR"
+              }
+            ],
+            "ce:pii": "S1674775524005092",
+            "ce:ern": "pii:S1674775524005092",
+            "ce:doi": "10.1016/j.jrmge.2024.09.047"
+          }
+        },
+        "tail": {
+          "bibliography": {
+            "@refcount": "41",
+            "reference": [
+              {
+                "ref-fulltext": "Avgerinos, V., Potts, D.M., Standing, J.R., Numerical investigation of the effects of tunnelling on existing tunnels. Geotechnique 67 (2017), 808–822.",
+                "@reference-instance-id": "OB2BibRecID-964033631-d666a8540071471a101505c53f5d002c-1",
+                "@id": "1",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Numerical investigation of the effects of tunnelling on existing tunnels"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib1",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85046358966",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "67"
+                    },
+                    "pagerange": {
+                      "@first": "808",
+                      "@last": "822"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "V.",
+                        "@_fa": "true",
+                        "ce:surname": "Avgerinos",
+                        "ce:indexed-name": "Avgerinos V."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Potts",
+                        "ce:indexed-name": "Potts D.M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Standing",
+                        "ce:indexed-name": "Standing J.R."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geotechnique"
+                },
+                "ce:source-text": "Avgerinos, V., Potts, D.M., Standing, J.R., 2017. Numerical investigation of the effects of tunnelling on existing tunnels. Geotechnique 67, 808-822."
+              },
+              {
+                "ref-fulltext": "Benz, T., Small-strain Stiffness of Soils and its Numerical Consequences. PhD Thesis, 2006, University of Stuttgart, Stuttgart, Germany.",
+                "@reference-instance-id": "OB2BibRecID-964033631-6fe6fded236d1ede8599ccfbb8c42d4e-2",
+                "@id": "2",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2006"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Small-strain Stiffness of Soils and its Numerical Consequences"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib2",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "56149094745",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "PhD Thesis University of Stuttgart Stuttgart, Germany",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Benz",
+                        "ce:indexed-name": "Benz T."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Benz, T., 2006. Small-strain stiffness of soils and its numerical consequences, PhD Thesis. University of Stuttgart, Stuttgart, Germany."
+              },
+              {
+                "ref-fulltext": "Boonyarak, T., Ng, C.W.W., Effects of construction sequence and cover depth on crossing-tunnel interaction. Can. Geotech. J. 52:7 (2015), 851–867.",
+                "@reference-instance-id": "OB2BibRecID-964033631-8faf673055490dc2cb4446233421441b-3",
+                "@id": "3",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effects of construction sequence and cover depth on crossing-tunnel interaction"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib3",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84934269797",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "52",
+                      "@issue": "7"
+                    },
+                    "pagerange": {
+                      "@first": "851",
+                      "@last": "867"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Boonyarak",
+                        "ce:indexed-name": "Boonyarak T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.W.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Ng",
+                        "ce:indexed-name": "Ng C.W.W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Can. Geotech. J."
+                },
+                "ce:source-text": "Boonyarak, T., Ng, C.W.W., 2015. Effects of construction sequence and cover depth on crossing-tunnel interaction. Can. Geotech. J. 52 (7), 851-867."
+              },
+              {
+                "ref-fulltext": "Broere, W., Urban underground space: solving the problems of today's cities. Tunn. Undergr. Space Technol. 55 (2016), 245–248.",
+                "@reference-instance-id": "OB2BibRecID-964033631-7e055b9b7e613dea7f20fdcb865058bf-4",
+                "@id": "4",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Urban underground space: solving the problems of today's cities"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib4",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84949920920",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "55"
+                    },
+                    "pagerange": {
+                      "@first": "245",
+                      "@last": "248"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Broere",
+                        "ce:indexed-name": "Broere W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Broere, W., 2016. Urban underground space: Solving the problems of today's cities. Tunn. Undergr. Space Technol. 55, 245-248."
+              },
+              {
+                "ref-fulltext": "Chen, R.P., Lin, X.T., Kang, X., et al. Deformation and stress characteristics of existing twin tunnels induced by close-distance EPBS under-crossing. Tunn. Undergr. Space Technol. 82 (2018), 468–481.",
+                "@reference-instance-id": "OB2BibRecID-964033631-75f326cdaa701d80765dcdd29fa0ec61-5",
+                "@id": "5",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Deformation and stress characteristics of existing twin tunnels induced by close-distance EPBS under-crossing"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib5",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85053179565",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "82"
+                    },
+                    "pagerange": {
+                      "@first": "468",
+                      "@last": "481"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen R.P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Lin",
+                        "ce:indexed-name": "Lin X.T."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Kang",
+                        "ce:indexed-name": "Kang X."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Chen, R.P., Lin, X.T., Kang, X., et al., 2018. Deformation and stress characteristics of existing twin tunnels induced by close-distance EPBS under-crossing. Tunn. Undergr. Space Technol. 82, 468-481."
+              },
+              {
+                "ref-fulltext": "Cooper, M.L., Chapman, D.N., Rogers, C.D.F., Chan, A.H.C., Movements in the piccadilly line tunnels due to the heathrow express construction. Geotechnique 52 (2002), 243–257.",
+                "@reference-instance-id": "OB2BibRecID-964033631-716f3ad03693b09a4df4744786e9c6e6-6",
+                "@id": "6",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2002"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Movements in the piccadilly line tunnels due to the heathrow express construction"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib6",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0036587799",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "52"
+                    },
+                    "pagerange": {
+                      "@first": "243",
+                      "@last": "257"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Cooper",
+                        "ce:indexed-name": "Cooper M.L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Chapman",
+                        "ce:indexed-name": "Chapman D.N."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.D.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Rogers",
+                        "ce:indexed-name": "Rogers C.D.F."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "A.H.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Chan",
+                        "ce:indexed-name": "Chan A.H.C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geotechnique"
+                },
+                "ce:source-text": "Cooper, M.L., Chapman, D.N., Rogers, C.D.F., Chan, A.H.C., 2002. Movements in the Piccadilly Line tunnels due to the Heathrow Express construction. Geotechnique 52, 243-257."
+              },
+              {
+                "ref-fulltext": "Fang, Q., Du, J.M., Li, J.Y., Zhang, D.L., Cao, L.Q., Settlement characteristics of large-diameter shield excavation below existing subway in close vicinity. J. Cent. South Univ. 28 (2021), 882–897.",
+                "@reference-instance-id": "OB2BibRecID-964033631-9b64e8638bf7ff7ce611cd5395d5e11b-7",
+                "@id": "7",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Settlement characteristics of large-diameter shield excavation below existing subway in close vicinity"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib7",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85100882435",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "28"
+                    },
+                    "pagerange": {
+                      "@first": "882",
+                      "@last": "897"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Fang",
+                        "ce:indexed-name": "Fang Q."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Du",
+                        "ce:indexed-name": "Du J.M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li J.Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "D.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang D.L."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "L.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Cao",
+                        "ce:indexed-name": "Cao L.Q."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Cent. South Univ."
+                },
+                "ce:source-text": "Fang, Q., Du, J.M., Li, J.Y., Zhang, D.L., Cao, L.Q., 2021. Settlement characteristics of large-diameter shield excavation below existing subway in close vicinity. J. Cent. South Univ. 28, 882-897."
+              },
+              {
+                "ref-fulltext": "Fang, Q., Liu, X., Zeng, K.H., Zhang, X.D., Zhou, M.Z., Du, J.M., Centrifuge modelling of tunnelling below existing twin tunnels with different types of support. Undergr. Space 7:6 (2022), 1125–1138.",
+                "@reference-instance-id": "OB2BibRecID-964033631-91084fead86ea3f74bdb6627cd2465ef-8",
+                "@id": "8",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Centrifuge modelling of tunnelling below existing twin tunnels with different types of support"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib8",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85136244576",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "7",
+                      "@issue": "6"
+                    },
+                    "pagerange": {
+                      "@first": "1125",
+                      "@last": "1138"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Fang",
+                        "ce:indexed-name": "Fang Q."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu X."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "K.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Zeng",
+                        "ce:indexed-name": "Zeng K.H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "X.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang X.D."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "M.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou M.Z."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "J.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Du",
+                        "ce:indexed-name": "Du J.M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Undergr. Space"
+                },
+                "ce:source-text": "Fang, Q., Liu, X., Zeng, K.H., Zhang, X.D., Zhou, M.Z., Du, J.M., 2022. Centrifuge modelling of tunnelling below existing twin tunnels with different types of support. Undergr. Space. 7 (6), 1125-1138."
+              },
+              {
+                "ref-fulltext": "Fei, R.Z., Peng, L.M., Zhang, C.L., Zhang, J.Q., Zhang, P., Experimental and numerical studies of a shield twin tunnel undercrossing the existing high-speed railway tunnel. Geotech. Geol. Eng. 42 (2024), 1871–1886.",
+                "@reference-instance-id": "OB2BibRecID-964033631-b4fd6c584d53f4a368414f0d69af1fe6-9",
+                "@id": "9",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental and numerical studies of a shield twin tunnel undercrossing the existing high-speed railway tunnel"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib9",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85173767833",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "42"
+                    },
+                    "pagerange": {
+                      "@first": "1871",
+                      "@last": "1886"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Fei",
+                        "ce:indexed-name": "Fei R.Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Peng",
+                        "ce:indexed-name": "Peng L.M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang C.L."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang J.Q."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang P."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geotech. Geol. Eng."
+                },
+                "ce:source-text": "Fei, R.Z., Peng, L.M., Zhang, C.L., Zhang, J.Q., Zhang, P., 2024. Experimental and Numerical Studies of a Shield Twin Tunnel Undercrossing the Existing High-Speed Railway Tunnel. Geotech. Geol. Eng. 42, 1871-1886."
+              },
+              {
+                "ref-fulltext": "Gue, C.Y., Wilcock, M.J., Alhaddad, M.M., Elshafie, M.Z.E.B., Soga, K., Mair, R.J., Tunnelling close beneath an existing tunnel in clay – perpendicular undercrossing. Geotechnique 67 (2017), 795–807.",
+                "@reference-instance-id": "OB2BibRecID-964033631-884af62486be8a24fbfb01e963c7cb08-10",
+                "@id": "10",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Tunnelling close beneath an existing tunnel in clay – perpendicular undercrossing"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib10",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85053207167",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "67"
+                    },
+                    "pagerange": {
+                      "@first": "795",
+                      "@last": "807"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Gue",
+                        "ce:indexed-name": "Gue C.Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Wilcock",
+                        "ce:indexed-name": "Wilcock M.J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Alhaddad",
+                        "ce:indexed-name": "Alhaddad M.M."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "M.Z.E.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Elshafie",
+                        "ce:indexed-name": "Elshafie M.Z.E.B."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Soga",
+                        "ce:indexed-name": "Soga K."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "R.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Mair",
+                        "ce:indexed-name": "Mair R.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geotechnique"
+                },
+                "ce:source-text": "Gue, C.Y., Wilcock, M.J., Alhaddad, M.M., Elshafie, M.Z.E.B., Soga, K., Mair, R.J., 2017. Tunnelling close beneath an existing tunnel in clay - perpendicular undercrossing. Geotechnique 67, 795-807."
+              },
+              {
+                "ref-fulltext": "Jacobsz, S.W., Standing, J.R., Mair, R.J., Hahiwara, T., Suiyama, T., Centrifuge modeling of tunnelling near driven piles. Soils Found. 44:1 (2004), 49–56.",
+                "@reference-instance-id": "OB2BibRecID-964033631-dc4d8e87a0f519b0457e3d040e4c65d2-11",
+                "@id": "11",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2004"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Centrifuge modeling of tunnelling near driven piles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib11",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "24744442362",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "44",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "49",
+                      "@last": "56"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Jacobsz",
+                        "ce:indexed-name": "Jacobsz S.W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Standing",
+                        "ce:indexed-name": "Standing J.R."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "R.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Mair",
+                        "ce:indexed-name": "Mair R.J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Hahiwara",
+                        "ce:indexed-name": "Hahiwara T."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Suiyama",
+                        "ce:indexed-name": "Suiyama T."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soils Found."
+                },
+                "ce:source-text": "Jacobsz, S.W., Standing, J.R., Mair, R.J., Hahiwara, T., Suiyama, T., 2004. Centrifuge modeling of tunnelling near driven piles. Soils Found. 44 (1), 49-56."
+              },
+              {
+                "ref-fulltext": "Jiang, B., Chen, L.A., Yang, J.S., Wang, S.Y., Ng, C.W.W., Effects of twin-tunnel excavation on an existing horseshoe-shaped tunnel considering the influence of a settlement joint. Can. Geotech. J. 54 (2017), 1346–1355.",
+                "@reference-instance-id": "OB2BibRecID-964033631-2812c1695751ed8b87b53ca8045de155-12",
+                "@id": "12",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effects of twin-tunnel excavation on an existing horseshoe-shaped tunnel considering the influence of a settlement joint"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib12",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85028968658",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "54"
+                    },
+                    "pagerange": {
+                      "@first": "1346",
+                      "@last": "1355"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Jiang",
+                        "ce:indexed-name": "Jiang B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen L.A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang J.S."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "S.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang S.Y."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "C.W.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Ng",
+                        "ce:indexed-name": "Ng C.W.W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Can. Geotech. J."
+                },
+                "ce:source-text": "Jiang, B., Chen, L.A., Yang, J.S., Wang, S.Y., Ng, C.W.W., 2017. Effects of twin-tunnel excavation on an existing horseshoe-shaped tunnel considering the influence of a settlement joint. Can. Geotech. J. 54, 1346-1355."
+              },
+              {
+                "ref-fulltext": "Li, P., Du, S.J., Ma, X.F., Yin, Z.Y., Shen, S.L., Centrifuge investigation into the effect of new shield tunnelling on an existing underlying large-diameter tunnel. Tunn. Undergr. Space Technol. 42 (2014), 59–66.",
+                "@reference-instance-id": "OB2BibRecID-964033631-ddc4de991e214c59f715b3d5fc3d5dfe-13",
+                "@id": "13",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Centrifuge investigation into the effect of new shield tunnelling on an existing underlying large-diameter tunnel"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib13",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84894439703",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "42"
+                    },
+                    "pagerange": {
+                      "@first": "59",
+                      "@last": "66"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Du",
+                        "ce:indexed-name": "Du S.J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Ma",
+                        "ce:indexed-name": "Ma X.F."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Z.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Yin",
+                        "ce:indexed-name": "Yin Z.Y."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "S.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Shen",
+                        "ce:indexed-name": "Shen S.L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Li, P., Du, S.J., Ma, X.F., Yin, Z.Y., Shen, S.L., 2014. Centrifuge investigation into the effect of new shield tunnelling on an existing underlying large-diameter tunnel. Tunn. Undergr. Space Technol. 42, 59-66."
+              },
+              {
+                "ref-fulltext": "Li, Y., Zhou, G.Y., Tang, C.A., Wang, S.Y., Wang, K.K., Wang, T.T., Influence of undercrossing tunnel excavation on the settlement of a metro station in Dalian. Bull. Eng. Geol. Environ. 80 (2021), 4673–4687.",
+                "@reference-instance-id": "OB2BibRecID-964033631-a36d4ea4e8885838d7cca87eea3855d6-14",
+                "@id": "14",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Influence of undercrossing tunnel excavation on the settlement of a metro station in Dalian"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib14",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85103372625",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "80"
+                    },
+                    "pagerange": {
+                      "@first": "4673",
+                      "@last": "4687"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou G.Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Tang",
+                        "ce:indexed-name": "Tang C.A."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "S.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang S.Y."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "K.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang K.K."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "T.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang T.T."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Bull. Eng. Geol. Environ."
+                },
+                "ce:source-text": "Li, Y., Zhou, G.Y., Tang, C.A., Wang, S.Y., Wang, K.K., Wang, T.T., 2021. Influence of undercrossing tunnel excavation on the settlement of a metro station in Dalian. Bull. Eng. Geol. Environ. 80, 4673-4687."
+              },
+              {
+                "ref-fulltext": "Lin, X.T., Chen, R.P., Wu, H.N., Cheng, H.Z., Deformation behaviors of existing tunnels caused by shield tunneling undercrossing with oblique angle. Tunn. Undergr. Space Technol. 89 (2019), 78–90.",
+                "@reference-instance-id": "OB2BibRecID-964033631-afceb84bbd211b180c1f5b7ccf0e8044-15",
+                "@id": "15",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Deformation behaviors of existing tunnels caused by shield tunneling undercrossing with oblique angle"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib15",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85063608250",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "89"
+                    },
+                    "pagerange": {
+                      "@first": "78",
+                      "@last": "90"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Lin",
+                        "ce:indexed-name": "Lin X.T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen R.P."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu H.N."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "H.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Cheng",
+                        "ce:indexed-name": "Cheng H.Z."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Lin, X.T., Chen, R.P., Wu, H.N., Cheng, H.Z., 2019. Deformation behaviors of existing tunnels caused by shield tunneling undercrossing with oblique angle. Tunn. Undergr. Space Technol. 89, 78-90."
+              },
+              {
+                "ref-fulltext": "Lin, X.T., Chen, R.P., Wu, H.N., Meng, F.Y., Su, D., Han, K.H., Calculation of earth pressure distribution on the deep circular tunnel considering stress-transfer mechanisms in different zones. Tunn. Undergr. Space Technol., 119, 2022, 104211.",
+                "@reference-instance-id": "OB2BibRecID-964033631-44395dd98deb2d47cebb1285fa2bac65-16",
+                "@id": "16",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Calculation of earth pressure distribution on the deep circular tunnel considering stress-transfer mechanisms in different zones"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib16",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "104211",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85116909722",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "119"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Lin",
+                        "ce:indexed-name": "Lin X.T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen R.P."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu H.N."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "F.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Meng",
+                        "ce:indexed-name": "Meng F.Y."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Su",
+                        "ce:indexed-name": "Su D."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "K.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Han",
+                        "ce:indexed-name": "Han K.H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Lin, X.T., Chen, R.P., Wu, H.N., Meng, F.Y., Su, D., Han, K.H., 2022a. Calculation of earth pressure distribution on the deep circular tunnel considering stress-transfer mechanisms in different zones. Tunn. Undergr. Space Technol. 119, 104211."
+              },
+              {
+                "ref-fulltext": "Lin, X.T., Su, D., Shen, X., Peng, Y.S., Han, K.H., Chen, X.S., Effect of tunnelling-induced ground loss on the distribution of earth pressure on a deep underground structure. Comput. Geotech., 147, 2022, 104781.",
+                "@reference-instance-id": "OB2BibRecID-964033631-735e93f28d425c7e4355cdc244bc87fd-17",
+                "@id": "17",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of tunnelling-induced ground loss on the distribution of earth pressure on a deep underground structure"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib17",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "104781",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85129518567",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "147"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Lin",
+                        "ce:indexed-name": "Lin X.T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Su",
+                        "ce:indexed-name": "Su D."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Shen",
+                        "ce:indexed-name": "Shen X."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Peng",
+                        "ce:indexed-name": "Peng Y.S."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "K.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Han",
+                        "ce:indexed-name": "Han K.H."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "X.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen X.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Comput. Geotech."
+                },
+                "ce:source-text": "Lin, X.T., Su, D., Shen, X., Peng, Y.S., Han, K.H., Chen, X.S., 2022b. Effect of tunnelling-induced ground loss on the distribution of earth pressure on a deep underground structure. Comput. Geotech. 147, 104781."
+              },
+              {
+                "ref-fulltext": "Lin, D., Zhou, Z.P., Weng, M.C., Broere, W., Cui, J.Q., Metro systems: construction, operation and impacts. Tunn. Undergr. Space Technol., 143, 2024, 105373.",
+                "@reference-instance-id": "OB2BibRecID-964033631-d6661a5eb076a171953d98475c20a490-18",
+                "@id": "18",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Metro systems: construction, operation and impacts"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib18",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105373",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85176226855",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "143"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Lin",
+                        "ce:indexed-name": "Lin D."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou Z.P."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Weng",
+                        "ce:indexed-name": "Weng M.C."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Broere",
+                        "ce:indexed-name": "Broere W."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "J.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Cui",
+                        "ce:indexed-name": "Cui J.Q."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Lin, D., Zhou, Z.P., Weng, M.C., Broere, W., Cui, J.Q., 2024. Metro systems: Construction, operation and impacts. Tunn. Undergr. Space Technol. 143, 105373."
+              },
+              {
+                "ref-fulltext": "Liu, X., Zhang, R., Fang, Q., Li, Q.Q., Jiang, A.N., Li, K.C., Subgrade settlements of existing railway lines and operational parameters of shield machine induced by twin shield tunnel excavations: a case study. J. Cent. South Univ. 31 (2024), 272–287.",
+                "@reference-instance-id": "OB2BibRecID-964033631-d7004b5f9ea66cd411a638cdc463d672-19",
+                "@id": "19",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Subgrade settlements of existing railway lines and operational parameters of shield machine induced by twin shield tunnel excavations: a case study"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib19",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85184730692",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "31"
+                    },
+                    "pagerange": {
+                      "@first": "272",
+                      "@last": "287"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang R."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Fang",
+                        "ce:indexed-name": "Fang Q."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Q.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li Q.Q."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "A.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Jiang",
+                        "ce:indexed-name": "Jiang A.N."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "K.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li K.C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Cent. South Univ."
+                },
+                "ce:source-text": "Liu, X., Zhang, R., Fang, Q., Li, Q.Q., Jiang, A.N., Li, K.C., 2024a. Subgrade settlements of existing railway lines and operational parameters of shield machine induced by twin shield tunnel excavations: A case study. J. Cent. South Univ. 31, 272-287."
+              },
+              {
+                "ref-fulltext": "Liu, X., Li, K.C., Jiang, A.N., Fang, Q., Zhang, R., Prediction interaction responses between railway subgrade and shield tunnelling using machine learning with sparrow search algorithm. Transp. Geotech., 44, 2024, 101169.",
+                "@reference-instance-id": "OB2BibRecID-964033631-544fb9254b1c4097d4c7d8ca3fd84aaa-20",
+                "@id": "20",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Prediction interaction responses between railway subgrade and shield tunnelling using machine learning with sparrow search algorithm"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib20",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "101169",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85179063619",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "44"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li K.C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Jiang",
+                        "ce:indexed-name": "Jiang A.N."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Fang",
+                        "ce:indexed-name": "Fang Q."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang R."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Transp. Geotech."
+                },
+                "ce:source-text": "Liu, X., Li, K.C., Jiang, A.N., Fang, Q., Zhang, R., 2024b. Prediction interaction responses between railway subgrade and shield tunnelling using machine learning with sparrow search algorithm. Transp. Geotech. 44, 101169."
+              },
+              {
+                "ref-fulltext": "Loganathan, N., Poulos, H.G., Stewart, D.P., Centrifuge model testing of tunneling induced ground and pile deformations. Geotechnique 50:3 (2000), 283–294.",
+                "@reference-instance-id": "OB2BibRecID-964033631-21fd94ca1cad8151932d0aa4399ed750-21",
+                "@id": "21",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2000"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Centrifuge model testing of tunneling induced ground and pile deformations"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib21",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0034042410",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "50",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "283",
+                      "@last": "294"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Loganathan",
+                        "ce:indexed-name": "Loganathan N."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Poulos",
+                        "ce:indexed-name": "Poulos H.G."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Stewart",
+                        "ce:indexed-name": "Stewart D.P."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geotechnique"
+                },
+                "ce:source-text": "Loganathan, N., Poulos, H.G., Stewart, D.P., 2000. Centrifuge model testing of tunneling induced ground and pile deformations. Geotechnique 50 (3), 283-294."
+              },
+              {
+                "ref-fulltext": "Lueprasert, P., Jongpradist, P., Jongpradist, P., Suwansawat, S., Numerical investigation of tunnel deformation due to adjacent loaded pile and pile-soil-tunnel interaction. Tunn. Undergr. Space Technol. 70 (2017), 166–181.",
+                "@reference-instance-id": "OB2BibRecID-964033631-2e0d07298295417089cb04b1d678708d-22",
+                "@id": "22",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Numerical investigation of tunnel deformation due to adjacent loaded pile and pile-soil-tunnel interaction"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib22",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85026812121",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "70"
+                    },
+                    "pagerange": {
+                      "@first": "166",
+                      "@last": "181"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Lueprasert",
+                        "ce:indexed-name": "Lueprasert P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Jongpradist",
+                        "ce:indexed-name": "Jongpradist P."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Jongpradist",
+                        "ce:indexed-name": "Jongpradist P."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Suwansawat",
+                        "ce:indexed-name": "Suwansawat S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Lueprasert, P., Jongpradist, P., Jongpradist, P., Suwansawat, S., 2017. Numerical investigation of tunnel deformation due to adjacent loaded pile and pile-soil-tunnel interaction. Tunn. Undergr. Space Technol. 70, 166-181."
+              },
+              {
+                "ref-fulltext": "Mei, Y., Zhang, X.Y., Nong, X.Z., Fu, L.Y., Experimental study of the comprehensive technology of grouting and suspension under an operating railway in the cobble stratum. Transp. Geotech., 30, 2021, 100612.",
+                "@reference-instance-id": "OB2BibRecID-964033631-5c5600dd2518ea81785191d264590059-23",
+                "@id": "23",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental study of the comprehensive technology of grouting and suspension under an operating railway in the cobble stratum"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib23",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "100612",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85109015271",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "30"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Mei",
+                        "ce:indexed-name": "Mei Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang X.Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Nong",
+                        "ce:indexed-name": "Nong X.Z."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "L.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Fu",
+                        "ce:indexed-name": "Fu L.Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Transp. Geotech."
+                },
+                "ce:source-text": "Mei, Y., Zhang, X.Y., Nong, X.Z., Fu, L.Y., 2021. Experimental study of the comprehensive technology of grouting and suspension under an operating railway in the cobble stratum. Transp. Geotech. 30, 100612."
+              },
+              {
+                "ref-fulltext": "Ng, C.W.W., Boonyarak, T., Mašín, D., Three-dimensional centrifuge and numerical modeling of the interaction between perpendicularly crossing tunnels. Can. Geotech. J. 50 (2013), 935–946.",
+                "@reference-instance-id": "OB2BibRecID-964033631-44bb141237f56ca0e5f473bc11ec03be-24",
+                "@id": "24",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Three-dimensional centrifuge and numerical modeling of the interaction between perpendicularly crossing tunnels"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib24",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84883492639",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "50"
+                    },
+                    "pagerange": {
+                      "@first": "935",
+                      "@last": "946"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.W.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Ng",
+                        "ce:indexed-name": "Ng C.W.W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Boonyarak",
+                        "ce:indexed-name": "Boonyarak T."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Mašín",
+                        "ce:indexed-name": "Masin D."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Can. Geotech. J."
+                },
+                "ce:source-text": "Ng, C.W.W., Boonyarak, T., Masin, D., 2013. Three-dimensional centrifuge and numerical modeling of the interaction between perpendicularly crossing tunnels. Can. Geotech. J. 50, 935-946."
+              },
+              {
+                "ref-fulltext": "Ng, C.W.W., Fong, K.Y., Liu, H.L., The effects of existing horseshoe-shaped tunnel sizes on circular crossing tunnel interactions: three-dimensional numerical analyses. Tunn. Undergr. Space Technol. 77 (2018), 68–79.",
+                "@reference-instance-id": "OB2BibRecID-964033631-53638eee41ec368d1dc9b127936befd3-25",
+                "@id": "25",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The effects of existing horseshoe-shaped tunnel sizes on circular crossing tunnel interactions: three-dimensional numerical analyses"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib25",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85044726336",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "77"
+                    },
+                    "pagerange": {
+                      "@first": "68",
+                      "@last": "79"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.W.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Ng",
+                        "ce:indexed-name": "Ng C.W.W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Fong",
+                        "ce:indexed-name": "Fong K.Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu H.L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Ng, C.W.W., Fong, K.Y., Liu, H.L., 2018. The effects of existing horseshoe-shaped tunnel sizes on circular crossing tunnel interactions: Three-dimensional numerical analyses. Tunn. Undergr. Space Technol. 77, 68-79."
+              },
+              {
+                "ref-fulltext": "Ng, C.W.W., Wong, Y.Y.A., Shakeel, M., Effects of the skew angle of new tunneling on an existing tunnel: three-dimensional centrifuge and numerical modeling. Can. Geotech. J. 59:10 (2022), 1728–1742.",
+                "@reference-instance-id": "OB2BibRecID-964033631-92aff697e3ac6883f34e0c3c50e12cc7-26",
+                "@id": "26",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effects of the skew angle of new tunneling on an existing tunnel: three-dimensional centrifuge and numerical modeling"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib26",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85139011622",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "59",
+                      "@issue": "10"
+                    },
+                    "pagerange": {
+                      "@first": "1728",
+                      "@last": "1742"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.W.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Ng",
+                        "ce:indexed-name": "Ng C.W.W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.Y.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Wong",
+                        "ce:indexed-name": "Wong Y.Y.A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Shakeel",
+                        "ce:indexed-name": "Shakeel M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Can. Geotech. J."
+                },
+                "ce:source-text": "Ng, C.W.W., Wong, Y.Y.A., Shakeel, M., 2022. Effects of the skew angle of new tunneling on an existing tunnel: three-dimensional centrifuge and numerical modeling. Can. Geotech. J. 59 (10), 1728-1742."
+              },
+              {
+                "ref-fulltext": "Qian, W.P., Qi, T.Y., Zhao, Y.J., Le, Y.Z., Yi, H.Y., Deformation characteristics and safety assessment of a high-speed railway induced by undercutting metro tunnel excavation. J. Rock Mech. Geotech. Eng. 11:1 (2019), 88–98.",
+                "@reference-instance-id": "OB2BibRecID-964033631-5d4f7aa33daa01a6777e8466910d747e-27",
+                "@id": "27",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Deformation characteristics and safety assessment of a high-speed railway induced by undercutting metro tunnel excavation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib27",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85058786104",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "11",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "88",
+                      "@last": "98"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Qian",
+                        "ce:indexed-name": "Qian W.P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Qi",
+                        "ce:indexed-name": "Qi T.Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao Y.J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Le",
+                        "ce:indexed-name": "Le Y.Z."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "H.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Yi",
+                        "ce:indexed-name": "Yi H.Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Rock Mech. Geotech. Eng."
+                },
+                "ce:source-text": "Qian, W.P., Qi, T.Y., Zhao, Y.J., Le, Y.Z., Yi, H.Y., 2019. Deformation characteristics and safety assessment of a high-speed railway induced by undercutting metro tunnel excavation. J. Rock Mech. Geotech. Eng. 11 (1), 88-98."
+              },
+              {
+                "ref-fulltext": "Shen, Y., Xu, H.D., Tao, M.G., Wang, B.G., Song, S.X., Settlement of soft clay subgrade under coupled effects of vibration frequency and dynamic stress ratio caused by high-speed train loads. Soil Mech. Found. Eng. 54 (2017), 87–96.",
+                "@reference-instance-id": "OB2BibRecID-964033631-4d4986feef80dedfc6110f8d1264aac7-28",
+                "@id": "28",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Settlement of soft clay subgrade under coupled effects of vibration frequency and dynamic stress ratio caused by high-speed train loads"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib28",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85054823415",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "54"
+                    },
+                    "pagerange": {
+                      "@first": "87",
+                      "@last": "96"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Shen",
+                        "ce:indexed-name": "Shen Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu H.D."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Tao",
+                        "ce:indexed-name": "Tao M.G."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "B.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang B.G."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "S.X.",
+                        "@_fa": "true",
+                        "ce:surname": "Song",
+                        "ce:indexed-name": "Song S.X."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Mech. Found. Eng."
+                },
+                "ce:source-text": "Shen, Y., Xu, H.D., Tao, M.G., Wang, B.G., Song, S.X., 2017. Settlement of Soft Clay Subgrade Under Coupled Effects of Vibration Frequency and Dynamic Stress Ratio Caused by High-Speed Train Loads. Soil Mech. Found. Eng. 54, 87-96."
+              },
+              {
+                "ref-fulltext": "Shi, J.W., Wang, Y., Ng, C.W.W., Three-dimensional centrifuge modeling of ground and pipeline response to tunnel excavation. J. Geotech. Geoenviron. Eng., 142(11), 2016, 04016054.",
+                "@reference-instance-id": "OB2BibRecID-964033631-2441dc558c236fc82186f42b6b49d9c1-29",
+                "@id": "29",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Three-dimensional centrifuge modeling of ground and pipeline response to tunnel excavation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib29",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "04016054",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "84994460722",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "142",
+                      "@issue": "11"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi J.W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.W.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Ng",
+                        "ce:indexed-name": "Ng C.W.W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Geotech. Geoenviron. Eng."
+                },
+                "ce:source-text": "Shi, J.W., Wang, Y., Ng, C.W.W., 2016. Three-Dimensional Centrifuge Modeling of Ground and Pipeline Response to Tunnel Excavation. J. Geotech. Geoenviron. Eng. 142(11), 04016054."
+              },
+              {
+                "ref-fulltext": "Surarak, C., Likitlersuang, S., Wanatowski, D., Balasubramaniam, A., Oh, E., Guan, H., Stiffness and strength parameters for hardening soil model of soft and stiff Bangkok clays. Soils Found. 52:4 (2012), 682–697.",
+                "@reference-instance-id": "OB2BibRecID-964033631-c807e2c6d3f414565b1e8a54a62636f7-30",
+                "@id": "30",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Stiffness and strength parameters for hardening soil model of soft and stiff Bangkok clays"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib30",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84871005519",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "52",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "682",
+                      "@last": "697"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Surarak",
+                        "ce:indexed-name": "Surarak C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Likitlersuang",
+                        "ce:indexed-name": "Likitlersuang S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Wanatowski",
+                        "ce:indexed-name": "Wanatowski D."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Balasubramaniam",
+                        "ce:indexed-name": "Balasubramaniam A."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Oh",
+                        "ce:indexed-name": "Oh E."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Guan",
+                        "ce:indexed-name": "Guan H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soils Found."
+                },
+                "ce:source-text": "Surarak, C., Likitlersuang, S., Wanatowski, D., Balasubramaniam, A., Oh, E., Guan, H., 2012. Stiffness and strength parameters for hardening soil model of soft and stiff Bangkok clays. Soils Found. 52 (4), 682-697."
+              },
+              {
+                "ref-fulltext": "Tao, Y.H., Rao, J.Y., Construction analysis of guiyang metro passing across guiyang railway station in karst zone. Tunn. Undergr. Space Technol., 126, 2022, 104541.",
+                "@reference-instance-id": "OB2BibRecID-964033631-82529f959a1c6559ca4335dcbcf79c0c-31",
+                "@id": "31",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Construction analysis of guiyang metro passing across guiyang railway station in karst zone"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "104541",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "bib31",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85133906248",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "126"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Tao",
+                        "ce:indexed-name": "Tao Y.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Rao",
+                        "ce:indexed-name": "Rao J.Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Tao, Y.H., Rao, J.Y., 2022. Construction analysis of Guiyang Metro passing across Guiyang Railway Station in karst zone. Tunn. Undergr. Space Technol. 126, 104541."
+              },
+              {
+                "ref-fulltext": "Vinoth, M., Aswathy, M.S., 3D Evolution of soil arching during shield tunnelling in silty and sandy soils: a comparative study. Int. J. Numer. Anal. Methods GeoMech. 47 (2023), 299–322.",
+                "@reference-instance-id": "OB2BibRecID-964033631-ba7459e8d406841d0a7e374b3423e3f0-32",
+                "@id": "32",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "3D Evolution of soil arching during shield tunnelling in silty and sandy soils: a comparative study"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib32",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85142665625",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "47"
+                    },
+                    "pagerange": {
+                      "@first": "299",
+                      "@last": "322"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Vinoth",
+                        "ce:indexed-name": "Vinoth M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Aswathy",
+                        "ce:indexed-name": "Aswathy M.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Int. J. Numer. Anal. Methods GeoMech."
+                },
+                "ce:source-text": "Vinoth, M., Aswathy, M.S., 2023. 3D Evolution of soil arching during shield tunnelling in silty and sandy soils: A comparative study. Int. J. Numer. Anal. Methods Geomech. 47, 299-322."
+              },
+              {
+                "ref-fulltext": "Wang, Z.C., Hu, Z., Lai, J.X., Wang, H., Wang, K., Zan, W.B., Settlement characteristics of jacked box tunneling underneath a highway embankment. J. Perform. Constr. Facil., 33, 2019, 04019005.",
+                "@reference-instance-id": "OB2BibRecID-964033631-1ca625d1d03ba7247651dc00e7b277b8-33",
+                "@id": "33",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Settlement characteristics of jacked box tunneling underneath a highway embankment"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib33",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "04019005",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85059946736",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "33"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang Z.C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Hu",
+                        "ce:indexed-name": "Hu Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.X.",
+                        "@_fa": "true",
+                        "ce:surname": "Lai",
+                        "ce:indexed-name": "Lai J.X."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang H."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang K."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "W.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Zan",
+                        "ce:indexed-name": "Zan W.B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Perform. Constr. Facil."
+                },
+                "ce:source-text": "Wang, Z.C., Hu, Z., Lai, J.X., Wang, H., Wang, K., Zan, W.B., 2019. Settlement Characteristics of Jacked Box Tunneling underneath a Highway Embankment. J. Perform. Constr. Facil. 33, 04019005."
+              },
+              {
+                "ref-fulltext": "Wu, B.Y., Lin, X.T., Su, D., Han, K.H., Chen, X.S., Settlement transfer mechanism of CFG piles for strengthening high-speed railway subgrades induced by twin shield tunnelling undercrossing. Tunn. Undergr. Space Technol., 145, 2024, 105577.",
+                "@reference-instance-id": "OB2BibRecID-964033631-9735888f6f6f9e75b9820898e485c9ef-34",
+                "@id": "34",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Settlement transfer mechanism of CFG piles for strengthening high-speed railway subgrades induced by twin shield tunnelling undercrossing"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib34",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105577",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85183452993",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "145"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu B.Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Lin",
+                        "ce:indexed-name": "Lin X.T."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Su",
+                        "ce:indexed-name": "Su D."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "K.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Han",
+                        "ce:indexed-name": "Han K.H."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "X.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen X.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Wu, B.Y., Lin, X.T., Su, D., Han, K.H., Chen, X.S., 2024. Settlement transfer mechanism of CFG piles for strengthening high-speed railway subgrades induced by twin shield tunnelling undercrossing. Tunn. Undergr. Space Technol. 145, 105577."
+              },
+              {
+                "ref-fulltext": "Xu, J.M., Franza, A., Marshall, A.M., Losacco, N., Boldini, D., Tunnel–framed building interaction: comparison between raft and separate footing foundations. Geotechnique 71 (2021), 631–644.",
+                "@reference-instance-id": "OB2BibRecID-964033631-225e74bf28b3aee2e6a0429e6d365975-35",
+                "@id": "35",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Tunnel–framed building interaction: comparison between raft and separate footing foundations"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib35",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85107937344",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "71"
+                    },
+                    "pagerange": {
+                      "@first": "631",
+                      "@last": "644"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu J.M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Franza",
+                        "ce:indexed-name": "Franza A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Marshall",
+                        "ce:indexed-name": "Marshall A.M."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Losacco",
+                        "ce:indexed-name": "Losacco N."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Boldini",
+                        "ce:indexed-name": "Boldini D."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geotechnique"
+                },
+                "ce:source-text": "Xu, J.M., Franza, A., Marshall, A.M., Losacco, N., Boldini, D., 2021. Tunnel-framed building interaction: Comparison between raft and separate footing foundations. Geotechnique 71, 631-644."
+              },
+              {
+                "ref-fulltext": "Xu, J.M., Gui, J.S., Sheil, B., A numerical investigation of the role of basements on tunnel-frame interaction in sandy soil. Comput. Geotech., 169, 2024, 106197.",
+                "@reference-instance-id": "OB2BibRecID-964033631-a8e7e9c7d99f83c25001996da1ce79de-36",
+                "@id": "36",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A numerical investigation of the role of basements on tunnel-frame interaction in sandy soil"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib36",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "106197",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85186756836",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "169"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu J.M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Gui",
+                        "ce:indexed-name": "Gui J.S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Sheil",
+                        "ce:indexed-name": "Sheil B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Comput. Geotech."
+                },
+                "ce:source-text": "Xu, J.M., Gui, J.S., Sheil, B., 2024. A numerical investigation of the role of basements on tunnel-frame interaction in sandy soil. Comput. Geotech. 169, 106197."
+              },
+              {
+                "ref-fulltext": "Yin, M.L., Jiang, H., Jiang, Y.S., Sun, Z.Y., Wu, Q.L., Effect of the excavation clearance of an under-crossing shield tunnel on existing shield tunnels. Tunn. Undergr. Space Technol. 78 (2018), 245–258.",
+                "@reference-instance-id": "OB2BibRecID-964033631-8907bec857ed60b40741229c8c20509a-37",
+                "@id": "37",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of the excavation clearance of an under-crossing shield tunnel on existing shield tunnels"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib37",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85047254829",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "78"
+                    },
+                    "pagerange": {
+                      "@first": "245",
+                      "@last": "258"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Yin",
+                        "ce:indexed-name": "Yin M.L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Jiang",
+                        "ce:indexed-name": "Jiang H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Jiang",
+                        "ce:indexed-name": "Jiang Y.S."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Z.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Sun",
+                        "ce:indexed-name": "Sun Z.Y."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Q.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu Q.L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Yin, M.L., Jiang, H., Jiang, Y.S., Sun, Z.Y., Wu, Q.L., 2018. Effect of the excavation clearance of an under-crossing shield tunnel on existing shield tunnels. Tunn. Undergr. Space Technol. 78, 245-258."
+              },
+              {
+                "ref-fulltext": "Zhang, Y., Tao, L.J., Liu, J., et al. Construction techniques and mechanical behavior of newly-built large-span tunnel ultra-short distance up-crossing the existing shield tunnel with oblique angle. Tunn. Undergr. Space Technol., 138, 2023, 105162.",
+                "@reference-instance-id": "OB2BibRecID-964033631-deeaabc33fea83d554ab6e8c3c15cfac-38",
+                "@id": "38",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Construction techniques and mechanical behavior of newly-built large-span tunnel ultra-short distance up-crossing the existing shield tunnel with oblique angle"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib38",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105162",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85153247207",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "138"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Tao",
+                        "ce:indexed-name": "Tao L.J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu J."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Zhang, Y., Tao, L.J., Liu, J., et al., 2023. Construction techniques and mechanical behavior of newly-built large-span tunnel ultra-short distance up-crossing the existing shield tunnel with oblique angle. Tunn. Undergr. Space Technol. 138, 105162."
+              },
+              {
+                "ref-fulltext": "Zhang, Z.G., Huang, M.S., Geotechnical influence on existing subway tunnels induced by multiline tunneling in Shanghai soft soil. Comput. Geotech. 56 (2014), 121–132.",
+                "@reference-instance-id": "OB2BibRecID-964033631-3f265c66691585aa5e069fbde330ea02-39",
+                "@id": "39",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Geotechnical influence on existing subway tunnels induced by multiline tunneling in Shanghai soft soil"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib39",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84890382766",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "56"
+                    },
+                    "pagerange": {
+                      "@first": "121",
+                      "@last": "132"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Z.G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang M.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Comput. Geotech."
+                },
+                "ce:source-text": "Zhang, Z.G., Huang, M.S., 2014. Geotechnical influence on existing subway tunnels induced by multiline tunneling in Shanghai soft soil. Comput. Geotech. 56, 121-132."
+              },
+              {
+                "ref-fulltext": "Zheng, G., Fan, Q., Zhang, T.Q., et al. Multistage regulation strategy as a tool to control the vertical displacement of railway tracks placed over the building site of two overlapped shield tunnels. Tunn. Undergr. Space Technol. 83 (2019), 282–290.",
+                "@reference-instance-id": "OB2BibRecID-964033631-aa58a01f254eb3c52ae49032b072da06-40",
+                "@id": "40",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Multistage regulation strategy as a tool to control the vertical displacement of railway tracks placed over the building site of two overlapped shield tunnels"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib40",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85054882321",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "83"
+                    },
+                    "pagerange": {
+                      "@first": "282",
+                      "@last": "290"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Zheng",
+                        "ce:indexed-name": "Zheng G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Fan",
+                        "ce:indexed-name": "Fan Q."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "T.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang T.Q."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Zheng., G., Fan., Q., Zhang., T.Q., et al., 2019. Multistage regulation strategy as a tool to control the vertical displacement of railway tracks placed over the building site of two overlapped shield tunnels. Tunn. Undergr. Space Technol. 83, 282-290."
+              },
+              {
+                "ref-fulltext": "Zheng, G., Pan, J., Li, Y.L., et al. Deformation and protection of existing tunnels at an oblique intersection angle to an excavation. Int. J. GeoMech., 20(8), 2020, 05020004.",
+                "@reference-instance-id": "OB2BibRecID-964033631-e291f7dbb73c30bcec43d7ca9c6d588a-41",
+                "@id": "41",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Deformation and protection of existing tunnels at an oblique intersection angle to an excavation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib41",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "05020004",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85089466140",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "20",
+                      "@issue": "8"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Zheng",
+                        "ce:indexed-name": "Zheng G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Pan",
+                        "ce:indexed-name": "Pan J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li Y.L."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Int. J. GeoMech."
+                },
+                "ce:source-text": "Zheng, G., Pan, J., Li, Y.L., et al., 2020. Deformation and protection of existing tunnels at an oblique intersection angle to an excavation. Int. J. Geomech. 20 (8), 05020004."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "affiliation": [
+      {
+        "affiliation-city": "Shenzhen",
+        "@id": "60000937",
+        "affilname": "Shenzhen University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60000937",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Beijing",
+        "@id": "60118343",
+        "affilname": "China Communications Construction Company Limited",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60118343",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Shenzhen",
+        "@id": "130360125",
+        "affilname": "State Key Laboratory of Intelligent Geotechnics and Tunnelling",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/130360125",
+        "affiliation-country": "China"
+      }
+    ],
+    "coredata": {
+      "srctype": "j",
+      "eid": "2-s2.0-105003214800",
+      "dc:description": "With the development of urban infrastructure, it is inevitable that shield tunnels will undercross intercity railways. However, the safe operation of intercity railways requires strict subgrade deformation. On the basis of the engineering background of the Lianghu Tunnel in Wuhan, the three-dimensional centrifuge test and numerical back analysis were used to study the development of subgrade surface settlement during shield tunneling. A three-dimensional numerical model with the same size as the prototype was subsequently established to further study the settlement development and torsion behavior of the subgrade during tunnel excavation. The results show that the maximum settlement point of the transverse settlement trough gradually moves to the tunnel axis during tunnel excavation and that the entire subgrade experiences torsional deformation. Moreover, the effect of the intersection angle between the axes of the tunnel and the subgrade on the surface settlement of the subgrade was further studied. The results show that the intersection angle has no effect on the maximum settlement, but the width of the settlement trough increases gradually with increasing angle. Finally, on the basis of the soil arching effect caused by tunnel excavation, the subgrade settlement during tunnel excavation is reduced by reinforcing the soil in different zones of soil arching. The results show that the settlement of the subgrade caused by the shield tunnel can be effectively controlled by adding reinforcement directly to the top of the tunnel, and the maximum settlement of the subgrade surface is reduced from 24.41 mm to 9.47 mm, a reduction of approximately 61.2%.",
+      "prism:coverDate": "2025-05-01",
+      "prism:aggregationType": "Journal",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105003214800",
+      "dc:creator": {
+        "author": [
+          {
+            "ce:given-name": "Xing-Tao",
+            "preferred-name": {
+              "ce:given-name": "Xing Tao",
+              "ce:initials": "X.T.",
+              "ce:surname": "Lin",
+              "ce:indexed-name": "Lin X.T."
+            },
+            "@seq": "1",
+            "ce:initials": "X.-T.",
+            "@_fa": "true",
+            "affiliation": [
+              {
+                "@id": "130360125",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/130360125"
+              },
+              {
+                "@id": "60000937",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60000937"
+              },
+              {
+                "@id": "60000937",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60000937"
+              }
+            ],
+            "ce:surname": "Lin",
+            "@auid": "57194450993",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57194450993",
+            "ce:indexed-name": "Lin X.-T."
+          }
+        ]
+      },
+      "link": [
+        {
+          "@_fa": "true",
+          "@rel": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105003214800"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105003214800&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105003214800&origin=inward"
+        }
+      ],
+      "source-id": "21100381006",
+      "pii": "S1674775524005092",
+      "citedby-count": "5",
+      "prism:volume": "17",
+      "subtype": "ar",
+      "dc:title": "Super-large-diameter shield tunnel undercrossing an intercity railway with oblique angle: Centrifuge test and numerical analysis",
+      "openaccess": "1",
+      "prism:issn": "25890417 16747755",
+      "publishercopyright": "© 2025 Institute of Rock and Soil Mechanics, Chinese Academy of Sciences",
+      "prism:issueIdentifier": "5",
+      "subtypeDescription": "Article",
+      "prism:publicationName": "Journal of Rock Mechanics and Geotechnical Engineering",
+      "prism:pageRange": "2741-2757",
+      "prism:endingPage": "2757",
+      "openaccessFlag": "true",
+      "prism:doi": "10.1016/j.jrmge.2024.09.047",
+      "prism:startingPage": "2741",
+      "dc:identifier": "SCOPUS_ID:105003214800",
+      "dc:publisher": "Chinese Academy of Sciences"
+    },
+    "idxterms": null,
+    "language": {
+      "@xml:lang": "eng"
+    },
+    "authkeywords": {
+      "author-keyword": [
+        {
+          "@_fa": "true",
+          "$": "Centrifuge test"
+        },
+        {
+          "@_fa": "true",
+          "$": "Intercity railway"
+        },
+        {
+          "@_fa": "true",
+          "$": "Numerical analysis"
+        },
+        {
+          "@_fa": "true",
+          "$": "Oblique undercrossing"
+        },
+        {
+          "@_fa": "true",
+          "$": "Super-large-diameter shield"
+        }
+      ]
+    },
+    "subject-areas": {
+      "subject-area": [
+        {
+          "@_fa": "true",
+          "$": "Geotechnical Engineering and Engineering Geology",
+          "@code": "1909",
+          "@abbrev": "EART"
+        }
+      ]
+    },
+    "authors": {
+      "author": [
+        {
+          "ce:given-name": "Xing-Tao",
+          "preferred-name": {
+            "ce:given-name": "Xing Tao",
+            "ce:initials": "X.T.",
+            "ce:surname": "Lin",
+            "ce:indexed-name": "Lin X.T."
+          },
+          "@seq": "1",
+          "ce:initials": "X.-T.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "130360125",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/130360125"
+            },
+            {
+              "@id": "60000937",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60000937"
+            },
+            {
+              "@id": "60000937",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60000937"
+            }
+          ],
+          "ce:surname": "Lin",
+          "@auid": "57194450993",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57194450993",
+          "ce:indexed-name": "Lin X.-T."
+        },
+        {
+          "ce:given-name": "Hui",
+          "preferred-name": {
+            "ce:given-name": "Hui",
+            "ce:initials": "H.",
+            "ce:surname": "Zeng",
+            "ce:indexed-name": "Zeng H."
+          },
+          "@seq": "2",
+          "ce:initials": "H.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60000937",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60000937"
+          },
+          "ce:surname": "Zeng",
+          "@auid": "58776442700",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58776442700",
+          "ce:indexed-name": "Zeng H."
+        },
+        {
+          "ce:given-name": "Xuetao",
+          "preferred-name": {
+            "ce:given-name": "Xuetao",
+            "ce:initials": "X.",
+            "ce:surname": "Wang",
+            "ce:indexed-name": "Wang X."
+          },
+          "@seq": "3",
+          "ce:initials": "X.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "130360125",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/130360125"
+            },
+            {
+              "@id": "60000937",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60000937"
+            },
+            {
+              "@id": "60000937",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60000937"
+            }
+          ],
+          "ce:surname": "Wang",
+          "@auid": "57212769538",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57212769538",
+          "ce:indexed-name": "Wang X."
+        },
+        {
+          "ce:given-name": "Ming",
+          "preferred-name": {
+            "ce:given-name": "Ming",
+            "ce:initials": "M.",
+            "ce:surname": "Song",
+            "ce:indexed-name": "Song M."
+          },
+          "@seq": "4",
+          "ce:initials": "M.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60118343",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60118343"
+          },
+          "ce:surname": "Song",
+          "@auid": "59276785700",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59276785700",
+          "ce:indexed-name": "Song M."
+        },
+        {
+          "ce:given-name": "Xiangsheng",
+          "preferred-name": {
+            "ce:given-name": "Xiangsheng",
+            "ce:initials": "X.",
+            "ce:surname": "Chen",
+            "ce:indexed-name": "Chen X."
+          },
+          "@seq": "5",
+          "ce:initials": "X.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "130360125",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/130360125"
+            },
+            {
+              "@id": "60000937",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60000937"
+            },
+            {
+              "@id": "60000937",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60000937"
+            }
+          ],
+          "ce:surname": "Chen",
+          "@auid": "55191034700",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55191034700",
+          "ce:indexed-name": "Chen X."
+        }
+      ]
+    }
+  }
+}

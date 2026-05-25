@@ -1,0 +1,4354 @@
+{
+  "abstracts-retrieval-response": {
+    "item": {
+      "ait:process-info": {
+        "ait:status": {
+          "@state": "update",
+          "@type": "core",
+          "@stage": "S300"
+        },
+        "ait:date-delivered": {
+          "@day": "04",
+          "@timestamp": "2021-09-04T08:16:43.000043-04:00",
+          "@year": "2021",
+          "@month": "09"
+        },
+        "ait:date-sort": {
+          "@day": "15",
+          "@year": "2016",
+          "@month": "06"
+        }
+      },
+      "xocs:meta": {
+        "xocs:funding-list": {
+          "@pui-match": "primary",
+          "@has-funding-info": "1",
+          "xocs:funding": {
+            "xocs:funding-agency-matched-string": "Ministry of Science and Technology",
+            "xocs:funding-agency-acronym": "MOST",
+            "xocs:funding-agency": "Ministry of Science and Technology, Taiwan",
+            "xocs:funding-id": "105-3113-E-007-001",
+            "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100004663",
+            "xocs:funding-agency-country": "http://sws.geonames.org/1668284/"
+          },
+          "xocs:funding-addon-generated-timestamp": "2021-06-03T12:44:37.261Z",
+          "xocs:funding-text": "Sincere appreciation goes to the Ministry of Science and Technology (MOST) of Taiwan (R.O.C.) for support under Grant Number MOST 105-3113-E-007-001 .",
+          "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }
+      },
+      "bibrecord": {
+        "head": {
+          "author-group": [
+            {
+              "affiliation": {
+                "country": "Taiwan",
+                "@afid": "60118890",
+                "@country": "twn",
+                "city": "Taipei",
+                "organization": [
+                  {
+                    "$": "Graduate Institute of Environmental Engineering"
+                  },
+                  {
+                    "$": "National Taiwan University"
+                  }
+                ],
+                "affiliation-id": [
+                  {
+                    "@afid": "60118890"
+                  },
+                  {
+                    "@afid": "60005429"
+                  }
+                ]
+              },
+              "author": [
+                {
+                  "ce:given-name": "Kuan-Wei",
+                  "preferred-name": {
+                    "ce:given-name": "Kuan Wei",
+                    "ce:initials": "K.W.",
+                    "ce:surname": "Chen",
+                    "ce:indexed-name": "Chen K.W."
+                  },
+                  "@seq": "1",
+                  "ce:initials": "K.-W.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Chen",
+                  "@auid": "57203741048",
+                  "ce:indexed-name": "Chen K.-W."
+                },
+                {
+                  "ce:given-name": "Shu-Yuan",
+                  "preferred-name": {
+                    "ce:given-name": "Shu Yuan",
+                    "ce:initials": "S.Y.",
+                    "ce:surname": "Pan",
+                    "ce:indexed-name": "Pan S.Y."
+                  },
+                  "@seq": "2",
+                  "ce:initials": "S.-Y.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Pan",
+                  "@auid": "40361380800",
+                  "ce:indexed-name": "Pan S.-Y."
+                },
+                {
+                  "ce:given-name": "Pen-Chi",
+                  "preferred-name": {
+                    "ce:given-name": "Pen Chi",
+                    "ce:initials": "P.C.",
+                    "ce:surname": "Chiang",
+                    "ce:indexed-name": "Chiang P.C."
+                  },
+                  "@seq": "5",
+                  "ce:initials": "P.-C.",
+                  "@date-locked": "2019-05-22T20:08:24.583",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Chiang",
+                  "@auid": "7102736555",
+                  "@orcid": "0000-0002-7531-6398",
+                  "ce:indexed-name": "Chiang P.-C."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "Taiwan",
+                "@afid": "60027709",
+                "@country": "twn",
+                "city": "Taipei",
+                "organization": [
+                  {
+                    "$": "Department of Civil and Construction Engineering"
+                  },
+                  {
+                    "$": "National Taiwan University of Science and Technology"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60027709",
+                  "@dptid": "104406087"
+                },
+                "@dptid": "104406087"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Chun-Tao",
+                  "preferred-name": {
+                    "ce:given-name": "Chun Tao",
+                    "ce:initials": "C.T.",
+                    "ce:surname": "Chen",
+                    "ce:indexed-name": "Chen C.T."
+                  },
+                  "@seq": "3",
+                  "ce:initials": "C.-T.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Chen",
+                  "@auid": "11339270600",
+                  "ce:indexed-name": "Chen C.-T."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "Taiwan",
+                "@afid": "60012392",
+                "@country": "twn",
+                "city": "Taipei",
+                "organization": [
+                  {
+                    "$": "Department of Chemical Engineering and Biotechnology"
+                  },
+                  {
+                    "$": "National Taipei University of Technology"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60012392",
+                  "@dptid": "103655331"
+                },
+                "@dptid": "103655331"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Yi-Hung",
+                  "preferred-name": {
+                    "ce:given-name": "Yi Hung",
+                    "ce:initials": "Y.H.",
+                    "ce:surname": "Chen",
+                    "ce:indexed-name": "Chen Y.H."
+                  },
+                  "@seq": "4",
+                  "ce:initials": "Y.-H.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Chen",
+                  "@auid": "56113704000",
+                  "ce:indexed-name": "Chen Y.-H."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "Taiwan",
+                "@afid": "60005429",
+                "@country": "twn",
+                "city": "Taipei",
+                "organization": [
+                  {
+                    "$": "Carbon Cycle Research Center"
+                  },
+                  {
+                    "$": "National Taiwan University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60005429",
+                  "@dptid": "115265405"
+                },
+                "@dptid": "115265405"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Pen-Chi",
+                  "preferred-name": {
+                    "ce:given-name": "Pen Chi",
+                    "ce:initials": "P.C.",
+                    "ce:surname": "Chiang",
+                    "ce:indexed-name": "Chiang P.C."
+                  },
+                  "@seq": "5",
+                  "ce:initials": "P.-C.",
+                  "@date-locked": "2019-05-22T20:08:24.583",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Chiang",
+                  "@auid": "7102736555",
+                  "ce:indexed-name": "Chiang P.-C."
+                }
+              ]
+            }
+          ],
+          "citation-title": "High-gravity carbonation of basic oxygen furnace slag for CO2 fixation and utilization in blended cement",
+          "abstracts": "© 2016 Elsevier Ltd. All rights reserved.This study explores the feasibility of developing carbon dioxide (CO2) fixation and utilization as supplementary cementitious materials (SCMs) using basic oxygen furnace slag (BOFS) through a high-gravity carbonation process. The developed process is considered as a cleaner approach, compared to convention treatment processes in steelmaking industry, to simultaneous reduction of CO2 emission and stabilization of BOFS. The carbonated BOFS can be used as SCMs in blended cement. First, the CO2 fixation capacity of BOFS was quantified by thermo-gravimetric analysis in this study. The kinetics of the high-gravity carbonation process were also determined using a surface coverage model. The results indicated that up to 215 g of CO2 was fixed per kg of BOFS through high-gravity carbonation for 3 h at 60 °C. In addition, engineering properties and hydration characteristics of blended cement with 10% fresh or 10% carbonated BOFS as SCMs were investigated. Cement blended with 10 wt% of carbonated BOFS resulted in reduced setting times and accelerated early strength development, which was consistent with the hydration heat releases and X-ray diffraction analyses. The observations of scanning electron microscope suggest that the carbonated BOFS serve as nuclei for the precipitation of hydration products, thereby accelerating the hydration. It is also noted that the properties of blended cement using carbonated BOFS met ASTM requirements for setting time, compressive strength, autoclave expansion, and sulfate resistance. Furthermore, costs and benefits of the high-gravity carbonation for CO2 fixation and BOFS utilization were estimated.",
+          "correspondence": {
+            "affiliation": {
+              "country": "Taiwan",
+              "@country": "twn",
+              "city": "Taipei",
+              "organization": [
+                {
+                  "$": "Graduate Institute of Environmental Engineering"
+                },
+                {
+                  "$": "National Taiwan University"
+                }
+              ]
+            },
+            "person": {
+              "ce:given-name": "Pen-Chi",
+              "ce:initials": "P.-C.",
+              "ce:surname": "Chiang",
+              "ce:indexed-name": "Chiang P.-C."
+            }
+          },
+          "citation-info": {
+            "author-keywords": {
+              "author-keyword": [
+                {
+                  "$": "Calcium carbonate",
+                  "@xml:lang": "eng"
+                },
+                {
+                  "$": "Cost benefit analysis",
+                  "@xml:lang": "eng"
+                },
+                {
+                  "$": "Mineralization",
+                  "@xml:lang": "eng"
+                },
+                {
+                  "$": "Rotating packed bed",
+                  "@xml:lang": "eng"
+                },
+                {
+                  "$": "Supplementary cementitious materials",
+                  "@xml:lang": "eng"
+                },
+                {
+                  "$": "Surface coverage model",
+                  "@xml:lang": "eng"
+                }
+              ]
+            },
+            "citation-type": {
+              "@code": "ar"
+            },
+            "citation-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "abstract-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            }
+          },
+          "source": {
+            "codencode": "JCROE",
+            "sourcetitle-abbrev": "J. Clean. Prod.",
+            "@country": "gbr",
+            "translated-sourcetitle": {
+              "$": "Journal of Cleaner Production",
+              "@xml:lang": "eng"
+            },
+            "issn": {
+              "$": "09596526",
+              "@type": "print"
+            },
+            "volisspag": {
+              "voliss": {
+                "@volume": "124"
+              },
+              "pagerange": {
+                "@first": "350",
+                "@last": "360"
+              }
+            },
+            "@type": "j",
+            "publicationyear": {
+              "@first": "2016"
+            },
+            "publisher": {
+              "publishername": "Elsevier Ltd"
+            },
+            "sourcetitle": "Journal of Cleaner Production",
+            "@srcid": "19167",
+            "publicationdate": {
+              "month": "06",
+              "year": "2016",
+              "date-text": {
+                "@xfab-added": "true",
+                "$": "15 June 2016"
+              },
+              "day": "15"
+            }
+          },
+          "enhancement": {
+            "classificationgroup": {
+              "classifications": [
+                {
+                  "@type": "ASJC",
+                  "classification": [
+                    {
+                      "$": "2105"
+                    },
+                    {
+                      "$": "2300"
+                    },
+                    {
+                      "$": "1408"
+                    },
+                    {
+                      "$": "2209"
+                    }
+                  ]
+                },
+                {
+                  "@type": "SUBJABBR",
+                  "classification": [
+                    {
+                      "$": "ENER"
+                    },
+                    {
+                      "$": "ENVI"
+                    },
+                    {
+                      "$": "BUSI"
+                    },
+                    {
+                      "$": "ENGI"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "grantlist": {
+            "@complete": "y",
+            "grant-text": {
+              "$": "Sincere appreciation goes to the Ministry of Science and Technology (MOST) of Taiwan (R.O.C.) for support under Grant Number MOST 105-3113-E-007-001.",
+              "@xml:lang": "eng"
+            },
+            "grant": {
+              "grant-id": "MOST 105-3113-E-007-001",
+              "grant-acronym": "MOST",
+              "grant-agency": "Ministry of Science and Technology of the People's Republic of China"
+            }
+          }
+        },
+        "item-info": {
+          "copyright": {
+            "$": "Copyright 2017 Elsevier B.V., All rights reserved.",
+            "@type": "Elsevier"
+          },
+          "dbcollection": [
+            {
+              "$": "CHEM"
+            },
+            {
+              "$": "CPX"
+            },
+            {
+              "$": "EMBIO"
+            },
+            {
+              "$": "REAXYSCAR"
+            },
+            {
+              "$": "SCOPUS"
+            },
+            {
+              "$": "Scopusbase"
+            }
+          ],
+          "history": {
+            "date-created": {
+              "@day": "15",
+              "@timestamp": "BST 11:11:50",
+              "@year": "2016",
+              "@month": "03"
+            }
+          },
+          "itemidlist": {
+            "itemid": [
+              {
+                "$": "608937795",
+                "@idtype": "PUI"
+              },
+              {
+                "$": "647143006",
+                "@idtype": "CAR-ID"
+              },
+              {
+                "$": "2016066127",
+                "@idtype": "CHEM"
+              },
+              {
+                "$": "20161102094165",
+                "@idtype": "CPX"
+              },
+              {
+                "$": "2016348174",
+                "@idtype": "EMBIO"
+              },
+              {
+                "$": "2016683338",
+                "@idtype": "REAXYSCAR"
+              },
+              {
+                "$": "84960153631",
+                "@idtype": "SCP"
+              },
+              {
+                "$": "84960153631",
+                "@idtype": "SGR"
+              }
+            ],
+            "ce:pii": "S0959652616002493",
+            "ce:doi": "10.1016/j.jclepro.2016.02.072"
+          }
+        },
+        "tail": {
+          "bibliography": {
+            "@refcount": "63",
+            "reference": [
+              {
+                "ref-fulltext": "E. Belhadj, C. Diliberto, and A. Lecomte Characterization and activation of basic oxygen furnace slag Cem. Concr. Compos. 34 2012 34 40",
+                "@id": "1",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Characterization and activation of basic oxygen furnace slag"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "80855132683",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "34"
+                    },
+                    "pagerange": {
+                      "@first": "34",
+                      "@last": "40"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Belhadj",
+                        "ce:indexed-name": "Belhadj E."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Diliberto",
+                        "ce:indexed-name": "Diliberto C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Lecomte",
+                        "ce:indexed-name": "Lecomte A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Compos."
+                }
+              },
+              {
+                "ref-fulltext": "E. Belhadj, C. Diliberto, and A. Lecomte Properties of hydraulic paste of basic oxygen furnace slag Cem. Concr. Compos. 45 2014 15 21",
+                "@id": "2",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Properties of hydraulic paste of basic oxygen furnace slag"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84886261825",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "45"
+                    },
+                    "pagerange": {
+                      "@first": "15",
+                      "@last": "21"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Belhadj",
+                        "ce:indexed-name": "Belhadj E."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Diliberto",
+                        "ce:indexed-name": "Diliberto C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Lecomte",
+                        "ce:indexed-name": "Lecomte A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Compos."
+                }
+              },
+              {
+                "ref-fulltext": "D.P. Bentz Activation energies of high-volume fly ash ternary blends: hydration and setting Cem. Concr. Compos. 53 2014 214 223",
+                "@id": "3",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Activation energies of high-volume fly ash ternary blends: Hydration and setting"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84905252154",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "53"
+                    },
+                    "pagerange": {
+                      "@first": "214",
+                      "@last": "223"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Bentz",
+                        "ce:indexed-name": "Bentz D.P."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Compos."
+                }
+              },
+              {
+                "ref-fulltext": "D.P. Bentz, A. Ardani, T. Barrett, S.Z. Jones, D. Lootens, M.A. Peltz, T. Sato, P.E. Stutzman, J. Tanesi, and W.J. Weiss Multi-scale investigation of the performance of limestone in concrete Constr. Build. Mater. 75 2015 1 10",
+                "@id": "4",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Multi-scale investigation of the performance of limestone in concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84912084089",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "75"
+                    },
+                    "pagerange": {
+                      "@first": "1",
+                      "@last": "10"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Bentz",
+                        "ce:indexed-name": "Bentz D.P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Ardani",
+                        "ce:indexed-name": "Ardani A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Barrett",
+                        "ce:indexed-name": "Barrett T."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "S.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Jones",
+                        "ce:indexed-name": "Jones S.Z."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Lootens",
+                        "ce:indexed-name": "Lootens D."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "M.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Peltz",
+                        "ce:indexed-name": "Peltz M.A."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Sato",
+                        "ce:indexed-name": "Sato T."
+                      },
+                      {
+                        "@seq": "8",
+                        "ce:initials": "P.E.",
+                        "@_fa": "true",
+                        "ce:surname": "Stutzman",
+                        "ce:indexed-name": "Stutzman P.E."
+                      },
+                      {
+                        "@seq": "9",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Tanesi",
+                        "ce:indexed-name": "Tanesi J."
+                      },
+                      {
+                        "@seq": "10",
+                        "ce:initials": "W.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Weiss",
+                        "ce:indexed-name": "Weiss W.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                }
+              },
+              {
+                "ref-fulltext": "D.P. Bentz, T. Sato, I. De la Varga, and W.J. Weiss Fine limestone additions to regulate setting in high volume fly ash mixtures Cem. Concr. Compos. 34 2012 11 17",
+                "@id": "5",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Fine limestone additions to regulate setting in high volume fly ash mixtures"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "80855139628",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "34"
+                    },
+                    "pagerange": {
+                      "@first": "11",
+                      "@last": "17"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Bentz",
+                        "ce:indexed-name": "Bentz D.P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Sato",
+                        "ce:indexed-name": "Sato T."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "I.",
+                        "@_fa": "true",
+                        "ce:surname": "De La Varga",
+                        "ce:indexed-name": "De La Varga I."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "W.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Weiss",
+                        "ce:indexed-name": "Weiss W.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Compos."
+                }
+              },
+              {
+                "ref-fulltext": "A.S. Brand, and J.R. Roesler Steel furnace slag aggregate expansion and hardened concrete properties Cem. Concr. Compos. 60 2015 1 9",
+                "@id": "6",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Steel furnace slag aggregate expansion and hardened concrete properties"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84927712898",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "60"
+                    },
+                    "pagerange": {
+                      "@first": "1",
+                      "@last": "9"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Brand",
+                        "ce:indexed-name": "Brand A.S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Roesler",
+                        "ce:indexed-name": "Roesler J.R."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Compos."
+                }
+              },
+              {
+                "ref-fulltext": "E.-E. Chang, T.-L. Chen, S.-Y. Pan, Y.-H. Chen, and P.-C. Chiang Kinetic modeling on CO2capture using basic oxygen furnace slag coupled with cold-rolling wastewater in a rotating packed bed J. Hazard. Mater. 260 2013 937 946",
+                "@id": "7",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Kinetic modeling on CO2capture using basic oxygen furnace slag coupled with cold-rolling wastewater in a rotating packed bed"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84880614816",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "260"
+                    },
+                    "pagerange": {
+                      "@first": "937",
+                      "@last": "946"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "E.-E.",
+                        "@_fa": "true",
+                        "ce:surname": "Chang",
+                        "ce:indexed-name": "Chang E.-E."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.-L.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen T.-L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.-Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Pan",
+                        "ce:indexed-name": "Pan S.-Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.-H.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen Y.-H."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "P.-C.",
+                        "@_fa": "true",
+                        "ce:surname": "Chiang",
+                        "ce:indexed-name": "Chiang P.-C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Hazard. Mater."
+                }
+              },
+              {
+                "ref-fulltext": "E. Chang, S.-Y. Pan, Y.-H. Chen, C.-S. Tan, and P.-C. Chiang Accelerated carbonation of steelmaking slags in a high-gravity rotating packed bed J. Hazard. Mater. 227 2012 97 106",
+                "@id": "8",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Accelerated carbonation of steelmaking slags in a high-gravity rotating packed bed"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84862644936",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "227"
+                    },
+                    "pagerange": {
+                      "@first": "97",
+                      "@last": "106"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Chang",
+                        "ce:indexed-name": "Chang E."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.-Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Pan",
+                        "ce:indexed-name": "Pan S.-Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.-H.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen Y.-H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "C.-S.",
+                        "@_fa": "true",
+                        "ce:surname": "Tan",
+                        "ce:indexed-name": "Tan C.-S."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "P.-C.",
+                        "@_fa": "true",
+                        "ce:surname": "Chiang",
+                        "ce:indexed-name": "Chiang P.-C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Hazard. Mater."
+                }
+              },
+              {
+                "ref-fulltext": "C.-S. Chen Price Fight of Product 2014 Taiwan Environmental Information Center Taipei, Taiwan",
+                "@id": "9",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84960547491",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-text": "Taiwan Environmental Information Center Taipei, Taiwan",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.-S.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen C.-S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Price Fight of Product"
+                }
+              },
+              {
+                "ref-fulltext": "W. Chen, X. Yin, and D. Ma A bottom-up analysis of China's iron and steel industrial energy consumption and CO2emissions Appl. Energy 136 2014 1174 1183",
+                "@id": "10",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A bottom-up analysis of China's iron and steel industrial energy consumption and CO2emissions"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "85028120255",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "136"
+                    },
+                    "pagerange": {
+                      "@first": "1174",
+                      "@last": "1183"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Yin",
+                        "ce:indexed-name": "Yin X."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Ma",
+                        "ce:indexed-name": "Ma D."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Appl. Energy"
+                }
+              },
+              {
+                "ref-fulltext": "Z. Chen, S. Wu, Y. Xiao, W. Zeng, M. Yi, and J. Wan Effect of hydration and silicone resin on basic oxygen furnace slag and its asphalt mixture J. Clean. Prod. 112 2016 392 400",
+                "@id": "11",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of hydration and silicone resin on basic oxygen furnace slag and its asphalt mixture"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84945966816",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "112"
+                    },
+                    "pagerange": {
+                      "@first": "392",
+                      "@last": "400"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Xiao",
+                        "ce:indexed-name": "Xiao Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Zeng",
+                        "ce:indexed-name": "Zeng W."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Yi",
+                        "ce:indexed-name": "Yi M."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Wan",
+                        "ce:indexed-name": "Wan J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Clean. Prod."
+                }
+              },
+              {
+                "ref-fulltext": "Z. Chen, J. Xie, Y. Xiao, J. Chen, and S. Wu Characteristics of bonding behavior between basic oxygen furnace slag and asphalt binder Constr. Build. Mater. 64 2014 60 66",
+                "@id": "12",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Characteristics of bonding behavior between basic oxygen furnace slag and asphalt binder"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84899562341",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "64"
+                    },
+                    "pagerange": {
+                      "@first": "60",
+                      "@last": "66"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Xie",
+                        "ce:indexed-name": "Xie J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Xiao",
+                        "ce:indexed-name": "Xiao Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen J."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                }
+              },
+              {
+                "ref-fulltext": "Y.W. Chiang, R.M. Santos, J. Elsen, B. Meesschaert, J.A. Martens, and T. Van Gerven Towards zero-waste mineral carbon sequestration via two-way valorization of ironmaking slag Chem. Eng. J. 249 2014 260 269",
+                "@id": "13",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Towards zero-waste mineral carbon sequestration via two-way valorization of ironmaking slag"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84899110214",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "249"
+                    },
+                    "pagerange": {
+                      "@first": "260",
+                      "@last": "269"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Chiang",
+                        "ce:indexed-name": "Chiang Y.W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Santos",
+                        "ce:indexed-name": "Santos R.M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Elsen",
+                        "ce:indexed-name": "Elsen J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Meesschaert",
+                        "ce:indexed-name": "Meesschaert B."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "J.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Martens",
+                        "ce:indexed-name": "Martens J.A."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Van Gerven",
+                        "ce:indexed-name": "Van Gerven T."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Chem. Eng. J."
+                }
+              },
+              {
+                "ref-fulltext": "P. Chindaprasirt, P. Kanchanda, A. Sathonsaowaphak, and H. Cao Sulfate resistance of blended cements containing fly ash and rice husk ash Constr. Build. Mater. 21 2007 1356 1361",
+                "@id": "14",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Sulfate resistance of blended cements containing fly ash and rice husk ash"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "33846889553",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "21"
+                    },
+                    "pagerange": {
+                      "@first": "1356",
+                      "@last": "1361"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Chindaprasirt",
+                        "ce:indexed-name": "Chindaprasirt P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Kanchanda",
+                        "ce:indexed-name": "Kanchanda P."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Sathonsaowaphak",
+                        "ce:indexed-name": "Sathonsaowaphak A."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Cao",
+                        "ce:indexed-name": "Cao H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                }
+              },
+              {
+                "ref-fulltext": "Commodity Exchange Bratislava Carbon Place 2014 European Union",
+                "@id": "15",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "85026901513",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-text": "European Union",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "@_fa": "true",
+                        "ce:surname": "Commodity Exchange Bratislava",
+                        "ce:indexed-name": "Commodity Exchange Bratislava"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Carbon Place"
+                }
+              },
+              {
+                "ref-fulltext": "E. Crossin The greenhouse gas implications of using ground granulated blast furnace slag as a cement substitute J. Clean. Prod. 95 2015 101 108",
+                "@id": "16",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The greenhouse gas implications of using ground granulated blast furnace slag as a cement substitute"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84927178278",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "95"
+                    },
+                    "pagerange": {
+                      "@first": "101",
+                      "@last": "108"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Crossin",
+                        "ce:indexed-name": "Crossin E."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Clean. Prod."
+                }
+              },
+              {
+                "ref-fulltext": "CSC Corporate Sustainability Report 2014 China Steel Corporation Kaohsiung, Taiwan 136",
+                "@id": "17",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "85026915730",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "136"
+                    }
+                  },
+                  "ref-text": "China Steel Corporation Kaohsiung, Taiwan",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "@_fa": "true",
+                        "ce:surname": "CSC",
+                        "ce:indexed-name": "CSC"
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Corporate Sustainability Report"
+                }
+              },
+              {
+                "ref-fulltext": "K. De Weerdt, M.B. Haha, G. Le Saout, K.O. Kjellsen, H. Justnes, and B. Lothenbach Hydration mechanisms of ternary Portland cements containing limestone powder and fly ash Cem. Concr. Res. 41 2011 279 291",
+                "@id": "18",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Hydration mechanisms of ternary Portland cements containing limestone powder and fly ash"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "79751525570",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "41"
+                    },
+                    "pagerange": {
+                      "@first": "279",
+                      "@last": "291"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "De Weerdt",
+                        "ce:indexed-name": "De Weerdt K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Haha",
+                        "ce:indexed-name": "Haha M.B."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Le Saout",
+                        "ce:indexed-name": "Le Saout G."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "K.O.",
+                        "@_fa": "true",
+                        "ce:surname": "Kjellsen",
+                        "ce:indexed-name": "Kjellsen K.O."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Justnes",
+                        "ce:indexed-name": "Justnes H."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Lothenbach",
+                        "ce:indexed-name": "Lothenbach B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                }
+              },
+              {
+                "ref-fulltext": "S. Goto, K. Suenaga, T. Kado, and M. Fukuhara Calcium silicate carbonation products J. Am. Ceram. Soc. 78 1995 2867 2872",
+                "@id": "19",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1995"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Calcium silicate carbonation products"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "0029406645",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "78"
+                    },
+                    "pagerange": {
+                      "@first": "2867",
+                      "@last": "2872"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Goto",
+                        "ce:indexed-name": "Goto S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Suenaga",
+                        "ce:indexed-name": "Suenaga K."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Kado",
+                        "ce:indexed-name": "Kado T."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Fukuhara",
+                        "ce:indexed-name": "Fukuhara M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Am. Ceram. Soc."
+                }
+              },
+              {
+                "ref-fulltext": "L.R. Gurney, D.P. Bentz, T. Sato, and W.J. Weiss Reducing set retardation in high-volume fly ash mixtures with the use of limestone Transp. Res. Rec. J. Transp. Res. Board 2290 2012 139 146",
+                "@id": "20",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Reducing set retardation in high-volume fly ash mixtures with the use of limestone"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84879092603",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "2290"
+                    },
+                    "pagerange": {
+                      "@first": "139",
+                      "@last": "146"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Gurney",
+                        "ce:indexed-name": "Gurney L.R."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Bentz",
+                        "ce:indexed-name": "Bentz D.P."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Sato",
+                        "ce:indexed-name": "Sato T."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "W.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Weiss",
+                        "ce:indexed-name": "Weiss W.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Transp. Res. Rec. J. Transp. Res. Board"
+                }
+              },
+              {
+                "ref-fulltext": "A. Hasanbeigi, L. Price, and E. Lin Emerging energy-efficiency and CO2emission-reduction technologies for cement and concrete production: a technical review Renew. Sustain. Energy Rev. 16 2012 6220 6238",
+                "@id": "21",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Emerging energy-efficiency and CO2emission-reduction technologies for cement and concrete production: A technical review"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84865508399",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "16"
+                    },
+                    "pagerange": {
+                      "@first": "6220",
+                      "@last": "6238"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Hasanbeigi",
+                        "ce:indexed-name": "Hasanbeigi A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Price",
+                        "ce:indexed-name": "Price L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Lin",
+                        "ce:indexed-name": "Lin E."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Renew. Sustain. Energy Rev."
+                }
+              },
+              {
+                "ref-fulltext": "M.C. Juenger, and R. Siddique Recent advances in understanding the role of supplementary cementitious materials in concrete Cem. Concr. Res. 78 2015 71 80",
+                "@id": "22",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Recent advances in understanding the role of supplementary cementitious materials in concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84949790129",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "78"
+                    },
+                    "pagerange": {
+                      "@first": "71",
+                      "@last": "80"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Juenger",
+                        "ce:indexed-name": "Juenger M.C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Siddique",
+                        "ce:indexed-name": "Siddique R."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                }
+              },
+              {
+                "ref-fulltext": "S. Kourounis, S. Tsivilis, P. Tsakiridis, G. Papadimitriou, and Z. Tsibouki Properties and hydration of blended cements with steelmaking slag Cem. Concr. Res. 37 2007 815 822",
+                "@id": "23",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Properties and hydration of blended cements with steelmaking slag"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "34249338078",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "37"
+                    },
+                    "pagerange": {
+                      "@first": "815",
+                      "@last": "822"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Kourounis",
+                        "ce:indexed-name": "Kourounis S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Tsivilis",
+                        "ce:indexed-name": "Tsivilis S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Tsakiridis",
+                        "ce:indexed-name": "Tsakiridis P."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Papadimitriou",
+                        "ce:indexed-name": "Papadimitriou G."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Tsibouki",
+                        "ce:indexed-name": "Tsibouki Z."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                }
+              },
+              {
+                "ref-fulltext": "S. Kumar, R. Kumar, and A. Bandopadhyay Innovative methodologies for the utilisation of wastes from metallurgical and allied industries Resour. Conserv. Recycl. 48 2006 301 314",
+                "@id": "24",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2006"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Innovative methodologies for the utilisation of wastes from metallurgical and allied industries"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "33748570177",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "48"
+                    },
+                    "pagerange": {
+                      "@first": "301",
+                      "@last": "314"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Kumar",
+                        "ce:indexed-name": "Kumar S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Kumar",
+                        "ce:indexed-name": "Kumar R."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Bandopadhyay",
+                        "ce:indexed-name": "Bandopadhyay A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Resour. Conserv. Recycl."
+                }
+              },
+              {
+                "ref-fulltext": "D.-F. Lin, L.-H. Chou, Y.-K. Wang, and H.-L. Luo Performance evaluation of asphalt concrete test road partially paved with industrial waste-basic oxygen furnace slag Constr. Build. Mater. 78 2015 315 323",
+                "@id": "25",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Performance evaluation of asphalt concrete test road partially paved with industrial waste-basic oxygen furnace slag"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84921047965",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "78"
+                    },
+                    "pagerange": {
+                      "@first": "315",
+                      "@last": "323"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.-F.",
+                        "@_fa": "true",
+                        "ce:surname": "Lin",
+                        "ce:indexed-name": "Lin D.-F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.-H.",
+                        "@_fa": "true",
+                        "ce:surname": "Chou",
+                        "ce:indexed-name": "Chou L.-H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.-K.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang Y.-K."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "H.-L.",
+                        "@_fa": "true",
+                        "ce:surname": "Luo",
+                        "ce:indexed-name": "Luo H.-L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                }
+              },
+              {
+                "ref-fulltext": "Lin, P.C.H.H.C., Ou, M.Y., Huang, C.H., Hsueh, W.H., 2007. Water Immersing and Aging Treatment of Steel-making Slag (CHC Resources, Taiwan; China Steel Corp., Taiwan). Taiwan Patent.",
+                "@id": "26",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Water Immersing and Aging Treatment of Steel-making Slag (CHC Resources, Taiwan; China Steel Corp., Taiwan)"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84990023506",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-text": "Taiwan Patent",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.C.H.H.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Lin",
+                        "ce:indexed-name": "Lin P.C.H.H.C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Ou",
+                        "ce:indexed-name": "Ou M.Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang C.H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "W.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Hsueh",
+                        "ce:indexed-name": "Hsueh W.H."
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "ref-fulltext": "B. Lothenbach, G. Le Saout, E. Gallucci, and K. Scrivener Influence of limestone on the hydration of Portland cements Cem. Concr. Res. 38 2008 848 860",
+                "@id": "27",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2008"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Influence of limestone on the hydration of Portland cements"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "43049136526",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "38"
+                    },
+                    "pagerange": {
+                      "@first": "848",
+                      "@last": "860"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Lothenbach",
+                        "ce:indexed-name": "Lothenbach B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Le Saout",
+                        "ce:indexed-name": "Le Saout G."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Gallucci",
+                        "ce:indexed-name": "Gallucci E."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Scrivener",
+                        "ce:indexed-name": "Scrivener K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                }
+              },
+              {
+                "ref-fulltext": "B. Lothenbach, K. Scrivener, and R. Hooton Supplementary cementitious materials Cem. Concr. Res. 41 2011 1244 1256",
+                "@id": "28",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Supplementary cementitious materials"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "80054015055",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "41"
+                    },
+                    "pagerange": {
+                      "@first": "1244",
+                      "@last": "1256"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Lothenbach",
+                        "ce:indexed-name": "Lothenbach B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Scrivener",
+                        "ce:indexed-name": "Scrivener K."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Hooton",
+                        "ce:indexed-name": "Hooton R."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                }
+              },
+              {
+                "ref-fulltext": "J. Makar, G. Chan, and K. Esseghaier A peak in the hydration reaction at the end of the cement induction period J. Mater. Sci. 42 2007 1388 1392",
+                "@id": "29",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A peak in the hydration reaction at the end of the cement induction period"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "33847199705",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "42"
+                    },
+                    "pagerange": {
+                      "@first": "1388",
+                      "@last": "1392"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Makar",
+                        "ce:indexed-name": "Makar J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Chan",
+                        "ce:indexed-name": "Chan G."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Esseghaier",
+                        "ce:indexed-name": "Esseghaier K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Mater. Sci."
+                }
+              },
+              {
+                "ref-fulltext": "L.H.J. Martin, F. Winnefeld, C.J. Müller, and B. Lothenbach Contribution of limestone to the hydration of calcium sulfoaluminate cement Cem. Concr. Compos. 62 2015 204 211",
+                "@id": "30",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Contribution of limestone to the hydration of calcium sulfoaluminate cement"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84939779791",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "62"
+                    },
+                    "pagerange": {
+                      "@first": "204",
+                      "@last": "211"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.H.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Martin",
+                        "ce:indexed-name": "Martin L.H.J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Winnefeld",
+                        "ce:indexed-name": "Winnefeld F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Müller",
+                        "ce:indexed-name": "Muller C.J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Lothenbach",
+                        "ce:indexed-name": "Lothenbach B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Compos."
+                }
+              },
+              {
+                "ref-fulltext": "T. Matschei, B. Lothenbach, and F.P. Glasser The role of calcium carbonate in cement hydration Cem. Concr. Res. 37 2007 551 558",
+                "@id": "31",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The role of calcium carbonate in cement hydration"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "33947579312",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "37"
+                    },
+                    "pagerange": {
+                      "@first": "551",
+                      "@last": "558"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Matschei",
+                        "ce:indexed-name": "Matschei T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Lothenbach",
+                        "ce:indexed-name": "Lothenbach B."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "F.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Glasser",
+                        "ce:indexed-name": "Glasser F.P."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                }
+              },
+              {
+                "ref-fulltext": "H.-P. Mattila, H. Hudd, and R. Zevenhoven Cradle-to-gate life cycle assessment of precipitated calcium carbonate production from steel converter slag J. Clean. Prod. 84 2014 611 618",
+                "@id": "32",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Cradle-to-gate life cycle assessment of precipitated calcium carbonate production from steel converter slag"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84922876137",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "84"
+                    },
+                    "pagerange": {
+                      "@first": "611",
+                      "@last": "618"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.-P.",
+                        "@_fa": "true",
+                        "ce:surname": "Mattila",
+                        "ce:indexed-name": "Mattila H.-P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Hudd",
+                        "ce:indexed-name": "Hudd H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Zevenhoven",
+                        "ce:indexed-name": "Zevenhoven R."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Clean. Prod."
+                }
+              },
+              {
+                "ref-fulltext": "P.K. Mehta, and P.J. Monteiro Concrete: Microstructure, Properties, and Materials 2006 McGraw-Hill New York",
+                "@id": "33",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2006"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "0003683633",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-text": "McGraw-Hill New York",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Mehta",
+                        "ce:indexed-name": "Mehta P.K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "P.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Monteiro",
+                        "ce:indexed-name": "Monteiro P.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Concrete: Microstructure, Properties, and Materials"
+                }
+              },
+              {
+                "ref-fulltext": "A. Monshi, and M.K. Asgarani Producing Portland cement from iron and steel slags and limestone Cem. Concr. Res. 29 1999 1373 1377",
+                "@id": "34",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1999"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Producing Portland cement from iron and steel slags and limestone"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "0033189518",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "29"
+                    },
+                    "pagerange": {
+                      "@first": "1373",
+                      "@last": "1377"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Monshi",
+                        "ce:indexed-name": "Monshi A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Asgarani",
+                        "ce:indexed-name": "Asgarani M.K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                }
+              },
+              {
+                "ref-fulltext": "J. Moon, J.E. Oh, M. Balonis, F.P. Glasser, S.M. Clark, and P.J. Monteiro High pressure study of low compressibility tetracalcium aluminum carbonate hydrates 3CaO·Al2O3·CaCO3·11H2O Cem. Concr. Res. 42 2012 105 110",
+                "@id": "35",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "High pressure study of low compressibility tetracalcium aluminum carbonate hydrates 3CaO·Al2O3·CaCO3·11H2O"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "80855132747",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "42"
+                    },
+                    "pagerange": {
+                      "@first": "105",
+                      "@last": "110"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Moon",
+                        "ce:indexed-name": "Moon J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.E.",
+                        "@_fa": "true",
+                        "ce:surname": "Oh",
+                        "ce:indexed-name": "Oh J.E."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Balonis",
+                        "ce:indexed-name": "Balonis M."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "F.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Glasser",
+                        "ce:indexed-name": "Glasser F.P."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "S.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Clark",
+                        "ce:indexed-name": "Clark S.M."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "P.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Monteiro",
+                        "ce:indexed-name": "Monteiro P.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                }
+              },
+              {
+                "ref-fulltext": "M. Morone, G. Costa, A. Polettini, R. Pomi, and R. Baciocchi Valorization of steel slag by a combined carbonation and granulation treatment Miner. Eng. 59 2014 82 90",
+                "@id": "36",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Valorization of steel slag by a combined carbonation and granulation treatment"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84897114075",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "59"
+                    },
+                    "pagerange": {
+                      "@first": "82",
+                      "@last": "90"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Morone",
+                        "ce:indexed-name": "Morone M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Costa",
+                        "ce:indexed-name": "Costa G."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Polettini",
+                        "ce:indexed-name": "Polettini A."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Pomi",
+                        "ce:indexed-name": "Pomi R."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Baciocchi",
+                        "ce:indexed-name": "Baciocchi R."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Miner. Eng."
+                }
+              },
+              {
+                "ref-fulltext": "J. Murphy, T. Meadowcroft, and P. Barr Enhancement of the cementitious properties of steelmaking slag Can. Metall. Q. 36 1997 315 331",
+                "@id": "37",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1997"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Enhancement of the cementitious properties of steelmaking slag"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "0031369546",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "36"
+                    },
+                    "pagerange": {
+                      "@first": "315",
+                      "@last": "331"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Murphy",
+                        "ce:indexed-name": "Murphy J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Meadowcroft",
+                        "ce:indexed-name": "Meadowcroft T."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Barr",
+                        "ce:indexed-name": "Barr P."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Can. Metall. Q."
+                }
+              },
+              {
+                "ref-fulltext": "S. Ogawa, T. Nozaki, K. Yamada, H. Hirao, and R. Hooton Improvement on sulfate resistance of blended cement with high alumina slag Cem. Concr. Res. 42 2012 244 251",
+                "@id": "38",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Improvement on sulfate resistance of blended cement with high alumina slag"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84856320704",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "42"
+                    },
+                    "pagerange": {
+                      "@first": "244",
+                      "@last": "251"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Ogawa",
+                        "ce:indexed-name": "Ogawa S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Nozaki",
+                        "ce:indexed-name": "Nozaki T."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Yamada",
+                        "ce:indexed-name": "Yamada K."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Hirao",
+                        "ce:indexed-name": "Hirao H."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Hooton",
+                        "ce:indexed-name": "Hooton R."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                }
+              },
+              {
+                "ref-fulltext": "S.-Y. Pan, E.E. Chang, and P.-C. Chiang CO2capture by accelerated carbonation of alkaline wastes: a review on its principles and applications Aerosol Air Qual. Res. 12 2012 770 791",
+                "@id": "39",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "CO2capture by accelerated carbonation of alkaline wastes: A review on its principles and applications"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84866453779",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "12"
+                    },
+                    "pagerange": {
+                      "@first": "770",
+                      "@last": "791"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.-Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Pan",
+                        "ce:indexed-name": "Pan S.-Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "E.E.",
+                        "@_fa": "true",
+                        "ce:surname": "Chang",
+                        "ce:indexed-name": "Chang E.E."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "P.-C.",
+                        "@_fa": "true",
+                        "ce:surname": "Chiang",
+                        "ce:indexed-name": "Chiang P.-C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Aerosol Air Qual. Res."
+                }
+              },
+              {
+                "ref-fulltext": "S.-Y. Pan, A. Chiang, E.-E. Chang, Y.-P. Lin, H. Kim, and P.-C. Chiang An innovative approach to integrated carbon mineralization and waste utilization: a review Aerosol Air Qual. Res. 15 2015 1072 1091",
+                "@id": "40",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "An innovative approach to integrated carbon mineralization and waste utilization: A review"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84929675703",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "15"
+                    },
+                    "pagerange": {
+                      "@first": "1072",
+                      "@last": "1091"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.-Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Pan",
+                        "ce:indexed-name": "Pan S.-Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Chiang",
+                        "ce:indexed-name": "Chiang A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "E.-E.",
+                        "@_fa": "true",
+                        "ce:surname": "Chang",
+                        "ce:indexed-name": "Chang E.-E."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.-P.",
+                        "@_fa": "true",
+                        "ce:surname": "Lin",
+                        "ce:indexed-name": "Lin Y.-P."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim H."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "P.-C.",
+                        "@_fa": "true",
+                        "ce:surname": "Chiang",
+                        "ce:indexed-name": "Chiang P.-C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Aerosol Air Qual. Res."
+                }
+              },
+              {
+                "ref-fulltext": "S.-Y. Pan, P.-C. Chiang, Y.-H. Chen, C.-S. Tan, and E. Chang Ex situ CO2capture by carbonation of steelmaking slag coupled with metalworking wastewater in a rotating packed bed Environ. Sci. Technol. 47 2013 3308 3315",
+                "@id": "41",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Ex situ CO2capture by carbonation of steelmaking slag coupled with metalworking wastewater in a rotating packed bed"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84875795626",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "47"
+                    },
+                    "pagerange": {
+                      "@first": "3308",
+                      "@last": "3315"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.-Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Pan",
+                        "ce:indexed-name": "Pan S.-Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "P.-C.",
+                        "@_fa": "true",
+                        "ce:surname": "Chiang",
+                        "ce:indexed-name": "Chiang P.-C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.-H.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen Y.-H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "C.-S.",
+                        "@_fa": "true",
+                        "ce:surname": "Tan",
+                        "ce:indexed-name": "Tan C.-S."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Chang",
+                        "ce:indexed-name": "Chang E."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Environ. Sci. Technol."
+                }
+              },
+              {
+                "ref-fulltext": "S.-Y. Pan, P.-C. Chiang, Y.-H. Chen, C.-S. Tan, and E.E. Chang Kinetics of carbonation reaction of basic oxygen furnace slags in a rotating packed bed using the surface coverage model: maximization of carbonation conversion Appl. Energy 113 2014 267 276",
+                "@id": "42",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Kinetics of carbonation reaction of basic oxygen furnace slags in a rotating packed bed using the surface coverage model: Maximization of carbonation conversion"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84882709444",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "113"
+                    },
+                    "pagerange": {
+                      "@first": "267",
+                      "@last": "276"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.-Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Pan",
+                        "ce:indexed-name": "Pan S.-Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "P.-C.",
+                        "@_fa": "true",
+                        "ce:surname": "Chiang",
+                        "ce:indexed-name": "Chiang P.-C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.-H.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen Y.-H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "C.-S.",
+                        "@_fa": "true",
+                        "ce:surname": "Tan",
+                        "ce:indexed-name": "Tan C.-S."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "E.E.",
+                        "@_fa": "true",
+                        "ce:surname": "Chang",
+                        "ce:indexed-name": "Chang E.E."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Appl. Energy"
+                }
+              },
+              {
+                "ref-fulltext": "S.-Y. Pan, M.A. Du, I.T. Huang, I.H. Liu, E.E. Chang, and P.-C. Chiang Strategies on implementation of waste-to-energy (WTE) supply chain for circular economy system: a review J. Clean. Prod. 108 2015 409 421",
+                "@id": "43",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Strategies on implementation of waste-to-energy (WTE) supply chain for circular economy system: A review"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "85065732447",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "108"
+                    },
+                    "pagerange": {
+                      "@first": "409",
+                      "@last": "421"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.-Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Pan",
+                        "ce:indexed-name": "Pan S.-Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Du",
+                        "ce:indexed-name": "Du M.A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "I.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang I.T."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "I.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu I.H."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "E.E.",
+                        "@_fa": "true",
+                        "ce:surname": "Chang",
+                        "ce:indexed-name": "Chang E.E."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "P.-C.",
+                        "@_fa": "true",
+                        "ce:surname": "Chiang",
+                        "ce:indexed-name": "Chiang P.-C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Clean. Prod."
+                }
+              },
+              {
+                "ref-fulltext": "S.Y. Pan, Y.H. Chen, C.D. Chen, A.L. Shen, M. Lin, and P.C. Chiang High-gravity carbonation process for enhancing CO2fixation and utilization exemplified by the steelmaking industry Environ. Sci. Technol. 49 2015 12380 12387",
+                "@id": "44",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "High-gravity carbonation process for enhancing CO2fixation and utilization exemplified by the steelmaking industry"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84945296718",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "49"
+                    },
+                    "pagerange": {
+                      "@first": "12380",
+                      "@last": "12387"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Pan",
+                        "ce:indexed-name": "Pan S.Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen Y.H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen C.D."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "A.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Shen",
+                        "ce:indexed-name": "Shen A.L."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Lin",
+                        "ce:indexed-name": "Lin M."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "P.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Chiang",
+                        "ce:indexed-name": "Chiang P.C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Environ. Sci. Technol."
+                }
+              },
+              {
+                "ref-fulltext": "J. Péra, S. Husson, and B. Guilhot Influence of finely ground limestone on cement hydration Cem. Concr. Compos. 21 1999 99 105",
+                "@id": "45",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1999"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Influence of finely ground limestone on cement hydration"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "0033114869",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "21"
+                    },
+                    "pagerange": {
+                      "@first": "99",
+                      "@last": "105"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Péra",
+                        "ce:indexed-name": "Pera J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Husson",
+                        "ce:indexed-name": "Husson S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Guilhot",
+                        "ce:indexed-name": "Guilhot B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Compos."
+                }
+              },
+              {
+                "ref-fulltext": "V.S. Ramachandran Kinetics of hydration of tricalcium silicate in presence of calcium chloride by thermal methods Thermochim. Acta 2 1971 41 55",
+                "@id": "46",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1971"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Kinetics of hydration of tricalcium silicate in presence of calcium chloride by thermal methods"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "2142711012",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "2"
+                    },
+                    "pagerange": {
+                      "@first": "41",
+                      "@last": "55"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "V.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Ramachandran",
+                        "ce:indexed-name": "Ramachandran V.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Thermochim. Acta"
+                }
+              },
+              {
+                "ref-fulltext": "V.S. Ramachandran, and J.J. Beaudoin Handbook of Analytical Techniques in Concrete Science and Technology: Principles, Techniques and Applications 2000 Elsevier",
+                "@id": "47",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2000"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "0004030521",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-text": "Elsevier",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "V.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Ramachandran",
+                        "ce:indexed-name": "Ramachandran V.S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Beaudoin",
+                        "ce:indexed-name": "Beaudoin J.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Handbook of Analytical Techniques in Concrete Science and Technology: Principles, Techniques and Applications"
+                }
+              },
+              {
+                "ref-fulltext": "A.M. Rashad, and H.E.D.H. Seleem A study on high strength concrete with moderate cement content incorporating limestone powder Build. Res. J. 61 2014 43 58",
+                "@id": "48",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A study on high strength concrete with moderate cement content incorporating limestone powder"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84945284616",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "61"
+                    },
+                    "pagerange": {
+                      "@first": "43",
+                      "@last": "58"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Rashad",
+                        "ce:indexed-name": "Rashad A.M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.E.D.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Seleem",
+                        "ce:indexed-name": "Seleem H.E.D.H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Build. Res. J."
+                }
+              },
+              {
+                "ref-fulltext": "V. Rostami, Y. Shao, A.J. Boyd, and Z. He Microstructure of cement paste subject to early carbonation curing Cem. Concr. Res. 42 2012 186 193",
+                "@id": "49",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Microstructure of cement paste subject to early carbonation curing"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "80855139556",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "42"
+                    },
+                    "pagerange": {
+                      "@first": "186",
+                      "@last": "193"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "V.",
+                        "@_fa": "true",
+                        "ce:surname": "Rostami",
+                        "ce:indexed-name": "Rostami V."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Shao",
+                        "ce:indexed-name": "Shao Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Boyd",
+                        "ce:indexed-name": "Boyd A.J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "He",
+                        "ce:indexed-name": "He Z."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                }
+              },
+              {
+                "ref-fulltext": "M. Salman, Ö. Cizer, Y. Pontikes, R.M. Santos, R. Snellings, L. Vandewalle, B. Blanpain, and K. Van Balen Effect of accelerated carbonation on AOD stainless steel slag for its valorisation as a CO2-sequestering construction material Chem. Eng. J. 246 2014 39 52",
+                "@id": "50",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of accelerated carbonation on AOD stainless steel slag for its valorisation as a CO2-sequestering construction material"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84896046047",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "246"
+                    },
+                    "pagerange": {
+                      "@first": "39",
+                      "@last": "52"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Salman",
+                        "ce:indexed-name": "Salman M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Ö.",
+                        "@_fa": "true",
+                        "ce:surname": "Cizer",
+                        "ce:indexed-name": "Cizer O."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Pontikes",
+                        "ce:indexed-name": "Pontikes Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "R.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Santos",
+                        "ce:indexed-name": "Santos R.M."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Snellings",
+                        "ce:indexed-name": "Snellings R."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Vandewalle",
+                        "ce:indexed-name": "Vandewalle L."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Blanpain",
+                        "ce:indexed-name": "Blanpain B."
+                      },
+                      {
+                        "@seq": "8",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Van Balen",
+                        "ce:indexed-name": "Van Balen K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Chem. Eng. J."
+                }
+              },
+              {
+                "ref-fulltext": "M. Schneider, M. Romer, M. Tschudin, and H. Bolio Sustainable cement production - present and future Cem. Concr. Res. 41 2011 642 650",
+                "@id": "51",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Sustainable cement production - Present and future"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "79956085500",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "41"
+                    },
+                    "pagerange": {
+                      "@first": "642",
+                      "@last": "650"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Schneider",
+                        "ce:indexed-name": "Schneider M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Romer",
+                        "ce:indexed-name": "Romer M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Tschudin",
+                        "ce:indexed-name": "Tschudin M."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Bolio",
+                        "ce:indexed-name": "Bolio H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                }
+              },
+              {
+                "ref-fulltext": "W. Sha, E. O'Neill, and Z. Guo Differential scanning calorimetry study of ordinary Portland cement Cem. Concr. Res. 29 1999 1487 1489",
+                "@id": "52",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1999"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Differential scanning calorimetry study of ordinary Portland cement"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "0033189240",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "29"
+                    },
+                    "pagerange": {
+                      "@first": "1487",
+                      "@last": "1489"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Sha",
+                        "ce:indexed-name": "Sha W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "O'Neill",
+                        "ce:indexed-name": "O'Neill E."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Guo",
+                        "ce:indexed-name": "Guo Z."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                }
+              },
+              {
+                "ref-fulltext": "R. Sharma, and S. Pandey Influence of mineral additives on the hydration characteristics of ordinary Portland cement Cem. Concr. Res. 29 1999 1525 1529",
+                "@id": "53",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1999"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Influence of mineral additives on the hydration characteristics of ordinary Portland cement"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "85032068817",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "29"
+                    },
+                    "pagerange": {
+                      "@first": "1525",
+                      "@last": "1529"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Sharma",
+                        "ce:indexed-name": "Sharma R."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Pandey",
+                        "ce:indexed-name": "Pandey S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                }
+              },
+              {
+                "ref-fulltext": "C. Shi, and J. Qian High performance cementing materials from industrial slags - a review Resour. Conserv. Recycl. 29 2000 195 207",
+                "@id": "54",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2000"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "High performance cementing materials from industrial slags - A review"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "0034213814",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "29"
+                    },
+                    "pagerange": {
+                      "@first": "195",
+                      "@last": "207"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Qian",
+                        "ce:indexed-name": "Qian J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Resour. Conserv. Recycl."
+                }
+              },
+              {
+                "ref-fulltext": "N. Short, P. Purnell, and C. Page Preliminary investigations into the supercritical carbonation of cement pastes J. Mater. Sci. 36 2001 35 41",
+                "@id": "55",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2001"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Preliminary investigations into the supercritical carbonation of cement pastes"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "0035121231",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "36"
+                    },
+                    "pagerange": {
+                      "@first": "35",
+                      "@last": "41"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Short",
+                        "ce:indexed-name": "Short N."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Purnell",
+                        "ce:indexed-name": "Purnell P."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Page",
+                        "ce:indexed-name": "Page C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Mater. Sci."
+                }
+              },
+              {
+                "ref-fulltext": "M. Thomas Supplementary Cementing Materials in Concrete 2013 CRC Press",
+                "@id": "56",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "85054630598",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-text": "CRC Press",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Thomas",
+                        "ce:indexed-name": "Thomas M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Supplementary Cementing Materials in Concrete"
+                }
+              },
+              {
+                "ref-fulltext": "P. Thongsanitgarn, W. Wongkeo, A. Chaipanich, and C.S. Poon Heat of hydration of Portland high-calcium fly ash cement incorporating limestone powder: effect of limestone particle size Constr. Build. Mater. 66 2014 410 417",
+                "@id": "57",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Heat of hydration of Portland high-calcium fly ash cement incorporating limestone powder: Effect of limestone particle size"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84903195044",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "66"
+                    },
+                    "pagerange": {
+                      "@first": "410",
+                      "@last": "417"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Thongsanitgarn",
+                        "ce:indexed-name": "Thongsanitgarn P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Wongkeo",
+                        "ce:indexed-name": "Wongkeo W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Chaipanich",
+                        "ce:indexed-name": "Chaipanich A."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "C.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Poon",
+                        "ce:indexed-name": "Poon C.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                }
+              },
+              {
+                "ref-fulltext": "R.A.F. Tomás, F. Ramôa Ribeiro, V.M.S. Santos, J.F.P. Gomes, and J.C.M. Bordado Assessment of the impact of the European CO2emissions trading scheme on the Portuguese chemical industry Energy Policy 38 2010 626 632",
+                "@id": "58",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Assessment of the impact of the European CO2emissions trading scheme on the Portuguese chemical industry"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "71649096576",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "38"
+                    },
+                    "pagerange": {
+                      "@first": "626",
+                      "@last": "632"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.A.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Tomás",
+                        "ce:indexed-name": "Tomas R.A.F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Ramôa Ribeiro",
+                        "ce:indexed-name": "Ramoa Ribeiro F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "V.M.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Santos",
+                        "ce:indexed-name": "Santos V.M.S."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.F.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Gomes",
+                        "ce:indexed-name": "Gomes J.F.P."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "J.C.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Bordado",
+                        "ce:indexed-name": "Bordado J.C.M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Energy Policy"
+                }
+              },
+              {
+                "ref-fulltext": "G. Wang, Y. Wang, and Z. Gao Use of steel slag as a granular material: volume expansion prediction and usability criteria J. Hazard. Mater. 184 2010 555 560",
+                "@id": "59",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Use of steel slag as a granular material: Volume expansion prediction and usability criteria"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "77957862492",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "184"
+                    },
+                    "pagerange": {
+                      "@first": "555",
+                      "@last": "560"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Gao",
+                        "ce:indexed-name": "Gao Z."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Hazard. Mater."
+                }
+              },
+              {
+                "ref-fulltext": "Q. Wang, and P. Yan Hydration properties of basic oxygen furnace steel slag Constr. Build. Mater. 24 2010 1134 1140",
+                "@id": "60",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Hydration properties of basic oxygen furnace steel slag"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "77950340719",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "24"
+                    },
+                    "pagerange": {
+                      "@first": "1134",
+                      "@last": "1140"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang Q."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Yan",
+                        "ce:indexed-name": "Yan P."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                }
+              },
+              {
+                "ref-fulltext": "Y. Xue, S. Wu, H. Hou, and J. Zha Experimental investigation of basic oxygen furnace slag used as aggregate in asphalt mixture J. Hazard. Mater. 138 2006 261 268",
+                "@id": "61",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2006"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental investigation of basic oxygen furnace slag used as aggregate in asphalt mixture"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "33750346944",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "138"
+                    },
+                    "pagerange": {
+                      "@first": "261",
+                      "@last": "268"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Xue",
+                        "ce:indexed-name": "Xue Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Hou",
+                        "ce:indexed-name": "Hou H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Zha",
+                        "ce:indexed-name": "Zha J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Hazard. Mater."
+                }
+              },
+              {
+                "ref-fulltext": "K.-H. Yang, Y.-B. Jung, M.-S. Cho, and S.-H. Tae Effect of supplementary cementitious materials on reduction of CO2emissions from concrete J. Clean. Prod. 103 2015 774 783",
+                "@id": "62",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of supplementary cementitious materials on reduction of CO2emissions from concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "84932604334",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "103"
+                    },
+                    "pagerange": {
+                      "@first": "774",
+                      "@last": "783"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.-H.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang K.-H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.-B.",
+                        "@_fa": "true",
+                        "ce:surname": "Jung",
+                        "ce:indexed-name": "Jung Y.-B."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.-S.",
+                        "@_fa": "true",
+                        "ce:surname": "Cho",
+                        "ce:indexed-name": "Cho M.-S."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "S.-H.",
+                        "@_fa": "true",
+                        "ce:surname": "Tae",
+                        "ce:indexed-name": "Tae S.-H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Clean. Prod."
+                }
+              },
+              {
+                "ref-fulltext": "T. Zhang, Q. Yu, J. Wei, J. Li, and P. Zhang Preparation of high performance blended cements and reclamation of iron concentrate from basic oxygen furnace steel slag Resour. Conserv. Recycl. 56 2011 48 55",
+                "@id": "63",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Preparation of high performance blended cements and reclamation of iron concentrate from basic oxygen furnace steel slag"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": {
+                      "$": "80053518279",
+                      "@idtype": "SGR"
+                    }
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "56"
+                    },
+                    "pagerange": {
+                      "@first": "48",
+                      "@last": "55"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu Q."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Wei",
+                        "ce:indexed-name": "Wei J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li J."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang P."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Resour. Conserv. Recycl."
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "affiliation": [
+      {
+        "affiliation-city": "Taipei",
+        "@id": "60005429",
+        "affilname": "National Taiwan University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60005429",
+        "affiliation-country": "Taiwan"
+      },
+      {
+        "affiliation-city": "Taipei",
+        "@id": "60027709",
+        "affilname": "National Taiwan University of Science and Technology",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60027709",
+        "affiliation-country": "Taiwan"
+      },
+      {
+        "affiliation-city": "Taipei",
+        "@id": "60012392",
+        "affilname": "National Taipei University of Technology",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012392",
+        "affiliation-country": "Taiwan"
+      },
+      {
+        "affiliation-city": "Taipei",
+        "@id": "60118890",
+        "affilname": "College of Engineering, National Taiwan University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60118890",
+        "affiliation-country": "Taiwan"
+      }
+    ],
+    "coredata": {
+      "srctype": "j",
+      "eid": "2-s2.0-84960153631",
+      "dc:description": "This study explores the feasibility of developing carbon dioxide (CO2) fixation and utilization as supplementary cementitious materials (SCMs) using basic oxygen furnace slag (BOFS) through a high-gravity carbonation process. The developed process is considered as a cleaner approach, compared to convention treatment processes in steelmaking industry, to simultaneous reduction of CO2 emission and stabilization of BOFS. The carbonated BOFS can be used as SCMs in blended cement. First, the CO2 fixation capacity of BOFS was quantified by thermo-gravimetric analysis in this study. The kinetics of the high-gravity carbonation process were also determined using a surface coverage model. The results indicated that up to 215 g of CO2 was fixed per kg of BOFS through high-gravity carbonation for 3 h at 60 °C. In addition, engineering properties and hydration characteristics of blended cement with 10% fresh or 10% carbonated BOFS as SCMs were investigated. Cement blended with 10 wt% of carbonated BOFS resulted in reduced setting times and accelerated early strength development, which was consistent with the hydration heat releases and X-ray diffraction analyses. The observations of scanning electron microscope suggest that the carbonated BOFS serve as nuclei for the precipitation of hydration products, thereby accelerating the hydration. It is also noted that the properties of blended cement using carbonated BOFS met ASTM requirements for setting time, compressive strength, autoclave expansion, and sulfate resistance. Furthermore, costs and benefits of the high-gravity carbonation for CO2 fixation and BOFS utilization were estimated.",
+      "prism:coverDate": "2016-06-15",
+      "prism:aggregationType": "Journal",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/84960153631",
+      "dc:creator": {
+        "author": [
+          {
+            "ce:given-name": "Kuan-Wei",
+            "preferred-name": {
+              "ce:given-name": "Kuan Wei",
+              "ce:initials": "K.W.",
+              "ce:surname": "Chen",
+              "ce:indexed-name": "Chen K.W."
+            },
+            "@seq": "1",
+            "ce:initials": "K.-W.",
+            "@_fa": "true",
+            "affiliation": {
+              "@id": "60118890",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60118890"
+            },
+            "ce:surname": "Chen",
+            "@auid": "57203741048",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57203741048",
+            "ce:indexed-name": "Chen K.-W."
+          }
+        ]
+      },
+      "link": [
+        {
+          "@_fa": "true",
+          "@rel": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/84960153631"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84960153631&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84960153631&origin=inward"
+        }
+      ],
+      "source-id": "19167",
+      "pii": "S0959652616002493",
+      "citedby-count": "122",
+      "prism:volume": "124",
+      "subtype": "ar",
+      "dc:title": "High-gravity carbonation of basic oxygen furnace slag for CO2 fixation and utilization in blended cement",
+      "openaccess": "0",
+      "prism:issn": "09596526",
+      "publishercopyright": "© 2016 Elsevier Ltd. All rights reserved.",
+      "subtypeDescription": "Article",
+      "prism:publicationName": "Journal of Cleaner Production",
+      "prism:pageRange": "350-360",
+      "prism:endingPage": "360",
+      "openaccessFlag": "false",
+      "prism:doi": "10.1016/j.jclepro.2016.02.072",
+      "prism:startingPage": "350",
+      "dc:identifier": "SCOPUS_ID:84960153631",
+      "dc:publisher": "Elsevier Ltd"
+    },
+    "idxterms": {
+      "mainterm": [
+        {
+          "$": "Basic oxygen furnace slag",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Engineering properties",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Hydration characteristics",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Mineralization",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Rotating packed bed",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Steel-making industries",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Supplementary cementitious material",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Surface coverages",
+          "@weight": "b",
+          "@candidate": "n"
+        }
+      ]
+    },
+    "language": {
+      "@xml:lang": "eng"
+    },
+    "authkeywords": {
+      "author-keyword": [
+        {
+          "@_fa": "true",
+          "$": "Calcium carbonate"
+        },
+        {
+          "@_fa": "true",
+          "$": "Cost benefit analysis"
+        },
+        {
+          "@_fa": "true",
+          "$": "Mineralization"
+        },
+        {
+          "@_fa": "true",
+          "$": "Rotating packed bed"
+        },
+        {
+          "@_fa": "true",
+          "$": "Supplementary cementitious materials"
+        },
+        {
+          "@_fa": "true",
+          "$": "Surface coverage model"
+        }
+      ]
+    },
+    "subject-areas": {
+      "subject-area": [
+        {
+          "@_fa": "true",
+          "$": "Renewable Energy, Sustainability and the Environment",
+          "@code": "2105",
+          "@abbrev": "ENER"
+        },
+        {
+          "@_fa": "true",
+          "$": "Environmental Science (all)",
+          "@code": "2300",
+          "@abbrev": "ENVI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Strategy and Management",
+          "@code": "1408",
+          "@abbrev": "BUSI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Industrial and Manufacturing Engineering",
+          "@code": "2209",
+          "@abbrev": "ENGI"
+        }
+      ]
+    },
+    "authors": {
+      "author": [
+        {
+          "ce:given-name": "Kuan-Wei",
+          "preferred-name": {
+            "ce:given-name": "Kuan Wei",
+            "ce:initials": "K.W.",
+            "ce:surname": "Chen",
+            "ce:indexed-name": "Chen K.W."
+          },
+          "@seq": "1",
+          "ce:initials": "K.-W.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60118890",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60118890"
+          },
+          "ce:surname": "Chen",
+          "@auid": "57203741048",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57203741048",
+          "ce:indexed-name": "Chen K.-W."
+        },
+        {
+          "ce:given-name": "Shu-Yuan",
+          "preferred-name": {
+            "ce:given-name": "Shu Yuan",
+            "ce:initials": "S.Y.",
+            "ce:surname": "Pan",
+            "ce:indexed-name": "Pan S.Y."
+          },
+          "@seq": "2",
+          "ce:initials": "S.-Y.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60118890",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60118890"
+          },
+          "ce:surname": "Pan",
+          "@auid": "40361380800",
+          "author-url": "https://api.elsevier.com/content/author/author_id/40361380800",
+          "ce:indexed-name": "Pan S.-Y."
+        },
+        {
+          "ce:given-name": "Chun-Tao",
+          "preferred-name": {
+            "ce:given-name": "Chun Tao",
+            "ce:initials": "C.T.",
+            "ce:surname": "Chen",
+            "ce:indexed-name": "Chen C.T."
+          },
+          "@seq": "3",
+          "ce:initials": "C.-T.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60027709",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60027709"
+          },
+          "ce:surname": "Chen",
+          "@auid": "11339270600",
+          "author-url": "https://api.elsevier.com/content/author/author_id/11339270600",
+          "ce:indexed-name": "Chen C.-T."
+        },
+        {
+          "ce:given-name": "Yi-Hung",
+          "preferred-name": {
+            "ce:given-name": "Yi Hung",
+            "ce:initials": "Y.H.",
+            "ce:surname": "Chen",
+            "ce:indexed-name": "Chen Y.H."
+          },
+          "@seq": "4",
+          "ce:initials": "Y.-H.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60012392",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012392"
+          },
+          "ce:surname": "Chen",
+          "@auid": "56113704000",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56113704000",
+          "ce:indexed-name": "Chen Y.-H."
+        },
+        {
+          "ce:given-name": "Pen-Chi",
+          "preferred-name": {
+            "ce:given-name": "Pen Chi",
+            "ce:initials": "P.C.",
+            "ce:surname": "Chiang",
+            "ce:indexed-name": "Chiang P.C."
+          },
+          "@seq": "5",
+          "ce:initials": "P.-C.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "60118890",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60118890"
+            },
+            {
+              "@id": "60005429",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60005429"
+            }
+          ],
+          "ce:surname": "Chiang",
+          "@auid": "7102736555",
+          "author-url": "https://api.elsevier.com/content/author/author_id/7102736555",
+          "ce:indexed-name": "Chiang P.-C."
+        }
+      ]
+    }
+  }
+}

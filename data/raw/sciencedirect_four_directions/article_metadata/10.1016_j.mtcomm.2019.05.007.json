@@ -1,0 +1,3963 @@
+{
+  "abstracts-retrieval-response": {
+    "item": {
+      "ait:process-info": {
+        "ait:status": {
+          "@state": "update",
+          "@type": "core",
+          "@stage": "S300"
+        },
+        "ait:date-delivered": {
+          "@day": "19",
+          "@timestamp": "2025-03-19T15:56:45.000045-04:00",
+          "@year": "2025",
+          "@month": "03"
+        },
+        "ait:date-sort": {
+          "@day": "01",
+          "@year": "2019",
+          "@month": "06"
+        }
+      },
+      "xocs:meta": {
+        "xocs:funding-list": {
+          "@pui-match": "primary",
+          "@has-funding-info": "1",
+          "xocs:funding": [
+            {
+              "xocs:funding-agency-matched-string": "Key Project of DEGP",
+              "xocs:funding-id": "2014KZDXM051"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Natural Science Foundation of China",
+              "xocs:funding-agency-acronym": "NSFC",
+              "xocs:funding-agency": "National Natural Science Foundation of China",
+              "xocs:funding-id": [
+                {
+                  "$": "51478271"
+                },
+                {
+                  "$": "51678368"
+                }
+              ],
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Natural Science Foundation of China",
+              "xocs:funding-agency-acronym": "NSFC",
+              "xocs:funding-agency": "National Natural Science Foundation of China",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            }
+          ],
+          "xocs:funding-addon-generated-timestamp": "2021-05-28T10:46:59.969Z",
+          "xocs:funding-text": "The work described in this paper was fully supported by grants from Natural Science Foundation of China ( 51678368 and 51478271 ) and Key Project of DEGP (No. 2014KZDXM051 ).",
+          "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }
+      },
+      "bibrecord": {
+        "head": {
+          "author-group": [
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "518060",
+                "@afid": "60000937",
+                "@date-locked": "2022-06-01T12:15:50.412",
+                "@country": "chn",
+                "city": "Shenzhen",
+                "organization": [
+                  {
+                    "$": "Guangdong Provincial Key Laboratory of Durability for Marine Civil Engineering"
+                  },
+                  {
+                    "$": "Shenzhen Durability Center for Civil Engineering"
+                  },
+                  {
+                    "$": "College of Civil and Transportation Engineering"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60000937",
+                  "@dptid": "113275132"
+                },
+                "state": "Guangdong",
+                "@affiliation-instance-id": "S2352492819301230-67148e2a89bf40850f323a3c2f67b90e",
+                "ce:source-text": "Guangdong Provincial Key Laboratory of Durability for Marine Civil Engineering, Shenzhen Durability Center for Civil Engineering, College of Civil and Transportation Engineering, Shenzhen, 518060, Guangdong, China",
+                "@dptid": "113275132"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Wei",
+                  "preferred-name": {
+                    "ce:given-name": "Wei",
+                    "ce:initials": "W.",
+                    "ce:surname": "Liu",
+                    "ce:indexed-name": "Liu W."
+                  },
+                  "@author-instance-id": "S2352492819301230-d4446d185bd060084e7417fba512b35c",
+                  "@seq": "1",
+                  "ce:initials": "W.",
+                  "@date-locked": "2024-04-29T19:24:24.791",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Liu",
+                  "@auid": "56155733300",
+                  "ce:indexed-name": "Liu W."
+                },
+                {
+                  "ce:given-name": "Yong-Qiang",
+                  "preferred-name": {
+                    "ce:given-name": "Yong Qiang",
+                    "ce:initials": "Y.Q.",
+                    "ce:surname": "Li",
+                    "ce:indexed-name": "Li Y.Q."
+                  },
+                  "@author-instance-id": "S2352492819301230-3f8e117c8e951d1440e241ab6f9f2c58",
+                  "@seq": "2",
+                  "ce:initials": "Y.-Q.",
+                  "@date-locked": "2021-04-05T09:07:14.397",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Li",
+                  "@auid": "57222594827",
+                  "ce:indexed-name": "Li Y.-Q."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "Sweden",
+                "postal-code": "41296",
+                "@afid": "60000990",
+                "@country": "swe",
+                "city": "Gothenburg",
+                "organization": [
+                  {
+                    "$": "Division of Building Technology"
+                  },
+                  {
+                    "$": "Chalmers University of Technology"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60000990",
+                  "@dptid": "103097745"
+                },
+                "@affiliation-instance-id": "S2352492819301230-5a68b8db0181a2e8c9fcdfd26365844c",
+                "ce:source-text": "Division of Building Technology, Chalmers University of Technology, 41296, Gothenburg, Sweden",
+                "@dptid": "103097745"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Lu-Ping",
+                  "preferred-name": {
+                    "ce:given-name": "Lu Ping",
+                    "ce:initials": "L.P.",
+                    "ce:surname": "Tang",
+                    "ce:indexed-name": "Tang L.P."
+                  },
+                  "@author-instance-id": "S2352492819301230-6238ee41e385b12772163e70436f68b7",
+                  "@seq": "3",
+                  "ce:initials": "L.-P.",
+                  "@date-locked": "2022-02-04T04:47:27.301",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Tang",
+                  "@auid": "7402080862",
+                  "ce:indexed-name": "Tang L.-P."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "518172",
+                "@afid": "60104000",
+                "@country": "chn",
+                "city": "Shenzhen",
+                "organization": [
+                  {
+                    "$": "Institute of Technology for Marine Civil Engineering"
+                  },
+                  {
+                    "$": "Shenzhen Institute of Information Technology"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60104000"
+                },
+                "state": "Guangdong",
+                "@affiliation-instance-id": "S2352492819301230-af71df3f3c76ff61d8355d8da9e029bd",
+                "ce:source-text": "Institute of Technology for Marine Civil Engineering, Shenzhen Institute of Information Technology, Shenzhen, 518172, Guangdong, China"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Zhi-Jun",
+                  "preferred-name": {
+                    "ce:given-name": "Zhi Jun",
+                    "ce:initials": "Z.J.",
+                    "ce:surname": "Dong",
+                    "ce:indexed-name": "Dong Z.J."
+                  },
+                  "@author-instance-id": "S2352492819301230-fdb09862deb0242ae74ead630646770b",
+                  "@seq": "4",
+                  "ce:initials": "Z.-J.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Dong",
+                  "@auid": "32667522000",
+                  "ce:indexed-name": "Dong Z.-J."
+                }
+              ]
+            }
+          ],
+          "citation-title": "XRD and 29Si MAS NMR study on carbonated cement paste under accelerated carbonation using different concentration of CO2",
+          "abstracts": "© 2019 The AuthorsIn this study, the chemical composition of cement pastes, exposed to accelerated carbonation using different concentration of CO2 (3%, 10%, 20%, 50%,100%), have been determined and compared with those of natural carbonation (0.03%). Quantitative X-ray diffraction (QXRD)and 29Si Magic Angle Spinning Nuclear Magnetic Resonance (MAS NMR)were used for characterisation and quantitative analysis of the carbonated phases. The obtained QXRD results revealed that the complete carbonation was hardly attained. Calcite, aragonite and vaterite were in co-existence after accelerated carbonation, while vaterite was dominant. The preferential polymorphic precipitation of the three crystal forms of calcium carbonate was affected by the carbonation degree of C-S-H and the duration of the carbonation process, but not by the concentration of CO2. The NMR results indicated that C-S-H gel was strongly decalcified, and calcium modified silica gel was formed after carbonation. The C-S-H decalcification, under all the accelerated carbonation conditions, was clearly more pronounced than that under the natural carbonation conditions. When the concentration of CO2 was in the range of 3%–20%, the ratio of decalcified to remaining C-S-H was similar, in a range of 5–6, while under the higher concentration of CO2 this ratio was increased to >8. Therefore, in consideration of both acceleration rate and measurement uncertainty, the higher concentration, up to 20%, of CO2 in an accelerated carbonation should be applicable.",
+          "correspondence": {
+            "affiliation": {
+              "country": "China",
+              "postal-code": "518172",
+              "@country": "chn",
+              "city": "Shenzhen",
+              "organization": [
+                {
+                  "$": "Institute of Technology for Marine Civil Engineering"
+                },
+                {
+                  "$": "Shenzhen Institute of Information Technology"
+                }
+              ],
+              "state": "Guangdong"
+            },
+            "person": {
+              "ce:given-name": "Zhi-Jun",
+              "ce:initials": "Z.-J.",
+              "ce:surname": "Dong",
+              "ce:indexed-name": "Dong Z.-J."
+            }
+          },
+          "citation-info": {
+            "author-keywords": {
+              "author-keyword": [
+                {
+                  "$": "29Si MAS NMR",
+                  "@xml:lang": "eng"
+                },
+                {
+                  "$": "Carbonation",
+                  "@xml:lang": "eng"
+                },
+                {
+                  "$": "Cement",
+                  "@xml:lang": "eng"
+                },
+                {
+                  "$": "Different CO2concentration",
+                  "@xml:lang": "eng"
+                },
+                {
+                  "$": "XRD",
+                  "@xml:lang": "eng"
+                }
+              ]
+            },
+            "citation-type": {
+              "@code": "ar"
+            },
+            "citation-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "abstract-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            }
+          },
+          "source": {
+            "sourcetitle-abbrev": "Mater. Today Commun.",
+            "website": {
+              "ce:e-address": {
+                "$": "http://www.journals.elsevier.com/materials-today-communications/",
+                "@type": "email"
+              }
+            },
+            "@country": "gbr",
+            "translated-sourcetitle": {
+              "@xml:lang": "eng"
+            },
+            "issn": {
+              "$": "23524928",
+              "@type": "electronic"
+            },
+            "volisspag": {
+              "voliss": {
+                "@volume": "19"
+              },
+              "pagerange": {
+                "@first": "464",
+                "@last": "470"
+              }
+            },
+            "@type": "j",
+            "publicationyear": {
+              "@first": "2019"
+            },
+            "publisher": {
+              "publishername": "Elsevier Ltd"
+            },
+            "sourcetitle": "Materials Today Communications",
+            "@srcid": "21100369777",
+            "publicationdate": {
+              "month": "06",
+              "year": "2019",
+              "date-text": "June 2019",
+              "day": "01"
+            }
+          },
+          "enhancement": {
+            "classificationgroup": {
+              "classifications": [
+                {
+                  "@type": "CPXCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "412.1",
+                      "classification-description": "Cement"
+                    },
+                    {
+                      "classification-code": "802.2",
+                      "classification-description": "Chemical Reactions"
+                    },
+                    {
+                      "classification-code": "802.3",
+                      "classification-description": "Chemical Operations"
+                    },
+                    {
+                      "classification-code": "804",
+                      "classification-description": "Chemical Products Generally"
+                    },
+                    {
+                      "classification-code": "804.2",
+                      "classification-description": "Inorganic Compounds"
+                    },
+                    {
+                      "classification-code": "922.1",
+                      "classification-description": "Probability Theory"
+                    },
+                    {
+                      "classification-code": "931.2",
+                      "classification-description": "Physical Properties of Gases, Liquids and Solids"
+                    }
+                  ]
+                },
+                {
+                  "@type": "FLXCLASS",
+                  "classification": {
+                    "classification-code": "902",
+                    "classification-description": "FLUIDEX; Related Topics"
+                  }
+                },
+                {
+                  "@type": "ASJC",
+                  "classification": [
+                    {
+                      "$": "2500"
+                    },
+                    {
+                      "$": "2211"
+                    },
+                    {
+                      "$": "2505"
+                    }
+                  ]
+                },
+                {
+                  "@type": "SUBJABBR",
+                  "classification": [
+                    {
+                      "$": "MATE"
+                    },
+                    {
+                      "$": "ENGI"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "grantlist": {
+            "@complete": "y",
+            "grant-text": {
+              "$": "The work described in this paper was fully supported by grants from Natural Science Foundation of China (51678368 and 51478271)and Key Project of DEGP (No. 2014KZDXM051).",
+              "@xml:lang": "eng"
+            },
+            "grant": [
+              {
+                "grant-id": "51478271",
+                "grant-acronym": "NSFC",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "National Natural Science Foundation of China"
+                },
+                "grant-agency-id": "501100001809"
+              },
+              {
+                "grant-id": "51678368",
+                "grant-acronym": "NSFC",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "National Natural Science Foundation of China"
+                },
+                "grant-agency-id": "501100001809"
+              }
+            ]
+          }
+        },
+        "item-info": {
+          "copyright": {
+            "$": "Copyright 2019 Elsevier B.V., All rights reserved.",
+            "@type": "Elsevier"
+          },
+          "dbcollection": [
+            {
+              "$": "CPX"
+            },
+            {
+              "$": "REAXYSCAR"
+            },
+            {
+              "$": "SCOPUS"
+            },
+            {
+              "$": "SNCPX"
+            },
+            {
+              "$": "Scopusbase"
+            }
+          ],
+          "history": {
+            "date-created": {
+              "@day": "24",
+              "@timestamp": "BST 08:42:14",
+              "@year": "2019",
+              "@month": "05"
+            }
+          },
+          "itemidlist": {
+            "itemid": [
+              {
+                "$": "2001995753",
+                "@idtype": "PUI"
+              },
+              {
+                "$": "917588386",
+                "@idtype": "CAR-ID"
+              },
+              {
+                "$": "20192106959758",
+                "@idtype": "CPX"
+              },
+              {
+                "$": "20190957742",
+                "@idtype": "REAXYSCAR"
+              },
+              {
+                "$": "20191453904",
+                "@idtype": "SCOPUS"
+              },
+              {
+                "$": "2019057002",
+                "@idtype": "SNCPX"
+              },
+              {
+                "$": "85065881818",
+                "@idtype": "SCP"
+              },
+              {
+                "$": "85065881818",
+                "@idtype": "SGR"
+              }
+            ],
+            "ce:pii": "S2352492819301230",
+            "ce:ern": "pii:S2352492819301230",
+            "ce:doi": "10.1016/j.mtcomm.2019.05.007"
+          }
+        },
+        "tail": {
+          "bibliography": {
+            "@refcount": "57",
+            "reference": [
+              {
+                "ref-fulltext": "Long, W.J., Gu, Y.C., Xing, F., et al. Microstructure development and mechanism of hardened cement paste incorporating graphene oxide during carbonation. Cem. Concr. Compos. 94 (2018), 72–84.",
+                "@id": "1",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Microstructure development and mechanism of hardened cement paste incorporating graphene oxide during carbonation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0005",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85052866232",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "94"
+                    },
+                    "pagerange": {
+                      "@first": "72",
+                      "@last": "84"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Long",
+                        "ce:indexed-name": "Long W.J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Gu",
+                        "ce:indexed-name": "Gu Y.C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Xing",
+                        "ce:indexed-name": "Xing F."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Compos."
+                },
+                "ce:source-text": "Long, W.J., Gu, Y.C., Xing, F., et al. Microstructure development and mechanism of hardened cement paste incorporating graphene oxide during carbonation. Cem. Concr. Compos. 94 (2018), 72–84."
+              },
+              {
+                "ref-fulltext": "Shen, Q.Z., Pan, G.H., Bao, B.F., A method for calculating the carbonation degree of calcium–silicate–hydrate. Adv. Cem. Res. 30 (2018), 427–436.",
+                "@id": "2",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A method for calculating the carbonation degree of calcium–silicate–hydrate"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0010",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85053510303",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "30"
+                    },
+                    "pagerange": {
+                      "@first": "427",
+                      "@last": "436"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Q.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Shen",
+                        "ce:indexed-name": "Shen Q.Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Pan",
+                        "ce:indexed-name": "Pan G.H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "B.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Bao",
+                        "ce:indexed-name": "Bao B.F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Adv. Cem. Res."
+                },
+                "ce:source-text": "Shen, Q.Z., Pan, G.H., Bao, B.F., A method for calculating the carbonation degree of calcium–silicate–hydrate. Adv. Cem. Res. 30 (2018), 427–436."
+              },
+              {
+                "ref-fulltext": "Wang, X.F., Fang, C., Li, D.W., et al. A self-healing cementitious composite with mineral admixtures and built-in carbonate. Cem. Concr. Compos. 92 (2018), 216–229.",
+                "@id": "3",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A self-healing cementitious composite with mineral admixtures and built-in carbonate"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0015",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85049907581",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "92"
+                    },
+                    "pagerange": {
+                      "@first": "216",
+                      "@last": "229"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang X.F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Fang",
+                        "ce:indexed-name": "Fang C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li D.W."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Compos."
+                },
+                "ce:source-text": "Wang, X.F., Fang, C., Li, D.W., et al. A self-healing cementitious composite with mineral admixtures and built-in carbonate. Cem. Concr. Compos. 92 (2018), 216–229."
+              },
+              {
+                "ref-fulltext": "Long, W.J., Tan, X.W., Xiao, B.X., et al. Effective use of ground waste expanded perlite as green supplementary cementitious material in eco-friendly alkali activated slag composites. J. Clean. Prod. 213 (2019), 406–414.",
+                "@id": "4",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effective use of ground waste expanded perlite as green supplementary cementitious material in eco-friendly alkali activated slag composites"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0020",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85059577339",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "213"
+                    },
+                    "pagerange": {
+                      "@first": "406",
+                      "@last": "414"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Long",
+                        "ce:indexed-name": "Long W.J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Tan",
+                        "ce:indexed-name": "Tan X.W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "B.X.",
+                        "@_fa": "true",
+                        "ce:surname": "Xiao",
+                        "ce:indexed-name": "Xiao B.X."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "J. Clean. Prod."
+                },
+                "ce:source-text": "Long, W.J., Tan, X.W., Xiao, B.X., et al. Effective use of ground waste expanded perlite as green supplementary cementitious material in eco-friendly alkali activated slag composites. J. Clean. Prod. 213 (2019), 406–414."
+              },
+              {
+                "ref-fulltext": "Alonso, C., Andrade, C., González, J.A., Relation between resistivity and corrosion rate of reinforcements in carbonated mortar made with several cement types. Cem. Concr. Res. 18 (1988), 687–698.",
+                "@id": "5",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1988"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Relation between resistivity and corrosion rate of reinforcements in carbonated mortar made with several cement types"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0025",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0024082455",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "18"
+                    },
+                    "pagerange": {
+                      "@first": "687",
+                      "@last": "698"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Alonso",
+                        "ce:indexed-name": "Alonso C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Andrade",
+                        "ce:indexed-name": "Andrade C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.A.",
+                        "@_fa": "true",
+                        "ce:surname": "González",
+                        "ce:indexed-name": "Gonzalez J.A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Alonso, C., Andrade, C., González, J.A., Relation between resistivity and corrosion rate of reinforcements in carbonated mortar made with several cement types. Cem. Concr. Res. 18 (1988), 687–698."
+              },
+              {
+                "ref-fulltext": "Ma, H.Y., Multi-scale Modeling of the Microstructure and Transport Properties of Contemporary Concrete. 2013, The Hong Kong University of Science and Technology, Hong Kong.",
+                "@id": "6",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Multi-scale Modeling of the Microstructure and Transport Properties of Contemporary Concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0030",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84899446410",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "The Hong Kong University of Science and Technology Hong Kong",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Ma",
+                        "ce:indexed-name": "Ma H.Y."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Ma, H.Y., Multi-scale Modeling of the Microstructure and Transport Properties of Contemporary Concrete. 2013, The Hong Kong University of Science and Technology, Hong Kong."
+              },
+              {
+                "ref-fulltext": "Ashraf, W., Carbonation of cement-based materials: challenges and opportunities. Constr. Build. Mater. 120 (2016), 558–570.",
+                "@id": "7",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Carbonation of cement-based materials: challenges and opportunities"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0035",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84975317296",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "120"
+                    },
+                    "pagerange": {
+                      "@first": "558",
+                      "@last": "570"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Ashraf",
+                        "ce:indexed-name": "Ashraf W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "Ashraf, W., Carbonation of cement-based materials: challenges and opportunities. Constr. Build. Mater. 120 (2016), 558–570."
+              },
+              {
+                "ref-fulltext": "NORDTEST, Concrete, Repairing Materials and Protective Coating Carbonation Resistance. 1989, NT BUILD 357, Finland.",
+                "@id": "8",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1989"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Concrete, Repairing Materials and Protective Coating Carbonation Resistance"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0040",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "77956397571",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "NT BUILD 357 Finland",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "@_fa": "true",
+                        "ce:surname": "NORDTEST",
+                        "ce:indexed-name": "NORDTEST"
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "NORDTEST, Concrete, Repairing Materials and Protective Coating Carbonation Resistance. 1989, NT BUILD 357, Finland."
+              },
+              {
+                "ref-fulltext": "Auroy, M., Poyet, S., Le Bescop, P., et al. Comparison between natural and accelerated carbonation (3% CO2): impact on mineralogy, microstructure, water retention and cracking. Cem. Concr. Res. 109 (2018), 64–80.",
+                "@id": "9",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Comparison between natural and accelerated carbonation (3% CO2): impact on mineralogy, microstructure, water retention and cracking"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0045",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85045544922",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "109"
+                    },
+                    "pagerange": {
+                      "@first": "64",
+                      "@last": "80"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Auroy",
+                        "ce:indexed-name": "Auroy M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Poyet",
+                        "ce:indexed-name": "Poyet S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Le Bescop",
+                        "ce:indexed-name": "Le Bescop P."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Auroy, M., Poyet, S., Le Bescop, P., et al. Comparison between natural and accelerated carbonation (3% CO2): impact on mineralogy, microstructure, water retention and cracking. Cem. Concr. Res. 109 (2018), 64–80."
+              },
+              {
+                "ref-fulltext": "GB/T50082-2009, Standard for Test Methods of Long-term Performance and Durability of Ordinary Concrete. 2009, Ministry of Housing and Urban-Rural Development of the People's Republic of China, Beijing.",
+                "@id": "10",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Standard for Test Methods of Long-term Performance and Durability of Ordinary Concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0050",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "79956160082",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "GB/T50082-2009, Ministry of Housing and Urban-Rural Development of the People's Republic of China Beijing"
+                },
+                "ce:source-text": "GB/T50082-2009, Standard for Test Methods of Long-term Performance and Durability of Ordinary Concrete. 2009, Ministry of Housing and Urban-Rural Development of the People's Republic of China, Beijing."
+              },
+              {
+                "ref-fulltext": "Chang, C.F., Chen, J.W., The experimental investigation of concrete carbonation depth. Cem. Concr. Res. 36 (2006), 1760–1767.",
+                "@id": "11",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2006"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The experimental investigation of concrete carbonation depth"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0055",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "33748932115",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "36"
+                    },
+                    "pagerange": {
+                      "@first": "1760",
+                      "@last": "1767"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Chang",
+                        "ce:indexed-name": "Chang C.F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen J.W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Chang, C.F., Chen, J.W., The experimental investigation of concrete carbonation depth. Cem. Concr. Res. 36 (2006), 1760–1767."
+              },
+              {
+                "ref-fulltext": "Turcry, P.h., Oksri-Nelfia, L., Younsi, A., et al. Analysis of an accelerated carbonation test with severe preconditioning. Cem. Concr. Res. 57 (2014), 70–78.",
+                "@id": "12",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Analysis of an accelerated carbonation test with severe preconditioning"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0060",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84892970452",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "57"
+                    },
+                    "pagerange": {
+                      "@first": "70",
+                      "@last": "78"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Turcry",
+                        "ce:indexed-name": "Turcry P.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Oksri-Nelfia",
+                        "ce:indexed-name": "Oksri-Nelfia L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Younsi",
+                        "ce:indexed-name": "Younsi A."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Turcry, P.h., Oksri-Nelfia, L., Younsi, A., et al. Analysis of an accelerated carbonation test with severe preconditioning. Cem. Concr. Res. 57 (2014), 70–78."
+              },
+              {
+                "ref-fulltext": "Gonen, T., Yazicioglu, S., The influence of compaction pores on sorptivity and carbonation of concrete. Constr. Build. Mater. 21 (2007), 1040–1045.",
+                "@id": "13",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The influence of compaction pores on sorptivity and carbonation of concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0065",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "33845294828",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "21"
+                    },
+                    "pagerange": {
+                      "@first": "1040",
+                      "@last": "1045"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Gonen",
+                        "ce:indexed-name": "Gonen T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Yazicioglu",
+                        "ce:indexed-name": "Yazicioglu S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "Gonen, T., Yazicioglu, S., The influence of compaction pores on sorptivity and carbonation of concrete. Constr. Build. Mater. 21 (2007), 1040–1045."
+              },
+              {
+                "ref-fulltext": "Sanjuán, M.A., Andrade, C., Cheyrezy, M., Concrete carbonation test in natural and accelerated conditions. Adv. Cem. Res. 15 (2003), 171–180.",
+                "@id": "14",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2003"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Concrete carbonation test in natural and accelerated conditions"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0070",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0142248295",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "15"
+                    },
+                    "pagerange": {
+                      "@first": "171",
+                      "@last": "180"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Sanjuán",
+                        "ce:indexed-name": "Sanjuan M.A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Andrade",
+                        "ce:indexed-name": "Andrade C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Cheyrezy",
+                        "ce:indexed-name": "Cheyrezy M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Adv. Cem. Res."
+                },
+                "ce:source-text": "Sanjuán, M.A., Andrade, C., Cheyrezy, M., Concrete carbonation test in natural and accelerated conditions. Adv. Cem. Res. 15 (2003), 171–180."
+              },
+              {
+                "ref-fulltext": "Rostami, V., Shao, Y.X., Boyd, A.J., Carbonation curing versus steam curing for precast concrete production. J. Mater. Civil. Eng. 24 (2012), 1221–1229.",
+                "@id": "15",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Carbonation curing versus steam curing for precast concrete production"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0075",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85001838182",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "24"
+                    },
+                    "pagerange": {
+                      "@first": "1221",
+                      "@last": "1229"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "V.",
+                        "@_fa": "true",
+                        "ce:surname": "Rostami",
+                        "ce:indexed-name": "Rostami V."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.X.",
+                        "@_fa": "true",
+                        "ce:surname": "Shao",
+                        "ce:indexed-name": "Shao Y.X."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Boyd",
+                        "ce:indexed-name": "Boyd A.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Mater. Civil. Eng."
+                },
+                "ce:source-text": "Rostami, V., Shao, Y.X., Boyd, A.J., Carbonation curing versus steam curing for precast concrete production. J. Mater. Civil. Eng. 24 (2012), 1221–1229."
+              },
+              {
+                "ref-fulltext": "Chi, J.M., Huang, R., Yang, C.C., Effects of carbonation on mechanical properties and durability of concrete using accelerated testing method. J. Mar. Sci. Technol. Jpn. 10 (2002), 14–20.",
+                "@id": "16",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2002"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effects of carbonation on mechanical properties and durability of concrete using accelerated testing method"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0080",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "7044231494",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "10"
+                    },
+                    "pagerange": {
+                      "@first": "14",
+                      "@last": "20"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Chi",
+                        "ce:indexed-name": "Chi J.M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang R."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang C.C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Mar. Sci. Technol. Jpn."
+                },
+                "ce:source-text": "Chi, J.M., Huang, R., Yang, C.C., Effects of carbonation on mechanical properties and durability of concrete using accelerated testing method. J. Mar. Sci. Technol. Jpn. 10 (2002), 14–20."
+              },
+              {
+                "ref-fulltext": "Berger, R.L., Young, J.F., Leung, K., Acceleration of hydration of calcium silicates by carbon dioxide treatment. Nat. Phys. Sci. 240 (1972), 16–18.",
+                "@id": "17",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1972"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Acceleration of hydration of calcium silicates by carbon dioxide treatment"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0085",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0006686211",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "240"
+                    },
+                    "pagerange": {
+                      "@first": "16",
+                      "@last": "18"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Berger",
+                        "ce:indexed-name": "Berger R.L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Young",
+                        "ce:indexed-name": "Young J.F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Leung",
+                        "ce:indexed-name": "Leung K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Nat. Phys. Sci."
+                },
+                "ce:source-text": "Berger, R.L., Young, J.F., Leung, K., Acceleration of hydration of calcium silicates by carbon dioxide treatment. Nat. Phys. Sci. 240 (1972), 16–18."
+              },
+              {
+                "ref-fulltext": "Young, J.F., Berger, R.L., Breese, J., Accelerated curing of compacted calcium silicate mortars on exposure to CO2. J. Am. Ceram. Soc. 57 (1974), 394–397.",
+                "@id": "18",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1974"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Accelerated curing of compacted calcium silicate mortars on exposure to CO2"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0090",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0016105251",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "57"
+                    },
+                    "pagerange": {
+                      "@first": "394",
+                      "@last": "397"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Young",
+                        "ce:indexed-name": "Young J.F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Berger",
+                        "ce:indexed-name": "Berger R.L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Breese",
+                        "ce:indexed-name": "Breese J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Am. Ceram. Soc."
+                },
+                "ce:source-text": "Young, J.F., Berger, R.L., Breese, J., Accelerated curing of compacted calcium silicate mortars on exposure to CO2. J. Am. Ceram. Soc. 57 (1974), 394–397."
+              },
+              {
+                "ref-fulltext": "Bukowski, J.M., Berger, R.L., Reactivity and strength development of CO2activated non-hydraulic calcium silicates. Cem. Concr. Res. 9 (1979), 57–68.",
+                "@id": "19",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1979"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Reactivity and strength development of CO2activated non-hydraulic calcium silicates"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0095",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0018320551",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "9"
+                    },
+                    "pagerange": {
+                      "@first": "57",
+                      "@last": "68"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Bukowski",
+                        "ce:indexed-name": "Bukowski J.M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Berger",
+                        "ce:indexed-name": "Berger R.L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Bukowski, J.M., Berger, R.L., Reactivity and strength development of CO2 activated non-hydraulic calcium silicates. Cem. Concr. Res. 9 (1979), 57–68."
+              },
+              {
+                "ref-fulltext": "Pihlajavaara, S.E., Some results of the effect of carbonation on the porosity and pore size distribution of cement paste. Mater. Struct. 1 (1968), 521–527.",
+                "@id": "20",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1968"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Some results of the effect of carbonation on the porosity and pore size distribution of cement paste"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0100",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "51249192547",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "1"
+                    },
+                    "pagerange": {
+                      "@first": "521",
+                      "@last": "527"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.E.",
+                        "@_fa": "true",
+                        "ce:surname": "Pihlajavaara",
+                        "ce:indexed-name": "Pihlajavaara S.E."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Mater. Struct."
+                },
+                "ce:source-text": "Pihlajavaara, S.E., Some results of the effect of carbonation on the porosity and pore size distribution of cement paste. Mater. Struct. 1 (1968), 521–527."
+              },
+              {
+                "ref-fulltext": "Ngala, V.T., Page, C.L., Effects of carbonation on pore structure and diffusional properties of hydrated cement pastes. Cem. Concr. Res. 27 (1997), 995–1007.",
+                "@id": "21",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1997"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effects of carbonation on pore structure and diffusional properties of hydrated cement pastes"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0105",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0000531676",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "27"
+                    },
+                    "pagerange": {
+                      "@first": "995",
+                      "@last": "1007"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "V.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Ngala",
+                        "ce:indexed-name": "Ngala V.T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Page",
+                        "ce:indexed-name": "Page C.L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Ngala, V.T., Page, C.L., Effects of carbonation on pore structure and diffusional properties of hydrated cement pastes. Cem. Concr. Res. 27 (1997), 995–1007."
+              },
+              {
+                "ref-fulltext": "Ashraf, W., Olek, J., Carbonation activated binders from pure calcium silicates: reaction kinetics and performance controlling factors. Cem. Concr. Compos. 93 (2018), 85–98.",
+                "@id": "22",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Carbonation activated binders from pure calcium silicates: reaction kinetics and performance controlling factors"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0110",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85049904998",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "93"
+                    },
+                    "pagerange": {
+                      "@first": "85",
+                      "@last": "98"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Ashraf",
+                        "ce:indexed-name": "Ashraf W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Olek",
+                        "ce:indexed-name": "Olek J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Compos."
+                },
+                "ce:source-text": "Ashraf, W., Olek, J., Carbonation activated binders from pure calcium silicates: reaction kinetics and performance controlling factors. Cem. Concr. Compos. 93 (2018), 85–98."
+              },
+              {
+                "ref-fulltext": "Ashraf, W., Olek, J., Carbonation behavior of hydraulic and non-hydraulic calcium silicates: potential of utilizing low-lime calcium silicates in cement-based materials. J. Mater. Sci. 51 (2016), 6173–6191.",
+                "@id": "23",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Carbonation behavior of hydraulic and non-hydraulic calcium silicates: potential of utilizing low-lime calcium silicates in cement-based materials"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0115",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84962205017",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "51"
+                    },
+                    "pagerange": {
+                      "@first": "6173",
+                      "@last": "6191"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Ashraf",
+                        "ce:indexed-name": "Ashraf W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Olek",
+                        "ce:indexed-name": "Olek J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Mater. Sci."
+                },
+                "ce:source-text": "Ashraf, W., Olek, J., Carbonation behavior of hydraulic and non-hydraulic calcium silicates: potential of utilizing low-lime calcium silicates in cement-based materials. J. Mater. Sci. 51 (2016), 6173–6191."
+              },
+              {
+                "ref-fulltext": "Papadakis, V.G., Vayenas, C.G., Fardis, M.N., Fundamental modeling and experimental investigation of concrete carbonation. ACI Mater. J 88 (1991), 363–373.",
+                "@id": "24",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1991"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Fundamental modeling and experimental investigation of concrete carbonation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0120",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0026185675",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "88"
+                    },
+                    "pagerange": {
+                      "@first": "363",
+                      "@last": "373"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "V.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Papadakis",
+                        "ce:indexed-name": "Papadakis V.G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Vayenas",
+                        "ce:indexed-name": "Vayenas C.G."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Fardis",
+                        "ce:indexed-name": "Fardis M.N."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "ACI Mater. J"
+                },
+                "ce:source-text": "Papadakis, V.G., Vayenas, C.G., Fardis, M.N., Fundamental modeling and experimental investigation of concrete carbonation. ACI Mater. J 88 (1991), 363–373."
+              },
+              {
+                "ref-fulltext": "Cui, H.Z., Tang, W.C., Liu, W., et al. Experimental study on effects of CO2concentrations on concrete carbonation and diffusion mechanisms. Constr. Build. Mater. 93 (2015), 522–527.",
+                "@id": "25",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental study on effects of CO2concentrations on concrete carbonation and diffusion mechanisms"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0125",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84935011771",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "93"
+                    },
+                    "pagerange": {
+                      "@first": "522",
+                      "@last": "527"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Cui",
+                        "ce:indexed-name": "Cui H.Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Tang",
+                        "ce:indexed-name": "Tang W.C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu W."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "Cui, H.Z., Tang, W.C., Liu, W., et al. Experimental study on effects of CO2 concentrations on concrete carbonation and diffusion mechanisms. Constr. Build. Mater. 93 (2015), 522–527."
+              },
+              {
+                "ref-fulltext": "Loo, Y.H., Chin, M.S., Tam, C.T., et al. A carbonation prediction model for accelerated carbonation testing of concrete. Mag. Concr. Res. 46 (1994), 191–200.",
+                "@id": "26",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1994"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A carbonation prediction model for accelerated carbonation testing of concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0130",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0028510584",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "46"
+                    },
+                    "pagerange": {
+                      "@first": "191",
+                      "@last": "200"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Loo",
+                        "ce:indexed-name": "Loo Y.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Chin",
+                        "ce:indexed-name": "Chin M.S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Tam",
+                        "ce:indexed-name": "Tam C.T."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Mag. Concr. Res."
+                },
+                "ce:source-text": "Loo, Y.H., Chin, M.S., Tam, C.T., et al. A carbonation prediction model for accelerated carbonation testing of concrete. Mag. Concr. Res. 46 (1994), 191–200."
+              },
+              {
+                "ref-fulltext": "Cole, W.F., Kroone, B., Carbonate minerals in hydrated Portland cement. Nature, 184, 1959, 57.",
+                "@id": "27",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1959"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Carbonate minerals in hydrated Portland cement"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0135",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0002712303",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "184"
+                    },
+                    "pagerange": {
+                      "@first": "57"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Cole",
+                        "ce:indexed-name": "Cole W.F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Kroone",
+                        "ce:indexed-name": "Kroone B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Nature"
+                },
+                "ce:source-text": "Cole, W.F., Kroone, B., Carbonate minerals in hydrated Portland cement. Nature, 184, 1959, 57."
+              },
+              {
+                "ref-fulltext": "El-Hassan, H., Shao, Y.X., Early carbonation curing of concrete masonry units with Portland limestone cement. Cem. Concr. Compos. 62 (2015), 168–177.",
+                "@id": "28",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Early carbonation curing of concrete masonry units with Portland limestone cement"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0140",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84938412872",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "62"
+                    },
+                    "pagerange": {
+                      "@first": "168",
+                      "@last": "177"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "El-Hassan",
+                        "ce:indexed-name": "El-Hassan H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.X.",
+                        "@_fa": "true",
+                        "ce:surname": "Shao",
+                        "ce:indexed-name": "Shao Y.X."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Compos."
+                },
+                "ce:source-text": "El-Hassan, H., Shao, Y.X., Early carbonation curing of concrete masonry units with Portland limestone cement. Cem. Concr. Compos. 62 (2015), 168–177."
+              },
+              {
+                "ref-fulltext": "Lilkov, V., Rostovsky, I., Petrov, O., et al. Long term study of hardened cement pastes containing silica fume and fly ash. Constr. Build. Mater. 60 (2014), 48–56.",
+                "@id": "29",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Long term study of hardened cement pastes containing silica fume and fly ash"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0145",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84896971034",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "60"
+                    },
+                    "pagerange": {
+                      "@first": "48",
+                      "@last": "56"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "V.",
+                        "@_fa": "true",
+                        "ce:surname": "Lilkov",
+                        "ce:indexed-name": "Lilkov V."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "I.",
+                        "@_fa": "true",
+                        "ce:surname": "Rostovsky",
+                        "ce:indexed-name": "Rostovsky I."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "O.",
+                        "@_fa": "true",
+                        "ce:surname": "Petrov",
+                        "ce:indexed-name": "Petrov O."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "Lilkov, V., Rostovsky, I., Petrov, O., et al. Long term study of hardened cement pastes containing silica fume and fly ash. Constr. Build. Mater. 60 (2014), 48–56."
+              },
+              {
+                "ref-fulltext": "Chang, J., Fang, Y.F., Quantitative analysis of accelerated carbonation products of the synthetic calcium silicate hydrate(C–S–H)by QXRD and TG/MS. J. Therm. Anal. Calorim. 119 (2014), 57–62.",
+                "@id": "30",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Quantitative analysis of accelerated carbonation products of the synthetic calcium silicate hydrate(C–S–H)by QXRD and TG/MS"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0150",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84920596715",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "119"
+                    },
+                    "pagerange": {
+                      "@first": "57",
+                      "@last": "62"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Chang",
+                        "ce:indexed-name": "Chang J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Fang",
+                        "ce:indexed-name": "Fang Y.F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Therm. Anal. Calorim."
+                },
+                "ce:source-text": "Chang, J., Fang, Y.F., Quantitative analysis of accelerated carbonation products of the synthetic calcium silicate hydrate(C–S–H)by QXRD and TG/MS. J. Therm. Anal. Calorim. 119 (2014), 57–62."
+              },
+              {
+                "ref-fulltext": "Goni, S., Gaztañaga, M.T., Guerrero, A., Role of cement type on carbonation attack. J. Mater. Res. 17 (2002), 1834–1842.",
+                "@id": "31",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2002"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Role of cement type on carbonation attack"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0155",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0036648375",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "17"
+                    },
+                    "pagerange": {
+                      "@first": "1834",
+                      "@last": "1842"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Goni",
+                        "ce:indexed-name": "Goni S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Gaztañaga",
+                        "ce:indexed-name": "Gaztanaga M.T."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Guerrero",
+                        "ce:indexed-name": "Guerrero A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Mater. Res."
+                },
+                "ce:source-text": "Goni, S., Gaztañaga, M.T., Guerrero, A., Role of cement type on carbonation attack. J. Mater. Res. 17 (2002), 1834–1842."
+              },
+              {
+                "ref-fulltext": "Ashraf, W., Olek, J., Elucidating the accelerated carbonation products of calcium silicates using multi-technique approach. J. CO2Util. 23 (2018), 61–74.",
+                "@id": "32",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Elucidating the accelerated carbonation products of calcium silicates using multi-technique approach"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0160",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85034975903",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "23"
+                    },
+                    "pagerange": {
+                      "@first": "61",
+                      "@last": "74"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Ashraf",
+                        "ce:indexed-name": "Ashraf W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Olek",
+                        "ce:indexed-name": "Olek J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. CO2Util."
+                },
+                "ce:source-text": "Ashraf, W., Olek, J., Elucidating the accelerated carbonation products of calcium silicates using multi-technique approach. J. CO2 Util. 23 (2018), 61–74."
+              },
+              {
+                "ref-fulltext": "Anstice, D.J., Page, C.L., Page, M.M., The pore solution phase of carbonated cement pastes. Cem. Concr. Res. 35 (2005), 377–383.",
+                "@id": "33",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2005"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The pore solution phase of carbonated cement pastes"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0165",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "13644264999",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "35"
+                    },
+                    "pagerange": {
+                      "@first": "377",
+                      "@last": "383"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Anstice",
+                        "ce:indexed-name": "Anstice D.J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Page",
+                        "ce:indexed-name": "Page C.L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Page",
+                        "ce:indexed-name": "Page M.M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Anstice, D.J., Page, C.L., Page, M.M., The pore solution phase of carbonated cement pastes. Cem. Concr. Res. 35 (2005), 377–383."
+              },
+              {
+                "ref-fulltext": "Sauman, Z., Carbonization of porous concrete and its main binding components. Cem. Concr. Res. 1 (1971), 645–662.",
+                "@id": "34",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1971"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Carbonization of porous concrete and its main binding components"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0170",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0015159588",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "1"
+                    },
+                    "pagerange": {
+                      "@first": "645",
+                      "@last": "662"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Sauman",
+                        "ce:indexed-name": "Sauman Z."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Sauman, Z., Carbonization of porous concrete and its main binding components. Cem. Concr. Res. 1 (1971), 645–662."
+              },
+              {
+                "ref-fulltext": "Sevelsted, T.F., Skibsted, J., Carbonation of C–S–H and C–A–S–H samples studied by13C,27Al and29Si MAS NMR spectroscopy. Cem. Concr. Res. 71 (2015), 56–65.",
+                "@id": "35",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Carbonation of C–S–H and C–A–S–H samples studied by13C,27Al and29Si MAS NMR spectroscopy"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0175",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84922343418",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "71"
+                    },
+                    "pagerange": {
+                      "@first": "56",
+                      "@last": "65"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Sevelsted",
+                        "ce:indexed-name": "Sevelsted T.F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Skibsted",
+                        "ce:indexed-name": "Skibsted J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Sevelsted, T.F., Skibsted, J., Carbonation of C–S–H and C–A–S–H samples studied by 13C, 27Al and 29Si MAS NMR spectroscopy. Cem. Concr. Res. 71 (2015), 56–65."
+              },
+              {
+                "ref-fulltext": "Chen, J.J., Thomas, J.J., Jennings, H.M., Decalcification shrinkage of cement paste. Cem. Concr. Res. 36 (2006), 801–809.",
+                "@id": "36",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2006"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Decalcification shrinkage of cement paste"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0180",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "33748688205",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "36"
+                    },
+                    "pagerange": {
+                      "@first": "801",
+                      "@last": "809"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen J.J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Thomas",
+                        "ce:indexed-name": "Thomas J.J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Jennings",
+                        "ce:indexed-name": "Jennings H.M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Chen, J.J., Thomas, J.J., Jennings, H.M., Decalcification shrinkage of cement paste. Cem. Concr. Res. 36 (2006), 801–809."
+              },
+              {
+                "ref-fulltext": "Thomas, S., Meise-Gresch, K., Müller-Warmuth, W., et al. MAS NMR studies of partially carbonated portland cement and tricalcium silicate pastes. J. Am. Ceram. Soc. 76 (2005), 1998–2004.",
+                "@id": "37",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2005"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "MAS NMR studies of partially carbonated portland cement and tricalcium silicate pastes"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0185",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0027641930",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "76"
+                    },
+                    "pagerange": {
+                      "@first": "1998",
+                      "@last": "2004"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Thomas",
+                        "ce:indexed-name": "Thomas S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Meise-Gresch",
+                        "ce:indexed-name": "Meise-Gresch K."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Müller-Warmuth",
+                        "ce:indexed-name": "Muller-Warmuth W."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "J. Am. Ceram. Soc."
+                },
+                "ce:source-text": "Thomas, S., Meise-Gresch, K., Müller-Warmuth, W., et al. MAS NMR studies of partially carbonated portland cement and tricalcium silicate pastes. J. Am. Ceram. Soc. 76 (2005), 1998–2004."
+              },
+              {
+                "ref-fulltext": "Li, N., Farzadnia, N., Shi, C.J., Microstructural changes in alkali-activated slag mortars induced by accelerated carbonation. Cem. Concr. Res. 100 (2017), 214–226.",
+                "@id": "38",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Microstructural changes in alkali-activated slag mortars induced by accelerated carbonation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0190",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85026272147",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "100"
+                    },
+                    "pagerange": {
+                      "@first": "214",
+                      "@last": "226"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li N."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Farzadnia",
+                        "ce:indexed-name": "Farzadnia N."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi C.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Li, N., Farzadnia, N., Shi, C.J., Microstructural changes in alkali-activated slag mortars induced by accelerated carbonation. Cem. Concr. Res. 100 (2017), 214–226."
+              },
+              {
+                "ref-fulltext": "Seo, J.H., Park, S.M., Lee, H.K., Evolution of the binder gel in carbonation-cured Portland cement in an acidic medium. Cem. Concr. Res. 109 (2018), 81–89.",
+                "@id": "39",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Evolution of the binder gel in carbonation-cured Portland cement in an acidic medium"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0195",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85045581940",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "109"
+                    },
+                    "pagerange": {
+                      "@first": "81",
+                      "@last": "89"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Seo",
+                        "ce:indexed-name": "Seo J.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Park",
+                        "ce:indexed-name": "Park S.M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee H.K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Seo, J.H., Park, S.M., Lee, H.K., Evolution of the binder gel in carbonation-cured Portland cement in an acidic medium. Cem. Concr. Res. 109 (2018), 81–89."
+              },
+              {
+                "ref-fulltext": "Groves, G.W., Brough, A., Richardson, I.G., et al. Progressive changes in the structure of hardened C3S cement pastes due to carbonation. J. Am. Ceram. Soc. 74 (1991), 2891–2896.",
+                "@id": "40",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1991"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Progressive changes in the structure of hardened C3S cement pastes due to carbonation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0200",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0025957196",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "74"
+                    },
+                    "pagerange": {
+                      "@first": "2891",
+                      "@last": "2896"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Groves",
+                        "ce:indexed-name": "Groves G.W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Brough",
+                        "ce:indexed-name": "Brough A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "I.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Richardson",
+                        "ce:indexed-name": "Richardson I.G."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "J. Am. Ceram. Soc."
+                },
+                "ce:source-text": "Groves, G.W., Brough, A., Richardson, I.G., et al. Progressive changes in the structure of hardened C3S cement pastes due to carbonation. J. Am. Ceram. Soc. 74 (1991), 2891–2896."
+              },
+              {
+                "ref-fulltext": "Matsushita, F., Aono, Y., Shibata, S., Calcium silicate structure and carbonation shrinkage of a tobermorite-based material. Cem. Concr. Res. 34 (2004), 1251–1257.",
+                "@id": "41",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2004"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Calcium silicate structure and carbonation shrinkage of a tobermorite-based material"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0205",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "2942724713",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "34"
+                    },
+                    "pagerange": {
+                      "@first": "1251",
+                      "@last": "1257"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Matsushita",
+                        "ce:indexed-name": "Matsushita F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Aono",
+                        "ce:indexed-name": "Aono Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Shibata",
+                        "ce:indexed-name": "Shibata S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Matsushita, F., Aono, Y., Shibata, S., Calcium silicate structure and carbonation shrinkage of a tobermorite-based material. Cem. Concr. Res. 34 (2004), 1251–1257."
+              },
+              {
+                "ref-fulltext": "Castellote, M., Fernandez, L., Andrade, C., et al. Chemical changes and phase analysis of OPC pastes carbonated at different CO2 concentrations. Mater. Struct. 42 (2008), 515–525.",
+                "@id": "42",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2008"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Chemical changes and phase analysis of OPC pastes carbonated at different CO2 concentrations"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0210",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "65049089864",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "42"
+                    },
+                    "pagerange": {
+                      "@first": "515",
+                      "@last": "525"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Castellote",
+                        "ce:indexed-name": "Castellote M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Fernandez",
+                        "ce:indexed-name": "Fernandez L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Andrade",
+                        "ce:indexed-name": "Andrade C."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Mater. Struct."
+                },
+                "ce:source-text": "Castellote, M., Fernandez, L., Andrade, C., et al. Chemical changes and phase analysis of OPC pastes carbonated at different CO2 concentrations. Mater. Struct. 42 (2008), 515–525."
+              },
+              {
+                "ref-fulltext": "Richardson, I., Model structures for C-(A)-S-H(I). Acta Crystallogr. 70 (2015), 903–923.",
+                "@id": "43",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Model structures for C-(A)-S-H(I)"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0215",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84915798436",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "70"
+                    },
+                    "pagerange": {
+                      "@first": "903",
+                      "@last": "923"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "I.",
+                        "@_fa": "true",
+                        "ce:surname": "Richardson",
+                        "ce:indexed-name": "Richardson I."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Acta Crystallogr."
+                },
+                "ce:source-text": "Richardson, I., Model structures for C-(A)-S-H(I). Acta Crystallogr. 70 (2015), 903–923."
+              },
+              {
+                "ref-fulltext": "Vega, A.J., Scherer, G.W., Study of structural evolution of silica gel using1H and29Si NMR. J. Non-Cryst. Solids 111 (1989), 153–166.",
+                "@id": "44",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1989"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Study of structural evolution of silica gel using1H and29Si NMR"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0220",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0024764719",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "111"
+                    },
+                    "pagerange": {
+                      "@first": "153",
+                      "@last": "166"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Vega",
+                        "ce:indexed-name": "Vega A.J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Scherer",
+                        "ce:indexed-name": "Scherer G.W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Non-Cryst. Solids"
+                },
+                "ce:source-text": "Vega, A.J., Scherer, G.W., Study of structural evolution of silica gel using 1H and 29Si NMR. J. Non-Cryst. Solids 111 (1989), 153–166."
+              },
+              {
+                "ref-fulltext": "Ikeda, Y., Yasuike, Y., Kumagai, M., et al.29Si MAS NMR study on structural change of silicate anions with carbonation of synthetic 11Å tobermorite. J. Ceram. Soc. Jan. 100 (1992), 1098–1102.",
+                "@id": "45",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1992"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "29Si MAS NMR study on structural change of silicate anions with carbonation of synthetic 11Å tobermorite"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0225",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0026925813",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "100"
+                    },
+                    "pagerange": {
+                      "@first": "1098",
+                      "@last": "1102"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Ikeda",
+                        "ce:indexed-name": "Ikeda Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Yasuike",
+                        "ce:indexed-name": "Yasuike Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Kumagai",
+                        "ce:indexed-name": "Kumagai M."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "J. Ceram. Soc. Jan."
+                },
+                "ce:source-text": "Ikeda, Y., Yasuike, Y., Kumagai, M., et al. 29Si MAS NMR study on structural change of silicate anions with carbonation of synthetic 11Å tobermorite. J. Ceram. Soc. Jan. 100 (1992), 1098–1102."
+              },
+              {
+                "ref-fulltext": "Hjorth, J., Skibsted, J., Jakobsen, H.J.,29Si MAS NMR studies of portland cement components and effects of microsilica on the hydration react. Cem. Concr. Res. 18 (1988), 789–798.",
+                "@id": "46",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1988"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "29Si MAS NMR studies of portland cement components and effects of microsilica on the hydration react"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0230",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0024082677",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "18"
+                    },
+                    "pagerange": {
+                      "@first": "789",
+                      "@last": "798"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Hjorth",
+                        "ce:indexed-name": "Hjorth J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Skibsted",
+                        "ce:indexed-name": "Skibsted J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Jakobsen",
+                        "ce:indexed-name": "Jakobsen H.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Hjorth, J., Skibsted, J., Jakobsen, H.J., 29Si MAS NMR studies of portland cement components and effects of microsilica on the hydration react. Cem. Concr. Res. 18 (1988), 789–798."
+              },
+              {
+                "ref-fulltext": "Lothenbach, B., Nonat, A., Calcium silicate hydrates: solid and liquid phase composition. Cem. Concr. Res. 78 (2015), 57–70.",
+                "@id": "47",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Calcium silicate hydrates: solid and liquid phase composition"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0235",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84953367780",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "78"
+                    },
+                    "pagerange": {
+                      "@first": "57",
+                      "@last": "70"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Lothenbach",
+                        "ce:indexed-name": "Lothenbach B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Nonat",
+                        "ce:indexed-name": "Nonat A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Lothenbach, B., Nonat, A., Calcium silicate hydrates: solid and liquid phase composition. Cem. Concr. Res. 78 (2015), 57–70."
+              },
+              {
+                "ref-fulltext": "Walker, C.S., Savage, D., Tyrer, M., et al. Non-ideal solid solution aqueous solution modeling of synthetic calcium silicate hydrate. Cem. Concr. Res. 37 (2007), 502–511.",
+                "@id": "48",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Non-ideal solid solution aqueous solution modeling of synthetic calcium silicate hydrate"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0240",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "33947585038",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "37"
+                    },
+                    "pagerange": {
+                      "@first": "502",
+                      "@last": "511"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Walker",
+                        "ce:indexed-name": "Walker C.S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Savage",
+                        "ce:indexed-name": "Savage D."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Tyrer",
+                        "ce:indexed-name": "Tyrer M."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Walker, C.S., Savage, D., Tyrer, M., et al. Non-ideal solid solution aqueous solution modeling of synthetic calcium silicate hydrate. Cem. Concr. Res. 37 (2007), 502–511."
+              },
+              {
+                "ref-fulltext": "Shah, V., Scrivener, K., Bhattacharjee, B., et al. Changes in microstructure characteristics of cement paste on carbonation. Cem. Concr. Res. 109 (2018), 184–197.",
+                "@id": "49",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Changes in microstructure characteristics of cement paste on carbonation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0245",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85046087960",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "109"
+                    },
+                    "pagerange": {
+                      "@first": "184",
+                      "@last": "197"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "V.",
+                        "@_fa": "true",
+                        "ce:surname": "Shah",
+                        "ce:indexed-name": "Shah V."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Scrivener",
+                        "ce:indexed-name": "Scrivener K."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Bhattacharjee",
+                        "ce:indexed-name": "Bhattacharjee B."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Shah, V., Scrivener, K., Bhattacharjee, B., et al. Changes in microstructure characteristics of cement paste on carbonation. Cem. Concr. Res. 109 (2018), 184–197."
+              },
+              {
+                "ref-fulltext": "Kawano, J., Shimobayashi, N., Miyake, A., et al. Precipitation diagram of calcium carbonate polymorphs: its construction and significance. J. Phys. Condens. Matter, 21, 2009.",
+                "@id": "50",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Precipitation diagram of calcium carbonate polymorphs: its construction and significance"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0250",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "70349317268",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "21"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Kawano",
+                        "ce:indexed-name": "Kawano J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Shimobayashi",
+                        "ce:indexed-name": "Shimobayashi N."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Miyake",
+                        "ce:indexed-name": "Miyake A."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "J. Phys. Condens. Matter"
+                },
+                "ce:source-text": "Kawano, J., Shimobayashi, N., Miyake, A., et al. Precipitation diagram of calcium carbonate polymorphs: its construction and significance. J. Phys. Condens. Matter, 21, 2009."
+              },
+              {
+                "ref-fulltext": "Groves, G.W., Rodway, D.I., Richardson, I.G., The carbonation of hardened cement pastes. Adv. Cem. Res. 3 (1990), 117–125.",
+                "@id": "51",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1990"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The carbonation of hardened cement pastes"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0255",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85000086796",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "3"
+                    },
+                    "pagerange": {
+                      "@first": "117",
+                      "@last": "125"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Groves",
+                        "ce:indexed-name": "Groves G.W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.I.",
+                        "@_fa": "true",
+                        "ce:surname": "Rodway",
+                        "ce:indexed-name": "Rodway D.I."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "I.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Richardson",
+                        "ce:indexed-name": "Richardson I.G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Adv. Cem. Res."
+                },
+                "ce:source-text": "Groves, G.W., Rodway, D.I., Richardson, I.G., The carbonation of hardened cement pastes. Adv. Cem. Res. 3 (1990), 117–125."
+              },
+              {
+                "ref-fulltext": "Monasterio, M., Gaitero, J.J., Erkizia, E., et al. Effect of addition of silica- and amine functionalized silica-nanoparticles on the microstructure of calcium silicate hydrate (C-S-H)gel. J. Colloid Interface Sci. 450 (2015), 109–118.",
+                "@id": "52",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of addition of silica- and amine functionalized silica-nanoparticles on the microstructure of calcium silicate hydrate (C-S-H)gel"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0260",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84925295751",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "450"
+                    },
+                    "pagerange": {
+                      "@first": "109",
+                      "@last": "118"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Monasterio",
+                        "ce:indexed-name": "Monasterio M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Gaitero",
+                        "ce:indexed-name": "Gaitero J.J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Erkizia",
+                        "ce:indexed-name": "Erkizia E."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "J. Colloid Interface Sci."
+                },
+                "ce:source-text": "Monasterio, M., Gaitero, J.J., Erkizia, E., et al. Effect of addition of silica- and amine functionalized silica-nanoparticles on the microstructure of calcium silicate hydrate (C-S-H)gel. J. Colloid Interface Sci. 450 (2015), 109–118."
+              },
+              {
+                "ref-fulltext": "Black, L., Breen, C., Yarwood, J., et al. Structural features of C-S-H(I)and its carbonation in air—a Raman spectroscopic study. Part II: carbonated phases. J. Am. Ceram. Soc. 90 (2007), 908–917.",
+                "@id": "53",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Structural features of C-S-H(I)and its carbonation in air—a Raman spectroscopic study. Part II: carbonated phases"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0265",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "33847743825",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "90"
+                    },
+                    "pagerange": {
+                      "@first": "908",
+                      "@last": "917"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Black",
+                        "ce:indexed-name": "Black L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Breen",
+                        "ce:indexed-name": "Breen C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Yarwood",
+                        "ce:indexed-name": "Yarwood J."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "J. Am. Ceram. Soc."
+                },
+                "ce:source-text": "Black, L., Breen, C., Yarwood, J., et al. Structural features of C-S-H(I)and its carbonation in air—a Raman spectroscopic study. Part II: carbonated phases. J. Am. Ceram. Soc. 90 (2007), 908–917."
+              },
+              {
+                "ref-fulltext": "Black, L., Garbev, K., Gee, I., Surface carbonation of synthetic C-S-H samples: a comparison between fresh and aged C-S-H using X-ray photoelectron spectroscopy. Cem. Concr. Res. 38 (2008), 745–750.",
+                "@id": "54",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2008"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Surface carbonation of synthetic C-S-H samples: a comparison between fresh and aged C-S-H using X-ray photoelectron spectroscopy"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0270",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "43049165792",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "38"
+                    },
+                    "pagerange": {
+                      "@first": "745",
+                      "@last": "750"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Black",
+                        "ce:indexed-name": "Black L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Garbev",
+                        "ce:indexed-name": "Garbev K."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "I.",
+                        "@_fa": "true",
+                        "ce:surname": "Gee",
+                        "ce:indexed-name": "Gee I."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Black, L., Garbev, K., Gee, I., Surface carbonation of synthetic C-S-H samples: a comparison between fresh and aged C-S-H using X-ray photoelectron spectroscopy. Cem. Concr. Res. 38 (2008), 745–750."
+              },
+              {
+                "ref-fulltext": "Richardson, I.G., Groves, G.W., Models for the composition and structure of calcium silicate hydrate (C–S–H)gel in hardened tricalcium silicate pastes. Cem. Concr. Res. 22 (1992), 1001–1010.",
+                "@id": "55",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1992"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Models for the composition and structure of calcium silicate hydrate (C–S–H)gel in hardened tricalcium silicate pastes"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0275",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0026942829",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "22"
+                    },
+                    "pagerange": {
+                      "@first": "1001",
+                      "@last": "1010"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "I.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Richardson",
+                        "ce:indexed-name": "Richardson I.G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Groves",
+                        "ce:indexed-name": "Groves G.W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Richardson, I.G., Groves, G.W., Models for the composition and structure of calcium silicate hydrate (C–S–H)gel in hardened tricalcium silicate pastes. Cem. Concr. Res. 22 (1992), 1001–1010."
+              },
+              {
+                "ref-fulltext": "Harrison, T.A., Jones, M.R., Newlands, M.D., et al. Experience of using the prTS 12390-12 accelerated carbonation test to assess the relative performance of concrete. Mag. Concrete. Res. 64 (2012), 737–747.",
+                "@id": "56",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experience of using the prTS 12390-12 accelerated carbonation test to assess the relative performance of concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0280",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84865845426",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "64"
+                    },
+                    "pagerange": {
+                      "@first": "737",
+                      "@last": "747"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Harrison",
+                        "ce:indexed-name": "Harrison T.A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Jones",
+                        "ce:indexed-name": "Jones M.R."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Newlands",
+                        "ce:indexed-name": "Newlands M.D."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Mag. Concrete. Res."
+                },
+                "ce:source-text": "Harrison, T.A., Jones, M.R., Newlands, M.D., et al. Experience of using the prTS 12390-12 accelerated carbonation test to assess the relative performance of concrete. Mag. Concrete. Res. 64 (2012), 737–747."
+              },
+              {
+                "ref-fulltext": "Andersen, M.D., Jakobsen, H.J., Skibsted, J., Characterization of white Portland cement hydration and the C-S-H structure in the presence of sodium aluminate by27Al and29Si MAS NMR spectroscopy. Cem. Concr. Res. 34 (2004), 857–868.",
+                "@id": "57",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2004"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Characterization of white Portland cement hydration and the C-S-H structure in the presence of sodium aluminate by27Al and29Si MAS NMR spectroscopy"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib0285",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "1942535717",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "34"
+                    },
+                    "pagerange": {
+                      "@first": "857",
+                      "@last": "868"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Andersen",
+                        "ce:indexed-name": "Andersen M.D."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Jakobsen",
+                        "ce:indexed-name": "Jakobsen H.J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Skibsted",
+                        "ce:indexed-name": "Skibsted J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Andersen, M.D., Jakobsen, H.J., Skibsted, J., Characterization of white Portland cement hydration and the C-S-H structure in the presence of sodium aluminate by 27Al and 29Si MAS NMR spectroscopy. Cem. Concr. Res. 34 (2004), 857–868."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "affiliation": [
+      {
+        "affiliation-city": "Shenzhen",
+        "@id": "60000937",
+        "affilname": "Shenzhen University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60000937",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Gothenburg",
+        "@id": "60000990",
+        "affilname": "Chalmers University of Technology",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60000990",
+        "affiliation-country": "Sweden"
+      },
+      {
+        "affiliation-city": "Shenzhen",
+        "@id": "60104000",
+        "affilname": "ShenZhen Institute of Information Technology",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60104000",
+        "affiliation-country": "China"
+      }
+    ],
+    "coredata": {
+      "srctype": "j",
+      "eid": "2-s2.0-85065881818",
+      "dc:description": "In this study, the chemical composition of cement pastes, exposed to accelerated carbonation using different concentration of CO2 (3%, 10%, 20%, 50%,100%), have been determined and compared with those of natural carbonation (0.03%). Quantitative X-ray diffraction (QXRD)and 29Si Magic Angle Spinning Nuclear Magnetic Resonance (MAS NMR)were used for characterisation and quantitative analysis of the carbonated phases. The obtained QXRD results revealed that the complete carbonation was hardly attained. Calcite, aragonite and vaterite were in co-existence after accelerated carbonation, while vaterite was dominant. The preferential polymorphic precipitation of the three crystal forms of calcium carbonate was affected by the carbonation degree of C-S-H and the duration of the carbonation process, but not by the concentration of CO2. The NMR results indicated that C-S-H gel was strongly decalcified, and calcium modified silica gel was formed after carbonation. The C-S-H decalcification, under all the accelerated carbonation conditions, was clearly more pronounced than that under the natural carbonation conditions. When the concentration of CO2 was in the range of 3%–20%, the ratio of decalcified to remaining C-S-H was similar, in a range of 5–6, while under the higher concentration of CO2 this ratio was increased to >8. Therefore, in consideration of both acceleration rate and measurement uncertainty, the higher concentration, up to 20%, of CO2 in an accelerated carbonation should be applicable.",
+      "prism:coverDate": "2019-06-01",
+      "prism:aggregationType": "Journal",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85065881818",
+      "dc:creator": {
+        "author": [
+          {
+            "ce:given-name": "Wei",
+            "preferred-name": {
+              "ce:given-name": "Wei",
+              "ce:initials": "W.",
+              "ce:surname": "Liu",
+              "ce:indexed-name": "Liu W."
+            },
+            "@seq": "1",
+            "ce:initials": "W.",
+            "@_fa": "true",
+            "affiliation": {
+              "@id": "60000937",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60000937"
+            },
+            "ce:surname": "Liu",
+            "@auid": "56155733300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56155733300",
+            "ce:indexed-name": "Liu W."
+          }
+        ]
+      },
+      "link": [
+        {
+          "@_fa": "true",
+          "@rel": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85065881818"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85065881818&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85065881818&origin=inward"
+        }
+      ],
+      "source-id": "21100369777",
+      "pii": "S2352492819301230",
+      "citedby-count": "114",
+      "prism:volume": "19",
+      "subtype": "ar",
+      "dc:title": "XRD and 29Si MAS NMR study on carbonated cement paste under accelerated carbonation using different concentration of CO2",
+      "openaccess": "1",
+      "prism:issn": "23524928",
+      "publishercopyright": "© 2019 The Authors",
+      "subtypeDescription": "Article",
+      "prism:publicationName": "Materials Today Communications",
+      "prism:pageRange": "464-470",
+      "prism:endingPage": "470",
+      "openaccessFlag": "true",
+      "prism:doi": "10.1016/j.mtcomm.2019.05.007",
+      "prism:startingPage": "464",
+      "dc:identifier": "SCOPUS_ID:85065881818",
+      "dc:publisher": "Elsevier Ltd"
+    },
+    "idxterms": {
+      "mainterm": [
+        {
+          "$": "Accelerated carbonation",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Chemical compositions",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "CO2 concentration",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Magic angle spinning nuclear magnetic resonance",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "MAS NMR",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Measurement uncertainty",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Natural carbonations",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Quantitative x ray diffraction",
+          "@weight": "b",
+          "@candidate": "n"
+        }
+      ]
+    },
+    "language": {
+      "@xml:lang": "eng"
+    },
+    "authkeywords": {
+      "author-keyword": [
+        {
+          "@_fa": "true",
+          "$": "29Si MAS NMR"
+        },
+        {
+          "@_fa": "true",
+          "$": "Carbonation"
+        },
+        {
+          "@_fa": "true",
+          "$": "Cement"
+        },
+        {
+          "@_fa": "true",
+          "$": "Different CO2 concentration"
+        },
+        {
+          "@_fa": "true",
+          "$": "XRD"
+        }
+      ]
+    },
+    "subject-areas": {
+      "subject-area": [
+        {
+          "@_fa": "true",
+          "$": "Materials Science (all)",
+          "@code": "2500",
+          "@abbrev": "MATE"
+        },
+        {
+          "@_fa": "true",
+          "$": "Mechanics of Materials",
+          "@code": "2211",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Materials Chemistry",
+          "@code": "2505",
+          "@abbrev": "MATE"
+        }
+      ]
+    },
+    "authors": {
+      "author": [
+        {
+          "ce:given-name": "Wei",
+          "preferred-name": {
+            "ce:given-name": "Wei",
+            "ce:initials": "W.",
+            "ce:surname": "Liu",
+            "ce:indexed-name": "Liu W."
+          },
+          "@seq": "1",
+          "ce:initials": "W.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60000937",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60000937"
+          },
+          "ce:surname": "Liu",
+          "@auid": "56155733300",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56155733300",
+          "ce:indexed-name": "Liu W."
+        },
+        {
+          "ce:given-name": "Yong-Qiang",
+          "preferred-name": {
+            "ce:given-name": "Yong Qiang",
+            "ce:initials": "Y.Q.",
+            "ce:surname": "Li",
+            "ce:indexed-name": "Li Y.Q."
+          },
+          "@seq": "2",
+          "ce:initials": "Y.-Q.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60000937",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60000937"
+          },
+          "ce:surname": "Li",
+          "@auid": "57222594827",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57222594827",
+          "ce:indexed-name": "Li Y.-Q."
+        },
+        {
+          "ce:given-name": "Lu-Ping",
+          "preferred-name": {
+            "ce:given-name": "Lu Ping",
+            "ce:initials": "L.P.",
+            "ce:surname": "Tang",
+            "ce:indexed-name": "Tang L.P."
+          },
+          "@seq": "3",
+          "ce:initials": "L.-P.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60000990",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60000990"
+          },
+          "ce:surname": "Tang",
+          "@auid": "7402080862",
+          "author-url": "https://api.elsevier.com/content/author/author_id/7402080862",
+          "ce:indexed-name": "Tang L.-P."
+        },
+        {
+          "ce:given-name": "Zhi-Jun",
+          "preferred-name": {
+            "ce:given-name": "Zhi Jun",
+            "ce:initials": "Z.J.",
+            "ce:surname": "Dong",
+            "ce:indexed-name": "Dong Z.J."
+          },
+          "@seq": "4",
+          "ce:initials": "Z.-J.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60104000",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60104000"
+          },
+          "ce:surname": "Dong",
+          "@auid": "32667522000",
+          "author-url": "https://api.elsevier.com/content/author/author_id/32667522000",
+          "ce:indexed-name": "Dong Z.-J."
+        }
+      ]
+    }
+  }
+}

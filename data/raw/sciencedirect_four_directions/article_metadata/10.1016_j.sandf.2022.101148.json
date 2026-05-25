@@ -1,0 +1,3547 @@
+{
+  "abstracts-retrieval-response": {
+    "item": {
+      "ait:process-info": {
+        "ait:status": {
+          "@state": "update",
+          "@type": "core",
+          "@stage": "S300"
+        },
+        "ait:date-delivered": {
+          "@day": "19",
+          "@timestamp": "2025-03-19T04:28:12.000012-04:00",
+          "@year": "2025",
+          "@month": "03"
+        },
+        "ait:date-sort": {
+          "@day": "01",
+          "@year": "2022",
+          "@month": "06"
+        }
+      },
+      "xocs:meta": {
+        "xocs:funding-list": {
+          "@pui-match": "primary",
+          "@has-funding-info": "1",
+          "xocs:funding": [
+            {
+              "xocs:funding-agency-matched-string": "Kawasaki Geological Engineering"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Tokyo Institute of Technology",
+              "xocs:funding-agency-acronym": "TITECH",
+              "xocs:funding-agency": "Tokyo Institute of Technology",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100004520",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1861060/"
+            }
+          ],
+          "xocs:funding-addon-generated-timestamp": "2022-05-06T22:04:37.450Z",
+          "xocs:funding-text": "The authors are grateful to Kawasaki Geological Engineering Company for their excellent work on soil testing and helpful discussions. The authors are indebted to Mr Sakae Seki, a technician at the Tokyo Institute of Technology, for his continuous cooperation with the centrifuge experiments.",
+          "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }
+      },
+      "bibrecord": {
+        "head": {
+          "author-group": [
+            {
+              "affiliation": {
+                "country": "Japan",
+                "address-part": "2-12-1 O-okayama",
+                "postal-code": "152-8552",
+                "@afid": "60283164",
+                "@country": "jpn",
+                "city": "Tokyo",
+                "organization": [
+                  {
+                    "$": "Department of Civil and Environmental Engineering"
+                  },
+                  {
+                    "$": "Tokyo Institute of Technology"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60283164",
+                  "@dptid": "131896980"
+                },
+                "@affiliation-instance-id": "S0038080622000567-1918484a0c8a9657aa1a5884c18d22db",
+                "ce:source-text": "Department of Civil and Environmental Engineering, Tokyo Institute of Technology, 2-12-1 O-okayama, Tokyo 152-8552, Japan",
+                "@dptid": "131896980"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Akihiro",
+                  "preferred-name": {
+                    "ce:given-name": "Akihiro",
+                    "ce:initials": "A.",
+                    "ce:surname": "Takahashi",
+                    "ce:indexed-name": "Takahashi A."
+                  },
+                  "@author-instance-id": "S0038080622000567-ec95cb512cafa9d693d532d5818f45be",
+                  "@seq": "1",
+                  "ce:initials": "A.",
+                  "@date-locked": "2022-07-27T11:46:20.027",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Takahashi",
+                  "@auid": "36175151600",
+                  "ce:indexed-name": "Takahashi A."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "Japan",
+                "@afid": "60104166",
+                "@country": "jpn",
+                "organization": [
+                  {
+                    "$": "Nuclear Power Engineering Department"
+                  },
+                  {
+                    "$": "Electric Power Development"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60104166",
+                  "@dptid": "112862358"
+                },
+                "@affiliation-instance-id": "S0038080622000567-937bad36dc5b87cb22be0c0fb99845bb",
+                "ce:source-text": "Nuclear Power Engineering Department, Electric Power Development, Japan",
+                "@dptid": "112862358"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Naoya",
+                  "preferred-name": {
+                    "ce:given-name": "Naoya",
+                    "ce:initials": "N.",
+                    "ce:surname": "Omura",
+                    "ce:indexed-name": "Omura N."
+                  },
+                  "@author-instance-id": "S0038080622000567-e01f383868296cbaec0ff0b512d1578b",
+                  "@seq": "2",
+                  "ce:initials": "N.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Omura",
+                  "@auid": "57659514000",
+                  "ce:indexed-name": "Omura N."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "Japan",
+                "@afid": "60007166",
+                "@country": "jpn",
+                "organization": [
+                  {
+                    "$": "Civil Engineering Design Division"
+                  },
+                  {
+                    "$": "Kajima Corporation"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60007166",
+                  "@dptid": "103398994"
+                },
+                "@affiliation-instance-id": "S0038080622000567-2eaa1bbcf8a7f25079015e56623f3bb8",
+                "ce:source-text": "Civil Engineering Design Division, Kajima Corporation, Japan",
+                "@dptid": "103398994"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Takaaki",
+                  "preferred-name": {
+                    "ce:given-name": "Takaaki",
+                    "ce:initials": "T.",
+                    "ce:surname": "Kobayashi",
+                    "ce:indexed-name": "Kobayashi T."
+                  },
+                  "@author-instance-id": "S0038080622000567-b41b771c3b19f755929b6e7ca17f6812",
+                  "@seq": "3",
+                  "ce:initials": "T.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Kobayashi",
+                  "@auid": "57659203000",
+                  "ce:indexed-name": "Kobayashi T."
+                },
+                {
+                  "ce:given-name": "Satoshi",
+                  "preferred-name": {
+                    "ce:given-name": "Satoshi",
+                    "ce:initials": "S.",
+                    "ce:surname": "Inagaki",
+                    "ce:indexed-name": "Inagaki S."
+                  },
+                  "@author-instance-id": "S0038080622000567-0d4619c1d8d60285d1b0c7465aed91e1",
+                  "@seq": "5",
+                  "ce:initials": "S.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Inagaki",
+                  "@auid": "36904140200",
+                  "ce:indexed-name": "Inagaki S."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "Japan",
+                "@afid": "60007166",
+                "@country": "jpn",
+                "organization": [
+                  {
+                    "$": "Tohoku Branch"
+                  },
+                  {
+                    "$": "Kajima Corporation"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60007166"
+                },
+                "@affiliation-instance-id": "S0038080622000567-90fcb3d6f12aa3c526d6bd2b670fb025",
+                "ce:source-text": "Tohoku Branch, Kajima Corporation, Japan"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Yukiho",
+                  "preferred-name": {
+                    "ce:given-name": "Yukiho",
+                    "ce:initials": "Y.",
+                    "ce:surname": "Kamata",
+                    "ce:indexed-name": "Kamata Y."
+                  },
+                  "@author-instance-id": "S0038080622000567-232361159b8a80bb53a69a72e5ffa89e",
+                  "@seq": "4",
+                  "ce:initials": "Y.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Kamata",
+                  "@auid": "57222031293",
+                  "ce:indexed-name": "Kamata Y."
+                }
+              ]
+            }
+          ],
+          "citation-title": "Centrifuge model tests on large-diameter monopiles in dense sand subjected to two-way lateral cyclic loading in short-term",
+          "abstracts": "© 2022To evaluate the lateral resistance of rigid monopiles for wind turbines in dense sand under lateral cyclic loading, centrifuge model tests are performed, focusing on the base resistance and degradation of the soil resistance under two-way lateral cyclic loading in the short-term. The slenderness ratio (embedded pile length to diameter) is varied from 3.75 to 8 and the loading frequency is in the range of 0.002 to 0.4 Hz in the prototype scale. Under cyclic loading with a maximum horizontal displacement of 5% of the pile diameter, the build-up of excess pore water pressure is observed, but the maximum value of the average excess pore water pressure ratio is around 50% in the steady-state for dense sand whose relative density is 80%. A simple analytical model for the rigid piles, considering the base resistance, is derived and then used to quantify the significance of the resistance at the pile base and the degradation of the soil resistance under cyclic loading. When the slenderness ratio is less than 5, a significant contribution of the moment resistance at the base is confirmed. The estimation of the degradation of the horizontal subgrade reaction coefficient using the simple analytical model suggests that, through cyclic shear tests for the determination of the deformation properties of the soil in a laboratory, it is possible to estimate the degradation of the soil stiffness and the parameters for the reduced sway-rocking type of foundation model.",
+          "correspondence": {
+            "affiliation": {
+              "country": "Japan",
+              "address-part": "2-12-1 O-okayama",
+              "postal-code": "152-8552",
+              "@country": "jpn",
+              "city": "Tokyo",
+              "organization": [
+                {
+                  "$": "Department of Civil and Environmental Engineering"
+                },
+                {
+                  "$": "Tokyo Institute of Technology"
+                }
+              ]
+            },
+            "person": {
+              "ce:given-name": "Akihiro",
+              "ce:initials": "A.",
+              "ce:surname": "Takahashi",
+              "ce:indexed-name": "Takahashi A."
+            }
+          },
+          "citation-info": {
+            "author-keywords": {
+              "author-keyword": [
+                {
+                  "$": "Base resistance",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Centrifuge modelling",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Lateral cyclic loading",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Monopile",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Stiffness degradation",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Wind turbine foundations",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                }
+              ]
+            },
+            "citation-type": {
+              "@code": "ar"
+            },
+            "citation-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "abstract-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            }
+          },
+          "source": {
+            "website": {
+              "ce:e-address": {
+                "$": "https://www.journals.elsevier.com/soils-and-foundations",
+                "@type": "email"
+              }
+            },
+            "translated-sourcetitle": {
+              "$": "Soils and Foundations",
+              "@xml:lang": "eng"
+            },
+            "volisspag": {
+              "voliss": {
+                "@volume": "62",
+                "@issue": "3"
+              }
+            },
+            "@type": "j",
+            "sourcetitle": "Soils and Foundations",
+            "publicationdate": {
+              "month": "06",
+              "year": "2022",
+              "date-text": "June 2022",
+              "day": "01"
+            },
+            "codencode": "SOIFB",
+            "sourcetitle-abbrev": "Soils Found.",
+            "@country": "jpn",
+            "issn": {
+              "$": "00380806",
+              "@type": "print"
+            },
+            "publicationyear": {
+              "@first": "2022"
+            },
+            "publisher": {
+              "publishername": "Elsevier B.V."
+            },
+            "article-number": "101148",
+            "@srcid": "17392"
+          },
+          "enhancement": {
+            "classificationgroup": {
+              "classifications": [
+                {
+                  "@type": "CPXCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "408.1",
+                      "classification-description": "Structural Design, General"
+                    },
+                    {
+                      "classification-code": "408.2",
+                      "classification-description": "Structural Members and Shapes"
+                    },
+                    {
+                      "classification-code": "483.1",
+                      "classification-description": "Soils and Soil Mechanics"
+                    },
+                    {
+                      "classification-code": "615.8",
+                      "classification-description": "Wind Power (Before 1993, use code 611)"
+                    },
+                    {
+                      "classification-code": "802.1",
+                      "classification-description": "Chemical Plants and Equipment"
+                    },
+                    {
+                      "classification-code": "921",
+                      "classification-description": "Mathematics"
+                    },
+                    {
+                      "classification-code": "931.1",
+                      "classification-description": "Mechanics"
+                    },
+                    {
+                      "classification-code": "951",
+                      "classification-description": "Materials Science"
+                    }
+                  ]
+                },
+                {
+                  "@type": "FLXCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "78.23",
+                      "classification-description": "MIXING AND SEPARATION"
+                    },
+                    {
+                      "classification-code": "79.28",
+                      "classification-description": "POWER GENERATION AND POWER PLANTS"
+                    }
+                  ]
+                },
+                {
+                  "@type": "ASJC",
+                  "classification": [
+                    {
+                      "$": "2205"
+                    },
+                    {
+                      "$": "1909"
+                    }
+                  ]
+                },
+                {
+                  "@type": "SUBJABBR",
+                  "classification": [
+                    {
+                      "$": "ENGI"
+                    },
+                    {
+                      "$": "EART"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "grantlist": {
+            "@complete": "y",
+            "grant-text": {
+              "$": "The authors are grateful to Kawasaki Geological Engineering Company for their excellent work on soil testing and helpful discussions. The authors are indebted to Mr Sakae Seki, a technician at the Tokyo Institute of Technology, for his continuous cooperation with the centrifuge experiments.",
+              "@xml:lang": "eng"
+            }
+          }
+        },
+        "item-info": {
+          "copyright": {
+            "$": "Copyright 2022 Elsevier B.V., All rights reserved.",
+            "@type": "Elsevier"
+          },
+          "dbcollection": [
+            {
+              "$": "CPX"
+            },
+            {
+              "$": "REAXYSCAR"
+            },
+            {
+              "$": "SCOPUS"
+            },
+            {
+              "$": "Scopusbase"
+            }
+          ],
+          "history": {
+            "date-created": {
+              "@day": "06",
+              "@timestamp": "BST 11:20:49",
+              "@year": "2022",
+              "@month": "05"
+            }
+          },
+          "itemidlist": {
+            "itemid": [
+              {
+                "$": "2017788153",
+                "@idtype": "PUI"
+              },
+              {
+                "$": "940029734",
+                "@idtype": "CAR-ID"
+              },
+              {
+                "$": "20221812069340",
+                "@idtype": "CPX"
+              },
+              {
+                "$": "20221402703",
+                "@idtype": "REAXYSCAR"
+              },
+              {
+                "$": "20221542113",
+                "@idtype": "SCOPUS"
+              },
+              {
+                "$": "85129314251",
+                "@idtype": "SCP"
+              },
+              {
+                "$": "85129314251",
+                "@idtype": "SGR"
+              }
+            ],
+            "ce:pii": "S0038080622000567",
+            "ce:ern": "pii:S0038080622000567",
+            "ce:doi": "10.1016/j.sandf.2022.101148"
+          }
+        },
+        "tail": {
+          "bibliography": {
+            "@refcount": "44",
+            "reference": [
+              {
+                "ref-fulltext": "Abadie, C.N., Byrne, B.W., Houlsby, G.T., Rigid pile response to cyclic lateral loading: laboratory tests. Géotechnique 69:10 (2019), 863–876, 10.1680/jgeot.16.P.325.",
+                "@id": "1",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Rigid pile response to cyclic lateral loading: laboratory tests"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1680/jgeot.16.P.325",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0005",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85072174156",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "69",
+                      "@issue": "10"
+                    },
+                    "pagerange": {
+                      "@first": "863",
+                      "@last": "876"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Abadie",
+                        "ce:indexed-name": "Abadie C.N."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "B.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Byrne",
+                        "ce:indexed-name": "Byrne B.W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "G.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Houlsby",
+                        "ce:indexed-name": "Houlsby G.T."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Géotechnique"
+                },
+                "ce:source-text": "Abadie CN, Byrne BW & Houlsby GT. 2019. Rigid pile response to cyclic lateral loading: laboratory tests, Géotechnique 69(10): 863–876, DOI: 10.1680/jgeot.16.P.325."
+              },
+              {
+                "ref-fulltext": "API (American Petroleum Institute). 2000. Recommended Practice for Planning, Designing and Constructing Fixed Offshore Platforms—Working Stress Design, RP 2A-WSD, 21stEd., Washington, DC, USA.",
+                "@id": "2",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2000"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0010",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85129286846",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Recommended Practice for Planning, Designing and Constructing Fixed Offshore Platforms—Working Stress Design, RP 2A-WSD, 21stEd., Washington, DC, USA.",
+                  "ref-authors": {
+                    "collaboration": {
+                      "@seq": "1",
+                      "ce:text": "API (American Petroleum Institute)",
+                      "ce:indexed-name": "API (American Petroleum Institute)"
+                    }
+                  }
+                },
+                "ce:source-text": "API (American Petroleum Institute). 2000. Recommended Practice for Planning, Designing and Constructing Fixed Offshore Platforms—Working Stress Design, RP 2A-WSD, 21st Ed., Washington, DC, USA."
+              },
+              {
+                "ref-fulltext": "Baek, S.H., Kim, J., Lee, S.H., Chung, C.K., Development of the cyclic p-y curve for a single pile in sandy soil. Mar. Georesour. Geotechnol. 36:3 (2017), 351–359, 10.1080/1064119X.2017.1318986.",
+                "@id": "3",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Development of the cyclic p-y curve for a single pile in sandy soil"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1080/1064119X.2017.1318986",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0015",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85019591303",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "36",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "351",
+                      "@last": "359"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Baek",
+                        "ce:indexed-name": "Baek S.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee S.H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "C.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Chung",
+                        "ce:indexed-name": "Chung C.K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Mar. Georesour. Geotechnol."
+                },
+                "ce:source-text": "Baek SH, Kim J, Lee SH & Chung CK. 2017. Development of the cyclic p-y curve for a single pile in sandy soil, Marine Georesources & Geotechnology 36(3): 351-359, DOI: 10.1080/1064119X.2017.1318986."
+              },
+              {
+                "ref-fulltext": "Barber, E.S., Discussion to Paper “Load tests on fixed and freehead piles” by S.M. Gleser. ASTM, STP 154 (1953), 96–99.",
+                "@id": "4",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1953"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Discussion to Paper “Load tests on fixed and freehead piles” by S.M. Gleser"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0020",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "4143118366",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "154"
+                    },
+                    "pagerange": {
+                      "@first": "96",
+                      "@last": "99"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "E.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Barber",
+                        "ce:indexed-name": "Barber E.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "ASTM, STP"
+                },
+                "ce:source-text": "Barber ES. 1953. Discussion to Paper “Load tests on fixed and freehead piles” by S.M. Gleser, ASTM, STP 154, 96–99."
+              },
+              {
+                "ref-fulltext": "Bayat, M., Andersen, L.V., Ibsen, L.B., p-y-ẏ curves for dynamic analysis of offshore wind turbine monopile foundations. Soil Dyn. Earthquake Eng. 90 (2016), 38–51, 10.1016/j.soildyn.2016.08.015.",
+                "@id": "5",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "p-y-ẏ curves for dynamic analysis of offshore wind turbine monopile foundations"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.soildyn.2016.08.015",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0025",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84983560214",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "90"
+                    },
+                    "pagerange": {
+                      "@first": "38",
+                      "@last": "51"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Bayat",
+                        "ce:indexed-name": "Bayat M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.V.",
+                        "@_fa": "true",
+                        "ce:surname": "Andersen",
+                        "ce:indexed-name": "Andersen L.V."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "L.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Ibsen",
+                        "ce:indexed-name": "Ibsen L.B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dyn. Earthquake Eng."
+                },
+                "ce:source-text": "Bayat M, Andersen LV & Ibsen LB. 2016. p-y-ẏ curves for dynamic analysis of offshore wind turbine monopile foundations, Soil Dynamics and Earthquake Engineering 90: 38-51, DOI: 10.1016/j.soildyn.2016.08.015."
+              },
+              {
+                "ref-fulltext": "Bhushan, K., Lee, L.J., Grime, D.B., Lateral load tests on drilled piers in sand. O'Neill, (eds.) Drilled Piers and Caissons, 1981, American Society of Civil Engineers, New York, NY, USA, 114–131.",
+                "@id": "6",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1981"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Lateral load tests on drilled piers in sand"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0030",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0019658066",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "114",
+                      "@last": "131"
+                    }
+                  },
+                  "ref-text": "O'Neill American Society of Civil Engineers New York, NY, USA",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Bhushan",
+                        "ce:indexed-name": "Bhushan K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee L.J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Grime",
+                        "ce:indexed-name": "Grime D.B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Drilled Piers and Caissons"
+                },
+                "ce:source-text": "Bhushan K, Lee LJ & Grime DB. 1981. Lateral load tests on drilled piers in sand. In: O'Neill (Ed.), Drilled Piers and Caissons, American Society of Civil Engineers, New York, NY, USA, 114-131."
+              },
+              {
+                "ref-fulltext": "Blaney, G.W., O'Neill, M.W., Measured lateral response of mass on single pile in clay. J. Geotech. Eng. 112:4 (1986), 443–457, 10.1061/(ASCE)0733-9410(1986)112:4(443).",
+                "@id": "7",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1986"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Measured lateral response of mass on single pile in clay"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1061/(ASCE)0733-9410(1986)112:4(443)",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0035",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0022703037",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "112",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "443",
+                      "@last": "457"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Blaney",
+                        "ce:indexed-name": "Blaney G.W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.W.",
+                        "@_fa": "true",
+                        "ce:surname": "O'Neill",
+                        "ce:indexed-name": "O'Neill M.W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Geotech. Eng."
+                },
+                "ce:source-text": "Blaney GW & O'Neill MW. 1986. Measured lateral response of mass on single pile in clay, Journal of Geotechnical Engineering 112(4): 443-457, DOI: 10.1061/(ASCE)0733-9410(1986)112:4(443)"
+              },
+              {
+                "ref-fulltext": "Burd, H.J., Taborda, D.M.G., Zdravković, L., Abadie, C.N., Byrne, B.W., Houlsby, G.T., Gavin, K.G., Igoe, D.J.P., Jardine, R.J., Martin, C.M., McAdam, R.A., Pedro, A.M.G., Potts, D.M., PISA design model for monopiles for offshore wind turbines: application to a marine sand. Géotechnique 70:11 (2020), 1048–1066, 10.1680/jgeot.18.P.277.",
+                "@id": "8",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "PISA design model for monopiles for offshore wind turbines: application to a marine sand"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1680/jgeot.18.P.277",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0040",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85094809576",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "70",
+                      "@issue": "11"
+                    },
+                    "pagerange": {
+                      "@first": "1048",
+                      "@last": "1066"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Burd",
+                        "ce:indexed-name": "Burd H.J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.M.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Taborda",
+                        "ce:indexed-name": "Taborda D.M.G."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Zdravković",
+                        "ce:indexed-name": "Zdravkovic L."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "C.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Abadie",
+                        "ce:indexed-name": "Abadie C.N."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "B.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Byrne",
+                        "ce:indexed-name": "Byrne B.W."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "G.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Houlsby",
+                        "ce:indexed-name": "Houlsby G.T."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "K.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Gavin",
+                        "ce:indexed-name": "Gavin K.G."
+                      },
+                      {
+                        "@seq": "8",
+                        "ce:initials": "D.J.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Igoe",
+                        "ce:indexed-name": "Igoe D.J.P."
+                      },
+                      {
+                        "@seq": "9",
+                        "ce:initials": "R.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Jardine",
+                        "ce:indexed-name": "Jardine R.J."
+                      },
+                      {
+                        "@seq": "10",
+                        "ce:initials": "C.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Martin",
+                        "ce:indexed-name": "Martin C.M."
+                      },
+                      {
+                        "@seq": "11",
+                        "ce:initials": "R.A.",
+                        "@_fa": "true",
+                        "ce:surname": "McAdam",
+                        "ce:indexed-name": "McAdam R.A."
+                      },
+                      {
+                        "@seq": "12",
+                        "ce:initials": "A.M.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Pedro",
+                        "ce:indexed-name": "Pedro A.M.G."
+                      },
+                      {
+                        "@seq": "13",
+                        "ce:initials": "D.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Potts",
+                        "ce:indexed-name": "Potts D.M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Géotechnique"
+                },
+                "ce:source-text": "Burd HJ, Taborda DMG, Zdravković L, Abadie CN, Byrne BW, Houlsby GT, Gavin KG, Igoe DJP, Jardine RJ, Martin CM, McAdam RA, Pedro AMG & Potts DM. 2020. PISA design model for monopiles for offshore wind turbines: application to a marine sand, Géotechnique 70(11): 1048-1066, DOI: 10.1680/jgeot.18.P.277."
+              },
+              {
+                "ref-fulltext": "Carter, J.P., Kulhawy, F.H., Analysis of laterally loaded shafts in rock. J. Geotech. Eng. 118:6 (1992), 839–855, 10.1061/(ASCE)0733-9410(1992)118:6(839).",
+                "@id": "9",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1992"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Analysis of laterally loaded shafts in rock"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1061/(ASCE)0733-9410(1992)118:6(839)",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0045",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0026883438",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "118",
+                      "@issue": "6"
+                    },
+                    "pagerange": {
+                      "@first": "839",
+                      "@last": "855"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Carter",
+                        "ce:indexed-name": "Carter J.P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Kulhawy",
+                        "ce:indexed-name": "Kulhawy F.H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Geotech. Eng."
+                },
+                "ce:source-text": "Carter JP & Kulhawy FH. 1992. Analysis of laterally loaded shafts in rock. Journal of Geotechnical Engineering 118(6): 839-855, DOI: 10.1061/(ASCE)0733-9410(1992)118:6(839)."
+              },
+              {
+                "ref-fulltext": "Choo, Y.W., Kim, D., Park, J.H., Kwak, K., Kim, J.H., Kim, D.S., Lateral response of large-diameter monopiles for offshore wind turbines from centrifuge model tests. Geotech. Test. J. 37:1 (2014), 107–120, 10.1520/GTJ20130081.",
+                "@id": "10",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Lateral response of large-diameter monopiles for offshore wind turbines from centrifuge model tests"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1520/GTJ20130081",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0050",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84893560331",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "37",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "107",
+                      "@last": "120"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Choo",
+                        "ce:indexed-name": "Choo Y.W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim D."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Park",
+                        "ce:indexed-name": "Park J.H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Kwak",
+                        "ce:indexed-name": "Kwak K."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "J.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim J.H."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "D.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim D.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geotech. Test. J."
+                },
+                "ce:source-text": "Choo YW, Kim D, Park JH, Kwak K, Kim JH & Kim DS. 2014. Lateral response of large-diameter monopiles for offshore wind turbines from centrifuge model tests, Geotechnical Testing Journal 37(1): 107-120, DOI: 10.1520/GTJ20130081."
+              },
+              {
+                "ref-fulltext": "Choo, Y.W., Kim, D., Experimental development of the p-y relationship for large-diameter offshore monopiles in sands: Centrifuge tests. J. Geotech. Geoenviron. Eng., 142(1), 2016, 04015058, 10.1061/(ASCE)GT.1943-5606.0001373.",
+                "@id": "11",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental development of the p-y relationship for large-diameter offshore monopiles in sands: Centrifuge tests"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1061/(ASCE)GT.1943-5606.0001373",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0055",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84950240620",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "142",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "04015058"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Choo",
+                        "ce:indexed-name": "Choo Y.W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim D."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Geotech. Geoenviron. Eng."
+                },
+                "ce:source-text": "Choo YW & Kim D. 2016. Experimental development of the p-y relationship for large-diameter offshore monopiles in sands: Centrifuge tests, Journal of Geotechnical and Geoenvironmental Engineering 142(1): 04015058, DOI: 10.1061/(ASCE)GT.1943-5606.0001373."
+              },
+              {
+                "ref-fulltext": "Davisson, M.T., Lateral load capacity of piles. Highway Res. Rec. 333 (1970), 104–112.",
+                "@id": "12",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1970"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Lateral load capacity of piles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0060",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0014905383",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "333"
+                    },
+                    "pagerange": {
+                      "@first": "104",
+                      "@last": "112"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Davisson",
+                        "ce:indexed-name": "Davisson M.T."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Highway Res. Rec."
+                },
+                "ce:source-text": "Davisson MT. 1970. Lateral load capacity of piles, Highway Research Record 333, 104-112."
+              },
+              {
+                "ref-fulltext": "DNVGL-ST-0126, 2018. Support structures for wind turbines, DNV, Høvik, Norway.",
+                "@id": "13",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0065",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85129308105",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "DNVGL-ST-0126 Support structures for wind turbines, DNV, Høvik, Norway."
+                },
+                "ce:source-text": "DNVGL-ST-0126, 2018. Support structures for wind turbines, DNV, Høvik, Norway."
+              },
+              {
+                "ref-fulltext": "DNVGL-RP-C212, 2019. Offshore soil mechanics and geotechnical engineering, DNV, Høvik, Norway.",
+                "@id": "14",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0070",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85129276501",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "DNVGL-RP-C212 Offshore soil mechanics and geotechnical engineering, DNV, Høvik, Norway."
+                },
+                "ce:source-text": "DNVGL-RP-C212, 2019. Offshore soil mechanics and geotechnical engineering, DNV, Høvik, Norway."
+              },
+              {
+                "ref-fulltext": "Elson, W.K., 1984. Design of laterally-loaded piles, CIRIA Report 103, Construction Industry Research & Information Association, London, UK.",
+                "@id": "15",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1984"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0075",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85129287086",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Design of laterally-loaded piles, CIRIA Report 103, Construction Industry Research & Information Association, London, UK.",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Elson",
+                        "ce:indexed-name": "Elson W.K."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Elson, W.K., 1984. Design of laterally-loaded piles, CIRIA Report 103, Construction Industry Research & Information Association, London, UK."
+              },
+              {
+                "ref-fulltext": "Erbrich, C.T., O'Neill, M.P., Clancy, P., Randolph, M.F., Axial and lateral pile design in carbonate soils. Gourvenec, White, (eds.) Frontiers in Offshore Geotechnics II, 2011, CRC Press, Boca Raton, Florida, 125–154.",
+                "@id": "16",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Axial and lateral pile design in carbonate soils"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0080",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84860232032",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "125",
+                      "@last": "154"
+                    }
+                  },
+                  "ref-text": "Gourvenec White CRC Press Boca Raton, Florida",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Erbrich",
+                        "ce:indexed-name": "Erbrich C.T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.P.",
+                        "@_fa": "true",
+                        "ce:surname": "O'Neill",
+                        "ce:indexed-name": "O'Neill M.P."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Clancy",
+                        "ce:indexed-name": "Clancy P."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "M.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Randolph",
+                        "ce:indexed-name": "Randolph M.F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Frontiers in Offshore Geotechnics II"
+                },
+                "ce:source-text": "Erbrich CT, O'Neill MP, Clancy P & Randolph MF. 2011. Axial and lateral pile design in carbonate soils. In: Gourvenec & White (Eds.), Frontiers in Offshore Geotechnics II, CRC Press, Boca Raton, Florida, 125-154."
+              },
+              {
+                "ref-fulltext": "Hanley, S., 2021. Vestas unveils world's most powerful offshore wind turbine, CleanTechnica, https://cleantechnica.com/2021/02/12/vestas-unveils-worlds-most-powerful-offshore-wind-turbine/.",
+                "@id": "17",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-website": {
+                    "ce:e-address": {
+                      "$": "https://cleantechnica.com/2021/02/12/vestas-unveils-worlds-most-powerful-offshore-wind-turbine/",
+                      "@type": "email"
+                    }
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0085",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85129282707",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Vestas unveils world's most powerful offshore wind turbine, CleanTechnica",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Hanley",
+                        "ce:indexed-name": "Hanley S."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Hanley, S., 2021. Vestas unveils world's most powerful offshore wind turbine, CleanTechnica, https://cleantechnica.com/2021/02/12/vestas-unveils-worlds-most-powerful-offshore-wind-turbine/."
+              },
+              {
+                "ref-fulltext": "Hetenyi, M., Beams on elastic foundations. 1946, University of Michigan Press, Ann Arbor, USA.",
+                "@id": "18",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1946"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Beams on elastic foundations"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0090",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0003636706",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "University of Michigan Press Ann Arbor, USA",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Hetenyi",
+                        "ce:indexed-name": "Hetenyi M."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Hetenyi M. 1946. Beams on elastic foundations, University of Michigan Press, Ann Arbor, USA."
+              },
+              {
+                "ref-fulltext": "Higgins, W., Vasquez, C., Basu, D., Griffiths, D.V.G., Elastic solutions for laterally loaded piles. J. Geotech. Geoenviron. Eng. 139:7 (2013), 1096–1103, 10.1061/(ASCE)GT.1943-5606.0000828.",
+                "@id": "19",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Elastic solutions for laterally loaded piles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1061/(ASCE)GT.1943-5606.0000828",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0095",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84881349459",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "139",
+                      "@issue": "7"
+                    },
+                    "pagerange": {
+                      "@first": "1096",
+                      "@last": "1103"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Higgins",
+                        "ce:indexed-name": "Higgins W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Vasquez",
+                        "ce:indexed-name": "Vasquez C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Basu",
+                        "ce:indexed-name": "Basu D."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "D.V.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Griffiths",
+                        "ce:indexed-name": "Griffiths D.V.G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Geotech. Geoenviron. Eng."
+                },
+                "ce:source-text": "Higgins W, Vasquez C, Basu D & Griffiths DVG. 2013. Elastic solutions for laterally loaded piles. Journal of Geotechnical and Geoenvironmental Engineering 139(7): 1096-1103, DOI: 10.1061/(ASCE)GT.1943-5606.0000828."
+              },
+              {
+                "ref-fulltext": "Houlsby, G.T., Cassidy, M.J., Einav, I., A generalised Winkler model for the behaviour of shallow foundations. Géotechnique 55:6 (2005), 449–460, 10.1680/geot.2005.55.6.449.",
+                "@id": "20",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2005"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A generalised Winkler model for the behaviour of shallow foundations"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1680/geot.2005.55.6.449",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0100",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "23844480705",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "55",
+                      "@issue": "6"
+                    },
+                    "pagerange": {
+                      "@first": "449",
+                      "@last": "460"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Houlsby",
+                        "ce:indexed-name": "Houlsby G.T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Cassidy",
+                        "ce:indexed-name": "Cassidy M.J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "I.",
+                        "@_fa": "true",
+                        "ce:surname": "Einav",
+                        "ce:indexed-name": "Einav I."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Géotechnique"
+                },
+                "ce:source-text": "Houlsby GT, Cassidy MJ & Einav I. 2005. A generalised Winkler model for the behaviour of shallow foundations, Géotechnique 55(6): 449-460, DOI: 10.1680/geot.2005.55.6.449."
+              },
+              {
+                "ref-fulltext": "Iai, S., Tobita, T., Nakahara, T., Generalised scaling relations for dynamic centrifuge tests. Géotechnique 55:5 (2005), 355–362, 10.1680/geot.2005.55.5.355.",
+                "@id": "21",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2005"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Generalised scaling relations for dynamic centrifuge tests"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1680/geot.2005.55.5.355",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0105",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "21344442146",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "55",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "355",
+                      "@last": "362"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Iai",
+                        "ce:indexed-name": "Iai S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Tobita",
+                        "ce:indexed-name": "Tobita T."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Nakahara",
+                        "ce:indexed-name": "Nakahara T."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Géotechnique"
+                },
+                "ce:source-text": "Iai S, Tobita T & Nakahara T. 2005. Generalised scaling relations for dynamic centrifuge tests. Géotechnique 55 (5): 355-362, DOI: 10.1680/geot.2005.55.5.355."
+              },
+              {
+                "ref-fulltext": "IRENA. 2019. Future of wind: Deployment, investment, technology, grid integration and socio-economic aspects. (A Global Energy Transformation paper), International Renewable Energy Agency, Abu Dhabi, UAE. https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2019/Oct/IRENA_Future_of_wind_2019.pdf.",
+                "@id": "22",
+                "ref-info": {
+                  "ref-website": {
+                    "ce:e-address": {
+                      "$": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2019/Oct/IRENA_Future_of_wind_2019.pdf",
+                      "@type": "email"
+                    }
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0110",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85129326515",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "IRENA. 2019. Future of wind: Deployment, investment, technology, grid integration and socio-economic aspects. (A Global Energy Transformation paper), International Renewable Energy Agency, Abu Dhabi, UAE."
+                },
+                "ce:source-text": "IRENA. 2019. Future of wind: Deployment, investment, technology, grid integration and socio-economic aspects. (A Global Energy Transformation paper), International Renewable Energy Agency, Abu Dhabi, UAE. https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2019/Oct/IRENA_Future_of_wind_2019.pdf."
+              },
+              {
+                "ref-fulltext": "IRENA, 2021. Offshore renewables: An action agenda for deployment, International Renewable Energy Agency, Abu Dhabi, UAE. https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2021/Jul/IRENA_G20_Offshore_renewables_2021.pdf.",
+                "@id": "23",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-website": {
+                    "ce:e-address": {
+                      "$": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2021/Jul/IRENA_G20_Offshore_renewables_2021.pdf",
+                      "@type": "email"
+                    }
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0120",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85129271170",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "IRENA Offshore renewables: An action agenda for deployment, International Renewable Energy Agency, Abu Dhabi, UAE."
+                },
+                "ce:source-text": "IRENA, 2021. Offshore renewables: An action agenda for deployment, International Renewable Energy Agency, Abu Dhabi, UAE. https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2021/Jul/IRENA_G20_Offshore_renewables_2021.pdf."
+              },
+              {
+                "ref-fulltext": "Kagawa, T., Kraft, L.M. Jr., Lateral load-deflection relationships of piles subjected to dynamic loadings. Soils Found. 20:4 (1980), 19–36, 10.3208/sandf1972.20.4_19.",
+                "@id": "24",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1980"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Lateral load-deflection relationships of piles subjected to dynamic loadings"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.3208/sandf1972.20.4_19",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0130",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0019269436",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "20",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "19",
+                      "@last": "36"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Kagawa",
+                        "ce:indexed-name": "Kagawa T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Kraft",
+                        "ce:suffix": "Jr.",
+                        "ce:indexed-name": "Kraft L.M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soils Found."
+                },
+                "ce:source-text": "Kagawa T & Kraft LM Jr. 1980. Lateral load-deflection relationships of piles subjected to dynamic loadings, Soils and Foundations 20(4): 19-36, DOI: 10.3208/sandf1972.20.4_19"
+              },
+              {
+                "ref-fulltext": "Kamata, Y., Takahashi, A., Sway-rocking spring system applicable to short-rigid monopile foundations. Geotechnical and Geological Engineering 39:4 (2021), 3065–3079, 10.1007/s10706-021-01678-2.",
+                "@id": "25",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Sway-rocking spring system applicable to short-rigid monopile foundations"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s10706-021-01678-2",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib226",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85101024446",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "39",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "3065",
+                      "@last": "3079"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Kamata",
+                        "ce:indexed-name": "Kamata Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Takahashi",
+                        "ce:indexed-name": "Takahashi A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geotechnical and Geological Engineering"
+                },
+                "ce:source-text": "Kamata, Y., Takahashi, A., 2021. Sway-rocking spring system applicable to short-rigid monopile foundations. Geotechnical and Geological Engineering 39 (4), 3065–3079. doi:10.1007/s10706-021-01678-2."
+              },
+              {
+                "ref-fulltext": "Lai, Y., Wang, L., Zhang, Y., Hong, Y.i., Site-specific soil reaction model for monopiles in soft clay based on laboratory element stress-strain curves. Ocean Eng., 220, 2021, 108437, 10.1016/j.oceaneng.2020.108437.",
+                "@id": "26",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Site-specific soil reaction model for monopiles in soft clay based on laboratory element stress-strain curves"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.oceaneng.2020.108437",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0135",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85097762654",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "220"
+                    },
+                    "pagerange": {
+                      "@first": "108437"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Lai",
+                        "ce:indexed-name": "Lai Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.I.",
+                        "@_fa": "true",
+                        "ce:surname": "Hong",
+                        "ce:indexed-name": "Hong Y.I."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Ocean Eng."
+                },
+                "ce:source-text": "Lai YQ, Wang LH, Zhang YH & Hong Y. 2021. Site-specific soil reaction model for monopiles in soft clay based on laboratory element stress-strain curves, Ocean Engineering, 220: 108437 DOI: 10.1016/j.oceaneng.2020.108437."
+              },
+              {
+                "ref-fulltext": "Leblanc, C., Houlsby, G.T., Byrne, B.W., Response of stiff piles in sand to long-term cyclic lateral loading. Géotechnique 60:2 (2010), 79–90, 10.1680/geot.7.00196.",
+                "@id": "27",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Response of stiff piles in sand to long-term cyclic lateral loading"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1680/geot.7.00196",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0140",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "77949542675",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "60",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "79",
+                      "@last": "90"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Leblanc",
+                        "ce:indexed-name": "Leblanc C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Houlsby",
+                        "ce:indexed-name": "Houlsby G.T."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "B.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Byrne",
+                        "ce:indexed-name": "Byrne B.W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Géotechnique"
+                },
+                "ce:source-text": "Leblanc C, Houlsby GT & Byrne BW. 2010. Response of stiff piles in sand to long-term cyclic lateral loading, Géotechnique 60(2): 79–90, DOI: 10.1680/geot.7.00196."
+              },
+              {
+                "ref-fulltext": "McAdam, R.A., Byrne, B.W., Houlsby, G.T., Beuckelaers, W.J.A.P., Burd, H.J., Gavin, K.G., Igoe, D.J.P., Jardine, R.J., Martin, C.M., Muir Wood, A., Potts, D.M., Skov Gretlund, J., Taborda, D.M.G., Zdravković, L., Monotonic laterally loaded pile testing in a dense marine sand at Dunkirk. Géotechnique 70:11 (2020), 986–998, 10.1680/jgeot.18.PISA.004.",
+                "@id": "28",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Monotonic laterally loaded pile testing in a dense marine sand at Dunkirk"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1680/jgeot.18.PISA.004",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0145",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85094845077",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "70",
+                      "@issue": "11"
+                    },
+                    "pagerange": {
+                      "@first": "986",
+                      "@last": "998"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.A.",
+                        "@_fa": "true",
+                        "ce:surname": "McAdam",
+                        "ce:indexed-name": "McAdam R.A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "B.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Byrne",
+                        "ce:indexed-name": "Byrne B.W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "G.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Houlsby",
+                        "ce:indexed-name": "Houlsby G.T."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "W.J.A.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Beuckelaers",
+                        "ce:indexed-name": "Beuckelaers W.J.A.P."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "H.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Burd",
+                        "ce:indexed-name": "Burd H.J."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "K.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Gavin",
+                        "ce:indexed-name": "Gavin K.G."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "D.J.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Igoe",
+                        "ce:indexed-name": "Igoe D.J.P."
+                      },
+                      {
+                        "@seq": "8",
+                        "ce:initials": "R.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Jardine",
+                        "ce:indexed-name": "Jardine R.J."
+                      },
+                      {
+                        "@seq": "9",
+                        "ce:initials": "C.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Martin",
+                        "ce:indexed-name": "Martin C.M."
+                      },
+                      {
+                        "@seq": "10",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Muir Wood",
+                        "ce:indexed-name": "Muir Wood A."
+                      },
+                      {
+                        "@seq": "11",
+                        "ce:initials": "D.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Potts",
+                        "ce:indexed-name": "Potts D.M."
+                      },
+                      {
+                        "@seq": "12",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Skov Gretlund",
+                        "ce:indexed-name": "Skov Gretlund J."
+                      },
+                      {
+                        "@seq": "13",
+                        "ce:initials": "D.M.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Taborda",
+                        "ce:indexed-name": "Taborda D.M.G."
+                      },
+                      {
+                        "@seq": "14",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Zdravković",
+                        "ce:indexed-name": "Zdravkovic L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Géotechnique"
+                },
+                "ce:source-text": "McAdam RA, Byrne BW, Houlsby GT, Beuckelaers WJAP, Burd HJ, Gavin KG, Igoe DJP, Jardine RJ, Martin CM, Muir Wood A, Potts DM, Skov Gretlund J, Taborda DMG & Zdravković L. 2020. Monotonic laterally loaded pile testing in a dense marine sand at Dunkirk, Géotechnique 70(11): 986–998, DOI: 10.1680/jgeot.18.PISA.004."
+              },
+              {
+                "ref-fulltext": "Nanda, S., Arthur, I., Sivakumar, V., Donohue, S., Bradshaw, A., Keltai, R., Gavin, K., Mackinnon, P., Rankin, B., Glynn, D., Monopiles subjected to uni- and multi-lateral cyclic loading. Geotech. Eng. 170:3 (2017), 246–258, 10.1680/jgeen.16.00110.",
+                "@id": "29",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Monopiles subjected to uni- and multi-lateral cyclic loading"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1680/jgeen.16.00110",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0150",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85019156954",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "170",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "246",
+                      "@last": "258"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Nanda",
+                        "ce:indexed-name": "Nanda S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "I.",
+                        "@_fa": "true",
+                        "ce:surname": "Arthur",
+                        "ce:indexed-name": "Arthur I."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "V.",
+                        "@_fa": "true",
+                        "ce:surname": "Sivakumar",
+                        "ce:indexed-name": "Sivakumar V."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Donohue",
+                        "ce:indexed-name": "Donohue S."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Bradshaw",
+                        "ce:indexed-name": "Bradshaw A."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Keltai",
+                        "ce:indexed-name": "Keltai R."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Gavin",
+                        "ce:indexed-name": "Gavin K."
+                      },
+                      {
+                        "@seq": "8",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Mackinnon",
+                        "ce:indexed-name": "Mackinnon P."
+                      },
+                      {
+                        "@seq": "9",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Rankin",
+                        "ce:indexed-name": "Rankin B."
+                      },
+                      {
+                        "@seq": "10",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Glynn",
+                        "ce:indexed-name": "Glynn D."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geotech. Eng."
+                },
+                "ce:source-text": "Nanda S, Arthur I, Sivakumar V, Donohue S, Bradshaw A, Keltai R, Gavin K, Mackinnon P, Rankin B & Glynn D. 2017. Monopiles subjected to uni- and multi-lateral cyclic loading, Geotechnical Engineering 170(3): 246-258, DOI: 10.1680/jgeen.16.00110."
+              },
+              {
+                "ref-fulltext": "Page, A.M., Grimstada, G., Eiksunda, G.R., Jostad, H.P., A macro-element pile foundation model for integrated analyses of monopile-based offshore wind turbines. Ocean Eng. 167 (2018), 23–35, 10.1016/j.oceaneng.2018.08.019.",
+                "@id": "30",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A macro-element pile foundation model for integrated analyses of monopile-based offshore wind turbines"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.oceaneng.2018.08.019",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0155",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85052069515",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "167"
+                    },
+                    "pagerange": {
+                      "@first": "23",
+                      "@last": "35"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Page",
+                        "ce:indexed-name": "Page A.M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Grimstada",
+                        "ce:indexed-name": "Grimstada G."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "G.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Eiksunda",
+                        "ce:indexed-name": "Eiksunda G.R."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "H.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Jostad",
+                        "ce:indexed-name": "Jostad H.P."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Ocean Eng."
+                },
+                "ce:source-text": "Page AM, Grimstada G, Eiksunda GR & Jostad HP. 2018. A macro-element pile foundation model for integrated analyses of monopile-based offshore wind turbines, Ocean Engineering 167: 23-35, DOI: 10.1016/j.oceaneng.2018.08.019."
+              },
+              {
+                "ref-fulltext": "Poulos, H.G., Davis, E.H., Elastic solutions for soil and rock mechanics. 1974, John Wiley and Sons, New York, USA.",
+                "@id": "31",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1974"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Elastic solutions for soil and rock mechanics"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0160",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0003790522",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "John Wiley and Sons New York, USA",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Poulos",
+                        "ce:indexed-name": "Poulos H.G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "E.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Davis",
+                        "ce:indexed-name": "Davis E.H."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Poulos HG & Davis EH. 1974. Elastic solutions for soil and rock mechanics, John Wiley and Sons, New York, USA."
+              },
+              {
+                "ref-fulltext": "Poulos, H.G., Davis, E.H., Pile Foundation Analysis and Design. 1980, John Wiley and Sons, New York, USA.",
+                "@id": "32",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1980"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Pile Foundation Analysis and Design"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0165",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0003967286",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "John Wiley and Sons New York, USA",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Poulos",
+                        "ce:indexed-name": "Poulos H.G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "E.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Davis",
+                        "ce:indexed-name": "Davis E.H."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Poulos HG & Davis EH. 1980. Pile Foundation Analysis and Design, John Wiley and Sons, New York, USA."
+              },
+              {
+                "ref-fulltext": "Rathod, D., Nigitha, D., Krishnanunni, K.T., Experimental Investigation of the Behavior of Monopile under Asymmetric Two-Way Cyclic Lateral Loads. Int. J. Geomech., 21(3), 2021, 06021001, 10.1061/(ASCE)GM.1943-5622.0001920.",
+                "@id": "33",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental Investigation of the Behavior of Monopile under Asymmetric Two-Way Cyclic Lateral Loads"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1061/(ASCE)GM.1943-5622.0001920",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0170",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85099091718",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "21",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "06021001"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Rathod",
+                        "ce:indexed-name": "Rathod D."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Nigitha",
+                        "ce:indexed-name": "Nigitha D."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "K.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Krishnanunni",
+                        "ce:indexed-name": "Krishnanunni K.T."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Int. J. Geomech."
+                },
+                "ce:source-text": "Rathod D, Nigitha D & Krishnanunni KT. 2021. Experimental Investigation of the Behavior of Monopile under Asymmetric Two-Way Cyclic Lateral Loads, International Journal of Geomechanics 21(3): 06021001, DOI: 10.1061/(ASCE)GM.1943-5622.0001920."
+              },
+              {
+                "ref-fulltext": "Richards, I.A., Bransby, M.F., Byrne, B.W., Gaudin, C., Houlsby, G.T., Effect of Stress Level on Response of Model Monopile to Cyclic Lateral Loading in Sand. J. Geotech. Geoenviron. Eng., 147(3), 2021, 04021002, 10.1061/(ASCE)GT.1943-5606.0002447.",
+                "@id": "34",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of Stress Level on Response of Model Monopile to Cyclic Lateral Loading in Sand"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1061/(ASCE)GT.1943-5606.0002447",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0175",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85099101778",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "147",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "04021002"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "I.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Richards",
+                        "ce:indexed-name": "Richards I.A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Bransby",
+                        "ce:indexed-name": "Bransby M.F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "B.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Byrne",
+                        "ce:indexed-name": "Byrne B.W."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Gaudin",
+                        "ce:indexed-name": "Gaudin C."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "G.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Houlsby",
+                        "ce:indexed-name": "Houlsby G.T."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Geotech. Geoenviron. Eng."
+                },
+                "ce:source-text": "Richards IA, Bransby MF, Byrne BW, Gaudin C & Houlsby GT. 2021. Effect of Stress Level on Response of Model Monopile to Cyclic Lateral Loading in Sand, Journal of Geotechnical and Geoenvironmental Engineering 147(3): 04021002, DOI: 10.1061/(ASCE)GT.1943-5606.0002447."
+              },
+              {
+                "ref-fulltext": "Scott, R.F., Foundation Analysis. 1981, Prentice-Hall, London, UK.",
+                "@id": "35",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1981"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Foundation Analysis"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0180",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0003392763",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Prentice-Hall London, UK",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Scott",
+                        "ce:indexed-name": "Scott R.F."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Scott RF. 1981. Foundation Analysis, Prentice-Hall, London, UK."
+              },
+              {
+                "ref-fulltext": "Shadlou, M., Bhattacharya, S., Dynamic stiffness of monopiles supporting offshore wind turbine generators. Soil Dyn. Earthquake Eng. 88 (2016), 15–32, 10.1016/j.soildyn.2016.04.002.",
+                "@id": "36",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Dynamic stiffness of monopiles supporting offshore wind turbine generators"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.soildyn.2016.04.002",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0185",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84969785280",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "88"
+                    },
+                    "pagerange": {
+                      "@first": "15",
+                      "@last": "32"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Shadlou",
+                        "ce:indexed-name": "Shadlou M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Bhattacharya",
+                        "ce:indexed-name": "Bhattacharya S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dyn. Earthquake Eng."
+                },
+                "ce:source-text": "Shadlou M & Bhattacharya S. 2016. Dynamic stiffness of monopiles supporting offshore wind turbine generators. Soil Dynamics and Earthquake Engineering 88: 15-32, DOI: 10.1016/j.soildyn.2016.04.002."
+              },
+              {
+                "ref-fulltext": "Taborda, D.M.G., Zdravković, L., Potts, D.M., Burd, H.J., Byrne, B.W., Gavin, K.G., Houlsby, G.T., Jardine, R.J., Liu, T., Martin, C.M., McAdam, R.A., Finite-element modelling of laterally loaded piles in a dense marine sand at Dunkirk. Géotechnique 70:11 (2020), 1014–1029, 10.1680/jgeot.18.P.277.",
+                "@id": "37",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Finite-element modelling of laterally loaded piles in a dense marine sand at Dunkirk"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1680/jgeot.18.P.277",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0190",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85094846349",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "70",
+                      "@issue": "11"
+                    },
+                    "pagerange": {
+                      "@first": "1014",
+                      "@last": "1029"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.M.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Taborda",
+                        "ce:indexed-name": "Taborda D.M.G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Zdravković",
+                        "ce:indexed-name": "Zdravkovic L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Potts",
+                        "ce:indexed-name": "Potts D.M."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "H.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Burd",
+                        "ce:indexed-name": "Burd H.J."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "B.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Byrne",
+                        "ce:indexed-name": "Byrne B.W."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "K.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Gavin",
+                        "ce:indexed-name": "Gavin K.G."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "G.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Houlsby",
+                        "ce:indexed-name": "Houlsby G.T."
+                      },
+                      {
+                        "@seq": "8",
+                        "ce:initials": "R.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Jardine",
+                        "ce:indexed-name": "Jardine R.J."
+                      },
+                      {
+                        "@seq": "9",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu T."
+                      },
+                      {
+                        "@seq": "10",
+                        "ce:initials": "C.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Martin",
+                        "ce:indexed-name": "Martin C.M."
+                      },
+                      {
+                        "@seq": "11",
+                        "ce:initials": "R.A.",
+                        "@_fa": "true",
+                        "ce:surname": "McAdam",
+                        "ce:indexed-name": "McAdam R.A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Géotechnique"
+                },
+                "ce:source-text": "Taborda DMG, Zdravković L, Potts DM, Burd HJ, Byrne BW, Gavin KG, Houlsby GT, Jardine RJ, Liu T, Martin CM & McAdam RA. 2020. Finite-element modelling of laterally loaded piles in a dense marine sand at Dunkirk, Géotechnique 70(11): 1014–1029, 10.1680/jgeot.18.P.277."
+              },
+              {
+                "ref-fulltext": "Takemura, J., Kondoh, M., Esaki, T., Kouda, M., Kusakabe, O., Centrifuge model tests on double propped wall excavation in soft clay. Soils Found. 39:3 (1999), 75–87, 10.3208/sandf.39.3_75.",
+                "@id": "38",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1999"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Centrifuge model tests on double propped wall excavation in soft clay"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.3208/sandf.39.3_75",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0195",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "3042837519",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "39",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "75",
+                      "@last": "87"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Takemura",
+                        "ce:indexed-name": "Takemura J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Kondoh",
+                        "ce:indexed-name": "Kondoh M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Esaki",
+                        "ce:indexed-name": "Esaki T."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Kouda",
+                        "ce:indexed-name": "Kouda M."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "O.",
+                        "@_fa": "true",
+                        "ce:surname": "Kusakabe",
+                        "ce:indexed-name": "Kusakabe O."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soils Found."
+                },
+                "ce:source-text": "Takemura J, Kondoh M, Esaki T, Kouda M & Kusakabe O. 1999. Centrifuge model tests on double propped wall excavation in soft clay, Soils and Foundations 39(3): 75-87, DOI: 10.3208/sandf.39.3_75."
+              },
+              {
+                "ref-fulltext": "Terzaghi, K., Evaluation of coefficient of subgrade reaction. Géotechnique 5:4 (1955), 297–326, 10.1680/geot.1955.5.4.297.",
+                "@id": "39",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1955"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Evaluation of coefficient of subgrade reaction"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1680/geot.1955.5.4.297",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0200",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84994475389",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "5",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "297",
+                      "@last": "326"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Terzaghi",
+                        "ce:indexed-name": "Terzaghi K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Géotechnique"
+                },
+                "ce:source-text": "Terzaghi K. 1955. Evaluation of coefficient of subgrade reaction, Géotechnique 5(4): 297-326, DOI: 10.1680/geot.1955.5.4.297."
+              },
+              {
+                "ref-fulltext": "Xiao, S.H., Lin, K., Liu, H.J., Zhou, A.N., Performance analysis of monopile-supported wind turbines subjected to wind and operation loads. Renewable Energy 179 (2021), 842–858, 10.1016/j.renene.2021.07.055.",
+                "@id": "40",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Performance analysis of monopile-supported wind turbines subjected to wind and operation loads"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.renene.2021.07.055",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0205",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85111254522",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "179"
+                    },
+                    "pagerange": {
+                      "@first": "842",
+                      "@last": "858"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Xiao",
+                        "ce:indexed-name": "Xiao S.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Lin",
+                        "ce:indexed-name": "Lin K."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu H.J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "A.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou A.N."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Renewable Energy"
+                },
+                "ce:source-text": "Xiao SH, Lin K, Liu HJ & Zhou AN. 2021. Performance analysis of monopile-supported wind turbines subjected to wind and operation loads, Renewable Energy 179: 842-858, DOI: 10.1016/j.renene.2021.07.055."
+              },
+              {
+                "ref-fulltext": "Zhang, L., Nonlinear analysis of laterally loaded rigid piles in cohesionless soil. Comput. Geotech. 36:5 (2009), 718–724, 10.1016/j.compgeo.2008.12.001.",
+                "@id": "41",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Nonlinear analysis of laterally loaded rigid piles in cohesionless soil"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.compgeo.2008.12.001",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0210",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "64849110222",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "36",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "718",
+                      "@last": "724"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Comput. Geotech."
+                },
+                "ce:source-text": "Zhang L. 2009. Nonlinear analysis of laterally loaded rigid piles in cohesionless soil. Computers and Geotechnics, 36(5), 718-724, DOI: 10.1016/j.compgeo.2008.12.001."
+              },
+              {
+                "ref-fulltext": "Zhang, Y., Andersen, K.H., Scaling of lateral pile p-y response in clay from laboratory stress-strain curves. Mar. struct. 53 (2017), 124–135, 10.1016/j.marstruc.2017.02.002.",
+                "@id": "42",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Scaling of lateral pile p-y response in clay from laboratory stress-strain curves"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.marstruc.2017.02.002",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0215",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85013031105",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "53"
+                    },
+                    "pagerange": {
+                      "@first": "124",
+                      "@last": "135"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Andersen",
+                        "ce:indexed-name": "Andersen K.H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Mar. struct."
+                },
+                "ce:source-text": "Zhang Y & Andersen KH. 2017. Scaling of lateral pile p-y response in clay from laboratory stress-strain curves. Marine Structures 53: 124-135, DOI: 10.1016/j.marstruc.2017.02.002."
+              },
+              {
+                "ref-fulltext": "Zhu, B., Li, T., Xiong, G., Liu, J.C., Centrifuge model tests on laterally loaded piles in sand. Int. J. Phys. Modell. Geotech. 16:4 (2016), 160–172, 10.1680/jphmg.15.00023.",
+                "@id": "43",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Centrifuge model tests on laterally loaded piles in sand"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1680/jphmg.15.00023",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0220",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84996791597",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "16",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "160",
+                      "@last": "172"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhu",
+                        "ce:indexed-name": "Zhu B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li T."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Xiong",
+                        "ce:indexed-name": "Xiong G."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu J.C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Int. J. Phys. Modell. Geotech."
+                },
+                "ce:source-text": "Zhu B, Li T, Xiong G & Liu JC. 2016. Centrifuge model tests on laterally loaded piles in sand, International Journal of Physical Modelling in Geotechnics 16(4): 160-172, DOI: 10.1680/jphmg.15.00023."
+              },
+              {
+                "ref-fulltext": "Zhu, B., Ren, J., Yuan, M., Zhu, J.S., Yang, Q.J., Gao, Y.F., Kong, D.Q., Centrifuge Modeling of Monotonic and Cyclic Lateral Behavior of Monopiles in Sand. J. Geotech. Geoenviron. Eng., 147(8), 2021, 04021058, 10.1061/(ASCE)GT.1943-5606.0002566.",
+                "@id": "44",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Centrifuge Modeling of Monotonic and Cyclic Lateral Behavior of Monopiles in Sand"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1061/(ASCE)GT.1943-5606.0002566",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0225",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85107066522",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "147",
+                      "@issue": "8"
+                    },
+                    "pagerange": {
+                      "@first": "04021058"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhu",
+                        "ce:indexed-name": "Zhu B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Ren",
+                        "ce:indexed-name": "Ren J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Yuan",
+                        "ce:indexed-name": "Yuan M."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhu",
+                        "ce:indexed-name": "Zhu J.S."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Q.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang Q.J."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "Y.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Gao",
+                        "ce:indexed-name": "Gao Y.F."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "D.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Kong",
+                        "ce:indexed-name": "Kong D.Q."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Geotech. Geoenviron. Eng."
+                },
+                "ce:source-text": "Zhu B, Ren J, Yuan M, Zhu JS, Yang QJ, Gao YF & Kong DQ. 2021. Centrifuge Modeling of Monotonic and Cyclic Lateral Behavior of Monopiles in Sand, Journal of Geotechnical and Geoenvironmental Engineering 147(8): 04021058, DOI: 10.1061/(ASCE)GT.1943-5606.0002566."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "affiliation": [
+      {
+        "affiliation-city": "Tokyo",
+        "@id": "60283164",
+        "affilname": "Institute of Science Tokyo",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60283164",
+        "affiliation-country": "Japan"
+      },
+      {
+        "affiliation-city": "Tokyo",
+        "@id": "60007166",
+        "affilname": "Kajima Corporation",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60007166",
+        "affiliation-country": "Japan"
+      },
+      {
+        "affiliation-city": "Tokyo",
+        "@id": "60104166",
+        "affilname": "Electric Power Development Co.,LTD",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60104166",
+        "affiliation-country": "Japan"
+      }
+    ],
+    "coredata": {
+      "srctype": "j",
+      "eid": "2-s2.0-85129314251",
+      "dc:description": "To evaluate the lateral resistance of rigid monopiles for wind turbines in dense sand under lateral cyclic loading, centrifuge model tests are performed, focusing on the base resistance and degradation of the soil resistance under two-way lateral cyclic loading in the short-term. The slenderness ratio (embedded pile length to diameter) is varied from 3.75 to 8 and the loading frequency is in the range of 0.002 to 0.4 Hz in the prototype scale. Under cyclic loading with a maximum horizontal displacement of 5% of the pile diameter, the build-up of excess pore water pressure is observed, but the maximum value of the average excess pore water pressure ratio is around 50% in the steady-state for dense sand whose relative density is 80%. A simple analytical model for the rigid piles, considering the base resistance, is derived and then used to quantify the significance of the resistance at the pile base and the degradation of the soil resistance under cyclic loading. When the slenderness ratio is less than 5, a significant contribution of the moment resistance at the base is confirmed. The estimation of the degradation of the horizontal subgrade reaction coefficient using the simple analytical model suggests that, through cyclic shear tests for the determination of the deformation properties of the soil in a laboratory, it is possible to estimate the degradation of the soil stiffness and the parameters for the reduced sway-rocking type of foundation model.",
+      "prism:coverDate": "2022-06-01",
+      "prism:aggregationType": "Journal",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85129314251",
+      "dc:creator": {
+        "author": [
+          {
+            "ce:given-name": "Akihiro",
+            "preferred-name": {
+              "ce:given-name": "Akihiro",
+              "ce:initials": "A.",
+              "ce:surname": "Takahashi",
+              "ce:indexed-name": "Takahashi A."
+            },
+            "@seq": "1",
+            "ce:initials": "A.",
+            "@_fa": "true",
+            "affiliation": {
+              "@id": "60283164",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60283164"
+            },
+            "ce:surname": "Takahashi",
+            "@auid": "36175151600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/36175151600",
+            "ce:indexed-name": "Takahashi A."
+          }
+        ]
+      },
+      "link": [
+        {
+          "@_fa": "true",
+          "@rel": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85129314251"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85129314251&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85129314251&origin=inward"
+        }
+      ],
+      "source-id": "17392",
+      "pii": "S0038080622000567",
+      "citedby-count": "15",
+      "prism:volume": "62",
+      "subtype": "ar",
+      "dc:title": "Centrifuge model tests on large-diameter monopiles in dense sand subjected to two-way lateral cyclic loading in short-term",
+      "openaccess": "1",
+      "prism:issn": "00380806",
+      "publishercopyright": "© 2022",
+      "article-number": "101148",
+      "prism:issueIdentifier": "3",
+      "subtypeDescription": "Article",
+      "prism:publicationName": "Soils and Foundations",
+      "openaccessFlag": "true",
+      "prism:doi": "10.1016/j.sandf.2022.101148",
+      "dc:identifier": "SCOPUS_ID:85129314251",
+      "dc:publisher": "Elsevier B.V."
+    },
+    "idxterms": {
+      "mainterm": [
+        {
+          "$": "Base resistance",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Centrifuge model test",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Centrifuge models",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Dense sands",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Lateral cyclic loading",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Monopiles",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Stiffness degradation",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Turbine foundations",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Two ways",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Wind turbine foundation",
+          "@weight": "b",
+          "@candidate": "n"
+        }
+      ]
+    },
+    "language": {
+      "@xml:lang": "eng"
+    },
+    "authkeywords": {
+      "author-keyword": [
+        {
+          "@_fa": "true",
+          "$": "Base resistance"
+        },
+        {
+          "@_fa": "true",
+          "$": "Centrifuge modelling"
+        },
+        {
+          "@_fa": "true",
+          "$": "Lateral cyclic loading"
+        },
+        {
+          "@_fa": "true",
+          "$": "Monopile"
+        },
+        {
+          "@_fa": "true",
+          "$": "Stiffness degradation"
+        },
+        {
+          "@_fa": "true",
+          "$": "Wind turbine foundations"
+        }
+      ]
+    },
+    "subject-areas": {
+      "subject-area": [
+        {
+          "@_fa": "true",
+          "$": "Civil and Structural Engineering",
+          "@code": "2205",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Geotechnical Engineering and Engineering Geology",
+          "@code": "1909",
+          "@abbrev": "EART"
+        }
+      ]
+    },
+    "authors": {
+      "author": [
+        {
+          "ce:given-name": "Akihiro",
+          "preferred-name": {
+            "ce:given-name": "Akihiro",
+            "ce:initials": "A.",
+            "ce:surname": "Takahashi",
+            "ce:indexed-name": "Takahashi A."
+          },
+          "@seq": "1",
+          "ce:initials": "A.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60283164",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60283164"
+          },
+          "ce:surname": "Takahashi",
+          "@auid": "36175151600",
+          "author-url": "https://api.elsevier.com/content/author/author_id/36175151600",
+          "ce:indexed-name": "Takahashi A."
+        },
+        {
+          "ce:given-name": "Naoya",
+          "preferred-name": {
+            "ce:given-name": "Naoya",
+            "ce:initials": "N.",
+            "ce:surname": "Omura",
+            "ce:indexed-name": "Omura N."
+          },
+          "@seq": "2",
+          "ce:initials": "N.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60104166",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60104166"
+          },
+          "ce:surname": "Omura",
+          "@auid": "57659514000",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57659514000",
+          "ce:indexed-name": "Omura N."
+        },
+        {
+          "ce:given-name": "Takaaki",
+          "preferred-name": {
+            "ce:given-name": "Takaaki",
+            "ce:initials": "T.",
+            "ce:surname": "Kobayashi",
+            "ce:indexed-name": "Kobayashi T."
+          },
+          "@seq": "3",
+          "ce:initials": "T.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60007166",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60007166"
+          },
+          "ce:surname": "Kobayashi",
+          "@auid": "57659203000",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57659203000",
+          "ce:indexed-name": "Kobayashi T."
+        },
+        {
+          "ce:given-name": "Yukiho",
+          "preferred-name": {
+            "ce:given-name": "Yukiho",
+            "ce:initials": "Y.",
+            "ce:surname": "Kamata",
+            "ce:indexed-name": "Kamata Y."
+          },
+          "@seq": "4",
+          "ce:initials": "Y.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60007166",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60007166"
+          },
+          "ce:surname": "Kamata",
+          "@auid": "57222031293",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57222031293",
+          "ce:indexed-name": "Kamata Y."
+        },
+        {
+          "ce:given-name": "Satoshi",
+          "preferred-name": {
+            "ce:given-name": "Satoshi",
+            "ce:initials": "S.",
+            "ce:surname": "Inagaki",
+            "ce:indexed-name": "Inagaki S."
+          },
+          "@seq": "5",
+          "ce:initials": "S.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60007166",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60007166"
+          },
+          "ce:surname": "Inagaki",
+          "@auid": "36904140200",
+          "author-url": "https://api.elsevier.com/content/author/author_id/36904140200",
+          "ce:indexed-name": "Inagaki S."
+        }
+      ]
+    }
+  }
+}

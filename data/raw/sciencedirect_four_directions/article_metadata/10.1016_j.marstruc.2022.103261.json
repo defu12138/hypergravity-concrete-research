@@ -1,0 +1,2523 @@
+{
+  "abstracts-retrieval-response": {
+    "item": {
+      "ait:process-info": {
+        "ait:status": {
+          "@state": "update",
+          "@type": "core",
+          "@stage": "S300"
+        },
+        "ait:date-delivered": {
+          "@day": "08",
+          "@year": "2023",
+          "@timestamp": "2023-07-08T04:59:09.000009-04:00",
+          "@month": "07"
+        },
+        "ait:date-sort": {
+          "@day": "01",
+          "@year": "2022",
+          "@month": "09"
+        }
+      },
+      "xocs:meta": {
+        "xocs:funding-list": {
+          "@pui-match": "primary",
+          "@has-funding-info": "1",
+          "xocs:funding": [
+            {
+              "xocs:funding-agency-matched-string": "National Natural Science Foundation of China",
+              "xocs:funding-agency-acronym": "NSFC",
+              "xocs:funding-agency": "National Natural Science Foundation of China",
+              "xocs:funding-id": [
+                {
+                  "$": "51808270"
+                },
+                {
+                  "$": "52178295"
+                }
+              ],
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Tianjin Municipal Education Commission",
+              "xocs:funding-agency": "Tianjin Municipal Education Commission",
+              "xocs:funding-id": "2021KJ059",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100010882",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Tianjin Research Innovation Project for Postgraduate Students",
+              "xocs:funding-agency": "Tianjin Research Innovation Project for Postgraduate Students",
+              "xocs:funding-id": "2021YJSS343",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100019062",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            }
+          ],
+          "xocs:funding-addon-generated-timestamp": "2022-07-15T01:34:46.460Z",
+          "xocs:funding-text": "The authors gratefully acknowledge the support for this research from the National Natural Science Foundation of China under grant No. 51808270 and 52178295 , the Science and Technology Plan of Tianjin Municipal Education Commission under grant No. 2021KJ059 and Tianjin Research Innovation Project for Postgraduate Students under grant No. 2021YJSS343 .",
+          "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }
+      },
+      "bibrecord": {
+        "head": {
+          "author-group": [
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "300300",
+                "@afid": "60028512",
+                "@country": "chn",
+                "city": "Tianjin",
+                "organization": [
+                  {
+                    "$": "School of Transportation Science and Engineering"
+                  },
+                  {
+                    "$": "Civil Aviation University of China"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60028512",
+                  "@dptid": "126956649"
+                },
+                "@affiliation-instance-id": "S0951833922001009-e738825c4c775fe0fb1a07b5600a612c",
+                "ce:source-text": "School of Transportation Science and Engineering, Civil Aviation University of China, Tianjin 300300, China",
+                "@dptid": "126956649"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Yu",
+                  "preferred-name": {
+                    "ce:given-name": "Yu",
+                    "ce:initials": "Y.",
+                    "ce:surname": "Chen",
+                    "ce:indexed-name": "Chen Y."
+                  },
+                  "@seq": "1",
+                  "@author-instance-id": "S0951833922001009-00d840f5a9d62e7bbc1774a5ec3a0bfe",
+                  "ce:initials": "Y.",
+                  "@date-locked": "2023-05-31T01:41:13.763",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Chen",
+                  "@auid": "56218496600",
+                  "@orcid": "0000-0002-6685-723X",
+                  "ce:indexed-name": "Chen Y."
+                },
+                {
+                  "ce:given-name": "Kun",
+                  "preferred-name": {
+                    "ce:given-name": "Kun",
+                    "ce:initials": "K.",
+                    "ce:surname": "Wu",
+                    "ce:indexed-name": "Wu K."
+                  },
+                  "@seq": "3",
+                  "@author-instance-id": "S0951833922001009-65e1d4877a2d398420b7f0da1b694056",
+                  "ce:initials": "K.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Wu",
+                  "@auid": "57460385800",
+                  "ce:indexed-name": "Wu K."
+                },
+                {
+                  "ce:given-name": "Xin",
+                  "preferred-name": {
+                    "ce:given-name": "Xin",
+                    "ce:initials": "X.",
+                    "ce:surname": "Huang",
+                    "ce:indexed-name": "Huang X."
+                  },
+                  "@seq": "4",
+                  "@author-instance-id": "S0951833922001009-15f51ec3e0f93e0705a23eba35ba222c",
+                  "ce:initials": "X.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Huang",
+                  "@auid": "56175800600",
+                  "ce:indexed-name": "Huang X."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "300384",
+                "@afid": "60138441",
+                "@country": "chn",
+                "city": "Tianjin",
+                "organization": [
+                  {
+                    "$": "Tianjin Key Laboratory of Civil Structure Protection and Reinforcement"
+                  },
+                  {
+                    "$": "Tianjin Chengjian University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60138441"
+                },
+                "@affiliation-instance-id": "S0951833922001009-892aa1ace3819ce4282c89acc38feeed",
+                "ce:source-text": "Tianjin Key Laboratory of Civil Structure Protection and Reinforcement, Tianjin Chengjian University, Tianjin 300384, China"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Yang",
+                  "preferred-name": {
+                    "ce:given-name": "Yang",
+                    "ce:initials": "Y.",
+                    "ce:surname": "Lv",
+                    "ce:indexed-name": "Lv Y."
+                  },
+                  "@seq": "2",
+                  "@author-instance-id": "S0951833922001009-74e4167a6fb0408689edf509d5f89189",
+                  "ce:initials": "Y.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Lv",
+                  "@auid": "57014138800",
+                  "@orcid": "0000-0003-2915-7071",
+                  "ce:indexed-name": "Lv Y."
+                }
+              ]
+            }
+          ],
+          "citation-title": "Centrifuge shaking table study on the hydrodynamic effects on a pile foundation bridge pier in soft soil under earthquakes",
+          "abstracts": "© 2022 Elsevier LtdPrevious investigations have shown that water-pier interaction has a considerable effect on the seismic response of bridge piers in deep water. However, most of those studies assumed that the foundation is rigid and there are few studies on the hydrodynamic effects on the piers considering soil-structure interaction under earthquakes. To investigate the hydrodynamic effects on bridge piers built on soft ground, series of centrifuge shaking table tests were conducted. In the tests, a pile foundation bridge pier was scaled down by a factor of 1:50. The height of the pier was 340 mm, and the length of the pile was 200 mm. The pile foundation pier was installed in soft soil contained in a laminar shear box. Three depths of water, i.e., no water, 150 mm and 300 mm, were considered. The dynamic responses of pier displacement, acceleration and bending moment of the pier and piles, hydrodynamic pressure on the pier, soil pressure on the pile and pore-water pressure in the soil were measured. The results show that the natural frequency of the pier decreases as the water depth increases, and the displacement of the pier with a water depth of 300mm is significantly reduced in comparison with that of no water. However, water increases the acceleration and bending moment of the pier and the pile. The results also show that as the water depth increases, the hydrodynamic pressure acting on the pier and the dynamic soil pressure exerted on the pile both increase under earthquakes.",
+          "correspondence": {
+            "affiliation": {
+              "country": "China",
+              "postal-code": "300384",
+              "@country": "chn",
+              "city": "Tianjin",
+              "organization": [
+                {
+                  "$": "Tianjin Key Laboratory of Civil Structure Protection and Reinforcement"
+                },
+                {
+                  "$": "Tianjin Chengjian University"
+                }
+              ]
+            },
+            "person": {
+              "ce:given-name": "Yang",
+              "ce:initials": "Y.",
+              "ce:surname": "Lv",
+              "ce:indexed-name": "Lv Y."
+            }
+          },
+          "citation-info": {
+            "author-keywords": {
+              "author-keyword": [
+                {
+                  "$": "Centrifuge shaking table test",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Earthquake",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Hydrodynamic effect",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Pile foundation pier",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Pile-soil interaction",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                }
+              ]
+            },
+            "citation-type": {
+              "@code": "ar"
+            },
+            "citation-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "abstract-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            }
+          },
+          "source": {
+            "website": {
+              "ce:e-address": {
+                "$": "https://www.journals.elsevier.com/marine-structures",
+                "@type": "email"
+              }
+            },
+            "translated-sourcetitle": {
+              "$": "Marine Structures",
+              "@xml:lang": "eng"
+            },
+            "volisspag": {
+              "voliss": {
+                "@volume": "85"
+              }
+            },
+            "@type": "j",
+            "sourcetitle": "Marine Structures",
+            "publicationdate": {
+              "month": "09",
+              "year": "2022",
+              "date-text": "September 2022",
+              "day": "01"
+            },
+            "sourcetitle-abbrev": "Mar. Struct.",
+            "@country": "gbr",
+            "issn": {
+              "$": "09518339",
+              "@type": "print"
+            },
+            "publicationyear": {
+              "@first": "2022"
+            },
+            "publisher": {
+              "publishername": "Elsevier Ltd"
+            },
+            "article-number": "103261",
+            "@srcid": "21052"
+          },
+          "enhancement": {
+            "classificationgroup": {
+              "classifications": [
+                {
+                  "@type": "CPXCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "401.1",
+                      "classification-description": "Bridges"
+                    },
+                    {
+                      "classification-code": "407.1",
+                      "classification-description": "Maritime Structures"
+                    },
+                    {
+                      "classification-code": "408",
+                      "classification-description": "Structural Design"
+                    },
+                    {
+                      "classification-code": "408.2",
+                      "classification-description": "Structural Members and Shapes"
+                    },
+                    {
+                      "classification-code": "483.1",
+                      "classification-description": "Soils and Soil Mechanics"
+                    },
+                    {
+                      "classification-code": "483.2",
+                      "classification-description": "Foundations"
+                    },
+                    {
+                      "classification-code": "484",
+                      "classification-description": "Seismology"
+                    },
+                    {
+                      "classification-code": "802.1",
+                      "classification-description": "Chemical Plants and Equipment"
+                    }
+                  ]
+                },
+                {
+                  "@type": "FLXCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "78.21",
+                      "classification-description": "FLUID MECHANICS"
+                    },
+                    {
+                      "classification-code": "78.23",
+                      "classification-description": "MIXING AND SEPARATION"
+                    },
+                    {
+                      "classification-code": "79.21",
+                      "classification-description": "FLUID MECHANICS"
+                    },
+                    {
+                      "classification-code": "79.23",
+                      "classification-description": "COASTAL AND OCEAN ENGINEERING"
+                    }
+                  ]
+                },
+                {
+                  "@type": "GEOCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "72.13.4",
+                      "classification-description": "Engineering seismology"
+                    },
+                    {
+                      "classification-code": "77.9.11",
+                      "classification-description": "Influence of dynamic loads"
+                    }
+                  ]
+                },
+                {
+                  "@type": "ASJC",
+                  "classification": [
+                    {
+                      "$": "2500"
+                    },
+                    {
+                      "$": "2212"
+                    },
+                    {
+                      "$": "2211"
+                    },
+                    {
+                      "$": "2210"
+                    }
+                  ]
+                },
+                {
+                  "@type": "SUBJABBR",
+                  "classification": [
+                    {
+                      "$": "MATE"
+                    },
+                    {
+                      "$": "ENGI"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "grantlist": {
+            "@complete": "y",
+            "grant-text": {
+              "$": "The authors gratefully acknowledge the support for this research from the National Natural Science Foundation of China under grant No. 51808270 and 52178295, the Science and Technology Plan of Tianjin Municipal Education Commission under grant No. 2021KJ059 and Tianjin Research Innovation Project for Postgraduate Students under grant No. 2021YJSS343.",
+              "@xml:lang": "eng"
+            },
+            "grant": [
+              {
+                "grant-id": "2021YJSS343",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "Tianjin Research Innovation Project for Postgraduate Students"
+                },
+                "grant-agency-id": "501100019062"
+              },
+              {
+                "grant-id": "51808270",
+                "grant-acronym": "NSFC",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "National Natural Science Foundation of China"
+                },
+                "grant-agency-id": "501100001809"
+              },
+              {
+                "grant-id": "52178295",
+                "grant-acronym": "NSFC",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "National Natural Science Foundation of China"
+                },
+                "grant-agency-id": "501100001809"
+              }
+            ]
+          }
+        },
+        "item-info": {
+          "copyright": {
+            "$": "Copyright 2022 Elsevier B.V., All rights reserved.",
+            "@type": "Elsevier"
+          },
+          "dbcollection": [
+            {
+              "$": "CPX"
+            },
+            {
+              "$": "FLX"
+            },
+            {
+              "$": "GEO"
+            },
+            {
+              "$": "REAXYSCAR"
+            },
+            {
+              "$": "SCOPUS"
+            },
+            {
+              "$": "Scopusbase"
+            }
+          ],
+          "history": {
+            "date-created": {
+              "@day": "01",
+              "@year": "2022",
+              "@timestamp": "BST 13:57:57",
+              "@month": "09"
+            }
+          },
+          "itemidlist": {
+            "itemid": [
+              {
+                "$": "2018956287",
+                "@idtype": "PUI"
+              },
+              {
+                "$": "941477913",
+                "@idtype": "CAR-ID"
+              },
+              {
+                "$": "20222812352500",
+                "@idtype": "CPX"
+              },
+              {
+                "$": "1723366",
+                "@idtype": "FLX"
+              },
+              {
+                "$": "10209513",
+                "@idtype": "GEO"
+              },
+              {
+                "$": "20222121464",
+                "@idtype": "REAXYSCAR"
+              },
+              {
+                "$": "20222389815",
+                "@idtype": "SCOPUS"
+              },
+              {
+                "$": "85133792802",
+                "@idtype": "SCP"
+              },
+              {
+                "$": "85133792802",
+                "@idtype": "SGR"
+              }
+            ],
+            "ce:pii": "S0951833922001009",
+            "ce:ern": "pii:S0951833922001009",
+            "ce:doi": "10.1016/j.marstruc.2022.103261"
+          }
+        },
+        "tail": {
+          "bibliography": {
+            "@refcount": "30",
+            "reference": [
+              {
+                "ref-fulltext": "Tongaonkar, N.P., Jangid, R.S., Seismic response of isolated bridges with soil–structure interaction. Soil Dynam Earthq Eng 23:4 (2003), 287–302.",
+                "@id": "1",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2003"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic response of isolated bridges with soil–structure interaction"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib1",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0037410154",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "23",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "287",
+                      "@last": "302"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "N.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Tongaonkar",
+                        "ce:indexed-name": "Tongaonkar N.P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Jangid",
+                        "ce:indexed-name": "Jangid R.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dynam Earthq Eng"
+                },
+                "ce:source-text": "Tongaonkar N P, Jangid R S. Seismic response of isolated bridges with soil-structure interaction. Soil Dynamics & Earthquake Engineering. 2003; 23(4): 287-302."
+              },
+              {
+                "ref-fulltext": "Chaudhary, M.T.A., Abé, M., Fujino, Y., Identification of soil–structure interaction effect in base-isolated bridges from earthquake records. Soil Dynam Earthq Eng 21:8 (2001), 713–725.",
+                "@id": "2",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2001"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Identification of soil–structure interaction effect in base-isolated bridges from earthquake records"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib2",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0035545676",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "21",
+                      "@issue": "8"
+                    },
+                    "pagerange": {
+                      "@first": "713",
+                      "@last": "725"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.T.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Chaudhary",
+                        "ce:indexed-name": "Chaudhary M.T.A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Abé",
+                        "ce:indexed-name": "Abe M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Fujino",
+                        "ce:indexed-name": "Fujino Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dynam Earthq Eng"
+                },
+                "ce:source-text": "Chaudhary M T A, Abe M, Fujino Y. Identification of soil-structure interaction effect in base-isolated bridges from earthquake records. Soil Dynamics & Earthquake Engineering. 2001; 21(8): 713-725."
+              },
+              {
+                "ref-fulltext": "Du, X., Wang, P., Zhao, M., Simplified formula of hydrodynamic pressure on circular bridge piers in the time domain. Ocean Eng 85 (2014), 44–53.",
+                "@id": "3",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Simplified formula of hydrodynamic pressure on circular bridge piers in the time domain"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib3",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84900403002",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "85"
+                    },
+                    "pagerange": {
+                      "@first": "44",
+                      "@last": "53"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Du",
+                        "ce:indexed-name": "Du X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang P."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Ocean Eng"
+                },
+                "ce:source-text": "Du X, Wang P, Zhao M. Simplified formula of hydrodynamic pressure on circular bridge piers in the time domain. Ocean Engineering. 2014; 85: 44-53."
+              },
+              {
+                "ref-fulltext": "Yang, W., Li, Q., The expanded Morison equation considering inner and outer water hydrodynamic pressure of hollow piers. Ocean Eng 69:5 (2013), 79–87.",
+                "@id": "4",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The expanded Morison equation considering inner and outer water hydrodynamic pressure of hollow piers"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib4",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84879053862",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "69",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "79",
+                      "@last": "87"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li Q."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Ocean Eng"
+                },
+                "ce:source-text": "Yang W, Li Q. The expanded Morison equation considering inner and outer water hydrodynamic pressure of hollow piers. Ocean Engineering. 2013; 69(5): 79-87."
+              },
+              {
+                "ref-fulltext": "Li, Q., Yang, W., An improved method of hydrodynamic pressure calculation for circular hollow piers in deep water under earthquake. Ocean Eng 72:11 (2013), 241–256.",
+                "@id": "5",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "An improved method of hydrodynamic pressure calculation for circular hollow piers in deep water under earthquake"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib5",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84881090525",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "72",
+                      "@issue": "11"
+                    },
+                    "pagerange": {
+                      "@first": "241",
+                      "@last": "256"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li Q."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Ocean Eng"
+                },
+                "ce:source-text": "Li Q, Yang W. An improved method of hydrodynamic pressure calculation for circular hollow piers in deep water under earthquake. Ocean Engineering. 2013; 72(11): 241-256."
+              },
+              {
+                "ref-fulltext": "Wei, K., Yuan, W., Bouaanani, N., Experimental and numerical assessment of the three-Dimensional modal dynamic response of bridge pile foundations submerged in water. J Bridge Eng 18:10 (2012), 1032–1041.",
+                "@id": "6",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental and numerical assessment of the three-Dimensional modal dynamic response of bridge pile foundations submerged in water"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib6",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84884615726",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "18",
+                      "@issue": "10"
+                    },
+                    "pagerange": {
+                      "@first": "1032",
+                      "@last": "1041"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Wei",
+                        "ce:indexed-name": "Wei K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Yuan",
+                        "ce:indexed-name": "Yuan W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Bouaanani",
+                        "ce:indexed-name": "Bouaanani N."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Bridge Eng"
+                },
+                "ce:source-text": "Wei K, Yuan W, Bouaanani N. Experimental and numerical assessment of the three-Dimensional modal dynamic response of bridge pile foundations submerged in water. Journal of Bridge Engineering. 2012; 18(10): 1032-1041."
+              },
+              {
+                "ref-fulltext": "Li, Y., Dynamic response analysis of deep-water piers subjected to earthquake and wave loadings. 2012, Tianjin University, Tianjin, China [Chinese].",
+                "@id": "7",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Dynamic response analysis of deep-water piers subjected to earthquake and wave loadings"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib7",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85038953016",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Tianjin University Tianjin, China [Chinese]",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li Y."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Li Y. Dynamic response analysis of deep-water piers subjected to earthquake and wave loadings. Tianjin, China: Tianjin University; 2012. [Chinese]."
+              },
+              {
+                "ref-fulltext": "Song, Bo, Zheng, Fei, Yue, Li, Study on a simplified calculation method for hydrodynamic pressure to slender structures under earthquakes[J]. J Earthq Eng 17:5 (2013), 720–735.",
+                "@id": "8",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Study on a simplified calculation method for hydrodynamic pressure to slender structures under earthquakes[J]"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib8",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84877934911",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "17",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "720",
+                      "@last": "735"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "ce:given-name": "Bo",
+                        "@seq": "1",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Song",
+                        "ce:indexed-name": "Song B."
+                      },
+                      {
+                        "ce:given-name": "Fei",
+                        "@seq": "2",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Zheng",
+                        "ce:indexed-name": "Zheng F."
+                      },
+                      {
+                        "ce:given-name": "Li",
+                        "@seq": "3",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Yue",
+                        "ce:indexed-name": "Yue L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Earthq Eng"
+                },
+                "ce:source-text": "Bo Song, Fei Zheng, Yue Li. Study on a simplified calculation method for hydrodynamic pressure to slender structures under earthquakes[J]. Journal of Earthquake Engineering. 2013; 17(5): 720-735."
+              },
+              {
+                "ref-fulltext": "Yun, G., Liu, C., Shaking table tests on a deep-water high-pier whole bridge under joint earthquake, wave and current action[J]. Appl Ocean Res, 103, 2020, 102329.",
+                "@id": "9",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Shaking table tests on a deep-water high-pier whole bridge under joint earthquake, wave and current action[J]"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib9",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "102329",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85089388435",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "103"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Yun",
+                        "ce:indexed-name": "Yun G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Appl Ocean Res"
+                },
+                "ce:source-text": "Yun G, Liu C. Shaking table tests on a deep-water high-pier whole bridge under joint earthquake, wave and current action[J]. Applied Ocean Research. 2020; 103: 102329."
+              },
+              {
+                "ref-fulltext": "Liu, C., Sun, G., Calculation and experiment for dynamic response of bridge in deep water under seismic excitation. China Ocean Eng 28:4 (2014), 445–456.",
+                "@id": "10",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Calculation and experiment for dynamic response of bridge in deep water under seismic excitation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib10",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84906257152",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "28",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "445",
+                      "@last": "456"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Sun",
+                        "ce:indexed-name": "Sun G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "China Ocean Eng"
+                },
+                "ce:source-text": "Liu C, Sun G. Calculation and experiment for dynamic response of bridge in deep water under seismic excitation. China Ocean Engineering. 2014; 28(4): 445-456."
+              },
+              {
+                "ref-fulltext": "Zhong-Xian, Li, Wu, Kun, Shi, Yundong, Ning, Li, Ding, Yang, Experimental study on the interaction between water and cylindrical structure under earthquake action. Ocean Eng, 188, 2019, 106330.",
+                "@id": "11",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental study on the interaction between water and cylindrical structure under earthquake action"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib11",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "106330",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85070723925",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "188"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "ce:given-name": "Li",
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhong-Xian",
+                        "ce:indexed-name": "Zhong-Xian L."
+                      },
+                      {
+                        "ce:given-name": "Kun",
+                        "@seq": "2",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu K."
+                      },
+                      {
+                        "ce:given-name": "Yundong",
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi Y."
+                      },
+                      {
+                        "ce:given-name": "Li",
+                        "@seq": "4",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Ning",
+                        "ce:indexed-name": "Ning L."
+                      },
+                      {
+                        "ce:given-name": "Yang",
+                        "@seq": "5",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Ding",
+                        "ce:indexed-name": "Ding Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Ocean Eng"
+                },
+                "ce:source-text": "Li Zhong-Xian, Wu Kun, Shi Yundong, Li Ning, Ding Yang. Experimental study on the interaction between water and cylindrical structure under earthquake action. Ocean Engineering. 2019; 188: 106330."
+              },
+              {
+                "ref-fulltext": "Ding, Y., Ma, R., Shi, Y.D., et al. Underwater shaking table tests on bridge pier under combined earthquake and wave-current action. Mar Struct 58 (2018), 301–320.",
+                "@id": "12",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Underwater shaking table tests on bridge pier under combined earthquake and wave-current action"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib12",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85038914754",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "58"
+                    },
+                    "pagerange": {
+                      "@first": "301",
+                      "@last": "320"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Ding",
+                        "ce:indexed-name": "Ding Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Ma",
+                        "ce:indexed-name": "Ma R."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi Y.D."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Mar Struct"
+                },
+                "ce:source-text": "Ding Y, Ma R, Shi Y D, et al. Underwater shaking table tests on bridge pier under combined earthquake and wave-current action. Marine Structures. 2018; 58: 301-320."
+              },
+              {
+                "ref-fulltext": "Li, Z., Wu, K., Shi, Y.D., et al. Coordinative similitude law considering fluid-structure interaction for underwater shaking table tests[J]. Earthq Eng Struct Dynam 47 (2018), 2315–2332.",
+                "@id": "13",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Coordinative similitude law considering fluid-structure interaction for underwater shaking table tests[J]"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib13",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85050927455",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "47"
+                    },
+                    "pagerange": {
+                      "@first": "2315",
+                      "@last": "2332"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu K."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi Y.D."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Earthq Eng Struct Dynam"
+                },
+                "ce:source-text": "Li Z, Wu K, Shi Y D, et al. Coordinative similitude law considering fluid-structure interaction for underwater shaking table tests[J]. Earthquake Engineering & Structural Dynamics. 2018; 47: 2315-2332."
+              },
+              {
+                "ref-fulltext": "Li, Y., Conte, J.P., Effects of seismic isolation on the seismic response of a California high-speed rail prototype bridge with soil-structure and track-structure interactions. Earthq Eng Struct Dynam 45:15 (2016), 2415–2434.",
+                "@id": "14",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effects of seismic isolation on the seismic response of a California high-speed rail prototype bridge with soil-structure and track-structure interactions"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib14",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84979085538",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "45",
+                      "@issue": "15"
+                    },
+                    "pagerange": {
+                      "@first": "2415",
+                      "@last": "2434"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Conte",
+                        "ce:indexed-name": "Conte J.P."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Earthq Eng Struct Dynam"
+                },
+                "ce:source-text": "Li Y, Conte J P. Effects of seismic isolation on the seismic response of a California high-speed rail prototype bridge with soil-structure and track-structure interactions. Earthquake Engineering & Structural Dynamics. 2016; 45(15): 2415-2434."
+              },
+              {
+                "ref-fulltext": "Lesgidis, N., Sextos, A., Kwon, O., Influence of frequency-dependent soil-structure interaction on the fragility of R/C bridges[J]. Earthq Eng Struct Dynam 46:1 (2016), 139–158.",
+                "@id": "15",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Influence of frequency-dependent soil-structure interaction on the fragility of R/C bridges[J]"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib15",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84978139126",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "46",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "139",
+                      "@last": "158"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Lesgidis",
+                        "ce:indexed-name": "Lesgidis N."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Sextos",
+                        "ce:indexed-name": "Sextos A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "O.",
+                        "@_fa": "true",
+                        "ce:surname": "Kwon",
+                        "ce:indexed-name": "Kwon O."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Earthq Eng Struct Dynam"
+                },
+                "ce:source-text": "Lesgidis N, Sextos A, Kwon O. Influence of frequency-dependent soil-structure interaction on the fragility of R/C bridges[J]. Earthquake Engineering & Structural Dynamics. 2016; 46(1): 139-158."
+              },
+              {
+                "ref-fulltext": "Ganev, T., Yamazaki, F., Ishizaki, H., et al. Response analysis of the higashi–kobe bridge and surrounding soil in the 1995 hyogoken–nanbu earthquake. Earthq Eng Struct Dynam 27:6 (2015), 557–576.",
+                "@id": "16",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Response analysis of the higashi–kobe bridge and surrounding soil in the 1995 hyogoken–nanbu earthquake"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib16",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0032100167",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "27",
+                      "@issue": "6"
+                    },
+                    "pagerange": {
+                      "@first": "557",
+                      "@last": "576"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Ganev",
+                        "ce:indexed-name": "Ganev T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Yamazaki",
+                        "ce:indexed-name": "Yamazaki F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Ishizaki",
+                        "ce:indexed-name": "Ishizaki H."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Earthq Eng Struct Dynam"
+                },
+                "ce:source-text": "Ganev T, Yamazaki F, Ishizaki H, et al. Response analysis of the Higashi-Kobe Bridge and surrounding soil in the 1995 Hyogoken-Nanbu Earthquake. Earthquake Engineering & Structural Dynamics. 2015; 27(6): 557-576."
+              },
+              {
+                "ref-fulltext": "Wang, Z., Dueñas‐Osorio, L., Padgett, J.E., Seismic response of a bridge–soil–foundation system under the combined effect of vertical and horizontal ground motions. Earthq Eng Struct Dynam 42:4 (2013), 545–564.",
+                "@id": "17",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic response of a bridge–soil–foundation system under the combined effect of vertical and horizontal ground motions"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib17",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84874769123",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "42",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "545",
+                      "@last": "564"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Dueñas‐Osorio",
+                        "ce:indexed-name": "Duenas-Osorio L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.E.",
+                        "@_fa": "true",
+                        "ce:surname": "Padgett",
+                        "ce:indexed-name": "Padgett J.E."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Earthq Eng Struct Dynam"
+                },
+                "ce:source-text": "Wang Z, Duenas-Osorio L, Padgett J E. Seismic response of a bridge-soil-foundation system under the combined effect of vertical and horizontal ground motions. Earthquake Engineering & Structural Dynamics. 2013; 42(4):545-564."
+              },
+              {
+                "ref-fulltext": "Li, B., Chouw, N., Experimental investigation of inelastic bridge response under spatially varying excitations with pounding. Eng Struct 79:54 (2014), 106–116.",
+                "@id": "18",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental investigation of inelastic bridge response under spatially varying excitations with pounding"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib18",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84906508445",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "79",
+                      "@issue": "54"
+                    },
+                    "pagerange": {
+                      "@first": "106",
+                      "@last": "116"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Chouw",
+                        "ce:indexed-name": "Chouw N."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Eng Struct"
+                },
+                "ce:source-text": "Li B, Chouw N. Experimental investigation of inelastic bridge response under spatially varying excitations with pounding. Engineering Structures. 2014; 79(54): 106-116."
+              },
+              {
+                "ref-fulltext": "Liang, T., Ling, X., Xu, P., et al. Shake table test of soil-pile groups-bridge structure interaction in liquefiable ground. Earthq Eng Eng Vib 9:1 (2010), 39–50.",
+                "@id": "19",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Shake table test of soil-pile groups-bridge structure interaction in liquefiable ground"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib19",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84867212763",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "9",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "39",
+                      "@last": "50"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Liang",
+                        "ce:indexed-name": "Liang T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Ling",
+                        "ce:indexed-name": "Ling X."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu P."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Earthq Eng Eng Vib"
+                },
+                "ce:source-text": "Liang T, Ling X, Xu P, et al. Shake table test of soil-pile groups-bridge structure interaction in liquefiable ground. Earthquake Engineering and Engineering Vibration. 2010; 9(1): 39-50."
+              },
+              {
+                "ref-fulltext": "Gao, X., Ling, X.Z., Tang, L., et al. Soil–pile-bridge structure interaction in liquefying ground using shake table testing. Soil Dynam Earthq Eng 31:7 (2011), 1009–1017.",
+                "@id": "20",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Soil–pile-bridge structure interaction in liquefying ground using shake table testing"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib20",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "79955126175",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "31",
+                      "@issue": "7"
+                    },
+                    "pagerange": {
+                      "@first": "1009",
+                      "@last": "1017"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Gao",
+                        "ce:indexed-name": "Gao X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Ling",
+                        "ce:indexed-name": "Ling X.Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Tang",
+                        "ce:indexed-name": "Tang L."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Soil Dynam Earthq Eng"
+                },
+                "ce:source-text": "Gao X, Ling X Z, Tang L, et al. Soil-pile-bridge structure interaction in liquefying ground using shake table testing. Soil Dynamics & Earthquake Engineering. 2011; 31(7): 1009-1017."
+              },
+              {
+                "ref-fulltext": "Wang, S., Liu, K., Chen, C., et al. Experimental investigation on seismic behavior of scoured bridge pier with pile foundation. Earthq Eng Struct Dynam 44:6 (2015), 849–864.",
+                "@id": "21",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental investigation on seismic behavior of scoured bridge pier with pile foundation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib21",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84926063138",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "44",
+                      "@issue": "6"
+                    },
+                    "pagerange": {
+                      "@first": "849",
+                      "@last": "864"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu K."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen C."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Earthq Eng Struct Dynam"
+                },
+                "ce:source-text": "Wang S, Liu K, Chen C, et al. Experimental investigation on seismic behavior of scoured bridge pier with pile foundation. Earthquake Engineering & Structural Dynamics. 2015; 44(6): 849-864."
+              },
+              {
+                "ref-fulltext": "Wu, Q., Ding, X., Chen, Z., et al. Shaking table tests on seismic responses of pile-soil-superstructure in coral sand. J Earthq Eng(1), 2020, 1–27.",
+                "@id": "22",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Shaking table tests on seismic responses of pile-soil-superstructure in coral sand"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib22",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85133767563",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "1",
+                      "@last": "27"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu Q."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Ding",
+                        "ce:indexed-name": "Ding X."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen Z."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "J Earthq Eng"
+                },
+                "ce:source-text": "Wu Q, Ding X, Chen Z, et al. Shaking Table Tests on Seismic Responses of Pile-soil-superstructure in Coral Sand. Journal of Earthquake Engineering. 2020; (1): 1-27."
+              },
+              {
+                "ref-fulltext": "Fiorentino, G., Cengiz, C., Luca, F.D., et al. Integral abutment bridges: investigation of seismic soil-structure interaction effects by shaking table testing. Earthq Eng Struct Dynam, 2020, 1–22.",
+                "@id": "23",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Integral abutment bridges: investigation of seismic soil-structure interaction effects by shaking table testing"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib23",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85133787492",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "1",
+                      "@last": "22"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Fiorentino",
+                        "ce:indexed-name": "Fiorentino G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Cengiz",
+                        "ce:indexed-name": "Cengiz C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "F.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Luca",
+                        "ce:indexed-name": "Luca F.D."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Earthq Eng Struct Dynam"
+                },
+                "ce:source-text": "Fiorentino G, Cengiz C, Luca F D, et al. Integral abutment bridges: Investigation of seismic soil-structure interaction effects by shaking table testing. Earthquake Engineering & Structural Dynamics. 2020: 1-22."
+              },
+              {
+                "ref-fulltext": "Yamada, Y., Iemura, H., Kawano, K., et al. Seismic response of offshore structures in random seas. Earthq Eng Struct Dynam 18:7 (2010), 965–981.",
+                "@id": "24",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic response of offshore structures in random seas"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib24",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0024856983",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "18",
+                      "@issue": "7"
+                    },
+                    "pagerange": {
+                      "@first": "965",
+                      "@last": "981"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Yamada",
+                        "ce:indexed-name": "Yamada Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Iemura",
+                        "ce:indexed-name": "Iemura H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Kawano",
+                        "ce:indexed-name": "Kawano K."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Earthq Eng Struct Dynam"
+                },
+                "ce:source-text": "Yamada Y, Iemura H, Kawano K, et al. Seismic response of offshore structures in random seas. Earthquake Engineering & Structural Dynamics. 2010; 18(7): 965-981."
+              },
+              {
+                "ref-fulltext": "Huang, X., Li, Z.X., Influence of hydrodynamic pressure on seismic response of bridge piers in deep water. China Civ Eng J 44:1 (2011), 65–73 [Chinese].",
+                "@id": "25",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Influence of hydrodynamic pressure on seismic response of bridge piers in deep water"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib25",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "79951986481",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "44",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "65",
+                      "@last": "73"
+                    }
+                  },
+                  "ref-text": "[Chinese]",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.X.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li Z.X."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "China Civ Eng J"
+                },
+                "ce:source-text": "Huang X, Li Z X. Influence of hydrodynamic pressure on seismic response of bridge piers in deep water. China Civil Engineering Journal. 2011; 44(1): 65-73. [Chinese]."
+              },
+              {
+                "ref-fulltext": "Bai, D., Chen, G., Wang, Z., Seismic response analysis of the large bridge pier supported by group pile foundation considering the effect of wave and current action. J Earthq Eng Eng Vib 28:5 (2008), 170–177 [Chinese].",
+                "@id": "26",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2008"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic response analysis of the large bridge pier supported by group pile foundation considering the effect of wave and current action"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib26",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "65649134652",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "28",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "170",
+                      "@last": "177"
+                    }
+                  },
+                  "ref-text": "[Chinese]",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Bai",
+                        "ce:indexed-name": "Bai D."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen G."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang Z."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Earthq Eng Eng Vib"
+                },
+                "ce:source-text": "Bai D, Chen G, Wang Z. Seismic response analysis of the large bridge pier supported by group pile foundation considering the effect of wave and current action. Journal of Earthquake Engineering and Engineering Vibration. 2008; 28(5): 170-177. [Chinese]."
+              },
+              {
+                "ref-fulltext": "Chen, Y., Li, Z.X., Li, N., Seismic damage analysis of coastal continuous rigid-framed bridges considering multiple mediums. China Civ Eng J, 48(10), 2015, 91 78. [Chinese].",
+                "@id": "27",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic damage analysis of coastal continuous rigid-framed bridges considering multiple mediums"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib27",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84945937944",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "48",
+                      "@issue": "10"
+                    },
+                    "pagerange": {
+                      "@first": "91"
+                    }
+                  },
+                  "ref-text": "78. [Chinese]",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.X.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li Z.X."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li N."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "China Civ Eng J"
+                },
+                "ce:source-text": "Chen Y, Li Z X, Li N. Seismic damage analysis of coastal continuous rigid-framed bridges considering multiple mediums. China Civil Engineering Journal. 2015; 48(10): 91-78. [Chinese]."
+              },
+              {
+                "ref-fulltext": "Yan, Z., Chen, Y., Sun, X.P., et al. Performance evaluation of an “m” shaped SCM wall in reinforcement of pile-supported wharf under yard heaped loads with centrifuge modelling. Eng Struct 193 (2019), 308–323.",
+                "@id": "28",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Performance evaluation of an “m” shaped SCM wall in reinforcement of pile-supported wharf under yard heaped loads with centrifuge modelling"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib28",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85065873426",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "193"
+                    },
+                    "pagerange": {
+                      "@first": "308",
+                      "@last": "323"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Yan",
+                        "ce:indexed-name": "Yan Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Sun",
+                        "ce:indexed-name": "Sun X.P."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Eng Struct"
+                },
+                "ce:source-text": "Yan Z, Chen Y, Sun X P, et al. Performance evaluation of an “m” shaped SCM wall in reinforcement of pile-supported wharf under yard heaped loads with centrifuge modelling. Engineering Structures. 2019; 193: 308-323."
+              },
+              {
+                "ref-fulltext": "Sabnis, G.M., Harris, H.G., White, R.N., et al. Structural modeling and experimental techniques. 1983, Prentice-Hall.",
+                "@id": "29",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1983"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Structural modeling and experimental techniques"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib29",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0003439486",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Prentice-Hall",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Sabnis",
+                        "ce:indexed-name": "Sabnis G.M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Harris",
+                        "ce:indexed-name": "Harris H.G."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "R.N.",
+                        "@_fa": "true",
+                        "ce:surname": "White",
+                        "ce:indexed-name": "White R.N."
+                      }
+                    ],
+                    "et-al": null
+                  }
+                },
+                "ce:source-text": "Sabnis G M, Harris H G, White R N, et al. Structural Modeling and Experimental Techniques. Prentice-Hall, 1983."
+              },
+              {
+                "ref-fulltext": "PEER strong ground motion databases. < [https://peer.berkeley.edu/peer-strong-ground-motion-databases]>.",
+                "@id": "30",
+                "ref-info": {
+                  "ref-website": {
+                    "ce:e-address": {
+                      "$": "https://peer.berkeley.edu/peer-strong-ground-motion-databases]>",
+                      "@type": "email"
+                    }
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib30",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85133740025",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "PEER strong ground motion databases. < ["
+                },
+                "ce:source-text": "PEER strong ground motion databases. < [https://peer.berkeley.edu/peer-strong-ground-motion-databases]>."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "affiliation": [
+      {
+        "affiliation-city": "Tianjin",
+        "@id": "60028512",
+        "affilname": "Civil Aviation University of China",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028512",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Tianjin",
+        "@id": "60138441",
+        "affilname": "Tianjin Chengjian University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60138441",
+        "affiliation-country": "China"
+      }
+    ],
+    "coredata": {
+      "srctype": "j",
+      "eid": "2-s2.0-85133792802",
+      "dc:description": "Previous investigations have shown that water-pier interaction has a considerable effect on the seismic response of bridge piers in deep water. However, most of those studies assumed that the foundation is rigid and there are few studies on the hydrodynamic effects on the piers considering soil-structure interaction under earthquakes. To investigate the hydrodynamic effects on bridge piers built on soft ground, series of centrifuge shaking table tests were conducted. In the tests, a pile foundation bridge pier was scaled down by a factor of 1:50. The height of the pier was 340 mm, and the length of the pile was 200 mm. The pile foundation pier was installed in soft soil contained in a laminar shear box. Three depths of water, i.e., no water, 150 mm and 300 mm, were considered. The dynamic responses of pier displacement, acceleration and bending moment of the pier and piles, hydrodynamic pressure on the pier, soil pressure on the pile and pore-water pressure in the soil were measured. The results show that the natural frequency of the pier decreases as the water depth increases, and the displacement of the pier with a water depth of 300mm is significantly reduced in comparison with that of no water. However, water increases the acceleration and bending moment of the pier and the pile. The results also show that as the water depth increases, the hydrodynamic pressure acting on the pier and the dynamic soil pressure exerted on the pile both increase under earthquakes.",
+      "prism:coverDate": "2022-09-01",
+      "prism:aggregationType": "Journal",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85133792802",
+      "subtypeDescription": "Article",
+      "dc:creator": {
+        "author": [
+          {
+            "ce:given-name": "Yu",
+            "preferred-name": {
+              "ce:given-name": "Yu",
+              "ce:initials": "Y.",
+              "ce:surname": "Chen",
+              "ce:indexed-name": "Chen Y."
+            },
+            "@seq": "1",
+            "ce:initials": "Y.",
+            "@_fa": "true",
+            "affiliation": {
+              "@id": "60028512",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028512"
+            },
+            "ce:surname": "Chen",
+            "@auid": "56218496600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56218496600",
+            "ce:indexed-name": "Chen Y."
+          }
+        ]
+      },
+      "link": [
+        {
+          "@_fa": "true",
+          "@rel": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85133792802"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85133792802&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85133792802&origin=inward"
+        }
+      ],
+      "prism:publicationName": "Marine Structures",
+      "source-id": "21052",
+      "pii": "S0951833922001009",
+      "citedby-count": "32",
+      "prism:volume": "85",
+      "subtype": "ar",
+      "dc:title": "Centrifuge shaking table study on the hydrodynamic effects on a pile foundation bridge pier in soft soil under earthquakes",
+      "openaccess": "0",
+      "openaccessFlag": "false",
+      "prism:doi": "10.1016/j.marstruc.2022.103261",
+      "prism:issn": "09518339",
+      "publishercopyright": "© 2022 Elsevier Ltd",
+      "article-number": "103261",
+      "dc:identifier": "SCOPUS_ID:85133792802",
+      "dc:publisher": "Elsevier Ltd"
+    },
+    "idxterms": {
+      "mainterm": [
+        {
+          "$": "Centrifuge shaking table test",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Deepwater",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Hydrodynamic effect",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Hydrodynamic pressure",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Pile foundation pier",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Pile soil interaction",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Shaking tables",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Soft soils",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Soil pressure",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Water depth",
+          "@weight": "b",
+          "@candidate": "n"
+        }
+      ]
+    },
+    "language": {
+      "@xml:lang": "eng"
+    },
+    "authkeywords": {
+      "author-keyword": [
+        {
+          "@_fa": "true",
+          "$": "Centrifuge shaking table test"
+        },
+        {
+          "@_fa": "true",
+          "$": "Earthquake"
+        },
+        {
+          "@_fa": "true",
+          "$": "Hydrodynamic effect"
+        },
+        {
+          "@_fa": "true",
+          "$": "Pile foundation pier"
+        },
+        {
+          "@_fa": "true",
+          "$": "Pile-soil interaction"
+        }
+      ]
+    },
+    "subject-areas": {
+      "subject-area": [
+        {
+          "@_fa": "true",
+          "$": "Materials Science (all)",
+          "@code": "2500",
+          "@abbrev": "MATE"
+        },
+        {
+          "@_fa": "true",
+          "$": "Ocean Engineering",
+          "@code": "2212",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Mechanics of Materials",
+          "@code": "2211",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Mechanical Engineering",
+          "@code": "2210",
+          "@abbrev": "ENGI"
+        }
+      ]
+    },
+    "authors": {
+      "author": [
+        {
+          "ce:given-name": "Yu",
+          "preferred-name": {
+            "ce:given-name": "Yu",
+            "ce:initials": "Y.",
+            "ce:surname": "Chen",
+            "ce:indexed-name": "Chen Y."
+          },
+          "@seq": "1",
+          "ce:initials": "Y.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60028512",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028512"
+          },
+          "ce:surname": "Chen",
+          "@auid": "56218496600",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56218496600",
+          "ce:indexed-name": "Chen Y."
+        },
+        {
+          "ce:given-name": "Yang",
+          "preferred-name": {
+            "ce:given-name": "Yang",
+            "ce:initials": "Y.",
+            "ce:surname": "Lv",
+            "ce:indexed-name": "Lv Y."
+          },
+          "@seq": "2",
+          "ce:initials": "Y.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60138441",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60138441"
+          },
+          "ce:surname": "Lv",
+          "@auid": "57014138800",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57014138800",
+          "ce:indexed-name": "Lv Y."
+        },
+        {
+          "ce:given-name": "Kun",
+          "preferred-name": {
+            "ce:given-name": "Kun",
+            "ce:initials": "K.",
+            "ce:surname": "Wu",
+            "ce:indexed-name": "Wu K."
+          },
+          "@seq": "3",
+          "ce:initials": "K.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60028512",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028512"
+          },
+          "ce:surname": "Wu",
+          "@auid": "57460385800",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57460385800",
+          "ce:indexed-name": "Wu K."
+        },
+        {
+          "ce:given-name": "Xin",
+          "preferred-name": {
+            "ce:given-name": "Xin",
+            "ce:initials": "X.",
+            "ce:surname": "Huang",
+            "ce:indexed-name": "Huang X."
+          },
+          "@seq": "4",
+          "ce:initials": "X.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60028512",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028512"
+          },
+          "ce:surname": "Huang",
+          "@auid": "56175800600",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56175800600",
+          "ce:indexed-name": "Huang X."
+        }
+      ]
+    }
+  }
+}

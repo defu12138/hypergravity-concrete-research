@@ -1,0 +1,3884 @@
+{
+  "abstracts-retrieval-response": {
+    "item": {
+      "ait:process-info": {
+        "ait:status": {
+          "@state": "update",
+          "@type": "core",
+          "@stage": "S300"
+        },
+        "ait:date-delivered": {
+          "@day": "29",
+          "@timestamp": "2025-12-29T18:29:27.000027-05:00",
+          "@year": "2025",
+          "@month": "12"
+        },
+        "ait:date-sort": {
+          "@day": "01",
+          "@year": "2026",
+          "@month": "04"
+        }
+      },
+      "xocs:meta": {
+        "xocs:funding-list": {
+          "@pui-match": "primary",
+          "@has-funding-info": "1",
+          "xocs:funding": [
+            {
+              "xocs:funding-agency-matched-string": "Fundamental Research funds for the Central Universities",
+              "xocs:funding-agency": "Fundamental Research Funds for the Central Universities",
+              "xocs:funding-id": "2024QN11009",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100012226",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "China Postdoctoral Science Foundation",
+              "xocs:funding-agency": "China Postdoctoral Science Foundation",
+              "xocs:funding-id": "2024M753521",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100002858",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Natural Science Foundation of Ningbo Municipality",
+              "xocs:funding-agency": "Natural Science Foundation of Ningbo Municipality",
+              "xocs:funding-id": "2022J142",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/100007834",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            }
+          ],
+          "xocs:funding-addon-generated-timestamp": "2026-01-20T22:04:31.646Z",
+          "xocs:funding-text": "The authors gratefully acknowledge financial support from the Fundamental Research funds for the Central Universities under Grant No. 2024QN11009, China Postdoctoral Science Foundation under Grant No. 2024M753521 , Natural Science Foundation of Ningbo Municipality under Grant No. 2022J142 .",
+          "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }
+      },
+      "bibrecord": {
+        "head": {
+          "author-group": [
+            {
+              "affiliation": {
+                "country": "China",
+                "address-part": "No.1, University Road, Jiangsu",
+                "postal-code": "221116",
+                "@afid": "60073460",
+                "@country": "chn",
+                "city": "Xuzhou",
+                "organization": [
+                  {
+                    "$": "School of Mechanics and Civil Engineering"
+                  },
+                  {
+                    "$": "China University of Mining and Technology"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60073460"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-970370406-044322566a2373848aa4f8a7950e7467-1",
+                "ce:source-text": "School of Mechanics and Civil Engineering, China University of Mining and Technology, No.1, University Road, Xuzhou, Jiangsu 221116, China"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Jiahua",
+                  "preferred-name": {
+                    "ce:given-name": "Jiahua",
+                    "ce:initials": "J.",
+                    "ce:surname": "Mao",
+                    "ce:indexed-name": "Mao J."
+                  },
+                  "@author-instance-id": "OB2BibRecID-970370406-39f2744b066e02f9da6551db20e10367-1",
+                  "@seq": "1",
+                  "ce:initials": "J.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Mao",
+                  "@auid": "56146403200",
+                  "ce:indexed-name": "Mao J."
+                },
+                {
+                  "ce:given-name": "Dajun",
+                  "preferred-name": {
+                    "ce:given-name": "Dajun",
+                    "ce:initials": "D.",
+                    "ce:surname": "Yuan",
+                    "ce:indexed-name": "Yuan D."
+                  },
+                  "@author-instance-id": "OB2BibRecID-970370406-7d2b202c563a69b60aeaccb7d302955b-1",
+                  "@seq": "2",
+                  "ce:initials": "D.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Yuan",
+                  "@auid": "23020484800",
+                  "ce:indexed-name": "Yuan D."
+                },
+                {
+                  "ce:given-name": "Shuchen",
+                  "preferred-name": {
+                    "ce:given-name": "Shuchen",
+                    "ce:initials": "S.",
+                    "ce:surname": "Li",
+                    "ce:indexed-name": "Li S."
+                  },
+                  "@author-instance-id": "OB2BibRecID-970370406-5e5474c737e0d4954cb3748fbc90ef61-1",
+                  "@seq": "3",
+                  "ce:initials": "S.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Li",
+                  "@auid": "57211740254",
+                  "ce:indexed-name": "Li S."
+                },
+                {
+                  "ce:given-name": "Chen",
+                  "preferred-name": {
+                    "ce:given-name": "Chen",
+                    "ce:initials": "C.",
+                    "ce:surname": "Yang",
+                    "ce:indexed-name": "Yang C."
+                  },
+                  "@author-instance-id": "OB2BibRecID-970370406-77a255b20de6296f3d3529391d415dac-1",
+                  "@seq": "4",
+                  "ce:initials": "C.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Yang",
+                  "@auid": "59962030700",
+                  "ce:indexed-name": "Yang C."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "100082",
+                "@afid": "126169420",
+                "@country": "chn",
+                "organization": [
+                  {
+                    "$": "Beijing General Municipal Engineering Design & Research Institute Co."
+                  },
+                  {
+                    "$": "Ltd"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "126169420"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-970370406-533b6e11b9aec3716aee3739e5d2001b-1",
+                "ce:source-text": "Beijing General Municipal Engineering Design & Research Institute Co., Ltd, 100082, China"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Minggao",
+                  "preferred-name": {
+                    "ce:given-name": "Minggao",
+                    "ce:initials": "M.",
+                    "ce:surname": "Liu",
+                    "ce:indexed-name": "Liu M."
+                  },
+                  "@author-instance-id": "OB2BibRecID-970370406-73afa67c62b5497425399e935dbf6af2-1",
+                  "@seq": "5",
+                  "ce:initials": "M.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Liu",
+                  "@auid": "57732081500",
+                  "ce:indexed-name": "Liu M."
+                },
+                {
+                  "ce:given-name": "Rendong",
+                  "preferred-name": {
+                    "ce:given-name": "Rendong",
+                    "ce:initials": "R.",
+                    "ce:surname": "Chen",
+                    "ce:indexed-name": "Chen R."
+                  },
+                  "@author-instance-id": "OB2BibRecID-970370406-0e82a43cf418022d005ebc07036db819-1",
+                  "@seq": "6",
+                  "ce:initials": "R.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Chen",
+                  "@auid": "55276210300",
+                  "ce:indexed-name": "Chen R."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "100082",
+                "@afid": "60021391",
+                "@country": "chn",
+                "organization": {
+                  "$": "Nanjing Hydraulic Research Institute"
+                },
+                "affiliation-id": {
+                  "@afid": "60021391"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-970370406-b4985833b6e4d331b6165db8dbb822fb-1",
+                "ce:source-text": "Nanjing Hydraulic Research Institute, 100082, China"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Guofeng",
+                  "preferred-name": {
+                    "ce:given-name": "Guofeng",
+                    "ce:initials": "G.",
+                    "ce:surname": "Ren",
+                    "ce:indexed-name": "Ren G."
+                  },
+                  "@author-instance-id": "OB2BibRecID-970370406-5f4e43103f784f2ff6a262dcf9ebb7e2-1",
+                  "@seq": "7",
+                  "ce:initials": "G.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Ren",
+                  "@auid": "55960892500",
+                  "@orcid": "0009-0008-3859-412X",
+                  "ce:indexed-name": "Ren G."
+                }
+              ]
+            }
+          ],
+          "citation-title": "Centrifuge modelling of dewatering-excavation effects on overlying and adjacent large-diameter shield tunnels",
+          "abstracts": "© 2025 Elsevier LtdFoundation pit dewatering and excavation in groundwater-rich strata severely threatens adjacent large-diameter shield tunnels. However, existing physical models inadequately replicate both dewatering effects and segmental lining behaviour. A novel testing device was developed to simulate sequential dewatering, excavation, and backfilling while dynamically controlling groundwater levels, and two parallel centrifugal model tests were conducted. The results show that (1) the damage to the underlying shield tunnel structure caused by adjacent foundation pit construction first appears at the tunnel crown and arch bottom; (2) tunnel joint deformation is controlled by the excavation location of the foundation pit, construction directly above causes the maximum offset and opening positions to be separated, side construction causes both to be concentrated at the nearest ring position, with deformation magnitude consistently showing crown > arch waist > arch bottom; (3) dewatering is identified as the primary contributor (accounting for 52.1–83.9 %) to the overburden earth pressure reduction on tunnels. Its impact is more pronounced under lateral construction due to the dewatering-induced hydraulic slope curves. These findings provide critical guidance for controlling construction disturbances of foundation pit in water-rich strata and optimizing protective measures for adjacent shield tunnels.",
+          "correspondence": {
+            "affiliation": {
+              "country": "China",
+              "address-part": "No.1, University Road, Jiangsu",
+              "postal-code": "221116",
+              "@country": "chn",
+              "city": "Xuzhou",
+              "organization": [
+                {
+                  "$": "School of Mechanics and Civil Engineering"
+                },
+                {
+                  "$": "China University of Mining and Technology"
+                }
+              ],
+              "@affiliation-instance-id": "OB2BibRecID-970370406-81602e7f829b3e9b6bfbcc9e51c907e1-1"
+            },
+            "person": {
+              "ce:given-name": "Jiahua",
+              "@author-instance-id": "OB2BibRecID-970370406-eee5b5b7da80d07f0e1fef0a48c1ca24-1",
+              "ce:initials": "J.",
+              "ce:surname": "Mao",
+              "ce:indexed-name": "Mao J."
+            }
+          },
+          "citation-info": {
+            "author-keywords": {
+              "author-keyword": [
+                {
+                  "$": "Adjacent excavation",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Centrifuge modelling",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Foundation pit dewatering",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Large-diameter shield tunnels",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Structure response",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                }
+              ]
+            },
+            "citation-type": {
+              "@code": "ar"
+            },
+            "citation-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "abstract-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            }
+          },
+          "source": {
+            "website": {
+              "ce:e-address": {
+                "$": "https://www.sciencedirect.com/science/journal/08867798",
+                "@type": "email"
+              }
+            },
+            "translated-sourcetitle": {
+              "$": "Tunnelling and Underground Space Technology",
+              "@xml:lang": "eng"
+            },
+            "volisspag": {
+              "voliss": {
+                "@volume": "170"
+              }
+            },
+            "@type": "j",
+            "sourcetitle": "Tunnelling and Underground Space Technology",
+            "publicationdate": {
+              "month": "04",
+              "year": "2026",
+              "date-text": "April 2026",
+              "day": "01"
+            },
+            "sourcetitle-abbrev": "Tunn. Undergr. Space Technol.",
+            "@country": "gbr",
+            "issn": {
+              "$": "08867798",
+              "@type": "print"
+            },
+            "publicationyear": {
+              "@first": "2026"
+            },
+            "publisher": {
+              "publishername": "Elsevier Ltd"
+            },
+            "article-number": "107389",
+            "@srcid": "14642"
+          },
+          "enhancement": {
+            "classificationgroup": {
+              "classifications": [
+                {
+                  "@type": "CPXCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "1201.9",
+                      "classification-description": "Numerical Methods"
+                    },
+                    {
+                      "classification-code": "401.2",
+                      "classification-description": "Tunnels and Tunneling"
+                    },
+                    {
+                      "classification-code": "408.1",
+                      "classification-description": "Structural Members and Shapes"
+                    },
+                    {
+                      "classification-code": "444.2",
+                      "classification-description": "Groundwater"
+                    },
+                    {
+                      "classification-code": "483.2",
+                      "classification-description": "Foundations"
+                    },
+                    {
+                      "classification-code": "802.1",
+                      "classification-description": "Chemical Plants and Equipment"
+                    },
+                    {
+                      "classification-code": "802.3",
+                      "classification-description": "Chemical Operations"
+                    },
+                    {
+                      "classification-code": "942.2",
+                      "classification-description": "Miscellaneous Devices, Equipment and Components"
+                    }
+                  ]
+                },
+                {
+                  "@type": "FLXCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "78.23",
+                      "classification-description": "MIXING AND SEPARATION"
+                    },
+                    {
+                      "classification-code": "79.25",
+                      "classification-description": "WATER ENGINEERING"
+                    }
+                  ]
+                },
+                {
+                  "@type": "GEOCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "72.13.3",
+                      "classification-description": "Underground excavations"
+                    },
+                    {
+                      "classification-code": "77.10.4",
+                      "classification-description": "Tunnels"
+                    }
+                  ]
+                },
+                {
+                  "@type": "ASJC",
+                  "classification": [
+                    {
+                      "$": "2215"
+                    },
+                    {
+                      "$": "1909"
+                    }
+                  ]
+                },
+                {
+                  "@type": "SUBJABBR",
+                  "classification": [
+                    {
+                      "$": "ENGI"
+                    },
+                    {
+                      "$": "EART"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "grantlist": {
+            "@complete": "y",
+            "grant-text": {
+              "$": "The authors gratefully acknowledge financial support from the Fundamental Research funds for the Central Universities under Grant No. 2024QN11009, China Postdoctoral Science Foundation under Grant No. 2024M753521, Natural Science Foundation of Ningbo Municipality under Grant No. 2022J142.",
+              "@xml:lang": "eng"
+            },
+            "grant": [
+              {
+                "grant-id": "2022J142",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "Natural Science Foundation of Ningbo Municipality"
+                },
+                "grant-agency-id": "501100005315"
+              },
+              {
+                "grant-id": "2024M753521",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "China Postdoctoral Science Foundation"
+                },
+                "grant-agency-id": "501100002858"
+              }
+            ]
+          }
+        },
+        "item-info": {
+          "copyright": {
+            "$": "Copyright 2025 Elsevier B.V., All rights reserved.",
+            "@type": "Elsevier"
+          },
+          "dbcollection": [
+            {
+              "$": "CPX"
+            },
+            {
+              "$": "FLX"
+            },
+            {
+              "$": "GEO"
+            },
+            {
+              "$": "REAXYSCAR"
+            },
+            {
+              "$": "SCOPUS"
+            },
+            {
+              "$": "Scopusbase"
+            }
+          ],
+          "history": {
+            "date-created": {
+              "@day": "27",
+              "@timestamp": "BST 05:23:41",
+              "@year": "2025",
+              "@month": "12"
+            }
+          },
+          "itemidlist": {
+            "itemid": [
+              {
+                "$": "2042329571",
+                "@idtype": "PUI"
+              },
+              {
+                "$": "970370406",
+                "@idtype": "CAR-ID"
+              },
+              {
+                "$": "20255119759975",
+                "@idtype": "CPX"
+              },
+              {
+                "$": "2099017",
+                "@idtype": "FLX"
+              },
+              {
+                "$": "11386509",
+                "@idtype": "GEO"
+              },
+              {
+                "$": "20253981320",
+                "@idtype": "REAXYSCAR"
+              },
+              {
+                "$": "20255394015",
+                "@idtype": "SCOPUS"
+              },
+              {
+                "$": "970370406#77214099",
+                "@idtype": "SRC-OCC-ID"
+              },
+              {
+                "$": "105025142159",
+                "@idtype": "SCP"
+              },
+              {
+                "$": "105025142159",
+                "@idtype": "SGR"
+              }
+            ],
+            "ce:pii": "S0886779825010272",
+            "ce:ern": "pii:S0886779825010272",
+            "ce:doi": "10.1016/j.tust.2025.107389"
+          }
+        },
+        "tail": {
+          "bibliography": {
+            "@refcount": "38",
+            "reference": [
+              {
+                "ref-fulltext": "Abdel-Meguid, M., Rowe, R.K., Lo, K.Y., 3D effects of surface construction over existing subway tunnels. Int. J. Geomech. 2:4 (2002), 447–469, 10.1061/(ASCE)1532-3641(2002)2:4(447).",
+                "@reference-instance-id": "OB2BibRecID-970370406-f6631192803989b5c7f2b4a3229c1b71-1",
+                "@id": "1",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2002"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "3D effects of surface construction over existing subway tunnels"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1061/(ASCE)1532-3641(2002)2:4(447)",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0005",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "77949745378",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "2",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "447",
+                      "@last": "469"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Abdel-Meguid",
+                        "ce:indexed-name": "Abdel-Meguid M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Rowe",
+                        "ce:indexed-name": "Rowe R.K."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "K.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Lo",
+                        "ce:indexed-name": "Lo K.Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Int. J. Geomech."
+                },
+                "ce:source-text": "Abdel-Meguid, M., Rowe, R.K., Lo, K.Y., 2002. 3D effects of surface construction over existing subway tunnels. Int. J. Geomech. 2 (4), 447–469. https://doi.org/10.1061/(ASCE)1532-3641(2002)2:4(447)."
+              },
+              {
+                "ref-fulltext": "Chen, R.P., Gao, T.H., Wu, H.N., Meng, F.Y., Cheng, H.Z., Analysis on impact of adjacent foundation pit excavation on deformation of large-diameter shield tunnels. J. Hunan Univ. 50:9 (2023), 230–239, 10.16339/j.cnki.hdxbzkb.2023118 in Chinese.",
+                "@reference-instance-id": "OB2BibRecID-970370406-3151fc107db06e1f1930629d4e05adbb-2",
+                "@id": "2",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Analysis on impact of adjacent foundation pit excavation on deformation of large-diameter shield tunnels"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.16339/j.cnki.hdxbzkb.2023118",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0010",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85174895587",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "50",
+                      "@issue": "9"
+                    },
+                    "pagerange": {
+                      "@first": "230",
+                      "@last": "239"
+                    }
+                  },
+                  "ref-text": "in Chinese",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen R.P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Gao",
+                        "ce:indexed-name": "Gao T.H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu H.N."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "F.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Meng",
+                        "ce:indexed-name": "Meng F.Y."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "H.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Cheng",
+                        "ce:indexed-name": "Cheng H.Z."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Hunan Univ."
+                },
+                "ce:source-text": "Chen, R.P., Gao, T.H., Wu, H.N., Meng, F.Y., Cheng, H.Z., 2023. Analysis on impact of adjacent foundation pit excavation on deformation of large-diameter shield tunnels. J. Hunan Univ. 50 (9), 230–239. https://doi.org/10.16339/j.cnki.hdxbzkb.2023118. (in Chinese)"
+              },
+              {
+                "ref-fulltext": "Deng, W.W., Huang, D.W., Song, Y., Zhang, Z.W., Differential solution for longitudinal deformation of existing shield tunnel induced by upper excavation of a foundation pit considering cross-sectional ovalization. Tunn. Constr. 45:6 (2025), 1120–1130, 10.3973/j.issn.2096-4498.2025.06.007. (in Chinese).",
+                "@reference-instance-id": "OB2BibRecID-970370406-703410469378a8a7bf41b94bf7c6a0e0-3",
+                "@id": "3",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2025"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Differential solution for longitudinal deformation of existing shield tunnel induced by upper excavation of a foundation pit considering cross-sectional ovalization"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.3973/j.issn.2096-4498.2025.06.007. (in Chinese)",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0015",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105009388805",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "45",
+                      "@issue": "6"
+                    },
+                    "pagerange": {
+                      "@first": "1120",
+                      "@last": "1130"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Deng",
+                        "ce:indexed-name": "Deng W.W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang D.W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Song",
+                        "ce:indexed-name": "Song Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Z.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Z.W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Constr."
+                },
+                "ce:source-text": "Deng, W.W., Huang, D.W., Song, Y., Zhang, Z.W., 2025. Differential solution for longitudinal deformation of existing shield tunnel induced by upper excavation of a foundation pit considering cross-sectional ovalization. Tunn. Constr. 45 (6), 1120-1130. https://doi.org/10.3973/j.issn.2096-4498.2025.06.007. (in Chinese)"
+              },
+              {
+                "ref-fulltext": "Do, N.A., Dias, D., Oreste, P., Djeran-Maigre, I., 2d numerical investigation of segmental tunnel lining behavior. Tunn. Undergr. Space Technol. 37 (2013), 115–127, 10.1016/j.tust.2013.03.008.",
+                "@reference-instance-id": "OB2BibRecID-970370406-96fe5645a67a674f3aed82b9aa607933-4",
+                "@id": "4",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "2d numerical investigation of segmental tunnel lining behavior"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2013.03.008",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0020",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84877324980",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "37"
+                    },
+                    "pagerange": {
+                      "@first": "115",
+                      "@last": "127"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "N.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Do",
+                        "ce:indexed-name": "Do N.A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Dias",
+                        "ce:indexed-name": "Dias D."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Oreste",
+                        "ce:indexed-name": "Oreste P."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "I.",
+                        "@_fa": "true",
+                        "ce:surname": "Djeran-Maigre",
+                        "ce:indexed-name": "Djeran-Maigre I."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Do, N.A., Dias, D., Oreste, P., Djeran-Maigre, I., 2013. 2d numerical investigation of segmental tunnel lining behavior. Tunn. Undergr. Space Technol. 37, 115–127. https://doi.org/10.1016/j.tust.2013.03.008."
+              },
+              {
+                "ref-fulltext": "Feng, K., He, C., Qiu, Y., Zhang, Li, Wang, W., Xie, H., Zhang, Y., Cao, S., Full-scale tests on bending behavior of segmental joints for large underwater shield tunnels. Tunn. Undergr. Space Technol. 75 (2018), 100–116, 10.1016/j.tust.2018.02.008.",
+                "@reference-instance-id": "OB2BibRecID-970370406-9134aa4c2e80833d0742a392a048add7-5",
+                "@id": "5",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Full-scale tests on bending behavior of segmental joints for large underwater shield tunnels"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2018.02.008",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0025",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85042663186",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "75"
+                    },
+                    "pagerange": {
+                      "@first": "100",
+                      "@last": "116"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Feng",
+                        "ce:indexed-name": "Feng K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "He",
+                        "ce:indexed-name": "He C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Qiu",
+                        "ce:indexed-name": "Qiu Y."
+                      },
+                      {
+                        "ce:given-name": "Li",
+                        "@seq": "4",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang L."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang W."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Xie",
+                        "ce:indexed-name": "Xie H."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Y."
+                      },
+                      {
+                        "@seq": "8",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Cao",
+                        "ce:indexed-name": "Cao S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Feng, K., He, C., Qiu, Y., Zhang, L.i., Wang, W., Xie, H., Zhang, Y., Cao, S., 2018. Full-scale tests on bending behavior of segmental joints for large underwater shield tunnels. Tunn. Undergr. Space Technol. 75, 100–116. https://doi.org/10.1016/j.tust.2018.02.008."
+              },
+              {
+                "ref-fulltext": "Garnier, J., Gaudin, C., Springman, S.M., Culligan, P.J., Goodings, D., Konig, D., Kutter, B., Phillips, R., Randolph, M.F., Thorel, L., Catalogue of scaling laws and similitude questions in geotechnical centrifuge modelling. Int. J. Phys. Model. Geo. 7:3 (2007), 01–23, 10.13140/2.1.1615.3281.",
+                "@reference-instance-id": "OB2BibRecID-970370406-d92a4e01a8c16d4ce9f24a56c14a87eb-6",
+                "@id": "6",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Catalogue of scaling laws and similitude questions in geotechnical centrifuge modelling"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.13140/2.1.1615.3281",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0035",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "55849117403",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "7",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "1",
+                      "@last": "23"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Garnier",
+                        "ce:indexed-name": "Garnier J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Gaudin",
+                        "ce:indexed-name": "Gaudin C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Springman",
+                        "ce:indexed-name": "Springman S.M."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "P.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Culligan",
+                        "ce:indexed-name": "Culligan P.J."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Goodings",
+                        "ce:indexed-name": "Goodings D."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Konig",
+                        "ce:indexed-name": "Konig D."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Kutter",
+                        "ce:indexed-name": "Kutter B."
+                      },
+                      {
+                        "@seq": "8",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Phillips",
+                        "ce:indexed-name": "Phillips R."
+                      },
+                      {
+                        "@seq": "9",
+                        "ce:initials": "M.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Randolph",
+                        "ce:indexed-name": "Randolph M.F."
+                      },
+                      {
+                        "@seq": "10",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Thorel",
+                        "ce:indexed-name": "Thorel L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Int. J. Phys. Model. Geo."
+                },
+                "ce:source-text": "Garnier, J., Gaudin, C., Springman, S.M., Culligan, P.J., Goodings, D., Konig, D., Kutter, B., Phillips, R., Randolph, M.F., Thorel, L., 2007. Catalogue of scaling laws and similitude questions in geotechnical centrifuge modelling. Int. J. Phys. Model. Geo. 7 (3), 01–23. https://doi.org/10.13140/2.1.1615.3281."
+              },
+              {
+                "ref-fulltext": "Guan, L.X., Xu, C.J., Wang, X.P., Xia, X.Q., Ke, W.H., Analytical solution of deformation of underlying shield tunnel caused by foundation pit excavation and dewatering. in Chinese Rock Soil Mech. 44:11 (2023), 3241–3251, 10.16285/j.rsm.2022.1961.",
+                "@reference-instance-id": "OB2BibRecID-970370406-63fbcbe178572f07e30b80b46e066e20-7",
+                "@id": "7",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Analytical solution of deformation of underlying shield tunnel caused by foundation pit excavation and dewatering"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.16285/j.rsm.2022.1961",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0030",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85180367737",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "44",
+                      "@issue": "11"
+                    },
+                    "pagerange": {
+                      "@first": "3241",
+                      "@last": "3251"
+                    }
+                  },
+                  "ref-text": "in Chinese",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.X.",
+                        "@_fa": "true",
+                        "ce:surname": "Guan",
+                        "ce:indexed-name": "Guan L.X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu C.J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang X.P."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "X.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Xia",
+                        "ce:indexed-name": "Xia X.Q."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "W.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Ke",
+                        "ce:indexed-name": "Ke W.H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Rock Soil Mech."
+                },
+                "ce:source-text": "Guan, L.X., Xu, C.J., WANG, X.P., Xia, X.Q., Ke, W.H., 2023. Analytical solution of deformation of underlying shield tunnel caused by foundation pit excavation and dewatering. Rock Soil Mech. 44 (11), 3241–3251. https://doi.org/10.16285/j.rsm.2022.1961. (in Chinese)."
+              },
+              {
+                "ref-fulltext": "Huang, F., Zhang, M., Wang, F., Ling, T.H., Yang, X.L., The failure mechanism of surrounding rock around an existing shield tunnel induced by an adjacent excavation. Comput. Geotech., 117, 2020, 103236, 10.1016/j.compgeo.2019.103236.",
+                "@reference-instance-id": "OB2BibRecID-970370406-7c72974f46739a12e75fdf3f2d06bb0c-8",
+                "@id": "8",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The failure mechanism of surrounding rock around an existing shield tunnel induced by an adjacent excavation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.compgeo.2019.103236",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0040",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "103236",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85071964766",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "117"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang F."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "T.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Ling",
+                        "ce:indexed-name": "Ling T.H."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "X.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang X.L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Comput. Geotech."
+                },
+                "ce:source-text": "Huang, F., Zhang, M., Wang, F., Ling, T.H., Yang, X.L., 2020. The failure mechanism of surrounding rock around an existing shield tunnel induced by an adjacent excavation. Comput. Geotech. 117, 103236. https://doi.org/10.1016/j.compgeo.2019.103236."
+              },
+              {
+                "ref-fulltext": "Liang, R.Z., Wu, J., Sun, L.W., Shen, W., Wu, W.B., Performances of adjacent metro structures due to zoned excavation of a large-scale basement in soft ground. Tunn. Undergr. Space Technol., 117, 2021, 104123, 10.1016/j.tust.2021.104123.",
+                "@reference-instance-id": "OB2BibRecID-970370406-e77a0c861c366487a042414c582c9043-9",
+                "@id": "9",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Performances of adjacent metro structures due to zoned excavation of a large-scale basement in soft ground"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2021.104123",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0080",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "104123",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85112370387",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "117"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Liang",
+                        "ce:indexed-name": "Liang R.Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "L.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Sun",
+                        "ce:indexed-name": "Sun L.W."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Shen",
+                        "ce:indexed-name": "Shen W."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "W.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu W.B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Liang, R.Z., Wu, J., Sun, L.W., Shen, W., Wu, W.B., 2021. Performances of adjacent metro structures due to zoned excavation of a large-scale basement in soft ground. Tunn. Undergr. Space Technol. 117, 104123. https://doi.org/10.1016/j.tust.2021.104123."
+              },
+              {
+                "ref-fulltext": "Liao, S.M., Men, Y.Q., Xiao, M.Q., Zhang, D., Field tests on longitudinal stress relaxation along shield tunnel in soft ground. Chin. J. Geotech. Eng. 39:5 (2017), 795–803, 10.11779/CJGE201705003 in Chinese.",
+                "@reference-instance-id": "OB2BibRecID-970370406-8a501ee47f1dbbb06bbff3fe5b91ee52-10",
+                "@id": "10",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Field tests on longitudinal stress relaxation along shield tunnel in soft ground"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.11779/CJGE201705003",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0045",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85026375109",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "39",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "795",
+                      "@last": "803"
+                    }
+                  },
+                  "ref-text": "in Chinese",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Liao",
+                        "ce:indexed-name": "Liao S.M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Men",
+                        "ce:indexed-name": "Men Y.Q."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Xiao",
+                        "ce:indexed-name": "Xiao M.Q."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang D."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Chin. J. Geotech. Eng."
+                },
+                "ce:source-text": "Liao, S.M., Men, Y.Q., Xiao, M.Q., Zhang, D., 2017. Field tests on longitudinal stress relaxation along shield tunnel in soft ground. Chin. J. Geotech. Eng. 39 (5), 795–803. https://doi.org/10.11779/CJGE201705003. (in Chinese)"
+              },
+              {
+                "ref-fulltext": "Li, M.G., Xiao, X., Wang, J.H., Chen, J.J., Numerical study on responses of an existing metro line to staged deep excavations. Tunn. Undergr. Space Technol. 85 (2019), 268–281, 10.1016/j.tust.2018.12.005.",
+                "@reference-instance-id": "OB2BibRecID-970370406-926effbc0d3b8e9ef63c0303a3d6a824-11",
+                "@id": "11",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Numerical study on responses of an existing metro line to staged deep excavations"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2018.12.005",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0055",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85059183495",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "85"
+                    },
+                    "pagerange": {
+                      "@first": "268",
+                      "@last": "281"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li M.G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Xiao",
+                        "ce:indexed-name": "Xiao X."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang J.H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen J.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Li, M.G., Xiao, X., Wang, J.H., Chen, J.J., 2019. Numerical study on responses of an existing metro line to staged deep excavations. Tunn. Undergr. Space Technol. 85, 268–281. https://doi.org/10.1016/j.tust.2018.12.005."
+              },
+              {
+                "ref-fulltext": "Liu, T.J., Xia, W.Y., Cause analysis on damage of adjacent metro shield tunnel due to deep pit excavation with pile-anchor retaining. J. Railway Eng. Soc. 33:1 (2016), 109–115 in Chinese.",
+                "@reference-instance-id": "OB2BibRecID-970370406-e18a286b5338c651bb4d3e777d2efe60-12",
+                "@id": "12",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Cause analysis on damage of adjacent metro shield tunnel due to deep pit excavation with pile-anchor retaining"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0070",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84960487902",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "33",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "109",
+                      "@last": "115"
+                    }
+                  },
+                  "ref-text": "in Chinese",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu T.J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Xia",
+                        "ce:indexed-name": "Xia W.Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Railway Eng. Soc."
+                },
+                "ce:source-text": "Liu, T.J., Xia, W.Y., 2016. Cause analysis on damage of adjacent metro shield tunnel due to deep pit excavation with pile-anchor retaining. J. Railway Eng. Soc. 33 (1), 109–115. (in Chinese)."
+              },
+              {
+                "ref-fulltext": "Liu, B., Zhang, D.W., Yang, C., Zhang, Q.B., Long-term performance of metro tunnels induced by adjacent large deep excavation and protective measures in Nanjing silty clay. Tunn. Undergr. Space Technol., 95, 2020, 103147, 10.1016/j.tust.2019.103147.",
+                "@reference-instance-id": "OB2BibRecID-970370406-6cf2cfce57f803e9c06b0f9f1af3ee1e-13",
+                "@id": "13",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Long-term performance of metro tunnels induced by adjacent large deep excavation and protective measures in Nanjing silty clay"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2019.103147",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0065",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "103147",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85073709039",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "95"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang D.W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang C."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Q.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Q.B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Liu, B., Zhang, D.W., Yang, C., Zhang, Q.B., 2020. Long-term performance of metro tunnels induced by adjacent large deep excavation and protective measures in Nanjing silty clay. Tunn. Undergr. Space Technol. 95, 103147. https://doi.org/10.1016/j.tust.2019.103147."
+              },
+              {
+                "ref-fulltext": "Liu, X., Feng, K., He, C., Zhao, L.X., Prototype test of the mechanical behavior and failure mechanism of segment structure with distributed mortises and tenons. Struct. Concr. 22:5 (2021), 2619–2633, 10.1002/suco.202100539.",
+                "@reference-instance-id": "OB2BibRecID-970370406-21e827904b2b4e8ed4b1df557e1555f2-14",
+                "@id": "14",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Prototype test of the mechanical behavior and failure mechanism of segment structure with distributed mortises and tenons"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1002/suco.202100539",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0060",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85121146665",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "22",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "2619",
+                      "@last": "2633"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Feng",
+                        "ce:indexed-name": "Feng K."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "He",
+                        "ce:indexed-name": "He C."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "L.X.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao L.X."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Struct. Concr."
+                },
+                "ce:source-text": "Liu, X., Feng, K., He, C., Zhao, L.X., 2021. Prototype test of the mechanical behavior and failure mechanism of segment structure with distributed mortises and tenons. Struct. Concr. 22 (5), 2619–2633. https://doi.org/10.1002/suco.202100539."
+              },
+              {
+                "ref-fulltext": "Liu, B., Wu, W.W., Lu, H.P., Chen, S., Zhang, D.W., Effect and control of foundation pit excavation on existing tunnels: a state-of-the-art review. Tunn. Undergr. Space Technol., 147, 2024, 105704, 10.1016/j.tust.2024.105704.",
+                "@reference-instance-id": "OB2BibRecID-970370406-adb96d73811e377ecf470c5c4d591ddb-15",
+                "@id": "15",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect and control of foundation pit excavation on existing tunnels: a state-of-the-art review"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2024.105704",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0075",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105704",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85187543753",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "147"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu W.W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Lu",
+                        "ce:indexed-name": "Lu H.P."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen S."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "D.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang D.W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Liu, B., Wu, W.W., Lu, H.P., Chen, S., Zhang, D.W., 2024. Effect and control of foundation pit excavation on existing tunnels: A state-of-the-art review. Tunn. Undergr. Space Technol. 147, 105704. https://doi.org/10.1016/j.tust.2024.105704."
+              },
+              {
+                "ref-fulltext": "Lu, P., Yuan, D.J., Jin, D.L., Luo, W.P., Liu, M.G., Centrifugal model tests on the structural response of the shield tunnel when constructing cross passages by mechanical methods. Tunn. Undergr. Space Technol., 128, 2022, 104621, 10.1016/j.tust.2022.104621.",
+                "@reference-instance-id": "OB2BibRecID-970370406-624b4f91edb7760016ae2e75a31a52d5-16",
+                "@id": "16",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Centrifugal model tests on the structural response of the shield tunnel when constructing cross passages by mechanical methods"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2022.104621",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0050",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "104621",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85133421086",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "128"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Lu",
+                        "ce:indexed-name": "Lu P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Yuan",
+                        "ce:indexed-name": "Yuan D.J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Jin",
+                        "ce:indexed-name": "Jin D.L."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "W.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Luo",
+                        "ce:indexed-name": "Luo W.P."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "M.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu M.G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Lu, P., Yuan, D.J., Jin, D.L., Luo, W.P., Liu, M.G., 2022. Centrifugal model tests on the structural response of the shield tunnel when constructing cross passages by mechanical methods. Tunn. Undergr. Space Technol. 128, 104621. https://doi.org/10.1016/j.tust.2022.104621."
+              },
+              {
+                "ref-fulltext": "Meng, F.Y., Chen, R.P., Xu, Y., Wu, H.N., Li, Z.C., Centrifuge modeling of effectiveness of protective measures on existing tunnel subjected to nearby excavation. Tunn. Undergr. Space Technol., 112, 2021, 103880, 10.1016/j.tust.2021.103880.",
+                "@reference-instance-id": "OB2BibRecID-970370406-f34dff66b4c4eeca5639cb9efaa35398-17",
+                "@id": "17",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Centrifuge modeling of effectiveness of protective measures on existing tunnel subjected to nearby excavation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2021.103880",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0085",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "103880",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85102050969",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "112"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Meng",
+                        "ce:indexed-name": "Meng F.Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen R.P."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "H.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu H.N."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Z.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li Z.C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Meng, F.Y., Chen, R.P., Xu, Y., Wu, H.N., Li, Z.C., 2021. Centrifuge modeling of effectiveness of protective measures on existing tunnel subjected to nearby excavation. Tunn. Undergr. Space Technol. 112, 103880. https://doi.org/10.1016/j.tust.2021.103880."
+              },
+              {
+                "ref-fulltext": "Meng, F.Y., Chen, R.P., Liu, S.L., Wu, H.N., Centrifuge modeling of ground and tunnel responses to nearby excavation in soft clay. J. Geotech. Geoenviron. Eng., 147, 2021, 4020178, 10.1061/(ASCE)GT.1943-5606.0002473.",
+                "@reference-instance-id": "OB2BibRecID-970370406-19b81e78b970e42971871233a8cae3d5-18",
+                "@id": "18",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Centrifuge modeling of ground and tunnel responses to nearby excavation in soft clay"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1061/(ASCE)GT.1943-5606.0002473",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0090",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "4020178",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85098596727",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "147"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Meng",
+                        "ce:indexed-name": "Meng F.Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen R.P."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu S.L."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "H.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu H.N."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Geotech. Geoenviron. Eng."
+                },
+                "ce:source-text": "Meng, F.Y., Chen, R.P., Liu, S.L., Wu, H.N., 2021. Centrifuge modeling of ground and tunnel responses to nearby excavation in soft clay. J. Geotech. Geoenviron. Eng. 147, 4020178. https://doi.org/10.1061/(ASCE)GT.1943-5606.0002473."
+              },
+              {
+                "ref-fulltext": "Meng, F.Y., Chen, R.P., Xu, Y., Wu, K., Wu, H.N., Liu, Y., Contributions to responses of existing tunnel subjected to nearby excavation: a review. Tunn. Undergr. Space Technol., 119, 2022, 104195, 10.1016/j.tust.2021.104195.",
+                "@reference-instance-id": "OB2BibRecID-970370406-5c98076af9e386ebbb31752edd9da551-19",
+                "@id": "19",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Contributions to responses of existing tunnel subjected to nearby excavation: a review"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2021.104195",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0095",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "104195",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85116666971",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "119"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Meng",
+                        "ce:indexed-name": "Meng F.Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen R.P."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu K."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "H.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu H.N."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Meng, F.Y., Chen, R.P., Xu, Y., Wu, K., Wu, H.N., Liu, Y., 2022. Contributions to responses of existing tunnel subjected to nearby excavation: A review. Tunn. Undergr. Space Technol. 119, 104195. https://doi.org/10.1016/j.tust.2021.104195."
+              },
+              {
+                "ref-fulltext": "Meng, F., Qiao, S.F., Chen, D.L., Zhang, R., Zhang, Z., Analysis of deformation of existing shield tunnel induced by foundation pit excavation and dewatering. J. Railway Sci. Eng. 22:1 (2025), 246–258, 10.19713/j.cnki.43-1423/u.T20240400 in Chinese.",
+                "@reference-instance-id": "OB2BibRecID-970370406-dc63affeb96df14bc714d2220ffdd68b-20",
+                "@id": "20",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2025"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Analysis of deformation of existing shield tunnel induced by foundation pit excavation and dewatering"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.19713/j.cnki.43-1423/u.T20240400",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0100",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85219101988",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "22",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "246",
+                      "@last": "258"
+                    }
+                  },
+                  "ref-text": "in Chinese",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Meng",
+                        "ce:indexed-name": "Meng F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Qiao",
+                        "ce:indexed-name": "Qiao S.F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen D.L."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang R."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Z."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Railway Sci. Eng."
+                },
+                "ce:source-text": "Meng, F., Qiao, S.F., Chen, D.L., Zhang, R., Zhang, Z., 2025. Analysis of deformation of existing shield tunnel induced by foundation pit excavation and dewatering. J. Railway Sci. Eng. 22 (1), 246–258. https://doi.org/10.19713/j.cnki.43-1423/u.T20240400. (in Chinese)"
+              },
+              {
+                "ref-fulltext": "Ng, C.W.W., Shi, J.W., Hong, Y., Three-dimensional centrifuge modelling of basement excavation effects on an existing tunnel in dry sand. Can. Geotech. J. 50 (2013), 874–888, 10.1139/cgj-2012-0423.",
+                "@reference-instance-id": "OB2BibRecID-970370406-0348145c7ba740342755107815ae79e6-21",
+                "@id": "21",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Three-dimensional centrifuge modelling of basement excavation effects on an existing tunnel in dry sand"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1139/cgj-2012-0423",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0105",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84881239405",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "50"
+                    },
+                    "pagerange": {
+                      "@first": "874",
+                      "@last": "888"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.W.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Ng",
+                        "ce:indexed-name": "Ng C.W.W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi J.W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Hong",
+                        "ce:indexed-name": "Hong Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Can. Geotech. J."
+                },
+                "ce:source-text": "Ng, C.W.W., Shi, J.W., Hong, Y., 2013. Three-dimensional centrifuge modelling of basement excavation effects on an existing tunnel in dry sand. Can. Geotech. J. 50, 874–888. https://doi.org/10.1139/cgj-2012-0423."
+              },
+              {
+                "ref-fulltext": "Ou, X.F., Zhang, X.M., Liu, X.Q., Yang, J.S., Liu, J.Q., Han, X.F., Analytic calculation method of underlying tunnel deformation caused by excavation and dewatering of upper pit. J. China Railway Soc. 41:3 (2019), 147–154, 10.3969/j.issn.1001-8360.2019.03.020. (in Chinese).",
+                "@reference-instance-id": "OB2BibRecID-970370406-cacfd74323e20f4bc644e4935d178451-22",
+                "@id": "22",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Analytic calculation method of underlying tunnel deformation caused by excavation and dewatering of upper pit"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.3969/j.issn.1001-8360.2019.03.020. (in Chinese)",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0110",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85067097532",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "41",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "147",
+                      "@last": "154"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Ou",
+                        "ce:indexed-name": "Ou X.F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang X.M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu X.Q."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang J.S."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "J.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu J.Q."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "X.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Han",
+                        "ce:indexed-name": "Han X.F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. China Railway Soc."
+                },
+                "ce:source-text": "Ou, X.F., Zhang, X.M., Liu, X.Q., Yang, J.S., Liu, J.Q., Han, X.F., 2019. Analytic calculation method of underlying tunnel deformation caused by excavation and dewatering of upper pit. J. China Railway Soc. 41 (3), 147–154. https://doi.org/10.3969/j.issn.1001-8360.2019.03.020. (in Chinese)"
+              },
+              {
+                "ref-fulltext": "Shen, S.L., Wu, H.N., Cui, Y.J., Yin, Z.Y., Long-term settlement behaviour of metro tunnels in the soft deposits of Shanghai. Tunn. Undergr. Space Technol. 40 (2014), 309–323, 10.1016/j.tust.2013.10.013.",
+                "@reference-instance-id": "OB2BibRecID-970370406-b145bec8be2a25a619e5d07667ecd344-23",
+                "@id": "23",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Long-term settlement behaviour of metro tunnels in the soft deposits of Shanghai"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2013.10.013",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0115",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84888772205",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "40"
+                    },
+                    "pagerange": {
+                      "@first": "309",
+                      "@last": "323"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Shen",
+                        "ce:indexed-name": "Shen S.L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu H.N."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Cui",
+                        "ce:indexed-name": "Cui Y.J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Z.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Yin",
+                        "ce:indexed-name": "Yin Z.Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Shen, S.L., Wu, H.N., Cui, Y.J., Yin, Z.Y., 2014. Long-term settlement behaviour of metro tunnels in the soft deposits of Shanghai. Tunn. Undergr. Space Technol. 40, 309–323. https://doi.org/10.1016/j.tust.2013.10.013."
+              },
+              {
+                "ref-fulltext": "Shi, C.H., Cao, C.Y., Lei, M.F., Peng, L.M., Ai, H.J., Effects of lateral unloading on the mechanical and deformation performance of shield tunnel segment joints. Tunn. Undergr. Space Technol. 51 (2016), 175–188, 10.1016/j.tust.2015.10.033.",
+                "@reference-instance-id": "OB2BibRecID-970370406-a84787121c21f17b1228baec9dae6cf9-24",
+                "@id": "24",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effects of lateral unloading on the mechanical and deformation performance of shield tunnel segment joints"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2015.10.033",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0120",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84946212668",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "51"
+                    },
+                    "pagerange": {
+                      "@first": "175",
+                      "@last": "188"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi C.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Cao",
+                        "ce:indexed-name": "Cao C.Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Lei",
+                        "ce:indexed-name": "Lei M.F."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "L.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Peng",
+                        "ce:indexed-name": "Peng L.M."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "H.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Ai",
+                        "ce:indexed-name": "Ai H.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Shi, C.H., Cao, C.Y., Lei, M.F., Peng, L.M., Ai, H.J., 2016. Effects of lateral unloading on the mechanical and deformation performance of shield tunnel segment joints. Tunn. Undergr. Space Technol. 51, 175–188. https://doi.org/10.1016/j.tust.2015.10.033."
+              },
+              {
+                "ref-fulltext": "Soomro, M.A., Mangnejo, D.A., Saand, A., Mangi, N., Zardari, M.A., Influence of stress relief due to deep excavation on a brick masonry wall: 3D numerical predictions. Eur. J. Environ. Civ. Eng. 26:15 (2022), 7621–7644, 10.1080/19648189.2021.2004450.",
+                "@reference-instance-id": "OB2BibRecID-970370406-b547cf227f40e7195482f7174e7fc0da-25",
+                "@id": "25",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Influence of stress relief due to deep excavation on a brick masonry wall: 3D numerical predictions"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1080/19648189.2021.2004450",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0125",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85120049734",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "26",
+                      "@issue": "15"
+                    },
+                    "pagerange": {
+                      "@first": "7621",
+                      "@last": "7644"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Soomro",
+                        "ce:indexed-name": "Soomro M.A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Mangnejo",
+                        "ce:indexed-name": "Mangnejo D.A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Saand",
+                        "ce:indexed-name": "Saand A."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Mangi",
+                        "ce:indexed-name": "Mangi N."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "M.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Zardari",
+                        "ce:indexed-name": "Zardari M.A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Eur. J. Environ. Civ. Eng."
+                },
+                "ce:source-text": "Soomro, M.A., Mangnejo, D.A., Saand, A., Mangi, N., Zardari, M.A., 2022. Influence of stress relief due to deep excavation on a brick masonry wall: 3D numerical predictions. Eur. J. Environ. Civ. Eng. 26 (15), 7621–7644. https://doi.org/10.1080/19648189.2021.2004450."
+              },
+              {
+                "ref-fulltext": "Tang, W.C., Tang, L., Ling, X.Z., Kong, X.X., Zhang, Y.F., Long-term performance of subway tunnels induced by the symmetrical excavation of semicircular deep foundation pits in the Northeast Region hard silty clay. Tunn. Undergr. Space Technol., 154, 2024, 106052, 10.1016/j.tust.2024.106052.",
+                "@reference-instance-id": "OB2BibRecID-970370406-b7c9c7c27c877fff533c173fc45bf53b-26",
+                "@id": "26",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Long-term performance of subway tunnels induced by the symmetrical excavation of semicircular deep foundation pits in the Northeast Region hard silty clay"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2024.106052",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0135",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "106052",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85204620759",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "154"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Tang",
+                        "ce:indexed-name": "Tang W.C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Tang",
+                        "ce:indexed-name": "Tang L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Ling",
+                        "ce:indexed-name": "Ling X.Z."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "X.X.",
+                        "@_fa": "true",
+                        "ce:surname": "Kong",
+                        "ce:indexed-name": "Kong X.X."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Y.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Y.F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Tang, W.C., Tang, L., Ling, X.Z., Kong, X.X, Zhang, Y.F., 2024. Long-term performance of subway tunnels induced by the symmetrical excavation of semicircular deep foundation pits in the Northeast Region hard silty clay. Tunn. Undergr. Space Technol. 154, 106052. https://doi.org/10.1016/j.tust.2024.106052."
+              },
+              {
+                "ref-fulltext": "Wang, Z., Wang, L.Z., Li, L.L., Wang, J.C., Failure mechanism of tunnel lining joints and bolts with uneven longitudinal ground settlement. Tunn. Undergr. Space Technol. 40 (2014), 300–308, 10.1016/j.tust.2013.10.007.",
+                "@reference-instance-id": "OB2BibRecID-970370406-8ea9f38cb32df78765d20d9db222e19c-27",
+                "@id": "27",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Failure mechanism of tunnel lining joints and bolts with uneven longitudinal ground settlement"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2013.10.007",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0130",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84888394731",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "40"
+                    },
+                    "pagerange": {
+                      "@first": "300",
+                      "@last": "308"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang L.Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "L.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li L.L."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang J.C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Wang, Z., Wang, L.Z., Li, L.L., Wang, J.C., 2014. Failure mechanism of tunnel lining joints and bolts with uneven longitudinal ground settlement. Tunn. Undergr. Space Technol. 40, 300–308. https://doi.org/10.1016/j.tust.2013.10.007."
+              },
+              {
+                "ref-fulltext": "Wei, G., Feng, F.Y., Cui, Y.L., Wang, X.Q., Diao, H.G., Wu, Y., Research on the influence of foundation pit excavation on the lateral force and deformation of side shield tunnels based on full-scale experiments. Tunn. Undergr. Space Technol., 140, 2023, 105236, 10.1016/j.tust.2023.105236.",
+                "@reference-instance-id": "OB2BibRecID-970370406-6eea7315ffd5f9c4b0181ca5145dc001-28",
+                "@id": "28",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Research on the influence of foundation pit excavation on the lateral force and deformation of side shield tunnels based on full-scale experiments"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2023.105236",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b9000",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105236",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85161310815",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "140"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Wei",
+                        "ce:indexed-name": "Wei G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Feng",
+                        "ce:indexed-name": "Feng F.Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Cui",
+                        "ce:indexed-name": "Cui Y.L."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "X.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang X.Q."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "H.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Diao",
+                        "ce:indexed-name": "Diao H.G."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Wei, G., Feng, F.Y., Cui, Y.L., Wang, X.Q., Diao, H.G., Wu, Y., 2023. Research on the influence of foundation pit excavation on the lateral force and deformation of side shield tunnels based on full-scale experiments. Tunn. Undergr. Space Technol. 140, 105236. doi:10.1016/j.tust.2023.105236."
+              },
+              {
+                "ref-fulltext": "Xu, Z.H., Zong, L.D., Shen, J., Wang, W.D., Deformation of a deep excavation adjacent to metro tunnels in soft soils. Chin. J. Geotech. Eng. 41 (2019), 41–44, 10.11779/CJGE2019S1011.",
+                "@reference-instance-id": "OB2BibRecID-970370406-fcfdf1b986fc289db792f7827e367836-29",
+                "@id": "29",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Deformation of a deep excavation adjacent to metro tunnels in soft soils"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.11779/CJGE2019S1011",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0140",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85075970497",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "41"
+                    },
+                    "pagerange": {
+                      "@first": "41",
+                      "@last": "44"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu Z.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Zong",
+                        "ce:indexed-name": "Zong L.D."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Shen",
+                        "ce:indexed-name": "Shen J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "W.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang W.D."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Chin. J. Geotech. Eng."
+                },
+                "ce:source-text": "Xu, Z.H., Zong, L.D., Shen, J., Wang, W.D., 2019. Deformation of a deep excavation adjacent to metro tunnels in soft soils. Chin. J. Geotech. Eng. 41, 41–44. https://doi.org/10.11779/CJGE2019S1011."
+              },
+              {
+                "ref-fulltext": "Yao, A.J., Guo, Y.F., Guo, H.F., Kang, X.P., Ji, Q.Y., Study on pile isolation effect of shield tunnel under the neighborhood foundation pit unloading-loading influences. Chin. J. Undergr. Space Eng. 15:4 (2019), 1212–1224 in Chinese.",
+                "@reference-instance-id": "OB2BibRecID-970370406-0a6139dda3f2c04b4cfc6a12cfaa9e56-30",
+                "@id": "30",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Study on pile isolation effect of shield tunnel under the neighborhood foundation pit unloading-loading influences"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0145",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85104798887",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "15",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "1212",
+                      "@last": "1224"
+                    }
+                  },
+                  "ref-text": "in Chinese",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Yao",
+                        "ce:indexed-name": "Yao A.J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Guo",
+                        "ce:indexed-name": "Guo Y.F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Guo",
+                        "ce:indexed-name": "Guo H.F."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "X.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Kang",
+                        "ce:indexed-name": "Kang X.P."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Q.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Ji",
+                        "ce:indexed-name": "Ji Q.Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Chin. J. Undergr. Space Eng."
+                },
+                "ce:source-text": "Yao, A.J., Guo, Y.F., Guo, H.F., Kang, X.P., Ji, Q.Y., 2019. Study on pile isolation effect of shield tunnel under the neighborhood foundation pit unloading-loading influences. Chin. J. Undergr. Space Eng. 15 (4), 1212–1224. (in Chinese)"
+              },
+              {
+                "ref-fulltext": "Zhang, Z.G., Huang, M.S., Wang, W.D., Evaluation of deformation response for adjacent tunnels due to soil unloading in excavation engineering. Tunn. Undergr. Space Technol. 38 (2013), 244–253, 10.1016/j.tust.2013.07.002.",
+                "@reference-instance-id": "OB2BibRecID-970370406-b8151919991207c6f1fe81169b242b9a-31",
+                "@id": "31",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Evaluation of deformation response for adjacent tunnels due to soil unloading in excavation engineering"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2013.07.002",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0150",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84881244643",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "38"
+                    },
+                    "pagerange": {
+                      "@first": "244",
+                      "@last": "253"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Z.G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang M.S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "W.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang W.D."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Zhang, Z.G., Huang, M.S., Wang, W.D., 2013. Evaluation of deformation response for adjacent tunnels due to soil unloading in excavation engineering. Tunn. Undergr. Space Technol. 38, 244–253. https://doi.org/10.1016/j.tust.2013.07.002."
+              },
+              {
+                "ref-fulltext": "Zhang, Z.G., Xu, C., Liu, M., Wang, W.D., Deformation analysis of metro tunnels considering impacts of dewatering excavation in foundation pit engineering. J. China Univ. of. Min. Technol. 44:2 (2015), 241–248, 10.13247/j.cnki.jcumt.000303 in Chinese.",
+                "@reference-instance-id": "OB2BibRecID-970370406-517223535ab8e3fc60b788a49c4bed1f-32",
+                "@id": "32",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Deformation analysis of metro tunnels considering impacts of dewatering excavation in foundation pit engineering. J. China Univ. of"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.13247/j.cnki.jcumt.000303",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0185",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84928251048",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "44",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "241",
+                      "@last": "248"
+                    }
+                  },
+                  "ref-text": "in Chinese",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Z.G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu M."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "W.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang W.D."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Min. Technol."
+                },
+                "ce:source-text": "Zhang, Z.G., Xu, C., Liu, M., Wang, W.D., 2015. Deformation analysis of metro tunnels considering impacts of dewatering excavation in foundation pit engineering. J. China Univ. of Min. Technol. 44 (2), 241–248. https://doi.org/10.13247/j.cnki.jcumt.000303. (in Chinese)"
+              },
+              {
+                "ref-fulltext": "Zhang, H.B., Chen, J.J., Fan, F., Wang, J.H., Deformation monitoring and Performance Analysis on the Shield Tunnel Influenced by Adjacent Deep Excavations. J. Aerosp. Eng., 30(2), 2017, B4015002, 10.1061/(ASCE)AS.1943-5525.0000574.",
+                "@reference-instance-id": "OB2BibRecID-970370406-da1d7e25ceaf6a874b865ad429e5c57b-33",
+                "@id": "33",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Deformation monitoring and Performance Analysis on the Shield Tunnel Influenced by Adjacent Deep Excavations"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1061/(ASCE)AS.1943-5525.0000574",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0165",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "B4015002",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85014342988",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "30",
+                      "@issue": "2"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang H.B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen J.J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Fan",
+                        "ce:indexed-name": "Fan F."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang J.H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Aerosp. Eng."
+                },
+                "ce:source-text": "Zhang, H.B., Chen, J.J., Fan, F., Wang, J.H., 2017. Deformation Monitoring and Performance Analysis on the Shield Tunnel Influenced by Adjacent Deep Excavations. J. Aerosp. Eng. 30 (2), B4015002. https://doi.org/10.1061/(ASCE)AS.1943-5525.0000574."
+              },
+              {
+                "ref-fulltext": "Zhao, Y.R., Chen, X.R., Hu, B., Huang, L.P., Lu, G.H., Yao, H.L., Automatic monitoring and control of excavation disturbance of an ultra-deep foundation pit extremely adjacent to metro tunnels. Tunn. Undergr. Space Technol., 142, 2023, 105445, 10.1016/j.tust.2023.105445.",
+                "@reference-instance-id": "OB2BibRecID-970370406-a11672ea8bb9857fcc4b6a263e9e24b9-34",
+                "@id": "34",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Automatic monitoring and control of excavation disturbance of an ultra-deep foundation pit extremely adjacent to metro tunnels"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2023.105445",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0160",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105445",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85173208193",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "142"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao Y.R."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen X.R."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Hu",
+                        "ce:indexed-name": "Hu B."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "L.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang L.P."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "G.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Lu",
+                        "ce:indexed-name": "Lu G.H."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "H.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Yao",
+                        "ce:indexed-name": "Yao H.L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Zhao, Y.R., Chen, X.R., Hu, B., Huang, L.P., Lu, G.H., Yao, H.L.,2023. Automatic monitoring and control of excavation disturbance of an ultra-deep foundation pit extremely adjacent to metro tunnels. Tunn. Undergr. Space Technol. 142, 105445. https://doi.org/10.1016/j.tust.2023.105445."
+              },
+              {
+                "ref-fulltext": "Zhao, Y.R., Chen, X.S., Hu, B., Wang, P.H., Li, W.S., Evolution of tunnel uplift induced by adjacent long and collinear excavation and an effective protective measure. Tunn. Undergr. Space Technol., 131, 2023, 104846, 10.1016/j.tust.2022.104846.",
+                "@reference-instance-id": "OB2BibRecID-970370406-12ad0e672da9c734413ff5cba2e3b101-35",
+                "@id": "35",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Evolution of tunnel uplift induced by adjacent long and collinear excavation and an effective protective measure"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0170",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "104846",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "10.1016/j.tust.2022.104846",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "85141452068",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "131"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao Y.R."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen X.S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Hu",
+                        "ce:indexed-name": "Hu B."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "P.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang P.H."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "W.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li W.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Zhao, Y.R., Chen, X.S., Hu, B., Wang, P.H., Li, W.S., 2023. Evolution of tunnel uplift induced by adjacent long and collinear excavation and an effective protective measure. Tunn. Undergr. Space Technol. 131, 104846. https://doi.org/10.1016/j.tust.2022.104846."
+              },
+              {
+                "ref-fulltext": "Zheng, G., Wei, S.W., Peng, S.Y., Diao, Y., Ng, C.W.W., 2010. Centrifuge modeling of the influence of basement excavation on existing tunnel. Physical Modelling in Geotechnics - Proceedings of the 7th International Conference on Physical Modelling in Geotechnics 2010, ICPMG 2010, 1, 523–527. https://doi.org/10.1201/b10554-84.",
+                "@reference-instance-id": "OB2BibRecID-970370406-7e57a2ac18009e340e9a12014d0d6e25-36",
+                "@id": "36",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Centrifuge modeling of the influence of basement excavation on existing tunnel"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1201/b10554-84",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0180",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84861048959",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "1"
+                    },
+                    "pagerange": {
+                      "@first": "523",
+                      "@last": "527"
+                    }
+                  },
+                  "ref-text": "Physical Modelling in Geotechnics - Proceedings of the 7th International Conference on Physical Modelling in Geotechnics 2010, ICPMG 2010",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Zheng",
+                        "ce:indexed-name": "Zheng G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Wei",
+                        "ce:indexed-name": "Wei S.W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Peng",
+                        "ce:indexed-name": "Peng S.Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Diao",
+                        "ce:indexed-name": "Diao Y."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "C.W.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Ng",
+                        "ce:indexed-name": "Ng C.W.W."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Zheng, G., Wei, S.W., Peng, S.Y., Diao, Y., Ng, C.W.W., 2010. Centrifuge modeling of the influence of basement excavation on existing tunnel. Physical Modelling in Geotechnics - Proceedings of the 7th International Conference on Physical Modelling in Geotechnics 2010, ICPMG 2010, 1, 523–527. https://doi.org/10.1201/b10554-84."
+              },
+              {
+                "ref-fulltext": "Zhou, H.Z., Xu, H.J., Yang, P.B., Zheng, G., Liu, X.N., Zhang, W.B., Zhao, J.P., Yu, X.X., Centrifuge and numerical modeling of the seismic response of tunnels in two-layered soils. Tunn. Undergr. Space Technol., 113, 2021, 103980, 10.1016/j.tust.2021.103980.",
+                "@reference-instance-id": "OB2BibRecID-970370406-3ad77bf1c2da4370ce97ba5a9adb7cde-37",
+                "@id": "37",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Centrifuge and numerical modeling of the seismic response of tunnels in two-layered soils"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2021.103980",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0175",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "103980",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85105069501",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "113"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou H.Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu H.J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "P.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang P.B."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Zheng",
+                        "ce:indexed-name": "Zheng G."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "X.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu X.N."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "W.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang W.B."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "J.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao J.P."
+                      },
+                      {
+                        "@seq": "8",
+                        "ce:initials": "X.X.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu X.X."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Zhou, H.Z., Xu, H.J., Yang, P.B., Zheng, G., Liu, X.N., Zhang, W.B., Zhao, J.P., Yu, X.X., 2021. Centrifuge and numerical modeling of the seismic response of tunnels in two-layered soils. Tunn. Undergr. Space Technol. 113, 103980. https://doi.org/10.1016/j.tust.2021.103980."
+              },
+              {
+                "ref-fulltext": "Zhou, F.C., Zhou, P., Li, J.Y., Lin, J.Y., Ge, T.C., Deng, S.M., Ren, R., Wang, Z., Deformation characteristics and failure evolution process of the existing metro station under unilateral deep excavation. Eng. Fail. Anal., 131, 2022, 105870, 10.1016/j.engfailanal.2021.105870.",
+                "@reference-instance-id": "OB2BibRecID-970370406-38407f6b1ff9244ff2f3ce3a6fe8745c-38",
+                "@id": "38",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Deformation characteristics and failure evolution process of the existing metro station under unilateral deep excavation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.engfailanal.2021.105870",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0155",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105870",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85118898460",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "131"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou F.C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou P."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li J.Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Lin",
+                        "ce:indexed-name": "Lin J.Y."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "T.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Ge",
+                        "ce:indexed-name": "Ge T.C."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "S.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Deng",
+                        "ce:indexed-name": "Deng S.M."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Ren",
+                        "ce:indexed-name": "Ren R."
+                      },
+                      {
+                        "@seq": "8",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang Z."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Eng. Fail. Anal."
+                },
+                "ce:source-text": "Zhou, F.C., Zhou, P., Li, J.Y., Lin, J.Y., Ge, T.C., Deng, S.M., Ren, R., Wang, Z., 2022. Deformation characteristics and failure evolution process of the existing metro station under unilateral deep excavation. Eng. Fail. Anal. 131, 105870. https://doi.org/10.1016/j.engfailanal.2021.105870."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "affiliation": [
+      {
+        "affiliation-city": "Xuzhou",
+        "@id": "60073460",
+        "affilname": "China University of Mining and Technology",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073460",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Nanjing",
+        "@id": "60021391",
+        "affilname": "Nanjing Hydraulic Research Institute",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60021391",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Beijing",
+        "@id": "126169420",
+        "affilname": "Ltd.",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/126169420",
+        "affiliation-country": "China"
+      }
+    ],
+    "coredata": {
+      "srctype": "j",
+      "eid": "2-s2.0-105025142159",
+      "dc:description": "Foundation pit dewatering and excavation in groundwater-rich strata severely threatens adjacent large-diameter shield tunnels. However, existing physical models inadequately replicate both dewatering effects and segmental lining behaviour. A novel testing device was developed to simulate sequential dewatering, excavation, and backfilling while dynamically controlling groundwater levels, and two parallel centrifugal model tests were conducted. The results show that (1) the damage to the underlying shield tunnel structure caused by adjacent foundation pit construction first appears at the tunnel crown and arch bottom; (2) tunnel joint deformation is controlled by the excavation location of the foundation pit, construction directly above causes the maximum offset and opening positions to be separated, side construction causes both to be concentrated at the nearest ring position, with deformation magnitude consistently showing crown > arch waist > arch bottom; (3) dewatering is identified as the primary contributor (accounting for 52.1–83.9 %) to the overburden earth pressure reduction on tunnels. Its impact is more pronounced under lateral construction due to the dewatering-induced hydraulic slope curves. These findings provide critical guidance for controlling construction disturbances of foundation pit in water-rich strata and optimizing protective measures for adjacent shield tunnels.",
+      "prism:coverDate": "2026-04-01",
+      "prism:aggregationType": "Journal",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105025142159",
+      "subtypeDescription": "Article",
+      "dc:creator": {
+        "author": [
+          {
+            "ce:given-name": "Jiahua",
+            "preferred-name": {
+              "ce:given-name": "Jiahua",
+              "ce:initials": "J.",
+              "ce:surname": "Mao",
+              "ce:indexed-name": "Mao J."
+            },
+            "@seq": "1",
+            "ce:initials": "J.",
+            "@_fa": "true",
+            "affiliation": {
+              "@id": "60073460",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073460"
+            },
+            "ce:surname": "Mao",
+            "@auid": "56146403200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56146403200",
+            "ce:indexed-name": "Mao J."
+          }
+        ]
+      },
+      "link": [
+        {
+          "@_fa": "true",
+          "@rel": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105025142159"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105025142159&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105025142159&origin=inward"
+        }
+      ],
+      "prism:publicationName": "Tunnelling and Underground Space Technology",
+      "source-id": "14642",
+      "pii": "S0886779825010272",
+      "citedby-count": "1",
+      "prism:volume": "170",
+      "subtype": "ar",
+      "dc:title": "Centrifuge modelling of dewatering-excavation effects on overlying and adjacent large-diameter shield tunnels",
+      "openaccess": "0",
+      "openaccessFlag": "false",
+      "prism:doi": "10.1016/j.tust.2025.107389",
+      "prism:issn": "08867798",
+      "publishercopyright": "© 2025 Elsevier Ltd",
+      "article-number": "107389",
+      "dc:identifier": "SCOPUS_ID:105025142159",
+      "dc:publisher": "Elsevier Ltd"
+    },
+    "idxterms": {
+      "mainterm": [
+        {
+          "$": "Adjacent excavations",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Centrifuge models",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Dewatering excavation",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Foundation pit constructions",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Foundation pit dewatering",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Foundation pit excavations",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Large diameter",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Large-diameter shield tunnel",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Shield tunnel",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Structure response",
+          "@weight": "b",
+          "@candidate": "n"
+        }
+      ]
+    },
+    "language": {
+      "@xml:lang": "eng"
+    },
+    "authkeywords": {
+      "author-keyword": [
+        {
+          "@_fa": "true",
+          "$": "Adjacent excavation"
+        },
+        {
+          "@_fa": "true",
+          "$": "Centrifuge modelling"
+        },
+        {
+          "@_fa": "true",
+          "$": "Foundation pit dewatering"
+        },
+        {
+          "@_fa": "true",
+          "$": "Large-diameter shield tunnels"
+        },
+        {
+          "@_fa": "true",
+          "$": "Structure response"
+        }
+      ]
+    },
+    "subject-areas": {
+      "subject-area": [
+        {
+          "@_fa": "true",
+          "$": "Building and Construction",
+          "@code": "2215",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Geotechnical Engineering and Engineering Geology",
+          "@code": "1909",
+          "@abbrev": "EART"
+        }
+      ]
+    },
+    "authors": {
+      "author": [
+        {
+          "ce:given-name": "Jiahua",
+          "preferred-name": {
+            "ce:given-name": "Jiahua",
+            "ce:initials": "J.",
+            "ce:surname": "Mao",
+            "ce:indexed-name": "Mao J."
+          },
+          "@seq": "1",
+          "ce:initials": "J.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60073460",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073460"
+          },
+          "ce:surname": "Mao",
+          "@auid": "56146403200",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56146403200",
+          "ce:indexed-name": "Mao J."
+        },
+        {
+          "ce:given-name": "Dajun",
+          "preferred-name": {
+            "ce:given-name": "Dajun",
+            "ce:initials": "D.",
+            "ce:surname": "Yuan",
+            "ce:indexed-name": "Yuan D."
+          },
+          "@seq": "2",
+          "ce:initials": "D.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60073460",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073460"
+          },
+          "ce:surname": "Yuan",
+          "@auid": "23020484800",
+          "author-url": "https://api.elsevier.com/content/author/author_id/23020484800",
+          "ce:indexed-name": "Yuan D."
+        },
+        {
+          "ce:given-name": "Shuchen",
+          "preferred-name": {
+            "ce:given-name": "Shuchen",
+            "ce:initials": "S.",
+            "ce:surname": "Li",
+            "ce:indexed-name": "Li S."
+          },
+          "@seq": "3",
+          "ce:initials": "S.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60073460",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073460"
+          },
+          "ce:surname": "Li",
+          "@auid": "57211740254",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57211740254",
+          "ce:indexed-name": "Li S."
+        },
+        {
+          "ce:given-name": "Chen",
+          "preferred-name": {
+            "ce:given-name": "Chen",
+            "ce:initials": "C.",
+            "ce:surname": "Yang",
+            "ce:indexed-name": "Yang C."
+          },
+          "@seq": "4",
+          "ce:initials": "C.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60073460",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073460"
+          },
+          "ce:surname": "Yang",
+          "@auid": "59962030700",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59962030700",
+          "ce:indexed-name": "Yang C."
+        },
+        {
+          "ce:given-name": "Minggao",
+          "preferred-name": {
+            "ce:given-name": "Minggao",
+            "ce:initials": "M.",
+            "ce:surname": "Liu",
+            "ce:indexed-name": "Liu M."
+          },
+          "@seq": "5",
+          "ce:initials": "M.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "126169420",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/126169420"
+          },
+          "ce:surname": "Liu",
+          "@auid": "57732081500",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57732081500",
+          "ce:indexed-name": "Liu M."
+        },
+        {
+          "ce:given-name": "Rendong",
+          "preferred-name": {
+            "ce:given-name": "Rendong",
+            "ce:initials": "R.",
+            "ce:surname": "Chen",
+            "ce:indexed-name": "Chen R."
+          },
+          "@seq": "6",
+          "ce:initials": "R.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "126169420",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/126169420"
+          },
+          "ce:surname": "Chen",
+          "@auid": "55276210300",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55276210300",
+          "ce:indexed-name": "Chen R."
+        },
+        {
+          "ce:given-name": "Guofeng",
+          "preferred-name": {
+            "ce:given-name": "Guofeng",
+            "ce:initials": "G.",
+            "ce:surname": "Ren",
+            "ce:indexed-name": "Ren G."
+          },
+          "@seq": "7",
+          "ce:initials": "G.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60021391",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60021391"
+          },
+          "ce:surname": "Ren",
+          "@auid": "55960892500",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55960892500",
+          "ce:indexed-name": "Ren G."
+        }
+      ]
+    }
+  }
+}

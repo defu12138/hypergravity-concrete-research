@@ -1,0 +1,3082 @@
+{
+  "abstracts-retrieval-response": {
+    "item": {
+      "ait:process-info": {
+        "ait:status": {
+          "@state": "update",
+          "@type": "core",
+          "@stage": "S300"
+        },
+        "ait:date-delivered": {
+          "@day": "15",
+          "@timestamp": "2025-05-15T17:54:55.000055-04:00",
+          "@year": "2025",
+          "@month": "05"
+        },
+        "ait:date-sort": {
+          "@day": "01",
+          "@year": "2025",
+          "@month": "01"
+        }
+      },
+      "xocs:meta": {
+        "xocs:funding-list": {
+          "@pui-match": "primary",
+          "@has-funding-info": "1",
+          "xocs:funding": [
+            {
+              "xocs:funding-agency-matched-string": "National Natural Science Foundation of China",
+              "xocs:funding-agency-acronym": "NSFC",
+              "xocs:funding-agency": "National Natural Science Foundation of China",
+              "xocs:funding-id": "42077233",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "National Natural Science Foundation of China",
+              "xocs:funding-agency-acronym": "NSFC",
+              "xocs:funding-agency": "National Natural Science Foundation of China",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Natural Science Foundation of Jiangsu Province",
+              "xocs:funding-agency": "Natural Science Foundation of Jiangsu Province",
+              "xocs:funding-id": "BK20231409",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100004608",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Natural Science Foundation of Jiangsu Province",
+              "xocs:funding-agency": "Natural Science Foundation of Jiangsu Province",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100004608",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Six Talent Peaks Project in Jiangsu Province",
+              "xocs:funding-agency": "Six Talent Peaks Project in Jiangsu Province",
+              "xocs:funding-id": "XNY-002",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100010014",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Six Talent Peaks Project in Jiangsu Province",
+              "xocs:funding-agency": "Six Talent Peaks Project in Jiangsu Province",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100010014",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            }
+          ],
+          "xocs:funding-addon-generated-timestamp": "2024-10-25T16:22:06.796Z",
+          "xocs:funding-text": "This work was supported by the National Natural Science Foundation of China (No. 42077233 ), the Natural Science Foundation of Jiangsu Province ( BK20231409 ) and Six Talent Peaks Project in Jiangsu Province (No. XNY-002 ).",
+          "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }
+      },
+      "bibrecord": {
+        "head": {
+          "author-group": {
+            "affiliation": {
+              "country": "China",
+              "postal-code": "210023",
+              "@afid": "60033100",
+              "@country": "chn",
+              "city": "Nanjing",
+              "organization": [
+                {
+                  "$": "School of Earth Sciences and Engineering"
+                },
+                {
+                  "$": "Nanjing University"
+                }
+              ],
+              "affiliation-id": {
+                "@afid": "60033100"
+              },
+              "@affiliation-instance-id": "OB2BibRecID-959687620-bdcfb59282df88d52bbbe67ec0349dff-1",
+              "ce:source-text": "School of Earth Sciences and Engineering, Nanjing University, Nanjing 210023, China"
+            },
+            "author": [
+              {
+                "ce:given-name": "Haoyu",
+                "preferred-name": {
+                  "ce:given-name": "Haoyu",
+                  "ce:initials": "H.",
+                  "ce:surname": "Wang",
+                  "ce:indexed-name": "Wang H."
+                },
+                "@author-instance-id": "OB2BibRecID-959687620-d59623cf80c2a4ee536bc63158c3a333-1",
+                "@seq": "1",
+                "ce:initials": "H.",
+                "@_fa": "true",
+                "@type": "auth",
+                "ce:surname": "Wang",
+                "@auid": "57862465600",
+                "ce:indexed-name": "Wang H."
+              },
+              {
+                "ce:given-name": "Dan",
+                "preferred-name": {
+                  "ce:given-name": "Dan",
+                  "ce:initials": "D.",
+                  "ce:surname": "Zhang",
+                  "ce:indexed-name": "Zhang D."
+                },
+                "@author-instance-id": "OB2BibRecID-959687620-69463db37fee5ef07d689063a404916a-1",
+                "@seq": "2",
+                "ce:initials": "D.",
+                "@_fa": "true",
+                "@type": "auth",
+                "ce:surname": "Zhang",
+                "@auid": "57209809589",
+                "ce:indexed-name": "Zhang D."
+              },
+              {
+                "ce:given-name": "Zhengyu",
+                "preferred-name": {
+                  "ce:given-name": "Zhengyu",
+                  "ce:initials": "Z.",
+                  "ce:surname": "Qian",
+                  "ce:indexed-name": "Qian Z."
+                },
+                "@author-instance-id": "OB2BibRecID-959687620-6745eb32724f6392153c9dc94cb27afe-1",
+                "@seq": "3",
+                "ce:initials": "Z.",
+                "@_fa": "true",
+                "@type": "auth",
+                "ce:surname": "Qian",
+                "@auid": "58806718300",
+                "ce:indexed-name": "Qian Z."
+              },
+              {
+                "ce:given-name": "Hasanjan",
+                "preferred-name": {
+                  "ce:given-name": "Hasanjan",
+                  "ce:initials": "H.",
+                  "ce:surname": "Yimit",
+                  "ce:indexed-name": "Yimit H."
+                },
+                "@author-instance-id": "OB2BibRecID-959687620-fe3487df86b3a320a59fdedee5a51c41-1",
+                "@seq": "4",
+                "ce:initials": "H.",
+                "@_fa": "true",
+                "@type": "auth",
+                "ce:surname": "Yimit",
+                "@auid": "58542410800",
+                "ce:indexed-name": "Yimit H."
+              },
+              {
+                "ce:given-name": "Qi",
+                "preferred-name": {
+                  "ce:given-name": "Qi",
+                  "ce:initials": "Q.",
+                  "ce:surname": "Luo",
+                  "ce:indexed-name": "Luo Q."
+                },
+                "@author-instance-id": "OB2BibRecID-959687620-d0c59195f7d2c53b975416ca01730fa0-1",
+                "@seq": "5",
+                "ce:initials": "Q.",
+                "@_fa": "true",
+                "@type": "auth",
+                "ce:surname": "Luo",
+                "@auid": "58542730200",
+                "ce:indexed-name": "Luo Q."
+              },
+              {
+                "ce:given-name": "Kai",
+                "preferred-name": {
+                  "ce:given-name": "Kai",
+                  "ce:initials": "K.",
+                  "ce:surname": "Lin",
+                  "ce:indexed-name": "Lin K."
+                },
+                "@author-instance-id": "OB2BibRecID-959687620-496cb056080fa5e8082693cacf315a55-1",
+                "@seq": "6",
+                "ce:initials": "K.",
+                "@_fa": "true",
+                "@type": "auth",
+                "ce:surname": "Lin",
+                "@auid": "59371710200",
+                "ce:indexed-name": "Lin K."
+              }
+            ]
+          },
+          "citation-title": "A novel paraffin/graphite PCM backfill for PHC energy pile: Numerical and experimental analysis on thermal performance",
+          "abstracts": "© 2024 Elsevier LtdA novel paraffin/graphite phase change material was proposed as backfills for prestressed high-performance concrete piles. An experimental device for high-performance concrete energy pile was established to access the thermal performance of paraffin/graphite phase change material backfill and a finite element method numerical simulation based on the experiment was conducted. Two theoretical models, Multiphase-Effective Medium Theory and Maxwell-Eucken with parallel, were proposed to calculate the thermophysical parameters of paraffin/graphite phase change material. The results show that Multiphase-Effective Medium Theory achieves enhanced reliability than Maxwell-Eucken with parallel in the thermophysical parameters calculation of multi-phase composites. Paraffin/graphite phase change material can enhance the heat storage capacity of paraffin/graphite phase change material and reduce the temperature fluctuation of the piles, while graphite can accelerate the heat transfer within the pile system. A “transition point” in dynamic competition between the graphite and paraffin of paraffin/graphite phase change material was first discovered during the heat transfer process, which can be employed as an indicator for the operational patterns of the prestressed high-performance concrete energy pile. The thermal performance of prestressed high-performance concrete energy piles can be improved by reasonably controlling the graphite and paraffin contents in paraffin/graphite phase change material backfills.",
+          "correspondence": {
+            "affiliation": {
+              "country": "China",
+              "postal-code": "210023",
+              "@country": "chn",
+              "city": "Nanjing",
+              "organization": [
+                {
+                  "$": "School of Earth Sciences and Engineering"
+                },
+                {
+                  "$": "Nanjing University"
+                }
+              ],
+              "@affiliation-instance-id": "OB2BibRecID-959687620-81602e7f829b3e9b6bfbcc9e51c907e1-1"
+            },
+            "person": {
+              "ce:given-name": "Dan",
+              "@author-instance-id": "OB2BibRecID-959687620-01d1a281e83d864959d57490e28b6826-1",
+              "ce:initials": "D.",
+              "ce:surname": "Zhang",
+              "ce:indexed-name": "Zhang D."
+            }
+          },
+          "citation-info": {
+            "author-keywords": {
+              "author-keyword": [
+                {
+                  "$": "Dynamic competition",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Energy pile",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Numerical simulation",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Phase change material",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                }
+              ]
+            },
+            "citation-type": {
+              "@code": "ar"
+            },
+            "citation-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "abstract-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            }
+          },
+          "source": {
+            "website": {
+              "ce:e-address": {
+                "$": "https://www.sciencedirect.com/science/journal/13594311",
+                "@type": "email"
+              }
+            },
+            "translated-sourcetitle": {
+              "$": "Applied Thermal Engineering",
+              "@xml:lang": "eng"
+            },
+            "volisspag": {
+              "voliss": {
+                "@volume": "258"
+              }
+            },
+            "@type": "j",
+            "part": "Part B",
+            "sourcetitle": "Applied Thermal Engineering",
+            "publicationdate": {
+              "month": "01",
+              "year": "2025",
+              "date-text": {
+                "@xfab-added": "true",
+                "$": "1 January 2025"
+              },
+              "day": "01"
+            },
+            "codencode": "ATENF",
+            "sourcetitle-abbrev": "Appl Therm Eng",
+            "@country": "gbr",
+            "issn": {
+              "$": "13594311",
+              "@type": "print"
+            },
+            "publicationyear": {
+              "@first": "2025"
+            },
+            "publisher": {
+              "publishername": "Elsevier Ltd"
+            },
+            "article-number": "124656",
+            "@srcid": "13688"
+          },
+          "enhancement": {
+            "classificationgroup": {
+              "classifications": [
+                {
+                  "@type": "CPXCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "214",
+                      "classification-description": "Materials Science"
+                    },
+                    {
+                      "classification-code": "217.2",
+                      "classification-description": "Concrete"
+                    },
+                    {
+                      "classification-code": "302.2",
+                      "classification-description": "Heat Transfer"
+                    }
+                  ]
+                },
+                {
+                  "@type": "FLXCLASS",
+                  "classification": {
+                    "classification-code": "902",
+                    "classification-description": "FLUIDEX; Related Topics"
+                  }
+                },
+                {
+                  "@type": "ASJC",
+                  "classification": [
+                    {
+                      "$": "2102"
+                    },
+                    {
+                      "$": "2210"
+                    },
+                    {
+                      "$": "1507"
+                    },
+                    {
+                      "$": "2209"
+                    }
+                  ]
+                },
+                {
+                  "@type": "SUBJABBR",
+                  "classification": [
+                    {
+                      "$": "ENER"
+                    },
+                    {
+                      "$": "ENGI"
+                    },
+                    {
+                      "$": "CENG"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "grantlist": {
+            "@complete": "y",
+            "grant-text": {
+              "$": "This work was supported by the National Natural Science Foundation of China (No. 42077233), the Natural Science Foundation of Jiangsu Province (BK20231409) and Six Talent Peaks Project in Jiangsu Province (No. XNY-002).",
+              "@xml:lang": "eng"
+            },
+            "grant": [
+              {
+                "grant-id": "42077233",
+                "grant-acronym": "NSFC",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "National Natural Science Foundation of China"
+                },
+                "grant-agency-id": "501100001809"
+              },
+              {
+                "grant-id": "BK20231409",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "Natural Science Foundation of Jiangsu Province"
+                },
+                "grant-agency-id": "501100004608"
+              },
+              {
+                "grant-id": "XNY-002",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "Six Talent Peaks Project in Jiangsu Province"
+                },
+                "grant-agency-id": "501100010014"
+              }
+            ]
+          }
+        },
+        "item-info": {
+          "copyright": {
+            "$": "Copyright 2024 Elsevier B.V., All rights reserved.",
+            "@type": "Elsevier"
+          },
+          "dbcollection": [
+            {
+              "$": "CPX"
+            },
+            {
+              "$": "REAXYSCAR"
+            },
+            {
+              "$": "SCOPUS"
+            },
+            {
+              "$": "Scopusbase"
+            }
+          ],
+          "history": {
+            "date-created": {
+              "@day": "22",
+              "@timestamp": "BST 11:01:41",
+              "@year": "2024",
+              "@month": "10"
+            }
+          },
+          "itemidlist": {
+            "itemid": [
+              {
+                "$": "2035140273",
+                "@idtype": "PUI"
+              },
+              {
+                "$": "959687620",
+                "@idtype": "CAR-ID"
+              },
+              {
+                "$": "20244317241636",
+                "@idtype": "CPX"
+              },
+              {
+                "$": "20242943884",
+                "@idtype": "REAXYSCAR"
+              },
+              {
+                "$": "20244175327",
+                "@idtype": "SCOPUS"
+              },
+              {
+                "$": "959687620#77293799",
+                "@idtype": "SRC-OCC-ID"
+              },
+              {
+                "$": "85206685346",
+                "@idtype": "SCP"
+              },
+              {
+                "$": "85206685346",
+                "@idtype": "SGR"
+              }
+            ],
+            "ce:pii": "S135943112402324X",
+            "ce:ern": "pii:S135943112402324X",
+            "ce:doi": "10.1016/j.applthermaleng.2024.124656"
+          }
+        },
+        "tail": {
+          "bibliography": {
+            "@refcount": "35",
+            "reference": [
+              {
+                "ref-fulltext": "Shortall, R., Davidsdottir, B., Axelsson, G., Geothermal energy for sustainable development: A review of sustainability impacts and assessment frameworks. Renew. Sustain. Energy Rev. 44 (2015), 391–406, 10.1016/j.rser.2014.12.020.",
+                "@reference-instance-id": "OB2BibRecID-959687620-d66d019c5f287ef012185f346b62f36c-1",
+                "@id": "1",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Geothermal energy for sustainable development: A review of sustainability impacts and assessment frameworks"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.rser.2014.12.020",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0005",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84920996685",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "44"
+                    },
+                    "pagerange": {
+                      "@first": "391",
+                      "@last": "406"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Shortall",
+                        "ce:indexed-name": "Shortall R."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Davidsdottir",
+                        "ce:indexed-name": "Davidsdottir B."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Axelsson",
+                        "ce:indexed-name": "Axelsson G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Renew. Sustain. Energy Rev."
+                },
+                "ce:source-text": "Shortall R, Davidsdottir B, Axelsson G. Geothermal energy for sustainable development: A review of sustainability impacts and assessment frameworks. Renewable and Sustainable Energy Reviews 2015; 44: 391–406. Doi: 10.1016/j.rser.2014.12.020."
+              },
+              {
+                "ref-fulltext": "Brandl, H., Energy foundations and other thermo-active ground structures. Géotechnique 56 (2006), 81–122, 10.1680/geot.2006.56.2.81.",
+                "@reference-instance-id": "OB2BibRecID-959687620-5412e0f7d36203d5464460038490051b-2",
+                "@id": "2",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2006"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Energy foundations and other thermo-active ground structures"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1680/geot.2006.56.2.81",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0010",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "33644596527",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "56"
+                    },
+                    "pagerange": {
+                      "@first": "81",
+                      "@last": "122"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Brandl",
+                        "ce:indexed-name": "Brandl H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Géotechnique"
+                },
+                "ce:source-text": "Brandl H. Energy foundations and other thermo-active ground structures. Géotechnique 2006; 56: 81–122. Doi: 10.1680/geot.2006.56.2.81."
+              },
+              {
+                "ref-fulltext": "M. Moreni, L. Vulliet, L. Laloui, editors. Behavior of a dual-purpose pile as foundation and heat exchanger [Comportement d'un pieu bi-fonction, fondation et échangeur de chaleur]. Can. Geotech. J., 2003. Doi: 10.1139/T02-117.",
+                "@reference-instance-id": "OB2BibRecID-959687620-f7fd74d9001e40857ce181381ecd1730-3",
+                "@id": "3",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2003"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0015",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0037672082",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "editors. Behavior of a dual-purpose pile as foundation and heat exchanger [Comportement d'un pieu bi-fonction, fondation et échangeur de chaleur]. Can. Geotech. J. Doi: 10.1139/T02-117.",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Moreni",
+                        "ce:indexed-name": "Moreni M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Vulliet",
+                        "ce:indexed-name": "Vulliet L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Laloui",
+                        "ce:indexed-name": "Laloui L."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "M. Moreni, L. Vulliet, L. Laloui, editors. Behavior of a dual-purpose pile as foundation and heat exchanger [Comportement d'un pieu bi-fonction, fondation et échangeur de chaleur]. Can. Geotech. J., 2003. Doi: 10.1139/T02-117."
+              },
+              {
+                "ref-fulltext": "Ghaaowd, I., McCartney, J.S., Centrifuge modeling methodology for energy pile pullout from saturated soft clay. Geotech. Test. J. 45 (2022), 332–354, 10.1520/GTJ20210062.",
+                "@reference-instance-id": "OB2BibRecID-959687620-662027de584ffddbd62384b3f21cb3a9-4",
+                "@id": "4",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Centrifuge modeling methodology for energy pile pullout from saturated soft clay"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1520/GTJ20210062",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0020",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85121285111",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "45"
+                    },
+                    "pagerange": {
+                      "@first": "332",
+                      "@last": "354"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "I.",
+                        "@_fa": "true",
+                        "ce:surname": "Ghaaowd",
+                        "ce:indexed-name": "Ghaaowd I."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.S.",
+                        "@_fa": "true",
+                        "ce:surname": "McCartney",
+                        "ce:indexed-name": "McCartney J.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geotech. Test. J."
+                },
+                "ce:source-text": "Ghaaowd I, McCartney JS. Centrifuge Modeling Methodology for Energy Pile Pullout from Saturated Soft Clay. Geotechnical Testing Journal 2022; 45: 332–354. Doi: 10.1520/GTJ20210062."
+              },
+              {
+                "ref-fulltext": "Wang, F., You, T., Synergetic performance improvement of a novel building integrated photovoltaic/thermal-energy pile system for co-utilization of solar and shallow-geothermal energy. Energ. Conver. Manage., 288, 2023, 117116, 10.1016/j.enconman.2023.117116.",
+                "@reference-instance-id": "OB2BibRecID-959687620-7e71cb6d6b7f2ae1259702caf089d5f5-5",
+                "@id": "5",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Synergetic performance improvement of a novel building integrated photovoltaic/thermal-energy pile system for co-utilization of solar and shallow-geothermal energy"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.enconman.2023.117116",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0025",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "117116",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85159102667",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "288"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "You",
+                        "ce:indexed-name": "You T."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Energ. Conver. Manage."
+                },
+                "ce:source-text": "Wang F, You T. Synergetic performance improvement of a novel building integrated photovoltaic/thermal-energy pile system for co-utilization of solar and shallow-geothermal energy. Energy Conversion and Management 2023; 288: 117116. Doi: 10.1016/j.enconman.2023.117116."
+              },
+              {
+                "ref-fulltext": "Black, J.A., Tatari, A., Transparent soil to model thermal processes: an energy pile example. Geotech. Test. J. 38 (2015), 752–764, 10.1520/GTJ20140215.",
+                "@reference-instance-id": "OB2BibRecID-959687620-0f4df4aa3ac84adea03266792c963286-6",
+                "@id": "6",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Transparent soil to model thermal processes: an energy pile example"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1520/GTJ20140215",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0030",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84942516971",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "38"
+                    },
+                    "pagerange": {
+                      "@first": "752",
+                      "@last": "764"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Black",
+                        "ce:indexed-name": "Black J.A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Tatari",
+                        "ce:indexed-name": "Tatari A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geotech. Test. J."
+                },
+                "ce:source-text": "Black JA, Tatari A. Transparent Soil to Model Thermal Processes: An Energy Pile Example. Geotechnical Testing Journal 2015; 38: 752–764. Doi: 10.1520/GTJ20140215."
+              },
+              {
+                "ref-fulltext": "Zhang, G, Li, C, Xiao, S, Guo, Y, Cao, Z, Liu, Y, Investigation of in situ thermomechanical behaviors of soil around an energy pile with flat dilatometer tests. Acta Geotech 17 (2022), 1985–1999, 10.1007/s11440-021-01349-9.",
+                "@reference-instance-id": "OB2BibRecID-959687620-b704896f015680c9accad6724f77b6d5-7",
+                "@id": "7",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Investigation of in situ thermomechanical behaviors of soil around an energy pile with flat dilatometer tests"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s11440-021-01349-9",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0035",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85114115700",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "17"
+                    },
+                    "pagerange": {
+                      "@first": "1985",
+                      "@last": "1999"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Xiao",
+                        "ce:indexed-name": "Xiao S."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Guo",
+                        "ce:indexed-name": "Guo Y."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Cao",
+                        "ce:indexed-name": "Cao Z."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Acta Geotech"
+                },
+                "ce:source-text": "Hu P, Zha J, Lei F, Zhu N, Wu T. A composite cylindrical model and its application in analysis of thermal response and performance for energy pile. Energy and Buildings 2014; 84: 324–332. Doi: 10.1016/j.enbuild.2014.07.046."
+              },
+              {
+                "ref-fulltext": "Hu, P., Zha, J., Lei, F., Zhu, N., Wu, T., A composite cylindrical model and its application in analysis of thermal response and performance for energy pile. Energ. Buildings 84 (2014), 324–332, 10.1016/j.enbuild.2014.07.046.",
+                "@reference-instance-id": "OB2BibRecID-959687620-0aa92d307cb6e3bcbc3a32499baac759-8",
+                "@id": "8",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A composite cylindrical model and its application in analysis of thermal response and performance for energy pile"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.enbuild.2014.07.046",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0040",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84907515278",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "84"
+                    },
+                    "pagerange": {
+                      "@first": "324",
+                      "@last": "332"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Hu",
+                        "ce:indexed-name": "Hu P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Zha",
+                        "ce:indexed-name": "Zha J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Lei",
+                        "ce:indexed-name": "Lei F."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhu",
+                        "ce:indexed-name": "Zhu N."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu T."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Energ. Buildings"
+                },
+                "ce:source-text": "Hu P, Zha J, Lei F, Zhu N, Wu T. A composite cylindrical model and its application in analysis of thermal response and performance for energy pile. Energy and Buildings 2014; 84: 324–332. Doi: 10.1016/j.enbuild.2014.07.046."
+              },
+              {
+                "ref-fulltext": "Liu, Y., Zheng, R., Tian, T., Li, J., Characteristics of thermal storage heat pipe charged with graphene nanoplatelets enhanced organic phase change material. Energ. Conver. Manage., 267, 2022, 115902, 10.1016/j.enconman.2022.115902.",
+                "@reference-instance-id": "OB2BibRecID-959687620-dd9a4c59f016349bcc0c0ad68d21a783-9",
+                "@id": "9",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Characteristics of thermal storage heat pipe charged with graphene nanoplatelets enhanced organic phase change material"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.enconman.2022.115902",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0045",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "115902",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85132747779",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "267"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Zheng",
+                        "ce:indexed-name": "Zheng R."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Tian",
+                        "ce:indexed-name": "Tian T."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Energ. Conver. Manage."
+                },
+                "ce:source-text": "Liu Y, Zheng R, Tian T, Li J. Characteristics of thermal storage heat pipe charged with graphene nanoplatelets enhanced organic phase change material. Energy Conversion and Management 2022; 267: 115902. Doi: 10.1016/j.enconman.2022.115902."
+              },
+              {
+                "ref-fulltext": "Terhan, M., Ilgar, G., Investigation of used PCM-integrated into building exterior walls for energy savings and optimization of PCM melting temperatures. Constr. Build. Mater., 369, 2023, 130601, 10.1016/j.conbuildmat.2023.130601.",
+                "@reference-instance-id": "OB2BibRecID-959687620-40571594bd939aff109c83e66b731e81-10",
+                "@id": "10",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Investigation of used PCM-integrated into building exterior walls for energy savings and optimization of PCM melting temperatures"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.conbuildmat.2023.130601",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0050",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "130601",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85147539416",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "369"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Terhan",
+                        "ce:indexed-name": "Terhan M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Ilgar",
+                        "ce:indexed-name": "Ilgar G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "Terhan M, Ilgar G. Investigation of used PCM-integrated into building exterior walls for energy savings and optimization of PCM melting temperatures. Construction and Building Materials 2023; 369: 130601. Doi: 10.1016/j.conbuildmat.2023.130601."
+              },
+              {
+                "ref-fulltext": "Arora, A., Sant, G., Neithalath, N., Numerical simulations to quantify the influence of phase change materials (PCMs) on the early- and later-age thermal response of concrete pavements. Cem. Concr. Compos. 81 (2017), 11–24, 10.1016/j.cemconcomp.2017.04.006.",
+                "@reference-instance-id": "OB2BibRecID-959687620-f2ff93cc66546ce25503eb1228fd3c35-11",
+                "@id": "11",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Numerical simulations to quantify the influence of phase change materials (PCMs) on the early- and later-age thermal response of concrete pavements"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.cemconcomp.2017.04.006",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0055",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85018795144",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "81"
+                    },
+                    "pagerange": {
+                      "@first": "11",
+                      "@last": "24"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Arora",
+                        "ce:indexed-name": "Arora A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Sant",
+                        "ce:indexed-name": "Sant G."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Neithalath",
+                        "ce:indexed-name": "Neithalath N."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Compos."
+                },
+                "ce:source-text": "Arora A, Sant G, Neithalath N. Numerical simulations to quantify the influence of phase change materials (PCMs) on the early- and later-age thermal response of concrete pavements. Cement and Concrete Composites 2017; 81: 11–24. Doi: 10.1016/j.cemconcomp.2017.04.006."
+              },
+              {
+                "ref-fulltext": "Cao, Z., Zhang, G., Liu, Y., Zhao, X., Li, C., Influence of backfilling phase change material on thermal performance of precast high-strength concrete energy pile. Renew. Energy 184 (2022), 374–390, 10.1016/j.renene.2021.11.100.",
+                "@reference-instance-id": "OB2BibRecID-959687620-6fd2a711b06a7f611c1be07022685d30-12",
+                "@id": "12",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Influence of backfilling phase change material on thermal performance of precast high-strength concrete energy pile"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.renene.2021.11.100",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0060",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85120505097",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "184"
+                    },
+                    "pagerange": {
+                      "@first": "374",
+                      "@last": "390"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Cao",
+                        "ce:indexed-name": "Cao Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang G."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao X."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Renew. Energy"
+                },
+                "ce:source-text": "Cao Z, Zhang G, Liu Y, Zhao X, Li C. Influence of backfilling phase change material on thermal performance of precast high-strength concrete energy pile. Renewable Energy 2022; 184: 374–390. Doi: 10.1016/j.renene.2021.11.100."
+              },
+              {
+                "ref-fulltext": "Qi, D., Pu, L., Sun, F., Li, Y., Numerical investigation on thermal performance of ground heat exchangers using phase change materials as grout for ground source heat pump system. Appl. Therm. Eng. 106 (2016), 1023–1032, 10.1016/j.applthermaleng.2016.06.048.",
+                "@reference-instance-id": "OB2BibRecID-959687620-04112b98c8ecc92dff9bfba2504d66c4-13",
+                "@id": "13",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Numerical investigation on thermal performance of ground heat exchangers using phase change materials as grout for ground source heat pump system"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.applthermaleng.2016.06.048",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0065",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84975518550",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "106"
+                    },
+                    "pagerange": {
+                      "@first": "1023",
+                      "@last": "1032"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Qi",
+                        "ce:indexed-name": "Qi D."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Pu",
+                        "ce:indexed-name": "Pu L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Sun",
+                        "ce:indexed-name": "Sun F."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Appl. Therm. Eng."
+                },
+                "ce:source-text": "Qi D, Pu L, Sun F, Li Y. Numerical investigation on thermal performance of ground heat exchangers using phase change materials as grout for ground source heat pump system. Applied Thermal Engineering 2016; 106: 1023–1032. Doi: 10.1016/j.applthermaleng.2016.06.048."
+              },
+              {
+                "ref-fulltext": "Han, C., Yu, X (Bill)., An innovative energy pile technology to expand the viability of geothermal bridge deck snow melting for different United States regions: computational assisted feasibility analyses. Renew. Energy 123 (2018), 417–427, 10.1016/j.renene.2018.02.044.",
+                "@reference-instance-id": "OB2BibRecID-959687620-a15d8e60da5af91f80ce924731d4ee0d-14",
+                "@id": "14",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "An innovative energy pile technology to expand the viability of geothermal bridge deck snow melting for different United States regions: computational assisted feasibility analyses"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.renene.2018.02.044",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0070",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85042323772",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "123"
+                    },
+                    "pagerange": {
+                      "@first": "417",
+                      "@last": "427"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Han",
+                        "ce:indexed-name": "Han C."
+                      },
+                      {
+                        "ce:given-name": "X (Bill).",
+                        "@seq": "2",
+                        "ce:initials": "X.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu X.B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Renew. Energy"
+                },
+                "ce:source-text": "Han C, Yu X (Bill). An innovative energy pile technology to expand the viability of geothermal bridge deck snow melting for different United States regions: Computational assisted feasibility analyses. Renewable Energy 2018; 123: 417–427. Doi: 10.1016/j.renene.2018.02.044."
+              },
+              {
+                "ref-fulltext": "Chen, F., Mao, J., Chen, S., Li, C., Hou, P., Liao, L., Efficiency analysis of utilizing phase change materials as grout for a vertical U-tube heat exchanger coupled ground source heat pump system. Appl. Therm. Eng. 130 (2018), 698–709, 10.1016/j.applthermaleng.2017.11.062.",
+                "@reference-instance-id": "OB2BibRecID-959687620-f850cee56b8b0d0b5a645d46704f6cbe-15",
+                "@id": "15",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Efficiency analysis of utilizing phase change materials as grout for a vertical U-tube heat exchanger coupled ground source heat pump system"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.applthermaleng.2017.11.062",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0075",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85034657123",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "130"
+                    },
+                    "pagerange": {
+                      "@first": "698",
+                      "@last": "709"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Mao",
+                        "ce:indexed-name": "Mao J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen S."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li C."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Hou",
+                        "ce:indexed-name": "Hou P."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Liao",
+                        "ce:indexed-name": "Liao L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Appl. Therm. Eng."
+                },
+                "ce:source-text": "Chen F, Mao J, Chen S, Li C, Hou P, Liao L. Efficiency analysis of utilizing phase change materials as grout for a vertical U-tube heat exchanger coupled ground source heat pump system. Applied Thermal Engineering 2018; 130: 698–709. Doi: 10.1016/j.applthermaleng.2017.11.062."
+              },
+              {
+                "ref-fulltext": "Cao, Z., Zhang, G., Liu, Y., Zhao, X., Thermal performance analysis and assessment of PCM backfilled precast high-strength concrete energy pile under heating and cooling modes of building. Appl. Therm. Eng., 216, 2022, 119144, 10.1016/j.applthermaleng.2022.119144.",
+                "@reference-instance-id": "OB2BibRecID-959687620-5c3dcd067b41f5999f28c5d33a3c2ff0-16",
+                "@id": "16",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Thermal performance analysis and assessment of PCM backfilled precast high-strength concrete energy pile under heating and cooling modes of building"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.applthermaleng.2022.119144",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0080",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "119144",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85135876367",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "216"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Cao",
+                        "ce:indexed-name": "Cao Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang G."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao X."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Appl. Therm. Eng."
+                },
+                "ce:source-text": "Cao Z, Zhang G, Liu Y, Zhao X. Thermal performance analysis and assessment of PCM backfilled precast high-strength concrete energy pile under heating and cooling modes of building. Applied Thermal Engineering 2022; 216: 119144. Doi: 10.1016/j.applthermaleng.2022.119144."
+              },
+              {
+                "ref-fulltext": "Mousa, M.M., Bayomy, A.M., Saghir, M.Z., Phase change materials effect on the thermal radius and energy storage capacity of energy piles: Experimental and numerical study. Int. J. Thermofluids, 10, 2021, 100094, 10.1016/j.ijft.2021.100094.",
+                "@reference-instance-id": "OB2BibRecID-959687620-53bca4d52650a720baae9450d349a764-17",
+                "@id": "17",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Phase change materials effect on the thermal radius and energy storage capacity of energy piles: Experimental and numerical study"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.ijft.2021.100094",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0085",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "100094",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85105710657",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "10"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Mousa",
+                        "ce:indexed-name": "Mousa M.M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Bayomy",
+                        "ce:indexed-name": "Bayomy A.M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Saghir",
+                        "ce:indexed-name": "Saghir M.Z."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Int. J. Thermofluids"
+                },
+                "ce:source-text": "Mousa MM, Bayomy AM, Saghir MZ. Phase change materials effect on the thermal radius and energy storage capacity of energy piles: Experimental and numerical study. International Journal of Thermofluids 2021; 10: 100094. Doi: 10.1016/j.ijft.2021.100094."
+              },
+              {
+                "ref-fulltext": "Ling, Z., Chen, J., Xu, T., Fang, X., Gao, X., Zhang, Z., Thermal conductivity of an organic phase change material/expanded graphite composite across the phase change temperature range and a novel thermal conductivity model. Energ. Conver. Manage. 102 (2015), 202–208, 10.1016/j.enconman.2014.11.040.",
+                "@reference-instance-id": "OB2BibRecID-959687620-44fd5c1c3553a3f55af1d32e3f4209e0-18",
+                "@id": "18",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Thermal conductivity of an organic phase change material/expanded graphite composite across the phase change temperature range and a novel thermal conductivity model"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.enconman.2014.11.040",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0090",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84928484172",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "102"
+                    },
+                    "pagerange": {
+                      "@first": "202",
+                      "@last": "208"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Ling",
+                        "ce:indexed-name": "Ling Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu T."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Fang",
+                        "ce:indexed-name": "Fang X."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Gao",
+                        "ce:indexed-name": "Gao X."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Z."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Energ. Conver. Manage."
+                },
+                "ce:source-text": "Ling Z, Chen J, Xu T, Fang X, Gao X, Zhang Z. Thermal conductivity of an organic phase change material/expanded graphite composite across the phase change temperature range and a novel thermal conductivity model. Energy Conversion and Management 2015; 102: 202–208. Doi: 10.1016/j.enconman.2014.11.040."
+              },
+              {
+                "ref-fulltext": "Tang, F., Su, D., Tang, Y., Fang, G., Synthesis and thermal properties of fatty acid eutectics and diatomite composites as shape-stabilized phase change materials with enhanced thermal conductivity. Sol. Energy Mater. Sol. Cells 141 (2015), 218–224, 10.1016/j.solmat.2015.05.045.",
+                "@reference-instance-id": "OB2BibRecID-959687620-208b8d71f33045e0700765df7d2bd077-19",
+                "@id": "19",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Synthesis and thermal properties of fatty acid eutectics and diatomite composites as shape-stabilized phase change materials with enhanced thermal conductivity"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.solmat.2015.05.045",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0095",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84935879653",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "141"
+                    },
+                    "pagerange": {
+                      "@first": "218",
+                      "@last": "224"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Tang",
+                        "ce:indexed-name": "Tang F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Su",
+                        "ce:indexed-name": "Su D."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Tang",
+                        "ce:indexed-name": "Tang Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Fang",
+                        "ce:indexed-name": "Fang G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Sol. Energy Mater. Sol. Cells"
+                },
+                "ce:source-text": "Tang F, Su D, Tang Y, Fang G. Synthesis and thermal properties of fatty acid eutectics and diatomite composites as shape-stabilized phase change materials with enhanced thermal conductivity. Solar Energy Materials and Solar Cells 2015; 141: 218–224. Doi: 10.1016/j.solmat.2015.05.045."
+              },
+              {
+                "ref-fulltext": "Zhang, Q., Luo, Z., Guo, Q., Wu, G., Preparation and thermal properties of short carbon fibers/erythritol phase change materials. Energ. Conver. Manage. 136 (2017), 220–228, 10.1016/j.enconman.2017.01.023.",
+                "@reference-instance-id": "OB2BibRecID-959687620-1cc070bc34fc86ddb7f742a39900c228-20",
+                "@id": "20",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Preparation and thermal properties of short carbon fibers/erythritol phase change materials"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.enconman.2017.01.023",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0100",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85009206220",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "136"
+                    },
+                    "pagerange": {
+                      "@first": "220",
+                      "@last": "228"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Q."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Luo",
+                        "ce:indexed-name": "Luo Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Guo",
+                        "ce:indexed-name": "Guo Q."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Energ. Conver. Manage."
+                },
+                "ce:source-text": "Zhang Q, Luo Z, Guo Q, Wu G. Preparation and thermal properties of short carbon fibers/erythritol phase change materials. Energy Conversion and Management 2017; 136:220–228. Doi: 10.1016/j.enconman.2017.01.023."
+              },
+              {
+                "ref-fulltext": "Mehrali, M., Latibari, S.T., Mehrali, M., Indra Mahlia, T.M., Cornelis Metselaar, H.S., Naghavi, M.S., et al. Preparation and characterization of palmitic acid/graphene nanoplatelets composite with remarkable thermal conductivity as a novel shape-stabilized phase change material. Appl. Therm. Eng. 61 (2013), 633–640, 10.1016/j.applthermaleng.2013.08.035.",
+                "@reference-instance-id": "OB2BibRecID-959687620-3d8482a02d89207383e482171a003088-21",
+                "@id": "21",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Preparation and characterization of palmitic acid/graphene nanoplatelets composite with remarkable thermal conductivity as a novel shape-stabilized phase change material"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.applthermaleng.2013.08.035",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0105",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84884633560",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "61"
+                    },
+                    "pagerange": {
+                      "@first": "633",
+                      "@last": "640"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Mehrali",
+                        "ce:indexed-name": "Mehrali M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Latibari",
+                        "ce:indexed-name": "Latibari S.T."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Mehrali",
+                        "ce:indexed-name": "Mehrali M."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "T.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Indra Mahlia",
+                        "ce:indexed-name": "Indra Mahlia T.M."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "H.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Cornelis Metselaar",
+                        "ce:indexed-name": "Cornelis Metselaar H.S."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "M.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Naghavi",
+                        "ce:indexed-name": "Naghavi M.S."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Appl. Therm. Eng."
+                },
+                "ce:source-text": "Mehrali M, Latibari ST, Mehrali M, Indra Mahlia TM, Cornelis Metselaar HS, Naghavi MS, et al. Preparation and characterization of palmitic acid/graphene nanoplatelets composite with remarkable thermal conductivity as a novel shape-stabilized phase change material. Applied Thermal Engineering 2013; 61: 633–640. Doi: 10.1016/j.applthermaleng.2013.08.035."
+              },
+              {
+                "ref-fulltext": "Xu, B., Li, Z., Paraffin/diatomite/multi-wall carbon nanotubes composite phase change material tailor-made for thermal energy storage cement-based composites. Energy 72 (2014), 371–380, 10.1016/j.energy.2014.05.049.",
+                "@reference-instance-id": "OB2BibRecID-959687620-a720d395d1d8039c94f8897ba1772acc-22",
+                "@id": "22",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Paraffin/diatomite/multi-wall carbon nanotubes composite phase change material tailor-made for thermal energy storage cement-based composites"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.energy.2014.05.049",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0110",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84904192106",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "72"
+                    },
+                    "pagerange": {
+                      "@first": "371",
+                      "@last": "380"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li Z."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Energy"
+                },
+                "ce:source-text": "Xu B, Li Z. Paraffin/diatomite/multi-wall carbon nanotubes composite phase change material tailor-made for thermal energy storage cement-based composites. Energy 2014; 72: 371–380. Doi: 10.1016/j.energy.2014.05.049."
+              },
+              {
+                "ref-fulltext": "Maxwell, J.C., A Treatise on Electricity and Magnetism, Vol. 1, 1873, Clarendon press.",
+                "@reference-instance-id": "OB2BibRecID-959687620-dd23f7ffa655a2588706a67b169ce0b8-23",
+                "@id": "23",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1873"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0115",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0012254034",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "1"
+                    }
+                  },
+                  "ref-text": "Clarendon press",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Maxwell",
+                        "ce:indexed-name": "Maxwell J.C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "A Treatise on Electricity and Magnetism"
+                },
+                "ce:source-text": "Maxwell, James Clerk. A treatise on electricity and magnetism. Vol. 1. Clarendon press, 1873."
+              },
+              {
+                "ref-fulltext": "Eucken, A., Allgemeine Gesetzmäßigkeiten für das Wärmeleitvermögen verschiedener Stoffarten und Aggregatzustände. Forsch Ing-Wes 11 (1940), 6–20, 10.1007/BF02584103.",
+                "@reference-instance-id": "OB2BibRecID-959687620-2f98c9ee17cb1beafea7cd42db722170-24",
+                "@id": "24",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1940"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Allgemeine Gesetzmäßigkeiten für das Wärmeleitvermögen verschiedener Stoffarten und Aggregatzustände"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/BF02584103",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0120",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "51249193422",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "11"
+                    },
+                    "pagerange": {
+                      "@first": "6",
+                      "@last": "20"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Eucken",
+                        "ce:indexed-name": "Eucken A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Forsch Ing-Wes"
+                },
+                "ce:source-text": "Eucken A. Allgemeine Gesetzmäßigkeiten für das Wärmeleitvermögen verschiedener Stoffarten und Aggregatzustände. Forsch Ing-Wes 1940; 11: 6–20. Doi: 10.1007/BF02584103."
+              },
+              {
+                "ref-fulltext": "Landauer, R., The electrical resistance of binary metallic mixtures. J. Appl. Phys. 23:7 (1952), 779–784.",
+                "@reference-instance-id": "OB2BibRecID-959687620-5237dc5efcc9af606a02c54056b7fad7-25",
+                "@id": "25",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1952"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The electrical resistance of binary metallic mixtures"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0125",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "5244347502",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "23",
+                      "@issue": "7"
+                    },
+                    "pagerange": {
+                      "@first": "779",
+                      "@last": "784"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Landauer",
+                        "ce:indexed-name": "Landauer R."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Appl. Phys."
+                },
+                "ce:source-text": "Landauer, R. The electrical resistance of binary metallic mixtures. Journal of applied physics 1952; 23(7): 779-784."
+              },
+              {
+                "ref-fulltext": "Li, M., Wu, Z., Kao, H., Tan, J., Experimental investigation of preparation and thermal performances of paraffin/bentonite composite phase change material. Energ. Conver. Manage. 52 (2011), 3275–3281, 10.1016/j.enconman.2011.05.015.",
+                "@reference-instance-id": "OB2BibRecID-959687620-4481de1a6b5f1975b84bffca22df99ce-26",
+                "@id": "26",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental investigation of preparation and thermal performances of paraffin/bentonite composite phase change material"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.enconman.2011.05.015",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0130",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "79960453423",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "52"
+                    },
+                    "pagerange": {
+                      "@first": "3275",
+                      "@last": "3281"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Kao",
+                        "ce:indexed-name": "Kao H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Tan",
+                        "ce:indexed-name": "Tan J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Energ. Conver. Manage."
+                },
+                "ce:source-text": "Li M, Wu Z, Kao H, Tan J. Experimental investigation of preparation and thermal performances of paraffin/bentonite composite phase change material. Energy Conversion and Management 2011; 52: 3275–3281. Doi: 10.1016/j.enconman.2011.05.015."
+              },
+              {
+                "ref-fulltext": "Xu, B., Li, Z., Paraffin/diatomite composite phase change material incorporated cement-based composite for thermal energy storage. Appl. Energy 105 (2013), 229–237, 10.1016/j.apenergy.2013.01.005.",
+                "@reference-instance-id": "OB2BibRecID-959687620-728ccf6a7bb67d0a019a8a465d422988-27",
+                "@id": "27",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Paraffin/diatomite composite phase change material incorporated cement-based composite for thermal energy storage"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.apenergy.2013.01.005",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0135",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84873278390",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "105"
+                    },
+                    "pagerange": {
+                      "@first": "229",
+                      "@last": "237"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li Z."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Appl. Energy"
+                },
+                "ce:source-text": "Xu B, Li Z. Paraffin/diatomite composite phase change material incorporated cement-based composite for thermal energy storage. Applied Energy 2013; 105: 229–237. Doi: 10.1016/j.apenergy.2013.01.005."
+              },
+              {
+                "ref-fulltext": "Deng, Y., Li, J., Nian, H., Polyethylene glycol-enwrapped silicon carbide nanowires network/expanded vermiculite composite phase change materials: Form-stabilization, thermal energy storage behavior and thermal conductivity enhancement. Sol. Energy Mater. Sol. Cells 174 (2018), 283–291, 10.1016/j.solmat.2017.09.013.",
+                "@reference-instance-id": "OB2BibRecID-959687620-8c1b64d4aed75c44b6e99c12aa800ef0-28",
+                "@id": "28",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Polyethylene glycol-enwrapped silicon carbide nanowires network/expanded vermiculite composite phase change materials: Form-stabilization, thermal energy storage behavior and thermal conductivity enhancement"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.solmat.2017.09.013",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0140",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85029518342",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "174"
+                    },
+                    "pagerange": {
+                      "@first": "283",
+                      "@last": "291"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Deng",
+                        "ce:indexed-name": "Deng Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Nian",
+                        "ce:indexed-name": "Nian H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Sol. Energy Mater. Sol. Cells"
+                },
+                "ce:source-text": "Deng Y, Li J, Nian H. Polyethylene glycol-enwrapped silicon carbide nanowires network/expanded vermiculite composite phase change materials: Form-stabilization, thermal energy storage behavior and thermal conductivity enhancement. Solar Energy Materials and Solar Cells 2018; 174: 283–291. Doi: 10.1016/j.solmat.2017.09.013."
+              },
+              {
+                "ref-fulltext": "Ai, D.D., Laloui, L., Numerical analysis of the geotechnical behaviour of energy piles. Int. J. Numer. Anal. Meth. Geomech. 39 (2015), 861–888, 10.1002/nag.2341.",
+                "@reference-instance-id": "OB2BibRecID-959687620-d4adfce6d2c400691d7f0c0d094da13e-29",
+                "@id": "29",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Numerical analysis of the geotechnical behaviour of energy piles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1002/nag.2341",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0145",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84927696526",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "39"
+                    },
+                    "pagerange": {
+                      "@first": "861",
+                      "@last": "888"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Ai",
+                        "ce:indexed-name": "Ai D.D."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Laloui",
+                        "ce:indexed-name": "Laloui L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Int. J. Numer. Anal. Meth. Geomech."
+                },
+                "ce:source-text": "Di Donna Ai, Laloui L. Numerical analysis of the geotechnical behaviour of energy piles. International Journal for Numerical and Analytical Methods in Geomechanics 2015; 39: 861–888. Doi: 10.1002/nag.2341."
+              },
+              {
+                "ref-fulltext": "Barbi, S., Barbieri, F., Marinelli, S., Rimini, B., Merchiori, S., Larwa, B., et al. Phase change material-sand mixtures for distributed latent heat thermal energy storage: Interaction and performance analysis. Renew. Energy 169 (2021), 1066–1076, 10.1016/j.renene.2021.01.088.",
+                "@reference-instance-id": "OB2BibRecID-959687620-9a4ae84fa6900dc40d292c4793e91fd2-30",
+                "@id": "30",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Phase change material-sand mixtures for distributed latent heat thermal energy storage: Interaction and performance analysis"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.renene.2021.01.088",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0150",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85099830661",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "169"
+                    },
+                    "pagerange": {
+                      "@first": "1066",
+                      "@last": "1076"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Barbi",
+                        "ce:indexed-name": "Barbi S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Barbieri",
+                        "ce:indexed-name": "Barbieri F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Marinelli",
+                        "ce:indexed-name": "Marinelli S."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Rimini",
+                        "ce:indexed-name": "Rimini B."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Merchiori",
+                        "ce:indexed-name": "Merchiori S."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Larwa",
+                        "ce:indexed-name": "Larwa B."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Renew. Energy"
+                },
+                "ce:source-text": "Barbi S, Barbieri F, Marinelli S, Rimini B, Merchiori S, Larwa B, et al. Phase change material-sand mixtures for distributed latent heat thermal energy storage: Interaction and performance analysis. Renewable Energy 2021; 169: 1066–1076. Doi: 10.1016/j.renene.2021.01.088."
+              },
+              {
+                "ref-fulltext": "Faizal, M., Bouazza, A., Singh, R.M., Heat transfer enhancement of geothermal energy piles. Renew. Sustain. Energy Rev. 57 (2016), 16–33, 10.1016/j.rser.2015.12.065.",
+                "@reference-instance-id": "OB2BibRecID-959687620-56dba6a3966ca8cbf427e98807bec22f-31",
+                "@id": "31",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Heat transfer enhancement of geothermal energy piles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.rser.2015.12.065",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0155",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84952815342",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "57"
+                    },
+                    "pagerange": {
+                      "@first": "16",
+                      "@last": "33"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Faizal",
+                        "ce:indexed-name": "Faizal M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Bouazza",
+                        "ce:indexed-name": "Bouazza A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "R.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Singh",
+                        "ce:indexed-name": "Singh R.M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Renew. Sustain. Energy Rev."
+                },
+                "ce:source-text": "Faizal M, Bouazza A, Singh RM. Heat transfer enhancement of geothermal energy piles. Renewable and Sustainable Energy Reviews 2016; 57: 16–33. Doi: 10.1016/j.rser.2015.12.065."
+              },
+              {
+                "ref-fulltext": "Zhelezny, V., Ivchenko, D., Hlek, Y., Khliyeva, O., Shestopalov, K., Experimental study of phase transition heat of composite thermal energy storage materials paraffin wax/expanded graphite. J. Storage Mater., 77, 2024, 110174, 10.1016/j.est.2023.110174.",
+                "@reference-instance-id": "OB2BibRecID-959687620-0e392abad4f9ec0ccc33de3dfb8bd99d-32",
+                "@id": "32",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental study of phase transition heat of composite thermal energy storage materials paraffin wax/expanded graphite"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.est.2023.110174",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0160",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "110174",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85180539680",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "77"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "V.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhelezny",
+                        "ce:indexed-name": "Zhelezny V."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Ivchenko",
+                        "ce:indexed-name": "Ivchenko D."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Hlek",
+                        "ce:indexed-name": "Hlek Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "O.",
+                        "@_fa": "true",
+                        "ce:surname": "Khliyeva",
+                        "ce:indexed-name": "Khliyeva O."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Shestopalov",
+                        "ce:indexed-name": "Shestopalov K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Storage Mater."
+                },
+                "ce:source-text": "Zhelezny V, Ivchenko D, Hlek Y, Khliyeva O, Shestopalov K. Experimental study of phase transition heat of composite thermal energy storage materials paraffin wax/expanded graphite. Journal of Energy Storage 2024; 77: 110174. Doi: 10.1016/j.est.2023.110174."
+              },
+              {
+                "ref-fulltext": "Comsol Multiphysics. User's Guide. COMSOL, Stockholm, Sweden 2020.",
+                "@reference-instance-id": "OB2BibRecID-959687620-67a2969f6de47884a628a210d21fa930-33",
+                "@id": "33",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0165",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85206691042",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Comsol Multiphysics. User's Guide. COMSOL, Stockholm, Sweden."
+                },
+                "ce:source-text": "Comsol Multiphysics. User's Guide. COMSOL, Stockholm, Sweden 2020."
+              },
+              {
+                "ref-fulltext": "Xiong, Z., Li, X., Zhao, P., Zhang, D., Dong, S., An in-situ experimental investigate of thermo-mechanical behavior of a large diameter over length energy pile. Energ. Buildings, 252, 2021, 111474, 10.1016/j.enbuild.2021.111474.",
+                "@reference-instance-id": "OB2BibRecID-959687620-fb22bce14b6b5db27eafd4f26722db3b-34",
+                "@id": "34",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "An in-situ experimental investigate of thermo-mechanical behavior of a large diameter over length energy pile"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.enbuild.2021.111474",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0170",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "111474",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85115617277",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "252"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Xiong",
+                        "ce:indexed-name": "Xiong Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li X."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao P."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang D."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Dong",
+                        "ce:indexed-name": "Dong S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Energ. Buildings"
+                },
+                "ce:source-text": "Xiong Z, Li X, Zhao P, Zhang D, Dong S. An in-situ experimental investigate of thermo-mechanical behavior of a large diameter over length energy pile. Energy and Buildings 2021; 252: 111474. Doi: 10.1016/j.enbuild.2021.111474."
+              },
+              {
+                "ref-fulltext": "Kramer, C.A., Ghasemi-Fare, O., Basu, P., Laboratory thermal performance tests on a model heat exchanger pile in sand. Geotech Geol Eng 33 (2015), 253–271, 10.1007/s10706-014-9786-z.",
+                "@reference-instance-id": "OB2BibRecID-959687620-f5efbc9cebf8cfdb37b20264b54bfe9e-35",
+                "@id": "35",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Laboratory thermal performance tests on a model heat exchanger pile in sand"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s10706-014-9786-z",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0175",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84925839405",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "33"
+                    },
+                    "pagerange": {
+                      "@first": "253",
+                      "@last": "271"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Kramer",
+                        "ce:indexed-name": "Kramer C.A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "O.",
+                        "@_fa": "true",
+                        "ce:surname": "Ghasemi-Fare",
+                        "ce:indexed-name": "Ghasemi-Fare O."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Basu",
+                        "ce:indexed-name": "Basu P."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geotech Geol Eng"
+                },
+                "ce:source-text": "Kramer CA, Ghasemi-Fare O, Basu P. Laboratory Thermal Performance Tests on a Model Heat Exchanger Pile in Sand. Geotech Geol Eng 2015; 33: 253–271. Doi: 10.1007/s10706-014-9786-z."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "affiliation": {
+      "affiliation-city": "Nanjing",
+      "@id": "60033100",
+      "affilname": "Nanjing University",
+      "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60033100",
+      "affiliation-country": "China"
+    },
+    "coredata": {
+      "srctype": "j",
+      "eid": "2-s2.0-85206685346",
+      "dc:description": "A novel paraffin/graphite phase change material was proposed as backfills for prestressed high-performance concrete piles. An experimental device for high-performance concrete energy pile was established to access the thermal performance of paraffin/graphite phase change material backfill and a finite element method numerical simulation based on the experiment was conducted. Two theoretical models, Multiphase-Effective Medium Theory and Maxwell-Eucken with parallel, were proposed to calculate the thermophysical parameters of paraffin/graphite phase change material. The results show that Multiphase-Effective Medium Theory achieves enhanced reliability than Maxwell-Eucken with parallel in the thermophysical parameters calculation of multi-phase composites. Paraffin/graphite phase change material can enhance the heat storage capacity of paraffin/graphite phase change material and reduce the temperature fluctuation of the piles, while graphite can accelerate the heat transfer within the pile system. A “transition point” in dynamic competition between the graphite and paraffin of paraffin/graphite phase change material was first discovered during the heat transfer process, which can be employed as an indicator for the operational patterns of the prestressed high-performance concrete energy pile. The thermal performance of prestressed high-performance concrete energy piles can be improved by reasonably controlling the graphite and paraffin contents in paraffin/graphite phase change material backfills.",
+      "prism:coverDate": "2025-01-01",
+      "prism:aggregationType": "Journal",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85206685346",
+      "subtypeDescription": "Article",
+      "dc:creator": {
+        "author": [
+          {
+            "ce:given-name": "Haoyu",
+            "preferred-name": {
+              "ce:given-name": "Haoyu",
+              "ce:initials": "H.",
+              "ce:surname": "Wang",
+              "ce:indexed-name": "Wang H."
+            },
+            "@seq": "1",
+            "ce:initials": "H.",
+            "@_fa": "true",
+            "affiliation": {
+              "@id": "60033100",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60033100"
+            },
+            "ce:surname": "Wang",
+            "@auid": "57862465600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57862465600",
+            "ce:indexed-name": "Wang H."
+          }
+        ]
+      },
+      "link": [
+        {
+          "@_fa": "true",
+          "@rel": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85206685346"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85206685346&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85206685346&origin=inward"
+        }
+      ],
+      "prism:publicationName": "Applied Thermal Engineering",
+      "source-id": "13688",
+      "pii": "S135943112402324X",
+      "citedby-count": "30",
+      "prism:volume": "258",
+      "subtype": "ar",
+      "dc:title": "A novel paraffin/graphite PCM backfill for PHC energy pile: Numerical and experimental analysis on thermal performance",
+      "openaccess": null,
+      "openaccessFlag": null,
+      "prism:doi": "10.1016/j.applthermaleng.2024.124656",
+      "prism:issn": "13594311",
+      "publishercopyright": "© 2024 Elsevier Ltd",
+      "article-number": "124656",
+      "dc:identifier": "SCOPUS_ID:85206685346",
+      "dc:publisher": "Elsevier Ltd"
+    },
+    "idxterms": {
+      "mainterm": [
+        {
+          "$": "Dynamic competitions",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Effective media theory",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Energy piles",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Graphite phasis",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "High-performance concrete",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Multiphases",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Phase Change",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Pre-stressed",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Thermal Performance",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Thermophysical parameters",
+          "@weight": "b",
+          "@candidate": "n"
+        }
+      ]
+    },
+    "language": {
+      "@xml:lang": "eng"
+    },
+    "authkeywords": {
+      "author-keyword": [
+        {
+          "@_fa": "true",
+          "$": "Dynamic competition"
+        },
+        {
+          "@_fa": "true",
+          "$": "Energy pile"
+        },
+        {
+          "@_fa": "true",
+          "$": "Numerical simulation"
+        },
+        {
+          "@_fa": "true",
+          "$": "Phase change material"
+        }
+      ]
+    },
+    "subject-areas": {
+      "subject-area": [
+        {
+          "@_fa": "true",
+          "$": "Energy Engineering and Power Technology",
+          "@code": "2102",
+          "@abbrev": "ENER"
+        },
+        {
+          "@_fa": "true",
+          "$": "Mechanical Engineering",
+          "@code": "2210",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Fluid Flow and Transfer Processes",
+          "@code": "1507",
+          "@abbrev": "CENG"
+        },
+        {
+          "@_fa": "true",
+          "$": "Industrial and Manufacturing Engineering",
+          "@code": "2209",
+          "@abbrev": "ENGI"
+        }
+      ]
+    },
+    "authors": {
+      "author": [
+        {
+          "ce:given-name": "Haoyu",
+          "preferred-name": {
+            "ce:given-name": "Haoyu",
+            "ce:initials": "H.",
+            "ce:surname": "Wang",
+            "ce:indexed-name": "Wang H."
+          },
+          "@seq": "1",
+          "ce:initials": "H.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60033100",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60033100"
+          },
+          "ce:surname": "Wang",
+          "@auid": "57862465600",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57862465600",
+          "ce:indexed-name": "Wang H."
+        },
+        {
+          "ce:given-name": "Dan",
+          "preferred-name": {
+            "ce:given-name": "Dan",
+            "ce:initials": "D.",
+            "ce:surname": "Zhang",
+            "ce:indexed-name": "Zhang D."
+          },
+          "@seq": "2",
+          "ce:initials": "D.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60033100",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60033100"
+          },
+          "ce:surname": "Zhang",
+          "@auid": "57209809589",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57209809589",
+          "ce:indexed-name": "Zhang D."
+        },
+        {
+          "ce:given-name": "Zhengyu",
+          "preferred-name": {
+            "ce:given-name": "Zhengyu",
+            "ce:initials": "Z.",
+            "ce:surname": "Qian",
+            "ce:indexed-name": "Qian Z."
+          },
+          "@seq": "3",
+          "ce:initials": "Z.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60033100",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60033100"
+          },
+          "ce:surname": "Qian",
+          "@auid": "58806718300",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58806718300",
+          "ce:indexed-name": "Qian Z."
+        },
+        {
+          "ce:given-name": "Hasanjan",
+          "preferred-name": {
+            "ce:given-name": "Hasanjan",
+            "ce:initials": "H.",
+            "ce:surname": "Yimit",
+            "ce:indexed-name": "Yimit H."
+          },
+          "@seq": "4",
+          "ce:initials": "H.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60033100",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60033100"
+          },
+          "ce:surname": "Yimit",
+          "@auid": "58542410800",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58542410800",
+          "ce:indexed-name": "Yimit H."
+        },
+        {
+          "ce:given-name": "Qi",
+          "preferred-name": {
+            "ce:given-name": "Qi",
+            "ce:initials": "Q.",
+            "ce:surname": "Luo",
+            "ce:indexed-name": "Luo Q."
+          },
+          "@seq": "5",
+          "ce:initials": "Q.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60033100",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60033100"
+          },
+          "ce:surname": "Luo",
+          "@auid": "58542730200",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58542730200",
+          "ce:indexed-name": "Luo Q."
+        },
+        {
+          "ce:given-name": "Kai",
+          "preferred-name": {
+            "ce:given-name": "Kai",
+            "ce:initials": "K.",
+            "ce:surname": "Lin",
+            "ce:indexed-name": "Lin K."
+          },
+          "@seq": "6",
+          "ce:initials": "K.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60033100",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60033100"
+          },
+          "ce:surname": "Lin",
+          "@auid": "59371710200",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59371710200",
+          "ce:indexed-name": "Lin K."
+        }
+      ]
+    }
+  }
+}

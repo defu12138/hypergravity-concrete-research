@@ -1,0 +1,4175 @@
+{
+  "abstracts-retrieval-response": {
+    "item": {
+      "ait:process-info": {
+        "ait:status": {
+          "@state": "update",
+          "@type": "core",
+          "@stage": "S300"
+        },
+        "ait:date-delivered": {
+          "@day": "10",
+          "@timestamp": "2024-11-10T03:19:10.000010-05:00",
+          "@year": "2024",
+          "@month": "11"
+        },
+        "ait:date-sort": {
+          "@day": "15",
+          "@year": "2022",
+          "@month": "09"
+        }
+      },
+      "xocs:meta": {
+        "xocs:funding-list": {
+          "@pui-match": "primary",
+          "@has-funding-info": "1",
+          "xocs:funding": [
+            {
+              "xocs:funding-agency-matched-string": "Shanghai Third Harbour Engineering Science & Technology Research Institute Co. Ltd."
+            },
+            {
+              "xocs:funding-agency-matched-string": "National Natural Science Foundation of China",
+              "xocs:funding-agency-acronym": "NSFC",
+              "xocs:funding-agency": "National Natural Science Foundation of China",
+              "xocs:funding-id": [
+                {
+                  "$": "51679081"
+                },
+                {
+                  "$": "51779264"
+                }
+              ],
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "National Natural Science Foundation of China",
+              "xocs:funding-agency-acronym": "NSFC",
+              "xocs:funding-agency": "National Natural Science Foundation of China",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            }
+          ],
+          "xocs:funding-addon-generated-timestamp": "2022-08-10T01:23:06.165Z",
+          "xocs:funding-text": [
+            {
+              "$": "The majority of the work presented in this paper was funded by the National Natural Science Foundation of China (Grant No. 51679081 and No. 51779264 ). Their financial support is gratefully acknowledged. The third author is the dean of Shanghai Third Harbour Engineering Science & Technology Research Institute Co., Ltd., whose support is gratefully acknowledged. The authors would like to express appreciation to the editor and anonymous reviewers for their valuable comments and suggestions."
+            },
+            {
+              "$": "Jing-Bo Su reports financial support was provided by National Natural Science Foundation of China. Yaru Lv reports financial support was provided by National Natural Science Foundation of China.The majority of the work presented in this paper was funded by the National Natural Science Foundation of China (Grant No. 51679081 and No. 51779264). Their financial support is gratefully acknowledged. The third author is the dean of Shanghai Third Harbour Engineering Science & Technology Research Institute Co. Ltd. whose support is gratefully acknowledged. The authors would like to express appreciation to the editor and anonymous reviewers for their valuable comments and suggestions."
+            },
+            {
+              "$": "Jing-Bo Su reports financial support was provided by National Natural Science Foundation of China . Yaru Lv reports financial support was provided by National Natural Science Foundation of China ."
+            }
+          ],
+          "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }
+      },
+      "bibrecord": {
+        "head": {
+          "author-group": [
+            {
+              "affiliation": {
+                "country": "China",
+                "address-part": "Jiangsu",
+                "@afid": "60010851",
+                "@country": "chn",
+                "city": "Nanjing",
+                "organization": [
+                  {
+                    "$": "College of Harbour"
+                  },
+                  {
+                    "$": "Coastal and Offshore Engineering"
+                  },
+                  {
+                    "$": "Hohai University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60010851",
+                  "@dptid": "108247223"
+                },
+                "@affiliation-instance-id": "S0029801822013567-05ab89830a0e6b83d8f36c3a8e54c02e",
+                "ce:source-text": "College of Harbour, Coastal and Offshore Engineering, Hohai University; Nanjing, Jiangsu, P. R. China",
+                "@dptid": "108247223"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Rui",
+                  "preferred-name": {
+                    "ce:given-name": "Rui",
+                    "ce:initials": "R.",
+                    "ce:surname": "Liu",
+                    "ce:indexed-name": "Liu R."
+                  },
+                  "@author-instance-id": "S0029801822013567-e1ca3b57d8c6de347493e02d907d9ad7",
+                  "@seq": "1",
+                  "ce:initials": "R.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Liu",
+                  "@auid": "57830109600",
+                  "ce:indexed-name": "Liu R."
+                },
+                {
+                  "ce:given-name": "Jing-Bo",
+                  "preferred-name": {
+                    "ce:given-name": "Jing Bo",
+                    "ce:initials": "J.B.",
+                    "ce:surname": "Su",
+                    "ce:indexed-name": "Su J.B."
+                  },
+                  "@author-instance-id": "S0029801822013567-29852c64e6bf826799308803a5701c9c",
+                  "@seq": "2",
+                  "ce:initials": "J.-B.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Su",
+                  "@auid": "8370279200",
+                  "ce:indexed-name": "Su J.-B."
+                },
+                {
+                  "ce:given-name": "Jinhu",
+                  "preferred-name": {
+                    "ce:given-name": "Jinhu",
+                    "ce:initials": "J.",
+                    "ce:surname": "Bao",
+                    "ce:indexed-name": "Bao J."
+                  },
+                  "@author-instance-id": "S0029801822013567-dd4fc179372f84f88a78245b41c34955",
+                  "@seq": "6",
+                  "ce:initials": "J.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Bao",
+                  "@auid": "57830202000",
+                  "ce:indexed-name": "Bao J."
+                },
+                {
+                  "ce:given-name": "Zhihong",
+                  "preferred-name": {
+                    "ce:given-name": "Zhihong",
+                    "ce:initials": "Z.",
+                    "ce:surname": "Ge",
+                    "ce:indexed-name": "Ge Z."
+                  },
+                  "@author-instance-id": "S0029801822013567-2409eea66682ddea530a6a248e2beb55",
+                  "@seq": "7",
+                  "ce:initials": "Z.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Ge",
+                  "@auid": "57830574600",
+                  "ce:indexed-name": "Ge Z."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "@afid": "126223402",
+                "@country": "chn",
+                "city": "Shanghai",
+                "organization": [
+                  {
+                    "$": "Shanghai Third Harbour Engineering Science & Technology Research Institute Co."
+                  },
+                  {
+                    "$": "Ltd."
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "126223402"
+                },
+                "@affiliation-instance-id": "S0029801822013567-534eab933aff42c6d2f88362b0bcef0d",
+                "ce:source-text": "CCCC Third Harbor Engineering Co., Ltd.; Shanghai, P. R. China"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Feng",
+                  "preferred-name": {
+                    "ce:given-name": "Feng",
+                    "ce:initials": "F.",
+                    "ce:surname": "Wu",
+                    "ce:indexed-name": "Wu F."
+                  },
+                  "@author-instance-id": "S0029801822013567-e513c6b865fe8b2f2e9f1e7c720db078",
+                  "@seq": "3",
+                  "ce:initials": "F.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Wu",
+                  "@auid": "35112120200",
+                  "ce:indexed-name": "Wu F."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "address-part": "Jiangsu",
+                "@afid": "60010851",
+                "@country": "chn",
+                "city": "Nanjing",
+                "organization": [
+                  {
+                    "$": "College of Mechanics and Materials"
+                  },
+                  {
+                    "$": "Hohai University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60010851",
+                  "@dptid": "108354542"
+                },
+                "@affiliation-instance-id": "S0029801822013567-d886b4ab076fafe3462a02dc5e1ab6bb",
+                "ce:source-text": "College of Mechanics and Materials, Hohai University; Nanjing, Jiangsu, P. R. China",
+                "@dptid": "108354542"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Yaru",
+                  "preferred-name": {
+                    "ce:given-name": "Yaru",
+                    "ce:initials": "Y.",
+                    "ce:surname": "Lv",
+                    "ce:indexed-name": "Lv Y."
+                  },
+                  "@author-instance-id": "S0029801822013567-c407543b1d8fcc34260bb100790cce33",
+                  "@seq": "4",
+                  "ce:initials": "Y.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Lv",
+                  "@auid": "50361498200",
+                  "ce:indexed-name": "Lv Y."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "address-part": "Zhejiang",
+                "@afid": "126223402",
+                "@country": "chn",
+                "organization": [
+                  {
+                    "$": "Zhejiang Qianjiang Technology Development Co."
+                  },
+                  {
+                    "$": "Ltd."
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "126223402"
+                },
+                "@affiliation-instance-id": "S0029801822013567-2b0189d56adcf614281911a4492195b6",
+                "ce:source-text": "Zhejiang Qianjiang Technology Development Co., Ltd.; Zhejiang, P. R. China"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Yunchuan",
+                  "preferred-name": {
+                    "ce:given-name": "Yunchuan",
+                    "ce:initials": "Y.",
+                    "ce:surname": "Guo",
+                    "ce:indexed-name": "Guo Y."
+                  },
+                  "@author-instance-id": "S0029801822013567-0d296b722b27280907a519e6fb42c865",
+                  "@seq": "5",
+                  "ce:initials": "Y.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Guo",
+                  "@auid": "57830574500",
+                  "ce:indexed-name": "Guo Y."
+                }
+              ]
+            }
+          ],
+          "citation-title": "Full-scale experimental research on the bending fatigue performance of post-tensioned prestressed concrete pipe piles",
+          "abstracts": "© 2022 Elsevier LtdPost-tensioned prestressed concrete pipe piles (large cylinder piles) have been widely used in port and bridge engineering because they are economical and deliver excellent performance, and thus, have potential for use in offshore engineering. However, limited research has been devoted to the bending fatigue of large cylinder piles, which is essential for offshore engineering design. This study evaluated the bending fatigue of large cylinder piles by performing a series of full-scale bending fatigue tests on three specimens (L = 12 m, D = 1.2 m) and numerically analyzing the static cracking patterns in them. The static performance of large cylinder piles, including the bending moment of static cracking (Mcr) and its patterns, was analyzed by using a validated finite element model. Three-point bending fatigue tests with cyclic loading under a constant amplitude (stress ratio R = 0.4, peak fatigue load = 37.72%–80.00% Mcr) were then conducted to examine the development of mid-span displacement and stiffness degradation in the specimens. A critical damage factor (Dcr), which uses the cracking of concrete as the indicator of termination of the test, and a modified approach to prediction were then proposed and applied, based on findings of the fatigue test and past literature, to predict the number of cycles that it took for the large cylinder piles to crack. Finally, bi-linear S–N curves were plotted by considering the effective prestress according to the experimental and estimated data. The results here provide a theoretical basis for the fatigue-based design and application of large cylinder piles.",
+          "correspondence": {
+            "affiliation": {
+              "country": "China",
+              "address-part": "Jiangsu",
+              "@country": "chn",
+              "city": "Nanjing",
+              "organization": [
+                {
+                  "$": "College of Harbour"
+                },
+                {
+                  "$": "Coastal and Offshore Engineering"
+                },
+                {
+                  "$": "Hohai University"
+                }
+              ]
+            },
+            "person": {
+              "ce:given-name": "Jing-Bo",
+              "ce:initials": "J.-B.",
+              "ce:surname": "Su",
+              "ce:indexed-name": "Su J.-B."
+            }
+          },
+          "citation-info": {
+            "author-keywords": {
+              "author-keyword": [
+                {
+                  "$": "Bending fatigue-related performance",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Bi-linear S–N curves",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Full-scale bending fatigue tests",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Offshore engineering",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Post-tensioned prestressed concrete pipe piles",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                }
+              ]
+            },
+            "citation-type": {
+              "@code": "ar"
+            },
+            "citation-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "abstract-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            }
+          },
+          "source": {
+            "website": {
+              "ce:e-address": {
+                "$": "http://www.journals.elsevier.com/ocean-engineering/",
+                "@type": "email"
+              }
+            },
+            "translated-sourcetitle": {
+              "$": "Ocean Engineering",
+              "@xml:lang": "eng"
+            },
+            "volisspag": {
+              "voliss": {
+                "@volume": "260"
+              }
+            },
+            "@type": "j",
+            "sourcetitle": "Ocean Engineering",
+            "publicationdate": {
+              "month": "09",
+              "year": "2022",
+              "date-text": {
+                "@xfab-added": "true",
+                "$": "15 September 2022"
+              },
+              "day": "15"
+            },
+            "sourcetitle-abbrev": "Ocean Eng.",
+            "@country": "gbr",
+            "issn": {
+              "$": "00298018",
+              "@type": "print"
+            },
+            "publicationyear": {
+              "@first": "2022"
+            },
+            "publisher": {
+              "publishername": "Elsevier Ltd"
+            },
+            "article-number": "112025",
+            "@srcid": "28339"
+          },
+          "enhancement": {
+            "classificationgroup": {
+              "classifications": [
+                {
+                  "@type": "CPXCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "401.1",
+                      "classification-description": "Bridges"
+                    },
+                    {
+                      "classification-code": "408.2",
+                      "classification-description": "Structural Members and Shapes"
+                    },
+                    {
+                      "classification-code": "412",
+                      "classification-description": "Concrete"
+                    },
+                    {
+                      "classification-code": "421",
+                      "classification-description": "Strength of Building Materials; Mechanical Properties"
+                    },
+                    {
+                      "classification-code": "422",
+                      "classification-description": "Strength of Building Materials; Test Equipment and Methods"
+                    },
+                    {
+                      "classification-code": "511.1",
+                      "classification-description": "Oil Field Production Operations"
+                    },
+                    {
+                      "classification-code": "619.1",
+                      "classification-description": "Pipe, Piping and Pipelines"
+                    },
+                    {
+                      "classification-code": "951",
+                      "classification-description": "Materials Science"
+                    }
+                  ]
+                },
+                {
+                  "@type": "FLXCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "78.22",
+                      "classification-description": "PROCESS EQUIPMENT"
+                    },
+                    {
+                      "classification-code": "79.24",
+                      "classification-description": "PETROLEUM ENGINEERING"
+                    }
+                  ]
+                },
+                {
+                  "@type": "GEOCLASS",
+                  "classification": {
+                    "classification-code": "76.16.2",
+                    "classification-description": "Pipeline systems and risers"
+                  }
+                },
+                {
+                  "@type": "ASJC",
+                  "classification": [
+                    {
+                      "$": "2305"
+                    },
+                    {
+                      "$": "2212"
+                    }
+                  ]
+                },
+                {
+                  "@type": "SUBJABBR",
+                  "classification": [
+                    {
+                      "$": "ENVI"
+                    },
+                    {
+                      "$": "ENGI"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "grantlist": {
+            "@complete": "y",
+            "grant-text": {
+              "$": "Jing-Bo Su reports financial support was provided by National Natural Science Foundation of China. Yaru Lv reports financial support was provided by National Natural Science Foundation of China.The majority of the work presented in this paper was funded by the National Natural Science Foundation of China (Grant No. 51679081 and No. 51779264). Their financial support is gratefully acknowledged. The third author is the dean of Shanghai Third Harbour Engineering Science & Technology Research Institute Co. Ltd. whose support is gratefully acknowledged. The authors would like to express appreciation to the editor and anonymous reviewers for their valuable comments and suggestions.",
+              "@xml:lang": "eng"
+            },
+            "grant": [
+              {
+                "grant-acronym": "NSFC",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "National Natural Science Foundation of China"
+                }
+              },
+              {
+                "grant-acronym": "NSFC",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "National Natural Science Foundation of China"
+                }
+              },
+              {
+                "grant-id": "51679081",
+                "grant-acronym": "NSFC",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "National Natural Science Foundation of China"
+                }
+              },
+              {
+                "grant-id": "51779264",
+                "grant-acronym": "NSFC",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "National Natural Science Foundation of China"
+                }
+              }
+            ]
+          }
+        },
+        "item-info": {
+          "copyright": {
+            "$": "Copyright 2022 Elsevier B.V., All rights reserved.",
+            "@type": "Elsevier"
+          },
+          "dbcollection": [
+            {
+              "$": "APILIT"
+            },
+            {
+              "$": "CPX"
+            },
+            {
+              "$": "FLX"
+            },
+            {
+              "$": "GEO"
+            },
+            {
+              "$": "REAXYSCAR"
+            },
+            {
+              "$": "SCOPUS"
+            },
+            {
+              "$": "Scopusbase"
+            }
+          ],
+          "history": {
+            "date-created": {
+              "@day": "29",
+              "@timestamp": "BST 11:44:44",
+              "@year": "2022",
+              "@month": "09"
+            }
+          },
+          "itemidlist": {
+            "itemid": [
+              {
+                "$": "2019566156",
+                "@idtype": "PUI"
+              },
+              {
+                "$": "L2022080084",
+                "@idtype": "APILIT"
+              },
+              {
+                "$": "942013980",
+                "@idtype": "CAR-ID"
+              },
+              {
+                "$": "20223212544505",
+                "@idtype": "CPX"
+              },
+              {
+                "$": "1729422",
+                "@idtype": "FLX"
+              },
+              {
+                "$": "10228853",
+                "@idtype": "GEO"
+              },
+              {
+                "$": "20222358172",
+                "@idtype": "REAXYSCAR"
+              },
+              {
+                "$": "20222719321",
+                "@idtype": "SCOPUS"
+              },
+              {
+                "$": "85135385142",
+                "@idtype": "SCP"
+              },
+              {
+                "$": "85135385142",
+                "@idtype": "SGR"
+              }
+            ],
+            "ce:pii": "S0029801822013567",
+            "ce:ern": "pii:S0029801822013567",
+            "ce:doi": "10.1016/j.oceaneng.2022.112025"
+          }
+        },
+        "tail": {
+          "bibliography": {
+            "@refcount": "57",
+            "reference": [
+              {
+                "ref-fulltext": "Birtel, V., Mark, P., Parameterised finite element modelling of RC beam shear failure. Proc., 19th Annual Int. ABAQUS Users’ Conf., 2006, 95–108.",
+                "@id": "1",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2006"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Parameterised finite element modelling of RC beam shear failure"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib1",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "58949083778",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "95",
+                      "@last": "108"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "V.",
+                        "@_fa": "true",
+                        "ce:surname": "Birtel",
+                        "ce:indexed-name": "Birtel V."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Mark",
+                        "ce:indexed-name": "Mark P."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Proc., 19th Annual Int. ABAQUS Users’ Conf."
+                },
+                "ce:source-text": "Birtel, V., Mark, P., 2006. Parameterised Finite Element Modelling of RC Beam Shear Failure. 2006 ABAQUS Users’ Conference."
+              },
+              {
+                "ref-fulltext": "Byrne, B.W., Houlsby, G.T., Foundations for offshore wind turbines. Philos. Trans. Royal Soc. A. 361 (2003), 2909–2930.",
+                "@id": "2",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2003"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Foundations for offshore wind turbines"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib2",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0348252429",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "361"
+                    },
+                    "pagerange": {
+                      "@first": "2909",
+                      "@last": "2930"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Byrne",
+                        "ce:indexed-name": "Byrne B.W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Houlsby",
+                        "ce:indexed-name": "Houlsby G.T."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Philos. Trans. Royal Soc. A."
+                },
+                "ce:source-text": "Byrne, B.W., Houlsby, G.T., 2003. Foundations for offshore wind turbines. Philos. Trans. Royal Soc. A. 361, 2909-2930."
+              },
+              {
+                "ref-fulltext": "Campos, A., Molins, C., Gironella, X., Trubat, P., Spar concrete monolithic design for offshore wind turbines. P I Civ. Eng.-Mar. EN. 169 (2016), 49–63.",
+                "@id": "3",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Spar concrete monolithic design for offshore wind turbines"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib3",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84968546454",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "169"
+                    },
+                    "pagerange": {
+                      "@first": "49",
+                      "@last": "63"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Campos",
+                        "ce:indexed-name": "Campos A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Molins",
+                        "ce:indexed-name": "Molins C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Gironella",
+                        "ce:indexed-name": "Gironella X."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Trubat",
+                        "ce:indexed-name": "Trubat P."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "P I Civ. Eng.-Mar. EN."
+                },
+                "ce:source-text": "Campos, A., Molins, C., Gironella, X., Trubat, P., 2016. Spar concrete monolithic design for offshore wind turbines. P I Civil Eng-Mar EN. 169, 49-63."
+              },
+              {
+                "ref-fulltext": "Chalioris, C.E., Papadopoulos, C.P., Pourzitidis, C.N., Fotis, D., Sideris, K.K., Application of a reinforced self-compacting concrete jacket in damaged reinforced concrete beams under monotonic and repeated loading. J. Eng. Mech., 2013, 2012, e912983.",
+                "@id": "4",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Application of a reinforced self-compacting concrete jacket in damaged reinforced concrete beams under monotonic and repeated loading"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib4",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "e912983",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "84978819447",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "2013"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.E.",
+                        "@_fa": "true",
+                        "ce:surname": "Chalioris",
+                        "ce:indexed-name": "Chalioris C.E."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Papadopoulos",
+                        "ce:indexed-name": "Papadopoulos C.P."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Pourzitidis",
+                        "ce:indexed-name": "Pourzitidis C.N."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Fotis",
+                        "ce:indexed-name": "Fotis D."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "K.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Sideris",
+                        "ce:indexed-name": "Sideris K.K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Eng. Mech."
+                },
+                "ce:source-text": "Chalioris, C.E., Papadopoulos, C.P., Pourzitidis, C.N., Fotis, D., Sideris, K.K., 2012. Application of a Reinforced Self-Compacting Concrete Jacket in Damaged Reinforced Concrete Beams under Monotonic and Repeated Loading. J. Eng. Mech. 2013, e912983."
+              },
+              {
+                "ref-fulltext": "Chen, T., Wang, X., Yuan, G., Liu, J., Fatigue bending test on grouted connections for monopile offshore wind turbines. Mar. Struct. 60 (2018), 52–71.",
+                "@id": "5",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Fatigue bending test on grouted connections for monopile offshore wind turbines"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib5",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85044720037",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "60"
+                    },
+                    "pagerange": {
+                      "@first": "52",
+                      "@last": "71"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang X."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Yuan",
+                        "ce:indexed-name": "Yuan G."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Mar. Struct."
+                },
+                "ce:source-text": "Chen, T., Wang, X., Yuan, G., Liu, J., 2018. Fatigue bending test on grouted connections for monopile offshore wind turbines. Mar. Struct. 60, 52-71."
+              },
+              {
+                "ref-fulltext": "Chinese Standard, GB 50010-2010, Chinese Code for Design of Concrete Structures.",
+                "@id": "6",
+                "ref-info": {
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib6",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85135418767",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Chinese Standard, GB 50010-2010, Chinese Code for Design of Concrete Structures."
+                },
+                "ce:source-text": "Chinese Standard, GB 50010-2010, Chinese Code for Design of Concrete Structures."
+              },
+              {
+                "ref-fulltext": "Cornelissen, H.A.W., Fatigue failure of concrete in tension. Heron, 29, 1984.",
+                "@id": "7",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1984"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Fatigue failure of concrete in tension"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib7",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0021620526",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "29"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.A.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Cornelissen",
+                        "ce:indexed-name": "Cornelissen H.A.W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Heron"
+                },
+                "ce:source-text": "Cornelissen, H.A.W., 1984. Fatigue failure of concrete in tension. Heron. 29."
+              },
+              {
+                "ref-fulltext": "Deng, S., Qie, Z., Wang, L., Nonlinear analysis of reinforced concrete beam bending failure experimentation based on ABAQUS. Proceedings of the First International Conference on Information Sciences, Machinery, Materials and Energy, 2015 Chongqing, China.",
+                "@id": "8",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Nonlinear analysis of reinforced concrete beam bending failure experimentation based on ABAQUS"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib8",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85033664022",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Chongqing, China",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Deng",
+                        "ce:indexed-name": "Deng S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Qie",
+                        "ce:indexed-name": "Qie Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Proceedings of the First International Conference on Information Sciences, Machinery, Materials and Energy"
+                },
+                "ce:source-text": "Deng, S., Qie, Z., Wang, L., 2015. Nonlinear analysis of reinforced concrete beam bending failure experimentation based on ABAQUS. In: Proceedings of the First International Conference on Information Sciences, Machinery, Materials and Energy. Chongqing, China."
+              },
+              {
+                "ref-fulltext": "Díaz, H., Guedes Soares, C., Review of the current status, technology and future trends of offshore wind farms. Ocean Eng., 209, 2020, 107381.",
+                "@id": "9",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Review of the current status, technology and future trends of offshore wind farms"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib9",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "107381",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85085976428",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "209"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Díaz",
+                        "ce:indexed-name": "Diaz H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Guedes Soares",
+                        "ce:indexed-name": "Guedes Soares C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Ocean Eng."
+                },
+                "ce:source-text": "Diaz, H., Guedes Soares, C., 2020. Review of the current status, technology and future trends of offshore wind farms. Ocean Eng. 209, 107381."
+              },
+              {
+                "ref-fulltext": "Ferrier, E., Avril, S., Hamelin, P., Vautrin, A., Mechanical behavior of RC beams reinforced by externally bonded CFRP sheets. Mater. Struct. 36 (2003), 522–529.",
+                "@id": "10",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2003"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Mechanical behavior of RC beams reinforced by externally bonded CFRP sheets"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib10",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0141921806",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "36"
+                    },
+                    "pagerange": {
+                      "@first": "522",
+                      "@last": "529"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Ferrier",
+                        "ce:indexed-name": "Ferrier E."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Avril",
+                        "ce:indexed-name": "Avril S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Hamelin",
+                        "ce:indexed-name": "Hamelin P."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Vautrin",
+                        "ce:indexed-name": "Vautrin A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Mater. Struct."
+                },
+                "ce:source-text": "Ferrier, E., Avril, S., Hamelin, P., Vautrin, A., 2003. Mechanical behavior of RC beams reinforced by externally bonded CFRP sheets. Mat. Struct. 36, 522-529."
+              },
+              {
+                "ref-fulltext": "Garg, A.K., Abolmaali, A., Finite-element modeling and analysis of reinforced concrete box culverts. J. Transport. Eng. 135 (2009), 121–128.",
+                "@id": "11",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Finite-element modeling and analysis of reinforced concrete box culverts"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib11",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "60649093097",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "135"
+                    },
+                    "pagerange": {
+                      "@first": "121",
+                      "@last": "128"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Garg",
+                        "ce:indexed-name": "Garg A.K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Abolmaali",
+                        "ce:indexed-name": "Abolmaali A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Transport. Eng."
+                },
+                "ce:source-text": "Garg, A.K., Abolmaali, A., 2009. Finite-element modeling and analysis of reinforced concrete box culverts. J. Transp. Eng. 135, 121-128."
+              },
+              {
+                "ref-fulltext": "Genikomsou, A.S., Polak, M.A., Finite element analysis of punching shear of concrete slabs using damaged plasticity model in. ABAQUS. Eng. Struct. 98 (2015), 38–48.",
+                "@id": "12",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Finite element analysis of punching shear of concrete slabs using damaged plasticity model in"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib12",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84928323595",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "98"
+                    },
+                    "pagerange": {
+                      "@first": "38",
+                      "@last": "48"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Genikomsou",
+                        "ce:indexed-name": "Genikomsou A.S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Polak",
+                        "ce:indexed-name": "Polak M.A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "ABAQUS. Eng. Struct."
+                },
+                "ce:source-text": "Genikomsou, A.S., Polak, M.A., 2015. Finite element analysis of punching shear of concrete slabs using damaged plasticity model in ABAQUS. Eng. Struct. 98, 38-48."
+              },
+              {
+                "ref-fulltext": "Gere, J., Goodno, B., Mechanics of Materials. eighth ed., 2009, Cengage Learning.",
+                "@id": "13",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Mechanics of Materials"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib13",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0004253046",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "eighth ed. Cengage Learning",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Gere",
+                        "ce:indexed-name": "Gere J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Goodno",
+                        "ce:indexed-name": "Goodno B."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Gere, J., Goodno, B., 2009. Mechanics of Materials, eighth ed. Cengage Learning."
+              },
+              {
+                "ref-fulltext": "Gerwick, B.C., Venuti, W.J., High and Low-Cycle fatigue behavior of prestressed concrete in offshore structures. J. Energy Resour. Technol. 102 (1980), 18–23.",
+                "@id": "14",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1980"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "High and Low-Cycle fatigue behavior of prestressed concrete in offshore structures"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib14",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0018934908",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "102"
+                    },
+                    "pagerange": {
+                      "@first": "18",
+                      "@last": "23"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Gerwick",
+                        "ce:indexed-name": "Gerwick B.C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Venuti",
+                        "ce:indexed-name": "Venuti W.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Energy Resour. Technol."
+                },
+                "ce:source-text": "Gerwick, B.C., Venuti, W.J., 1980. High and Low-Cycle fatigue behavior of prestressed concrete in offshore structures. J. Energy Resour. Technol. 102, 18-23."
+              },
+              {
+                "ref-fulltext": "Holland, R.B., Kurtis, K.E., Kahn, L.F., Effect of different concrete materials on the corrosion of the embedded reinforcing steel. Poursaee, A., (eds.) Corrosion of Steel in Concrete Structures, 2016, Woodhead Publishing, Oxford, 131–147.",
+                "@id": "15",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of different concrete materials on the corrosion of the embedded reinforcing steel"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib15",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84967214942",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "131",
+                      "@last": "147"
+                    }
+                  },
+                  "ref-text": "A. Poursaee Woodhead Publishing Oxford",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Holland",
+                        "ce:indexed-name": "Holland R.B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.E.",
+                        "@_fa": "true",
+                        "ce:surname": "Kurtis",
+                        "ce:indexed-name": "Kurtis K.E."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "L.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Kahn",
+                        "ce:indexed-name": "Kahn L.F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Corrosion of Steel in Concrete Structures"
+                },
+                "ce:source-text": "Holland, R.B., Kurtis, K.E., Kahn, L.F., 2016. Effect of different concrete materials on the corrosion of the embedded reinforcing steel, in: Poursaee, A. (Ed.), Corrosion of Steel in Concrete Structures. Woodhead Publishing, Oxford, pp. 131-147."
+              },
+              {
+                "ref-fulltext": "Holmen, J.O., Fatigue of Concrete by Constant and Variable Amplitude Loading, vol. 75, 1982, ACI Symposium Publication, 71–110.",
+                "@id": "16",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1982"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib16",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85112523247",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "75"
+                    },
+                    "pagerange": {
+                      "@first": "71",
+                      "@last": "110"
+                    }
+                  },
+                  "ref-text": "ACI Symposium Publication",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.O.",
+                        "@_fa": "true",
+                        "ce:surname": "Holmen",
+                        "ce:indexed-name": "Holmen J.O."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Fatigue of Concrete by Constant and Variable Amplitude Loading"
+                },
+                "ce:source-text": "Holmen, J.O., 1982. Fatigue of Concrete by Constant and Variable Amplitude loading. ACI Symposium Publication. 75, 71-110."
+              },
+              {
+                "ref-fulltext": "Hsu, T.T.C., Fatigue of plain concrete. J. Proc. 78 (1981), 292–305.",
+                "@id": "17",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1981"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Fatigue of plain concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib17",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0019584385",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "78"
+                    },
+                    "pagerange": {
+                      "@first": "292",
+                      "@last": "305"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.T.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Hsu",
+                        "ce:indexed-name": "Hsu T.T.C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Proc."
+                },
+                "ce:source-text": "Hsu, T.T.C., 1981. Fatigue of plain concrete. Journal Proceedings. 78, 292-305."
+              },
+              {
+                "ref-fulltext": "Huang, W., Gong, F., Jin, W., Maekawa, K., Numerical analysis of high and low-cycle flexural fatigue for reinforced concrete beams under full-range of varying amplitudes. Struct. Concr. 22 (2021), 2167–2183.",
+                "@id": "18",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Numerical analysis of high and low-cycle flexural fatigue for reinforced concrete beams under full-range of varying amplitudes"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib18",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85105663068",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "22"
+                    },
+                    "pagerange": {
+                      "@first": "2167",
+                      "@last": "2183"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Gong",
+                        "ce:indexed-name": "Gong F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Jin",
+                        "ce:indexed-name": "Jin W."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Maekawa",
+                        "ce:indexed-name": "Maekawa K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Struct. Concr."
+                },
+                "ce:source-text": "Huang, W., Gong, F., Jin, W., Maekawa, K., 2021. Numerical analysis of high and low-cycle flexural fatigue for reinforced concrete beams under full-range of varying amplitudes. Struct Concr. 22, 2167-2183."
+              },
+              {
+                "ref-fulltext": "Igwemezie, V., Mehmanparast, A., Kolios, A., Materials selection for XL wind turbine support structures: a corrosion-fatigue perspective. Mar. Struct. 61 (2018), 381–397.",
+                "@id": "19",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Materials selection for XL wind turbine support structures: a corrosion-fatigue perspective"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib19",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85048944618",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "61"
+                    },
+                    "pagerange": {
+                      "@first": "381",
+                      "@last": "397"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "V.",
+                        "@_fa": "true",
+                        "ce:surname": "Igwemezie",
+                        "ce:indexed-name": "Igwemezie V."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Mehmanparast",
+                        "ce:indexed-name": "Mehmanparast A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Kolios",
+                        "ce:indexed-name": "Kolios A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Mar. Struct."
+                },
+                "ce:source-text": "Igwemezie, V., Mehmanparast, A., Kolios, A., 2018. Materials selection for XL wind turbine support structures: A corrosion-fatigue perspective. Mar. Struct. 61, 381-397."
+              },
+              {
+                "ref-fulltext": "Isojeh, B., El-Zeghayar, M., Vecchio, F.J., Concrete damage under fatigue loading in uniaxial compression. ACI Mater. J. 114 (2017), 225–235.",
+                "@id": "20",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Concrete damage under fatigue loading in uniaxial compression"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib20",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85019943847",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "114"
+                    },
+                    "pagerange": {
+                      "@first": "225",
+                      "@last": "235"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Isojeh",
+                        "ce:indexed-name": "Isojeh B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "El-Zeghayar",
+                        "ce:indexed-name": "El-Zeghayar M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "F.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Vecchio",
+                        "ce:indexed-name": "Vecchio F.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "ACI Mater. J."
+                },
+                "ce:source-text": "Isojeh, B., El-Zeghayar, M., Vecchio, F.J., 2017. Concrete Damage under Fatigue Loading in Uniaxial Compression. ACI Mater. J. 114, 225-235."
+              },
+              {
+                "ref-fulltext": "Jankowiak, T., Identification of parameters of concrete damage plasticity constitutive model. Found. Civ. Environ. Eng. 6 (2005), 53–69.",
+                "@id": "21",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2005"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Identification of parameters of concrete damage plasticity constitutive model"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib21",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "75749156983",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "6"
+                    },
+                    "pagerange": {
+                      "@first": "53",
+                      "@last": "69"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Jankowiak",
+                        "ce:indexed-name": "Jankowiak T."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Found. Civ. Environ. Eng."
+                },
+                "ce:source-text": "Jankowiak, T., 2005. Identification of parameters of concrete damage plasticity constitutive model. Foundations of civil and environmental engineering. 6, 53-69."
+              },
+              {
+                "ref-fulltext": "Kim, H.-G., Kim, B.-J., Feasibility study of new hybrid piled concrete foundation for offshore wind turbine. Appl. Ocean Res. 76 (2018), 11–21.",
+                "@id": "22",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Feasibility study of new hybrid piled concrete foundation for offshore wind turbine"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib22",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85045663192",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "76"
+                    },
+                    "pagerange": {
+                      "@first": "11",
+                      "@last": "21"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.-G.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim H.-G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "B.-J.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim B.-J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Appl. Ocean Res."
+                },
+                "ce:source-text": "Kim, H.-G., Kim, B.-J., 2018. Feasibility study of new hybrid piled concrete foundation for offshore wind turbine. Appl. Ocean Res. 76, 11-21."
+              },
+              {
+                "ref-fulltext": "Klinge Jacobsen, H., Hevia-Koch, P., Wolter, C., Nearshore and offshore wind development: costs and competitive advantage exemplified by nearshore wind in Denmark. Energy Sustain. Dev. 50 (2019), 91–100.",
+                "@id": "23",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Nearshore and offshore wind development: costs and competitive advantage exemplified by nearshore wind in Denmark"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib23",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85064172893",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "50"
+                    },
+                    "pagerange": {
+                      "@first": "91",
+                      "@last": "100"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Klinge Jacobsen",
+                        "ce:indexed-name": "Klinge Jacobsen H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Hevia-Koch",
+                        "ce:indexed-name": "Hevia-Koch P."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Wolter",
+                        "ce:indexed-name": "Wolter C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Energy Sustain. Dev."
+                },
+                "ce:source-text": "Klinge Jacobsen, H., Hevia-Koch, P., Wolter, C., 2019. Nearshore and offshore wind development: Costs and competitive advantage exemplified by nearshore wind in Denmark. Energy Sustain. Dev. 50, 91-100."
+              },
+              {
+                "ref-fulltext": "Lee, M.K., Barr, B.I.G., An overview of the fatigue behaviour of plain and fibre reinforced concrete. Cem. Concr. Compos. 26 (2004), 299–305.",
+                "@id": "24",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2004"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "An overview of the fatigue behaviour of plain and fibre reinforced concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib24",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "1842523072",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "26"
+                    },
+                    "pagerange": {
+                      "@first": "299",
+                      "@last": "305"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee M.K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "B.I.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Barr",
+                        "ce:indexed-name": "Barr B.I.G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Compos."
+                },
+                "ce:source-text": "Lee, M.K., Barr, B.I.G., 2004. An overview of the fatigue behaviour of plain and fibre reinforced concrete. Cem. Concr. Compos. 26, 299-305."
+              },
+              {
+                "ref-fulltext": "Leitner, M., Stoschka, M., Effect of load stress ratio on nominal and effective notch fatigue strength assessment of HFMI-treated high-strength steel cover plates. Int. J. Fatig., 139, 2020, 105784.",
+                "@id": "25",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of load stress ratio on nominal and effective notch fatigue strength assessment of HFMI-treated high-strength steel cover plates"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib25",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105784",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85086598856",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "139"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Leitner",
+                        "ce:indexed-name": "Leitner M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Stoschka",
+                        "ce:indexed-name": "Stoschka M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Int. J. Fatig."
+                },
+                "ce:source-text": "Leitner, M., Stoschka, M., 2020. Effect of load stress ratio on nominal and effective notch fatigue strength assessment of HFMI-treated high-strength steel cover plates. International Journal of Fatigue 139, 105784."
+              },
+              {
+                "ref-fulltext": "Li, H., Zhang, M., Ou, J., Flexural fatigue performance of concrete containing nano-particles for pavement. Int. J. Fatig. 29 (2007), 1292–1301.",
+                "@id": "26",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Flexural fatigue performance of concrete containing nano-particles for pavement"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib26",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "33947251789",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "29"
+                    },
+                    "pagerange": {
+                      "@first": "1292",
+                      "@last": "1301"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Ou",
+                        "ce:indexed-name": "Ou J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Int. J. Fatig."
+                },
+                "ce:source-text": "Li, H., Zhang, M., Ou, J., 2007. Flexural fatigue performance of concrete containing nano-particles for pavement. Int. J. Fatigue. 29, 1292-1301."
+              },
+              {
+                "ref-fulltext": "Liu, F., Zheng, W., Li, L., Feng, W., Ning, G., Mechanical and fatigue performance of rubber concrete. Construct. Build. Mater. 47 (2013), 711–719.",
+                "@id": "27",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Mechanical and fatigue performance of rubber concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib27",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84879109167",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "47"
+                    },
+                    "pagerange": {
+                      "@first": "711",
+                      "@last": "719"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Zheng",
+                        "ce:indexed-name": "Zheng W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li L."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Feng",
+                        "ce:indexed-name": "Feng W."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Ning",
+                        "ce:indexed-name": "Ning G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Construct. Build. Mater."
+                },
+                "ce:source-text": "Liu, F., Zheng, W., Li, L., Feng, W., Ning, G., 2013. Mechanical and fatigue performance of rubber concrete. Constr. Build. Mater. 47, 711-719."
+              },
+              {
+                "ref-fulltext": "Lombardi, D., Bhattacharya, S., Muir Wood, D., Dynamic soil–structure interaction of monopile supported wind turbines in cohesive soil. Soil Dynam. Earthq. Eng. 49 (2013), 165–180.",
+                "@id": "28",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Dynamic soil–structure interaction of monopile supported wind turbines in cohesive soil"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib28",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84875621439",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "49"
+                    },
+                    "pagerange": {
+                      "@first": "165",
+                      "@last": "180"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Lombardi",
+                        "ce:indexed-name": "Lombardi D."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Bhattacharya",
+                        "ce:indexed-name": "Bhattacharya S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Muir Wood",
+                        "ce:indexed-name": "Muir Wood D."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dynam. Earthq. Eng."
+                },
+                "ce:source-text": "Lombardi, D., Bhattacharya, S., Muir Wood, D., 2013. Dynamic soil-structure interaction of monopile supported wind turbines in cohesive soil. Soil Dyn. Earthq. Eng. 49, 165-180."
+              },
+              {
+                "ref-fulltext": "Ma, H., Yang, J., A novel hybrid monopile foundation for offshore wind turbines. Ocean Eng., 198, 2020, 106963.",
+                "@id": "29",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A novel hybrid monopile foundation for offshore wind turbines"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib29",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "106963",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85078129746",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "198"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Ma",
+                        "ce:indexed-name": "Ma H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Ocean Eng."
+                },
+                "ce:source-text": "Ma, H., Yang, J., 2020. A novel hybrid monopile foundation for offshore wind turbines. Ocean Eng. 198, 106963."
+              },
+              {
+                "ref-fulltext": "Mathern, A., von der Haar, C., Marx, S., Concrete support structures for offshore wind turbines: current status, challenges, and future trends. Energies, 14, 2021, 1995.",
+                "@id": "30",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Concrete support structures for offshore wind turbines: current status, challenges, and future trends"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib30",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85106458573",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "14"
+                    },
+                    "pagerange": {
+                      "@first": "1995"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Mathern",
+                        "ce:indexed-name": "Mathern A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "von der Haar",
+                        "ce:indexed-name": "von der Haar C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Marx",
+                        "ce:indexed-name": "Marx S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Energies"
+                },
+                "ce:source-text": "Mathern, A., von der Haar, C., Marx, S., 2021. Concrete support structures for offshore wind turbines: Current status, challenges, and future trends. Energies. 14, 1995."
+              },
+              {
+                "ref-fulltext": "Mirzazadeh, M.M., Noël, M., Green, M.F., Fatigue behavior of reinforced concrete beams with temperature differentials at room and low temperature. J. Struct. Eng., 143, 2017, 04017056.",
+                "@id": "31",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Fatigue behavior of reinforced concrete beams with temperature differentials at room and low temperature"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib31",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "04017056",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85018804370",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "143"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Mirzazadeh",
+                        "ce:indexed-name": "Mirzazadeh M.M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Noël",
+                        "ce:indexed-name": "Noel M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Green",
+                        "ce:indexed-name": "Green M.F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Struct. Eng."
+                },
+                "ce:source-text": "Mirzazadeh, M.M., Noel, M., Green, M.F., 2017. Fatigue behavior of reinforced concrete beams with temperature differentials at room and low temperature. J. Struct. Eng. 143, 04017056."
+              },
+              {
+                "ref-fulltext": "Murdock, J.W., Kesler, C.E., Effect of range of stress on fatigue strength of plain concrete beams. J. Proc. 55 (1958), 221–231.",
+                "@id": "32",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1958"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of range of stress on fatigue strength of plain concrete beams"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib32",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0000866537",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "55"
+                    },
+                    "pagerange": {
+                      "@first": "221",
+                      "@last": "231"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Murdock",
+                        "ce:indexed-name": "Murdock J.W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.E.",
+                        "@_fa": "true",
+                        "ce:surname": "Kesler",
+                        "ce:indexed-name": "Kesler C.E."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Proc."
+                },
+                "ce:source-text": "Murdock, J.W., Kesler, C.E., 1958. Effect of range of stress on fatigue strength of plain concrete beams. Journal Proceedings. 55, 221-231."
+              },
+              {
+                "ref-fulltext": "Naaman, A.E., Founas, M., Partially prestressed beams under random-amplitude fatigue loading. J. Struct. Eng. 117 (1991), 3742–3761.",
+                "@id": "33",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1991"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Partially prestressed beams under random-amplitude fatigue loading"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib33",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0026370153",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "117"
+                    },
+                    "pagerange": {
+                      "@first": "3742",
+                      "@last": "3761"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.E.",
+                        "@_fa": "true",
+                        "ce:surname": "Naaman",
+                        "ce:indexed-name": "Naaman A.E."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Founas",
+                        "ce:indexed-name": "Founas M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Struct. Eng."
+                },
+                "ce:source-text": "Naaman, A.E., Founas, M., 1991. Partially Prestressed Beams under Random-Amplitude Fatigue Loading. J. Struct. Eng. 117, 3742-3761."
+              },
+              {
+                "ref-fulltext": "Oh, B.H., Fatigue analysis of plain concrete in flexure. J. Struct. Eng. 112 (1986), 273–288.",
+                "@id": "34",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1986"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Fatigue analysis of plain concrete in flexure"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib34",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0022661452",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "112"
+                    },
+                    "pagerange": {
+                      "@first": "273",
+                      "@last": "288"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Oh",
+                        "ce:indexed-name": "Oh B.H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Struct. Eng."
+                },
+                "ce:source-text": "Oh, B.H., 1986. Fatigue analysis of plain concrete in flexure. J. Struct. Eng. 112, 273-288."
+              },
+              {
+                "ref-fulltext": "Oller, S., Oñate, E., Oliver, J., Lubliner, J., Finite element nonlinear analysis of concrete structures using a “plastic-damage model”. Eng. Fract. Mech. 35 (1990), 219–231.",
+                "@id": "35",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1990"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Finite element nonlinear analysis of concrete structures using a “plastic-damage model”"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib35",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0043020102",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "35"
+                    },
+                    "pagerange": {
+                      "@first": "219",
+                      "@last": "231"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Oller",
+                        "ce:indexed-name": "Oller S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Oñate",
+                        "ce:indexed-name": "Onate E."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Oliver",
+                        "ce:indexed-name": "Oliver J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Lubliner",
+                        "ce:indexed-name": "Lubliner J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Eng. Fract. Mech."
+                },
+                "ce:source-text": "Oller, S., Onate, E., Oliver, J., Lubliner, J., 1990. Finite element nonlinear analysis of concrete structures using a “plastic-damage model”. Eng. Fract. Mech. 35, 219-231."
+              },
+              {
+                "ref-fulltext": "Ren, W., Sneed, L.H., Yang, Y., He, R., Numerical simulation of prestressed precast concrete bridge deck panels using damage plasticity model. Int J. Concr. Struct. M. 9 (2015), 45–54.",
+                "@id": "36",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Numerical simulation of prestressed precast concrete bridge deck panels using damage plasticity model"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib36",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84966925930",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "9"
+                    },
+                    "pagerange": {
+                      "@first": "45",
+                      "@last": "54"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Ren",
+                        "ce:indexed-name": "Ren W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Sneed",
+                        "ce:indexed-name": "Sneed L.H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "He",
+                        "ce:indexed-name": "He R."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Int J. Concr. Struct. M."
+                },
+                "ce:source-text": "Ren, W., Sneed, L.H., Yang, Y., He, R., 2015. Numerical simulation of prestressed precast concrete bridge deck panels using damage plasticity model. Int J. Concr. Struct. M. 9, 45-54."
+              },
+              {
+                "ref-fulltext": "Schaumann, P., Lochte-Holtgreven, S., Steppeler, S., Special fatigue aspects in support structures of offshore wind turbines. Mater. Werkst. 42 (2011), 1075–1081.",
+                "@id": "37",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Special fatigue aspects in support structures of offshore wind turbines"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib37",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84455183866",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "42"
+                    },
+                    "pagerange": {
+                      "@first": "1075",
+                      "@last": "1081"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Schaumann",
+                        "ce:indexed-name": "Schaumann P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Lochte-Holtgreven",
+                        "ce:indexed-name": "Lochte-Holtgreven S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Steppeler",
+                        "ce:indexed-name": "Steppeler S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Mater. Werkst."
+                },
+                "ce:source-text": "Schaumann, P., Lochte-Holtgreven, S., Steppeler, S., 2011. Special fatigue aspects in support structures of offshore wind turbines. Materwiss. Werksttech. 42, 1075-1081."
+              },
+              {
+                "ref-fulltext": "Shu, Y., Wu, J., Zhou, S., Wang, J., Wang, W., Pile damage identification method for high-pile wharfs based on axial static strain distribution. Measurement, 180, 2021, 109607.",
+                "@id": "38",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Pile damage identification method for high-pile wharfs based on axial static strain distribution"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib38",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "109607",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85106983166",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "180"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Shu",
+                        "ce:indexed-name": "Shu Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou S."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang J."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Measurement"
+                },
+                "ce:source-text": "Shu, Y., Wu, J., Zhou, S., Wang, J., Wang, W., 2021. Pile damage identification method for high-pile wharfs based on axial static strain distribution. Measurement. 180, 109607."
+              },
+              {
+                "ref-fulltext": "Song, L., Fan, Z., Hou, J., Experimental and analytical investigation of the fatigue flexural behavior of corroded reinforced concrete beams. Int. J. Concr. Struct. Mater., 13, 2019, 24.",
+                "@id": "39",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental and analytical investigation of the fatigue flexural behavior of corroded reinforced concrete beams"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib39",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85064347171",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "13"
+                    },
+                    "pagerange": {
+                      "@first": "24"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Song",
+                        "ce:indexed-name": "Song L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Fan",
+                        "ce:indexed-name": "Fan Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Hou",
+                        "ce:indexed-name": "Hou J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Int. J. Concr. Struct. Mater."
+                },
+                "ce:source-text": "Song, L., Fan, Z., Hou, J., 2019. Experimental and analytical investigation of the fatigue flexural behavior of corroded reinforced concrete beams. Int. J. Concr. Struct. Mater. 13, 24."
+              },
+              {
+                "ref-fulltext": "Sørensen, E.V., Fatigue life of high performance grout in dry and wet environment for wind turbine grouted connections. Nord. Concr. Res.(44), 2011, 1–10.",
+                "@id": "40",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Fatigue life of high performance grout in dry and wet environment for wind turbine grouted connections"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib40",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84973272682",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "44"
+                    },
+                    "pagerange": {
+                      "@first": "1",
+                      "@last": "10"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "E.V.",
+                        "@_fa": "true",
+                        "ce:surname": "Sørensen",
+                        "ce:indexed-name": "Sorensen E.V."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Nord. Concr. Res."
+                },
+                "ce:source-text": "Soerensen, E.V., 2011. Fatigue life of high performance grout in dry and wet environment for wind turbine grouted connections. Nordic Concrete Research. (44), 1-10."
+              },
+              {
+                "ref-fulltext": "Chinese Standard, JTS 144-1-2010, Load Code for Harbour Engineering.",
+                "@id": "41",
+                "ref-info": {
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib41",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85135396556",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Chinese Standard, JTS 144-1-2010, Load Code for Harbour Engineering."
+                },
+                "ce:source-text": "Chinese Standard, JTS 144-1-2010, Load Code for Harbour Engineering."
+              },
+              {
+                "ref-fulltext": "Chinese Standard, JTS 167-4-2012, Code for Pile Foundation in Port Engineering.",
+                "@id": "42",
+                "ref-info": {
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib42",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85135405292",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Chinese Standard, JTS 167-4-2012, Code for Pile Foundation in Port Engineering."
+                },
+                "ce:source-text": "Chinese Standard, JTS 167-4-2012, Code for Pile Foundation in Port Engineering."
+              },
+              {
+                "ref-fulltext": "Chinese Standard, JTS 167-6-2011, Port Engineering Technical Code of Design and Construction for Large Diameter Post Tensioned Prestress Concrete Cylinder Pile.",
+                "@id": "43",
+                "ref-info": {
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib43",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85135393129",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Chinese Standard, JTS 167-6-2011, Port Engineering Technical Code of Design and Construction for Large Diameter Post Tensioned Prestress Concrete Cylinder Pile."
+                },
+                "ce:source-text": "Chinese Standard, JTS 167-6-2011, Port Engineering Technical Code of Design and Construction for Large Diameter Post Tensioned Prestress Concrete Cylinder Pile."
+              },
+              {
+                "ref-fulltext": "Stümpel, M., Marx, S., Schaumann, P., Seidl, G., Göhlmann, J., An innovative hybrid substructure for offshore wind turbines. Proceedings of the Twenty-Seventh (2017) International Ocean and Polar Engineering Conference, 2017 San Francisco, USA.",
+                "@id": "44",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "An innovative hybrid substructure for offshore wind turbines"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib44",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85038895549",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "San Francisco, USA",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Stümpel",
+                        "ce:indexed-name": "Stumpel M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Marx",
+                        "ce:indexed-name": "Marx S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Schaumann",
+                        "ce:indexed-name": "Schaumann P."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Seidl",
+                        "ce:indexed-name": "Seidl G."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Göhlmann",
+                        "ce:indexed-name": "Gohlmann J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Proceedings of the Twenty-Seventh (2017) International Ocean and Polar Engineering Conference"
+                },
+                "ce:source-text": "Stumpel, M., Marx, S., Schaumann, P., Seidl, G., Gohlmann, J., 2017. An Innovative Hybrid Substructure for Offshore Wind Turbines. In: Proceedings of the Twenty-seventh (2017) International Ocean and Polar Engineering Conference. San Francisco, USA."
+              },
+              {
+                "ref-fulltext": "Sui, L., Zhong, Q., Yu, K., Xing, F., Li, P., Zhou, Y., Flexural fatigue properties of ultra-high performance engineered cementitious composites (UHP-ECC) reinforced by polymer fibers. Polymers, 10, 2018, 892.",
+                "@id": "45",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Flexural fatigue properties of ultra-high performance engineered cementitious composites (UHP-ECC) reinforced by polymer fibers"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib45",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85054024194",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "10"
+                    },
+                    "pagerange": {
+                      "@first": "892"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Sui",
+                        "ce:indexed-name": "Sui L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhong",
+                        "ce:indexed-name": "Zhong Q."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu K."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Xing",
+                        "ce:indexed-name": "Xing F."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li P."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Polymers"
+                },
+                "ce:source-text": "Sui, L., Zhong, Q., Yu, K., Xing, F., Li, P., Zhou, Y., 2018. Flexural Fatigue Properties of Ultra-High Performance Engineered Cementitious Composites (UHP-ECC) Reinforced by Polymer Fibers. Polymers 10, 892."
+              },
+              {
+                "ref-fulltext": "Tang, J., Yao, J.T.P., Fatigue damage factor in structural design. J. Struct. Div. 98 (1972), 125–134.",
+                "@id": "46",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1972"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Fatigue damage factor in structural design"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib46",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0015287729",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "98"
+                    },
+                    "pagerange": {
+                      "@first": "125",
+                      "@last": "134"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Tang",
+                        "ce:indexed-name": "Tang J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.T.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Yao",
+                        "ce:indexed-name": "Yao J.T.P."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Struct. Div."
+                },
+                "ce:source-text": "Tang, J., Yao, J.T.P., 1972. Fatigue damage factor in structural design. Journal of the Structural Division. 98, 125-134."
+              },
+              {
+                "ref-fulltext": "Tarifa, Manuel, Zhang, XiaoXin, Ruiz, Gonzalo, Poveda, Elisa, Full-scale fatigue tests of precast reinforced concrete slabs for railway tracks. Eng. Struct. 100 (2015), 610–621.",
+                "@id": "47",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Full-scale fatigue tests of precast reinforced concrete slabs for railway tracks"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib57",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84934767903",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "100"
+                    },
+                    "pagerange": {
+                      "@first": "610",
+                      "@last": "621"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "ce:given-name": "Manuel",
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Tarifa",
+                        "ce:indexed-name": "Tarifa M."
+                      },
+                      {
+                        "ce:given-name": "XiaoXin",
+                        "@seq": "2",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang X."
+                      },
+                      {
+                        "ce:given-name": "Gonzalo",
+                        "@seq": "3",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Ruiz",
+                        "ce:indexed-name": "Ruiz G."
+                      },
+                      {
+                        "ce:given-name": "Elisa",
+                        "@seq": "4",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Poveda",
+                        "ce:indexed-name": "Poveda E."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Eng. Struct."
+                },
+                "ce:source-text": "Tarifa, Manuel, Zhang, XiaoXin, Ruiz, Gonzalo, Poveda, Elisa, 2015. Full-scale fatigue tests of precast reinforced concrete slabs for railway tracks. Eng. Struct. 100, 610–621."
+              },
+              {
+                "ref-fulltext": "Vorpahl, F., Schwarze, H., Fischer, T., Seidel, M., Jonkman, J., Offshore Wind Turbine Environment, Loads, Simulation, and Design, vol. 2, 2013, Wiley Interdiscip. Rev. Energy Environ., 548–570.",
+                "@id": "48",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib47",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84882791062",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "2"
+                    },
+                    "pagerange": {
+                      "@first": "548",
+                      "@last": "570"
+                    }
+                  },
+                  "ref-text": "Wiley Interdiscip. Rev. Energy Environ.",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Vorpahl",
+                        "ce:indexed-name": "Vorpahl F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Schwarze",
+                        "ce:indexed-name": "Schwarze H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Fischer",
+                        "ce:indexed-name": "Fischer T."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Seidel",
+                        "ce:indexed-name": "Seidel M."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Jonkman",
+                        "ce:indexed-name": "Jonkman J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Offshore Wind Turbine Environment, Loads, Simulation, and Design"
+                },
+                "ce:source-text": "Vorpahl, F., Schwarze, H., Fischer, T., Seidel, M., Jonkman, J., 2013. Offshore wind turbine environment, loads, simulation, and design. Wiley Interdiscip. Rev. Energy Environ. 2, 548-570."
+              },
+              {
+                "ref-fulltext": "Walraven, J.C., Lappa, E.S., High Strength Fibre Reinforced Concrete: Static and Fatigue Behaviour in Bending. PhD Thesis, 2007, Delft University of Technology, Netherlands.",
+                "@id": "49",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "High Strength Fibre Reinforced Concrete: Static and Fatigue Behaviour in Bending"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib48",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "67649578139",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "PhD Thesis Delft University of Technology Netherlands",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Walraven",
+                        "ce:indexed-name": "Walraven J.C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "E.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Lappa",
+                        "ce:indexed-name": "Lappa E.S."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Walraven, J.C., Lappa, E.S., 2007. High strength fibre reinforced concrete: static and fatigue behaviour in bending, PhD Thesis. Delft University of Technology, Netherlands."
+              },
+              {
+                "ref-fulltext": "Wang, W., Wu, S., Dai, H., Fatigue behavior and life prediction of carbon fiber reinforced concrete under cyclic flexural loading. Mater. Sci. Eng. 434 (2006), 347–351.",
+                "@id": "50",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2006"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Fatigue behavior and life prediction of carbon fiber reinforced concrete under cyclic flexural loading"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib49",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "33748063001",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "434"
+                    },
+                    "pagerange": {
+                      "@first": "347",
+                      "@last": "351"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Dai",
+                        "ce:indexed-name": "Dai H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Mater. Sci. Eng."
+                },
+                "ce:source-text": "Wang, W., Wu, S., Dai, H., 2006. Fatigue behavior and life prediction of carbon fiber reinforced concrete under cyclic flexural loading. Materials Science and Engineering: A. 434, 347-351."
+              },
+              {
+                "ref-fulltext": "Wang, J.-P., Su, J.-B., Wu, F., Zhang, Z., Lv, Y., Lateral dynamic load tests of offshore piles based using the m-method. Ocean Eng., 220, 2021, 108413.",
+                "@id": "51",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Lateral dynamic load tests of offshore piles based using the m-method"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib50",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "108413",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85097474330",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "220"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.-P.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang J.-P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.-B.",
+                        "@_fa": "true",
+                        "ce:surname": "Su",
+                        "ce:indexed-name": "Su J.-B."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu F."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Z."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Lv",
+                        "ce:indexed-name": "Lv Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Ocean Eng."
+                },
+                "ce:source-text": "Wang, J.-P., Su, J.-B., Wu, F., Zhang, Z., Lv, Y., 2021. Lateral dynamic load tests of offshore piles based using the m-method. Ocean Eng. 220, 108413."
+              },
+              {
+                "ref-fulltext": "Wu, F., Wang, D.D., Shi, B.L., Gong, J.H., Research on durability and life prediction for raymond cylinder pile. China Civ. Eng. J. 49 (2016), 122–128.",
+                "@id": "52",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Research on durability and life prediction for raymond cylinder pile"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib51",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84961684978",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "49"
+                    },
+                    "pagerange": {
+                      "@first": "122",
+                      "@last": "128"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang D.D."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "B.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi B.L."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Gong",
+                        "ce:indexed-name": "Gong J.H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "China Civ. Eng. J."
+                },
+                "ce:source-text": "Wu, F., Wang, D.D., Shi, B.L., Gong, J.H., 2016. Research on durability and life prediction for raymond cylinder pile. Chin. Civil. Eng. J. 49, 122-128."
+              },
+              {
+                "ref-fulltext": "Xiao, J., Li, H., Yang, Z., Fatigue behavior of recycled aggregate concrete under compression and bending cyclic loadings. Construct. Build. Mater. 38 (2013), 681–688.",
+                "@id": "53",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Fatigue behavior of recycled aggregate concrete under compression and bending cyclic loadings"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib52",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84867596000",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "38"
+                    },
+                    "pagerange": {
+                      "@first": "681",
+                      "@last": "688"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Xiao",
+                        "ce:indexed-name": "Xiao J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang Z."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Construct. Build. Mater."
+                },
+                "ce:source-text": "Xiao, J., Li, H., Yang, Z., 2013. Fatigue behavior of recycled aggregate concrete under compression and bending cyclic loadings. Constr. Build. Mater. 38, 681-688."
+              },
+              {
+                "ref-fulltext": "Xiao, Y., Chen, Z., Zhou, J., Leng, Y., Xia, R., Concrete plastic-damage factor for finite element analysis: concept, simulation, and experiment. Adv. Mech. Eng., 9, 2017, 2071941052.",
+                "@id": "54",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Concrete plastic-damage factor for finite element analysis: concept, simulation, and experiment"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib53",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "2071941052",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85030261045",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "9"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Xiao",
+                        "ce:indexed-name": "Xiao Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Leng",
+                        "ce:indexed-name": "Leng Y."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Xia",
+                        "ce:indexed-name": "Xia R."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Adv. Mech. Eng."
+                },
+                "ce:source-text": "Xiao, Y., Chen, Z., Zhou, J., Leng, Y., Xia, R., 2017. Concrete plastic-damage factor for finite element analysis: Concept, simulation, and experiment. Adv. Mech. Eng. 9, 2071941052."
+              },
+              {
+                "ref-fulltext": "Yuan, H., Weijian, Y., Chao, H., Corroded reinforced concrete beams under low-speed and low-cycle fatigue loads. Construct. Build. Mater. 186 (2018), 644–651.",
+                "@id": "55",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Corroded reinforced concrete beams under low-speed and low-cycle fatigue loads"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib54",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85050452874",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "186"
+                    },
+                    "pagerange": {
+                      "@first": "644",
+                      "@last": "651"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Yuan",
+                        "ce:indexed-name": "Yuan H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Weijian",
+                        "ce:indexed-name": "Weijian Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Chao",
+                        "ce:indexed-name": "Chao H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Construct. Build. Mater."
+                },
+                "ce:source-text": "Yuan, H., Weijian, Y., Chao, H., 2018. Corroded reinforced concrete beams under low-speed and low-cycle fatigue loads. Constr. Build. Mater. 186, 644-651."
+              },
+              {
+                "ref-fulltext": "Zheng, X.H., Huang, P.Y., Chen, G.M., Tan, X.M., Fatigue behavior of FRP-concrete bond under hygrothermal environment. Construct. Build. Mater. 95 (2015), 898–909.",
+                "@id": "56",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Fatigue behavior of FRP-concrete bond under hygrothermal environment"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib55",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84938861595",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "95"
+                    },
+                    "pagerange": {
+                      "@first": "898",
+                      "@last": "909"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Zheng",
+                        "ce:indexed-name": "Zheng X.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "P.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang P.Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "G.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen G.M."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "X.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Tan",
+                        "ce:indexed-name": "Tan X.M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Construct. Build. Mater."
+                },
+                "ce:source-text": "Zheng, X.H., Huang, P.Y., Chen, G.M., Tan, X.M., 2015. Fatigue behavior of FRP-concrete bond under hygrothermal environment. Constr. Build. Mater. 95, 898-909."
+              },
+              {
+                "ref-fulltext": "Zhou, A., Post, N., Pingry, R., Cain, J., Lesko, J.J., Case, S.W., Durability of composites under fatigue loads. Karbhari, V.M., (eds.) Durability of Composites for Civil Structural Applications, 2007, Woodhead Publishing, 126–149.",
+                "@id": "57",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Durability of composites under fatigue loads"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib56",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84904032158",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "126",
+                      "@last": "149"
+                    }
+                  },
+                  "ref-text": "V.M. Karbhari Woodhead Publishing",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Post",
+                        "ce:indexed-name": "Post N."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Pingry",
+                        "ce:indexed-name": "Pingry R."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Cain",
+                        "ce:indexed-name": "Cain J."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "J.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Lesko",
+                        "ce:indexed-name": "Lesko J.J."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "S.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Case",
+                        "ce:indexed-name": "Case S.W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Durability of Composites for Civil Structural Applications"
+                },
+                "ce:source-text": "Zhou, A., Post, N., Pingry, R., Cain, J., Lesko, J.J., Case, S.W., 2007. Durability of composites under fatigue loads, in: Karbhari, V.M. (Ed.), Durability of Composites for Civil Structural Applications. Woodhead Publishing, pp. 126-149."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "affiliation": [
+      {
+        "affiliation-city": "Nanjing",
+        "@id": "60010851",
+        "affilname": "Hohai University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60010851",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Shanghai",
+        "@id": "126223402",
+        "affilname": "Ltd.",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/126223402",
+        "affiliation-country": "China"
+      }
+    ],
+    "coredata": {
+      "srctype": "j",
+      "eid": "2-s2.0-85135385142",
+      "dc:description": "Post-tensioned prestressed concrete pipe piles (large cylinder piles) have been widely used in port and bridge engineering because they are economical and deliver excellent performance, and thus, have potential for use in offshore engineering. However, limited research has been devoted to the bending fatigue of large cylinder piles, which is essential for offshore engineering design. This study evaluated the bending fatigue of large cylinder piles by performing a series of full-scale bending fatigue tests on three specimens (L = 12 m, D = 1.2 m) and numerically analyzing the static cracking patterns in them. The static performance of large cylinder piles, including the bending moment of static cracking (Mcr) and its patterns, was analyzed by using a validated finite element model. Three-point bending fatigue tests with cyclic loading under a constant amplitude (stress ratio R = 0.4, peak fatigue load = 37.72%–80.00% Mcr) were then conducted to examine the development of mid-span displacement and stiffness degradation in the specimens. A critical damage factor (Dcr), which uses the cracking of concrete as the indicator of termination of the test, and a modified approach to prediction were then proposed and applied, based on findings of the fatigue test and past literature, to predict the number of cycles that it took for the large cylinder piles to crack. Finally, bi-linear S–N curves were plotted by considering the effective prestress according to the experimental and estimated data. The results here provide a theoretical basis for the fatigue-based design and application of large cylinder piles.",
+      "prism:coverDate": "2022-09-15",
+      "prism:aggregationType": "Journal",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85135385142",
+      "subtypeDescription": "Article",
+      "dc:creator": {
+        "author": [
+          {
+            "ce:given-name": "Rui",
+            "preferred-name": {
+              "ce:given-name": "Rui",
+              "ce:initials": "R.",
+              "ce:surname": "Liu",
+              "ce:indexed-name": "Liu R."
+            },
+            "@seq": "1",
+            "ce:initials": "R.",
+            "@_fa": "true",
+            "affiliation": {
+              "@id": "60010851",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60010851"
+            },
+            "ce:surname": "Liu",
+            "@auid": "57830109600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57830109600",
+            "ce:indexed-name": "Liu R."
+          }
+        ]
+      },
+      "link": [
+        {
+          "@_fa": "true",
+          "@rel": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85135385142"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85135385142&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85135385142&origin=inward"
+        }
+      ],
+      "prism:publicationName": "Ocean Engineering",
+      "source-id": "28339",
+      "pii": "S0029801822013567",
+      "citedby-count": "5",
+      "prism:volume": "260",
+      "subtype": "ar",
+      "dc:title": "Full-scale experimental research on the bending fatigue performance of post-tensioned prestressed concrete pipe piles",
+      "openaccess": "0",
+      "openaccessFlag": "false",
+      "prism:doi": "10.1016/j.oceaneng.2022.112025",
+      "prism:issn": "00298018",
+      "publishercopyright": "© 2022 Elsevier Ltd",
+      "article-number": "112025",
+      "dc:identifier": "SCOPUS_ID:85135385142",
+      "dc:publisher": "Elsevier Ltd"
+    },
+    "idxterms": {
+      "mainterm": [
+        {
+          "$": "Bending fatigue",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Bending fatigue tests",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Bending fatigue-related performance",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Bi-linear S–N curve",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Full-scale bending fatigue test",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Offshore engineering",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Performance",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Post tensioned",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Post-tensioned prestressed concrete pipe pile",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Prestressed concrete pipe pile",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "S-N curve",
+          "@weight": "b",
+          "@candidate": "n"
+        }
+      ]
+    },
+    "language": {
+      "@xml:lang": "eng"
+    },
+    "authkeywords": {
+      "author-keyword": [
+        {
+          "@_fa": "true",
+          "$": "Bending fatigue-related performance"
+        },
+        {
+          "@_fa": "true",
+          "$": "Bi-linear S–N curves"
+        },
+        {
+          "@_fa": "true",
+          "$": "Full-scale bending fatigue tests"
+        },
+        {
+          "@_fa": "true",
+          "$": "Offshore engineering"
+        },
+        {
+          "@_fa": "true",
+          "$": "Post-tensioned prestressed concrete pipe piles"
+        }
+      ]
+    },
+    "subject-areas": {
+      "subject-area": [
+        {
+          "@_fa": "true",
+          "$": "Environmental Engineering",
+          "@code": "2305",
+          "@abbrev": "ENVI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Ocean Engineering",
+          "@code": "2212",
+          "@abbrev": "ENGI"
+        }
+      ]
+    },
+    "authors": {
+      "author": [
+        {
+          "ce:given-name": "Rui",
+          "preferred-name": {
+            "ce:given-name": "Rui",
+            "ce:initials": "R.",
+            "ce:surname": "Liu",
+            "ce:indexed-name": "Liu R."
+          },
+          "@seq": "1",
+          "ce:initials": "R.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60010851",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60010851"
+          },
+          "ce:surname": "Liu",
+          "@auid": "57830109600",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57830109600",
+          "ce:indexed-name": "Liu R."
+        },
+        {
+          "ce:given-name": "Jing-Bo",
+          "preferred-name": {
+            "ce:given-name": "Jing Bo",
+            "ce:initials": "J.B.",
+            "ce:surname": "Su",
+            "ce:indexed-name": "Su J.B."
+          },
+          "@seq": "2",
+          "ce:initials": "J.-B.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60010851",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60010851"
+          },
+          "ce:surname": "Su",
+          "@auid": "8370279200",
+          "author-url": "https://api.elsevier.com/content/author/author_id/8370279200",
+          "ce:indexed-name": "Su J.-B."
+        },
+        {
+          "ce:given-name": "Feng",
+          "preferred-name": {
+            "ce:given-name": "Feng",
+            "ce:initials": "F.",
+            "ce:surname": "Wu",
+            "ce:indexed-name": "Wu F."
+          },
+          "@seq": "3",
+          "ce:initials": "F.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "126223402",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/126223402"
+          },
+          "ce:surname": "Wu",
+          "@auid": "35112120200",
+          "author-url": "https://api.elsevier.com/content/author/author_id/35112120200",
+          "ce:indexed-name": "Wu F."
+        },
+        {
+          "ce:given-name": "Yaru",
+          "preferred-name": {
+            "ce:given-name": "Yaru",
+            "ce:initials": "Y.",
+            "ce:surname": "Lv",
+            "ce:indexed-name": "Lv Y."
+          },
+          "@seq": "4",
+          "ce:initials": "Y.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60010851",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60010851"
+          },
+          "ce:surname": "Lv",
+          "@auid": "50361498200",
+          "author-url": "https://api.elsevier.com/content/author/author_id/50361498200",
+          "ce:indexed-name": "Lv Y."
+        },
+        {
+          "ce:given-name": "Yunchuan",
+          "preferred-name": {
+            "ce:given-name": "Yunchuan",
+            "ce:initials": "Y.",
+            "ce:surname": "Guo",
+            "ce:indexed-name": "Guo Y."
+          },
+          "@seq": "5",
+          "ce:initials": "Y.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "126223402",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/126223402"
+          },
+          "ce:surname": "Guo",
+          "@auid": "57830574500",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57830574500",
+          "ce:indexed-name": "Guo Y."
+        },
+        {
+          "ce:given-name": "Jinhu",
+          "preferred-name": {
+            "ce:given-name": "Jinhu",
+            "ce:initials": "J.",
+            "ce:surname": "Bao",
+            "ce:indexed-name": "Bao J."
+          },
+          "@seq": "6",
+          "ce:initials": "J.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60010851",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60010851"
+          },
+          "ce:surname": "Bao",
+          "@auid": "57830202000",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57830202000",
+          "ce:indexed-name": "Bao J."
+        },
+        {
+          "ce:given-name": "Zhihong",
+          "preferred-name": {
+            "ce:given-name": "Zhihong",
+            "ce:initials": "Z.",
+            "ce:surname": "Ge",
+            "ce:indexed-name": "Ge Z."
+          },
+          "@seq": "7",
+          "ce:initials": "Z.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60010851",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60010851"
+          },
+          "ce:surname": "Ge",
+          "@auid": "57830574600",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57830574600",
+          "ce:indexed-name": "Ge Z."
+        }
+      ]
+    }
+  }
+}

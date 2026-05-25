@@ -1,0 +1,3291 @@
+{
+  "abstracts-retrieval-response": {
+    "item": {
+      "ait:process-info": {
+        "ait:status": {
+          "@state": "update",
+          "@type": "core",
+          "@stage": "S300"
+        },
+        "ait:date-delivered": {
+          "@day": "10",
+          "@year": "2024",
+          "@timestamp": "2024-05-10T16:45:56.000056-04:00",
+          "@month": "05"
+        },
+        "ait:date-sort": {
+          "@day": "03",
+          "@year": "2023",
+          "@month": "11"
+        }
+      },
+      "xocs:meta": {
+        "xocs:funding-list": {
+          "@pui-match": "primary",
+          "@has-funding-info": "1",
+          "xocs:funding": [
+            {
+              "xocs:funding-agency-matched-string": "National Natural Science Foundation of China",
+              "xocs:funding-agency-acronym": "NSFC",
+              "xocs:funding-agency": "National Natural Science Foundation of China",
+              "xocs:funding-id": [
+                {
+                  "$": "12072080"
+                },
+                {
+                  "$": "52108144"
+                },
+                {
+                  "$": "52108146"
+                }
+              ],
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "National Natural Science Foundation of China",
+              "xocs:funding-agency-acronym": "NSFC",
+              "xocs:funding-agency": "National Natural Science Foundation of China",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "China Postdoctoral Science Foundation",
+              "xocs:funding-agency": "China Postdoctoral Science Foundation",
+              "xocs:funding-id": "2021M701435",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100002858",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "China Postdoctoral Science Foundation",
+              "xocs:funding-agency": "China Postdoctoral Science Foundation",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100002858",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Guangdong Basic and Applied Basic Research Foundation of China",
+              "xocs:funding-agency": "Basic and Applied Basic Research Foundation of Guangdong Province",
+              "xocs:funding-id": "2020A1515111049",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100021171",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Guangdong Basic and Applied Basic Research Foundation of China",
+              "xocs:funding-agency": "Basic and Applied Basic Research Foundation of Guangdong Province",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100021171",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            }
+          ],
+          "xocs:funding-addon-generated-timestamp": "2023-09-24T07:21:59.733Z",
+          "xocs:funding-text": "The financial supports from the National Natural Science Foundation of China (Grant No. 52108144 , 52108146 , 12072080 ); the Guangdong Basic and Applied Basic Research Foundation of China (Grant No. 2020A1515111049 ) and the China Postdoctoral Science Foundation (Grant No. 2021M701435 ) are gratefully appreciated.",
+          "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }
+      },
+      "bibrecord": {
+        "head": {
+          "author-group": [
+            {
+              "affiliation": {
+                "country": "China",
+                "address-part": "100 Waihuan West Road",
+                "postal-code": "510006",
+                "@afid": "60007155",
+                "@country": "chn",
+                "city": "Guangzhou",
+                "organization": [
+                  {
+                    "$": "School of Civil and Transportation Engineering"
+                  },
+                  {
+                    "$": "Guangdong University of Technology"
+                  },
+                  {
+                    "$": "University Mega Center"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60007155",
+                  "@dptid": "107276381"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-950864106-895f6a51479fc4c75f8b7e3386d86ba4-1",
+                "ce:source-text": "School of Civil and Transportation Engineering, Guangdong University of Technology, 100 Waihuan West Road, University Mega Center, Guangzhou 510006, PR China",
+                "@dptid": "107276381"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Jingran",
+                  "preferred-name": {
+                    "ce:given-name": "Jingran",
+                    "ce:initials": "J.",
+                    "ce:surname": "He",
+                    "ce:indexed-name": "He J."
+                  },
+                  "@seq": "1",
+                  "@author-instance-id": "OB2BibRecID-950864106-701c7f933a93d18b99994154beca50ab-1",
+                  "ce:initials": "J.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "He",
+                  "@auid": "57190252582",
+                  "@orcid": "0000-0002-4070-5510",
+                  "ce:indexed-name": "He J."
+                },
+                {
+                  "ce:given-name": "Feng",
+                  "preferred-name": {
+                    "ce:given-name": "Feng",
+                    "ce:initials": "F.",
+                    "ce:surname": "Liu",
+                    "ce:indexed-name": "Liu F."
+                  },
+                  "@seq": "4",
+                  "@author-instance-id": "OB2BibRecID-950864106-10f5be07b69c2bb01cb24d3de7b21832-1",
+                  "ce:initials": "F.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Liu",
+                  "@auid": "57188767097",
+                  "ce:indexed-name": "Liu F."
+                },
+                {
+                  "ce:given-name": "Lijuan",
+                  "preferred-name": {
+                    "ce:given-name": "Lijuan",
+                    "ce:initials": "L.",
+                    "ce:surname": "Li",
+                    "ce:indexed-name": "Li L."
+                  },
+                  "@seq": "5",
+                  "@author-instance-id": "OB2BibRecID-950864106-2056717eb1b337cf5ae2b57ab6348f0c-1",
+                  "ce:initials": "L.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Li",
+                  "@auid": "36065125900",
+                  "ce:indexed-name": "Li L."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "address-part": "601 West Huangpu Avenue",
+                "postal-code": "510632",
+                "@afid": "60017456",
+                "@country": "chn",
+                "city": "Guangzhou",
+                "organization": [
+                  {
+                    "$": "School of Mechanics and Construction Engineering"
+                  },
+                  {
+                    "$": "Jinan University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60017456",
+                  "@dptid": "119039787"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-950864106-0b9f313be888208ccf235710c5fd2b46-1",
+                "ce:source-text": "School of Mechanics and Construction Engineering, Jinan University, 601 West Huangpu Avenue, Guangzhou 510632, PR China",
+                "@dptid": "119039787"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Junjie",
+                  "preferred-name": {
+                    "ce:given-name": "Junjie",
+                    "ce:initials": "J.",
+                    "ce:surname": "Hong",
+                    "ce:indexed-name": "Hong J."
+                  },
+                  "@seq": "2",
+                  "@author-instance-id": "OB2BibRecID-950864106-94d22cd018fb52b9760a50429df16134-1",
+                  "ce:initials": "J.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Hong",
+                  "@auid": "57779849000",
+                  "ce:indexed-name": "Hong J."
+                },
+                {
+                  "ce:given-name": "Ruofan",
+                  "preferred-name": {
+                    "ce:given-name": "Ruofan",
+                    "ce:initials": "R.",
+                    "ce:surname": "Gao",
+                    "ce:indexed-name": "Gao R."
+                  },
+                  "@seq": "3",
+                  "@author-instance-id": "OB2BibRecID-950864106-8e25ee278dcb83e84ad0a2df984398f4-1",
+                  "ce:initials": "R.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Gao",
+                  "@auid": "57207140838",
+                  "ce:indexed-name": "Gao R."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "510632",
+                "@afid": "60001604",
+                "@country": "chn",
+                "city": "Guangzhou",
+                "organization": [
+                  {
+                    "$": "The Key Laboratory of Disaster Forecast and Control in Engineering"
+                  },
+                  {
+                    "$": "Ministry of Education of China"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60001604",
+                  "@dptid": "105744119"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-950864106-64e3867afef84b6eea3ed7c385226a64-1",
+                "ce:source-text": "The Key Laboratory of Disaster Forecast and Control in Engineering, Ministry of Education of China, Guangzhou 510632, PR China",
+                "@dptid": "105744119"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Ruofan",
+                  "preferred-name": {
+                    "ce:given-name": "Ruofan",
+                    "ce:initials": "R.",
+                    "ce:surname": "Gao",
+                    "ce:indexed-name": "Gao R."
+                  },
+                  "@seq": "3",
+                  "@author-instance-id": "OB2BibRecID-950864106-8e25ee278dcb83e84ad0a2df984398f4-1",
+                  "ce:initials": "R.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Gao",
+                  "@auid": "57207140838",
+                  "ce:indexed-name": "Gao R."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "address-part": "207 National Highway, Guangdong",
+                "postal-code": "524100",
+                "@afid": "130216507",
+                "@country": "chn",
+                "city": "Xuwen",
+                "organization": [
+                  {
+                    "$": "Doctor Workstation of Xuwen County Guangdong Hydropower Energy Co."
+                  },
+                  {
+                    "$": "Ltd."
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "130216507"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-950864106-c4306c02fcfc9e89198dbe115c4eaa09-1",
+                "ce:source-text": "Doctor Workstation of Xuwen County Guangdong Hydropower Energy Co., Ltd., 207 National Highway, Xuwen, Guangdong 524100, PR China"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Ruofan",
+                  "preferred-name": {
+                    "ce:given-name": "Ruofan",
+                    "ce:initials": "R.",
+                    "ce:surname": "Gao",
+                    "ce:indexed-name": "Gao R."
+                  },
+                  "@seq": "3",
+                  "@author-instance-id": "OB2BibRecID-950864106-8e25ee278dcb83e84ad0a2df984398f4-1",
+                  "ce:initials": "R.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Gao",
+                  "@auid": "57207140838",
+                  "ce:indexed-name": "Gao R."
+                }
+              ]
+            }
+          ],
+          "citation-title": "Experimental study on permeability of spun high strength concrete material during mechanical loading",
+          "abstracts": "© 2023 Elsevier LtdThe pretensioned spun high strength concrete pipe pile (PHC pipe pile) is widely applied in important infrastructures of off-shore zones due to its low permeability and high capacity. During the construction process and the whole service period of PHC pipe piles, the damage is inevitably caused by many reasons, which may eventually cause the early durability failure of piles. Many researches have been conducted to study the change in permeability of normal concrete due to mechanical damage. However, the relation between permeability and damage of spun high strength concrete (SHSC) is still not been studied. To quantitively investigate the change of permeability of SHSC, a series of specimens of PHC pipe piles were tested for the change of permeability during mechanical loading process in this study. As a result, the relation of stress and permeability of spun high strength concrete as well as the crack roughness of the SHSC is obtained for efficient application in engineering. Before the 40% stress ratio, the permeability of the SHSC is slightly decreased as the compressive stress increases. The mean value and standard deviation of the intrinsic permeability of the SHSC are increased as the compressive stress loading reaches the peak stress. The order of magnitude of the crack roughness ξ can be taken as 10- 4 for engineering application. Compared with the vibrate-casted concrete, the crack roughness ξ is smaller, indicating that the crack surface of SHSC is rougher than the vibrate-casted concrete.",
+          "correspondence": {
+            "affiliation": {
+              "country": "China",
+              "address-part": "601 West Huangpu Avenue",
+              "postal-code": "510632",
+              "@country": "chn",
+              "city": "Guangzhou",
+              "organization": [
+                {
+                  "$": "School of Mechanics and Construction Engineering"
+                },
+                {
+                  "$": "Jinan University"
+                }
+              ],
+              "@affiliation-instance-id": "OB2BibRecID-950864106-81602e7f829b3e9b6bfbcc9e51c907e1-1"
+            },
+            "person": {
+              "ce:given-name": "Ruofan",
+              "@author-instance-id": "OB2BibRecID-950864106-c8168b90697824aa1cfd5b757e02ab9e-1",
+              "ce:initials": "R.",
+              "ce:surname": "Gao",
+              "ce:indexed-name": "Gao R."
+            }
+          },
+          "citation-info": {
+            "author-keywords": {
+              "author-keyword": [
+                {
+                  "$": "Coupling of permeability and stress",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Permeability",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Poiseuille's law",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Spun high strength concrete",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                }
+              ]
+            },
+            "citation-type": {
+              "@code": "ar"
+            },
+            "citation-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "abstract-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            }
+          },
+          "source": {
+            "website": {
+              "ce:e-address": {
+                "$": "https://www.journals.elsevier.com/construction-and-building-materials",
+                "@type": "email"
+              }
+            },
+            "translated-sourcetitle": {
+              "$": "Construction and Building Materials",
+              "@xml:lang": "eng"
+            },
+            "volisspag": {
+              "voliss": {
+                "@volume": "403"
+              }
+            },
+            "@type": "j",
+            "sourcetitle": "Construction and Building Materials",
+            "publicationdate": {
+              "month": "11",
+              "year": "2023",
+              "date-text": {
+                "@xfab-added": "true",
+                "$": "3 November 2023"
+              },
+              "day": "03"
+            },
+            "codencode": "CBUME",
+            "sourcetitle-abbrev": "Constr Build Mater",
+            "@country": "gbr",
+            "issn": {
+              "$": "09500618",
+              "@type": "print"
+            },
+            "publicationyear": {
+              "@first": "2023"
+            },
+            "publisher": {
+              "publishername": "Elsevier Ltd"
+            },
+            "article-number": "133034",
+            "@srcid": "24443"
+          },
+          "enhancement": {
+            "classificationgroup": {
+              "classifications": [
+                {
+                  "@type": "CPXCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "408.2",
+                      "classification-description": "Structural Members and Shapes"
+                    },
+                    {
+                      "classification-code": "412",
+                      "classification-description": "Concrete"
+                    },
+                    {
+                      "classification-code": "951",
+                      "classification-description": "Materials Science"
+                    }
+                  ]
+                },
+                {
+                  "@type": "FLXCLASS",
+                  "classification": {
+                    "classification-code": "902",
+                    "classification-description": "FLUIDEX; Related Topics"
+                  }
+                },
+                {
+                  "@type": "ASJC",
+                  "classification": [
+                    {
+                      "$": "2205"
+                    },
+                    {
+                      "$": "2215"
+                    },
+                    {
+                      "$": "2500"
+                    }
+                  ]
+                },
+                {
+                  "@type": "SUBJABBR",
+                  "classification": [
+                    {
+                      "$": "ENGI"
+                    },
+                    {
+                      "$": "MATE"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "grantlist": {
+            "@complete": "y",
+            "grant-text": {
+              "$": "The financial supports from the National Natural Science Foundation of China (Grant No. 52108144, 52108146, 12072080); the Guangdong Basic and Applied Basic Research Foundation of China (Grant No. 2020A1515111049) and the China Postdoctoral Science Foundation (Grant No. 2021M701435) are gratefully appreciated.",
+              "@xml:lang": "eng"
+            },
+            "grant": [
+              {
+                "grant-id": "12072080",
+                "grant-agency": {
+                  "@iso-code": "usa",
+                  "$": "Booz Allen Foundation"
+                },
+                "grant-agency-id": "100016163"
+              },
+              {
+                "grant-id": "2020A1515111049",
+                "grant-agency": {
+                  "@iso-code": "usa",
+                  "$": "Booz Allen Foundation"
+                },
+                "grant-agency-id": "100016163"
+              },
+              {
+                "grant-id": "2021M701435",
+                "grant-agency": {
+                  "@iso-code": "usa",
+                  "$": "Booz Allen Foundation"
+                },
+                "grant-agency-id": "100016163"
+              },
+              {
+                "grant-id": "52108144",
+                "grant-agency": {
+                  "@iso-code": "usa",
+                  "$": "Booz Allen Foundation"
+                },
+                "grant-agency-id": "100016163"
+              },
+              {
+                "grant-id": "52108146",
+                "grant-agency": {
+                  "@iso-code": "usa",
+                  "$": "Booz Allen Foundation"
+                },
+                "grant-agency-id": "100016163"
+              }
+            ]
+          }
+        },
+        "item-info": {
+          "copyright": {
+            "$": "Copyright 2023 Elsevier B.V., All rights reserved.",
+            "@type": "Elsevier"
+          },
+          "dbcollection": [
+            {
+              "$": "CPX"
+            },
+            {
+              "$": "REAXYSCAR"
+            },
+            {
+              "$": "SCOPUS"
+            },
+            {
+              "$": "Scopusbase"
+            }
+          ],
+          "history": {
+            "date-created": {
+              "@day": "23",
+              "@year": "2023",
+              "@timestamp": "BST 09:04:59",
+              "@month": "09"
+            }
+          },
+          "itemidlist": {
+            "itemid": [
+              {
+                "$": "2026668627",
+                "@idtype": "PUI"
+              },
+              {
+                "$": "950864106",
+                "@idtype": "CAR-ID"
+              },
+              {
+                "$": "20233814768196",
+                "@idtype": "CPX"
+              },
+              {
+                "$": "20232848807",
+                "@idtype": "REAXYSCAR"
+              },
+              {
+                "$": "20233555180",
+                "@idtype": "SCOPUS"
+              },
+              {
+                "$": "85171619290",
+                "@idtype": "SCP"
+              },
+              {
+                "$": "85171619290",
+                "@idtype": "SGR"
+              }
+            ],
+            "ce:pii": "S0950061823027514",
+            "ce:ern": "pii:S0950061823027514",
+            "ce:doi": "10.1016/j.conbuildmat.2023.133034"
+          }
+        },
+        "tail": {
+          "bibliography": {
+            "@refcount": "36",
+            "reference": [
+              {
+                "ref-fulltext": "Li, L., Gong, W., Li, J., Service life of prestressed high-strength concrete pile in marine environment considering effects of concrete stratification and temperature. Construction and Building Materials, 253, 2020, 119233.",
+                "@reference-instance-id": "OB2BibRecID-950864106-64e066a0d1e4c243eb615c485afa2438-1",
+                "@id": "1",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Service life of prestressed high-strength concrete pile in marine environment considering effects of concrete stratification and temperature"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0005",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "119233",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85083570205",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "253"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Gong",
+                        "ce:indexed-name": "Gong W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Construction and Building Materials"
+                },
+                "ce:source-text": "L. Li, W. Gong, J. Li, Service life of prestressed high-strength concrete pile in marine environment considering effects of concrete stratification and temperature, CONSTR BUILD MATER, 253 (2020) 119233."
+              },
+              {
+                "ref-fulltext": "Li, L., Yang, C., Li, J., Corrosion initiation life of laterally loaded PHC pipe piles served in marine environment: theoretical prediction and analysis. Constr. Build. Mater., 293, 2021, 123457.",
+                "@reference-instance-id": "OB2BibRecID-950864106-a1635a91b8d3c6ddd109617559322653-2",
+                "@id": "2",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Corrosion initiation life of laterally loaded PHC pipe piles served in marine environment: theoretical prediction and analysis"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0010",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "123457",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85105504057",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "293"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "L. Li, C. Yang, J. Li, Corrosion initiation life of laterally loaded PHC pipe piles served in marine environment: Theoretical prediction and analysis, CONSTR BUILD MATER, 293 (2021) 123457."
+              },
+              {
+                "ref-fulltext": "He, J., Tang, M., Gao, R., Hu, H., Hong, J., Damage – permeability analysis of pretensioned spun high strength concrete pipe piles based on stochastic damage model. Eng. Fail. Anal., 140, 2022, 106578.",
+                "@reference-instance-id": "OB2BibRecID-950864106-48cc40af32360eba3c0c4d8f8d020920-3",
+                "@id": "3",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Damage – permeability analysis of pretensioned spun high strength concrete pipe piles based on stochastic damage model"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0015",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "106578",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85133349329",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "140"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "He",
+                        "ce:indexed-name": "He J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Tang",
+                        "ce:indexed-name": "Tang M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Gao",
+                        "ce:indexed-name": "Gao R."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Hu",
+                        "ce:indexed-name": "Hu H."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Hong",
+                        "ce:indexed-name": "Hong J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Eng. Fail. Anal."
+                },
+                "ce:source-text": "J. He, M. Tang, R. Gao, H. Hu, J. Hong, Damage – Permeability analysis of pretensioned spun high strength concrete pipe piles based on stochastic damage model, ENG FAIL ANAL, 140 (2022) 106578."
+              },
+              {
+                "ref-fulltext": "Pijaudier-Cabot, G., Dufour, F., Choinska, M., permeability due to the increase of damage in concrete: from diffuse to localized damage distributions. J. Eng. Mech. 135 (2009), 1022–1028.",
+                "@reference-instance-id": "OB2BibRecID-950864106-b066699149f976be285cdd5d1b66659f-4",
+                "@id": "4",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "permeability due to the increase of damage in concrete: from diffuse to localized damage distributions"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0020",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "69249142931",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "135"
+                    },
+                    "pagerange": {
+                      "@first": "1022",
+                      "@last": "1028"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Pijaudier-Cabot",
+                        "ce:indexed-name": "Pijaudier-Cabot G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Dufour",
+                        "ce:indexed-name": "Dufour F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Choinska",
+                        "ce:indexed-name": "Choinska M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Eng. Mech."
+                },
+                "ce:source-text": "G. Pijaudier-Cabot, F. Dufour, M. Choinska, Permeability due to the Increase of Damage in Concrete: From Diffuse to Localized Damage Distributions, J ENG MECH, 135 (2009) 1022-1028."
+              },
+              {
+                "ref-fulltext": "Li, X., Li, D., Xu, Y., Modeling the effects of microcracks on water permeability of concrete using 3D discrete crack network. Compos. Struct. 210 (2019), 262–273.",
+                "@reference-instance-id": "OB2BibRecID-950864106-ed64993575275f7f0acd691cae373c0c-5",
+                "@id": "5",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Modeling the effects of microcracks on water permeability of concrete using 3D discrete crack network"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0025",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85057127730",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "210"
+                    },
+                    "pagerange": {
+                      "@first": "262",
+                      "@last": "273"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li D."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Compos. Struct."
+                },
+                "ce:source-text": "X. Li, D. Li, Y. Xu, Modeling the effects of microcracks on water permeability of concrete using 3D discrete crack network, COMPOS STRUCT, 210 (2019) 262-273."
+              },
+              {
+                "ref-fulltext": "Samaha, H.R., Hover, K.C., Influence of microcracking on the mass transport properties of concrete. ACI Mater. J., 89, 1992.",
+                "@reference-instance-id": "OB2BibRecID-950864106-933deea45cd4db0aea775defe6b72fc8-6",
+                "@id": "6",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1992"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Influence of microcracking on the mass transport properties of concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0030",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0026888068",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "89"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Samaha",
+                        "ce:indexed-name": "Samaha H.R."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Hover",
+                        "ce:indexed-name": "Hover K.C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "ACI Mater. J."
+                },
+                "ce:source-text": "H.R. Samaha, K.C. Hover, Influence of microcracking on the mass transport properties of concrete, ACI MATER J, 89 (1992)."
+              },
+              {
+                "ref-fulltext": "Lim, C.C., Gowripalan, N., Sirivivatnanon, V., Microcracking and chloride permeability of concrete under uniaxial compression. Cem. Concr. Compos. 22 (2000), 353–360.",
+                "@reference-instance-id": "OB2BibRecID-950864106-c46fcb92ced749894d0933b772f52538-7",
+                "@id": "7",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2000"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Microcracking and chloride permeability of concrete under uniaxial compression"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0035",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0034299774",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "22"
+                    },
+                    "pagerange": {
+                      "@first": "353",
+                      "@last": "360"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Lim",
+                        "ce:indexed-name": "Lim C.C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Gowripalan",
+                        "ce:indexed-name": "Gowripalan N."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "V.",
+                        "@_fa": "true",
+                        "ce:surname": "Sirivivatnanon",
+                        "ce:indexed-name": "Sirivivatnanon V."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Compos."
+                },
+                "ce:source-text": "C.C. Lim, N. Gowripalan, V. Sirivivatnanon, Microcracking and chloride permeability of concrete under uniaxial compression, Cement and Concrete Composites, 22 (2000) 353-360."
+              },
+              {
+                "ref-fulltext": "Sugiyama, T., Bremner, T.W., Tsuji, Y., Determination of chloride diffusion coefficient and gas permeability of concrete and their relationship. Cement Concrete Res 26 (1996), 781–790.",
+                "@reference-instance-id": "OB2BibRecID-950864106-c04bc0202f6b78d2b0a61fb7dbf85156-8",
+                "@id": "8",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1996"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Determination of chloride diffusion coefficient and gas permeability of concrete and their relationship"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0040",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0030142267",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "26"
+                    },
+                    "pagerange": {
+                      "@first": "781",
+                      "@last": "790"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Sugiyama",
+                        "ce:indexed-name": "Sugiyama T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Bremner",
+                        "ce:indexed-name": "Bremner T.W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Tsuji",
+                        "ce:indexed-name": "Tsuji Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cement Concrete Res"
+                },
+                "ce:source-text": "T. Sugiyama, T.W. Bremner, Y. Tsuji, Determination of chloride diffusion coefficient and gas permeability of concrete and their relationship, CEMENT CONCRETE RES, 26 (1996) 781-790."
+              },
+              {
+                "ref-fulltext": "Basheer, L., Kropp, J., Cleland, D.J., Assessment of the durability of concrete from its permeation properties: a review. Constr. Build. Mater. 15:2-3 (2001), 93–103.",
+                "@reference-instance-id": "OB2BibRecID-950864106-f3116d5bd26bff308d45d755eefebd6e-9",
+                "@id": "9",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2001"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Assessment of the durability of concrete from its permeation properties: a review"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0045",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0035283354",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "15",
+                      "@issue": "2-3"
+                    },
+                    "pagerange": {
+                      "@first": "93",
+                      "@last": "103"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Basheer",
+                        "ce:indexed-name": "Basheer L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Kropp",
+                        "ce:indexed-name": "Kropp J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Cleland",
+                        "ce:indexed-name": "Cleland D.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "L. Basheer, J. Kropp, D.J. Cleland, Assessment of the durability of concrete from its permeation properties: a review, CONSTR BUILD MATER, 15 (2001) 93-103."
+              },
+              {
+                "ref-fulltext": "Mai, G., Li, L., Chen, X., Xiong, Z., Liang, J., Zou, X., Qiu, Y., Qiao, S., Liang, D., Liu, F., Fatigue performance of basalt fibre-reinforced polymer bar-reinforced sea sand concrete slabs. J. Mater. Res. Technol. 22 (2023), 706–727.",
+                "@reference-instance-id": "OB2BibRecID-950864106-92886e924b2115a59dd87adcd802e46c-10",
+                "@id": "10",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Fatigue performance of basalt fibre-reinforced polymer bar-reinforced sea sand concrete slabs"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0050",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85145254879",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "22"
+                    },
+                    "pagerange": {
+                      "@first": "706",
+                      "@last": "727"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Mai",
+                        "ce:indexed-name": "Mai G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen X."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Xiong",
+                        "ce:indexed-name": "Xiong Z."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Liang",
+                        "ce:indexed-name": "Liang J."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Zou",
+                        "ce:indexed-name": "Zou X."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Qiu",
+                        "ce:indexed-name": "Qiu Y."
+                      },
+                      {
+                        "@seq": "8",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Qiao",
+                        "ce:indexed-name": "Qiao S."
+                      },
+                      {
+                        "@seq": "9",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Liang",
+                        "ce:indexed-name": "Liang D."
+                      },
+                      {
+                        "@seq": "10",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Mater. Res. Technol."
+                },
+                "ce:source-text": "G. Mai, L. Li, X. Chen, Z. Xiong, J. Liang, X. Zou, Y. Qiu, S. Qiao, D. Liang, F. Liu, Fatigue performance of basalt fibre-reinforced polymer bar-reinforced sea sand concrete slabs, Journal of Materials Research and Technology, 22 (2023) 706-727."
+              },
+              {
+                "ref-fulltext": "Zheng, C., Liu, H., Ding, X., Kouretzis, G.P., Sheng, D., Three-dimensional effects in low-strain integrity testing of large diameter pipe piles. J. Eng. Mech., 142, 2016, 04016064.",
+                "@reference-instance-id": "OB2BibRecID-950864106-396248f5f57aa423f57d0280c53b5bca-11",
+                "@id": "11",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Three-dimensional effects in low-strain integrity testing of large diameter pipe piles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0055",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84982242423",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "142"
+                    },
+                    "pagerange": {
+                      "@first": "04016064"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Zheng",
+                        "ce:indexed-name": "Zheng C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Ding",
+                        "ce:indexed-name": "Ding X."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "G.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Kouretzis",
+                        "ce:indexed-name": "Kouretzis G.P."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Sheng",
+                        "ce:indexed-name": "Sheng D."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Eng. Mech."
+                },
+                "ce:source-text": "C. Zheng, H. Liu, X. Ding, G.P. Kouretzis, D. Sheng, Three-dimensional effects in low-strain integrity testing of large diameter pipe piles, J ENG MECH, 142 (2016) 04016064."
+              },
+              {
+                "ref-fulltext": "Hoseini, M., Bindiganavile, V., Banthia, N., The effect of mechanical stress on permeability of concrete: a review. Cem. Concr. Compos. 31:4 (2009), 213–220.",
+                "@reference-instance-id": "OB2BibRecID-950864106-731278638d76df2e9f6bc39c3be03cfd-12",
+                "@id": "12",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The effect of mechanical stress on permeability of concrete: a review"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0060",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "63049123589",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "31",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "213",
+                      "@last": "220"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Hoseini",
+                        "ce:indexed-name": "Hoseini M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "V.",
+                        "@_fa": "true",
+                        "ce:surname": "Bindiganavile",
+                        "ce:indexed-name": "Bindiganavile V."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Banthia",
+                        "ce:indexed-name": "Banthia N."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Compos."
+                },
+                "ce:source-text": "M. Hoseini, V. Bindiganavile, N. Banthia, The effect of mechanical stress on permeability of concrete: A review, Cement and Concrete Composites, 31 (2009) 213-220."
+              },
+              {
+                "ref-fulltext": "Qin, Y., Duan, M., Ma, W., Li, Y., Zhou, H., Lv, Y., Li, M., Experimental study on the damage permeability of polypropylene fiber-reinforced concrete. Constr. Build. Mater., 286, 2021, 122592.",
+                "@reference-instance-id": "OB2BibRecID-950864106-bd2781a3ea8b35d3358af388e7209b8a-13",
+                "@id": "13",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental study on the damage permeability of polypropylene fiber-reinforced concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0065",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "122592",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85103112374",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "286"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Qin",
+                        "ce:indexed-name": "Qin Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Duan",
+                        "ce:indexed-name": "Duan M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Ma",
+                        "ce:indexed-name": "Ma W."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li Y."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou H."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Lv",
+                        "ce:indexed-name": "Lv Y."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "Y. Qin, M. Duan, W. Ma, Y. Li, H. Zhou, Y. Lv, M. Li, Experimental study on the damage permeability of polypropylene fiber-reinforced concrete, CONSTR BUILD MATER, 286 (2021) 122592."
+              },
+              {
+                "ref-fulltext": "Chao, Z., Gong, B., Yue, W., Xu, X., Shi, D., Yang, C., Hu, T., Experimental study on stress-dependent gas permeability and porosity of artificially cracked cement mortar. Constr. Build. Mater., 359, 2022, 129290.",
+                "@reference-instance-id": "OB2BibRecID-950864106-23efc18ce64e1bbd0423eab8a4828626-14",
+                "@id": "14",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental study on stress-dependent gas permeability and porosity of artificially cracked cement mortar"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0070",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "129290",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85140758766",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "359"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Chao",
+                        "ce:indexed-name": "Chao Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Gong",
+                        "ce:indexed-name": "Gong B."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Yue",
+                        "ce:indexed-name": "Yue W."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu X."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi D."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang C."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Hu",
+                        "ce:indexed-name": "Hu T."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "Z. Chao, B. Gong, W. Yue, X. Xu, D. Shi, C. Yang, T. Hu, Experimental study on stress-dependent gas permeability and porosity of artificially cracked cement mortar, CONSTR BUILD MATER, 359 (2022) 129290."
+              },
+              {
+                "ref-fulltext": "Choinska, M., Khelidj, A., Chatzigeorgiou, G., Pijaudier-Cabot, G., Effects and interactions of temperature and stress-level related damage on permeability of concrete. Cement Concrete Res 37 (2007), 79–88.",
+                "@reference-instance-id": "OB2BibRecID-950864106-939eda228c83f193e0d875fabd1436b5-15",
+                "@id": "15",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effects and interactions of temperature and stress-level related damage on permeability of concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0075",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "33845221324",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "37"
+                    },
+                    "pagerange": {
+                      "@first": "79",
+                      "@last": "88"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Choinska",
+                        "ce:indexed-name": "Choinska M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Khelidj",
+                        "ce:indexed-name": "Khelidj A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Chatzigeorgiou",
+                        "ce:indexed-name": "Chatzigeorgiou G."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Pijaudier-Cabot",
+                        "ce:indexed-name": "Pijaudier-Cabot G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cement Concrete Res"
+                },
+                "ce:source-text": "M. Choinska, A. Khelidj, G. Chatzigeorgiou, G. Pijaudier-Cabot, Effects and interactions of temperature and stress-level related damage on permeability of concrete, CEMENT CONCRETE RES, 37 (2007) 79-88."
+              },
+              {
+                "ref-fulltext": "Padilla, A., Najvani, M.A., Knight, E., Rougier, E., Stormont, J., Taha, M.M.R., Correlating damage and cracking with air (gas) permeability in concrete using the Brazilian tension test. Constr. Build. Mater., 348, 2022, 128616.",
+                "@reference-instance-id": "OB2BibRecID-950864106-4ad11e3264f72b17de8893b22ddeb20a-16",
+                "@id": "16",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Correlating damage and cracking with air (gas) permeability in concrete using the Brazilian tension test"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0080",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "128616",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85135521285",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "348"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Padilla",
+                        "ce:indexed-name": "Padilla A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Najvani",
+                        "ce:indexed-name": "Najvani M.A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Knight",
+                        "ce:indexed-name": "Knight E."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Rougier",
+                        "ce:indexed-name": "Rougier E."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Stormont",
+                        "ce:indexed-name": "Stormont J."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "M.M.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Taha",
+                        "ce:indexed-name": "Taha M.M.R."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "A. Padilla, M.A. Najvani, E. Knight, E. Rougier, J. Stormont, M.M.R. Taha, Correlating damage and cracking with air (gas) permeability in concrete using the Brazilian tension test, CONSTR BUILD MATER, 348 (2022) 128616."
+              },
+              {
+                "ref-fulltext": "Li, M., Chen, H., Liu, L., Lin, J., Ullah, K., Permeability of concrete considering the synergetic effect of crack's shape- and size-polydispersities on the percolation. Constr. Build. Mater., 315, 2022, 125684.",
+                "@reference-instance-id": "OB2BibRecID-950864106-e56bfc8d8dd5487fb0cacb3a777a26eb-17",
+                "@id": "17",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Permeability of concrete considering the synergetic effect of crack's shape- and size-polydispersities on the percolation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0085",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "125684",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85120305058",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "315"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu L."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Lin",
+                        "ce:indexed-name": "Lin J."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Ullah",
+                        "ce:indexed-name": "Ullah K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "M. Li, H. Chen, L. Liu, J. Lin, K. Ullah, Permeability of concrete considering the synergetic effect of crack's shape- and size-polydispersities on the percolation, CONSTR BUILD MATER, 315 (2022) 125684."
+              },
+              {
+                "ref-fulltext": "Thovert, J.F., Mourzenko, V.V., Adler, P.M., Percolation in three-dimensional fracture networks for arbitrary size and shape distributions. Phys. Rev. E, 95, 2017, 042112.",
+                "@reference-instance-id": "OB2BibRecID-950864106-2b77859ef117e82ed5fc1ea32e440671-18",
+                "@id": "18",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Percolation in three-dimensional fracture networks for arbitrary size and shape distributions"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0090",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "042112",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85017109499",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "95"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Thovert",
+                        "ce:indexed-name": "Thovert J.F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "V.V.",
+                        "@_fa": "true",
+                        "ce:surname": "Mourzenko",
+                        "ce:indexed-name": "Mourzenko V.V."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "P.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Adler",
+                        "ce:indexed-name": "Adler P.M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Phys. Rev. E"
+                },
+                "ce:source-text": "J.F. Thovert, V.V. Mourzenko, P.M. Adler, Percolation in three-dimensional fracture networks for arbitrary size and shape distributions, PHYS REV E, 95 (2017) 042112."
+              },
+              {
+                "ref-fulltext": "Sævik, P.N., Berre, I., Jakobsen, M., Lien, M., A 3D Computational Study of Effective Medium Methods Applied to Fractured Media. Transport Porous Med 100 (2013), 115–142.",
+                "@reference-instance-id": "OB2BibRecID-950864106-e67dc4361f02fe5cbfb117cc16bb2fcc-19",
+                "@id": "19",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A 3D Computational Study of Effective Medium Methods Applied to Fractured Media"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0095",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84884818075",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "100"
+                    },
+                    "pagerange": {
+                      "@first": "115",
+                      "@last": "142"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Sævik",
+                        "ce:indexed-name": "Saevik P.N."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "I.",
+                        "@_fa": "true",
+                        "ce:surname": "Berre",
+                        "ce:indexed-name": "Berre I."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Jakobsen",
+                        "ce:indexed-name": "Jakobsen M."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Lien",
+                        "ce:indexed-name": "Lien M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Transport Porous Med"
+                },
+                "ce:source-text": "P.N. Sævik, I. Berre, M. Jakobsen, M. Lien, A 3D Computational Study of Effective Medium Methods Applied to Fractured Media, TRANSPORT POROUS MED, 100 (2013) 115-142."
+              },
+              {
+                "ref-fulltext": "Kermani, A., Permeability of stressed concrete. Build. Res. Inf. 19 (1991), 360–366.",
+                "@reference-instance-id": "OB2BibRecID-950864106-2bb3e2a6273179fb90f12f3aa49dd2da-20",
+                "@id": "20",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1991"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Permeability of stressed concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0100",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0026256007",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "19"
+                    },
+                    "pagerange": {
+                      "@first": "360",
+                      "@last": "366"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Kermani",
+                        "ce:indexed-name": "Kermani A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Build. Res. Inf."
+                },
+                "ce:source-text": "A. Kermani, Permeability of stressed concrete, Building Research & Information, 19 (1991) 360-366."
+              },
+              {
+                "ref-fulltext": "Gérard, B., Breysse, D., Ammouche, A., Houdusse, O., Didry, O., Cracking and permeability of concrete under tension. Mater. Struct. 29 (1996), 141–151.",
+                "@reference-instance-id": "OB2BibRecID-950864106-1bbda15080753ab26b0406495ea705da-21",
+                "@id": "21",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1996"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Cracking and permeability of concrete under tension"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0105",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0000046791",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "29"
+                    },
+                    "pagerange": {
+                      "@first": "141",
+                      "@last": "151"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Gérard",
+                        "ce:indexed-name": "Gerard B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Breysse",
+                        "ce:indexed-name": "Breysse D."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Ammouche",
+                        "ce:indexed-name": "Ammouche A."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "O.",
+                        "@_fa": "true",
+                        "ce:surname": "Houdusse",
+                        "ce:indexed-name": "Houdusse O."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "O.",
+                        "@_fa": "true",
+                        "ce:surname": "Didry",
+                        "ce:indexed-name": "Didry O."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Mater. Struct."
+                },
+                "ce:source-text": "B. Gérard, D. Breysse, A. Ammouche, O. Houdusse, O. Didry, Cracking and permeability of concrete under tension, MATER STRUCT, 29 (1996) 141-151."
+              },
+              {
+                "ref-fulltext": "Wang, K., Jansen, D.C., Shah, S.P., Karr, A.F., Permeability study of cracked concrete. Cement Concrete Res 27 (1997), 381–393.",
+                "@reference-instance-id": "OB2BibRecID-950864106-d76f58acc9e515dd96f2645042758f24-22",
+                "@id": "22",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1997"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Permeability study of cracked concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0110",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0031098922",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "27"
+                    },
+                    "pagerange": {
+                      "@first": "381",
+                      "@last": "393"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Jansen",
+                        "ce:indexed-name": "Jansen D.C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Shah",
+                        "ce:indexed-name": "Shah S.P."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "A.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Karr",
+                        "ce:indexed-name": "Karr A.F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cement Concrete Res"
+                },
+                "ce:source-text": "K. Wang, D.C. Jansen, S.P. Shah, A.F. Karr, Permeability study of cracked concrete, CEMENT CONCRETE RES, 27 (1997) 381-393."
+              },
+              {
+                "ref-fulltext": "Banthia, N., Biparva, A., Mindess, S., Permeability of concrete under stress. Cement Concrete Res 35 (2005), 1651–1655.",
+                "@reference-instance-id": "OB2BibRecID-950864106-80dcd74f84ae4c2965be90ffb10481cd-23",
+                "@id": "23",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2005"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Permeability of concrete under stress"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0115",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "24644505264",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "35"
+                    },
+                    "pagerange": {
+                      "@first": "1651",
+                      "@last": "1655"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Banthia",
+                        "ce:indexed-name": "Banthia N."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Biparva",
+                        "ce:indexed-name": "Biparva A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Mindess",
+                        "ce:indexed-name": "Mindess S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cement Concrete Res"
+                },
+                "ce:source-text": "N. Banthia, A. Biparva, S. Mindess, Permeability of concrete under stress, CEMENT CONCRETE RES, 35 (2005) 1651-1655."
+              },
+              {
+                "ref-fulltext": "Picandet, V., Khelidj, A., Bastian, G., Effect of axial compressive damage on gas permeability of ordinary and high-performance concrete. Cement Concrete Res 31 (2001), 1525–1532.",
+                "@reference-instance-id": "OB2BibRecID-950864106-ea6400a89c8be5f542514665756d0e28-24",
+                "@id": "24",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2001"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of axial compressive damage on gas permeability of ordinary and high-performance concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0120",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0035510703",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "31"
+                    },
+                    "pagerange": {
+                      "@first": "1525",
+                      "@last": "1532"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "V.",
+                        "@_fa": "true",
+                        "ce:surname": "Picandet",
+                        "ce:indexed-name": "Picandet V."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Khelidj",
+                        "ce:indexed-name": "Khelidj A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Bastian",
+                        "ce:indexed-name": "Bastian G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cement Concrete Res"
+                },
+                "ce:source-text": "V. Picandet, A. Khelidj, G. Bastian, Effect of axial compressive damage on gas permeability of ordinary and high-performance concrete, CEMENT CONCRETE RES, 31 (2001) 1525-1532."
+              },
+              {
+                "ref-fulltext": "Sugiyama, T., Bremner, T.W., Holm, T.A., Effect of stress on gas permeability in concrete. ACI Mater. J. 93 (1996), 443–450.",
+                "@reference-instance-id": "OB2BibRecID-950864106-3b53d547715462378dfd0e8fb0535035-25",
+                "@id": "25",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1996"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of stress on gas permeability in concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0125",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0030231179",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "93"
+                    },
+                    "pagerange": {
+                      "@first": "443",
+                      "@last": "450"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Sugiyama",
+                        "ce:indexed-name": "Sugiyama T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Bremner",
+                        "ce:indexed-name": "Bremner T.W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "T.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Holm",
+                        "ce:indexed-name": "Holm T.A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "ACI Mater. J."
+                },
+                "ce:source-text": "T. Sugiyama, T.W. Bremner, T.A. Holm, Effect of stress on gas permeability in concrete, ACI MATER J, 93 (1996) 443-450."
+              },
+              {
+                "ref-fulltext": "Hearn, N., Mills, R.H., A simple permeameter for water or gas flow. Cement Concrete Res 21 (1991), 257–261.",
+                "@reference-instance-id": "OB2BibRecID-950864106-33230e73986cae444b1ad4dfa348c1f4-26",
+                "@id": "26",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1991"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A simple permeameter for water or gas flow"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0130",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0026117432",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "21"
+                    },
+                    "pagerange": {
+                      "@first": "257",
+                      "@last": "261"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Hearn",
+                        "ce:indexed-name": "Hearn N."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Mills",
+                        "ce:indexed-name": "Mills R.H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cement Concrete Res"
+                },
+                "ce:source-text": "N. Hearn, R.H. Mills, A simple permeameter for water or gas flow, CEMENT CONCRETE RES, 21 (1991) 257-261."
+              },
+              {
+                "ref-fulltext": "Picandet, V., Khelidj, A., Bellegou, H., Crack effects on gas and water permeability of concretes. Cement Concrete Res 39 (2009), 537–547.",
+                "@reference-instance-id": "OB2BibRecID-950864106-19380b5fbb3bc5930394afd339ca4117-27",
+                "@id": "27",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Crack effects on gas and water permeability of concretes"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0135",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "67349226756",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "39"
+                    },
+                    "pagerange": {
+                      "@first": "537",
+                      "@last": "547"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "V.",
+                        "@_fa": "true",
+                        "ce:surname": "Picandet",
+                        "ce:indexed-name": "Picandet V."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Khelidj",
+                        "ce:indexed-name": "Khelidj A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Bellegou",
+                        "ce:indexed-name": "Bellegou H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cement Concrete Res"
+                },
+                "ce:source-text": "V. Picandet, A. Khelidj, H. Bellegou, Crack effects on gas and water permeability of concretes, CEMENT CONCRETE RES, 39 (2009) 537-547."
+              },
+              {
+                "ref-fulltext": "Liu, H., Zhang, Q., Gu, C., Su, H., Li, V.C., Influence of micro-cracking on the permeability of engineered cementitious composites. Cem. Concr. Compos. 72 (2016), 104–113.",
+                "@reference-instance-id": "OB2BibRecID-950864106-0e2cec819afdbf60f78d2cb2b039fa9e-28",
+                "@id": "28",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Influence of micro-cracking on the permeability of engineered cementitious composites"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0140",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84974674551",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "72"
+                    },
+                    "pagerange": {
+                      "@first": "104",
+                      "@last": "113"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Q."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Gu",
+                        "ce:indexed-name": "Gu C."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Su",
+                        "ce:indexed-name": "Su H."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "V.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li V.C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Compos."
+                },
+                "ce:source-text": "H. Liu, Q. Zhang, C. Gu, H. Su, V.C. Li, Influence of micro-cracking on the permeability of engineered cementitious composites, Cement and Concrete Composites, 72 (2016) 104-113."
+              },
+              {
+                "ref-fulltext": "Akhavan, A., Shafaatian, S., Rajabipour, F., Quantifying the effects of crack width, tortuosity, and roughness on water permeability of cracked mortars. Cement Concrete Res 42 (2012), 313–320.",
+                "@reference-instance-id": "OB2BibRecID-950864106-d8aa45a88a2a55177aa4d10aa856f777-29",
+                "@id": "29",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Quantifying the effects of crack width, tortuosity, and roughness on water permeability of cracked mortars"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0145",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84856320514",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "42"
+                    },
+                    "pagerange": {
+                      "@first": "313",
+                      "@last": "320"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Akhavan",
+                        "ce:indexed-name": "Akhavan A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Shafaatian",
+                        "ce:indexed-name": "Shafaatian S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Rajabipour",
+                        "ce:indexed-name": "Rajabipour F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cement Concrete Res"
+                },
+                "ce:source-text": "A. Akhavan, S. Shafaatian, F. Rajabipour, Quantifying the effects of crack width, tortuosity, and roughness on water permeability of cracked mortars, CEMENT CONCRETE RES, 42 (2012) 313-320."
+              },
+              {
+                "ref-fulltext": "Charron, J., Denarié, E., Brühwiler, E., Transport properties of water and glycol in an ultra high performance fiber reinforced concrete (UHPFRC) under high tensile deformation. Cement Concrete Res 38 (2008), 689–698.",
+                "@reference-instance-id": "OB2BibRecID-950864106-af368380fe042755bfdf2ef050354f2c-30",
+                "@id": "30",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2008"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Transport properties of water and glycol in an ultra high performance fiber reinforced concrete (UHPFRC) under high tensile deformation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0150",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "40849135553",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "38"
+                    },
+                    "pagerange": {
+                      "@first": "689",
+                      "@last": "698"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Charron",
+                        "ce:indexed-name": "Charron J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Denarié",
+                        "ce:indexed-name": "Denarie E."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Brühwiler",
+                        "ce:indexed-name": "Bruhwiler E."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cement Concrete Res"
+                },
+                "ce:source-text": "J. Charron, E. Denarié, E. Brühwiler, Transport properties of water and glycol in an ultra high performance fiber reinforced concrete (UHPFRC) under high tensile deformation, CEMENT CONCRETE RES, 38 (2008) 689-698."
+              },
+              {
+                "ref-fulltext": "Chen, J., He, J., Ren, X., Li, J., Stochastic harmonic function representation of random fields for material properties of structures. J. Eng. Mech., 144, 2018, 04018049.",
+                "@reference-instance-id": "OB2BibRecID-950864106-896dd1fa0019fa54c5a1a98957a065b2-31",
+                "@id": "31",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Stochastic harmonic function representation of random fields for material properties of structures"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0155",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85046257160",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "144"
+                    },
+                    "pagerange": {
+                      "@first": "04018049"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "He",
+                        "ce:indexed-name": "He J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Ren",
+                        "ce:indexed-name": "Ren X."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Eng. Mech."
+                },
+                "ce:source-text": "J. Chen, J. He, X. Ren, J. Li, Stochastic harmonic function representation of random fields for material properties of structures, J ENG MECH, 144 (2018) 04018049."
+              },
+              {
+                "ref-fulltext": "He, J., Gao, R., Chen, J., A sparse data-driven stochastic damage model for seismic reliability assessment of reinforced concrete structures. Reliab Eng Syst Safe, 223, 2022, 108510.",
+                "@reference-instance-id": "OB2BibRecID-950864106-d3b66fe400ae237e803981b1d9471632-32",
+                "@id": "32",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A sparse data-driven stochastic damage model for seismic reliability assessment of reinforced concrete structures"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0160",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "108510",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85127972394",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "223"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "He",
+                        "ce:indexed-name": "He J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Gao",
+                        "ce:indexed-name": "Gao R."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Reliab Eng Syst Safe"
+                },
+                "ce:source-text": "J. He, R. Gao, J. Chen, A sparse data-driven stochastic damage model for seismic reliability assessment of reinforced concrete structures, RELIAB ENG SYST SAFE, 223 (2022) 108510."
+              },
+              {
+                "ref-fulltext": "He, J., Gao, R., Tang, Z., A data-driven multi-scale constitutive model of concrete material based on polynomial chaos expansion and stochastic damage model. Constr. Build. Mater., 334, 2022, 127441.",
+                "@reference-instance-id": "OB2BibRecID-950864106-c5e467fb9c07d7af711040f973c8441d-33",
+                "@id": "33",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A data-driven multi-scale constitutive model of concrete material based on polynomial chaos expansion and stochastic damage model"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0165",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "127441",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85128219760",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "334"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "He",
+                        "ce:indexed-name": "He J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Gao",
+                        "ce:indexed-name": "Gao R."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Tang",
+                        "ce:indexed-name": "Tang Z."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "J. He, R. Gao, Z. Tang, A data-driven multi-scale constitutive model of concrete material based on polynomial chaos expansion and stochastic damage model, CONSTR BUILD MATER, 334 (2022) 127441."
+              },
+              {
+                "ref-fulltext": "Sheather, S.J., Jones, M.C., A reliable data-based bandwidth selection method for kernel density estimation. J. Roy. Stat. Soc.: Ser. B (Methodol.) 53:3 (1991), 683–690.",
+                "@reference-instance-id": "OB2BibRecID-950864106-839305aa5ca267a90899ac9b46f0af14-34",
+                "@id": "34",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1991"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A reliable data-based bandwidth selection method for kernel density estimation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0170",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0001268552",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "53",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "683",
+                      "@last": "690"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Sheather",
+                        "ce:indexed-name": "Sheather S.J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Jones",
+                        "ce:indexed-name": "Jones M.C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Roy. Stat. Soc.: Ser. B (Methodol.)"
+                },
+                "ce:source-text": "S.J. Sheather, M.C. Jones, A reliable data-based bandwidth selection method for kernel density estimation, Journal of the Royal Statistical Society. Series B (Methodological), (1991) 683-690."
+              },
+              {
+                "ref-fulltext": "He, J., Chen, J., Ren, X., Li, J., Uncertainty quantification of random fields based on spatially sparse data by synthesizing Bayesian compressive sensing and stochastic harmonic function. Mech Syst Signal PR, 153, 2021, 107377.",
+                "@reference-instance-id": "OB2BibRecID-950864106-8e66255b97cddb4a9a28c59a9a7ba6d1-35",
+                "@id": "35",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Uncertainty quantification of random fields based on spatially sparse data by synthesizing Bayesian compressive sensing and stochastic harmonic function"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0175",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "107377",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85098472821",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "153"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "He",
+                        "ce:indexed-name": "He J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Ren",
+                        "ce:indexed-name": "Ren X."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Mech Syst Signal PR"
+                },
+                "ce:source-text": "J. He, J. Chen, X. Ren, J. Li, Uncertainty quantification of random fields based on spatially sparse data by synthesizing Bayesian compressive sensing and stochastic harmonic function, MECH SYST SIGNAL PR, 153 (2021) 107377."
+              },
+              {
+                "ref-fulltext": "Shen, M., Deodatis, G., Variability response functions for statically indeterminate structures. Probabilist Eng Mech, 70, 2022, 103361.",
+                "@reference-instance-id": "OB2BibRecID-950864106-e649663e0acfecb7a603a5a3ffa6f3e1-36",
+                "@id": "36",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Variability response functions for statically indeterminate structures"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0180",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "103361",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85138198106",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "70"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Shen",
+                        "ce:indexed-name": "Shen M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Deodatis",
+                        "ce:indexed-name": "Deodatis G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Probabilist Eng Mech"
+                },
+                "ce:source-text": "M. Shen, G. Deodatis, Variability response functions for statically indeterminate structures, PROBABILIST ENG MECH, 70 (2022) 103361."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "affiliation": [
+      {
+        "affiliation-city": "Beijing",
+        "@id": "60001604",
+        "affilname": "Ministry of Education of the People's Republic of China",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60001604",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Guangzhou",
+        "@id": "60017456",
+        "affilname": "Jinan University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60017456",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Guangzhou",
+        "@id": "60007155",
+        "affilname": "Guangdong University of Technology",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60007155",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Xuwen",
+        "@id": "130216507",
+        "affilname": "Ltd.",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/130216507",
+        "affiliation-country": "China"
+      }
+    ],
+    "coredata": {
+      "srctype": "j",
+      "eid": "2-s2.0-85171619290",
+      "dc:description": "The pretensioned spun high strength concrete pipe pile (PHC pipe pile) is widely applied in important infrastructures of off-shore zones due to its low permeability and high capacity. During the construction process and the whole service period of PHC pipe piles, the damage is inevitably caused by many reasons, which may eventually cause the early durability failure of piles. Many researches have been conducted to study the change in permeability of normal concrete due to mechanical damage. However, the relation between permeability and damage of spun high strength concrete (SHSC) is still not been studied. To quantitively investigate the change of permeability of SHSC, a series of specimens of PHC pipe piles were tested for the change of permeability during mechanical loading process in this study. As a result, the relation of stress and permeability of spun high strength concrete as well as the crack roughness of the SHSC is obtained for efficient application in engineering. Before the 40% stress ratio, the permeability of the SHSC is slightly decreased as the compressive stress increases. The mean value and standard deviation of the intrinsic permeability of the SHSC are increased as the compressive stress loading reaches the peak stress. The order of magnitude of the crack roughness ξ can be taken as 10- 4 for engineering application. Compared with the vibrate-casted concrete, the crack roughness ξ is smaller, indicating that the crack surface of SHSC is rougher than the vibrate-casted concrete.",
+      "prism:coverDate": "2023-11-03",
+      "prism:aggregationType": "Journal",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85171619290",
+      "subtypeDescription": "Article",
+      "dc:creator": {
+        "author": [
+          {
+            "ce:given-name": "Jingran",
+            "preferred-name": {
+              "ce:given-name": "Jingran",
+              "ce:initials": "J.",
+              "ce:surname": "He",
+              "ce:indexed-name": "He J."
+            },
+            "@seq": "1",
+            "ce:initials": "J.",
+            "@_fa": "true",
+            "affiliation": {
+              "@id": "60007155",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60007155"
+            },
+            "ce:surname": "He",
+            "@auid": "57190252582",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57190252582",
+            "ce:indexed-name": "He J."
+          }
+        ]
+      },
+      "link": [
+        {
+          "@_fa": "true",
+          "@rel": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85171619290"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85171619290&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85171619290&origin=inward"
+        }
+      ],
+      "prism:publicationName": "Construction and Building Materials",
+      "source-id": "24443",
+      "pii": "S0950061823027514",
+      "citedby-count": "10",
+      "prism:volume": "403",
+      "subtype": "ar",
+      "dc:title": "Experimental study on permeability of spun high strength concrete material during mechanical loading",
+      "openaccess": "0",
+      "openaccessFlag": "false",
+      "prism:doi": "10.1016/j.conbuildmat.2023.133034",
+      "prism:issn": "09500618",
+      "publishercopyright": "© 2023 Elsevier Ltd",
+      "article-number": "133034",
+      "dc:identifier": "SCOPUS_ID:85171619290",
+      "dc:publisher": "Elsevier Ltd"
+    },
+    "idxterms": {
+      "mainterm": [
+        {
+          "$": "Coupling of permeability and stress",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "High strength concretes",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "High-strength concrete materials",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Mechanical loading",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Permeability",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "PHC pipe piles",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Pipe piles",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Poiseuille law",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Pretensioned",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Spun high strength concrete",
+          "@weight": "b",
+          "@candidate": "n"
+        }
+      ]
+    },
+    "language": {
+      "@xml:lang": "eng"
+    },
+    "authkeywords": {
+      "author-keyword": [
+        {
+          "@_fa": "true",
+          "$": "Coupling of permeability and stress"
+        },
+        {
+          "@_fa": "true",
+          "$": "Permeability"
+        },
+        {
+          "@_fa": "true",
+          "$": "Poiseuille's law"
+        },
+        {
+          "@_fa": "true",
+          "$": "Spun high strength concrete"
+        }
+      ]
+    },
+    "subject-areas": {
+      "subject-area": [
+        {
+          "@_fa": "true",
+          "$": "Civil and Structural Engineering",
+          "@code": "2205",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Building and Construction",
+          "@code": "2215",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Materials Science (all)",
+          "@code": "2500",
+          "@abbrev": "MATE"
+        }
+      ]
+    },
+    "authors": {
+      "author": [
+        {
+          "ce:given-name": "Jingran",
+          "preferred-name": {
+            "ce:given-name": "Jingran",
+            "ce:initials": "J.",
+            "ce:surname": "He",
+            "ce:indexed-name": "He J."
+          },
+          "@seq": "1",
+          "ce:initials": "J.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60007155",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60007155"
+          },
+          "ce:surname": "He",
+          "@auid": "57190252582",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57190252582",
+          "ce:indexed-name": "He J."
+        },
+        {
+          "ce:given-name": "Junjie",
+          "preferred-name": {
+            "ce:given-name": "Junjie",
+            "ce:initials": "J.",
+            "ce:surname": "Hong",
+            "ce:indexed-name": "Hong J."
+          },
+          "@seq": "2",
+          "ce:initials": "J.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60017456",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60017456"
+          },
+          "ce:surname": "Hong",
+          "@auid": "57779849000",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57779849000",
+          "ce:indexed-name": "Hong J."
+        },
+        {
+          "ce:given-name": "Ruofan",
+          "preferred-name": {
+            "ce:given-name": "Ruofan",
+            "ce:initials": "R.",
+            "ce:surname": "Gao",
+            "ce:indexed-name": "Gao R."
+          },
+          "@seq": "3",
+          "ce:initials": "R.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "60017456",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60017456"
+            },
+            {
+              "@id": "60001604",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60001604"
+            },
+            {
+              "@id": "130216507",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/130216507"
+            }
+          ],
+          "ce:surname": "Gao",
+          "@auid": "57207140838",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57207140838",
+          "ce:indexed-name": "Gao R."
+        },
+        {
+          "ce:given-name": "Feng",
+          "preferred-name": {
+            "ce:given-name": "Feng",
+            "ce:initials": "F.",
+            "ce:surname": "Liu",
+            "ce:indexed-name": "Liu F."
+          },
+          "@seq": "4",
+          "ce:initials": "F.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60007155",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60007155"
+          },
+          "ce:surname": "Liu",
+          "@auid": "57188767097",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57188767097",
+          "ce:indexed-name": "Liu F."
+        },
+        {
+          "ce:given-name": "Lijuan",
+          "preferred-name": {
+            "ce:given-name": "Lijuan",
+            "ce:initials": "L.",
+            "ce:surname": "Li",
+            "ce:indexed-name": "Li L."
+          },
+          "@seq": "5",
+          "ce:initials": "L.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60007155",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60007155"
+          },
+          "ce:surname": "Li",
+          "@auid": "36065125900",
+          "author-url": "https://api.elsevier.com/content/author/author_id/36065125900",
+          "ce:indexed-name": "Li L."
+        }
+      ]
+    }
+  }
+}

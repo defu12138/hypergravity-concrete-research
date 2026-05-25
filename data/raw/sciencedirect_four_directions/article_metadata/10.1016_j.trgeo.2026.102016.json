@@ -1,0 +1,4511 @@
+{
+  "abstracts-retrieval-response": {
+    "item": {
+      "ait:process-info": {
+        "ait:status": {
+          "@state": "update",
+          "@type": "core",
+          "@stage": "S300"
+        },
+        "ait:date-delivered": {
+          "@day": "06",
+          "@timestamp": "2026-04-06T19:18:17.000017-04:00",
+          "@year": "2026",
+          "@month": "04"
+        },
+        "ait:date-sort": {
+          "@day": "01",
+          "@year": "2026",
+          "@month": "05"
+        }
+      },
+      "xocs:meta": {
+        "xocs:funding-list": {
+          "@pui-match": "primary",
+          "@has-funding-info": "1",
+          "xocs:funding": {
+            "xocs:funding-agency-matched-string": "National Natural Science Foundation of China",
+            "xocs:funding-agency-acronym": "NNSFC",
+            "xocs:funding-agency": "National Natural Science Foundation of China",
+            "xocs:funding-id": [
+              {
+                "$": "52130805"
+              },
+              {
+                "$": "52378363"
+              },
+              {
+                "$": "52508453"
+              }
+            ],
+            "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+            "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+          },
+          "xocs:funding-addon-generated-timestamp": "2026-04-14T03:08:14.968Z",
+          "xocs:funding-text": "The work described in this paper was financially supported by the National Natural Science Foundation of China (Grant Nos. 52130805 , 52378363 , 52508453 ). All of the support is greatly appreciated.",
+          "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }
+      },
+      "bibrecord": {
+        "head": {
+          "author-group": [
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "200092",
+                "@afid": "60073652",
+                "@country": "chn",
+                "city": "Shanghai",
+                "organization": [
+                  {
+                    "$": "Department of Geotechnical Engineering"
+                  },
+                  {
+                    "$": "College of Civil Engineering"
+                  },
+                  {
+                    "$": "Tongji University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60073652",
+                  "@dptid": "104830272"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-972968705-bfdbc20324cb20e89a18f66eb00de0e1-1",
+                "ce:source-text": "Department of Geotechnical Engineering, College of Civil Engineering, Tongji University, Shanghai 200092, China",
+                "@dptid": "104830272"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Yingnan",
+                  "preferred-name": {
+                    "ce:given-name": "Yingnan",
+                    "ce:initials": "Y.",
+                    "ce:surname": "Liu",
+                    "ce:indexed-name": "Liu Y."
+                  },
+                  "@author-instance-id": "OB2BibRecID-972968705-999debc7bee7cd4e2194f1bad5dd6117-1",
+                  "@seq": "1",
+                  "ce:initials": "Y.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Liu",
+                  "@auid": "57203995898",
+                  "ce:indexed-name": "Liu Y."
+                },
+                {
+                  "ce:given-name": "Hongwei",
+                  "preferred-name": {
+                    "ce:given-name": "Hongwei",
+                    "ce:initials": "H.",
+                    "ce:surname": "Huang",
+                    "ce:indexed-name": "Huang H."
+                  },
+                  "@author-instance-id": "OB2BibRecID-972968705-bb38f90a85b461518303d472859d9000-1",
+                  "@seq": "3",
+                  "ce:initials": "H.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Huang",
+                  "@auid": "55778544200",
+                  "ce:indexed-name": "Huang H."
+                },
+                {
+                  "ce:given-name": "Mengting",
+                  "preferred-name": {
+                    "ce:given-name": "Mengting",
+                    "ce:initials": "M.",
+                    "ce:surname": "Wang",
+                    "ce:indexed-name": "Wang M."
+                  },
+                  "@author-instance-id": "OB2BibRecID-972968705-70f07ba05357a1aac86653f5a686c284-1",
+                  "@seq": "4",
+                  "ce:initials": "M.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Wang",
+                  "@auid": "57218287682",
+                  "ce:indexed-name": "Wang M."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "300350",
+                "@afid": "60019533",
+                "@country": "chn",
+                "city": "Tianjin",
+                "organization": [
+                  {
+                    "$": "School of Civil Engineering"
+                  },
+                  {
+                    "$": "Tianjin University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60019533"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-972968705-346b0ebb4594a0d6350b9d218abfd130-1",
+                "ce:source-text": "School of Civil Engineering, Tianjin University, Tianjin 300350, China"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Yingnan",
+                  "preferred-name": {
+                    "ce:given-name": "Yingnan",
+                    "ce:initials": "Y.",
+                    "ce:surname": "Liu",
+                    "ce:indexed-name": "Liu Y."
+                  },
+                  "@author-instance-id": "OB2BibRecID-972968705-999debc7bee7cd4e2194f1bad5dd6117-1",
+                  "@seq": "1",
+                  "ce:initials": "Y.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Liu",
+                  "@auid": "57203995898",
+                  "ce:indexed-name": "Liu Y."
+                },
+                {
+                  "ce:given-name": "Huayang",
+                  "preferred-name": {
+                    "ce:given-name": "Huayang",
+                    "ce:initials": "H.",
+                    "ce:surname": "Lei",
+                    "ce:indexed-name": "Lei H."
+                  },
+                  "@author-instance-id": "OB2BibRecID-972968705-bb8bc4edf5a2f1e5a283479162a7e9ba-1",
+                  "@seq": "2",
+                  "ce:initials": "H.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Lei",
+                  "@auid": "56229897500",
+                  "ce:indexed-name": "Lei H."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "100083",
+                "@afid": "60018273",
+                "@country": "chn",
+                "city": "Beijing",
+                "organization": [
+                  {
+                    "$": "School of Resources and Safety Engineering"
+                  },
+                  {
+                    "$": "University of Science and Technology Beijing"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60018273",
+                  "@dptid": "119150104"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-972968705-443bfa97db0528ca4d2186b8e9792587-1",
+                "ce:source-text": "School of Resources and Safety Engineering, University of Science and Technology Beijing, Beijing 100083, China",
+                "@dptid": "119150104"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Jianhong",
+                  "preferred-name": {
+                    "ce:given-name": "Jianhong",
+                    "ce:initials": "J.",
+                    "ce:surname": "Man",
+                    "ce:indexed-name": "Man J."
+                  },
+                  "@author-instance-id": "OB2BibRecID-972968705-72dd3e6783b6f4d77288772b6832d206-1",
+                  "@seq": "5",
+                  "ce:initials": "J.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Man",
+                  "@auid": "57203977861",
+                  "ce:indexed-name": "Man J."
+                }
+              ]
+            }
+          ],
+          "citation-title": "Face instability mechanisms of shield tunnel undercrossing an existing tunnel: Insights from centrifuge model tests and FDM-DEM simulations",
+          "abstracts": "© 2026 Elsevier Ltd.Urban underground tunnels are increasingly constructed to support the development of transportation network, necessitating shield tunnelling adjacent to existing tunnel(s). In such scenarios, the tunnel face stability, as one of the important factors affecting construction safety, has not been fully experimentally investigated. In addition, most existing researches treat the existing tunnel as a homogeneous rigid object, which does not accurately reflect actual conditions. Therefore, this study conducted centrifuge model tests to investigate the instability mechanisms of tunnel face undercrossing a segmental existing tunnel. The results demonstrated that the failure pattern showed a chimney-shaped area that bend near the segmental existing tunnel, and the failure-induced surface settlement trough was narrower than that under single tunnelling condition. The shield tunnel face instability triggered abrupt bending moment reductions along the transverse section of the segmental existing tunnel, while the bending moment increased at 1 D from the central section along the longitudinal section. The earth pressure dropped rapidly and then partially recovered due to stress redistribution during the instability process. A coupled FDM-DEM numerical model was subsequently established to further study the evolution mechanism of tunnel face instability under different working conditions. Based on centrifuge and numerical results, the influence of existing tunnel on the face instability mechanism of the new tunnel has been fully discussed, and quantitative representations of the face failure modes and the limit support pressures have been provided. These findings could advance the understanding of instability mechanisms of shield tunnel face adjacent to existing tunnel and provide practical guidelines for optimizing tunnel face support pressure in high-density underground space.",
+          "correspondence": {
+            "affiliation": {
+              "country": "China",
+              "postal-code": "300350",
+              "@country": "chn",
+              "city": "Tianjin",
+              "organization": [
+                {
+                  "$": "School of Civil Engineering"
+                },
+                {
+                  "$": "Tianjin University"
+                }
+              ],
+              "@affiliation-instance-id": "OB2BibRecID-972968705-c7f1aa91fb21f4d3bb51da6065ebf3d1-1",
+              "ce:source-text": "School of Civil Engineering, Tianjin University, Tianjin, 300350 China."
+            },
+            "person": {
+              "ce:given-name": "Huayang",
+              "@author-instance-id": "OB2BibRecID-972968705-abba09aaea65f3cd5e5afff9e1321d1d-1",
+              "ce:initials": "H.",
+              "ce:surname": "Lei",
+              "ce:indexed-name": "Lei H."
+            }
+          },
+          "citation-info": {
+            "author-keywords": {
+              "author-keyword": [
+                {
+                  "$": "Centrifuge model test",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Existing tunnel",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "FDM-DEM simulation",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Instability mechanism",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Shield tunnel undercrossing",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                }
+              ]
+            },
+            "citation-type": {
+              "@code": "ar"
+            },
+            "citation-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "abstract-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            }
+          },
+          "source": {
+            "sourcetitle-abbrev": "Transp. Geotech.",
+            "website": {
+              "ce:e-address": {
+                "$": "https://www.sciencedirect.com/science/journal/22143912",
+                "@type": "email"
+              }
+            },
+            "@country": "gbr",
+            "issn": {
+              "$": "22143912",
+              "@type": "electronic"
+            },
+            "volisspag": {
+              "voliss": {
+                "@volume": "60"
+              }
+            },
+            "@type": "j",
+            "publicationyear": {
+              "@first": "2026"
+            },
+            "publisher": {
+              "publishername": "Elsevier Ltd"
+            },
+            "sourcetitle": "Transportation Geotechnics",
+            "article-number": "102016",
+            "@srcid": "21100316068",
+            "publicationdate": {
+              "month": "05",
+              "year": "2026",
+              "date-text": "May 2026",
+              "day": "01"
+            }
+          },
+          "enhancement": {
+            "classificationgroup": {
+              "classifications": [
+                {
+                  "@type": "GEOCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "72.13.3",
+                      "classification-description": "Underground excavations"
+                    },
+                    {
+                      "classification-code": "77.10.3",
+                      "classification-description": "Excavation failure mechanisms"
+                    }
+                  ]
+                },
+                {
+                  "@type": "ASJC",
+                  "classification": [
+                    {
+                      "$": "2205"
+                    },
+                    {
+                      "$": "3313"
+                    },
+                    {
+                      "$": "1909"
+                    }
+                  ]
+                },
+                {
+                  "@type": "SUBJABBR",
+                  "classification": [
+                    {
+                      "$": "ENGI"
+                    },
+                    {
+                      "$": "SOCI"
+                    },
+                    {
+                      "$": "EART"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "grantlist": {
+            "@complete": "y",
+            "grant-text": {
+              "$": "The work described in this paper was financially supported by the National Natural Science Foundation of China (Grant Nos. 52130805, 52378363, 52508453). All of the support is greatly appreciated.",
+              "@xml:lang": "eng"
+            },
+            "grant": [
+              {
+                "grant-id": "52130805",
+                "grant-acronym": "NSFC, NNSF, NNSFC",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "National Natural Science Foundation of China"
+                },
+                "grant-agency-id": "501100001809"
+              },
+              {
+                "grant-id": "52378363",
+                "grant-acronym": "NSFC, NNSF, NNSFC",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "National Natural Science Foundation of China"
+                },
+                "grant-agency-id": "501100001809"
+              },
+              {
+                "grant-id": "52508453",
+                "grant-acronym": "NSFC, NNSF, NNSFC",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "National Natural Science Foundation of China"
+                },
+                "grant-agency-id": "501100001809"
+              }
+            ]
+          }
+        },
+        "item-info": {
+          "copyright": {
+            "$": "Copyright 2026 Elsevier B.V., All rights reserved.",
+            "@type": "Elsevier"
+          },
+          "dbcollection": [
+            {
+              "$": "GEO"
+            },
+            {
+              "$": "REAXYSCAR"
+            },
+            {
+              "$": "SCOPUS"
+            },
+            {
+              "$": "SNGEO"
+            },
+            {
+              "$": "Scopusbase"
+            }
+          ],
+          "history": {
+            "date-created": {
+              "@day": "06",
+              "@timestamp": "BST 06:23:52",
+              "@year": "2026",
+              "@month": "04"
+            }
+          },
+          "itemidlist": {
+            "itemid": [
+              {
+                "$": "2044334255",
+                "@idtype": "PUI"
+              },
+              {
+                "$": "972968705",
+                "@idtype": "CAR-ID"
+              },
+              {
+                "$": "11477625",
+                "@idtype": "GEO"
+              },
+              {
+                "$": "20260914591",
+                "@idtype": "REAXYSCAR"
+              },
+              {
+                "$": "20261441265",
+                "@idtype": "SCOPUS"
+              },
+              {
+                "$": "2026007396",
+                "@idtype": "SNGEO"
+              },
+              {
+                "$": "972968705#347649799",
+                "@idtype": "SRC-OCC-ID"
+              },
+              {
+                "$": "105033885312",
+                "@idtype": "SCP"
+              },
+              {
+                "$": "105033885312",
+                "@idtype": "SGR"
+              }
+            ],
+            "ce:pii": "S2214391226001261",
+            "ce:ern": "pii:S2214391226001261",
+            "ce:doi": "10.1016/j.trgeo.2026.102016"
+          }
+        },
+        "tail": {
+          "bibliography": {
+            "@refcount": "52",
+            "reference": [
+              {
+                "ref-fulltext": "Kirsch A. Experimental investigation of the face stability of shallow tunnels in sand. Acta Geotech 2010;5(1):43–62. Doi: 10.1007/s11440-010-0110-7.",
+                "@reference-instance-id": "OB2BibRecID-972968705-52af8048e559f61de98f3c78e2bcaaf2-1",
+                "@id": "1",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental investigation of the face stability of shallow tunnels in sand"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s11440-010-0110-7",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0005",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "77950022673",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "5",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "43",
+                      "@last": "62"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Kirsch",
+                        "ce:indexed-name": "Kirsch A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Acta Geotech"
+                },
+                "ce:source-text": "Kirsch A. Experimental investigation of the face stability of shallow tunnels in sand. Acta Geotech 2010;5(1):43–62. Doi: 10.1007/s11440-010-0110-7."
+              },
+              {
+                "ref-fulltext": "Chen RP, Li J, Kong LG, Tang LJ. Experimental study on face instability of shield tunnel in sand. Tunn Undergr Sp Technol 2013;33:12–21. Doi: 10.1016/j.tust.2012.08.001.",
+                "@reference-instance-id": "OB2BibRecID-972968705-9f331780cc971b64094f1f78bcacd0f6-2",
+                "@id": "2",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental study on face instability of shield tunnel in sand"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2012.08.001",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0010",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84868693441",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "33"
+                    },
+                    "pagerange": {
+                      "@first": "12",
+                      "@last": "21"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen R.P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "L.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Kong",
+                        "ce:indexed-name": "Kong L.G."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "L.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Tang",
+                        "ce:indexed-name": "Tang L.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn Undergr Sp Technol"
+                },
+                "ce:source-text": "Chen RP, Li J, Kong LG, Tang LJ. Experimental study on face instability of shield tunnel in sand. Tunn Undergr Sp Technol 2013;33:12–21. Doi: 10.1016/j.tust.2012.08.001."
+              },
+              {
+                "ref-fulltext": "Lv XL, Zeng S, Zhao YC, Huang MS, Ma SK, Zhang ZG. Physical model tests and discrete element simulation of shield tunnel face stability in anisotropic granular media. Acta Geotech 2020;15:3017–26. Doi: 10.1007/s11440-020-01041-4.",
+                "@reference-instance-id": "OB2BibRecID-972968705-c095eeff452deb7b18a6422e40d8daa3-3",
+                "@id": "3",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Physical model tests and discrete element simulation of shield tunnel face stability in anisotropic granular media"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s11440-020-01041-4",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0015",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85088575257",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "15"
+                    },
+                    "pagerange": {
+                      "@first": "3017",
+                      "@last": "3026"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Lv",
+                        "ce:indexed-name": "Lv X.L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Zeng",
+                        "ce:indexed-name": "Zeng S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao Y.C."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "M.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang M.S."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "S.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Ma",
+                        "ce:indexed-name": "Ma S.K."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "Z.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Z.G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Acta Geotech"
+                },
+                "ce:source-text": "Lv XL, Zeng S, Zhao YC, Huang MS, Ma SK, Zhang ZG. Physical model tests and discrete element simulation of shield tunnel face stability in anisotropic granular media. Acta Geotech 2020;15:3017–26. Doi: 10.1007/s11440-020-01041-4."
+              },
+              {
+                "ref-fulltext": "Jin DL, Yuan DJ, Mao JH. Face failure analysis of a shield tunnel with slurry penetration into the ground. Tunn Undergr Sp Technol 2022;126:104554. Doi: 10.1016/j.tust.2022.104554.",
+                "@reference-instance-id": "OB2BibRecID-972968705-2b85ccf90d40861ac1e69486f4f6a844-4",
+                "@id": "4",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Face failure analysis of a shield tunnel with slurry penetration into the ground"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2022.104554",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0020",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "104554",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85131117107",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "126"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Jin",
+                        "ce:indexed-name": "Jin D.L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Yuan",
+                        "ce:indexed-name": "Yuan D.J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Mao",
+                        "ce:indexed-name": "Mao J.H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn Undergr Sp Technol"
+                },
+                "ce:source-text": "Jin DL, Yuan DJ, Mao JH. Face failure analysis of a shield tunnel with slurry penetration into the ground. Tunn Undergr Sp Technol 2022;126:104554. Doi: 10.1016/j.tust.2022.104554."
+              },
+              {
+                "ref-fulltext": "Man JH, Huang HW, Dias D, Wang FY, Chen JY. Stability evaluation model for the tunnel face of large cross-section tunnel excavated by the bench method. Comput Geotech 2024;170:106311. Doi: 10.1016/j.compgeo.2024.106311.",
+                "@reference-instance-id": "OB2BibRecID-972968705-6359399c5a6192f75847cd89e0d11ebc-5",
+                "@id": "5",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Stability evaluation model for the tunnel face of large cross-section tunnel excavated by the bench method"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.compgeo.2024.106311",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0025",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "106311",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85189938267",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "170"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Man",
+                        "ce:indexed-name": "Man J.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang H.W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Dias",
+                        "ce:indexed-name": "Dias D."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "F.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang F.Y."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "J.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen J.Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Comput Geotech"
+                },
+                "ce:source-text": "Man JH, Huang HW, Dias D, Wang FY, Chen JY. Stability evaluation model for the tunnel face of large cross-section tunnel excavated by the bench method. Comput Geotech 2024;170:106311. Doi: 10.1016/j.compgeo.2024.106311."
+              },
+              {
+                "ref-fulltext": "Wu B, Liu W, Chian SC, Yan JJ, Cheng C. Analysis of working face stability of longitudinally inclined shield driven tunnels in frictional soils. Tunn Undergr Sp Technol 2024;144:105579. Doi: 10.1016/j.tust.2023.105579.",
+                "@reference-instance-id": "OB2BibRecID-972968705-e3b1b4d53f9c4453f1eba5be1660f2f4-6",
+                "@id": "6",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Analysis of working face stability of longitudinally inclined shield driven tunnels in frictional soils"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2023.105579",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0030",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105579",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85182025509",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "144"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Chian",
+                        "ce:indexed-name": "Chian S.C."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Yan",
+                        "ce:indexed-name": "Yan J.J."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Cheng",
+                        "ce:indexed-name": "Cheng C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn Undergr Sp Technol"
+                },
+                "ce:source-text": "Wu B, Liu W, Chian SC, Yan JJ, Cheng C. Analysis of working face stability of longitudinally inclined shield driven tunnels in frictional soils. Tunn Undergr Sp Technol 2024;144:105579. Doi: 10.1016/j.tust.2023.105579."
+              },
+              {
+                "ref-fulltext": "Lei HY, Guan BH, Liu YN, Ma CY. Face stability analysis of quasi-rectangular shield tunneling by transparent sand model test and FDM simulation. Bull Eng Geol Environ 2025;84:525. Doi: 10.1007/s10064-025-04528-0.",
+                "@reference-instance-id": "OB2BibRecID-972968705-63e42305ac08f8591aead6b3d1577ed7-7",
+                "@id": "7",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2025"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Face stability analysis of quasi-rectangular shield tunneling by transparent sand model test and FDM simulation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s10064-025-04528-0",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0035",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105019506481",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "84"
+                    },
+                    "pagerange": {
+                      "@first": "525"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Lei",
+                        "ce:indexed-name": "Lei H.Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "B.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Guan",
+                        "ce:indexed-name": "Guan B.H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu Y.N."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "C.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Ma",
+                        "ce:indexed-name": "Ma C.Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Bull Eng Geol Environ"
+                },
+                "ce:source-text": "Lei HY, Guan BH, Liu YN, Ma CY. Face stability analysis of quasi-rectangular shield tunneling by transparent sand model test and FDM simulation. Bull Eng Geol Environ 2025;84:525. Doi: 10.1007/s10064-025-04528-0."
+              },
+              {
+                "ref-fulltext": "Lei HY, Zhai SB, Liu YN, Jia R. Visualization analysis of the progressive failure mechanism of tunnel face in transparent clay. Geomech Eng 2022;29(2):193–205. Doi: 10.12989/gae.2022.29.2.193.",
+                "@reference-instance-id": "OB2BibRecID-972968705-918e40d7ed2d03209c69e684cced1a84-8",
+                "@id": "8",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Visualization analysis of the progressive failure mechanism of tunnel face in transparent clay"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.12989/gae.2022.29.2.193",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0040",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85129746596",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "29",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "193",
+                      "@last": "205"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Lei",
+                        "ce:indexed-name": "Lei H.Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhai",
+                        "ce:indexed-name": "Zhai S.B."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu Y.N."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Jia",
+                        "ce:indexed-name": "Jia R."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geomech Eng"
+                },
+                "ce:source-text": "Lei HY, Zhai SB, Liu YN, Jia R. Visualization analysis of the progressive failure mechanism of tunnel face in transparent clay. Geomech Eng 2022;29(2):193–205. Doi: 10.12989/gae.2022.29.2.193."
+              },
+              {
+                "ref-fulltext": "Sun ZY, Zhang DL, Li A, Lu S, Tai QM, Chu ZF. Model test and numerical analysis for the face failure mechanism of large cross-section tunnels under different ground conditions. Tunn Undergr Sp Technol 2022;130:104735. Doi: 10.1016/j.tust.2022.104735.",
+                "@reference-instance-id": "OB2BibRecID-972968705-5b576d8ca1e125459ca5f6d101018e7e-9",
+                "@id": "9",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Model test and numerical analysis for the face failure mechanism of large cross-section tunnels under different ground conditions"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2022.104735",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0045",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "104735",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85137156134",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "130"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Sun",
+                        "ce:indexed-name": "Sun Z.Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang D.L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li A."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Lu",
+                        "ce:indexed-name": "Lu S."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Q.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Tai",
+                        "ce:indexed-name": "Tai Q.M."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "Z.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Chu",
+                        "ce:indexed-name": "Chu Z.F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn Undergr Sp Technol"
+                },
+                "ce:source-text": "Sun ZY, Zhang DL, Li A, Lu S, Tai QM, Chu ZF. Model test and numerical analysis for the face failure mechanism of large cross-section tunnels under different ground conditions. Tunn Undergr Sp Technol 2022;130:104735. Doi: 10.1016/j.tust.2022.104735."
+              },
+              {
+                "ref-fulltext": "Wang J, Lin GJ, Tian N, Feng K, Xu GW, Hu XY, Chen ZQ, He C. Face failure of EPB shield tunnels in dry dense sand: a model test and DEM study. Can Geotech J 2024;61(9):1832–56. Doi: 10.1139/cgj-2023-0072.",
+                "@reference-instance-id": "OB2BibRecID-972968705-a54d688dec8467785ebb8a56e5271943-10",
+                "@id": "10",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Face failure of EPB shield tunnels in dry dense sand: a model test and DEM study"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1139/cgj-2023-0072",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0050",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85203191441",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "61",
+                      "@issue": "9"
+                    },
+                    "pagerange": {
+                      "@first": "1832",
+                      "@last": "1856"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Lin",
+                        "ce:indexed-name": "Lin G.J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Tian",
+                        "ce:indexed-name": "Tian N."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Feng",
+                        "ce:indexed-name": "Feng K."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "G.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu G.W."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "X.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Hu",
+                        "ce:indexed-name": "Hu X.Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Can Geotech J"
+                },
+                "ce:source-text": "Wang J, Lin GJ, Tian N, Feng K, Xu GW, Hu XY, Chen ZQ, He C. Face failure of EPB shield tunnels in dry dense sand: a model test and DEM study. Can Geotech J 2024;61(9):1832–56. Doi: 10.1139/cgj-2023-0072."
+              },
+              {
+                "ref-fulltext": "Li W, Zhang CP, Tu SQ, Chen W, Ma MS. Face stability analysis of a shield tunnel excavated along inclined strata. Undergr Space 2023;13:183–204. Doi: 10.1016/j.undsp.2023.03.007.",
+                "@reference-instance-id": "OB2BibRecID-972968705-5bc7b5a36529c37bc20d6fe717001ea2-11",
+                "@id": "11",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Face stability analysis of a shield tunnel excavated along inclined strata"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.undsp.2023.03.007",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0055",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85165227387",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "13"
+                    },
+                    "pagerange": {
+                      "@first": "183",
+                      "@last": "204"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang C.P."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Tu",
+                        "ce:indexed-name": "Tu S.Q."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen W."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "M.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Ma",
+                        "ce:indexed-name": "Ma M.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Undergr Space"
+                },
+                "ce:source-text": "Li W, Zhang CP, Tu SQ, Chen W, Ma MS. Face stability analysis of a shield tunnel excavated along inclined strata. Undergr Space 2023;13:183–204. Doi: 10.1016/j.undsp.2023.03.007."
+              },
+              {
+                "ref-fulltext": "Chen GH, Zou JF, Guo YC, Tan ZA, Dan S. Face stability assessment of a longitudinally inclined tunnel considering pore water pressure. Int J Numer Anal Meth Geomech 2024;48(15):3725–47. Doi: 10.1002/nag.3815.",
+                "@reference-instance-id": "OB2BibRecID-972968705-ed593285930a75d9dcfbfa2a5724d952-12",
+                "@id": "12",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Face stability assessment of a longitudinally inclined tunnel considering pore water pressure"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1002/nag.3815",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0060",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85199609483",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "48",
+                      "@issue": "15"
+                    },
+                    "pagerange": {
+                      "@first": "3725",
+                      "@last": "3747"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen G.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Zou",
+                        "ce:indexed-name": "Zou J.F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Guo",
+                        "ce:indexed-name": "Guo Y.C."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Z.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Tan",
+                        "ce:indexed-name": "Tan Z.A."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Dan",
+                        "ce:indexed-name": "Dan S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Int J Numer Anal Meth Geomech"
+                },
+                "ce:source-text": "Chen GH, Zou JF, Guo YC, Tan ZA, Dan S. Face stability assessment of a longitudinally inclined tunnel considering pore water pressure. Int J Numer Anal Meth Geomech 2024;48(15):3725–47. Doi: 10.1002/nag.3815."
+              },
+              {
+                "ref-fulltext": "Chambon P, Corte JF. Shallow tunnels in cohesionless soil: stability of tunnel face. J Geotech Eng 1994;120(7):1148–65. Doi: 10.1061/(ASCE)0733-9410(1994)120:7(1148).",
+                "@reference-instance-id": "OB2BibRecID-972968705-67fbcd16d0e9e8e395dc210f0e6f32fd-13",
+                "@id": "13",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1994"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Shallow tunnels in cohesionless soil: stability of tunnel face"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1061/(ASCE)0733-9410(1994)120:7(1148)",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0065",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0028668968",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "120",
+                      "@issue": "7"
+                    },
+                    "pagerange": {
+                      "@first": "1148",
+                      "@last": "1165"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Chambon",
+                        "ce:indexed-name": "Chambon P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Corte",
+                        "ce:indexed-name": "Corte J.F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Geotech Eng"
+                },
+                "ce:source-text": "Chambon P, Corte JF. Shallow tunnels in cohesionless soil: stability of tunnel face. J Geotech Eng 1994;120(7):1148–65. Doi: 10.1061/(ASCE)0733-9410(1994)120:7(1148)."
+              },
+              {
+                "ref-fulltext": "Berthoz N, Branque D, Subrin D, Wong H, Humbert E. Face failure in homogeneous and stratified soft ground: Theoretical and experimental approaches on 1g EPBS reduced scale model. Tunn Undergr Sp Technol 2012;30:25–37. Doi: 10.1016/j.tust.2012.01.005.",
+                "@reference-instance-id": "OB2BibRecID-972968705-373588fe983f7f2ace800ae7e12219ce-14",
+                "@id": "14",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Face failure in homogeneous and stratified soft ground: Theoretical and experimental approaches on 1g EPBS reduced scale model"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2012.01.005",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0070",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84860621288",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "30"
+                    },
+                    "pagerange": {
+                      "@first": "25",
+                      "@last": "37"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Berthoz",
+                        "ce:indexed-name": "Berthoz N."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Branque",
+                        "ce:indexed-name": "Branque D."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Subrin",
+                        "ce:indexed-name": "Subrin D."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Wong",
+                        "ce:indexed-name": "Wong H."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Humbert",
+                        "ce:indexed-name": "Humbert E."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn Undergr Sp Technol"
+                },
+                "ce:source-text": "Berthoz N, Branque D, Subrin D, Wong H, Humbert E. Face failure in homogeneous and stratified soft ground: Theoretical and experimental approaches on 1g EPBS reduced scale model. Tunn Undergr Sp Technol 2012;30:25–37. Doi: 10.1016/j.tust.2012.01.005."
+              },
+              {
+                "ref-fulltext": "Liu W, Zhao Y, Shi P, Li J, Gan P. Face stability analysis of shield driven tunnels shallowly buried in dry sand using 1-g large-scale model tests. Acta Geotech 2018;13(3):693–705. Doi: 10.1007/s11440-017-0607-4.",
+                "@reference-instance-id": "OB2BibRecID-972968705-d2e0ca82aa3901f9b66cad19768408b1-15",
+                "@id": "15",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Face stability analysis of shield driven tunnels shallowly buried in dry sand using 1-g large-scale model tests"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s11440-017-0607-4",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0075",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85035319488",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "13",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "693",
+                      "@last": "705"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi P."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li J."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Gan",
+                        "ce:indexed-name": "Gan P."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Acta Geotech"
+                },
+                "ce:source-text": "Liu W, Zhao Y, Shi P, Li J, Gan P. Face stability analysis of shield driven tunnels shallowly buried in dry sand using 1-g large-scale model tests. Acta Geotech 2018;13(3):693–705. Doi: 10.1007/s11440-017-0607-4."
+              },
+              {
+                "ref-fulltext": "Liu Y, Lei H, Wang M, Huang H. Internal instability evolution mechanism of tunnel face in sand-clay composite strata: Transparent soil model tests and DEM simulations. Transp Geotech 2026;56: 101840. Doi: 10.1016/j.trgeo.2025.101840.",
+                "@reference-instance-id": "OB2BibRecID-972968705-f0fd545cbfa29c21a7920138d3d542ae-16",
+                "@id": "16",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2026"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Internal instability evolution mechanism of tunnel face in sand-clay composite strata: Transparent soil model tests and DEM simulations"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.trgeo.2025.101840",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0080",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "101840",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "105024114884",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "56"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Lei",
+                        "ce:indexed-name": "Lei H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang M."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Transp Geotech"
+                },
+                "ce:source-text": "Liu Y, Lei H, Wang M, Huang H. Internal instability evolution mechanism of tunnel face in sand-clay composite strata: Transparent soil model tests and DEM simulations. Transp Geotech 2026;56: 101840. Doi: 10.1016/j.trgeo.2025.101840."
+              },
+              {
+                "ref-fulltext": "Idinger G, Aklik P, Wu W, Borja RI. Centrifuge model test on the face stability of shallow tunnel. Acta Geotech 2011;6(2):105–17. Doi: 10.1007/s11440-011-0139-2.",
+                "@reference-instance-id": "OB2BibRecID-972968705-85ad960d1de5a9f7e088a78ce1ee9631-17",
+                "@id": "17",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Centrifuge model test on the face stability of shallow tunnel"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s11440-011-0139-2",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0085",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "79960040852",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "6",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "105",
+                      "@last": "117"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Idinger",
+                        "ce:indexed-name": "Idinger G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Aklik",
+                        "ce:indexed-name": "Aklik P."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu W."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "R.I.",
+                        "@_fa": "true",
+                        "ce:surname": "Borja",
+                        "ce:indexed-name": "Borja R.I."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Acta Geotech"
+                },
+                "ce:source-text": "Idinger G, Aklik P, Wu W, Borja RI. Centrifuge model test on the face stability of shallow tunnel. Acta Geotech 2011;6(2):105–17. Doi: 10.1007/s11440-011-0139-2."
+              },
+              {
+                "ref-fulltext": "Ng CWW, Wong KS. Investigation of passive failure and deformation mechanisms due to tunnelling in clay. Can Geotech J 2013;50(4):359–72. Doi: 10.1139/cgj-2012-0098.",
+                "@reference-instance-id": "OB2BibRecID-972968705-dd798cef77cc0030b4851ece97ed3ede-18",
+                "@id": "18",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Investigation of passive failure and deformation mechanisms due to tunnelling in clay"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1139/cgj-2012-0098",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0090",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84876565076",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "50",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "359",
+                      "@last": "372"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.W.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Ng",
+                        "ce:indexed-name": "Ng C.W.W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Wong",
+                        "ce:indexed-name": "Wong K.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Can Geotech J"
+                },
+                "ce:source-text": "Ng CWW, Wong KS. Investigation of passive failure and deformation mechanisms due to tunnelling in clay. Can Geotech J 2013;50(4):359–72. Doi: 10.1139/cgj-2012-0098."
+              },
+              {
+                "ref-fulltext": "Soranzo E, Tamagnini R, Wu W. Face stability of shallow tunnels in partially saturated soils: centrifuge testing and numerical analysis. Geotechnique 2015;65(6):454–67. Doi: 10.1680/geot.14.P.123.",
+                "@reference-instance-id": "OB2BibRecID-972968705-4d5e8c195b226e07e48bf042ab5c7d20-19",
+                "@id": "19",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Face stability of shallow tunnels in partially saturated soils: centrifuge testing and numerical analysis"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1680/geot.14.P.123",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0095",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84937111541",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "65",
+                      "@issue": "6"
+                    },
+                    "pagerange": {
+                      "@first": "454",
+                      "@last": "467"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Soranzo",
+                        "ce:indexed-name": "Soranzo E."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Tamagnini",
+                        "ce:indexed-name": "Tamagnini R."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geotechnique"
+                },
+                "ce:source-text": "Soranzo E, Tamagnini R, Wu W. Face stability of shallow tunnels in partially saturated soils: centrifuge testing and numerical analysis. Geotechnique 2015;65(6):454–67. Doi: 10.1680/geot.14.P.123."
+              },
+              {
+                "ref-fulltext": "Ma SK, Duan ZB, Huang Z, Liu Y, Shao Y. Study on the stability of shield tunnel face in clay and clay-gravel stratum through large-scale physical model tests with transparent soil. Tunn Undergr Sp Technol 2022;119:104199. Doi: 10.1016/j.tust.2021.104199.",
+                "@reference-instance-id": "OB2BibRecID-972968705-05f5a9261385c1509c5a735418d2bdcd-20",
+                "@id": "20",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Study on the stability of shield tunnel face in clay and clay-gravel stratum through large-scale physical model tests with transparent soil"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2021.104199",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0100",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "104199",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85118697662",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "119"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Ma",
+                        "ce:indexed-name": "Ma S.K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Duan",
+                        "ce:indexed-name": "Duan Z.B."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang Z."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu Y."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Shao",
+                        "ce:indexed-name": "Shao Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn Undergr Sp Technol"
+                },
+                "ce:source-text": "Ma SK, Duan ZB, Huang Z, Liu Y, Shao Y. Study on the stability of shield tunnel face in clay and clay-gravel stratum through large-scale physical model tests with transparent soil. Tunn Undergr Sp Technol 2022;119:104199. Doi: 10.1016/j.tust.2021.104199."
+              },
+              {
+                "ref-fulltext": "Lei HY, Liu YN, Hu Y, Jia R, Zhang YJ. Active stability of the shield tunneling face crossing an adjacent existing tunnel: transparent clay model test and DEM simulation. Can Geotech J 2023;60(6):864–84. Doi: 10.1139/cgj-2022-0294.",
+                "@reference-instance-id": "OB2BibRecID-972968705-23c092945b2c7a477dcb73a391539d9d-21",
+                "@id": "21",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Active stability of the shield tunneling face crossing an adjacent existing tunnel: transparent clay model test and DEM simulation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1139/cgj-2022-0294",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0105",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85162843176",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "60",
+                      "@issue": "6"
+                    },
+                    "pagerange": {
+                      "@first": "864",
+                      "@last": "884"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Lei",
+                        "ce:indexed-name": "Lei H.Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu Y.N."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Hu",
+                        "ce:indexed-name": "Hu Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Jia",
+                        "ce:indexed-name": "Jia R."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Y.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Y.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Can Geotech J"
+                },
+                "ce:source-text": "Lei HY, Liu YN, Hu Y, Jia R, Zhang YJ. Active stability of the shield tunneling face crossing an adjacent existing tunnel: transparent clay model test and DEM simulation. Can Geotech J 2023;60(6):864–84. Doi: 10.1139/cgj-2022-0294."
+              },
+              {
+                "ref-fulltext": "Kim SH, Tonon F. Face stability and required support pressure for TBM driven tunnels with ideal face membrane-drained case. Tunn Undergr Sp Technol 2010;25(5):526–42. Doi: 10.1016/j.tust.2010.03.002.",
+                "@reference-instance-id": "OB2BibRecID-972968705-cca95a2108810b3a20cc1c03592e8ad8-22",
+                "@id": "22",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Face stability and required support pressure for TBM driven tunnels with ideal face membrane-drained case"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2010.03.002",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0110",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "77953363077",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "25",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "526",
+                      "@last": "542"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim S.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Tonon",
+                        "ce:indexed-name": "Tonon F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn Undergr Sp Technol"
+                },
+                "ce:source-text": "Kim SH, Tonon F. Face stability and required support pressure for TBM driven tunnels with ideal face membrane-drained case. Tunn Undergr Sp Technol 2010;25(5):526–42. Doi: 10.1016/j.tust.2010.03.002."
+              },
+              {
+                "ref-fulltext": "Ibrahim E, Soubra AH, Mollon G, Raphael W, Dias D, Reda A. Three-dimensional face stability analysis of pressurized tunnels driven in a multilayered purely frictional medium. Tunn Undergr Sp Technol 2015;49:18–34. Doi: 10.1016/j.tust.2015.04.001.",
+                "@reference-instance-id": "OB2BibRecID-972968705-5c2cb4261076979c504557bb7e44bba7-23",
+                "@id": "23",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Three-dimensional face stability analysis of pressurized tunnels driven in a multilayered purely frictional medium"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2015.04.001",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0115",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84927770125",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "49"
+                    },
+                    "pagerange": {
+                      "@first": "18",
+                      "@last": "34"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Ibrahim",
+                        "ce:indexed-name": "Ibrahim E."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Soubra",
+                        "ce:indexed-name": "Soubra A.H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Mollon",
+                        "ce:indexed-name": "Mollon G."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Raphael",
+                        "ce:indexed-name": "Raphael W."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Dias",
+                        "ce:indexed-name": "Dias D."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Reda",
+                        "ce:indexed-name": "Reda A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn Undergr Sp Technol"
+                },
+                "ce:source-text": "Ibrahim E, Soubra AH, Mollon G, Raphael W, Dias D, Reda A. Three-dimensional face stability analysis of pressurized tunnels driven in a multilayered purely frictional medium. Tunn Undergr Sp Technol 2015;49:18–34. Doi: 10.1016/j.tust.2015.04.001."
+              },
+              {
+                "ref-fulltext": "Paternesi A, Schweiger HF, Scarpelli G. Numerical analyses of stability and deformation behavior of reinforced and unreinforced tunnel faces. Comput Geotech 2017;88:256–66. Doi: 10.1016/j.compgeo.2017.04.002.",
+                "@reference-instance-id": "OB2BibRecID-972968705-d50df6b94a9063bd6d99047206865894-24",
+                "@id": "24",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Numerical analyses of stability and deformation behavior of reinforced and unreinforced tunnel faces"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.compgeo.2017.04.002",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0120",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85017380448",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "88"
+                    },
+                    "pagerange": {
+                      "@first": "256",
+                      "@last": "266"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Paternesi",
+                        "ce:indexed-name": "Paternesi A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Schweiger",
+                        "ce:indexed-name": "Schweiger H.F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Scarpelli",
+                        "ce:indexed-name": "Scarpelli G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Comput Geotech"
+                },
+                "ce:source-text": "Paternesi A, Schweiger HF, Scarpelli G. Numerical analyses of stability and deformation behavior of reinforced and unreinforced tunnel faces. Comput Geotech 2017;88:256–66. Doi: 10.1016/j.compgeo.2017.04.002."
+              },
+              {
+                "ref-fulltext": "Li Y, Emeriault F, Kastner R, Zhang ZX. Stability analysis of large slurry shield-driven tunnel in soft clay. Tunn Undergr Sp Technol 2009;24(4):472–81. Doi: 10.1016/j.tust.2008.10.007.",
+                "@reference-instance-id": "OB2BibRecID-972968705-a9d3f21f6662c04112598b42d4e7132f-25",
+                "@id": "25",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Stability analysis of large slurry shield-driven tunnel in soft clay"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2008.10.007",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0125",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "64749095042",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "24",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "472",
+                      "@last": "481"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Emeriault",
+                        "ce:indexed-name": "Emeriault F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Kastner",
+                        "ce:indexed-name": "Kastner R."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Z.X.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Z.X."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn Undergr Sp Technol"
+                },
+                "ce:source-text": "Li Y, Emeriault F, Kastner R, Zhang ZX. Stability analysis of large slurry shield-driven tunnel in soft clay. Tunn Undergr Sp Technol 2009;24(4):472–81. Doi: 10.1016/j.tust.2008.10.007."
+              },
+              {
+                "ref-fulltext": "Zhang C, Han K, Zhang D. Face stability analysis of shallow circular tunnels in cohesive–frictional soils. Tunn Undergr Sp Technol 2015;50:345–57. Doi: 10.1016/j.tust.2015.08.007.",
+                "@reference-instance-id": "OB2BibRecID-972968705-12b14fe4ebfaddf3a01d95186cdfd67b-26",
+                "@id": "26",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Face stability analysis of shallow circular tunnels in cohesive–frictional soils"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2015.08.007",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0130",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84940041964",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "50"
+                    },
+                    "pagerange": {
+                      "@first": "345",
+                      "@last": "357"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Han",
+                        "ce:indexed-name": "Han K."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang D."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn Undergr Sp Technol"
+                },
+                "ce:source-text": "Zhang C, Han K, Zhang D. Face stability analysis of shallow circular tunnels in cohesive–frictional soils. Tunn Undergr Sp Technol 2015;50:345–57. Doi: 10.1016/j.tust.2015.08.007."
+              },
+              {
+                "ref-fulltext": "Chang YB, Cao P, Zhang J, Fan Z, Xie WP, Liu ZZ, Deng HJ, Zhao QX. Face stability of tunnel in multi-stratum: Limit analysis and numerical simulation. Geotech Geol Eng 2023;41:3203–15. Doi: 10.1007/s10706-023-02453-1.",
+                "@reference-instance-id": "OB2BibRecID-972968705-1d57039c4a3161457266997ef4dc003e-27",
+                "@id": "27",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Face stability of tunnel in multi-stratum: Limit analysis and numerical simulation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s10706-023-02453-1",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0135",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85153084409",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "41"
+                    },
+                    "pagerange": {
+                      "@first": "3203",
+                      "@last": "3215"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Chang",
+                        "ce:indexed-name": "Chang Y.B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Cao",
+                        "ce:indexed-name": "Cao P."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Fan",
+                        "ce:indexed-name": "Fan Z."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "W.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Xie",
+                        "ce:indexed-name": "Xie W.P."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "Z.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu Z.Z."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geotech Geol Eng"
+                },
+                "ce:source-text": "Chang YB, Cao P, Zhang J, Fan Z, Xie WP, Liu ZZ, Deng HJ, Zhao QX. Face stability of tunnel in multi-stratum: Limit analysis and numerical simulation. Geotech Geol Eng 2023;41:3203–15. Doi: 10.1007/s10706-023-02453-1."
+              },
+              {
+                "ref-fulltext": "Chen RP, Tang LJ, Ling DS, Chen YM. Face stability analysis of shallow shield tunnels in dry sandy ground using the discrete element method. Comput Geotech 2011;38(2):187–95. Doi: 10.1016/j.compgeo.2010.11.003.",
+                "@reference-instance-id": "OB2BibRecID-972968705-4e423bb20c8045e6cb3baf3c13562dee-28",
+                "@id": "28",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Face stability analysis of shallow shield tunnels in dry sandy ground using the discrete element method"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.compgeo.2010.11.003",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0140",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "79551488566",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "38",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "187",
+                      "@last": "195"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen R.P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Tang",
+                        "ce:indexed-name": "Tang L.J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Ling",
+                        "ce:indexed-name": "Ling D.S."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen Y.M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Comput Geotech"
+                },
+                "ce:source-text": "Chen RP, Tang LJ, Ling DS, Chen YM. Face stability analysis of shallow shield tunnels in dry sandy ground using the discrete element method. Comput Geotech 2011;38(2):187–95. Doi: 10.1016/j.compgeo.2010.11.003."
+              },
+              {
+                "ref-fulltext": "Zhang ZX, Hu XY, Scott KD. A discrete numerical approach for modeling face stability in slurry shield tunnelling in soft soils. Comput Geotech 2011;38(1):94–104. Doi: 10.1016/j.compgeo.2010.10.011.",
+                "@reference-instance-id": "OB2BibRecID-972968705-ab40948aec1b1e1f40098a03d8a8bf5d-29",
+                "@id": "29",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A discrete numerical approach for modeling face stability in slurry shield tunnelling in soft soils"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.compgeo.2010.10.011",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0145",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "78649629070",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "38",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "94",
+                      "@last": "104"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.X.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Z.X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Hu",
+                        "ce:indexed-name": "Hu X.Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "K.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Scott",
+                        "ce:indexed-name": "Scott K.D."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Comput Geotech"
+                },
+                "ce:source-text": "Zhang ZX, Hu XY, Scott KD. A discrete numerical approach for modeling face stability in slurry shield tunnelling in soft soils. Comput Geotech 2011;38(1):94–104. Doi: 10.1016/j.compgeo.2010.10.011."
+              },
+              {
+                "ref-fulltext": "Fu YB, Zeng DQ, Xiong H, Li XH, Chen YL. Seepage effect on failure mechanisms of the underwater tunnel face via CFD-DEM coupling. Comput Geotech 2022;146:104591. Doi: 10.1016/j.compgeo.2021.104591.",
+                "@reference-instance-id": "OB2BibRecID-972968705-fbafd974c7e10bba7958abe9e944aa7d-30",
+                "@id": "30",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seepage effect on failure mechanisms of the underwater tunnel face via CFD-DEM coupling"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.compgeo.2021.104591",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0150",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "104591",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85126576556",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "146"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Fu",
+                        "ce:indexed-name": "Fu Y.B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Zeng",
+                        "ce:indexed-name": "Zeng D.Q."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Xiong",
+                        "ce:indexed-name": "Xiong H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "X.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li X.H."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Y.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen Y.L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Comput Geotech"
+                },
+                "ce:source-text": "Fu YB, Zeng DQ, Xiong H, Li XH, Chen YL. Seepage effect on failure mechanisms of the underwater tunnel face via CFD-DEM coupling. Comput Geotech 2022;146:104591. Doi: 10.1016/j.compgeo.2021.104591."
+              },
+              {
+                "ref-fulltext": "Liu Y, Lei H, Shi L, Zheng G, Wang M. Deformation analysis of ground and existing tunnel induced by overlapped curved shield tunneling. J Rock Mech Geotech Eng 2025;17(2):795–809. Doi: 10.1016/j.jrmge.2024.05.050.",
+                "@reference-instance-id": "OB2BibRecID-972968705-1686d335e7e8d52d94a43fe141149507-31",
+                "@id": "31",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2025"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Deformation analysis of ground and existing tunnel induced by overlapped curved shield tunneling"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.jrmge.2024.05.050",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0155",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85209627818",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "17",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "795",
+                      "@last": "809"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Lei",
+                        "ce:indexed-name": "Lei H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi L."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Zheng",
+                        "ce:indexed-name": "Zheng G."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Rock Mech Geotech Eng"
+                },
+                "ce:source-text": "Liu Y, Lei H, Shi L, Zheng G, Wang M. Deformation analysis of ground and existing tunnel induced by overlapped curved shield tunneling. J Rock Mech Geotech Eng 2025;17(2):795–809. Doi: 10.1016/j.jrmge.2024.05.050."
+              },
+              {
+                "ref-fulltext": "Horn M. Horizontal earth pressure on perpendicular tunnel face. Hungarian National Conference of the Foundation Engineer Industry, Budapest, 1961.",
+                "@reference-instance-id": "OB2BibRecID-972968705-6f5698d6cb4e642a8cfa60cab2e49e7c-32",
+                "@id": "32",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1961"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Horizontal earth pressure on perpendicular tunnel face"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0160",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "80051887970",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Horn",
+                        "ce:indexed-name": "Horn M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Hungarian National Conference of the Foundation Engineer Industry"
+                },
+                "ce:source-text": "Horn M. Horizontal earth pressure on perpendicular tunnel face. Hungarian National Conference of the Foundation Engineer Industry, Budapest, 1961."
+              },
+              {
+                "ref-fulltext": "Murayama S, Endo M, Hashiba T, Yamamoto K, Sasaki H. Geotechnical aspects for the excavating performance of the shield machines. The 21st Annual Lecture in Meeting of Japan Society of Civil Engineers, 1966.",
+                "@reference-instance-id": "OB2BibRecID-972968705-43d35b3cce32727170faf657ceff7b30-33",
+                "@id": "33",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1966"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Geotechnical aspects for the excavating performance of the shield machines"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0165",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84859993780",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Murayama",
+                        "ce:indexed-name": "Murayama S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Endo",
+                        "ce:indexed-name": "Endo M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Hashiba",
+                        "ce:indexed-name": "Hashiba T."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Yamamoto",
+                        "ce:indexed-name": "Yamamoto K."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Sasaki",
+                        "ce:indexed-name": "Sasaki H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "The 21st Annual Lecture in Meeting of Japan Society of Civil Engineers"
+                },
+                "ce:source-text": "Murayama S, Endo M, Hashiba T, Yamamoto K, Sasaki H. Geotechnical aspects for the excavating performance of the shield machines. The 21st Annual Lecture in Meeting of Japan Society of Civil Engineers, 1966."
+              },
+              {
+                "ref-fulltext": "Zou JF, Chen GH, Qian ZH. Tunnel face stability in cohesion-frictional soils considering the soil arching effect by improved failure models. Comput Geotech 2019;106:1–17. Doi: 10.1016/j.compgeo.2018.10.014.",
+                "@reference-instance-id": "OB2BibRecID-972968705-4314f6fc2e2c3c394e897706877444b9-34",
+                "@id": "34",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Tunnel face stability in cohesion-frictional soils considering the soil arching effect by improved failure models"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.compgeo.2018.10.014",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0170",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85055442214",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "106"
+                    },
+                    "pagerange": {
+                      "@first": "1",
+                      "@last": "17"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Zou",
+                        "ce:indexed-name": "Zou J.F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen G.H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Z.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Qian",
+                        "ce:indexed-name": "Qian Z.H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Comput Geotech"
+                },
+                "ce:source-text": "Zou JF, Chen GH, Qian ZH. Tunnel face stability in cohesion-frictional soils considering the soil arching effect by improved failure models. Comput Geotech 2019;106:1–17. Doi: 10.1016/j.compgeo.2018.10.014."
+              },
+              {
+                "ref-fulltext": "Han KH, Wang L, Su D, Hong CY, Chen XS, Lin XT. An analytical model for face stability of tunnels traversing the fault fracture zone with high hydraulic pressure. Comput Geotech 2021;140:104467. Doi: 10.1016/j.compgeo.2021.104467.",
+                "@reference-instance-id": "OB2BibRecID-972968705-84979bb0a57aeebb33e9b16afc230ff9-35",
+                "@id": "35",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "An analytical model for face stability of tunnels traversing the fault fracture zone with high hydraulic pressure"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.compgeo.2021.104467",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0175",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "104467",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85116069558",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "140"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Han",
+                        "ce:indexed-name": "Han K.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Su",
+                        "ce:indexed-name": "Su D."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "C.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Hong",
+                        "ce:indexed-name": "Hong C.Y."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "X.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen X.S."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "X.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Lin",
+                        "ce:indexed-name": "Lin X.T."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Comput Geotech"
+                },
+                "ce:source-text": "Han KH, Wang L, Su D, Hong CY, Chen XS, Lin XT. An analytical model for face stability of tunnels traversing the fault fracture zone with high hydraulic pressure. Comput Geotech 2021;140:104467. Doi: 10.1016/j.compgeo.2021.104467."
+              },
+              {
+                "ref-fulltext": "Li W, Zhang CP, Tan Z, Ma MS. Effect of the seepage flow on the face stability of a shield tunnel. Tunn Undergr Sp Technol 2021;112:103900. Doi: 10.1016/j.tust.2021.103900.",
+                "@reference-instance-id": "OB2BibRecID-972968705-851be2416d1f35b463996375724e7a9a-36",
+                "@id": "36",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of the seepage flow on the face stability of a shield tunnel"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2021.103900",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0180",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "103900",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85102297789",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "112"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang C.P."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Tan",
+                        "ce:indexed-name": "Tan Z."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "M.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Ma",
+                        "ce:indexed-name": "Ma M.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn Undergr Sp Technol"
+                },
+                "ce:source-text": "Li W, Zhang CP, Tan Z, Ma MS. Effect of the seepage flow on the face stability of a shield tunnel. Tunn Undergr Sp Technol 2021;112:103900. Doi: 10.1016/j.tust.2021.103900."
+              },
+              {
+                "ref-fulltext": "Tang XW, Liu W, Albers B, Savidis S. Upper bound analysis of tunnel face stability in layered soils. Acta Geotech 2014;9(4):661–71. Doi: 10.1007/s11440-013-0256-1.",
+                "@reference-instance-id": "OB2BibRecID-972968705-fa1a2a9350a33a7183d67094db72cbec-37",
+                "@id": "37",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Upper bound analysis of tunnel face stability in layered soils"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s11440-013-0256-1",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0185",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84905039824",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "9",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "661",
+                      "@last": "671"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Tang",
+                        "ce:indexed-name": "Tang X.W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Albers",
+                        "ce:indexed-name": "Albers B."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Savidis",
+                        "ce:indexed-name": "Savidis S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Acta Geotech"
+                },
+                "ce:source-text": "Tang XW, Liu W, Albers B, Savidis S. Upper bound analysis of tunnel face stability in layered soils. Acta Geotech 2014;9(4):661–71. Doi: 10.1007/s11440-013-0256-1."
+              },
+              {
+                "ref-fulltext": "Li PF, Chen KY, Wang F, Li Z. An upper-bound analytical model of blow-out for a shallow tunnel in sand considering the partial failure within the face. Tunn Undergr Sp Technol 2019;91:102989. Doi: 10.1016/j.tust.2019.05.019.",
+                "@reference-instance-id": "OB2BibRecID-972968705-397ee5526c24369dd207ca8f6c710cd6-38",
+                "@id": "38",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "An upper-bound analytical model of blow-out for a shallow tunnel in sand considering the partial failure within the face"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2019.05.019",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0190",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "102989",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85066325857",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "91"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li P.F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen K.Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang F."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li Z."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn Undergr Sp Technol"
+                },
+                "ce:source-text": "Li PF, Chen KY, Wang F, Li Z. An upper-bound analytical model of blow-out for a shallow tunnel in sand considering the partial failure within the face. Tunn Undergr Sp Technol 2019;91:102989. Doi: 10.1016/j.tust.2019.05.019."
+              },
+              {
+                "ref-fulltext": "Jafari P, Fahimifar A. Upper-bound face stability analysis of rectangular shield-driven tunnels in undrained clays. Comput Geotech 2022;146:104739. Doi: 10.1016/j.compgeo.2022.104739.",
+                "@reference-instance-id": "OB2BibRecID-972968705-f952850a2cae17dde42a8fb6bdf53151-39",
+                "@id": "39",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Upper-bound face stability analysis of rectangular shield-driven tunnels in undrained clays"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.compgeo.2022.104739",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0195",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "104739",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85127325608",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "146"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Jafari",
+                        "ce:indexed-name": "Jafari P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Fahimifar",
+                        "ce:indexed-name": "Fahimifar A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Comput Geotech"
+                },
+                "ce:source-text": "Jafari P, Fahimifar A. Upper-bound face stability analysis of rectangular shield-driven tunnels in undrained clays. Comput Geotech 2022;146:104739. Doi: 10.1016/j.compgeo.2022.104739."
+              },
+              {
+                "ref-fulltext": "Liu Y, Lei H, Ma C, Guan B. Three-dimensional stability analysis of shield tunnel face adjacent to existing tunnels. Chin J Geotech Eng 2023;45(7):1374–83. Doi: 10.11779/CJGE20220439. (in Chinese).",
+                "@reference-instance-id": "OB2BibRecID-972968705-fdc6d9740366c9928843efd55fd75f21-40",
+                "@id": "40",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Three-dimensional stability analysis of shield tunnel face adjacent to existing tunnels"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.11779/CJGE20220439",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0200",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85166361202",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "45",
+                      "@issue": "7"
+                    },
+                    "pagerange": {
+                      "@first": "1374",
+                      "@last": "1383"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Lei",
+                        "ce:indexed-name": "Lei H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Ma",
+                        "ce:indexed-name": "Ma C."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Guan",
+                        "ce:indexed-name": "Guan B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Chin J Geotech Eng"
+                },
+                "ce:source-text": "Liu Y, Lei H, Ma C, Guan B. Three-dimensional stability analysis of shield tunnel face adjacent to existing tunnels. Chin J Geotech Eng 2023;45(7):1374–83. Doi: 10.11779/CJGE20220439. (in Chinese)."
+              },
+              {
+                "ref-fulltext": "Shi J, Wang J, Chen Y, Shi C, Lu H, Ma S, Fan Y. Physical modeling of the influence of tunnel active face instability on existing pipelines. Tunn Undergr Sp Technol 2023;140:105281. Doi: 10.1016/j.tust.2023.105281.",
+                "@reference-instance-id": "OB2BibRecID-972968705-43896c2d0e7fe5918d0e7f29f64d2a8e-41",
+                "@id": "41",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Physical modeling of the influence of tunnel active face instability on existing pipelines"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2023.105281",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0205",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105281",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85162932557",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "140"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi C."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Lu",
+                        "ce:indexed-name": "Lu H."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Ma",
+                        "ce:indexed-name": "Ma S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn Undergr Sp Technol"
+                },
+                "ce:source-text": "Shi J, Wang J, Chen Y, Shi C, Lu H, Ma S, Fan Y. Physical modeling of the influence of tunnel active face instability on existing pipelines. Tunn Undergr Sp Technol 2023;140:105281. Doi: 10.1016/j.tust.2023.105281."
+              },
+              {
+                "ref-fulltext": "Meng FY, Chen RP, Xu Y, Wu HN, Li ZC. Centrifuge modeling of effectiveness of protective measures on existing tunnel subjected to nearby excavation. Tunn Undergr Sp Technol 2021;112:103880. Doi: 10.1016/j.tust.2021.103880.",
+                "@reference-instance-id": "OB2BibRecID-972968705-c168fdeae5349e2b17756a60e3321ec2-42",
+                "@id": "42",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Centrifuge modeling of effectiveness of protective measures on existing tunnel subjected to nearby excavation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2021.103880",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0210",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "103880",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85102050969",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "112"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Meng",
+                        "ce:indexed-name": "Meng F.Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen R.P."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "H.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu H.N."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Z.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li Z.C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn Undergr Sp Technol"
+                },
+                "ce:source-text": "Meng FY, Chen RP, Xu Y, Wu HN, Li ZC. Centrifuge modeling of effectiveness of protective measures on existing tunnel subjected to nearby excavation. Tunn Undergr Sp Technol 2021;112:103880. Doi: 10.1016/j.tust.2021.103880."
+              },
+              {
+                "ref-fulltext": "Lee CJ, Wu BR, Chen HT, Chiang KH. Tunnel stability and arching effects during tunneling in soft clayey soil. Tunn Undergr Sp Technol 2006;21(2):119–32. Doi: 10.1016/j.tust.2005.06.003.",
+                "@reference-instance-id": "OB2BibRecID-972968705-afa6395d4cee101d6145523ffe181116-43",
+                "@id": "43",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2006"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Tunnel stability and arching effects during tunneling in soft clayey soil"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2005.06.003",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0215",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "30044433359",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "21",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "119",
+                      "@last": "132"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee C.J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "B.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu B.R."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen H.T."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "K.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Chiang",
+                        "ce:indexed-name": "Chiang K.H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn Undergr Sp Technol"
+                },
+                "ce:source-text": "Lee CJ, Wu BR, Chen HT, Chiang KH. Tunnel stability and arching effects during tunneling in soft clayey soil. Tunn Undergr Sp Technol 2006;21(2):119–32. Doi: 10.1016/j.tust.2005.06.003."
+              },
+              {
+                "ref-fulltext": "Ahmed M, Iskander M. Evaluation of tunnel face stability by transparent soil models. Tunn Undergr Sp Technol 2012;27(1):101–10. Doi: 10.1016/j.tust.2011.08.001.",
+                "@reference-instance-id": "OB2BibRecID-972968705-b6ad8b0709610bd3620e6c705600819a-44",
+                "@id": "44",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Evaluation of tunnel face stability by transparent soil models"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2011.08.001",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0220",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "82855161325",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "27",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "101",
+                      "@last": "110"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Ahmed",
+                        "ce:indexed-name": "Ahmed M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Iskander",
+                        "ce:indexed-name": "Iskander M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn Undergr Sp Technol"
+                },
+                "ce:source-text": "Ahmed M, Iskander M. Evaluation of tunnel face stability by transparent soil models. Tunn Undergr Sp Technol 2012;27(1):101–10. Doi: 10.1016/j.tust.2011.08.001."
+              },
+              {
+                "ref-fulltext": "Kamata H, Mashimo H. Centrifuge model test of tunnel face reinforcement by bolting. Tunn Undergr Sp Technol 2003;18(2–3):205–12. Doi: 10.1016/S0886-7798(03)00029-4.",
+                "@reference-instance-id": "OB2BibRecID-972968705-2b6eb4b47126df49a77b0de1e02848fa-45",
+                "@id": "45",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2003"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Centrifuge model test of tunnel face reinforcement by bolting"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/S0886-7798(03)00029-4",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0225",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0037397060",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "18",
+                      "@issue": "2-3"
+                    },
+                    "pagerange": {
+                      "@first": "205",
+                      "@last": "212"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Kamata",
+                        "ce:indexed-name": "Kamata H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Mashimo",
+                        "ce:indexed-name": "Mashimo H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn Undergr Sp Technol"
+                },
+                "ce:source-text": "Kamata H, Mashimo H. Centrifuge model test of tunnel face reinforcement by bolting. Tunn Undergr Sp Technol 2003;18(2–3):205–12. Doi: 10.1016/S0886-7798(03)00029-4."
+              },
+              {
+                "ref-fulltext": "He JZ, Liao SM, Liu MB, Iwanami M, Men YQ. Numerical and analytical studies on the coupling effects of unloading and cutterhead vibration on tunnel face in dry sandy ground. Undergr Space 2024;18:256–72. Doi: 10.1016/j.undsp.2023.11.019.",
+                "@reference-instance-id": "OB2BibRecID-972968705-80fac726ad9d2baf6d960297e73e4857-46",
+                "@id": "46",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Numerical and analytical studies on the coupling effects of unloading and cutterhead vibration on tunnel face in dry sandy ground"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.undsp.2023.11.019",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0230",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85195103735",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "18"
+                    },
+                    "pagerange": {
+                      "@first": "256",
+                      "@last": "272"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "He",
+                        "ce:indexed-name": "He J.Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Liao",
+                        "ce:indexed-name": "Liao S.M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu M.B."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Iwanami",
+                        "ce:indexed-name": "Iwanami M."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Y.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Men",
+                        "ce:indexed-name": "Men Y.Q."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Undergr Space"
+                },
+                "ce:source-text": "He JZ, Liao SM, Liu MB, Iwanami M, Men YQ. Numerical and analytical studies on the coupling effects of unloading and cutterhead vibration on tunnel face in dry sandy ground. Undergr Space 2024;18:256–72. Doi: 10.1016/j.undsp.2023.11.019."
+              },
+              {
+                "ref-fulltext": "Zheng G, Cui T, Cheng XS, Diao Y, Zhang TQ, Sun JB, Ge LB. Study of the collapse mechanism of shield tunnels due to the failure of segments in sandy ground. Eng Fail Anal 2017;79:464–90. Doi: 10.1016/j.engfailanal.2017.04.030.",
+                "@reference-instance-id": "OB2BibRecID-972968705-4aa7f2655ff68e820c51657cbde24e87-47",
+                "@id": "47",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Study of the collapse mechanism of shield tunnels due to the failure of segments in sandy ground"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.engfailanal.2017.04.030",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0235",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85019070821",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "79"
+                    },
+                    "pagerange": {
+                      "@first": "464",
+                      "@last": "490"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Zheng",
+                        "ce:indexed-name": "Zheng G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Cui",
+                        "ce:indexed-name": "Cui T."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Cheng",
+                        "ce:indexed-name": "Cheng X.S."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Diao",
+                        "ce:indexed-name": "Diao Y."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "T.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang T.Q."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "J.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Sun",
+                        "ce:indexed-name": "Sun J.B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Eng Fail Anal"
+                },
+                "ce:source-text": "Zheng G, Cui T, Cheng XS, Diao Y, Zhang TQ, Sun JB, Ge LB. Study of the collapse mechanism of shield tunnels due to the failure of segments in sandy ground. Eng Fail Anal 2017;79:464–90. Doi: 10.1016/j.engfailanal.2017.04.030."
+              },
+              {
+                "ref-fulltext": "Huang HW, Xu L, Yan JL, Yu ZK. Study on transverse effective rigidity ratio of shield tunnels. Chin J Geotech Eng 2006;28(1):11–18. (in Chinese).",
+                "@reference-instance-id": "OB2BibRecID-972968705-b47c261c124a5352aa196eab5bc31da0-48",
+                "@id": "48",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2006"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Study on transverse effective rigidity ratio of shield tunnels"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0240",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "33344459308",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "28",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "11",
+                      "@last": "18"
+                    }
+                  },
+                  "ref-text": "in Chinese",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang H.W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Yan",
+                        "ce:indexed-name": "Yan J.L."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Z.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu Z.K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Chin J Geotech Eng"
+                },
+                "ce:source-text": "Huang HW, Xu L, Yan JL, Yu ZK. Study on transverse effective rigidity ratio of shield tunnels. Chin J Geotech Eng 2006;28(1):11–18. (in Chinese)."
+              },
+              {
+                "ref-fulltext": "Deng YB, Zhou J, Liu WB, Liu Z, Li ZY. PFC numerical simulation of augered piling of soil displacement screw piles. Chin J Geotech Eng 2011;33(9):1391–1398. (in Chinese).",
+                "@reference-instance-id": "OB2BibRecID-972968705-d82656d1ff1cafaa728b6833b39b45a3-49",
+                "@id": "49",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "PFC numerical simulation of augered piling of soil displacement screw piles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0245",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "80054762458",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "33",
+                      "@issue": "9"
+                    },
+                    "pagerange": {
+                      "@first": "1391",
+                      "@last": "1398"
+                    }
+                  },
+                  "ref-text": "in Chinese",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Deng",
+                        "ce:indexed-name": "Deng Y.B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "W.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu W.B."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu Z."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Z.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li Z.Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Chin J Geotech Eng"
+                },
+                "ce:source-text": "Deng YB, Zhou J, Liu WB, Liu Z, Li ZY. PFC numerical simulation of augered piling of soil displacement screw piles. Chin J Geotech Eng 2011;33(9):1391–1398. (in Chinese)."
+              },
+              {
+                "ref-fulltext": "Zhang M, Zhang Z, Wang W, Lv Y, Han J. Discrete element analysis for instability of undercrossing shield tunnel face. J Shanghai Jiao Tong Univ 2018;52(12):1594–602. (in Chinese).",
+                "@reference-instance-id": "OB2BibRecID-972968705-e0403077057a5dfe567d0341fce367ae-50",
+                "@id": "50",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Discrete element analysis for instability of undercrossing shield tunnel face"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0250",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85064515712",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "52",
+                      "@issue": "12"
+                    },
+                    "pagerange": {
+                      "@first": "1594",
+                      "@last": "1602"
+                    }
+                  },
+                  "ref-text": "in Chinese",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang W."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Lv",
+                        "ce:indexed-name": "Lv Y."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Han",
+                        "ce:indexed-name": "Han J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Shanghai Jiao Tong Univ"
+                },
+                "ce:source-text": "Zhang M, Zhang Z, Wang W, Lv Y, Han J. Discrete element analysis for instability of undercrossing shield tunnel face. J Shanghai Jiao Tong Univ 2018;52(12):1594–602. (in Chinese)."
+              },
+              {
+                "ref-fulltext": "Xue F, Zhang M. Failure mode and stability of excavation face on shield tunnel undercrossing existing tunnel. Civ Eng J 2019;5(9):2070–80. Doi: 10.28991/cej-2019-03091394.",
+                "@reference-instance-id": "OB2BibRecID-972968705-8576a43afd72ca124469a4eeac4d9b9d-51",
+                "@id": "51",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Failure mode and stability of excavation face on shield tunnel undercrossing existing tunnel"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.28991/cej-2019-03091394",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0255",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85086571417",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "5",
+                      "@issue": "9"
+                    },
+                    "pagerange": {
+                      "@first": "2070",
+                      "@last": "2080"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Xue",
+                        "ce:indexed-name": "Xue F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Civ Eng J"
+                },
+                "ce:source-text": "Xue F, Zhang M. Failure mode and stability of excavation face on shield tunnel undercrossing existing tunnel. Civ Eng J 2019;5(9):2070–80. Doi: 10.28991/cej-2019-03091394."
+              },
+              {
+                "ref-fulltext": "Dai ZH, Hu ZQ. Stability analysis of excavation face during shield passing through adjacent tunnels. China J Highw Transp 2020;33(1):145–52. (in Chinese).",
+                "@reference-instance-id": "OB2BibRecID-972968705-fb1a3605baa370bf10fee3ea8c061c1c-52",
+                "@id": "52",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Stability analysis of excavation face during shield passing through adjacent tunnels"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0260",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85083770948",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "33",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "145",
+                      "@last": "152"
+                    }
+                  },
+                  "ref-text": "in Chinese",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Dai",
+                        "ce:indexed-name": "Dai Z.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Hu",
+                        "ce:indexed-name": "Hu Z.Q."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "China J Highw Transp"
+                },
+                "ce:source-text": "Dai ZH, Hu ZQ. Stability analysis of excavation face during shield passing through adjacent tunnels. China J Highw Transp 2020;33(1):145–52. (in Chinese)."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "affiliation": [
+      {
+        "affiliation-city": "Tianjin",
+        "@id": "60019533",
+        "affilname": "Tianjin University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019533",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Shanghai",
+        "@id": "60073652",
+        "affilname": "Tongji University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073652",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Beijing",
+        "@id": "60018273",
+        "affilname": "University of Science and Technology Beijing",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60018273",
+        "affiliation-country": "China"
+      }
+    ],
+    "coredata": {
+      "srctype": "j",
+      "eid": "2-s2.0-105033885312",
+      "dc:description": "Urban underground tunnels are increasingly constructed to support the development of transportation network, necessitating shield tunnelling adjacent to existing tunnel(s). In such scenarios, the tunnel face stability, as one of the important factors affecting construction safety, has not been fully experimentally investigated. In addition, most existing researches treat the existing tunnel as a homogeneous rigid object, which does not accurately reflect actual conditions. Therefore, this study conducted centrifuge model tests to investigate the instability mechanisms of tunnel face undercrossing a segmental existing tunnel. The results demonstrated that the failure pattern showed a chimney-shaped area that bend near the segmental existing tunnel, and the failure-induced surface settlement trough was narrower than that under single tunnelling condition. The shield tunnel face instability triggered abrupt bending moment reductions along the transverse section of the segmental existing tunnel, while the bending moment increased at 1 D from the central section along the longitudinal section. The earth pressure dropped rapidly and then partially recovered due to stress redistribution during the instability process. A coupled FDM-DEM numerical model was subsequently established to further study the evolution mechanism of tunnel face instability under different working conditions. Based on centrifuge and numerical results, the influence of existing tunnel on the face instability mechanism of the new tunnel has been fully discussed, and quantitative representations of the face failure modes and the limit support pressures have been provided. These findings could advance the understanding of instability mechanisms of shield tunnel face adjacent to existing tunnel and provide practical guidelines for optimizing tunnel face support pressure in high-density underground space.",
+      "prism:coverDate": "2026-05-01",
+      "prism:aggregationType": "Journal",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105033885312",
+      "subtypeDescription": "Article",
+      "dc:creator": {
+        "author": [
+          {
+            "ce:given-name": "Yingnan",
+            "preferred-name": {
+              "ce:given-name": "Yingnan",
+              "ce:initials": "Y.",
+              "ce:surname": "Liu",
+              "ce:indexed-name": "Liu Y."
+            },
+            "@seq": "1",
+            "ce:initials": "Y.",
+            "@_fa": "true",
+            "affiliation": [
+              {
+                "@id": "60073652",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073652"
+              },
+              {
+                "@id": "60019533",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019533"
+              }
+            ],
+            "ce:surname": "Liu",
+            "@auid": "57203995898",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57203995898",
+            "ce:indexed-name": "Liu Y."
+          }
+        ]
+      },
+      "link": [
+        {
+          "@_fa": "true",
+          "@rel": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105033885312"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105033885312&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105033885312&origin=inward"
+        }
+      ],
+      "prism:publicationName": "Transportation Geotechnics",
+      "source-id": "21100316068",
+      "pii": "S2214391226001261",
+      "citedby-count": "0",
+      "prism:volume": "60",
+      "subtype": "ar",
+      "dc:title": "Face instability mechanisms of shield tunnel undercrossing an existing tunnel: Insights from centrifuge model tests and FDM-DEM simulations",
+      "openaccess": "0",
+      "openaccessFlag": "false",
+      "prism:doi": "10.1016/j.trgeo.2026.102016",
+      "prism:issn": "22143912",
+      "publishercopyright": "© 2026 Elsevier Ltd.",
+      "article-number": "102016",
+      "dc:identifier": "SCOPUS_ID:105033885312",
+      "dc:publisher": "Elsevier Ltd"
+    },
+    "idxterms": null,
+    "language": {
+      "@xml:lang": "eng"
+    },
+    "authkeywords": {
+      "author-keyword": [
+        {
+          "@_fa": "true",
+          "$": "Centrifuge model test"
+        },
+        {
+          "@_fa": "true",
+          "$": "Existing tunnel"
+        },
+        {
+          "@_fa": "true",
+          "$": "FDM-DEM simulation"
+        },
+        {
+          "@_fa": "true",
+          "$": "Instability mechanism"
+        },
+        {
+          "@_fa": "true",
+          "$": "Shield tunnel undercrossing"
+        }
+      ]
+    },
+    "subject-areas": {
+      "subject-area": [
+        {
+          "@_fa": "true",
+          "$": "Civil and Structural Engineering",
+          "@code": "2205",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Transportation",
+          "@code": "3313",
+          "@abbrev": "SOCI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Geotechnical Engineering and Engineering Geology",
+          "@code": "1909",
+          "@abbrev": "EART"
+        }
+      ]
+    },
+    "authors": {
+      "author": [
+        {
+          "ce:given-name": "Yingnan",
+          "preferred-name": {
+            "ce:given-name": "Yingnan",
+            "ce:initials": "Y.",
+            "ce:surname": "Liu",
+            "ce:indexed-name": "Liu Y."
+          },
+          "@seq": "1",
+          "ce:initials": "Y.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "60073652",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073652"
+            },
+            {
+              "@id": "60019533",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019533"
+            }
+          ],
+          "ce:surname": "Liu",
+          "@auid": "57203995898",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57203995898",
+          "ce:indexed-name": "Liu Y."
+        },
+        {
+          "ce:given-name": "Huayang",
+          "preferred-name": {
+            "ce:given-name": "Huayang",
+            "ce:initials": "H.",
+            "ce:surname": "Lei",
+            "ce:indexed-name": "Lei H."
+          },
+          "@seq": "2",
+          "ce:initials": "H.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60019533",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019533"
+          },
+          "ce:surname": "Lei",
+          "@auid": "56229897500",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56229897500",
+          "ce:indexed-name": "Lei H."
+        },
+        {
+          "ce:given-name": "Hongwei",
+          "preferred-name": {
+            "ce:given-name": "Hongwei",
+            "ce:initials": "H.",
+            "ce:surname": "Huang",
+            "ce:indexed-name": "Huang H."
+          },
+          "@seq": "3",
+          "ce:initials": "H.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60073652",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073652"
+          },
+          "ce:surname": "Huang",
+          "@auid": "55778544200",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55778544200",
+          "ce:indexed-name": "Huang H."
+        },
+        {
+          "ce:given-name": "Mengting",
+          "preferred-name": {
+            "ce:given-name": "Mengting",
+            "ce:initials": "M.",
+            "ce:surname": "Wang",
+            "ce:indexed-name": "Wang M."
+          },
+          "@seq": "4",
+          "ce:initials": "M.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60073652",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073652"
+          },
+          "ce:surname": "Wang",
+          "@auid": "57218287682",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57218287682",
+          "ce:indexed-name": "Wang M."
+        },
+        {
+          "ce:given-name": "Jianhong",
+          "preferred-name": {
+            "ce:given-name": "Jianhong",
+            "ce:initials": "J.",
+            "ce:surname": "Man",
+            "ce:indexed-name": "Man J."
+          },
+          "@seq": "5",
+          "ce:initials": "J.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60018273",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60018273"
+          },
+          "ce:surname": "Man",
+          "@auid": "57203977861",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57203977861",
+          "ce:indexed-name": "Man J."
+        }
+      ]
+    }
+  }
+}

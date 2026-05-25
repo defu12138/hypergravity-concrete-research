@@ -1,0 +1,4171 @@
+{
+  "abstracts-retrieval-response": {
+    "item": {
+      "ait:process-info": {
+        "ait:status": {
+          "@state": "update",
+          "@type": "core",
+          "@stage": "S300"
+        },
+        "ait:date-delivered": {
+          "@day": "13",
+          "@timestamp": "2026-04-13T21:35:53.000053-04:00",
+          "@year": "2026",
+          "@month": "04"
+        },
+        "ait:date-sort": {
+          "@day": "01",
+          "@year": "2026",
+          "@month": "07"
+        }
+      },
+      "xocs:meta": {
+        "xocs:funding-list": {
+          "@pui-match": "primary",
+          "@has-funding-info": "1",
+          "xocs:funding": {
+            "xocs:funding-agency-matched-string": "National Natural Science Foundation of China",
+            "xocs:funding-agency-acronym": "NNSFC",
+            "xocs:funding-agency": "National Natural Science Foundation of China",
+            "xocs:funding-id": [
+              {
+                "$": "52304120"
+              },
+              {
+                "$": "52474124"
+              },
+              {
+                "$": "52274109"
+              }
+            ],
+            "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+            "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+          },
+          "xocs:funding-addon-generated-timestamp": "2026-05-11T13:17:26.883Z",
+          "xocs:funding-text": "This research was financially supported by National Natural Science Foundation of China Youth Fund, grant number 52304120 ; National Natural Science Foundation of China , grant number 52474124 , 52274109 .",
+          "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }
+      },
+      "bibrecord": {
+        "head": {
+          "author-group": {
+            "affiliation": {
+              "country": "China",
+              "postal-code": "100083",
+              "@afid": "60018273",
+              "@country": "chn",
+              "city": "Beijing",
+              "organization": [
+                {
+                  "$": "School of Resource and Safety Engineering"
+                },
+                {
+                  "$": "University of Science and Technology Beijing"
+                }
+              ],
+              "affiliation-id": {
+                "@afid": "60018273",
+                "@dptid": "119150104"
+              },
+              "@affiliation-instance-id": "OB2BibRecID-973344498-973c9bc22d79d42d1c63156376879281-1",
+              "ce:source-text": "School of Resource and Safety Engineering, University of Science and Technology Beijing, Beijing 100083, China",
+              "@dptid": "119150104"
+            },
+            "author": [
+              {
+                "ce:given-name": "Ruisi",
+                "preferred-name": {
+                  "ce:given-name": "Ruisi",
+                  "ce:initials": "R.",
+                  "ce:surname": "Bai",
+                  "ce:indexed-name": "Bai R."
+                },
+                "@author-instance-id": "OB2BibRecID-973344498-7e2646053a1e38bece3163972c374b03-1",
+                "@seq": "1",
+                "ce:initials": "R.",
+                "@_fa": "true",
+                "@type": "auth",
+                "ce:surname": "Bai",
+                "@auid": "60352388400",
+                "ce:indexed-name": "Bai R."
+              },
+              {
+                "ce:given-name": "Yan",
+                "preferred-name": {
+                  "ce:given-name": "Yan",
+                  "ce:initials": "Y.",
+                  "ce:surname": "Li",
+                  "ce:indexed-name": "Li Y."
+                },
+                "@author-instance-id": "OB2BibRecID-973344498-ed5b97e74450bbff29b8c2aea229bf34-1",
+                "@seq": "2",
+                "ce:initials": "Y.",
+                "@_fa": "true",
+                "@type": "auth",
+                "ce:surname": "Li",
+                "@auid": "57211569122",
+                "ce:indexed-name": "Li Y."
+              },
+              {
+                "ce:given-name": "Jie",
+                "preferred-name": {
+                  "ce:given-name": "Jie",
+                  "ce:initials": "J.",
+                  "ce:surname": "Wang",
+                  "ce:indexed-name": "Wang J."
+                },
+                "@author-instance-id": "OB2BibRecID-973344498-8d0a41a7f61e3e65e925ad54099b49b6-1",
+                "@seq": "3",
+                "ce:initials": "J.",
+                "@_fa": "true",
+                "@type": "auth",
+                "ce:surname": "Wang",
+                "@auid": "57197814016",
+                "ce:indexed-name": "Wang J."
+              },
+              {
+                "ce:given-name": "Jianxin",
+                "preferred-name": {
+                  "ce:given-name": "Jianxin",
+                  "ce:initials": "J.",
+                  "ce:surname": "Fu",
+                  "ce:indexed-name": "Fu J."
+                },
+                "@author-instance-id": "OB2BibRecID-973344498-2fb51ab2e1e1a53596bac2f199c66d96-1",
+                "@seq": "4",
+                "ce:initials": "J.",
+                "@_fa": "true",
+                "@type": "auth",
+                "ce:surname": "Fu",
+                "@auid": "26424610800",
+                "ce:indexed-name": "Fu J."
+              },
+              {
+                "ce:given-name": "Wei",
+                "preferred-name": {
+                  "ce:given-name": "Wei",
+                  "ce:initials": "W.",
+                  "ce:surname": "Chen",
+                  "ce:indexed-name": "Chen W."
+                },
+                "@author-instance-id": "OB2BibRecID-973344498-ddc58ad5e1215b2ba61644e2a13b8cf8-1",
+                "@seq": "5",
+                "ce:initials": "W.",
+                "@_fa": "true",
+                "@type": "auth",
+                "ce:surname": "Chen",
+                "@auid": "60101112400",
+                "ce:indexed-name": "Chen W."
+              },
+              {
+                "ce:given-name": "Shenghua",
+                "preferred-name": {
+                  "ce:given-name": "Shenghua",
+                  "ce:initials": "S.",
+                  "ce:surname": "Yin",
+                  "ce:indexed-name": "Yin S."
+                },
+                "@author-instance-id": "OB2BibRecID-973344498-272d9bc1a1f882bb77780febf54053e7-1",
+                "@seq": "6",
+                "ce:initials": "S.",
+                "@_fa": "true",
+                "@type": "auth",
+                "ce:surname": "Yin",
+                "@auid": "55705553300",
+                "ce:indexed-name": "Yin S."
+              }
+            ]
+          },
+          "citation-title": "Mechanical properties and carbon sequestration performance of cemented paste backfill under periodic cyclic carbonation curing",
+          "abstracts": "© 2026 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY license. http://creativecommons.org/licenses/by/4.0/To investigate the influence of periodic cyclic carbonation (PCC) curing on the mechanical properties, carbon sequestration rates, and microstructure of cemented paste backfill (CPB), this paper prepared CPB specimens of different cement/fly ash (CF ratios) and treated them by periodic cyclic carbonation curing. Afterwards, uniaxial compression strength (UCS), digital image correlation (DIC), and thermogravimetric (TG) analysis were conducted on them. Through the above tests, the following conclusions were obtained: (1) After the first PCC curing, the strength of CPB specimens decreased, with the Group M5 experiencing a 26.71% reduction. Following continued standard curing, the strength of Group M5 increased by 13.79%. After the second carbonation curing, the strength of Group M5 decreased by 24.43%. (2) The carbon sequestration rates of CPB specimens increased with the number of cyclic curing cycles but decreased with higher fly ash content. After the first PCC curing, the carbon sequestration rate of Group M5 was 7.201%, while that of Group M4 decreased by 0.53%. After the second PCC curing, the carbon sequestration rate of Group M5 rose to 7.470%, whereas that of Group M4 decreased by 0.51%. (3) Scanning electron microscopy (SEM) revealed that C-S-H gel formed in the PCC curing scheme after standard curing, while CaCO3 formed after carbonation curing. The porosity of Group M5 was 8.402% after the first PCC curing cycle and decreased to 7.574% after the second PCC curing cycle, indicating optimized pore structure.",
+          "correspondence": {
+            "affiliation": {
+              "country": "China",
+              "postal-code": "100083",
+              "@country": "chn",
+              "city": "Beijing",
+              "organization": [
+                {
+                  "$": "School of Resource and Safety Engineering"
+                },
+                {
+                  "$": "University of Science and Technology Beijing"
+                }
+              ],
+              "@affiliation-instance-id": "OB2BibRecID-973344498-973c9bc22d79d42d1c63156376879281-1",
+              "ce:source-text": "School of Resource and Safety Engineering, University of Science and Technology Beijing, Beijing 100083, China"
+            },
+            "person": {
+              "ce:given-name": "Jie",
+              "@author-instance-id": "OB2BibRecID-973344498-3be2bddfcf7c49f79d0d582582b963dd-1",
+              "ce:initials": "J.",
+              "ce:surname": "Wang",
+              "ce:indexed-name": "Wang J."
+            }
+          },
+          "citation-info": {
+            "author-keywords": {
+              "author-keyword": [
+                {
+                  "$": "Carbon sequestration backfilling",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Cemented paste backfill",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Hydration-carbonation mechanism",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Periodic cyclic carbonation curing",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                }
+              ]
+            },
+            "citation-type": {
+              "@code": "ar"
+            },
+            "citation-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "abstract-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            }
+          },
+          "source": {
+            "website": {
+              "ce:e-address": {
+                "$": "https://www.sciencedirect.com/science/journal/22145095",
+                "@type": "email"
+              }
+            },
+            "translated-sourcetitle": {
+              "$": "Case Studies in Construction Materials",
+              "@xml:lang": "eng"
+            },
+            "volisspag": {
+              "voliss": {
+                "@volume": "24"
+              }
+            },
+            "@type": "j",
+            "sourcetitle": "Case Studies in Construction Materials",
+            "publicationdate": {
+              "month": "07",
+              "year": "2026",
+              "date-text": "July 2026",
+              "day": "01"
+            },
+            "sourcetitle-abbrev": "Case Stud. Constr. Mater.",
+            "@country": "gbr",
+            "issn": {
+              "$": "22145095",
+              "@type": "print"
+            },
+            "publicationyear": {
+              "@first": "2026"
+            },
+            "publisher": {
+              "publishername": "Elsevier Ltd"
+            },
+            "article-number": "e06048",
+            "@srcid": "21100296223"
+          },
+          "enhancement": {
+            "classificationgroup": {
+              "classifications": [
+                {
+                  "@type": "CPXCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "1008.6",
+                      "classification-description": "Waste Energy Conversion and Utilization"
+                    },
+                    {
+                      "classification-code": "1106.3.1",
+                      "classification-description": "Image Processing"
+                    },
+                    {
+                      "classification-code": "1301.1.2",
+                      "classification-description": "Physical Properties of Gases, Liquids and Solids"
+                    },
+                    {
+                      "classification-code": "1301.3.1",
+                      "classification-description": "Microscopy"
+                    },
+                    {
+                      "classification-code": "1301.4",
+                      "classification-description": "Solid State Physics"
+                    },
+                    {
+                      "classification-code": "1501.4",
+                      "classification-description": "Net Zero"
+                    },
+                    {
+                      "classification-code": "1502.1.2",
+                      "classification-description": "Climate Change"
+                    },
+                    {
+                      "classification-code": "1502.2",
+                      "classification-description": "Ecology and Ecosystems"
+                    },
+                    {
+                      "classification-code": "802.2",
+                      "classification-description": "Chemical Reactions"
+                    },
+                    {
+                      "classification-code": "804",
+                      "classification-description": "Chemical Products"
+                    },
+                    {
+                      "classification-code": "805",
+                      "classification-description": "Chemical Engineering"
+                    }
+                  ]
+                },
+                {
+                  "@type": "FLXCLASS",
+                  "classification": {
+                    "classification-code": "902",
+                    "classification-description": "FLUIDEX; Related Topics"
+                  }
+                },
+                {
+                  "@type": "ASJC",
+                  "classification": "2501"
+                },
+                {
+                  "@type": "SUBJABBR",
+                  "classification": "MATE"
+                }
+              ]
+            }
+          },
+          "grantlist": {
+            "@complete": "y",
+            "grant-text": {
+              "$": "This research was financially supported by National Natural Science Foundation of China Youth Fund, grant number 52304120; National Natural Science Foundation of China, grant number 52474124, 52274109.",
+              "@xml:lang": "eng"
+            },
+            "grant": [
+              {
+                "grant-id": "52274109",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "National Natural Science Foundation of China"
+                },
+                "grant-agency-id": "501100001809"
+              },
+              {
+                "grant-id": "52304120",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "National Natural Science Foundation of China"
+                },
+                "grant-agency-id": "501100001809"
+              },
+              {
+                "grant-id": "52474124",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "National Natural Science Foundation of China"
+                },
+                "grant-agency-id": "501100001809"
+              }
+            ]
+          }
+        },
+        "item-info": {
+          "copyright": {
+            "$": "Copyright 2026 Elsevier B.V., All rights reserved.",
+            "@type": "Elsevier"
+          },
+          "dbcollection": [
+            {
+              "$": "CPX"
+            },
+            {
+              "$": "REAXYSCAR"
+            },
+            {
+              "$": "SCOPUS"
+            },
+            {
+              "$": "SNCPX"
+            },
+            {
+              "$": "Scopusbase"
+            }
+          ],
+          "history": {
+            "date-created": {
+              "@day": "12",
+              "@timestamp": "BST 04:05:27",
+              "@year": "2026",
+              "@month": "04"
+            }
+          },
+          "itemidlist": {
+            "itemid": [
+              {
+                "$": "2044815232",
+                "@idtype": "PUI"
+              },
+              {
+                "$": "973344498",
+                "@idtype": "CAR-ID"
+              },
+              {
+                "$": "20261520478785",
+                "@idtype": "CPX"
+              },
+              {
+                "$": "20261079815",
+                "@idtype": "REAXYSCAR"
+              },
+              {
+                "$": "20261685271",
+                "@idtype": "SCOPUS"
+              },
+              {
+                "$": "2026041360",
+                "@idtype": "SNCPX"
+              },
+              {
+                "$": "973344498#338246199",
+                "@idtype": "SRC-OCC-ID"
+              },
+              {
+                "$": "105035261270",
+                "@idtype": "SCP"
+              },
+              {
+                "$": "105035261270",
+                "@idtype": "SGR"
+              }
+            ],
+            "ce:pii": "S2214509526002998",
+            "ce:ern": "pii:S2214509526002998",
+            "ce:doi": "10.1016/j.cscm.2026.e06048"
+          }
+        },
+        "tail": {
+          "bibliography": {
+            "@refcount": "49",
+            "reference": [
+              {
+                "ref-fulltext": "Chu, S., 2009. Carbon capture and sequestration. Science. https://doi.org/10.1126/science.11 81637",
+                "@reference-instance-id": "OB2BibRecID-973344498-8ac9dc040693311ce90a27636c51dafd-1",
+                "@id": "1",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Carbon capture and sequestration"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1126/science.11",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib1",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105035262178",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "81637"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Chu",
+                        "ce:indexed-name": "Chu S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Science"
+                },
+                "ce:source-text": "Chu, S., 2009. Carbon capture and sequestration. Science. https://doi.org/10.1126/science.11 81637"
+              },
+              {
+                "ref-fulltext": "Greig, C., Uden, S., 2021. The value of CCUS in transitions to net-zero emissions. Electr. J., Special Issue: Carbon Capture and Storage Today: Applications, Needs, Perceptions and Barriers 34, 107004. htt ps://do i.org/10.1016/j.tej.2021.107004",
+                "@reference-instance-id": "OB2BibRecID-973344498-44c08931f540acd7497a196188247443-2",
+                "@id": "2",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The value of CCUS in transitions to net-zero emissions"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tej.2021.107004",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "107004",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "bib2",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85111487172",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "34"
+                    }
+                  },
+                  "ref-text": "(htt ps://do i.org/)",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Greig",
+                        "ce:indexed-name": "Greig C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Uden",
+                        "ce:indexed-name": "Uden S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Electr. J. Spec. Issue. Carbon Capture Storage Today. Appl. Needs Percept. Barriers"
+                },
+                "ce:source-text": "Greig, C., Uden, S., 2021. The value of CCUS in transitions to net-zero emissions. Electr. J., Special Issue: Carbon Capture and Storage Today: Applications, Needs, Perceptions and Barriers 34, 107004. htt ps://do i.org/10.1016/j.tej.2021.107004"
+              },
+              {
+                "ref-fulltext": "Hasan, M.M.F., First, E.L., Boukouvala, F., Floudas, C.A., 2015. A multi-scale framework for CO2 capture, utilization, and sequestration: CCUS and CCU. Comput. Chem. Eng., Special Issue: Selected papers from the 8th International Symposium on the Foundations of Computer-Aided Process Design (FOCAPD 2014), July 13-17, 2014, Cle Elum, Washington, USA 81, 2–21. https://doi.org/10.1016/j.compchemeng.2015.04.034",
+                "@reference-instance-id": "OB2BibRecID-973344498-ab74bfc4de796364888f53fb560e4e8a-3",
+                "@id": "3",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A multi-scale framework for CO2 capture, utilization, and sequestration: CCUS and CCU"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.compchemeng.2015.04.034",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib3",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84946487407",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "2",
+                      "@last": "21"
+                    }
+                  },
+                  "ref-text": "July 13-17, 2014, Cle Elum, Washington, USA 81",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.M.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Hasan",
+                        "ce:indexed-name": "Hasan M.M.F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "E.L.",
+                        "@_fa": "true",
+                        "ce:surname": "First",
+                        "ce:indexed-name": "First E.L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Boukouvala",
+                        "ce:indexed-name": "Boukouvala F."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "C.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Floudas",
+                        "ce:indexed-name": "Floudas C.A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Comput. Chem. Eng. Spec. Issue. Sel. Pap. 8th Int. Symp Found. Comput. -Aided Process Des. (FOCAPD 2014)"
+                },
+                "ce:source-text": "Hasan, M.M.F., First, E.L., Boukouvala, F., Floudas, C.A., 2015. A multi-scale framework for CO2 capture, utilization, and sequestration: CCUS and CCU. Comput. Chem. Eng., Special Issue: Selected papers from the 8th International Symposium on the Foundations of Computer-Aided Process Design (FOCAPD 2014), July 13-17, 2014, Cle Elum, Washington, USA 81, 2–21. https://doi.org/10.1016/j.compchemeng.2015.04.034"
+              },
+              {
+                "ref-fulltext": "Haszeldine, S., 2009. Carbon capture and storage: how green can black be? Science 325, 1647–1652. http s://doi.org/10.1126/science.1172246",
+                "@reference-instance-id": "OB2BibRecID-973344498-d115c4167929e1ecbe241ac62e439efc-4",
+                "@id": "4",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Carbon capture and storage: how green can black be?"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1126/science.1172246",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib4",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "70349553629",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "325"
+                    },
+                    "pagerange": {
+                      "@first": "1647",
+                      "@last": "1652"
+                    }
+                  },
+                  "ref-text": "(http s://)",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Haszeldine",
+                        "ce:indexed-name": "Haszeldine S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Science"
+                },
+                "ce:source-text": "Haszeldine, S., 2009. Carbon capture and storage: how green can black be? Science 325, 1647–1652. http s://doi.org/10.1126/science.1172246"
+              },
+              {
+                "ref-fulltext": "Metz, B., Davidson, O.R., Coninck, H. de, Loos, M., Meyer, L., 2005. Carbon dioxide capture and storage.",
+                "@reference-instance-id": "OB2BibRecID-973344498-efccf9fd2da9a7a64739e0c99abaf8fa-5",
+                "@id": "5",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2005"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib5",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105035262600",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Metz",
+                        "ce:indexed-name": "Metz B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "O.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Davidson",
+                        "ce:indexed-name": "Davidson O.R."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Coninck",
+                        "ce:indexed-name": "Coninck H.D."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Loos",
+                        "ce:indexed-name": "Loos M."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Meyer",
+                        "ce:indexed-name": "Meyer L."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Metz, B., Davidson, O.R., Coninck, H. de, Loos, M., Meyer, L., 2005. Carbon dioxide capture and storage."
+              },
+              {
+                "ref-fulltext": "Qi, C., Fourie, A., 2019. Cemented paste backfill for mineral tailings management: review and future perspectives. Miner. Eng. 144, 106025. https://doi.org/10.1016/j.mineng.2019.106025",
+                "@reference-instance-id": "OB2BibRecID-973344498-52647bbb8a9059edd94a586aa393c3d5-6",
+                "@id": "6",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Cemented paste backfill for mineral tailings management: review and future perspectives"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.mineng.2019.106025",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "106025",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "bib6",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85072299578",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "144"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Qi",
+                        "ce:indexed-name": "Qi C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Fourie",
+                        "ce:indexed-name": "Fourie A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Miner. Eng."
+                },
+                "ce:source-text": "Qi, C., Fourie, A., 2019. Cemented paste backfill for mineral tailings management: review and future perspectives. Miner. Eng. 144, 106025. https://doi.org/10.1016/j.mineng.2019.106025"
+              },
+              {
+                "ref-fulltext": "Snæbjörnsdóttir, S.Ó., Sigfússon, B., Marieni, C., Goldberg, D., Gislason, S.R., Oelkers, E.H., 2020. Carbon dioxide storage through mineral carbonation. Nat. Rev. Earth Environ. 1, 90–102. https://doi.org/10.1038/s43017-019-0011-8",
+                "@reference-instance-id": "OB2BibRecID-973344498-6840e94e50beef26aee268b7af0b4694-7",
+                "@id": "7",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Carbon dioxide storage through mineral carbonation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1038/s43017-019-0011-8",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib7",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85108787769",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "1"
+                    },
+                    "pagerange": {
+                      "@first": "90",
+                      "@last": "102"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Snæbjörnsdóttir",
+                        "ce:indexed-name": "Snaebjornsdottir S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Sigfússon",
+                        "ce:indexed-name": "Sigfusson B."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Marieni",
+                        "ce:indexed-name": "Marieni C."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Goldberg",
+                        "ce:indexed-name": "Goldberg D."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "S.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Gislason",
+                        "ce:indexed-name": "Gislason S.R."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "E.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Oelkers",
+                        "ce:indexed-name": "Oelkers E.H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Nat. Rev. Earth Environ."
+                },
+                "ce:source-text": "Snæbjörnsdóttir, S.Ó., Sigfússon, B., Marieni, C., Goldberg, D., Gislason, S.R., Oelkers, E.H., 2020. Carbon dioxide storage through mineral carbonation. Nat. Rev. Earth Environ. 1, 90–102. https://doi.org/10.1038/s43017-019-0011-8"
+              },
+              {
+                "ref-fulltext": "Vilela Pincay, W.E., Espinosa Encarnación, M., Bravo González, A., 2020. La contaminación ambiental ocasionada por la minería en la provincia de el oro. Estud. Gest.: Rev. Int. Adm. 210–228.",
+                "@reference-instance-id": "OB2BibRecID-973344498-a703336a09a8446e3e615c03a4658076-8",
+                "@id": "8",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "La contaminación ambiental ocasionada por la minería en la provincia de el oro"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib8",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85119655212",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "210"
+                    },
+                    "pagerange": {
+                      "@first": "228"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.E.",
+                        "@_fa": "true",
+                        "ce:surname": "Vilela Pincay",
+                        "ce:indexed-name": "Vilela Pincay W.E."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Espinosa Encarnación",
+                        "ce:indexed-name": "Espinosa Encarnacion M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Bravo González",
+                        "ce:indexed-name": "Bravo Gonzalez A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Estud. Gest. Rev. Int. Adm."
+                },
+                "ce:source-text": "Vilela Pincay, W.E., Espinosa Encarnación, M., Bravo González, A., 2020. La contaminación ambiental ocasionada por la minería en la provincia de el oro. Estud. Gest.: Rev. Int. Adm. 210–228."
+              },
+              {
+                "ref-fulltext": "Edraki, M., Baumgartl, T., Manlapig, E., Bradshaw, D., Franks, D.M., Moran, C.J., 2014. Designing mine tailings for better environmental, social and economic outcomes: a review of alternative approaches. J. Cleaner Prod., Special Volume: The sustainability agenda of the minerals and energy supply and demand network: an integrative analysis of ecological, ethical, economic, and technological dimensions 84, 411–420. https://doi.org/10.1016/j.jclepro.2014.04.079",
+                "@reference-instance-id": "OB2BibRecID-973344498-e3dbac338ded7dd51be896510914f53c-9",
+                "@id": "9",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Designing mine tailings for better environmental, social and economic outcomes: a review of alternative approaches"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.jclepro.2014.04.079",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib9",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84922955340",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "84"
+                    },
+                    "pagerange": {
+                      "@first": "411",
+                      "@last": "420"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Edraki",
+                        "ce:indexed-name": "Edraki M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Baumgartl",
+                        "ce:indexed-name": "Baumgartl T."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Manlapig",
+                        "ce:indexed-name": "Manlapig E."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Bradshaw",
+                        "ce:indexed-name": "Bradshaw D."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "D.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Franks",
+                        "ce:indexed-name": "Franks D.M."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "C.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Moran",
+                        "ce:indexed-name": "Moran C.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Clean. Prod. Spec. Vol. Sustain. Agenda Miner. Energy Supply Demand Netw. Integr. Anal. Ecol. Ethic-.-. Econ. Technol. Dimens."
+                },
+                "ce:source-text": "Edraki, M., Baumgartl, T., Manlapig, E., Bradshaw, D., Franks, D.M., Moran, C.J., 2014. Designing mine tailings for better environmental, social and economic outcomes: a review of alternative approaches. J. Cleaner Prod., Special Volume: The sustainability agenda of the minerals and energy supply and demand network: an integrative analysis of ecological, ethical, economic, and technological dimensions 84, 411–420. https://doi.org/10.1016/j.jclepro.2014.04.079"
+              },
+              {
+                "ref-fulltext": "Kalisz, S., Kibort, K., Mioduska, J., Lieder, M., Małachowska, A., 2022. Waste management in the mining industry of metals ores, coal, oil and natural gas - a review. J. Environ. Manage. 304, 114239. https://doi.or g/10.1016/j.jenvman.2021.114239",
+                "@reference-instance-id": "OB2BibRecID-973344498-3fbda564bebffd071abd88aa153b0d31-10",
+                "@id": "10",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Waste management in the mining industry of metals ores, coal, oil and natural gas - a review"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.jenvman.2021.114239",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "114239",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "bib10",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85120899669",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "304"
+                    }
+                  },
+                  "ref-text": "(https://doi.or g/)",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Kalisz",
+                        "ce:indexed-name": "Kalisz S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Kibort",
+                        "ce:indexed-name": "Kibort K."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Mioduska",
+                        "ce:indexed-name": "Mioduska J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Lieder",
+                        "ce:indexed-name": "Lieder M."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Małachowska",
+                        "ce:indexed-name": "Malachowska A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Environ. Manag."
+                },
+                "ce:source-text": "Kalisz, S., Kibort, K., Mioduska, J., Lieder, M., Małachowska, A., 2022. Waste management in the mining industry of metals ores, coal, oil and natural gas - a review. J. Environ. Manage. 304, 114239. https://doi.or g/10.1016/j.jenvman.2021.114239"
+              },
+              {
+                "ref-fulltext": "Kinnunen, P., Karhu, M., Yli-Rantala, E., Kivikytö-Reponen, P., Mäkinen, J., 2022. A review of circular economy strategies for mine tailings. Cleaner Eng. Technol. 8, 100499. https://doi.org/10.1016/j.clet.2022.100499",
+                "@reference-instance-id": "OB2BibRecID-973344498-9efc9aa7125fa92ddfb7eb2123d8889a-11",
+                "@id": "11",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A review of circular economy strategies for mine tailings"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.clet.2022.100499",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "100499",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "bib11",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85129619490",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "8"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Kinnunen",
+                        "ce:indexed-name": "Kinnunen P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Karhu",
+                        "ce:indexed-name": "Karhu M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Yli-Rantala",
+                        "ce:indexed-name": "Yli-Rantala E."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Kivikytö-Reponen",
+                        "ce:indexed-name": "Kivikyto-Reponen P."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Mäkinen",
+                        "ce:indexed-name": "Makinen J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Clean. Eng. Technol."
+                },
+                "ce:source-text": "Kinnunen, P., Karhu, M., Yli-Rantala, E., Kivikytö-Reponen, P., Mäkinen, J., 2022. A review of circular economy strategies for mine tailings. Cleaner Eng. Technol. 8, 100499. https://doi.org/10.1016/j.clet.2022.100499"
+              },
+              {
+                "ref-fulltext": "Wang, C., Harbottle, D., Liu, Q., Xu, Z., 2014. Current state of fine mineral tailings treatment: a critical review on theory and practice. Miner. Eng. 58, 113–131. https://doi.org/10.1016/j.mineng.2014.01.018",
+                "@reference-instance-id": "OB2BibRecID-973344498-60b5020095d74af34985ab692f7cc85f-12",
+                "@id": "12",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Current state of fine mineral tailings treatment: a critical review on theory and practice"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.mineng.2014.01.018",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib12",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84894147074",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "58"
+                    },
+                    "pagerange": {
+                      "@first": "113",
+                      "@last": "131"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Harbottle",
+                        "ce:indexed-name": "Harbottle D."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu Q."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu Z."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Miner. Eng."
+                },
+                "ce:source-text": "Wang, C., Harbottle, D., Liu, Q., Xu, Z., 2014. Current state of fine mineral tailings treatment: a critical review on theory and practice. Miner. Eng. 58, 113–131. https://doi.org/10.1016/j.mineng.2014.01.018"
+              },
+              {
+                "ref-fulltext": "Wang, B., Yang, L., Li, Q., Shu, X., Kang, M., 2024. Mechanical behavior, acoustic emission and principal strain field evolution properties of layered cemented paste backfill under unconfined compression. Constr. Build. Mater. 415, 135111. https://doi.org/10.1016/j.conbuildmat.2024.1351 11",
+                "@reference-instance-id": "OB2BibRecID-973344498-eca03e9b47af8caa436c11962dea10e6-13",
+                "@id": "13",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Mechanical behavior, acoustic emission and principal strain field evolution properties of layered cemented paste backfill under unconfined compression"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.conbuildmat.2024.1351",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "135111",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "bib13",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85184136105",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "415",
+                      "@issue": "11"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li Q."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Shu",
+                        "ce:indexed-name": "Shu X."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Kang",
+                        "ce:indexed-name": "Kang M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "Wang, B., Yang, L., Li, Q., Shu, X., Kang, M., 2024. Mechanical behavior, acoustic emission and principal strain field evolution properties of layered cemented paste backfill under unconfined compression. Constr. Build. Mater. 415, 135111. https://doi.org/10.1016/j.conbuildmat.2024.1351 11"
+              },
+              {
+                "ref-fulltext": "Song, X., Hao, Y., 2023. Mechanical response of stress damaged cemented tailings backfill based on pore structure and acoustic emission characteristics. Constr. Build. Mater. 404, 133278. https://doi.org/10.1016/j.con buildmat.2023.133278",
+                "@reference-instance-id": "OB2BibRecID-973344498-b543b5c28b64638f6e0dd68ae2c6d739-14",
+                "@id": "14",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Mechanical response of stress damaged cemented tailings backfill based on pore structure and acoustic emission characteristics"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.conbuildmat.2023.133278",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "133278",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "bib14",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85171200356",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "404"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Song",
+                        "ce:indexed-name": "Song X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Hao",
+                        "ce:indexed-name": "Hao Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "Song, X., Hao, Y., 2023. Mechanical response of stress damaged cemented tailings backfill based on pore structure and acoustic emission characteristics. Constr. Build. Mater. 404, 133278. https://doi.org/10.1016/j.con buildmat.2023.133278"
+              },
+              {
+                "ref-fulltext": "Wu, A., Ruan, Z., Bürger, R., Yin, S., Wang, J., Wang, Y., 2020. Optimization of flocculation and settling parameters of tailings slurry by response surface methodology. Minerals Engineering 156, 106488. https://doi.org/10.1016/j.mineng.2020.106488",
+                "@reference-instance-id": "OB2BibRecID-973344498-85299ce044a287943ed1dff0dd374e51-15",
+                "@id": "15",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Optimization of flocculation and settling parameters of tailings slurry by response surface methodology"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.mineng.2020.106488",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "106488",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "bib15",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85086073440",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "156"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Ruan",
+                        "ce:indexed-name": "Ruan Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Bürger",
+                        "ce:indexed-name": "Burger R."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Yin",
+                        "ce:indexed-name": "Yin S."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang J."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Miner. Eng."
+                },
+                "ce:source-text": "Wu, A., Ruan, Z., Bürger, R., Yin, S., Wang, J., Wang, Y., 2020. Optimization of flocculation and settling parameters of tailings slurry by response surface methodology. Minerals Engineering 156, 106488. https://doi.org/10.1016/j.mineng.2020.106488"
+              },
+              {
+                "ref-fulltext": "Yin, S., Shao, Y., Wu, A., Wang, H., Liu, X., Wang, Y., 2020. A systematic review of paste technology in metal mines for cleaner production in China. J. Cleaner Prod. 247, 119590. https://doi.org/10.1016/j.jclepro.2019.119590",
+                "@reference-instance-id": "OB2BibRecID-973344498-c42b1cf35cd2610f2f8433887c1e406f-16",
+                "@id": "16",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A systematic review of paste technology in metal mines for cleaner production in China"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.jclepro.2019.119590",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "119590",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "bib16",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85076261591",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "247"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Yin",
+                        "ce:indexed-name": "Yin S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Shao",
+                        "ce:indexed-name": "Shao Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu A."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang H."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu X."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Clean. Prod."
+                },
+                "ce:source-text": "Yin, S., Shao, Y., Wu, A., Wang, H., Liu, X., Wang, Y., 2020. A systematic review of paste technology in metal mines for cleaner production in China. J. Cleaner Prod. 247, 119590. https://doi.org/10.1016/j.jclepro.2019.119590"
+              },
+              {
+                "ref-fulltext": "Li, M., Zhang, M., Du, C., Chen, Y., 2020. Study on the spatial spillover effects of cement production on air pollution in China. Sci. Total Environ. 748, 141421. https://doi.org/10.1016/j.scitotenv.2020.141421",
+                "@reference-instance-id": "OB2BibRecID-973344498-cdfbfa73b0953daf7ee59a5a184c122a-17",
+                "@id": "17",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Study on the spatial spillover effects of cement production on air pollution in China"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.scitotenv.2020.141421",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "141421",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "bib17",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85089475015",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "748"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Du",
+                        "ce:indexed-name": "Du C."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Sci. Total Environ."
+                },
+                "ce:source-text": "Li, M., Zhang, M., Du, C., Chen, Y., 2020. Study on the spatial spillover effects of cement production on air pollution in China. Sci. Total Environ. 748, 141421. https://doi.org/10.1016/j.scitotenv.2020.141421"
+              },
+              {
+                "ref-fulltext": "Wang, Y., Huang, Y., Hao, Y., Wang, Y., Huang, Y., Hao, Y., 2020. Experimental study and application of rheological properties of coal gangue-fly ash backfill slurry. Processes 8. https://doi.org/10.3390/pr8030284",
+                "@reference-instance-id": "OB2BibRecID-973344498-2d2dc88c39de93ad14aac70a20cd47d7-18",
+                "@id": "18",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental study and application of rheological properties of coal gangue-fly ash backfill slurry"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.3390/pr8030284",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib18",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85081961977",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "8"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Hao",
+                        "ce:indexed-name": "Hao Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang Y."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang Y."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Hao",
+                        "ce:indexed-name": "Hao Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Processes"
+                },
+                "ce:source-text": "Wang, Y., Huang, Y., Hao, Y., Wang, Y., Huang, Y., Hao, Y., 2020. Experimental study and application of rheological properties of coal gangue-fly ash backfill slurry. Processes 8. https://doi.org/10.3390/pr8030284"
+              },
+              {
+                "ref-fulltext": "Wang, S., Song, X., Wei, M., Liu, W., Wang, X., Ke, Y., Tao, T., 2021. Strength characteristics and microstructure evolution of cemented tailings backfill with rice straw ash as an alternative binder. Constr. Build. Mater. 297, 123780. https://doi.org/10.1016/j.conbuildmat.2021.123780",
+                "@reference-instance-id": "OB2BibRecID-973344498-de884fbe3a40c432a29dc69f2496a947-19",
+                "@id": "19",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Strength characteristics and microstructure evolution of cemented tailings backfill with rice straw ash as an alternative binder"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.conbuildmat.2021.123780",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "123780",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "bib19",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85108681764",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "297"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Song",
+                        "ce:indexed-name": "Song X."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Wei",
+                        "ce:indexed-name": "Wei M."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu W."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang X."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Ke",
+                        "ce:indexed-name": "Ke Y."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Tao",
+                        "ce:indexed-name": "Tao T."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "Wang, S., Song, X., Wei, M., Liu, W., Wang, X., Ke, Y., Tao, T., 2021. Strength characteristics and microstructure evolution of cemented tailings backfill with rice straw ash as an alternative binder. Constr. Build. Mater. 297, 123780. https://doi.org/10.1016/j.conbuildmat.2021.123780"
+              },
+              {
+                "ref-fulltext": "Wang, J., Wang, X., Ding, S., Ashour, A., Yu, F., Lv, X., Han, B., 2023. Micro-nano scale pore structure and fractal dimension of ultra-high performance cementitious composites modified with nanofillers. Cem. Concr. Compos. 141, 105129. https://doi.org/10.1016/j.cemconcomp.2023.105129",
+                "@reference-instance-id": "OB2BibRecID-973344498-bbf7da76c8356058bf28140f917450c8-20",
+                "@id": "20",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Micro-nano scale pore structure and fractal dimension of ultra-high performance cementitious composites modified with nanofillers"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.cemconcomp.2023.105129",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "105129",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "bib20",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85159196381",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "141"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang X."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Ding",
+                        "ce:indexed-name": "Ding S."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Ashour",
+                        "ce:indexed-name": "Ashour A."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu F."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Lv",
+                        "ce:indexed-name": "Lv X."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Han",
+                        "ce:indexed-name": "Han B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Compos"
+                },
+                "ce:source-text": "Wang, J., Wang, X., Ding, S., Ashour, A., Yu, F., Lv, X., Han, B., 2023. Micro-nano scale pore structure and fractal dimension of ultra-high performance cementitious composites modified with nanofillers. Cem. Concr. Compos. 141, 105129. https://doi.org/10.1016/j.cemconcomp.2023.105129"
+              },
+              {
+                "ref-fulltext": "Shi, C., He, F., Wu, Y., 2012. Effect of pre-conditioning on CO2 curing of lightweight concrete blocks mixtures. Constr. Build. Mater. 26, 257–267. https://doi.org/10.1016/j.conbuildmat.2011.06.020",
+                "@reference-instance-id": "OB2BibRecID-973344498-79573d137e93a76d549d3011173c6b4c-21",
+                "@id": "21",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of pre-conditioning on CO2 curing of lightweight concrete blocks mixtures"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.conbuildmat.2011.06.020",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib21",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "80052900440",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "26"
+                    },
+                    "pagerange": {
+                      "@first": "257",
+                      "@last": "267"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "He",
+                        "ce:indexed-name": "He F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "Shi, C., He, F., Wu, Y., 2012. Effect of pre-conditioning on CO2 curing of lightweight concrete blocks mixtures. Constr. Build. Mater. 26, 257–267. https://doi.org/10.1016/j.conbuildmat.2011.06.020"
+              },
+              {
+                "ref-fulltext": "Goodbrake, C.J., Young, J.F., Berger, R.L., 1979. Reaction of beta-dicalcium silicate and tricalcium silicate with carbon dioxide and water vapor. J. Am. Ceram. Soc. 62, 168–171.",
+                "@reference-instance-id": "OB2BibRecID-973344498-83f7106ad8a800e0288b73612bab843b-22",
+                "@id": "22",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1979"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Reaction of beta-dicalcium silicate and tricalcium silicate with carbon dioxide and water vapor"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib22",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0018444467",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "62"
+                    },
+                    "pagerange": {
+                      "@first": "168",
+                      "@last": "171"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Goodbrake",
+                        "ce:indexed-name": "Goodbrake C.J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Young",
+                        "ce:indexed-name": "Young J.F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "R.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Berger",
+                        "ce:indexed-name": "Berger R.L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Am. Ceram. Soc."
+                },
+                "ce:source-text": "Goodbrake, C.J., Young, J.F., Berger, R.L., 1979. Reaction of beta-dicalcium silicate and tricalcium silicate with carbon dioxide and water vapor. J. Am. Ceram. Soc. 62, 168–171."
+              },
+              {
+                "ref-fulltext": "Klemm, W.A., Berger, R.L., 1972. Accelerated curing of cementitious systems by carbon dioxide: part I. Portland cement. Cem. Concr. Res. 2, 567–576. https://doi.org/10.1016/0008-8846(72)90111-1",
+                "@reference-instance-id": "OB2BibRecID-973344498-e2f01eeeb194fe82faed671bba2def2f-23",
+                "@id": "23",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1972"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Accelerated curing of cementitious systems by carbon dioxide: part I. Portland cement"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/0008-8846(72)90111-1",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib23",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0001362151",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "2"
+                    },
+                    "pagerange": {
+                      "@first": "567",
+                      "@last": "576"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Klemm",
+                        "ce:indexed-name": "Klemm W.A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Berger",
+                        "ce:indexed-name": "Berger R.L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Klemm, W.A., Berger, R.L., 1972. Accelerated curing of cementitious systems by carbon dioxide: part I. Portland cement. Cem. Concr. Res. 2, 567–576. https://doi.org/10.1016/0008-8846(72)90111-1"
+              },
+              {
+                "ref-fulltext": "Young, J.F., Berger, R.L., Breese, J., 1974. Accelerated curing of compacted calcium silicate mortars on exposure to CO2. J. Am. Ceram. Soc. 57, 394–397. https://doi.org/10.1111/j.1151-2916.1974.tb11420.x",
+                "@reference-instance-id": "OB2BibRecID-973344498-26595db363e015d9b522ae008e1e5ed8-24",
+                "@id": "24",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1974"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Accelerated curing of compacted calcium silicate mortars on exposure to CO2"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1111/j.1151-2916.1974.tb11420.x",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib24",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0016105251",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "57"
+                    },
+                    "pagerange": {
+                      "@first": "394",
+                      "@last": "397"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Young",
+                        "ce:indexed-name": "Young J.F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Berger",
+                        "ce:indexed-name": "Berger R.L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Breese",
+                        "ce:indexed-name": "Breese J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Am. Ceram. Soc."
+                },
+                "ce:source-text": "Young, J.F., Berger, R.L., Breese, J., 1974. Accelerated curing of compacted calcium silicate mortars on exposure to CO2. J. Am. Ceram. Soc. 57, 394–397. https://doi.org/10.1111/j.1151-2916.1974.tb11420.x"
+              },
+              {
+                "ref-fulltext": "Rostami, V., Shao, Y., Boyd, A.J., 2012a. Carbonation curing versus steam curing for precast concrete production. J. Mater. Civ. Eng. 24, 1221–1229. https://doi.org/10.1061/(ASCE)MT.1943-5533.0000462",
+                "@reference-instance-id": "OB2BibRecID-973344498-7d9bd3a59257478bcec8c0dd629245ba-25",
+                "@id": "25",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Carbonation curing versus steam curing for precast concrete production"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1061/(ASCE)MT.1943-5533.0000462",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib25",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85001838182",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "24"
+                    },
+                    "pagerange": {
+                      "@first": "1221",
+                      "@last": "1229"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "V.",
+                        "@_fa": "true",
+                        "ce:surname": "Rostami",
+                        "ce:indexed-name": "Rostami V."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Shao",
+                        "ce:indexed-name": "Shao Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Boyd",
+                        "ce:indexed-name": "Boyd A.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Mater. Civ. Eng."
+                },
+                "ce:source-text": "Rostami, V., Shao, Y., Boyd, A.J., 2012a. Carbonation curing versus steam curing for precast concrete production. J. Mater. Civ. Eng. 24, 1221–1229. https://doi.org/10.1061/(ASCE)MT.1943-5533.0000462"
+              },
+              {
+                "ref-fulltext": "Ma, C., Yang, L., Luo, X., Wang, J., Guo, W., Li, B., Yu, L., Yang, C., 2025. Unraveling the microstructural evolution of cement paste in different zones after CO2 curing and subsequent hydration. Case Stud. Constr. Mater. 22, e04709. https://doi.org/10.1016/j.cscm.2025.e04709",
+                "@reference-instance-id": "OB2BibRecID-973344498-323c7da8a92b50bb06f90100b51e374a-26",
+                "@id": "26",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2025"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Unraveling the microstructural evolution of cement paste in different zones after CO2 curing and subsequent hydration"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.cscm.2025.e04709",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "e04709",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "bib26",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105003383510",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "22"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Ma",
+                        "ce:indexed-name": "Ma C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Luo",
+                        "ce:indexed-name": "Luo X."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang J."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Guo",
+                        "ce:indexed-name": "Guo W."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li B."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu L."
+                      },
+                      {
+                        "@seq": "8",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Case Stud. Constr. Mater."
+                },
+                "ce:source-text": "Ma, C., Yang, L., Luo, X., Wang, J., Guo, W., Li, B., Yu, L., Yang, C., 2025. Unraveling the microstructural evolution of cement paste in different zones after CO2 curing and subsequent hydration. Case Stud. Constr. Mater. 22, e04709. https://doi.org/10.1016/j.cscm.2025.e04709"
+              },
+              {
+                "ref-fulltext": "Chen, T., Gao, X., 2019. Effect of carbonation curing regime on strength and microstructure of portland cement paste. J. CO2 Util. 34, 74–86. https://doi.org/10.1016/j.jcou.2019.05.034",
+                "@reference-instance-id": "OB2BibRecID-973344498-0da9bf48ac325953df3a9bee385435fc-27",
+                "@id": "27",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of carbonation curing regime on strength and microstructure of portland cement paste"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.jcou.2019.05.034",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib27",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85067194481",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "34"
+                    },
+                    "pagerange": {
+                      "@first": "74",
+                      "@last": "86"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Gao",
+                        "ce:indexed-name": "Gao X."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. CO2 Util."
+                },
+                "ce:source-text": "Chen, T., Gao, X., 2019. Effect of carbonation curing regime on strength and microstructure of portland cement paste. J. CO2 Util. 34, 74–86. https://doi.org/10.1016/j.jcou.2019.05.034"
+              },
+              {
+                "ref-fulltext": "Liang, C., Li, B., Guo, M.-Z., Hou, S., Wang, S., Gao, Y., Wang, X., 2024. Effects of early-age carbonation curing on the properties of cement-based materials: a review. J. Build. Eng. 84, 108495. https://doi.org/101016/j.jobe.2024.108495",
+                "@reference-instance-id": "OB2BibRecID-973344498-414a216eeb985c8b845478174783693b-28",
+                "@id": "28",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effects of early-age carbonation curing on the properties of cement-based materials: a review"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "108495",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "bib28",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85182394706",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "84"
+                    }
+                  },
+                  "ref-text": "https://doi.org/101016/j.jobe.2024.108495,",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Liang",
+                        "ce:indexed-name": "Liang C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li B."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.-Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Guo",
+                        "ce:indexed-name": "Guo M.-Z."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Hou",
+                        "ce:indexed-name": "Hou S."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang S."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Gao",
+                        "ce:indexed-name": "Gao Y."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang X."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Build. Eng."
+                },
+                "ce:source-text": "Liang, C., Li, B., Guo, M.-Z., Hou, S., Wang, S., Gao, Y., Wang, X., 2024. Effects of early-age carbonation curing on the properties of cement-based materials: a review. J. Build. Eng. 84, 108495. https://doi.org/101016/j.jobe.2024.108495"
+              },
+              {
+                "ref-fulltext": "He, P., Shi, C., Tu, Z., Poon, C.S., Zhang, J., 2016. Effect of further water curing on compressive strength and microstructure of CO2-cured concrete. Cem. Concr. Compos. 72, 80–88. https://doi.org/10.1016/j.cemconcomp.2016.05.026",
+                "@reference-instance-id": "OB2BibRecID-973344498-9e7ad1e994a82a8bb7f8b386d8ea85e0-29",
+                "@id": "29",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of further water curing on compressive strength and microstructure of CO2-cured concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.cemconcomp.2016.05.026",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib29",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84974711239",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "72"
+                    },
+                    "pagerange": {
+                      "@first": "80",
+                      "@last": "88"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "He",
+                        "ce:indexed-name": "He P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Tu",
+                        "ce:indexed-name": "Tu Z."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "C.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Poon",
+                        "ce:indexed-name": "Poon C.S."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Compos"
+                },
+                "ce:source-text": "He, P., Shi, C., Tu, Z., Poon, C.S., Zhang, J., 2016. Effect of further water curing on compressive strength and microstructure of CO2-cured concrete. Cem. Concr. Compos. 72, 80–88. https://doi.org/10.1016/j.cemconcomp.2016.05.026"
+              },
+              {
+                "ref-fulltext": "Shi, C., Wu, Y., 2008. Studies on some factors affecting CO2 curing of lightweight concrete products. Resour. Conserv. Recycl. 52, 1087–1092. https://doi.org/10.1016/j.resconrec.2008.05.002",
+                "@reference-instance-id": "OB2BibRecID-973344498-982f77786abd01410363a985ba78e246-30",
+                "@id": "30",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2008"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Studies on some factors affecting CO2 curing of lightweight concrete products"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.resconrec.2008.05.002",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib30",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "47049102721",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "52"
+                    },
+                    "pagerange": {
+                      "@first": "1087",
+                      "@last": "1092"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Resour. Conserv. Recycl"
+                },
+                "ce:source-text": "Shi, C., Wu, Y., 2008. Studies on some factors affecting CO2 curing of lightweight concrete products. Resour. Conserv. Recycl. 52, 1087–1092. https://doi.org/10.1016/j.resconrec.2008.05.002"
+              },
+              {
+                "ref-fulltext": "Li Shuai, Zhou Fengjiao, Tan Xinyu, Zhang Bin, Lin Yongquan, Tao Congxi, Huang Mingjun, 2023. Effect of carbon dioxide concentration on performance of low-calcium carbon sequestration cementitious materials and its mechanism. Bulletin of the Chinese Ceramic Society 42, 3109–3116. https//doi.org/10.16 552/j.cnk i.issn1001-1625.2023.09.003",
+                "@reference-instance-id": "OB2BibRecID-973344498-1a66a4155849727d299e7cf1c07dcac9-31",
+                "@id": "31",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of carbon dioxide concentration on performance of low-calcium carbon sequestration cementitious materials and its mechanism"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib31",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85180086283",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "42"
+                    },
+                    "pagerange": {
+                      "@first": "3109",
+                      "@last": "3116"
+                    }
+                  },
+                  "ref-text": "https//doi.org/10.16 552/j.cnk i.issn1001-1625.2023.09.003,",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Shuai",
+                        "ce:indexed-name": "Shuai L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Fengjiao",
+                        "ce:indexed-name": "Fengjiao Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Xinyu",
+                        "ce:indexed-name": "Xinyu T."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Bin",
+                        "ce:indexed-name": "Bin Z."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Yongquan",
+                        "ce:indexed-name": "Yongquan L."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Congxi",
+                        "ce:indexed-name": "Congxi T."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Mingjun",
+                        "ce:indexed-name": "Mingjun H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Bull. Chin. Ceram. Soc."
+                },
+                "ce:source-text": "Li Shuai, Zhou Fengjiao, Tan Xinyu, Zhang Bin, Lin Yongquan, Tao Congxi, Huang Mingjun, 2023. Effect of carbon dioxide concentration on performance of low-calcium carbon sequestration cementitious materials and its mechanism. Bulletin of the Chinese Ceramic Society 42, 3109–3116. https//doi.org/10.16 552/j.cnk i.issn1001-1625.2023.09.003"
+              },
+              {
+                "ref-fulltext": "Guo, J., Yuan, K., Xu, J., Wang, Y., Gan, D., He, M., 2023. The workability and mechanical performance of fly ash cenosphere–desert sand ceramsite concrete: An experimental study and analysis. Materials, 16(3), 1298. https://doi.org/10.3390/ma16031298",
+                "@reference-instance-id": "OB2BibRecID-973344498-d092923b19604fe7c1dd22cc130f208f-32",
+                "@id": "32",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The workability and mechanical performance of fly ash cenosphere–desert sand ceramsite concrete: An experimental study and analysis"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.3390/ma16031298",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "1298",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "bib32",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85148023093",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "16",
+                      "@issue": "3"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Guo",
+                        "ce:indexed-name": "Guo J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Yuan",
+                        "ce:indexed-name": "Yuan K."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang Y."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Gan",
+                        "ce:indexed-name": "Gan D."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "He",
+                        "ce:indexed-name": "He M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Materials"
+                },
+                "ce:source-text": "Guo, J., Yuan, K., Xu, J., Wang, Y., Gan, D., He, M., 2023. The workability and mechanical performance of fly ash cenosphere–desert sand ceramsite concrete: An experimental study and analysis. Materials, 16(3), 1298. https://doi.org/10.3390/ma16031298"
+              },
+              {
+                "ref-fulltext": "Wang, H., Wang, Y., Sun, Z., Wang, L., Zhang, H., Zheng, W., Wang, Q., 2025. Comprehensive assessment and freeze–thaw durability prediction of wet-sprayed concrete for cold-region tunnels. Materials, 18(13), 2955. https://doi.org/10.3390/ma18132955",
+                "@reference-instance-id": "OB2BibRecID-973344498-de9133eb729e7474296c1ec4d3dcdf01-33",
+                "@id": "33",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2025"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Comprehensive assessment and freeze–thaw durability prediction of wet-sprayed concrete for cold-region tunnels"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.3390/ma18132955",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "2955",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "bib33",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105010305949",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "18",
+                      "@issue": "13"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Sun",
+                        "ce:indexed-name": "Sun Z."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang L."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang H."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Zheng",
+                        "ce:indexed-name": "Zheng W."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang Q."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Materials"
+                },
+                "ce:source-text": "Wang, H., Wang, Y., Sun, Z., Wang, L., Zhang, H., Zheng, W., Wang, Q., 2025. Comprehensive assessment and freeze–thaw durability prediction of wet-sprayed concrete for cold-region tunnels. Materials, 18(13), 2955. https://doi.org/10.3390/ma18132955"
+              },
+              {
+                "ref-fulltext": "Chen, W., Li, Y., Shen, P., Shui, Z., 2013. Microstructural development of hydrating portland cement paste at early ages investigated with non-destructive methods and numerical simulation. J. Nondestr. Eval. 32, 228–237. https://doi.org/10.1007/s10921-013-0175-y",
+                "@reference-instance-id": "OB2BibRecID-973344498-767a7f8590be524345a07e436d5860fa-34",
+                "@id": "34",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Microstructural development of hydrating portland cement paste at early ages investigated with non-destructive methods and numerical simulation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s10921-013-0175-y",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib34",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84883156257",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "32"
+                    },
+                    "pagerange": {
+                      "@first": "228",
+                      "@last": "237"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Shen",
+                        "ce:indexed-name": "Shen P."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Shui",
+                        "ce:indexed-name": "Shui Z."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Nondestr. Eval."
+                },
+                "ce:source-text": "Chen, W., Li, Y., Shen, P., Shui, Z., 2013. Microstructural development of hydrating portland cement paste at early ages investigated with non-destructive methods and numerical simulation. J. Nondestr. Eval. 32, 228–237. https://doi.org/10.1007/s10921-013-0175-y"
+              },
+              {
+                "ref-fulltext": "Cement chemistry, 2nd ed, 1997. Emerald Publishing Limited. https://doi.org/10.1680/cc.25929.",
+                "@reference-instance-id": "OB2BibRecID-973344498-2238952bcd6409ea0dba9c61ea9d7624-35",
+                "@id": "35",
+                "ref-info": {
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib35",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85158149653",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Cement chemistry, 2nd ed, 1997. Emerald Publishing Limited. https://doi.org/10.1680/cc.25929,"
+                },
+                "ce:source-text": "Cement chemistry, 2nd ed, 1997. Emerald Publishing Limited. https://doi.org/10.1680/cc.25929."
+              },
+              {
+                "ref-fulltext": "Kurdowski, W., 2014. Cement and concrete chemistry. Springer Netherlands, Dordrecht. https://doi.org/10.1007/978-94-007-7945-7",
+                "@reference-instance-id": "OB2BibRecID-973344498-127d32de9cffeb26c2a28535b3b7efb9-36",
+                "@id": "36",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/978-94-007-7945-7",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib36",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84929045671",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Springer Netherlands, Dordrecht",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Kurdowski",
+                        "ce:indexed-name": "Kurdowski W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cement and concrete chemistry"
+                },
+                "ce:source-text": "Kurdowski, W., 2014. Cement and concrete chemistry. Springer Netherlands, Dordrecht. https://doi.org/10.1007/978-94-007-7945-7"
+              },
+              {
+                "ref-fulltext": "Powers, T.C., Brownyard, T.L., 1946. Studies of the physical properties of hardened portland cement paste. Portland Cem. Assoc R D Lab Bull.",
+                "@reference-instance-id": "OB2BibRecID-973344498-aa17d6def06135c048e35b6e9e201926-37",
+                "@id": "37",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1946"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib37",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0003652579",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Portland Cem. Assoc R D Lab Bull,",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Powers",
+                        "ce:indexed-name": "Powers T.C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Brownyard",
+                        "ce:indexed-name": "Brownyard T.L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Studies of the physical properties of hardened portland cement paste"
+                },
+                "ce:source-text": "Powers, T.C., Brownyard, T.L., 1946. Studies of the physical properties of hardened portland cement paste. Portland Cem. Assoc R D Lab Bull."
+              },
+              {
+                "ref-fulltext": "Antiohos, S., Tsimas, S., 2004. Activation of fly ash cementitious systems in the presence of quicklime: part I. Compressive strength and pozzolanic reaction rate. Cem. Concr. Res. 34, 769–779. https://doi.org/10.1016/j.cemconres.2003.08.008",
+                "@reference-instance-id": "OB2BibRecID-973344498-e0efb30416b29ca6af6200e21d529fb2-38",
+                "@id": "38",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2004"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Activation of fly ash cementitious systems in the presence of quicklime: part I. Compressive strength and pozzolanic reaction rate"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.cemconres.2003.08.008",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib38",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "1942503963",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "34"
+                    },
+                    "pagerange": {
+                      "@first": "769",
+                      "@last": "779"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Antiohos",
+                        "ce:indexed-name": "Antiohos S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Tsimas",
+                        "ce:indexed-name": "Tsimas S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Antiohos, S., Tsimas, S., 2004. Activation of fly ash cementitious systems in the presence of quicklime: part I. Compressive strength and pozzolanic reaction rate. Cem. Concr. Res. 34, 769–779. https://doi.org/10.1016/j.cemconres.2003.08.008"
+              },
+              {
+                "ref-fulltext": "Fan, Y., Yin, S., Wen, Z., Zhong, J., 1999. Activation of fly ash and its effects on cement properties1. Cem. Concr. Res. 29, 467–472. https://doi.org/10.1016/S0008-8846(98)00178-1",
+                "@reference-instance-id": "OB2BibRecID-973344498-4341eb0c0ff5770f73ba85b9f977712f-39",
+                "@id": "39",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1999"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Activation of fly ash and its effects on cement properties1"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/S0008-8846(98)00178-1",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib39",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0032643264",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "29"
+                    },
+                    "pagerange": {
+                      "@first": "467",
+                      "@last": "472"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Fan",
+                        "ce:indexed-name": "Fan Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Yin",
+                        "ce:indexed-name": "Yin S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Wen",
+                        "ce:indexed-name": "Wen Z."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhong",
+                        "ce:indexed-name": "Zhong J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Fan, Y., Yin, S., Wen, Z., Zhong, J., 1999. Activation of fly ash and its effects on cement properties1. Cem. Concr. Res. 29, 467–472. https://doi.org/10.1016/S0008-8846(98)00178-1"
+              },
+              {
+                "ref-fulltext": "Kovalchuk, G.U., Fernández-Jiménez, A., Palomo, A., 2008. Alkali-activated fly ash. Relationship between mechanical strength gains and initial ash chemistry. Materiales de Construccion 58.",
+                "@reference-instance-id": "OB2BibRecID-973344498-7a8ebe3f47cf5090caf762719ea6d758-40",
+                "@id": "40",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2008"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Alkali-activated fly ash. Relationship between mechanical strength gains and initial ash chemistry"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib40",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "54249140613",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "58"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.U.",
+                        "@_fa": "true",
+                        "ce:surname": "Kovalchuk",
+                        "ce:indexed-name": "Kovalchuk G.U."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Fernández-Jiménez",
+                        "ce:indexed-name": "Fernandez-Jimenez A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Palomo",
+                        "ce:indexed-name": "Palomo A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Mater. De. Construccion"
+                },
+                "ce:source-text": "Kovalchuk, G.U., Fernández-Jiménez, A., Palomo, A., 2008. Alkali-activated fly ash. Relationship between mechanical strength gains and initial ash chemistry. Materiales de Construccion 58."
+              },
+              {
+                "ref-fulltext": "He Tingshu, Wei Guoqiang, 2009. Effect of activators excitated cement specimen with different amount of fly ash on strength. Concrete 62–64. https://doi.org/10.3969/j.issn.1002-3550.2009.05.019",
+                "@reference-instance-id": "OB2BibRecID-973344498-f1433d927c440114bd45bb893491fa7e-41",
+                "@id": "41",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of activators excitated cement specimen with different amount of fly ash on strength"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.3969/j.issn.1002-3550.2009.05.019",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib41",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "79958017411",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "62",
+                      "@last": "64"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Tingshu",
+                        "ce:indexed-name": "Tingshu H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Guoqiang",
+                        "ce:indexed-name": "Guoqiang W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Concrete"
+                },
+                "ce:source-text": "He Tingshu, Wei Guoqiang, 2009. Effect of activators excitated cement specimen with different amount of fly ash on strength. Concrete 62–64. https://doi.org/10.3969/j.issn.1002-3550.2009.05.019"
+              },
+              {
+                "ref-fulltext": "Geng, G., Taylor, R., Bae, S., Hernández-Cruz, D., Kilcoyne, D.A., Emwas, A.-H., Monteiro, P.J.M., 2015. Atomic and nano-scale characterization of a 50-year-old hydrated C3S paste. Cem. Concr. Res. 77, 36–46. https://doi.org/10.1016/j.cemconres.2015.06.010",
+                "@reference-instance-id": "OB2BibRecID-973344498-04f41e5cf069746431f7a23828bd11a6-42",
+                "@id": "42",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Atomic and nano-scale characterization of a 50-year-old hydrated C3S paste"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.cemconres.2015.06.010",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib42",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84937042423",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "77"
+                    },
+                    "pagerange": {
+                      "@first": "36",
+                      "@last": "46"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Geng",
+                        "ce:indexed-name": "Geng G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Taylor",
+                        "ce:indexed-name": "Taylor R."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Bae",
+                        "ce:indexed-name": "Bae S."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Hernández-Cruz",
+                        "ce:indexed-name": "Hernandez-Cruz D."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "D.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Kilcoyne",
+                        "ce:indexed-name": "Kilcoyne D.A."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "A.-H.",
+                        "@_fa": "true",
+                        "ce:surname": "Emwas",
+                        "ce:indexed-name": "Emwas A.-H."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "P.J.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Monteiro",
+                        "ce:indexed-name": "Monteiro P.J.M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Geng, G., Taylor, R., Bae, S., Hernández-Cruz, D., Kilcoyne, D.A., Emwas, A.-H., Monteiro, P.J.M., 2015. Atomic and nano-scale characterization of a 50-year-old hydrated C3S paste. Cem. Concr. Res. 77, 36–46. https://doi.org/10.1016/j.cemconres.2015.06.010"
+              },
+              {
+                "ref-fulltext": "Masoumi, S., Zare, S., Valipour, H., Abdolhosseini Qomi, M.J., 2019. Effective interactions between calcium-silicate-hydrate nanolayers. J. Phys. Chem. C 123, 4755–4766. https://doi.org/10.1021/acs.jpcc.8b08146",
+                "@reference-instance-id": "OB2BibRecID-973344498-e3692c1c6086fbf6ef5ac966206d3684-43",
+                "@id": "43",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effective interactions between calcium-silicate-hydrate nanolayers"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1021/acs.jpcc.8b08146",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib43",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85062399819",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "123"
+                    },
+                    "pagerange": {
+                      "@first": "4755",
+                      "@last": "4766"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Masoumi",
+                        "ce:indexed-name": "Masoumi S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Zare",
+                        "ce:indexed-name": "Zare S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Valipour",
+                        "ce:indexed-name": "Valipour H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "M.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Abdolhosseini Qomi",
+                        "ce:indexed-name": "Abdolhosseini Qomi M.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Phys. Chem. C."
+                },
+                "ce:source-text": "Masoumi, S., Zare, S., Valipour, H., Abdolhosseini Qomi, M.J., 2019. Effective interactions between calcium-silicate-hydrate nanolayers. J. Phys. Chem. C 123, 4755–4766. https://doi.org/10.1021/acs.jpcc.8b08146"
+              },
+              {
+                "ref-fulltext": "Liu, X., Feng, P., Cai, Y., Yu, X., Yu, C., Ran, Q., 2022. Carbonation behavior of calcium silicate hydrate (C-S-H): its potential for CO2 capture. Chemical Engineering Journal 431, 134243. https://doi.org/10.1016/j.cej.2021.134243",
+                "@reference-instance-id": "OB2BibRecID-973344498-cc60ddcb16c43afd9c22da217263264c-44",
+                "@id": "44",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Carbonation behavior of calcium silicate hydrate (C-S-H): its potential for CO2 capture"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.cej.2021.134243",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "134243",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "bib44",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85122456526",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "431"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Feng",
+                        "ce:indexed-name": "Feng P."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Cai",
+                        "ce:indexed-name": "Cai Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu X."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu C."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Ran",
+                        "ce:indexed-name": "Ran Q."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Chem. Eng. J."
+                },
+                "ce:source-text": "Liu, X., Feng, P., Cai, Y., Yu, X., Yu, C., Ran, Q., 2022. Carbonation behavior of calcium silicate hydrate (C-S-H): its potential for CO2 capture. Chemical Engineering Journal 431, 134243. https://doi.org/10.1016/j.cej.2021.134243"
+              },
+              {
+                "ref-fulltext": "Sevelsted, T.F., Skibsted, J., 2015. Carbonation of C–S–H and C–a–S–H samples studied by 13C, 27Al and 29Si MAS NMR spectroscopy. Cem. Concr. Res. 71, 56–65. https://doi.org/10.1016/j.cemconres.2015.01.019",
+                "@reference-instance-id": "OB2BibRecID-973344498-1a4e08c27498d965ffaa87c8497ddb75-45",
+                "@id": "45",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Carbonation of C–S–H and C–a–S–H samples studied by 13C, 27Al and 29Si MAS NMR spectroscopy"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.cemconres.2015.01.019",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib45",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84922343418",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "71"
+                    },
+                    "pagerange": {
+                      "@first": "56",
+                      "@last": "65"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Sevelsted",
+                        "ce:indexed-name": "Sevelsted T.F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Skibsted",
+                        "ce:indexed-name": "Skibsted J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Sevelsted, T.F., Skibsted, J., 2015. Carbonation of C–S–H and C–a–S–H samples studied by 13C, 27Al and 29Si MAS NMR spectroscopy. Cem. Concr. Res. 71, 56–65. https://doi.org/10.1016/j.cemconres.2015.01.019"
+              },
+              {
+                "ref-fulltext": "Liu, Z., Meng, W., 2021. Fundamental understanding of carbonation curing and durability of carbonation-cured cement-based composites: a review. J. CO2 Util. 44, 101428. https://doi.org/10.1016/j.jcou.2020.101428",
+                "@reference-instance-id": "OB2BibRecID-973344498-6028d812047a9daf2cc16cdc34f15c25-46",
+                "@id": "46",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Fundamental understanding of carbonation curing and durability of carbonation-cured cement-based composites: a review"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.jcou.2020.101428",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "101428",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "bib46",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85099352323",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "44"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Meng",
+                        "ce:indexed-name": "Meng W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. CO2 Util."
+                },
+                "ce:source-text": "Liu, Z., Meng, W., 2021. Fundamental understanding of carbonation curing and durability of carbonation-cured cement-based composites: a review. J. CO2 Util. 44, 101428. https://doi.org/10.1016/j.jcou.2020.101428"
+              },
+              {
+                "ref-fulltext": "Morandeau, A., Thiéry, M., Dangla, P., 2014. Investigation of the carbonation mechanism of CH and C-S-H in terms of kinetics, microstructure changes and moisture properties. Cement and Concrete Research 56, 153–170. https://doi.org/10.1016/j.cemconres.2013.11.015",
+                "@reference-instance-id": "OB2BibRecID-973344498-bbd3cfb711fe11ba7692b17e688ed713-47",
+                "@id": "47",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Investigation of the carbonation mechanism of CH and C-S-H in terms of kinetics, microstructure changes and moisture properties"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.cemconres.2013.11.015",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib47",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84891123415",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "56"
+                    },
+                    "pagerange": {
+                      "@first": "153",
+                      "@last": "170"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Morandeau",
+                        "ce:indexed-name": "Morandeau A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Thiéry",
+                        "ce:indexed-name": "Thiery M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Dangla",
+                        "ce:indexed-name": "Dangla P."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Morandeau, A., Thiéry, M., Dangla, P., 2014. Investigation of the carbonation mechanism of CH and C-S-H in terms of kinetics, microstructure changes and moisture properties. Cement and Concrete Research 56, 153–170. https://doi.org/10.1016/j.cemconres.2013.11.015"
+              },
+              {
+                "ref-fulltext": "Zhang, D., Ghouleh, Z., Shao, Y., 2017. Review on carbonation curing of cement-based materials. J. CO2 Util. 21, 119–131. https://doi.org/10.1016/j.jcou.2017.07.003",
+                "@reference-instance-id": "OB2BibRecID-973344498-e54fce4e0997c0540f644fce4ce5a90d-48",
+                "@id": "48",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Review on carbonation curing of cement-based materials"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.jcou.2017.07.003",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib48",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85023187644",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "21"
+                    },
+                    "pagerange": {
+                      "@first": "119",
+                      "@last": "131"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang D."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Ghouleh",
+                        "ce:indexed-name": "Ghouleh Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Shao",
+                        "ce:indexed-name": "Shao Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. CO2 Util."
+                },
+                "ce:source-text": "Zhang, D., Ghouleh, Z., Shao, Y., 2017. Review on carbonation curing of cement-based materials. J. CO2 Util. 21, 119–131. https://doi.org/10.1016/j.jcou.2017.07.003"
+              },
+              {
+                "ref-fulltext": "Rostami, V., Shao, Y., Boyd, A.J., He, Z., 2012b. Microstructure of cement paste subject to early carbonation curing. Cem. Concr. Res. 42, 186–193. https://doi.org/10.1016/j.cemconres.2011.09.010",
+                "@reference-instance-id": "OB2BibRecID-973344498-4bd20f7f4f3082f4ffa66a5971d51bd8-49",
+                "@id": "49",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Microstructure of cement paste subject to early carbonation curing"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.cemconres.2011.09.010",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib49",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "80855139556",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "42"
+                    },
+                    "pagerange": {
+                      "@first": "186",
+                      "@last": "193"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "V.",
+                        "@_fa": "true",
+                        "ce:surname": "Rostami",
+                        "ce:indexed-name": "Rostami V."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Shao",
+                        "ce:indexed-name": "Shao Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Boyd",
+                        "ce:indexed-name": "Boyd A.J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "He",
+                        "ce:indexed-name": "He Z."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Rostami, V., Shao, Y., Boyd, A.J., He, Z., 2012b. Microstructure of cement paste subject to early carbonation curing. Cem. Concr. Res. 42, 186–193. https://doi.org/10.1016/j.cemconres.2011.09.010"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "affiliation": {
+      "affiliation-city": "Beijing",
+      "@id": "60018273",
+      "affilname": "University of Science and Technology Beijing",
+      "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60018273",
+      "affiliation-country": "China"
+    },
+    "coredata": {
+      "srctype": "j",
+      "eid": "2-s2.0-105035261270",
+      "dc:description": "To investigate the influence of periodic cyclic carbonation (PCC) curing on the mechanical properties, carbon sequestration rates, and microstructure of cemented paste backfill (CPB), this paper prepared CPB specimens of different cement/fly ash (CF ratios) and treated them by periodic cyclic carbonation curing. Afterwards, uniaxial compression strength (UCS), digital image correlation (DIC), and thermogravimetric (TG) analysis were conducted on them. Through the above tests, the following conclusions were obtained: (1) After the first PCC curing, the strength of CPB specimens decreased, with the Group M5 experiencing a 26.71% reduction. Following continued standard curing, the strength of Group M5 increased by 13.79%. After the second carbonation curing, the strength of Group M5 decreased by 24.43%. (2) The carbon sequestration rates of CPB specimens increased with the number of cyclic curing cycles but decreased with higher fly ash content. After the first PCC curing, the carbon sequestration rate of Group M5 was 7.201%, while that of Group M4 decreased by 0.53%. After the second PCC curing, the carbon sequestration rate of Group M5 rose to 7.470%, whereas that of Group M4 decreased by 0.51%. (3) Scanning electron microscopy (SEM) revealed that C-S-H gel formed in the PCC curing scheme after standard curing, while CaCO3 formed after carbonation curing. The porosity of Group M5 was 8.402% after the first PCC curing cycle and decreased to 7.574% after the second PCC curing cycle, indicating optimized pore structure.",
+      "prism:coverDate": "2026-07-01",
+      "prism:aggregationType": "Journal",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105035261270",
+      "subtypeDescription": "Article",
+      "dc:creator": {
+        "author": [
+          {
+            "ce:given-name": "Ruisi",
+            "preferred-name": {
+              "ce:given-name": "Ruisi",
+              "ce:initials": "R.",
+              "ce:surname": "Bai",
+              "ce:indexed-name": "Bai R."
+            },
+            "@seq": "1",
+            "ce:initials": "R.",
+            "@_fa": "true",
+            "affiliation": {
+              "@id": "60018273",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60018273"
+            },
+            "ce:surname": "Bai",
+            "@auid": "60352388400",
+            "author-url": "https://api.elsevier.com/content/author/author_id/60352388400",
+            "ce:indexed-name": "Bai R."
+          }
+        ]
+      },
+      "link": [
+        {
+          "@_fa": "true",
+          "@rel": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105035261270"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105035261270&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105035261270&origin=inward"
+        }
+      ],
+      "prism:publicationName": "Case Studies in Construction Materials",
+      "source-id": "21100296223",
+      "pii": "S2214509526002998",
+      "citedby-count": "0",
+      "prism:volume": "24",
+      "subtype": "ar",
+      "dc:title": "Mechanical properties and carbon sequestration performance of cemented paste backfill under periodic cyclic carbonation curing",
+      "openaccess": "1",
+      "openaccessFlag": "true",
+      "prism:doi": "10.1016/j.cscm.2026.e06048",
+      "prism:issn": "22145095",
+      "publishercopyright": "© 2026 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY license. http://creativecommons.org/licenses/by/4.0/",
+      "article-number": "e06048",
+      "dc:identifier": "SCOPUS_ID:105035261270",
+      "dc:publisher": "Elsevier Ltd"
+    },
+    "idxterms": {
+      "mainterm": [
+        {
+          "$": "Carbon sequestration",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Carbon sequestration backfilling",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Cemented paste backfill",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Curing cycle",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Hydration-carbonation mechanism",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Mechanical",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Performance",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Periodic cyclic carbonation curing",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Property",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Uni-axial compression",
+          "@weight": "b",
+          "@candidate": "n"
+        }
+      ]
+    },
+    "language": {
+      "@xml:lang": "eng"
+    },
+    "authkeywords": {
+      "author-keyword": [
+        {
+          "@_fa": "true",
+          "$": "Carbon sequestration backfilling"
+        },
+        {
+          "@_fa": "true",
+          "$": "Cemented paste backfill"
+        },
+        {
+          "@_fa": "true",
+          "$": "Hydration-carbonation mechanism"
+        },
+        {
+          "@_fa": "true",
+          "$": "Periodic cyclic carbonation curing"
+        }
+      ]
+    },
+    "subject-areas": {
+      "subject-area": [
+        {
+          "@_fa": "true",
+          "$": "Materials Science (miscellaneous)",
+          "@code": "2501",
+          "@abbrev": "MATE"
+        }
+      ]
+    },
+    "authors": {
+      "author": [
+        {
+          "ce:given-name": "Ruisi",
+          "preferred-name": {
+            "ce:given-name": "Ruisi",
+            "ce:initials": "R.",
+            "ce:surname": "Bai",
+            "ce:indexed-name": "Bai R."
+          },
+          "@seq": "1",
+          "ce:initials": "R.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60018273",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60018273"
+          },
+          "ce:surname": "Bai",
+          "@auid": "60352388400",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60352388400",
+          "ce:indexed-name": "Bai R."
+        },
+        {
+          "ce:given-name": "Yan",
+          "preferred-name": {
+            "ce:given-name": "Yan",
+            "ce:initials": "Y.",
+            "ce:surname": "Li",
+            "ce:indexed-name": "Li Y."
+          },
+          "@seq": "2",
+          "ce:initials": "Y.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60018273",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60018273"
+          },
+          "ce:surname": "Li",
+          "@auid": "57211569122",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57211569122",
+          "ce:indexed-name": "Li Y."
+        },
+        {
+          "ce:given-name": "Jie",
+          "preferred-name": {
+            "ce:given-name": "Jie",
+            "ce:initials": "J.",
+            "ce:surname": "Wang",
+            "ce:indexed-name": "Wang J."
+          },
+          "@seq": "3",
+          "ce:initials": "J.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60018273",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60018273"
+          },
+          "ce:surname": "Wang",
+          "@auid": "57197814016",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57197814016",
+          "ce:indexed-name": "Wang J."
+        },
+        {
+          "ce:given-name": "Jianxin",
+          "preferred-name": {
+            "ce:given-name": "Jianxin",
+            "ce:initials": "J.",
+            "ce:surname": "Fu",
+            "ce:indexed-name": "Fu J."
+          },
+          "@seq": "4",
+          "ce:initials": "J.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60018273",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60018273"
+          },
+          "ce:surname": "Fu",
+          "@auid": "26424610800",
+          "author-url": "https://api.elsevier.com/content/author/author_id/26424610800",
+          "ce:indexed-name": "Fu J."
+        },
+        {
+          "ce:given-name": "Wei",
+          "preferred-name": {
+            "ce:given-name": "Wei",
+            "ce:initials": "W.",
+            "ce:surname": "Chen",
+            "ce:indexed-name": "Chen W."
+          },
+          "@seq": "5",
+          "ce:initials": "W.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60018273",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60018273"
+          },
+          "ce:surname": "Chen",
+          "@auid": "60101112400",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60101112400",
+          "ce:indexed-name": "Chen W."
+        },
+        {
+          "ce:given-name": "Shenghua",
+          "preferred-name": {
+            "ce:given-name": "Shenghua",
+            "ce:initials": "S.",
+            "ce:surname": "Yin",
+            "ce:indexed-name": "Yin S."
+          },
+          "@seq": "6",
+          "ce:initials": "S.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60018273",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60018273"
+          },
+          "ce:surname": "Yin",
+          "@auid": "55705553300",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55705553300",
+          "ce:indexed-name": "Yin S."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,4039 @@
+{
+  "abstracts-retrieval-response": {
+    "item": {
+      "ait:process-info": {
+        "ait:status": {
+          "@state": "update",
+          "@type": "core",
+          "@stage": "S300"
+        },
+        "ait:date-delivered": {
+          "@day": "19",
+          "@timestamp": "2025-03-19T21:40:17.000017-04:00",
+          "@year": "2025",
+          "@month": "03"
+        },
+        "ait:date-sort": {
+          "@day": "01",
+          "@year": "2021",
+          "@month": "02"
+        }
+      },
+      "xocs:meta": {
+        "xocs:funding-list": {
+          "@pui-match": "primary",
+          "@has-funding-info": "1",
+          "xocs:funding": [
+            {
+              "xocs:funding-agency-matched-string": "Shanghai Sailing Program",
+              "xocs:funding-id": "19YF1436700"
+            },
+            {
+              "xocs:funding-agency-matched-string": "National Natural Science Foundation of China",
+              "xocs:funding-agency-acronym": "NSFC",
+              "xocs:funding-agency": "National Natural Science Foundation of China",
+              "xocs:funding-id": [
+                {
+                  "$": "41672266"
+                },
+                {
+                  "$": "52008246"
+                }
+              ],
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "National Natural Science Foundation of China",
+              "xocs:funding-agency-acronym": "NSFC",
+              "xocs:funding-agency": "National Natural Science Foundation of China",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Tongji University",
+              "xocs:funding-agency": "Tongji University",
+              "xocs:funding-id": [
+                {
+                  "$": "KLE-TJGE-B1801"
+                },
+                {
+                  "$": "KLE-TJGE-B1901"
+                }
+              ],
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100004204",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Tongji University",
+              "xocs:funding-agency": "Tongji University",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100004204",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Key Laboratory of Geotechnical",
+              "xocs:funding-agency": "Key Laboratory of Geotechnical and Underground Engineering, Ministry of Education",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100011156",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            }
+          ],
+          "xocs:funding-addon-generated-timestamp": "2021-05-28T07:42:57.818Z",
+          "xocs:funding-text": "This work was supported by the National Natural Science Foundation of China (Grant No. 41672266 , 52008246 ), Shanghai Sailing Program (Grant No. 19YF1436700 ), and Open Research Project from Key Laboratory of Geotechnical and Underground Engineering , Tongji University (Grant No. KLE-TJGE-B1801 , KLE-TJGE-B1901 ). Financial support from these organizations is gratefully acknowledged.",
+          "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }
+      },
+      "bibrecord": {
+        "head": {
+          "author-group": [
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "201418",
+                "@afid": "60022279",
+                "@country": "chn",
+                "city": "Shanghai",
+                "organization": [
+                  {
+                    "$": "Department of Civil Engineering"
+                  },
+                  {
+                    "$": "Shanghai Normal University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60022279",
+                  "@dptid": "106385026"
+                },
+                "@affiliation-instance-id": "S0029801820314694-8aea553708117f666bdb353b2e4e2b06",
+                "ce:source-text": "Department of Civil Engineering, Shanghai Normal University, Shanghai, 201418, China",
+                "@dptid": "106385026"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Hao",
+                  "preferred-name": {
+                    "ce:given-name": "Hao",
+                    "ce:initials": "H.",
+                    "ce:surname": "Zhang",
+                    "ce:indexed-name": "Zhang H."
+                  },
+                  "@author-instance-id": "S0029801820314694-0ec108eaa06cb62f44abbbff63028ba4",
+                  "@seq": "1",
+                  "ce:initials": "H.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Zhang",
+                  "@auid": "58142026600",
+                  "ce:indexed-name": "Zhang H."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "200092",
+                "@afid": "60129289",
+                "@country": "chn",
+                "city": "Shanghai",
+                "organization": [
+                  {
+                    "$": "Department of Geotechnical Engineering"
+                  },
+                  {
+                    "$": "Key Laboratory of Geotechnical and Underground Engineering of Ministry of Education"
+                  },
+                  {
+                    "$": "Tongji University"
+                  }
+                ],
+                "affiliation-id": [
+                  {
+                    "@afid": "60129289",
+                    "@dptid": "127830689"
+                  },
+                  {
+                    "@afid": "60073652"
+                  },
+                  {
+                    "@afid": "60001604"
+                  }
+                ],
+                "@affiliation-instance-id": "S0029801820314694-bb5bf3e0df1c1dcd51dd7ffa02154557",
+                "ce:source-text": "Department of Geotechnical Engineering, Key Laboratory of Geotechnical and Underground Engineering of Ministry of Education, Tongji University, Shanghai, 200092, China",
+                "@dptid": "127830689"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Hao",
+                  "preferred-name": {
+                    "ce:given-name": "Hao",
+                    "ce:initials": "H.",
+                    "ce:surname": "Zhang",
+                    "ce:indexed-name": "Zhang H."
+                  },
+                  "@author-instance-id": "S0029801820314694-0ec108eaa06cb62f44abbbff63028ba4",
+                  "@seq": "1",
+                  "ce:initials": "H.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Zhang",
+                  "@auid": "58142026600",
+                  "ce:indexed-name": "Zhang H."
+                },
+                {
+                  "ce:given-name": "Fayun",
+                  "preferred-name": {
+                    "ce:given-name": "Fayun",
+                    "ce:initials": "F.",
+                    "ce:surname": "Liang",
+                    "ce:indexed-name": "Liang F."
+                  },
+                  "@author-instance-id": "S0029801820314694-dbb744e625e42b18637bd57b89455371",
+                  "@seq": "2",
+                  "ce:initials": "F.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Liang",
+                  "@auid": "55977772900",
+                  "ce:indexed-name": "Liang F."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "310018",
+                "@afid": "60103821",
+                "@country": "chn",
+                "city": "Hangzhou",
+                "organization": [
+                  {
+                    "$": "Institute of Foundation and Structure Technologies"
+                  },
+                  {
+                    "$": "Zhejiang Sci-Tech University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60103821",
+                  "@dptid": "118435052"
+                },
+                "@affiliation-instance-id": "S0029801820314694-43a9921575519b888c4677ec4bffae6a",
+                "ce:source-text": "Institute of Foundation and Structure Technologies, Zhejiang Sci-Tech University, Hangzhou, 310018, China",
+                "@dptid": "118435052"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Haibing",
+                  "preferred-name": {
+                    "ce:given-name": "Haibing",
+                    "ce:initials": "H.",
+                    "ce:surname": "Chen",
+                    "ce:indexed-name": "Chen H."
+                  },
+                  "@author-instance-id": "S0029801820314694-6ae12ecb61387dda18c25a0b849cc8b6",
+                  "@seq": "3",
+                  "ce:initials": "H.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Chen",
+                  "@auid": "36536696200",
+                  "ce:indexed-name": "Chen H."
+                }
+              ]
+            }
+          ],
+          "citation-title": "Seismic response of offshore composite caisson-piles foundation with different pile configurations and soil conditions in centrifuge tests",
+          "abstracts": "© 2020 Elsevier LtdA series of centrifuge shaking table tests were performed on a new type of foundation, the composite caisson-piles foundation (CCPF) which is recently suggested for the cross-sea bridge or offshore engineering, to investigate its seismic response. The CCPF model with 2 × 2 and 3 × 3 pile groups embedded in homogeneous clayey silt or layered soil consisting of dry sand underlain by clayey silt were employed, these being representative of different pile configurations and soil conditions respectively, with the superstructure simplified as lumped mass and connecting column. The horizontal acceleration and lateral displacement of the soil and superstructure, as well as bending moment of piles were recorded during seismic shaking. Due to the complex soil-CCPF-structure interaction, the composite caisson-piles foundation with the two type pile groups in homogeneous or layered soil exhibited quite different behaviors under earthquake loading. These centrifuge test results indicated that both soil condition and pile configuration played an important role in the seismic response of the CCPF, and future studies combining experimental and numerical simulation should be conducted to investigate more factors influencing the seismic behavior of the composite caisson-piles foundation.",
+          "correspondence": {
+            "affiliation": {
+              "country": "China",
+              "postal-code": "200092",
+              "@country": "chn",
+              "city": "Shanghai",
+              "organization": [
+                {
+                  "$": "Department of Geotechnical Engineering"
+                },
+                {
+                  "$": "Key Laboratory of Geotechnical and Underground Engineering of Ministry of Education"
+                },
+                {
+                  "$": "Tongji University"
+                }
+              ]
+            },
+            "person": {
+              "ce:given-name": "Fayun",
+              "ce:initials": "F.",
+              "ce:surname": "Liang",
+              "ce:indexed-name": "Liang F."
+            }
+          },
+          "citation-info": {
+            "author-keywords": {
+              "author-keyword": [
+                {
+                  "$": "Centrifuge tests",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Composite caisson-piles foundation",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Layered soil",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Pile configuration",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Seismic response",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                }
+              ]
+            },
+            "citation-type": {
+              "@code": "ar"
+            },
+            "citation-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "abstract-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            }
+          },
+          "source": {
+            "website": {
+              "ce:e-address": {
+                "$": "http://www.journals.elsevier.com/ocean-engineering/",
+                "@type": "email"
+              }
+            },
+            "translated-sourcetitle": {
+              "$": "Ocean Engineering",
+              "@xml:lang": "eng"
+            },
+            "volisspag": {
+              "voliss": {
+                "@volume": "221"
+              }
+            },
+            "@type": "j",
+            "sourcetitle": "Ocean Engineering",
+            "publicationdate": {
+              "month": "02",
+              "year": "2021",
+              "date-text": {
+                "@xfab-added": "true",
+                "$": "1 February 2021"
+              },
+              "day": "01"
+            },
+            "sourcetitle-abbrev": "Ocean Eng.",
+            "@country": "gbr",
+            "issn": {
+              "$": "00298018",
+              "@type": "print"
+            },
+            "publicationyear": {
+              "@first": "2021"
+            },
+            "publisher": {
+              "publishername": "Elsevier Ltd"
+            },
+            "article-number": "108561",
+            "@srcid": "28339"
+          },
+          "enhancement": {
+            "classificationgroup": {
+              "classifications": [
+                {
+                  "@type": "CPXCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "401.1",
+                      "classification-description": "Bridges"
+                    },
+                    {
+                      "classification-code": "405.1",
+                      "classification-description": "Construction Equipment"
+                    },
+                    {
+                      "classification-code": "405.2",
+                      "classification-description": "Construction Methods"
+                    },
+                    {
+                      "classification-code": "408.2",
+                      "classification-description": "Structural Members and Shapes"
+                    },
+                    {
+                      "classification-code": "483.1",
+                      "classification-description": "Soils and Soil Mechanics"
+                    },
+                    {
+                      "classification-code": "483.2",
+                      "classification-description": "Foundations"
+                    },
+                    {
+                      "classification-code": "484.2",
+                      "classification-description": "Secondary Earthquake Effects"
+                    },
+                    {
+                      "classification-code": "511.1",
+                      "classification-description": "Oil Field Production Operations"
+                    },
+                    {
+                      "classification-code": "512.1.1",
+                      "classification-description": "Oil Fields"
+                    },
+                    {
+                      "classification-code": "619.2",
+                      "classification-description": "Tanks"
+                    },
+                    {
+                      "classification-code": "802.1",
+                      "classification-description": "Chemical Plants and Equipment"
+                    }
+                  ]
+                },
+                {
+                  "@type": "FLXCLASS",
+                  "classification": {
+                    "classification-code": "902",
+                    "classification-description": "FLUIDEX; Related Topics"
+                  }
+                },
+                {
+                  "@type": "GEOCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "72.13.4",
+                      "classification-description": "Engineering seismology"
+                    },
+                    {
+                      "classification-code": "77.9.11",
+                      "classification-description": "Influence of dynamic loads"
+                    }
+                  ]
+                },
+                {
+                  "@type": "ASJC",
+                  "classification": [
+                    {
+                      "$": "2305"
+                    },
+                    {
+                      "$": "2212"
+                    }
+                  ]
+                },
+                {
+                  "@type": "SUBJABBR",
+                  "classification": [
+                    {
+                      "$": "ENVI"
+                    },
+                    {
+                      "$": "ENGI"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "grantlist": {
+            "@complete": "y",
+            "grant-text": {
+              "$": "This work was supported by the National Natural Science Foundation of China (Grant No. 41672266, 52008246), Shanghai Sailing Program (Grant No. 19YF1436700), and Open Research Project from Key Laboratory of Geotechnical and Underground Engineering, Tongji University (Grant No. KLE-TJGE-B1801, KLE-TJGE-B1901). Financial support from these organizations is gratefully acknowledged.",
+              "@xml:lang": "eng"
+            },
+            "grant": [
+              {
+                "grant-id": "41672266",
+                "grant-acronym": "NSFC",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "National Natural Science Foundation of China"
+                }
+              },
+              {
+                "grant-id": "52008246",
+                "grant-acronym": "NSFC",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "National Natural Science Foundation of China"
+                }
+              },
+              {
+                "grant-id": "KLE-TJGE-B1801",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "Tongji University"
+                }
+              },
+              {
+                "grant-id": "KLE-TJGE-B1901",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "Tongji University"
+                }
+              }
+            ]
+          }
+        },
+        "item-info": {
+          "copyright": {
+            "$": "Copyright 2021 Elsevier B.V., All rights reserved.",
+            "@type": "Elsevier"
+          },
+          "dbcollection": [
+            {
+              "$": "APILIT"
+            },
+            {
+              "$": "CPX"
+            },
+            {
+              "$": "EMBIO"
+            },
+            {
+              "$": "FLX"
+            },
+            {
+              "$": "GEO"
+            },
+            {
+              "$": "REAXYSCAR"
+            },
+            {
+              "$": "SCOPUS"
+            },
+            {
+              "$": "Scopusbase"
+            }
+          ],
+          "history": {
+            "date-created": {
+              "@day": "24",
+              "@timestamp": "BST 10:56:38",
+              "@year": "2021",
+              "@month": "01"
+            }
+          },
+          "itemidlist": {
+            "itemid": [
+              {
+                "$": "2010567243",
+                "@idtype": "PUI"
+              },
+              {
+                "$": "L2021003922",
+                "@idtype": "APILIT"
+              },
+              {
+                "$": "930637906",
+                "@idtype": "CAR-ID"
+              },
+              {
+                "$": "20210209751783",
+                "@idtype": "CPX"
+              },
+              {
+                "$": "2019184550",
+                "@idtype": "EMBIO"
+              },
+              {
+                "$": "1571845",
+                "@idtype": "FLX"
+              },
+              {
+                "$": "6119154",
+                "@idtype": "GEO"
+              },
+              {
+                "$": "20210120217",
+                "@idtype": "REAXYSCAR"
+              },
+              {
+                "$": "20210105643",
+                "@idtype": "SCOPUS"
+              },
+              {
+                "$": "85099006649",
+                "@idtype": "SCP"
+              },
+              {
+                "$": "85099006649",
+                "@idtype": "SGR"
+              }
+            ],
+            "ce:pii": "S0029801820314694",
+            "ce:ern": "pii:S0029801820314694",
+            "ce:doi": "10.1016/j.oceaneng.2020.108561"
+          }
+        },
+        "tail": {
+          "bibliography": {
+            "@refcount": "55",
+            "reference": [
+              {
+                "ref-fulltext": "Baziar, M.H., Rafiee, F., Azizkandi, A.S., et al. Effect of super-structure frequency on the seismic behavior of pile-raft foundation using physical modeling. Soil Dynam. Earthq. Eng. 104 (2018), 196–209.",
+                "@id": "1",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of super-structure frequency on the seismic behavior of pile-raft foundation using physical modeling"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib1",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85033590501",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "104"
+                    },
+                    "pagerange": {
+                      "@first": "196",
+                      "@last": "209"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Baziar",
+                        "ce:indexed-name": "Baziar M.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Rafiee",
+                        "ce:indexed-name": "Rafiee F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Azizkandi",
+                        "ce:indexed-name": "Azizkandi A.S."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Soil Dynam. Earthq. Eng."
+                },
+                "ce:source-text": "Baziar MH, Rafiee F, Azizkandi AS, et al. (2018). Effect of super-structure frequency on the seismic behavior of pile-raft foundation using physical modeling [J]. Soil Dynamics and Earthquake Engineering, 104:196-209."
+              },
+              {
+                "ref-fulltext": "Bolton, M.D., Gui, M.W., Garnier, J., et al. Centrifuge cone penetration tests in sand. Geotechnique 49:4 (1999), 543–552.",
+                "@id": "2",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1999"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Centrifuge cone penetration tests in sand"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib2",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0033179510",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "49",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "543",
+                      "@last": "552"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Bolton",
+                        "ce:indexed-name": "Bolton M.D."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Gui",
+                        "ce:indexed-name": "Gui M.W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Garnier",
+                        "ce:indexed-name": "Garnier J."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Geotechnique"
+                },
+                "ce:source-text": "Bolton MD, Gui MW, Garnier J, et al. (1999). Centrifuge cone penetration tests in sand [J]. Geotechnique, 49(4): 543-552."
+              },
+              {
+                "ref-fulltext": "Boore DM. Effect of baseline corrections on displacements and response spectra for several recordings of the 1999 Chi-Chi, Taiwan, earthquake [J]. Bull. Seismol. Soc. Am., 91(5): 1199-1211.",
+                "@id": "3",
+                "ref-info": {
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib3",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0035484530",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "1199",
+                      "@last": "1211"
+                    }
+                  },
+                  "ref-text": "Effect of baseline corrections on displacements and response spectra for several recordings of the 1999 Chi-Chi, Taiwan, earthquake [J]. Bull. Seismol. Soc. Am., 91(5):",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Boore",
+                        "ce:indexed-name": "Boore D.M."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Boore DM. Effect of baseline corrections on displacements and response spectra for several recordings of the 1999 Chi-Chi, Taiwan, earthquake [J]. Bull. Seismol. Soc. Am., 91(5): 1199-1211."
+              },
+              {
+                "ref-fulltext": "Boulanger, R.W., Curras, C.J., Kutter, B.L., et al. Seismic soil-pile-structure interaction experiments and analyses. J. Geotech. Geoenviron. Eng. 125:9 (1999), 750–759.",
+                "@id": "4",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1999"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic soil-pile-structure interaction experiments and analyses"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib4",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0033199238",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "125",
+                      "@issue": "9"
+                    },
+                    "pagerange": {
+                      "@first": "750",
+                      "@last": "759"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Boulanger",
+                        "ce:indexed-name": "Boulanger R.W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Curras",
+                        "ce:indexed-name": "Curras C.J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "B.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Kutter",
+                        "ce:indexed-name": "Kutter B.L."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "J. Geotech. Geoenviron. Eng."
+                },
+                "ce:source-text": "Boulanger RW, Curras CJ, Kutter BL, et al. (1999). Seismic soil-pile-structure interaction experiments and analyses [J]. Journal of Geotechnical and Geoenvironmental Engineering, 125(9): 750-759."
+              },
+              {
+                "ref-fulltext": "Chang, K.C., Sung, Y.C., Liu, K.Y., et al. Seismic performance of an existing bridge with scoured caisson foundation. Earthq. Eng. Eng. Vib. 13:Suppl. 1 (2014), 151–165.",
+                "@id": "5",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic performance of an existing bridge with scoured caisson foundation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib5",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84919903182",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "13"
+                    },
+                    "pagerange": {
+                      "@first": "151",
+                      "@last": "165"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Chang",
+                        "ce:indexed-name": "Chang K.C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Sung",
+                        "ce:indexed-name": "Sung Y.C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "K.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu K.Y."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Earthq. Eng. Eng. Vib."
+                },
+                "ce:source-text": "Chang KC, Sung YC, Liu KY, et al. (2014). Seismic performance of an existing bridge with scoured caisson foundation [J]. Earthquake Engineering and Engineering Vibration, 13(Suppl.1): 151-165."
+              },
+              {
+                "ref-fulltext": "Chen, Z.Y., Shen, H., Dynamic centrifuge tests on isolation mechanism of tunnels subjected to seismic shaking. Tunn. Undergr. Space Technol. 42 (2014), 67–77.",
+                "@id": "6",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Dynamic centrifuge tests on isolation mechanism of tunnels subjected to seismic shaking"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib6",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84894414516",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "42"
+                    },
+                    "pagerange": {
+                      "@first": "67",
+                      "@last": "77"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen Z.Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Shen",
+                        "ce:indexed-name": "Shen H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Chen ZY, Shen H (2014). Dynamic centrifuge tests on isolation mechanism of tunnels subjected to seismic shaking [J]. Tunnelling and Undergroud Space Technology, 42: 67-77."
+              },
+              {
+                "ref-fulltext": "Chen, Z.Y., Liang, S.B., Shen, H., et al. Dynamic centrifuge tests on effects of isolation layer and cross-section dimensions on shield tunnels. Soil Dynam. Earthq. Eng. 109 (2018), 173–187.",
+                "@id": "7",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Dynamic centrifuge tests on effects of isolation layer and cross-section dimensions on shield tunnels"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib7",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85044105737",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "109"
+                    },
+                    "pagerange": {
+                      "@first": "173",
+                      "@last": "187"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen Z.Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Liang",
+                        "ce:indexed-name": "Liang S.B."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Shen",
+                        "ce:indexed-name": "Shen H."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Soil Dynam. Earthq. Eng."
+                },
+                "ce:source-text": "Chen ZY, Liang SB, Shen H, et al. (2018). Dynamic centrifuge tests on effects of isolation layer and cross-section dimensions on shield tunnels [J]. Soil Dynamics and Earthquake Engineering, 109: 173-187."
+              },
+              {
+                "ref-fulltext": "Conti, R., Di Laora, R., Licata, V., et al. Seismic performance of bridge piers: caisson vs pile foundations. Soil Dynam. Earthq. Eng., 130, 2020, 105985.",
+                "@id": "8",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic performance of bridge piers: caisson vs pile foundations"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib8",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85081061856",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "130"
+                    },
+                    "pagerange": {
+                      "@first": "105985"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Conti",
+                        "ce:indexed-name": "Conti R."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Di Laora",
+                        "ce:indexed-name": "Di Laora R."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "V.",
+                        "@_fa": "true",
+                        "ce:surname": "Licata",
+                        "ce:indexed-name": "Licata V."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Soil Dynam. Earthq. Eng."
+                },
+                "ce:source-text": "Conti R, Di Laora R, Licata V, et al. (2020). Seismic performance of bridge piers: caisson vs pile foundations [J]. Soil Dynamics and Earthquake Engineering, 130: 105985."
+              },
+              {
+                "ref-fulltext": "Curras, C.J., Boulanger, R.W., Kutter, B.L., et al. Dynamic experiments and analyses of a pile-group-supported structure. J. Geotech. Geoenviron. Eng. 127:7 (2001), 585–596.",
+                "@id": "9",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2001"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Dynamic experiments and analyses of a pile-group-supported structure"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib9",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0035398812",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "127",
+                      "@issue": "7"
+                    },
+                    "pagerange": {
+                      "@first": "585",
+                      "@last": "596"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Curras",
+                        "ce:indexed-name": "Curras C.J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Boulanger",
+                        "ce:indexed-name": "Boulanger R.W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "B.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Kutter",
+                        "ce:indexed-name": "Kutter B.L."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "J. Geotech. Geoenviron. Eng."
+                },
+                "ce:source-text": "Curras CJ, Boulanger RW, Kutter BL, et al. (2001). Dynamic experiments and analyses of a pile-group-supported structure [J]. Journal of Geotechnical and Geoenvironmental Engineering, 127(7): 585-596."
+              },
+              {
+                "ref-fulltext": "Deng, L., Wang, W., Yu, Y., State-of-the-Art review on the causes and mechanisms of bridge collapse. J. Perform. Constr. Facil., 30(2), 2016, 04015005.",
+                "@id": "10",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "State-of-the-Art review on the causes and mechanisms of bridge collapse"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib10",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "04015005",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "84962482233",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "30",
+                      "@issue": "2"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Deng",
+                        "ce:indexed-name": "Deng L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Perform. Constr. Facil."
+                },
+                "ce:source-text": "Deng L, Wang W, Yu Y (2016). State-of-the-Art Review on the Causes and Mechanisms of Bridge Collapse [J]. Journal of Performance of Constructed Facilities, 30(2): 04015005."
+              },
+              {
+                "ref-fulltext": "Fallahzadeh, M., Haddad, A., Jafarian, Y., et al. Seismic performance of end-bearing piled raft with countermeasure strategy against liquefaction using centrifuge model tests. Bull. Earthq. Eng. 17 (2019), 5929–5961.",
+                "@id": "11",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic performance of end-bearing piled raft with countermeasure strategy against liquefaction using centrifuge model tests"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib11",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85070854960",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "17"
+                    },
+                    "pagerange": {
+                      "@first": "5929",
+                      "@last": "5961"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Fallahzadeh",
+                        "ce:indexed-name": "Fallahzadeh M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Haddad",
+                        "ce:indexed-name": "Haddad A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Jafarian",
+                        "ce:indexed-name": "Jafarian Y."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Bull. Earthq. Eng."
+                },
+                "ce:source-text": "Fallahzadeh M, Haddad A, Jafarian Y, et al. (2019). Seismic performance of end-bearing piled raft with countermeasure strategy against liquefaction using centrifuge model tests [J]. Bulletin of Earthquake Engineering, 17: 5929-5961."
+              },
+              {
+                "ref-fulltext": "Gaudio, D., Rampello, S., Equivalent seismic coefficients for caisson foundations supporting bridge piers. Soil Dynam. Earthq. Eng., 129, 2020, 105955.",
+                "@id": "12",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Equivalent seismic coefficients for caisson foundations supporting bridge piers"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib12",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85074978277",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "129"
+                    },
+                    "pagerange": {
+                      "@first": "105955"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Gaudio",
+                        "ce:indexed-name": "Gaudio D."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Rampello",
+                        "ce:indexed-name": "Rampello S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dynam. Earthq. Eng."
+                },
+                "ce:source-text": "Gaudio D, Rampello S (2020). Equivalent seismic coefficients for caisson foundations supporting bridge piers [J]. Soil Dynamics and Earthquake Engineering, 129: 105955."
+              },
+              {
+                "ref-fulltext": "Gerolymos, N., Gazetas, G., Winkler model for lateral response of rigid caisson foundations in linear soil. Soil Dynam. Earthq. Eng. 26:5 (2006), 347–361.",
+                "@id": "13",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2006"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Winkler model for lateral response of rigid caisson foundations in linear soil"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib13",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "33644687780",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "26",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "347",
+                      "@last": "361"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Gerolymos",
+                        "ce:indexed-name": "Gerolymos N."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Gazetas",
+                        "ce:indexed-name": "Gazetas G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dynam. Earthq. Eng."
+                },
+                "ce:source-text": "Gerolymos N, Gazetas G (2006a). Winkler model for lateral response of rigid caisson foundations in linear soil [J]. Soil Dynamics and Earthquake Engineering, 26(5):347-361."
+              },
+              {
+                "ref-fulltext": "Gerolymos, N., Gazetas, G., Development of Winkler model for static and dynamic response of caisson foundations with soil and interface nonlinearities. Soil Dynam. Earthq. Eng. 26:5 (2006), 363–376.",
+                "@id": "14",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2006"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Development of Winkler model for static and dynamic response of caisson foundations with soil and interface nonlinearities"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib14",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "33644672576",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "26",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "363",
+                      "@last": "376"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Gerolymos",
+                        "ce:indexed-name": "Gerolymos N."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Gazetas",
+                        "ce:indexed-name": "Gazetas G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dynam. Earthq. Eng."
+                },
+                "ce:source-text": "Gerolymos N, Gazetas G (2006b,). Development of Winkler model for static and dynamic response of caisson foundations with soil and interface nonlinearities [J]. Soil Dynamics and Earthquake Engineering, 26(5):363-376."
+              },
+              {
+                "ref-fulltext": "Gerolymos, N., Gazetas, G., Static and dynamic response of massive caisson foundations with soil and interface nonlinearities-validation and results. Soil Dynam. Earthq. Eng. 26:5 (2006), 377–394.",
+                "@id": "15",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2006"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Static and dynamic response of massive caisson foundations with soil and interface nonlinearities-validation and results"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib15",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "33644697026",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "26",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "377",
+                      "@last": "394"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Gerolymos",
+                        "ce:indexed-name": "Gerolymos N."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Gazetas",
+                        "ce:indexed-name": "Gazetas G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dynam. Earthq. Eng."
+                },
+                "ce:source-text": "Gerolymos N, Gazetas G (2006c,). Static and dynamic response of massive caisson foundations with soil and interface nonlinearities-validation and results [J]. Soil Dynamics and Earthquake Engineering, 26(5):377-394."
+              },
+              {
+                "ref-fulltext": "Gerolymos, N., Zafeirakos, A., Karapiperis, K., Generalized failure envelope for caisson foundations in cohesive soil: static and dynamic loading. Soil Dynam. Earthq. Eng. 78 (2015), 154–174.",
+                "@id": "16",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Generalized failure envelope for caisson foundations in cohesive soil: static and dynamic loading"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib16",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84939611767",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "78"
+                    },
+                    "pagerange": {
+                      "@first": "154",
+                      "@last": "174"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Gerolymos",
+                        "ce:indexed-name": "Gerolymos N."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Zafeirakos",
+                        "ce:indexed-name": "Zafeirakos A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Karapiperis",
+                        "ce:indexed-name": "Karapiperis K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dynam. Earthq. Eng."
+                },
+                "ce:source-text": "Gerolymos N, Zafeirakos A, Karapiperis K (2015). Generalized failure envelope for caisson foundations in cohesive soil: Static and dynamic loading [J]. Soil Dynamics and Earthquake Engineering, 78: 154-174."
+              },
+              {
+                "ref-fulltext": "Ha, J.G., Ko, K.W., Jo, S.B., et al. Investigation of seismic performances of unconnected pile foundations using dynamic centrifuge tests. Bull. Earthq. Eng. 17 (2019), 2433–2458.",
+                "@id": "17",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Investigation of seismic performances of unconnected pile foundations using dynamic centrifuge tests"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib17",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85064060896",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "17"
+                    },
+                    "pagerange": {
+                      "@first": "2433",
+                      "@last": "2458"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Ha",
+                        "ce:indexed-name": "Ha J.G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Ko",
+                        "ce:indexed-name": "Ko K.W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Jo",
+                        "ce:indexed-name": "Jo S.B."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Bull. Earthq. Eng."
+                },
+                "ce:source-text": "Ha JG, Ko KW, Jo SB, et al. (2019). Investigation of seismic performances of unconnected pile foundations using dynamic centrifuge tests [J]. Bulletin of Earthquake Engineering, 17: 2433-2458."
+              },
+              {
+                "ref-fulltext": "Hsieh, M.H., Lee, B.J., Lei, T.C., et al. Development of medium- and low-rise reinforced concrete building fragility curves based on Chi-Chi Earthquake data. Nat. Hazards 69 (2013), 695–728.",
+                "@id": "18",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Development of medium- and low-rise reinforced concrete building fragility curves based on Chi-Chi Earthquake data"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib18",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84884909473",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "69"
+                    },
+                    "pagerange": {
+                      "@first": "695",
+                      "@last": "728"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Hsieh",
+                        "ce:indexed-name": "Hsieh M.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "B.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee B.J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "T.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Lei",
+                        "ce:indexed-name": "Lei T.C."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Nat. Hazards"
+                },
+                "ce:source-text": "Hsieh MH, Lee BJ, Lei TC, et al. (2013). Development of medium- and low-rise reinforced concrete building fragility curves based on Chi-Chi Earthquake data [J]. Natural Hazards, 69: 695-728."
+              },
+              {
+                "ref-fulltext": "Huang, Y., Zhang, F., Yashima, A., et al., 2004. Three-dimensional numerical simulation of pile-soil seismic interaction in saturated deposits with liquefiable sand and soft clay. Computational Mechanics. Beijing, China: Tsinghua University Press, September 5-10.",
+                "@id": "19",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2004"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib55",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85098995250",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "5",
+                      "@last": "10"
+                    }
+                  },
+                  "ref-text": "Three-dimensional numerical simulation of pile-soil seismic interaction in saturated deposits with liquefiable sand and soft clay. Computational Mechanics. Beijing, China: Tsinghua University Press, September",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Yashima",
+                        "ce:indexed-name": "Yashima A."
+                      }
+                    ],
+                    "et-al": null
+                  }
+                },
+                "ce:source-text": "Huang, Y., Zhang, F., Yashima, A., et al., 2004. Three-dimensional numerical simulation of pile-soil seismic interaction in saturated deposits with liquefiable sand and soft clay. Computational Mechanics. Beijing, China: Tsinghua University Press, September 5-10."
+              },
+              {
+                "ref-fulltext": "Huang, M.S., Tu, W.B., Gu, X.Q., Time domain nonlinear lateral response of dynamically loaded composite caisson-piles foundations in layered cohesive soils. Soil Dynam. Earthq. Eng. 106 (2018), 113–130.",
+                "@id": "20",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Time domain nonlinear lateral response of dynamically loaded composite caisson-piles foundations in layered cohesive soils"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib19",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85039150208",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "106"
+                    },
+                    "pagerange": {
+                      "@first": "113",
+                      "@last": "130"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang M.S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Tu",
+                        "ce:indexed-name": "Tu W.B."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Gu",
+                        "ce:indexed-name": "Gu X.Q."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dynam. Earthq. Eng."
+                },
+                "ce:source-text": "Huang MS, Tu WB, Gu XQ (2018). Time domain nonlinear lateral response of dynamically loaded composite caisson-piles foundations in layered cohesive soils [J]. Soil Dynamics and Earthquake Engineering, 106: 113-130."
+              },
+              {
+                "ref-fulltext": "Iai, S., Tobita, T., Nakahara, T., Generalized scaling relations for dynamic centrifuge tests. Geotechnique 55:5 (2005), 355–362.",
+                "@id": "21",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2005"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Generalized scaling relations for dynamic centrifuge tests"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib20",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "21344442146",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "55",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "355",
+                      "@last": "362"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Iai",
+                        "ce:indexed-name": "Iai S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Tobita",
+                        "ce:indexed-name": "Tobita T."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Nakahara",
+                        "ce:indexed-name": "Nakahara T."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geotechnique"
+                },
+                "ce:source-text": "Iai S, Tobita T, Nakahara T (2005). Generalized scaling relations for dynamic centrifuge tests. Geotechnique, 55(5):355-362."
+              },
+              {
+                "ref-fulltext": "Jiang, M.J., Xi, B.L., Lei, H.Y., Investigation of gravity effect on penetration resistance in Tongji-1 lunar regolith simulant by centrifuge tests. Adv. Space Res. 62 (2018), 945–956.",
+                "@id": "22",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Investigation of gravity effect on penetration resistance in Tongji-1 lunar regolith simulant by centrifuge tests"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib21",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85048705845",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "62"
+                    },
+                    "pagerange": {
+                      "@first": "945",
+                      "@last": "956"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Jiang",
+                        "ce:indexed-name": "Jiang M.J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "B.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Xi",
+                        "ce:indexed-name": "Xi B.L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Lei",
+                        "ce:indexed-name": "Lei H.Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Adv. Space Res."
+                },
+                "ce:source-text": "Jiang MJ, Xi BL, Lei HY (2018). Investigation of gravity effect on penetration resistance in Tongji-1 lunar regolith simulant by centrifuge tests [J]. Advances in Space Research, 62: 945-956."
+              },
+              {
+                "ref-fulltext": "Liang, F.Y., Liang, X., Zhang, H., et al. Seismic response from centrifuge model tests of a scoured bridge with a pile-group foundation. J. Bridge Eng., 25(8), 2020, 04020054.",
+                "@id": "23",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic response from centrifuge model tests of a scoured bridge with a pile-group foundation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib22",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "04020054",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85086764466",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "25",
+                      "@issue": "8"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Liang",
+                        "ce:indexed-name": "Liang F.Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Liang",
+                        "ce:indexed-name": "Liang X."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang H."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "J. Bridge Eng."
+                },
+                "ce:source-text": "Liang FY, Liang X, Zhang H, et al. (2020). Seismic response from centrifuge model tests of a scoured bridge with a pile-group foundation [J]. Journal of Bridge Engineering, 25(8): 04020054."
+              },
+              {
+                "ref-fulltext": "Lin, J.W., Chen, C.W., Chung, S.H., Modeling and assessment of bridge structure for seismic hazard prevention. Nat. Hazards 61 (2012), 1115–1126.",
+                "@id": "24",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Modeling and assessment of bridge structure for seismic hazard prevention"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib23",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84858799303",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "61"
+                    },
+                    "pagerange": {
+                      "@first": "1115",
+                      "@last": "1126"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Lin",
+                        "ce:indexed-name": "Lin J.W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen C.W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Chung",
+                        "ce:indexed-name": "Chung S.H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Nat. Hazards"
+                },
+                "ce:source-text": "Lin JW, Chen CW, Chung SH (2012). Modeling and assessment of bridge structure for seismic hazard prevention [J]. Natural Hazards, 61: 1115-1126."
+              },
+              {
+                "ref-fulltext": "Lin, Y.Z., Zong, Z.H., Tian, S.Z., et al. A new baseline correction method for near-fault strong-motion records based on the target final displacement. Soil Dynam. Earthq. Eng. 114 (2018), 27–37.",
+                "@id": "25",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A new baseline correction method for near-fault strong-motion records based on the target final displacement"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib24",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85049750173",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "114"
+                    },
+                    "pagerange": {
+                      "@first": "27",
+                      "@last": "37"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Lin",
+                        "ce:indexed-name": "Lin Y.Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Zong",
+                        "ce:indexed-name": "Zong Z.H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Tian",
+                        "ce:indexed-name": "Tian S.Z."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Soil Dynam. Earthq. Eng."
+                },
+                "ce:source-text": "Lin YZ, Zong ZH, Tian SZ, et al. (2018). A new baseline correction method for near-fault strong-motion records based on the target final displacement [J]. Soil Dynamics and Earthquake Engineering, 114: 27-37."
+              },
+              {
+                "ref-fulltext": "Liu, C., Zhang, Z.X., Regueiro, R.A., Pile and pile group response to tunneling using a large diameter slurry shield-Case study in Shanghai. Comput. Geotech. 59 (2014), 21–43.",
+                "@id": "26",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Pile and pile group response to tunneling using a large diameter slurry shield-Case study in Shanghai"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib25",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84896468440",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "59"
+                    },
+                    "pagerange": {
+                      "@first": "21",
+                      "@last": "43"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.X.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Z.X."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "R.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Regueiro",
+                        "ce:indexed-name": "Regueiro R.A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Comput. Geotech."
+                },
+                "ce:source-text": "Liu C, Zhang ZX, Regueiro RA (2014). Pile and pile group response to tunneling using a large diameter slurry shield-Case study in Shanghai [J]. Computers and Geotechnics, 59: 21-43."
+              },
+              {
+                "ref-fulltext": "Liu, X., Wang, R., Zhang, J.M., Centrifuge shaking table tests on 4×4 pile groups in liquefiable ground. Acta Geotechn. 13 (2018), 1405–1418.",
+                "@id": "27",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Centrifuge shaking table tests on 4×4 pile groups in liquefiable ground"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib26",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85049675013",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "13"
+                    },
+                    "pagerange": {
+                      "@first": "1405",
+                      "@last": "1418"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang R."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang J.M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Acta Geotechn."
+                },
+                "ce:source-text": "Liu X, Wang R, Zhang JM (2018). Centrifuge shaking table tests on 4×4 pile groups in liquefiable ground [J]. Acta Geotechnica, https://doi.org/10.1007/s11440-018-0699-5."
+              },
+              {
+                "ref-fulltext": "Luo, Q.B., Chen, X.L., Gao, M.T., et al. Simulating the near-fault large velocity pulses of the Chi-Chi (Mw7.6) earthquake with kinematic model. J. Seismol. 23 (2019), 25–38.",
+                "@id": "28",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Simulating the near-fault large velocity pulses of the Chi-Chi (Mw7.6) earthquake with kinematic model"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib27",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85053540184",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "23"
+                    },
+                    "pagerange": {
+                      "@first": "25",
+                      "@last": "38"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Q.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Luo",
+                        "ce:indexed-name": "Luo Q.B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen X.L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Gao",
+                        "ce:indexed-name": "Gao M.T."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "J. Seismol."
+                },
+                "ce:source-text": "Luo QB, Chen XL, Gao MT, et al. (2019). Simulating the near-fault large velocity pulses of the Chi-Chi (Mw7.6) earthquake with kinematic model [J]. J. Seismol: 23: 25-38."
+              },
+              {
+                "ref-fulltext": "Mashhoud, H.J., Yin, J.H., Panah, A.K., et al. Shaking table test study on dynamic behavior of micropiles in loose sand. Soil Dynam. Earthq. Eng. 110 (2018), 53–69.",
+                "@id": "29",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Shaking table test study on dynamic behavior of micropiles in loose sand"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib28",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85045424753",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "110"
+                    },
+                    "pagerange": {
+                      "@first": "53",
+                      "@last": "69"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Mashhoud",
+                        "ce:indexed-name": "Mashhoud H.J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Yin",
+                        "ce:indexed-name": "Yin J.H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Panah",
+                        "ce:indexed-name": "Panah A.K."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Soil Dynam. Earthq. Eng."
+                },
+                "ce:source-text": "Mashhoud HJ, Yin JH, Panah AK, et al. (2018). Shaking table test study on dynamic behavior of micropiles in loose sand [J]. Soil Dynamics and Earthquake Engineering, 110: 53-69."
+              },
+              {
+                "ref-fulltext": "Naesgaard, E., Amini, A., Uthayakumar, U.M., et al. Long Piles in Thick Lacustrine and Deltaic Deposits. Two Bridge Foundation Case Histories. 2012, Full-Scale Testing and Foundation Design: Honoring Bengt H. Fellenius, Oakland, California, United States, ASCE, 404–421.",
+                "@id": "30",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Long Piles in Thick Lacustrine and Deltaic Deposits. Two Bridge Foundation Case Histories"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib29",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84888863253",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "404",
+                      "@last": "421"
+                    }
+                  },
+                  "ref-text": "Full-Scale Testing and Foundation Design: Honoring Bengt H. Fellenius Oakland, California, United States, ASCE",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Naesgaard",
+                        "ce:indexed-name": "Naesgaard E."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Amini",
+                        "ce:indexed-name": "Amini A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "U.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Uthayakumar",
+                        "ce:indexed-name": "Uthayakumar U.M."
+                      }
+                    ],
+                    "et-al": null
+                  }
+                },
+                "ce:source-text": "Naesgaard E, Amini A, Uthayakumar UM, et al. (2012). Long piles in thick lacustrine and deltaic deposits. Two bridge foundation case histories [J]. Full-Scale Testing and Foundation Design: Honoring Bengt H. Fellenius, Oakland, California, United States, ASCE, 404-421."
+              },
+              {
+                "ref-fulltext": "Ng, K.W., Garder, J., Sritharan, S., Investigation of ultra high performance concrete piles for integral abutment bridges. Eng. Struct. 105 (2015), 220–230.",
+                "@id": "31",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Investigation of ultra high performance concrete piles for integral abutment bridges"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib30",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84945119462",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "105"
+                    },
+                    "pagerange": {
+                      "@first": "220",
+                      "@last": "230"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Ng",
+                        "ce:indexed-name": "Ng K.W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Garder",
+                        "ce:indexed-name": "Garder J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Sritharan",
+                        "ce:indexed-name": "Sritharan S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Eng. Struct."
+                },
+                "ce:source-text": "Ng KW, Garder J, Sritharan S (2015). Investigation of ultra high performance concrete piles for integral abutment bridges [J]. Engineering Structures, 105: 220-230."
+              },
+              {
+                "ref-fulltext": "Schofield, A.N., Cambridge geotechnical centrifuge operations. Geotechnique 30:3 (1980), 227–268.",
+                "@id": "32",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1980"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Cambridge geotechnical centrifuge operations"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib31",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0019229042",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "30",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "227",
+                      "@last": "268"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Schofield",
+                        "ce:indexed-name": "Schofield A.N."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geotechnique"
+                },
+                "ce:source-text": "Schofield AN (1980). Cambridge geotechnical centrifuge operations [J]. Geotechnique, 30(3):227-268."
+              },
+              {
+                "ref-fulltext": "Shen, S.L., Wu, H.N., Cui, Y.J., et al. Long-term settlement behavior of metro tunnels in the soft deposits of Shanghai. Tunn. Undergr. Space Technol. 40 (2014), 309–323.",
+                "@id": "33",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Long-term settlement behavior of metro tunnels in the soft deposits of Shanghai"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib32",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84888772205",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "40"
+                    },
+                    "pagerange": {
+                      "@first": "309",
+                      "@last": "323"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Shen",
+                        "ce:indexed-name": "Shen S.L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu H.N."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Cui",
+                        "ce:indexed-name": "Cui Y.J."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Shen SL, Wu HN, Cui YJ, et al. (2014). Long-term settlement behavior of metro tunnels in the soft deposits of Shanghai [J]. Tunnelling and Underground Space Technology, 40: 309-323."
+              },
+              {
+                "ref-fulltext": "Tsigginos, C., Gerolymos, N., Assimaki, D., et al. Seismic response of bridge pier on rigid caisson foundation in soil stratum. Earthq. Eng. Eng. Vib. 7:1 (2008), 33–44.",
+                "@id": "34",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2008"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic response of bridge pier on rigid caisson foundation in soil stratum"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib33",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "43449099159",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "7",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "33",
+                      "@last": "44"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Tsigginos",
+                        "ce:indexed-name": "Tsigginos C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Gerolymos",
+                        "ce:indexed-name": "Gerolymos N."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Assimaki",
+                        "ce:indexed-name": "Assimaki D."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Earthq. Eng. Eng. Vib."
+                },
+                "ce:source-text": "Tsigginos C, Gerolymos N, Assimaki D, et al. (2008). Seismic response of bridge pier on rigid caisson foundation in soil stratum [J]. Earthquake Engineering and Engineering Vibration, 7(1):33-44."
+              },
+              {
+                "ref-fulltext": "Tu, W.B., Huang, M.S., Gu, X.Q., et al. Experimental and analytical investigations on nonlinear dynamic response of caisson-pile foundations under horizontal excitation. Ocean Eng., 208, 2020, 107431.",
+                "@id": "35",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental and analytical investigations on nonlinear dynamic response of caisson-pile foundations under horizontal excitation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib34",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85084367090",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "208"
+                    },
+                    "pagerange": {
+                      "@first": "107431"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Tu",
+                        "ce:indexed-name": "Tu W.B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang M.S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Gu",
+                        "ce:indexed-name": "Gu X.Q."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Ocean Eng."
+                },
+                "ce:source-text": "Tu WB, Huang MS, Gu XQ, et al. (2020). Experimental and analytical investigations on nonlinear dynamic response of caisson-pile foundations under horizontal excitation [J]. Ocean Engineering, 208: 107431."
+              },
+              {
+                "ref-fulltext": "Ullah, S.N., Hu, Y.X., Stanier, S., et al. Lateral boundary effects in centrifuge foundation tests. Int. J. Phys. Model. Geotech. 17:3 (2017), 144–160.",
+                "@id": "36",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Lateral boundary effects in centrifuge foundation tests"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib35",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85029160029",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "17",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "144",
+                      "@last": "160"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Ullah",
+                        "ce:indexed-name": "Ullah S.N."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.X.",
+                        "@_fa": "true",
+                        "ce:surname": "Hu",
+                        "ce:indexed-name": "Hu Y.X."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Stanier",
+                        "ce:indexed-name": "Stanier S."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Int. J. Phys. Model. Geotech."
+                },
+                "ce:source-text": "Ullah SN, Hu YX, Stanier S, et al. (2017). Lateral boundary effects in centrifuge foundation tests [J]. International Journal of Physical Modelling in Geotechnics, 17 (3): 144-160."
+              },
+              {
+                "ref-fulltext": "Varun, Assimaki D., Gazetas, G., A simplified model for lateral response of large diameter caisson foundations-Linear elastic formulation. Soil Dynam. Earthq. Eng. 29:2 (2009), 268–291.",
+                "@id": "37",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A simplified model for lateral response of large diameter caisson foundations-Linear elastic formulation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib36",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "56949094556",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "29",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "268",
+                      "@last": "291"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "ce:given-name": "Assimaki D.",
+                        "@seq": "1",
+                        "ce:initials": "A.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Varun",
+                        "ce:indexed-name": "Varun A.D."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Gazetas",
+                        "ce:indexed-name": "Gazetas G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dynam. Earthq. Eng."
+                },
+                "ce:source-text": "Varun, Assimaki D, Gazetas G (2009). A simplified model for lateral response of large diameter caisson foundations-Linear elastic formulation [J]. Soil Dynamics and Earthquake Engineering, 29(2):268-291."
+              },
+              {
+                "ref-fulltext": "Wang, X.W., Ye, A.J., Shang, Y., et al. Shake-table investigation of scoured RC pile-group-supported bridges in liquefiable and nonliquefiable soils. Earthq. Eng. Struct. Dynam. 48:11 (2019), 1217–1237.",
+                "@id": "38",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Shake-table investigation of scoured RC pile-group-supported bridges in liquefiable and nonliquefiable soils"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib37",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85067384668",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "48",
+                      "@issue": "11"
+                    },
+                    "pagerange": {
+                      "@first": "1217",
+                      "@last": "1237"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang X.W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Ye",
+                        "ce:indexed-name": "Ye A.J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Shang",
+                        "ce:indexed-name": "Shang Y."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Earthq. Eng. Struct. Dynam."
+                },
+                "ce:source-text": "Wang XW, Ye AJ, Shang Y, et al. (2019). Shake-table investigation of scoured RC pile-group-supported bridges in liquefiable and nonliquefiable soils [J]. Earthquake Engineering & Structural Dynamics, 48(11): 1217-1237."
+              },
+              {
+                "ref-fulltext": "Wang, X.W., Ji, B.H., Ye, A.J., Seismic behavior of pile-group-supported bridges in liquefiable soils with crusts subjected to potential scour: insights from shake-table tests. J. Geotech. Geoenviron. Eng., 146(5), 2020, 04020030.",
+                "@id": "39",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic behavior of pile-group-supported bridges in liquefiable soils with crusts subjected to potential scour: insights from shake-table tests"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib38",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "04020030",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85079102186",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "146",
+                      "@issue": "5"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang X.W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "B.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Ji",
+                        "ce:indexed-name": "Ji B.H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Ye",
+                        "ce:indexed-name": "Ye A.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Geotech. Geoenviron. Eng."
+                },
+                "ce:source-text": "Wang XW, Ji BH, Ye AJ (2020). Seismic Behavior of Pile-Group-Supported Bridges in Liquefiable Soils with Crusts Subjected to Potential Scour: Insights from Shake-Table Tests [J]. Journal of Geotechnical and Geoenvironmental Engineering, 146(5): 04020030."
+              },
+              {
+                "ref-fulltext": "Xiang, N.L., Goto, Y., Obata, M., et al. Passive seismic unseating prevention strategies implemented in highway bridges: a state-of-the-art review. Eng. Struct. 194 (2019), 77–93.",
+                "@id": "40",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Passive seismic unseating prevention strategies implemented in highway bridges: a state-of-the-art review"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib39",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85066104083",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "194"
+                    },
+                    "pagerange": {
+                      "@first": "77",
+                      "@last": "93"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "N.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Xiang",
+                        "ce:indexed-name": "Xiang N.L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Goto",
+                        "ce:indexed-name": "Goto Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Obata",
+                        "ce:indexed-name": "Obata M."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Eng. Struct."
+                },
+                "ce:source-text": "Xiang NL, Goto Y, Obata M, et al. (2019). Passive seismic unseating prevention strategies implemented in highway bridges: A state-of-the-art review [J]. Engineering Structures, 194: 77-93."
+              },
+              {
+                "ref-fulltext": "Xu, C.S., Dou, P.F., Du, X.L., et al. Seismic performance of pile group-structure system in liquefiable and non-liquefiable soil from large-scale shake table tests. Soil Dynam. Earthq. Eng., 138, 2020, 106299.",
+                "@id": "41",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic performance of pile group-structure system in liquefiable and non-liquefiable soil from large-scale shake table tests"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib54",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85088917669",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "138"
+                    },
+                    "pagerange": {
+                      "@first": "106299"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu C.S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "P.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Dou",
+                        "ce:indexed-name": "Dou P.F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Du",
+                        "ce:indexed-name": "Du X.L."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Soil Dynam. Earthq. Eng."
+                },
+                "ce:source-text": "Xu, C.S., Dou, P.F., Du, X.L., et al., 2020. Seismic performance of pile group-structure system in liquefiable and non-liquefiable soil from large-scale shake table tests. Soil Dynamics and Earthquake Engineering 138, 106299."
+              },
+              {
+                "ref-fulltext": "Xu, Q.W., Zhu, H.H., Ding, W.Q., et al. Laboratory model tests and field investigations of EPB shield machine tunneling in soft ground in Shanghai. Tunn. Undergr. Space Technol. 26 (2011), 1–14.",
+                "@id": "42",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Laboratory model tests and field investigations of EPB shield machine tunneling in soft ground in Shanghai"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib40",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "78349306353",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "26"
+                    },
+                    "pagerange": {
+                      "@first": "1",
+                      "@last": "14"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Q.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu Q.W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhu",
+                        "ce:indexed-name": "Zhu H.H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "W.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Ding",
+                        "ce:indexed-name": "Ding W.Q."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Xu QW, Zhu HH, Ding WQ, et al. (2011). Laboratory model tests and field investigations of EPB shield machine tunneling in soft ground in Shanghai [J]. Tunnelling and Underground Space Technology, 26: 1-14."
+              },
+              {
+                "ref-fulltext": "Xu, Q.W., Zhu, H.H., Ma, X.F., et al. A case history of shield tunnel crossing through group pile foundation of a road bridge with pile underpinning technologies in Shanghai. Tunn. Undergr. Space Technol. 45 (2015), 20–33.",
+                "@id": "43",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A case history of shield tunnel crossing through group pile foundation of a road bridge with pile underpinning technologies in Shanghai"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib41",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84907688917",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "45"
+                    },
+                    "pagerange": {
+                      "@first": "20",
+                      "@last": "33"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Q.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu Q.W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhu",
+                        "ce:indexed-name": "Zhu H.H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Ma",
+                        "ce:indexed-name": "Ma X.F."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Tunn. Undergr. Space Technol."
+                },
+                "ce:source-text": "Xu QW, Zhu HH, Ma XF, et al. (2015). A case history of shield tunnel crossing through group pile foundation of a road bridge with pile underpinning technologies in Shanghai [J]. Tunnelling and Underground Space Technology, 45: 20-33."
+              },
+              {
+                "ref-fulltext": "Yamashita, K., Hamada, J., Onimaru, S., et al. Seismic behavior of piled raft with ground improvement supporting a base-isolated building on soft ground in Tokyo. Soils Found. 52:5 (2012), 1000–1015.",
+                "@id": "44",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic behavior of piled raft with ground improvement supporting a base-isolated building on soft ground in Tokyo"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib42",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84876667145",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "52",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "1000",
+                      "@last": "1015"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Yamashita",
+                        "ce:indexed-name": "Yamashita K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Hamada",
+                        "ce:indexed-name": "Hamada J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Onimaru",
+                        "ce:indexed-name": "Onimaru S."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Soils Found."
+                },
+                "ce:source-text": "Yamashita K, Hamada J, Onimaru S, et al. (2012). Seismic behavior of piled raft with ground improvement supporting a base-isolated building on soft ground in Tokyo [J]. Soils and Foundations, 52(5): 1000-1015."
+              },
+              {
+                "ref-fulltext": "Yang, J., Yang, M., Chen, H.B., Influence of pile spacing on seismic response of piled raft in soft clay: centrifuge modeling. Earthq. Eng. Eng. Vib. 18 (2019), 719–733.",
+                "@id": "45",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Influence of pile spacing on seismic response of piled raft in soft clay: centrifuge modeling"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib43",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85073618574",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "18"
+                    },
+                    "pagerange": {
+                      "@first": "719",
+                      "@last": "733"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen H.B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Earthq. Eng. Eng. Vib."
+                },
+                "ce:source-text": "Yang J, Yang M, Chen HB (2019). Influence of pile spacing on seismic response of piled raft in soft clay: centrifuge modeling [J]. Earthquake Engineering and Engineering Vibration, 18: 719-733."
+              },
+              {
+                "ref-fulltext": "Zafeirakos, A., Gerolymos, N., On the seismic response of under-design caisson foundations. Bull. Earthq. Eng. 11:5 (2013), 1337–1372.",
+                "@id": "46",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "On the seismic response of under-design caisson foundations"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib44",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84884160201",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "11",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "1337",
+                      "@last": "1372"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Zafeirakos",
+                        "ce:indexed-name": "Zafeirakos A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Gerolymos",
+                        "ce:indexed-name": "Gerolymos N."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Bull. Earthq. Eng."
+                },
+                "ce:source-text": "Zafeirakos A, Gerolymos N (2013). On the seismic response of under-design caisson foundations [J]. Bull Earthquake Engineering, 11(5): 1337-1372."
+              },
+              {
+                "ref-fulltext": "Zafeirakos, A., Gerolymos, N., Towards a seismic capacity design of caisson foundations supporting bridge piers. Soil Dynam. Earthq. Eng. 67 (2014), 179–197.",
+                "@id": "47",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Towards a seismic capacity design of caisson foundations supporting bridge piers"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib45",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84907983543",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "67"
+                    },
+                    "pagerange": {
+                      "@first": "179",
+                      "@last": "197"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Zafeirakos",
+                        "ce:indexed-name": "Zafeirakos A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Gerolymos",
+                        "ce:indexed-name": "Gerolymos N."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dynam. Earthq. Eng."
+                },
+                "ce:source-text": "Zafeirakos A, Gerolymos N (2014). Towards a seismic capacity design of caisson foundations supporting bridge piers [J]. Soil Dynamics and Earthquake Engineering, 67: 179-197."
+              },
+              {
+                "ref-fulltext": "Zhang, L., Goh, S.H., Yi, J., A centrifuge study of the seismic response of pile–raft systems embedded in soft clay. Geotechnique 67:6 (2017), 479–490.",
+                "@id": "48",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A centrifuge study of the seismic response of pile–raft systems embedded in soft clay"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib46",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85019149987",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "67",
+                      "@issue": "6"
+                    },
+                    "pagerange": {
+                      "@first": "479",
+                      "@last": "490"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Goh",
+                        "ce:indexed-name": "Goh S.H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Yi",
+                        "ce:indexed-name": "Yi J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geotechnique"
+                },
+                "ce:source-text": "Zhang L, Goh SH, Yi J (2017a). A centrifuge study of the seismic response of pile-raft systems embedded in soft clay [J]. Geotechnique, 67(6): 479-490."
+              },
+              {
+                "ref-fulltext": "Zhang, L., Goh, S.H., Liu, H.B., Seismic response of pile-raft-clay system subjected to a long-duration earthquake: centrifuge test and finite element analysis. Soil Dynam. Earthq. Eng. 92 (2017), 488–502.",
+                "@id": "49",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic response of pile-raft-clay system subjected to a long-duration earthquake: centrifuge test and finite element analysis"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib47",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84994667689",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "92"
+                    },
+                    "pagerange": {
+                      "@first": "488",
+                      "@last": "502"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Goh",
+                        "ce:indexed-name": "Goh S.H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu H.B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dynam. Earthq. Eng."
+                },
+                "ce:source-text": "Zhang L, Goh SH, Liu HB (2017b). Seismic response of pile-raft-clay system subjected to a long-duration earthquake: centrifuge test and finite element analysis [J]. Soil Dynamics and Earthquake Engineering, 92: 488-502."
+              },
+              {
+                "ref-fulltext": "Zhong, R., Huang, M.S., Winkler model for dynamic response of composite caisson-piles foundations: lateral response. Soil Dynam. Earthq. Eng. 55 (2013), 182–194.",
+                "@id": "50",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Winkler model for dynamic response of composite caisson-piles foundations: lateral response"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib48",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84886019160",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "55"
+                    },
+                    "pagerange": {
+                      "@first": "182",
+                      "@last": "194"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhong",
+                        "ce:indexed-name": "Zhong R."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang M.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dynam. Earthq. Eng."
+                },
+                "ce:source-text": "Zhong R, Huang MS (2013). Winkler model for dynamic response of composite caisson-piles foundations: Lateral response [J]. Soil Dynamics and Earthquake Engineering, 55: 182-194."
+              },
+              {
+                "ref-fulltext": "Zhong, R., Dynamic Analyses and Centrifuge Tests of Caisson-Piles Foundations [ph.D. Thesis]., 2013, Tongji University, Shanghai, China (in Chinese).",
+                "@id": "51",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Dynamic Analyses and Centrifuge Tests of Caisson-Piles Foundations [ph.D. Thesis]"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib49",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85090877490",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Tongji University Shanghai, China (in Chinese)",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhong",
+                        "ce:indexed-name": "Zhong R."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Zhong R (2013). Dynamic analyses and centrifuge tests of caisson-piles foundations [ph.D. thesis]. Tongji University, Shanghai, China (in Chinese)."
+              },
+              {
+                "ref-fulltext": "Zhong, R., Huang, M.S., Winkler model for dynamic response of composite caisson-piles foundations: seismic response. Soil Dynam. Earthq. Eng. 66 (2014), 241–251.",
+                "@id": "52",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Winkler model for dynamic response of composite caisson-piles foundations: seismic response"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib50",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84907368424",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "66"
+                    },
+                    "pagerange": {
+                      "@first": "241",
+                      "@last": "251"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhong",
+                        "ce:indexed-name": "Zhong R."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang M.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dynam. Earthq. Eng."
+                },
+                "ce:source-text": "Zhong R, Huang MS (2014a). Winkler model for dynamic response of composite caisson-piles foundations: Seismic response [J]. Soil Dynamics and Earthquake Engineering, 66: 241-251."
+              },
+              {
+                "ref-fulltext": "Zhong, R., Huang, M.S., Centrifuge tests for seismic response of caisson-pile composite foudation. Rock Soil Mech. 35:2 (2014), 380–388 (in Chinese).",
+                "@id": "53",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Centrifuge tests for seismic response of caisson-pile composite foudation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib51",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84897710243",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "35",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "380",
+                      "@last": "388"
+                    }
+                  },
+                  "ref-text": "(in Chinese)",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhong",
+                        "ce:indexed-name": "Zhong R."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang M.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Rock Soil Mech."
+                },
+                "ce:source-text": "Zhong R, Huang MS (2014b). Centrifuge tests for seismic response of caisson-pile composite foudation [J]. Rock and Soil Mechanics, 35(2): 380-388 (in Chinese)."
+              },
+              {
+                "ref-fulltext": "Zhou, J., Jiang, J.H., Chen, X.L., Micro-and macro-observations of liquefaction of saturated sand around buried structures in centrifuge shaking table tests. Soil Dynam. Earthq. Eng. 72 (2015), 1–11.",
+                "@id": "54",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Micro-and macro-observations of liquefaction of saturated sand around buried structures in centrifuge shaking table tests"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib52",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84923118348",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "72"
+                    },
+                    "pagerange": {
+                      "@first": "1",
+                      "@last": "11"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Jiang",
+                        "ce:indexed-name": "Jiang J.H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen X.L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dynam. Earthq. Eng."
+                },
+                "ce:source-text": "Zhou J, Jiang JH, Chen XL (2015). Micro-and macro-observations of liquefaction of saturated sand around buried structures in centrifuge shaking table tests [J]. Soil Dynamics and Earthquake Engineering, 72: 1-11."
+              },
+              {
+                "ref-fulltext": "Zhu, B., Wu, X.F., Wang, Y.B., et al. Centrifuge modelling for seismic response of single pile for wind turbine subjected to lateral load. Mar. Georesour. Geotechnol., 2020, 10.1080/1064119X.2020.1834654.",
+                "@id": "55",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Centrifuge modelling for seismic response of single pile for wind turbine subjected to lateral load"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1080/1064119X.2020.1834654",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib53",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85094140054",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhu",
+                        "ce:indexed-name": "Zhu B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu X.F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang Y.B."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Mar. Georesour. Geotechnol."
+                },
+                "ce:source-text": "Zhu B, Wu XF, Wang YB, et al. (2020). Centrifuge modelling for seismic response of single pile for wind turbine subjected to lateral load [J]. Marine Georesources & Geotechnology, DOI: 10.1080/1064119X.2020.1834654."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "affiliation": [
+      {
+        "affiliation-city": "Hangzhou",
+        "@id": "60103821",
+        "affilname": "Zhejiang Sci-Tech University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60103821",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Shanghai",
+        "@id": "60022279",
+        "affilname": "Shanghai Normal University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60022279",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Shanghai",
+        "@id": "60129289",
+        "affilname": "Key Laboratory of Geotechnical and Underground Engineering, Ministry of Education",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60129289",
+        "affiliation-country": "China"
+      }
+    ],
+    "coredata": {
+      "srctype": "j",
+      "eid": "2-s2.0-85099006649",
+      "dc:description": "A series of centrifuge shaking table tests were performed on a new type of foundation, the composite caisson-piles foundation (CCPF) which is recently suggested for the cross-sea bridge or offshore engineering, to investigate its seismic response. The CCPF model with 2 × 2 and 3 × 3 pile groups embedded in homogeneous clayey silt or layered soil consisting of dry sand underlain by clayey silt were employed, these being representative of different pile configurations and soil conditions respectively, with the superstructure simplified as lumped mass and connecting column. The horizontal acceleration and lateral displacement of the soil and superstructure, as well as bending moment of piles were recorded during seismic shaking. Due to the complex soil-CCPF-structure interaction, the composite caisson-piles foundation with the two type pile groups in homogeneous or layered soil exhibited quite different behaviors under earthquake loading. These centrifuge test results indicated that both soil condition and pile configuration played an important role in the seismic response of the CCPF, and future studies combining experimental and numerical simulation should be conducted to investigate more factors influencing the seismic behavior of the composite caisson-piles foundation.",
+      "prism:coverDate": "2021-02-01",
+      "prism:aggregationType": "Journal",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85099006649",
+      "subtypeDescription": "Article",
+      "dc:creator": {
+        "author": [
+          {
+            "ce:given-name": "Hao",
+            "preferred-name": {
+              "ce:given-name": "Hao",
+              "ce:initials": "H.",
+              "ce:surname": "Zhang",
+              "ce:indexed-name": "Zhang H."
+            },
+            "@seq": "1",
+            "ce:initials": "H.",
+            "@_fa": "true",
+            "affiliation": [
+              {
+                "@id": "60022279",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60022279"
+              },
+              {
+                "@id": "60129289",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60129289"
+              }
+            ],
+            "ce:surname": "Zhang",
+            "@auid": "58142026600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/58142026600",
+            "ce:indexed-name": "Zhang H."
+          }
+        ]
+      },
+      "link": [
+        {
+          "@_fa": "true",
+          "@rel": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85099006649"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85099006649&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85099006649&origin=inward"
+        }
+      ],
+      "prism:publicationName": "Ocean Engineering",
+      "source-id": "28339",
+      "pii": "S0029801820314694",
+      "citedby-count": "28",
+      "prism:volume": "221",
+      "subtype": "ar",
+      "dc:title": "Seismic response of offshore composite caisson-piles foundation with different pile configurations and soil conditions in centrifuge tests",
+      "openaccess": "0",
+      "openaccessFlag": "false",
+      "prism:doi": "10.1016/j.oceaneng.2020.108561",
+      "prism:issn": "00298018",
+      "publishercopyright": "© 2020 Elsevier Ltd",
+      "article-number": "108561",
+      "dc:identifier": "SCOPUS_ID:85099006649",
+      "dc:publisher": "Elsevier Ltd"
+    },
+    "idxterms": {
+      "mainterm": [
+        {
+          "$": "Centrifuge shaking table test",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Earthquake loadings",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Horizontal acceleration",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Lateral displacements",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Offshore composites",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Offshore engineering",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Pile configuration",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Seismic behavior",
+          "@weight": "b",
+          "@candidate": "n"
+        }
+      ]
+    },
+    "language": {
+      "@xml:lang": "eng"
+    },
+    "authkeywords": {
+      "author-keyword": [
+        {
+          "@_fa": "true",
+          "$": "Centrifuge tests"
+        },
+        {
+          "@_fa": "true",
+          "$": "Composite caisson-piles foundation"
+        },
+        {
+          "@_fa": "true",
+          "$": "Layered soil"
+        },
+        {
+          "@_fa": "true",
+          "$": "Pile configuration"
+        },
+        {
+          "@_fa": "true",
+          "$": "Seismic response"
+        }
+      ]
+    },
+    "subject-areas": {
+      "subject-area": [
+        {
+          "@_fa": "true",
+          "$": "Environmental Engineering",
+          "@code": "2305",
+          "@abbrev": "ENVI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Ocean Engineering",
+          "@code": "2212",
+          "@abbrev": "ENGI"
+        }
+      ]
+    },
+    "authors": {
+      "author": [
+        {
+          "ce:given-name": "Hao",
+          "preferred-name": {
+            "ce:given-name": "Hao",
+            "ce:initials": "H.",
+            "ce:surname": "Zhang",
+            "ce:indexed-name": "Zhang H."
+          },
+          "@seq": "1",
+          "ce:initials": "H.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "60022279",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60022279"
+            },
+            {
+              "@id": "60129289",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60129289"
+            }
+          ],
+          "ce:surname": "Zhang",
+          "@auid": "58142026600",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58142026600",
+          "ce:indexed-name": "Zhang H."
+        },
+        {
+          "ce:given-name": "Fayun",
+          "preferred-name": {
+            "ce:given-name": "Fayun",
+            "ce:initials": "F.",
+            "ce:surname": "Liang",
+            "ce:indexed-name": "Liang F."
+          },
+          "@seq": "2",
+          "ce:initials": "F.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60129289",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60129289"
+          },
+          "ce:surname": "Liang",
+          "@auid": "55977772900",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55977772900",
+          "ce:indexed-name": "Liang F."
+        },
+        {
+          "ce:given-name": "Haibing",
+          "preferred-name": {
+            "ce:given-name": "Haibing",
+            "ce:initials": "H.",
+            "ce:surname": "Chen",
+            "ce:indexed-name": "Chen H."
+          },
+          "@seq": "3",
+          "ce:initials": "H.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60103821",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60103821"
+          },
+          "ce:surname": "Chen",
+          "@auid": "36536696200",
+          "author-url": "https://api.elsevier.com/content/author/author_id/36536696200",
+          "ce:indexed-name": "Chen H."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,3502 @@
+{
+  "abstracts-retrieval-response": {
+    "item": {
+      "ait:process-info": {
+        "ait:status": {
+          "@state": "update",
+          "@type": "core",
+          "@stage": "S300"
+        },
+        "ait:date-delivered": {
+          "@day": "11",
+          "@timestamp": "2026-04-11T18:58:44.000044-04:00",
+          "@year": "2026",
+          "@month": "04"
+        },
+        "ait:date-sort": {
+          "@day": "15",
+          "@year": "2026",
+          "@month": "04"
+        }
+      },
+      "xocs:meta": {
+        "xocs:funding-list": {
+          "@pui-match": "primary",
+          "@has-funding-info": "1",
+          "xocs:funding": [
+            {
+              "xocs:funding-agency-matched-string": "CY Cergy Paris University",
+              "xocs:funding-agency-acronym": "CYU",
+              "xocs:funding-agency": "CY Cergy Paris Université",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/100021133",
+              "xocs:funding-agency-country": "http://sws.geonames.org/3017382/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "University of Douala"
+            }
+          ],
+          "xocs:funding-addon-generated-timestamp": "2026-04-11T00:56:24.978Z",
+          "xocs:funding-text": "This research work is part of a joint supervision agreement between CY Cergy Paris University and the University of Douala. Campus France Cameroon.",
+          "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }
+      },
+      "bibrecord": {
+        "head": {
+          "author-group": [
+            {
+              "affiliation": {
+                "country": "France",
+                "address-part": "Neuville sur Oise 95031 Cergy-Pontoise",
+                "@afid": "60002272",
+                "@country": "fra",
+                "organization": [
+                  {
+                    "$": "CY Cergy Paris Université"
+                  },
+                  {
+                    "$": "Laboratoire de Mécanique et Matériaux du Génie Civil (LM2GC)"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60002272"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-973293227-e8dc6c0eb8154de30e790b975da37e1a-1",
+                "ce:source-text": "CY Cergy Paris Université, Laboratoire de Mécanique et Matériaux du Génie Civil (LM2GC), Neuville sur Oise 95031 Cergy-Pontoise, France"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Alain",
+                  "preferred-name": {
+                    "ce:given-name": "Alain",
+                    "ce:initials": "A.",
+                    "ce:surname": "Kamdem",
+                    "ce:indexed-name": "Kamdem A."
+                  },
+                  "@author-instance-id": "OB2BibRecID-973293227-e0fb55fc50146230ff197dbc2bf3fd46-1",
+                  "@seq": "1",
+                  "ce:initials": "A.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Kamdem",
+                  "@auid": "13008871300",
+                  "@orcid": "0000-0002-6135-6081",
+                  "ce:indexed-name": "Kamdem A."
+                },
+                {
+                  "ce:given-name": "Emmanuel",
+                  "preferred-name": {
+                    "ce:given-name": "Emmanuel",
+                    "ce:initials": "E.",
+                    "ce:surname": "Elat",
+                    "ce:indexed-name": "Elat E."
+                  },
+                  "@author-instance-id": "OB2BibRecID-973293227-8de658d0254bdba405fe5934b2bdb362-1",
+                  "@seq": "2",
+                  "ce:initials": "E.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Elat",
+                  "@auid": "57219208874",
+                  "ce:indexed-name": "Elat E."
+                },
+                {
+                  "ce:given-name": "Albert",
+                  "preferred-name": {
+                    "ce:given-name": "Albert",
+                    "ce:initials": "A.",
+                    "ce:surname": "Noumowé",
+                    "ce:indexed-name": "Noumowé A."
+                  },
+                  "@author-instance-id": "OB2BibRecID-973293227-da6917bccfb9b3310666870f021de051-1",
+                  "@seq": "4",
+                  "ce:initials": "A.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Noumowé",
+                  "@auid": "55914478500",
+                  "@orcid": "0000-0002-3903-3382",
+                  "ce:indexed-name": "Noumowe A."
+                },
+                {
+                  "ce:given-name": "Javad",
+                  "preferred-name": {
+                    "ce:given-name": "Javad",
+                    "ce:initials": "J.",
+                    "ce:surname": "Eslami",
+                    "ce:indexed-name": "Eslami J."
+                  },
+                  "@author-instance-id": "OB2BibRecID-973293227-4668a14e3a658fbb0a78222d9b273b85-1",
+                  "@seq": "6",
+                  "ce:initials": "J.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Eslami",
+                  "@auid": "25649683300",
+                  "ce:indexed-name": "Eslami J."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "Cameroon",
+                "address-part": "P.O. Box 47, Abong-Mbang",
+                "@afid": "130306466",
+                "@country": "cmr",
+                "organization": [
+                  {
+                    "$": "Department of Urban Engineering"
+                  },
+                  {
+                    "$": "Laboratory of Architecture"
+                  },
+                  {
+                    "$": "Town Planning and Eco-Construction (LAUREC)"
+                  },
+                  {
+                    "$": "Advanced School of Town Planning and Tourism"
+                  },
+                  {
+                    "$": "University of Bertoua"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "130306466",
+                  "@dptid": "134089709"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-973293227-bb3e42108cd5e500bdce1f4f88359047-1",
+                "ce:source-text": "Department of Urban Engineering, Laboratory of Architecture, Town Planning and Eco-Construction (LAUREC), Advanced School of Town Planning and Tourism, University of Bertoua, P.O. Box 47, Abong-Mbang, Cameroon",
+                "@dptid": "134089709"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Jean Chills",
+                  "preferred-name": {
+                    "ce:given-name": "Jean Chills",
+                    "ce:initials": "J.C.",
+                    "ce:surname": "Amba",
+                    "ce:indexed-name": "Amba J.C."
+                  },
+                  "@author-instance-id": "OB2BibRecID-973293227-2ae9e90e3b4e511e56084a513f861e67-1",
+                  "@seq": "3",
+                  "ce:initials": "J.C.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Amba",
+                  "@auid": "57191189671",
+                  "ce:indexed-name": "Amba J.C."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "Cameroon",
+                "address-part": "P.O. Box 510",
+                "@afid": "132309450",
+                "@country": "cmr",
+                "city": "Yaoundé",
+                "organization": [
+                  {
+                    "$": "National Advanced School of Public Works"
+                  },
+                  {
+                    "$": "Department of Civil Engineering"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "132309450",
+                  "@dptid": "132418071"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-973293227-9cc3040a823c2603d908d31185c8d436-1",
+                "ce:source-text": "National Advanced School of Public Works, Department of Civil Engineering, P.O. Box 510, Yaoundé, Cameroon",
+                "@dptid": "132418071"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Alain",
+                  "preferred-name": {
+                    "ce:given-name": "Alain",
+                    "ce:initials": "A.",
+                    "ce:surname": "Kamdem",
+                    "ce:indexed-name": "Kamdem A."
+                  },
+                  "@author-instance-id": "OB2BibRecID-973293227-e0fb55fc50146230ff197dbc2bf3fd46-1",
+                  "@seq": "1",
+                  "ce:initials": "A.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Kamdem",
+                  "@auid": "13008871300",
+                  "@orcid": "0000-0002-6135-6081",
+                  "ce:indexed-name": "Kamdem A."
+                },
+                {
+                  "ce:given-name": "Michel",
+                  "preferred-name": {
+                    "ce:given-name": "Michel",
+                    "ce:initials": "M.",
+                    "ce:surname": "Mbessa",
+                    "ce:indexed-name": "Mbessa M."
+                  },
+                  "@author-instance-id": "OB2BibRecID-973293227-aa59873af82595894eee58c2c1568e71-1",
+                  "@seq": "5",
+                  "ce:initials": "M.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Mbessa",
+                  "@auid": "15746777100",
+                  "ce:indexed-name": "Mbessa M."
+                }
+              ]
+            }
+          ],
+          "citation-title": "Durability performance of soil concretes: Role of cement and soil types under carbonation and wetting/drying cycles",
+          "abstracts": "© 2026 Elsevier LtdSoil concrete is a material obtained by mixing soil with cement. It is currently used for the construction of permanent structures such as dykes and retaining walls. The clay content in the soil requires a high-water content during preparation and placement, leading to increased porosity, which increases porosity and can negatively affect the long-term performance of soil concrete structures. In this context, it is essential to assess the durability of this material. Two durability indicators were studied in the laboratory: carbonation (mass loss (ζ), water-accessible porosity (η) and carbonation depth (Xc)) and wetting/drying (W/D) cycles (mass loss (ζ), P-wave velocity (Vp) and compressive strength (Rc)). The objective of this experimental study was to evaluate the role of cement and soil types on the durability performance of soil concretes under carbonation and W/D cycles. For the mixtures, two soils were selected: a clayey sand (SA5) and laterite (LA5), both with a grain size class of 0/5. Soil concretes were prepared at a constant spread of 32–33 cm (mini-slump test) using CEM I 52.5, CEM II 42.5, and CEM III 32.5 binders, with cement contents of 150 and 250 kg/m3. These durability tests were carried out on cylindrical specimens of dimensions (Ø = 60 mm and h = 120 mm) which were cured for 90 days in water prior to testing. The results indicate that mixtures containing CEM III 32.5 exhibited the highest carbonation depths due to the presence of blast-furnace slag, which reduces the availability of carbonatable products. LA5-based mixtures showed greater sensitivity to carbonation, mainly because of their higher porosity. While both soil and cement properties affect carbonation, the nature of the soil exerts a lesser influence on specimens containing Portland cements (CEM I 52.5 and CEM II 42.5) compared to those incorporating slag-based cement (CEM III 32.5). This can be explained by a soil-cement-water interaction. Unlike clinker, the main constituent of Portland cement, which hydrates faster, slag continues to hydrate over long periods. As our samples were cured for 90 days, this will lead to a more significant soil effect during carbonation in the case of formulations with CEM III 32.5 (blast furnace slag cement). Wetting/drying cycles led to higher mass losses and greater reductions in compressive strength in CEM III-based mixtures, particularly those prepared with LA5 soil. This behavior is attributed to the delayed hydraulic reactivity of slag, which causes mechanical instability during cyclic exposure. Overall, the study demonstrates that both cement composition and soil characteristics play a key role in controlling the durability of soil concrete under environmental actions.",
+          "correspondence": {
+            "affiliation": {
+              "country": "France",
+              "address-part": "Neuville sur Oise 95031 Cergy-Pontoise",
+              "@country": "fra",
+              "organization": [
+                {
+                  "$": "CY Cergy Paris Université"
+                },
+                {
+                  "$": "Laboratoire de Mécanique et Matériaux du Génie Civil (LM2GC)"
+                }
+              ],
+              "@affiliation-instance-id": "OB2BibRecID-973293227-81602e7f829b3e9b6bfbcc9e51c907e1-1"
+            },
+            "person": {
+              "ce:given-name": "Alain",
+              "@author-instance-id": "OB2BibRecID-973293227-e9f7896f5e6f1af0fa6e94450c3da584-1",
+              "ce:initials": "A.",
+              "ce:surname": "Kamdem",
+              "ce:indexed-name": "Kamdem A."
+            }
+          },
+          "citation-info": {
+            "author-keywords": {
+              "author-keyword": [
+                {
+                  "$": "Carbonation",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Durability",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Soil concrete",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Spreading",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Wetting/drying cycles",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                }
+              ]
+            },
+            "citation-type": {
+              "@code": "ar"
+            },
+            "citation-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "abstract-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            }
+          },
+          "source": {
+            "website": {
+              "ce:e-address": {
+                "$": "https://www.sciencedirect.com/science/journal/23527102",
+                "@type": "email"
+              }
+            },
+            "translated-sourcetitle": {
+              "@xml:lang": "eng"
+            },
+            "volisspag": {
+              "voliss": {
+                "@volume": "124"
+              }
+            },
+            "@type": "j",
+            "sourcetitle": "Journal of Building Engineering",
+            "publicationdate": {
+              "month": "04",
+              "year": "2026",
+              "date-text": {
+                "@xfab-added": "true",
+                "$": "15 April 2026"
+              },
+              "day": "15"
+            },
+            "sourcetitle-abbrev": "J. Build. Eng.",
+            "@country": "gbr",
+            "issn": {
+              "$": "23527102",
+              "@type": "electronic"
+            },
+            "publicationyear": {
+              "@first": "2026"
+            },
+            "publisher": {
+              "publishername": "Elsevier Ltd"
+            },
+            "article-number": "115986",
+            "@srcid": "21100389518"
+          },
+          "enhancement": {
+            "classificationgroup": {
+              "classifications": [
+                {
+                  "@type": "CPXCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "1301.1.2",
+                      "classification-description": "Physical Properties of Gases, Liquids and Solids"
+                    },
+                    {
+                      "classification-code": "1501.3",
+                      "classification-description": "Sustainable Waste Managment"
+                    },
+                    {
+                      "classification-code": "1502.1.1.4.3",
+                      "classification-description": "Soil Pollution Control"
+                    },
+                    {
+                      "classification-code": "201.2.2",
+                      "classification-description": "Blast Furnaces"
+                    },
+                    {
+                      "classification-code": "214",
+                      "classification-description": "Materials Science"
+                    },
+                    {
+                      "classification-code": "214.1",
+                      "classification-description": "Mechanical Properties of Materials"
+                    },
+                    {
+                      "classification-code": "217.2",
+                      "classification-description": "Concrete"
+                    },
+                    {
+                      "classification-code": "217.2.1",
+                      "classification-description": "Cement"
+                    },
+                    {
+                      "classification-code": "402",
+                      "classification-description": "Buildings and Towers"
+                    },
+                    {
+                      "classification-code": "406.2",
+                      "classification-description": "Roads and Streets"
+                    },
+                    {
+                      "classification-code": "451.3",
+                      "classification-description": "Industrial Wastes"
+                    },
+                    {
+                      "classification-code": "483.1",
+                      "classification-description": "Soils and Soil Mechanics"
+                    },
+                    {
+                      "classification-code": "802.2",
+                      "classification-description": "Chemical Reactions"
+                    },
+                    {
+                      "classification-code": "802.3",
+                      "classification-description": "Chemical Operations"
+                    }
+                  ]
+                },
+                {
+                  "@type": "FLXCLASS",
+                  "classification": {
+                    "classification-code": "78.23",
+                    "classification-description": "MIXING AND SEPARATION"
+                  }
+                },
+                {
+                  "@type": "ASJC",
+                  "classification": [
+                    {
+                      "$": "2216"
+                    },
+                    {
+                      "$": "2205"
+                    },
+                    {
+                      "$": "2215"
+                    },
+                    {
+                      "$": "2213"
+                    },
+                    {
+                      "$": "2211"
+                    }
+                  ]
+                },
+                {
+                  "@type": "SUBJABBR",
+                  "classification": "ENGI"
+                }
+              ]
+            }
+          },
+          "grantlist": {
+            "@complete": "y",
+            "grant-text": {
+              "$": "This research work is part of a joint supervision agreement between CY Cergy Paris University and the University of Douala. Campus France Cameroon.",
+              "@xml:lang": "eng"
+            }
+          }
+        },
+        "item-info": {
+          "copyright": {
+            "$": "Copyright 2026 Elsevier B.V., All rights reserved.",
+            "@type": "Elsevier"
+          },
+          "dbcollection": [
+            {
+              "$": "CPX"
+            },
+            {
+              "$": "REAXYSCAR"
+            },
+            {
+              "$": "SCOPUS"
+            },
+            {
+              "$": "SNCPX"
+            },
+            {
+              "$": "Scopusbase"
+            }
+          ],
+          "history": {
+            "date-created": {
+              "@day": "10",
+              "@timestamp": "BST 10:03:24",
+              "@year": "2026",
+              "@month": "04"
+            }
+          },
+          "itemidlist": {
+            "itemid": [
+              {
+                "$": "2044746796",
+                "@idtype": "PUI"
+              },
+              {
+                "$": "973293227",
+                "@idtype": "CAR-ID"
+              },
+              {
+                "$": "20261520466089",
+                "@idtype": "CPX"
+              },
+              {
+                "$": "20261058428",
+                "@idtype": "REAXYSCAR"
+              },
+              {
+                "$": "20261652153",
+                "@idtype": "SCOPUS"
+              },
+              {
+                "$": "2026040441",
+                "@idtype": "SNCPX"
+              },
+              {
+                "$": "973293227#634690411",
+                "@idtype": "SRC-OCC-ID"
+              },
+              {
+                "$": "105035077920",
+                "@idtype": "SCP"
+              },
+              {
+                "$": "105035077920",
+                "@idtype": "SGR"
+              }
+            ],
+            "ce:pii": "S2352710226008077",
+            "ce:ern": "pii:S2352710226008077",
+            "ce:doi": "10.1016/j.jobe.2026.115986"
+          }
+        },
+        "tail": {
+          "bibliography": {
+            "@refcount": "52",
+            "reference": [
+              {
+                "ref-fulltext": "Abbey, S., et al., Ngambi, S., Understanding the performance of deep mixed column improved soils-a review. Int. J. Civ. Eng. Technol. 6:3 (2015), 97–117.",
+                "@reference-instance-id": "OB2BibRecID-973293227-e422a9cde50c7d3f9c3ce19124c156d7-1",
+                "@id": "1",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Understanding the performance of deep mixed column improved soils-a review"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib1",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84995415480",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "6",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "97",
+                      "@last": "117"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Abbey",
+                        "ce:indexed-name": "Abbey S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Ngambi",
+                        "ce:indexed-name": "Ngambi S."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Int. J. Civ. Eng. Technol."
+                },
+                "ce:source-text": "S. Abbey et S. Ngambi, « Understanding the performance of deep mixed column improved soils-a review », International Journal of Civil Engineering & Technology (IJCIET), vol. 6, no 3, p. 97-117, 2015."
+              },
+              {
+                "ref-fulltext": "Helson, O., Comportement thermo-hydro-mécanique et durabilité des bétons de sol : influence des paramètres de formulation et conditions d'exposition. PhD Thesis, Université de Cergy Pontoise, 2017.",
+                "@reference-instance-id": "OB2BibRecID-973293227-69cd5bbe535a4b2c23ff9b207da5dc89-2",
+                "@id": "2",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Comportement thermo-hydro-mécanique et durabilité des bétons de sol : influence des paramètres de formulation et conditions d'exposition"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib2",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85142644251",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "O.",
+                        "@_fa": "true",
+                        "ce:surname": "Helson",
+                        "ce:indexed-name": "Helson O."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "PhD Thesis, Université de Cergy Pontoise"
+                },
+                "ce:source-text": "O. Helson, « Comportement thermo-hydro-mecanique et durabilite des betons de sol : influence des parametres de formulation et conditions d'exposition. », PhD Thesis, Universite de Cergy Pontoise, 2017.fr"
+              },
+              {
+                "ref-fulltext": "Elat, E.A.M., Pierre, A., Pliya, P., Duc, M., Mbessa, M., et al., Noumowé, A., Investigation of the influence of crushed sand on carbonation of mortar: physical and microstructural analysis. Clean. Mater., 14, 2024, 100277, 10.1016/j.clema.2024.100277 déc.",
+                "@reference-instance-id": "OB2BibRecID-973293227-d744351ba32d4f043731e4ffa182e07a-3",
+                "@id": "3",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Investigation of the influence of crushed sand on carbonation of mortar: physical and microstructural analysis"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.clema.2024.100277",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib3",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "100277",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85208181227",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "14"
+                    }
+                  },
+                  "ref-text": "déc",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "E.A.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Elat",
+                        "ce:indexed-name": "Elat E.A.M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Pierre",
+                        "ce:indexed-name": "Pierre A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Pliya",
+                        "ce:indexed-name": "Pliya P."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Duc",
+                        "ce:indexed-name": "Duc M."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Mbessa",
+                        "ce:indexed-name": "Mbessa M."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Noumowé",
+                        "ce:indexed-name": "Noumowe A."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Clean. Mater."
+                },
+                "ce:source-text": "E. A. M. Elat, A. Pierre, P. Pliya, M. Duc, M. Mbessa, et A. Noumowe, « Investigation of the influence of crushed sand on carbonation of Mortar: Physical and microstructural analysis », Cleaner Materials, vol. 14, p. 100277, dec. 2024, doi: 10.1016/j.clema.2024.100277."
+              },
+              {
+                "ref-fulltext": "Perera, A.S.R., Al-Tabbaa, A., Reid, J.M., et al. Johnson, « State of practice report UK stabilisation/solidification treatment and remediation. Part V: Long-term performance and environmental impact. Proceedings of the International Conference on Stabilization/Solidification Treatment and Remediation, 2005, Balkema. AA Balkema, London, Citeseer, 437–457.",
+                "@reference-instance-id": "OB2BibRecID-973293227-4f88ae98085ef99f9ccfc3ef9807c82a-4",
+                "@id": "4",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2005"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Johnson, « State of practice report UK stabilisation/solidification treatment and remediation. Part V: Long-term performance and environmental impact"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib4",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84863115556",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "437",
+                      "@last": "457"
+                    }
+                  },
+                  "ref-text": "Balkema. AA Balkema London, Citeseer",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.S.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Perera",
+                        "ce:indexed-name": "Perera A.S.R."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Al-Tabbaa",
+                        "ce:indexed-name": "Al-Tabbaa A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Reid",
+                        "ce:indexed-name": "Reid J.M."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Proceedings of the International Conference on Stabilization/Solidification Treatment and Remediation"
+                },
+                "ce:source-text": "A. S. R. Perera, A. Al-Tabbaa, J. M. Reid, et D. Johnson, « State of practice report UK stabilisation/solidification treatment and remediation. Part V: Long-term performance and environmental impact », in Proceedings of the International Conference on Stabilization/Solidification Treatment and Remediation. Balkema. AA Balkema, London, Citeseer, 2005, p. 437-457."
+              },
+              {
+                "ref-fulltext": "Thiéry, M., « Modélisation de la carbonatation atmosphérique des bétons : prise en compte des effets cinétiques et de l’état hydrique. PhD Thesis Ecole Nationale Des Ponts Et Chaussées », 2005, Thèse de doctorat, Paris.",
+                "@reference-instance-id": "OB2BibRecID-973293227-1428a9fa828de7b2e6e72eb250f4af60-5",
+                "@id": "5",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2005"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "« Modélisation de la carbonatation atmosphérique des bétons : prise en compte des effets cinétiques et de l’état hydrique"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib5",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85106924384",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "PhD Thesis Thèse de doctorat Paris",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Thiéry",
+                        "ce:indexed-name": "Thiery M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Ecole Nationale Des Ponts Et Chaussées »"
+                },
+                "ce:source-text": "M. Thiery, « Modelisation de la carbonatation atmospherique des betons : Prise en compte des effets cinetiques et de l'etat hydrique. Ecole Nationale des Ponts et Chaussees », PhD Thesis, These de doctorat, Paris, 2005.fr"
+              },
+              {
+                "ref-fulltext": "Chang, J.J., Yeih, W., Huang, R., Chen, et C.T., Suitability of several current used concrete durability indices on evaluating the corrosion hazard for carbonated concrete. Mater. Chem. Phys. 84:1 (2004), 71–78.",
+                "@reference-instance-id": "OB2BibRecID-973293227-d4482ed63051df91e2a9b0c21083b2e2-6",
+                "@id": "6",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2004"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Suitability of several current used concrete durability indices on evaluating the corrosion hazard for carbonated concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib6",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0942299058",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "84",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "71",
+                      "@last": "78"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Chang",
+                        "ce:indexed-name": "Chang J.J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Yeih",
+                        "ce:indexed-name": "Yeih W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang R."
+                      },
+                      {
+                        "ce:given-name": "et C.T.",
+                        "@seq": "4",
+                        "ce:initials": "E.C.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen E.C.T."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Mater. Chem. Phys."
+                },
+                "ce:source-text": "J. J. Chang, W. Yeih, R. Huang, et C. T. Chen, « Suitability of several current used concrete durability indices on evaluating the corrosion hazard for carbonated concrete », Materials chemistry and physics, vol. 84, no 1, p. 71-78, 2004."
+              },
+              {
+                "ref-fulltext": "Guimond-Barrett, A., Influence of Mixing and Curing Conditions on the Characteristics and Durability of Soils Stabilised by Deep Mixing., 2013, Université du Havre PhD Thesis.",
+                "@reference-instance-id": "OB2BibRecID-973293227-efaf1316ce396cd9a315eb804030fd75-7",
+                "@id": "7",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Influence of Mixing and Curing Conditions on the Characteristics and Durability of Soils Stabilised by Deep Mixing"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib7",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84966408644",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Université du Havre PhD Thesis",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Guimond-Barrett",
+                        "ce:indexed-name": "Guimond-Barrett A."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "A. Guimond-Barrett, « Influence of mixing and curing conditions on the characteristics and durability of soils stabilised by deep mixing », PhD Thesis, Universite du Havre, 2013."
+              },
+              {
+                "ref-fulltext": "Hessouh, J., Caractérisations Physique Et Mécanique, Et Durabilité Des Bétons De Sol : Matériaux De Laboratoire Et Matériaux De Chantiers., 2021, CY Cergy Paris Université PhD Thesis.",
+                "@reference-instance-id": "OB2BibRecID-973293227-2d3ebf7df879e86f250ae730efc27967-8",
+                "@id": "8",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Caractérisations Physique Et Mécanique, Et Durabilité Des Bétons De Sol : Matériaux De Laboratoire Et Matériaux De Chantiers"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib8",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85181924936",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "CY Cergy Paris Université PhD Thesis",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Hessouh",
+                        "ce:indexed-name": "Hessouh J."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "J. Hessouh, « Caracterisations physique et mecanique, et durabilite des betons de sol : materiaux de laboratoire et materiaux de chantiers », PhD Thesis, CY Cergy Paris Universite, 2021.fr"
+              },
+              {
+                "ref-fulltext": "Hyvert, N., « Application de l'approche probabiliste à la durabilité des produits préfabriqués en béton ». PhD Thesis, Toulouse 3, 2009.",
+                "@reference-instance-id": "OB2BibRecID-973293227-6ebaedfcc0cf358d77252b72bdef195e-9",
+                "@id": "9",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "« Application de l'approche probabiliste à la durabilité des produits préfabriqués en béton »"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib9",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "77956401132",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Hyvert",
+                        "ce:indexed-name": "Hyvert N."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "PhD Thesis, Toulouse 3"
+                },
+                "ce:source-text": "N. Hyvert, « Application de l'approche probabiliste a la durabilite des produits prefabriques en beton », PhD Thesis, Toulouse 3, 2009.fr"
+              },
+              {
+                "ref-fulltext": "Baroghel-Bouny, V., Caractérisation Microstructurale Et Hydrique Des Pâtes De Ciment Et Des Bétons Ordinaires Et À Très Hautes Performances., 1994, Ecole Nationale des Ponts et Chaussées PhD Thesis.",
+                "@reference-instance-id": "OB2BibRecID-973293227-c4862e75e1424277f48c13b4a259b5cc-10",
+                "@id": "10",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1994"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Caractérisation Microstructurale Et Hydrique Des Pâtes De Ciment Et Des Bétons Ordinaires Et À Très Hautes Performances"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib10",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0003787025",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Ecole Nationale des Ponts et Chaussées PhD Thesis",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "V.",
+                        "@_fa": "true",
+                        "ce:surname": "Baroghel-Bouny",
+                        "ce:indexed-name": "Baroghel-Bouny V."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "V. Baroghel-Bouny, « Caracterisation microstructurale et hydrique des pates de ciment et des betons ordinaires et a tres hautes performances », PhD Thesis, Ecole Nationale des Ponts et Chaussees, 1994.fr"
+              },
+              {
+                "ref-fulltext": "Zhang, Z., et al., Tao, M., Durability of cement stabilized low plasticity soils. J. Geotech. Geoenviron. Eng. 134:2 (2008), 203–213, 10.1061/(ASCE)1090-0241(2008)134:2(203) févr.",
+                "@reference-instance-id": "OB2BibRecID-973293227-30b67f7c80aea4be731afaf17f42be35-11",
+                "@id": "11",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2008"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Durability of cement stabilized low plasticity soils"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1061/(ASCE)1090-0241(2008)134:2(203)",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib11",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "38349180098",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "134",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "203",
+                      "@last": "213"
+                    }
+                  },
+                  "ref-text": "févr",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Tao",
+                        "ce:indexed-name": "Tao M."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "J. Geotech. Geoenviron. Eng."
+                },
+                "ce:source-text": "Z. Zhang et M. Tao, « Durability of Cement Stabilized Low Plasticity Soils », J. Geotech. Geoenviron. Eng., vol. 134, no 2, p. 203-213, fevr. 2008, doi: 10.1061/(ASCE)1090-0241(2008)134:2(203).fr"
+              },
+              {
+                "ref-fulltext": "Shihata, S.A., et al., Baghdadi, Z.A., Long-Term strength and durability of soil cement. J. Mater. Civ. Eng. 13:3 (2001), 161–165, 10.1061/(ASCE)0899-1561(2001)13:3(161) juin.",
+                "@reference-instance-id": "OB2BibRecID-973293227-23e558092b37f8fd7de9e9c078eb1b68-12",
+                "@id": "12",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2001"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Long-Term strength and durability of soil cement"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1061/(ASCE)0899-1561(2001)13:3(161)",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib12",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0035337641",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "13",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "161",
+                      "@last": "165"
+                    }
+                  },
+                  "ref-text": "juin",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Shihata",
+                        "ce:indexed-name": "Shihata S.A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Baghdadi",
+                        "ce:indexed-name": "Baghdadi Z.A."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "J. Mater. Civ. Eng."
+                },
+                "ce:source-text": "S. A. Shihata et Z. A. Baghdadi, « Long-Term Strength and Durability of Soil Cement », J. Mater. Civ. Eng., vol. 13, no 3, p. 161-165, juin 2001, doi: 10.1061/(ASCE)0899-1561(2001)13:3(161)."
+              },
+              {
+                "ref-fulltext": "Park, S.-S., Effect of wetting on unconfined compressive strength of cemented sands. J. Geotech. Geoenviron. Eng. 136:12 (2010), 1713–1720, 10.1061/(ASCE)GT.1943-5606.0000399 déc.",
+                "@reference-instance-id": "OB2BibRecID-973293227-81eaa63ea08d3130265b69e33d3689bf-13",
+                "@id": "13",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of wetting on unconfined compressive strength of cemented sands"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1061/(ASCE)GT.1943-5606.0000399",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib13",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "78349238477",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "136",
+                      "@issue": "12"
+                    },
+                    "pagerange": {
+                      "@first": "1713",
+                      "@last": "1720"
+                    }
+                  },
+                  "ref-text": "déc",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.-S.",
+                        "@_fa": "true",
+                        "ce:surname": "Park",
+                        "ce:indexed-name": "Park S.-S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Geotech. Geoenviron. Eng."
+                },
+                "ce:source-text": "S.-S. Park, « Effect of Wetting on Unconfined Compressive Strength of Cemented Sands », J. Geotech. Geoenviron. Eng., vol. 136, no 12, p. 1713-1720, dec. 2010, doi: 10.1061/(ASCE)GT.1943-5606.0000399."
+              },
+              {
+                "ref-fulltext": "Shihata, S.A., et al., Baghdadi, Z.A., Long-Term strength and durability of soil cement. J. Mater. Civ. Eng. 13:3 (2001), 161–165, 10.1061/(ASCE)0899-1561(2001)13:3(161) juin.",
+                "@reference-instance-id": "OB2BibRecID-973293227-23e558092b37f8fd7de9e9c078eb1b68-14",
+                "@id": "14",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2001"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Long-Term strength and durability of soil cement"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1061/(ASCE)0899-1561(2001)13:3(161)",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib14",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0035337641",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "13",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "161",
+                      "@last": "165"
+                    }
+                  },
+                  "ref-text": "juin",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Shihata",
+                        "ce:indexed-name": "Shihata S.A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Baghdadi",
+                        "ce:indexed-name": "Baghdadi Z.A."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "J. Mater. Civ. Eng."
+                },
+                "ce:source-text": "S. A. Shihata et Z. A. Baghdadi, « Long-Term Strength and Durability of Soil Cement », J. Mater. Civ. Eng., vol. 13, no 3, p. 161-165, juin 2001, doi: 10.1061/(ASCE)0899-1561(2001)13:3(161).en"
+              },
+              {
+                "ref-fulltext": "Walker, P.J., « Strength, durability and shrinkage characteristics of cement stabilised soil blocks. Cement Concr. Compos. 17:4 (1995), 301–310, 10.1016/0958-9465(95)00019-9 janv.",
+                "@reference-instance-id": "OB2BibRecID-973293227-395120ac9429dbe377790bad3433072c-15",
+                "@id": "15",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1995"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "« Strength, durability and shrinkage characteristics of cement stabilised soil blocks"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/0958-9465(95)00019-9",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib15",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0029505179",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "17",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "301",
+                      "@last": "310"
+                    }
+                  },
+                  "ref-text": "janv",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Walker",
+                        "ce:indexed-name": "Walker P.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cement Concr. Compos."
+                },
+                "ce:source-text": "P. J. Walker, « Strength, durability and shrinkage characteristics of cement stabilised soil blocks », Cement and Concrete Composites, vol. 17, no 4, p. 301-310, janv. 1995, doi: 10.1016/0958-9465(95)00019-9."
+              },
+              {
+                "ref-fulltext": "Kamdem, A., et al. Influence of the Nature of cement on the physical and mechanical properties of soil concretes from sandy clay and laterite. CivilEng 5:2 (2024), 307–326.",
+                "@reference-instance-id": "OB2BibRecID-973293227-57917b754adba161bcd4ef23551f0daf-16",
+                "@id": "16",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Influence of the Nature of cement on the physical and mechanical properties of soil concretes from sandy clay and laterite"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib16",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85197133896",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "5",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "307",
+                      "@last": "326"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Kamdem",
+                        "ce:indexed-name": "Kamdem A."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "CivilEng"
+                },
+                "ce:source-text": "A. Kamdem et al., « Influence of the Nature of Cement on the Physical and Mechanical Properties of Soil Concretes from Sandy Clay and Laterite », CivilEng, vol. 5, no 2, p. 307-326, 2024."
+              },
+              {
+                "ref-fulltext": "Norme NF EN ISO 17892-3 ». Consulté le: 24 avril 2025. [En ligne]. Disponible sur : https://www.boutique.afnor.org/fr-fr/norme/nf-en-iso-178923/reconnaissance-et-essais-geotechniques-essais-de-laboratoire-sur-les-sols-p/fa166641/82913.",
+                "@reference-instance-id": "OB2BibRecID-973293227-9e02963bde45149735e1092d4165e4da-17",
+                "@id": "17",
+                "ref-info": {
+                  "ref-website": {
+                    "ce:e-address": {
+                      "$": "https://www.boutique.afnor.org/fr-fr/norme/nf-en-iso-178923/reconnaissance-et-essais-geotechniques-essais-de-laboratoire-sur-les-sols-p/fa166641/82913",
+                      "@type": "email"
+                    }
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Norme NF EN ISO 17892-3 ». Consulté le: 24 avril 2025"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib17",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105035077890",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "[En ligne]. Disponible sur :"
+                },
+                "ce:source-text": "Norme NF EN ISO 17892-3 ». Consulte le: 24 avril 2025. [En ligne]. Disponible sur : https://www.boutique.afnor.org/fr-fr/norme/nf-en-iso-178923/reconnaissance-et-essais-geotechniques-essais-de-laboratoire-sur-les-sols-p/fa166641/82913fr"
+              },
+              {
+                "ref-fulltext": "« NF EN ISO 10523 Editions, Afnor, Consulté le: 24 avril 2025. [En ligne]. Disponible sur : https://www.boutique.afnor.org/fr-fr/norme/nf-en-iso-10523/qualite-de-leau-determination-du-ph/fa169008/39189.",
+                "@reference-instance-id": "OB2BibRecID-973293227-127fd1b3496cba3434433dba8447ae2d-18",
+                "@id": "18",
+                "ref-info": {
+                  "ref-website": {
+                    "ce:e-address": {
+                      "$": "https://www.boutique.afnor.org/fr-fr/norme/nf-en-iso-10523/qualite-de-leau-determination-du-ph/fa169008/39189",
+                      "@type": "email"
+                    }
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Consulté le: 24 avril 2025"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib18",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105035073412",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "[En ligne]. Disponible sur :",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "ce:given-name": "Afnor",
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Editions",
+                        "ce:indexed-name": "Editions A."
+                      }
+                    ],
+                    "collaboration": {
+                      "@seq": "1",
+                      "ce:text": "« NF EN ISO 10523",
+                      "ce:indexed-name": "« NF EN ISO 10523"
+                    }
+                  }
+                },
+                "ce:source-text": "« NF EN ISO 10523 », Afnor EDITIONS. Consulte le: 24 avril 2025. [En ligne]. Disponible sur : https://www.boutique.afnor.org/fr-fr/norme/nf-en-iso-10523/qualite-de-leau-determination-du-ph/fa169008/39189fr"
+              },
+              {
+                "ref-fulltext": "NF EN 933-9 », Afnor EDITIONS. Consulté le : 24 avril 2025. [En ligne]. Disponible sur : https://www.boutique.afnor.org/fr-fr/norme/nf-en-9339/essais-pour-determiner-les-caracteristiques-geometriques-des-granulats-part/fa196812/321354.",
+                "@reference-instance-id": "OB2BibRecID-973293227-a27ab50302dfb79d964bd1504913f658-19",
+                "@id": "19",
+                "ref-info": {
+                  "ref-website": {
+                    "ce:e-address": {
+                      "$": "https://www.boutique.afnor.org/fr-fr/norme/nf-en-9339/essais-pour-determiner-les-caracteristiques-geometriques-des-granulats-part/fa196812/321354",
+                      "@type": "email"
+                    }
+                  },
+                  "ref-title": {
+                    "ref-titletext": "NF EN 933-9 », Afnor EDITIONS. Consulté le : 24 avril 2025"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib19",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105035058879",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "[En ligne]. Disponible sur :"
+                },
+                "ce:source-text": "NF EN 933-9 », Afnor EDITIONS. Consulte le : 24 avril 2025. [En ligne]. Disponible sur : https://www.boutique.afnor.org/fr-fr/norme/nf-en-9339/essais-pour-determiner-les-caracteristiques-geometriques-des-granulats-part/fa196812/321354fr"
+              },
+              {
+                "ref-fulltext": "NF EN ISO 17892-10 », Afnor EDITIONS. Consulté le : 24 avril 2025. [En ligne]. Disponible sur : https://www.boutique.afnor.org/fr-fr/norme/nf-en-iso-1789210/reconnaissance-et-essais-geotechniques-essais-de-laboratoire-des-sols-parti/fa187928/84057.",
+                "@reference-instance-id": "OB2BibRecID-973293227-0ace4baaad09ab10caa0f48edfe76eae-20",
+                "@id": "20",
+                "ref-info": {
+                  "ref-website": {
+                    "ce:e-address": {
+                      "$": "https://www.boutique.afnor.org/fr-fr/norme/nf-en-iso-1789210/reconnaissance-et-essais-geotechniques-essais-de-laboratoire-des-sols-parti/fa187928/84057",
+                      "@type": "email"
+                    }
+                  },
+                  "ref-title": {
+                    "ref-titletext": "NF EN ISO 17892-10 », Afnor EDITIONS. Consulté le : 24 avril 2025"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib20",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105035085785",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "[En ligne]. Disponible sur :"
+                },
+                "ce:source-text": "NF EN ISO 17892-10 », Afnor EDITIONS. Consulte le : 24 avril 2025. [En ligne]. Disponible sur : https://www.boutique.afnor.org/fr-fr/norme/nf-en-iso-1789210/reconnaissance-et-essais-geotechniques-essais-de-laboratoire-des-sols-parti/fa187928/84057fr"
+              },
+              {
+                "ref-fulltext": "NF EN 933-8/IN1 », Afnor EDITIONS. Consulté le : 24 avril 2025. [En ligne]. Disponible sur : https://www.boutique.afnor.org/fr-fr/norme/nf-en-9338-in1/essais-pour-determiner-les-caracteristiques-geometriques-des-granulats-part/fa059661/45461.",
+                "@reference-instance-id": "OB2BibRecID-973293227-6bbb1ffcbb3fc460d3030b3f12e2a205-21",
+                "@id": "21",
+                "ref-info": {
+                  "ref-website": {
+                    "ce:e-address": {
+                      "$": "https://www.boutique.afnor.org/fr-fr/norme/nf-en-9338-in1/essais-pour-determiner-les-caracteristiques-geometriques-des-granulats-part/fa059661/45461",
+                      "@type": "email"
+                    }
+                  },
+                  "ref-title": {
+                    "ref-titletext": "NF EN 933-8/IN1 », Afnor EDITIONS. Consulté le : 24 avril 2025"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib21",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105035093471",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "[En ligne]. Disponible sur :"
+                },
+                "ce:source-text": "NF EN 933-8/IN1 », Afnor EDITIONS. Consulte le : 24 avril 2025. [En ligne]. Disponible sur : https://www.boutique.afnor.org/fr-fr/norme/nf-en-9338-in1/essais-pour-determiner-les-caracteristiques-geometriques-des-granulats-part/fa059661/45461fr"
+              },
+              {
+                "ref-fulltext": "Stalin, V.K., et al., Muthukumar, M., Effect of acid permeation on the chemical characteristics of soil and fly ash. Proc. of Indian Geotechnical Conference, 2002, 301–304 Allahabad India.",
+                "@reference-instance-id": "OB2BibRecID-973293227-81849c6e62f354a85ca218b7d9adebb6-22",
+                "@id": "22",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2002"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of acid permeation on the chemical characteristics of soil and fly ash"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib22",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "33747375636",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "301",
+                      "@last": "304"
+                    }
+                  },
+                  "ref-text": "Allahabad India",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "V.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Stalin",
+                        "ce:indexed-name": "Stalin V.K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Muthukumar",
+                        "ce:indexed-name": "Muthukumar M."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Proc. of Indian Geotechnical Conference"
+                },
+                "ce:source-text": "V. K. Stalin et M. Muthukumar, « Effect of acid permeation on the chemical characteristics of soil and fly ash », in Proc. of Indian Geotechnical Conference, Allahabad India, 2002, p. 301-304."
+              },
+              {
+                "ref-fulltext": "Kitazume, M., et al., Terashi, M., The Deep Mixing Method, vol. 21, 2013, CRC press, London.",
+                "@reference-instance-id": "OB2BibRecID-973293227-2d488e1906d45b8068bac3775f71c438-23",
+                "@id": "23",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib23",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85137485520",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "21"
+                    }
+                  },
+                  "ref-text": "CRC press London",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Kitazume",
+                        "ce:indexed-name": "Kitazume M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Terashi",
+                        "ce:indexed-name": "Terashi M."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "The Deep Mixing Method"
+                },
+                "ce:source-text": "M. Kitazume et M. Terashi, The deep mixing method, vol. 21. CRC press London, 2013."
+              },
+              {
+                "ref-fulltext": "Topolnicki, M., In situ soil mixing. Ground Improv. 2 (2004), 331–428.",
+                "@reference-instance-id": "OB2BibRecID-973293227-d68a1a1165593fa5c414897a3bf7e82a-24",
+                "@id": "24",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2004"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "In situ soil mixing"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib24",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "33845736675",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "2"
+                    },
+                    "pagerange": {
+                      "@first": "331",
+                      "@last": "428"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Topolnicki",
+                        "ce:indexed-name": "Topolnicki M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Ground Improv."
+                },
+                "ce:source-text": "M. Topolnicki, « In situ soil mixing », Ground improvement, vol. 2, p. 331-428, 2004."
+              },
+              {
+                "ref-fulltext": "Szymkiewicz, F., « Évaluation Des Propriétés Mécaniques D'Un Sol Traité Au Ciment., 2011, Université Paris-Est PhD Thesis.",
+                "@reference-instance-id": "OB2BibRecID-973293227-82ea5cc7cb9d60886463b11c321b51a0-25",
+                "@id": "25",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "« Évaluation Des Propriétés Mécaniques D'Un Sol Traité Au Ciment"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib25",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84876848202",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Université Paris-Est PhD Thesis",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Szymkiewicz",
+                        "ce:indexed-name": "Szymkiewicz F."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "F. Szymkiewicz, « Evaluation des proprietes mecaniques d'un sol traite au ciment », PhD Thesis, Universite Paris-Est, 2011.fr"
+              },
+              {
+                "ref-fulltext": "Helson, O., Beaucour, A.-L., Eslami, J., Noumowe, A., et al., Gotteland, P., Physical and mechanical properties of soilcrete mixtures: soil clay content and formulation parameters. Constr. Build. Mater. 131 (2017), 775–783.",
+                "@reference-instance-id": "OB2BibRecID-973293227-259c74b175fbd14308ee9f8390919b11-26",
+                "@id": "26",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Physical and mechanical properties of soilcrete mixtures: soil clay content and formulation parameters"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib26",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85027923892",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "131"
+                    },
+                    "pagerange": {
+                      "@first": "775",
+                      "@last": "783"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "O.",
+                        "@_fa": "true",
+                        "ce:surname": "Helson",
+                        "ce:indexed-name": "Helson O."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.-L.",
+                        "@_fa": "true",
+                        "ce:surname": "Beaucour",
+                        "ce:indexed-name": "Beaucour A.-L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Eslami",
+                        "ce:indexed-name": "Eslami J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Noumowe",
+                        "ce:indexed-name": "Noumowe A."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Gotteland",
+                        "ce:indexed-name": "Gotteland P."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "O. Helson, A.-L. Beaucour, J. Eslami, A. Noumowe, et P. Gotteland, « Physical and mechanical properties of soilcrete mixtures: Soil clay content and formulation parameters », Construction and Building Materials, vol. 131, p. 775-783, 2017."
+              },
+              {
+                "ref-fulltext": "Hessouh, J.J., Eslami, J., Beaucour, A.-L., Noumowe, A., Mathieu, F., et al., Gotteland, P., Physical and mechanical characterization of deep soil mixing (DSM) materials: laboratory vs construction site. Constr. Build. Mater., 368, 2023, 130436.",
+                "@reference-instance-id": "OB2BibRecID-973293227-6c3f37a91840414b37d864237da08ee5-27",
+                "@id": "27",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Physical and mechanical characterization of deep soil mixing (DSM) materials: laboratory vs construction site"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib27",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "130436",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85147545007",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "368"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Hessouh",
+                        "ce:indexed-name": "Hessouh J.J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Eslami",
+                        "ce:indexed-name": "Eslami J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.-L.",
+                        "@_fa": "true",
+                        "ce:surname": "Beaucour",
+                        "ce:indexed-name": "Beaucour A.-L."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Noumowe",
+                        "ce:indexed-name": "Noumowe A."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Mathieu",
+                        "ce:indexed-name": "Mathieu F."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Gotteland",
+                        "ce:indexed-name": "Gotteland P."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "J. J. Hessouh, J. Eslami, A.-L. Beaucour, A. Noumowe, F. Mathieu, et P. Gotteland, « Physical and mechanical characterization of deep soil mixing (DSM) materials: Laboratory vs construction site », Construction and Building Materials, vol. 368, p. 130436, 2023."
+              },
+              {
+                "ref-fulltext": "Kamdem, A., et al. Influence of the nature of cement on the physical and mechanical properties of soil concretes from sandy clay and laterite. CivilEng 5 (2024), 307–326.",
+                "@reference-instance-id": "OB2BibRecID-973293227-f51bdfc88efe32a1a9fe14a498a84307-28",
+                "@id": "28",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Influence of the nature of cement on the physical and mechanical properties of soil concretes from sandy clay and laterite"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib28",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85197133896",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "5"
+                    },
+                    "pagerange": {
+                      "@first": "307",
+                      "@last": "326"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Kamdem",
+                        "ce:indexed-name": "Kamdem A."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "CivilEng"
+                },
+                "ce:source-text": "A. Kamdem et al., « Influence of the nature of cement on the physical and mechanical properties of soil concretes from sandy clay and laterite. CivilEng. 5: 307-326 ». 2024."
+              },
+              {
+                "ref-fulltext": "Melentijevic, S., Arcos, J.L., et al., Oteo, C., Application of cement deep mixing method for underpinning. Proc., 18th Int. Conf. on Soil Mechanics and Geotechnical Engineering, 2013, 2549–2552.",
+                "@reference-instance-id": "OB2BibRecID-973293227-ea937f4a1bd75ed74a81d2fe5d286fd2-29",
+                "@id": "29",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Application of cement deep mixing method for underpinning"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib29",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84928636170",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "2549",
+                      "@last": "2552"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Melentijevic",
+                        "ce:indexed-name": "Melentijevic S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Arcos",
+                        "ce:indexed-name": "Arcos J.L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Oteo",
+                        "ce:indexed-name": "Oteo C."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Proc., 18th Int. Conf. on Soil Mechanics and Geotechnical Engineering"
+                },
+                "ce:source-text": "S. Melentijevic, J. L. Arcos, et C. Oteo, « Application of cement deep mixing method for underpinning », in Proc., 18th Int. Conf. on Soil Mechanics and Geotechnical Engineering, 2013, p. 2549-2552."
+              },
+              {
+                "ref-fulltext": "Denies, N., Huybrechts, N., De.Cock, F., Lameire, B., Maertens, J., et al. Vervoort, « large-scale bending tests on soil mix elements. IFCEE 2015, 2015, American Society of Civil Engineers, San Antonio, Texas, 2394–2409, 10.1061/9780784479087.222.",
+                "@reference-instance-id": "OB2BibRecID-973293227-666c7a0e30bf824c2e698ed1f74dfac1-30",
+                "@id": "30",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Vervoort, « large-scale bending tests on soil mix elements"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1061/9780784479087.222",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib30",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84925070585",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "2394",
+                      "@last": "2409"
+                    }
+                  },
+                  "ref-text": "American Society of Civil Engineers San Antonio, Texas",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Denies",
+                        "ce:indexed-name": "Denies N."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Huybrechts",
+                        "ce:indexed-name": "Huybrechts N."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "De.Cock",
+                        "ce:indexed-name": "De.Cock F."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Lameire",
+                        "ce:indexed-name": "Lameire B."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Maertens",
+                        "ce:indexed-name": "Maertens J."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "IFCEE 2015"
+                },
+                "ce:source-text": "N. Denies, N. Huybrechts, F. De Cock, B. Lameire, J. Maertens, et A. Vervoort, « Large-Scale Bending Tests on Soil Mix Elements », in IFCEE 2015, San Antonio, Texas: American Society of Civil Engineers, mars 2015, p. 2394-2409. doi: 10.1061/9780784479087.222."
+              },
+              {
+                "ref-fulltext": "Liu, L., Zhou, A., Deng, Y., Cui, Y., Yu, Z., et al., Yu, C., Strength performance of cement/slag-based stabilized soft clays. Constr. Build. Mater. 211 (2019), 909–918.",
+                "@reference-instance-id": "OB2BibRecID-973293227-12538de075dbff388257398c1de16425-31",
+                "@id": "31",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Strength performance of cement/slag-based stabilized soft clays"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib31",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85063495267",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "211"
+                    },
+                    "pagerange": {
+                      "@first": "909",
+                      "@last": "918"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Deng",
+                        "ce:indexed-name": "Deng Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Cui",
+                        "ce:indexed-name": "Cui Y."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu Z."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu C."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "L. Liu, A. Zhou, Y. Deng, Y. Cui, Z. Yu, et C. Yu, « Strength performance of cement/slag-based stabilized soft clays », Construction and Building Materials, vol. 211, p. 909-918, 2019."
+              },
+              {
+                "ref-fulltext": "Terashi, M., « deep mixing method-brief state of the art. Fourteenth International Conference on Soil Mechanics and Foundation Engineering, 1999, ProceedingsInternational Society for Soil Mechanics and Foundation Engineering Consulté le: 24 avril 2025. [En ligne]. Disponible sur : https://trid.trb.org/View/500777.",
+                "@reference-instance-id": "OB2BibRecID-973293227-a71bb574961582f26e2c06056aeeab37-32",
+                "@id": "32",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1999"
+                  },
+                  "ref-website": {
+                    "ce:e-address": {
+                      "$": "https://trid.trb.org/View/500777",
+                      "@type": "email"
+                    }
+                  },
+                  "ref-title": {
+                    "ref-titletext": "« deep mixing method-brief state of the art"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib32",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0001514788",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "ProceedingsInternational Society for Soil Mechanics and Foundation Engineering Consulté le: 24 avril 2025. [En ligne]. Disponible sur :",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Terashi",
+                        "ce:indexed-name": "Terashi M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Fourteenth International Conference on Soil Mechanics and Foundation Engineering"
+                },
+                "ce:source-text": "M. Terashi, « Deep mixing method-brief state of the art », in Fourteenth International Conference on Soil Mechanics and Foundation Engineering. ProceedingsInternational Society for Soil Mechanics and Foundation Engineering, 1999. Consulte le: 24 avril 2025. [En ligne]. Disponible sur : https://trid.trb.org/View/500777fr"
+              },
+              {
+                "ref-fulltext": "NF EN 13295 », Afnor EDITIONS. Consulté le : 3 février 2026. [En ligne]. Disponible sur : https://www.boutique.afnor.org/fr-fr/norme/nf-en-13295/produits-et-systemes-pour-la-protection-et-la-reparation-des-structures-en-/fa048376/23893.",
+                "@reference-instance-id": "OB2BibRecID-973293227-944015462544c622f8edc8b77d1c40a1-33",
+                "@id": "33",
+                "ref-info": {
+                  "ref-website": {
+                    "ce:e-address": {
+                      "$": "https://www.boutique.afnor.org/fr-fr/norme/nf-en-13295/produits-et-systemes-pour-la-protection-et-la-reparation-des-structures-en-/fa048376/23893",
+                      "@type": "email"
+                    }
+                  },
+                  "ref-title": {
+                    "ref-titletext": "NF EN 13295 », Afnor EDITIONS. Consulté le : 3 février 2026"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib33",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105035060838",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "[En ligne]. Disponible sur :"
+                },
+                "ce:source-text": "NF EN 13295 », Afnor EDITIONS. Consulte le : 3 fevrier 2026. [En ligne]. Disponible sur : https://www.boutique.afnor.org/fr-fr/norme/nf-en-13295/produits-et-systemes-pour-la-protection-et-la-reparation-des-structures-en-/fa048376/23893fr"
+              },
+              {
+                "ref-fulltext": "« NF P18-459 Editions, Afnor, Consulté le : 21 mai 2025. [En ligne]. Disponible sur : https://www.boutique.afnor.org/fr-fr/norme/nf-p18459/beton-essai-pour-beton-durci-essai-de-porosite-et-de-masse-volumique/fa203045/330883.",
+                "@reference-instance-id": "OB2BibRecID-973293227-c782f7c8dd424cd470b1abadcc23076c-34",
+                "@id": "34",
+                "ref-info": {
+                  "ref-website": {
+                    "ce:e-address": {
+                      "$": "https://www.boutique.afnor.org/fr-fr/norme/nf-p18459/beton-essai-pour-beton-durci-essai-de-porosite-et-de-masse-volumique/fa203045/330883",
+                      "@type": "email"
+                    }
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Consulté le : 21 mai 2025"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib34",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105035092235",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "[En ligne]. Disponible sur :",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "ce:given-name": "Afnor",
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Editions",
+                        "ce:indexed-name": "Editions A."
+                      }
+                    ],
+                    "collaboration": {
+                      "@seq": "1",
+                      "ce:text": "« NF P18-459",
+                      "ce:indexed-name": "« NF P18-459"
+                    }
+                  }
+                },
+                "ce:source-text": "« NF P18-459 », Afnor EDITIONS. Consulte le : 21 mai 2025. [En ligne]. Disponible sur : https://www.boutique.afnor.org/fr-fr/norme/nf-p18459/beton-essai-pour-beton-durci-essai-de-porosite-et-de-masse-volumique/fa203045/330883fr"
+              },
+              {
+                "ref-fulltext": "Standard Test Methods for Wetting and Drying Compacted Soil-Cement Mixtures, 2012, Withdrawn.",
+                "@reference-instance-id": "OB2BibRecID-973293227-3e1786252fcbf72f7bb4d7b43b6afac9-35",
+                "@id": "35",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib35",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "26444485423",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Withdrawn",
+                  "ref-sourcetitle": "Standard Test Methods for Wetting and Drying Compacted Soil-Cement Mixtures"
+                },
+                "ce:source-text": "Standard Test Methods for Wetting and Drying Compacted Soil-Cement Mixtures (Withdrawn 2012) »."
+              },
+              {
+                "ref-fulltext": "Helson, O., Comportement thermo-hydro-mécanique et durabilité des bétons de sol : influence des paramètres de formulation et conditions d'exposition. Theses, Université de Cergy Pontoise, 2017.",
+                "@reference-instance-id": "OB2BibRecID-973293227-2bd76944cdcd8afd8ef741aea10c2c11-36",
+                "@id": "36",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Comportement thermo-hydro-mécanique et durabilité des bétons de sol : influence des paramètres de formulation et conditions d'exposition"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib36",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85142644251",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "O.",
+                        "@_fa": "true",
+                        "ce:surname": "Helson",
+                        "ce:indexed-name": "Helson O."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Theses, Université de Cergy Pontoise"
+                },
+                "ce:source-text": "O. Helson, « Comportement thermo-hydro-mecanique et durabilite des betons de sol : influence des parametres de formulation et conditions d'exposition. », Theses, Universite de Cergy Pontoise, 2017.fr"
+              },
+              {
+                "ref-fulltext": "Hessouh, J., « Caractérisations Physique Et Mécanique, Et Durabilité Des Bétons De Sol : Matériaux De Laboratoire Et Matériaux De Chantiers., 2021, CY Cergy Paris Université PhD Thesis.",
+                "@reference-instance-id": "OB2BibRecID-973293227-e650be425b1cbd76f895a11d0d73ed9d-37",
+                "@id": "37",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "« Caractérisations Physique Et Mécanique, Et Durabilité Des Bétons De Sol : Matériaux De Laboratoire Et Matériaux De Chantiers"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib37",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85181924936",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "CY Cergy Paris Université PhD Thesis",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Hessouh",
+                        "ce:indexed-name": "Hessouh J."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "J. Hessouh, « Caracterisations physique et mecanique, et durabilite des betons de sol : materiaux de laboratoire et materiaux de chantiers », PhD Thesis, CY Cergy Paris Universite, 2021.fr"
+              },
+              {
+                "ref-fulltext": "Helson, O., Eslami, J., Beaucour, A.-L., Noumowe, A., et al., Gotteland, P., Durability of soil mix material subjected to wetting/drying cycles and external sulfate attacks. Constr. Build. Mater. 192 (2018), 416–428.",
+                "@reference-instance-id": "OB2BibRecID-973293227-bb6ba5d6e56e13c82b61c83ab2a36d5e-38",
+                "@id": "38",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Durability of soil mix material subjected to wetting/drying cycles and external sulfate attacks"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib38",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85055269312",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "192"
+                    },
+                    "pagerange": {
+                      "@first": "416",
+                      "@last": "428"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "O.",
+                        "@_fa": "true",
+                        "ce:surname": "Helson",
+                        "ce:indexed-name": "Helson O."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Eslami",
+                        "ce:indexed-name": "Eslami J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.-L.",
+                        "@_fa": "true",
+                        "ce:surname": "Beaucour",
+                        "ce:indexed-name": "Beaucour A.-L."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Noumowe",
+                        "ce:indexed-name": "Noumowe A."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Gotteland",
+                        "ce:indexed-name": "Gotteland P."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "O. Helson, J. Eslami, A.-L. Beaucour, A. Noumowe, et P. Gotteland, « Durability of soil mix material subjected to wetting/drying cycles and external sulfate attacks », Construction and Building Materials, vol. 192, p. 416-428, 2018."
+              },
+              {
+                "ref-fulltext": "NF EN 12390-3 », Afnor EDITIONS. Consulté le : 22 mai 2025. [En ligne]. Disponible sur : https://www.boutique.afnor.org/fr-fr/norme/nf-en-123903/essais-pour-beton-durci-partie-3-resistance-a-la-compression-des-eprouvette/fa190566/83462.",
+                "@reference-instance-id": "OB2BibRecID-973293227-2e1817b6292f0b09a9b4fe48a67bdcb4-39",
+                "@id": "39",
+                "ref-info": {
+                  "ref-website": {
+                    "ce:e-address": {
+                      "$": "https://www.boutique.afnor.org/fr-fr/norme/nf-en-123903/essais-pour-beton-durci-partie-3-resistance-a-la-compression-des-eprouvette/fa190566/83462",
+                      "@type": "email"
+                    }
+                  },
+                  "ref-title": {
+                    "ref-titletext": "NF EN 12390-3 », Afnor EDITIONS. Consulté le : 22 mai 2025"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib39",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105035091345",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "[En ligne]. Disponible sur :"
+                },
+                "ce:source-text": "NF EN 12390-3 », Afnor EDITIONS. Consulte le : 22 mai 2025. [En ligne]. Disponible sur : https://www.boutique.afnor.org/fr-fr/norme/nf-en-123903/essais-pour-beton-durci-partie-3-resistance-a-la-compression-des-eprouvette/fa190566/83462fr"
+              },
+              {
+                "ref-fulltext": "NF en 13286-41 Compression | PDF | Ingénierie mécanique | Matériaux », Scribd. Consulté le : 22 mai 2025. [En ligne]. Disponible sur : https://fr.scribd.com/document/835844408/NF-en-13286-41-Compression.",
+                "@reference-instance-id": "OB2BibRecID-973293227-8d9298c046b3c6983933f56dce10caec-40",
+                "@id": "40",
+                "ref-info": {
+                  "ref-website": {
+                    "ce:e-address": {
+                      "$": "https://fr.scribd.com/document/835844408/NF-en-13286-41-Compression",
+                      "@type": "email"
+                    }
+                  },
+                  "ref-title": {
+                    "ref-titletext": "NF en 13286-41 Compression | PDF | Ingénierie mécanique | Matériaux », Scribd. Consulté le : 22 mai 2025"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib40",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105035063979",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "[En ligne]. Disponible sur :"
+                },
+                "ce:source-text": "NF en 13286-41 Compression | PDF | Ingenierie mecanique | Materiaux », Scribd. Consulte le : 22 mai 2025. [En ligne]. Disponible sur : https://fr.scribd.com/document/835844408/NF-en-13286-41-Compressionfr"
+              },
+              {
+                "ref-fulltext": "Chaussadent, T., Etat Des Lieux Et Réflexions Sur la Carbonatation Du Béton Armé. 1999.",
+                "@reference-instance-id": "OB2BibRecID-973293227-f0a8a5a07078f9054f9768c77144d730-41",
+                "@id": "41",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1999"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Etat Des Lieux Et Réflexions Sur la Carbonatation Du Béton Armé"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib41",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "13144304169",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Chaussadent",
+                        "ce:indexed-name": "Chaussadent T."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "T. Chaussadent, Etat des lieux et reflexions sur la carbonatation du beton arme. 1999.fr"
+              },
+              {
+                "ref-fulltext": "Duval, R., « La Durabilité Des Armatures Et Du Béton D'Enrobage. 1992, Pressesde l’École Nationale des Ponts et Chaussées, Paris, 173–225.",
+                "@reference-instance-id": "OB2BibRecID-973293227-5798697944c839ad58506ddd4bdcf821-42",
+                "@id": "42",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1992"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "« La Durabilité Des Armatures Et Du Béton D'Enrobage"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib42",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "33846571097",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "173",
+                      "@last": "225"
+                    }
+                  },
+                  "ref-text": "Pressesde l’École Nationale des Ponts et Chaussées Paris",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Duval",
+                        "ce:indexed-name": "Duval R."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "R. Duval, « La durabilite des armatures et du beton d'enrobage », Paris : Pressesde l'Ecole Nationale des Ponts et Chaussees, p. 173-225, 1992.fr"
+              },
+              {
+                "ref-fulltext": "Venuat, M., et al., Alexandre, J., « De la carbonatation du béton. Revue des matériaux de construction, 638, 1968, 640.",
+                "@reference-instance-id": "OB2BibRecID-973293227-950bc0354c89fce06fe678090291ea38-43",
+                "@id": "43",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1968"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "« De la carbonatation du béton"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib43",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0003271040",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "638"
+                    },
+                    "pagerange": {
+                      "@first": "640"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Venuat",
+                        "ce:indexed-name": "Venuat M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Alexandre",
+                        "ce:indexed-name": "Alexandre J."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Revue des matériaux de construction"
+                },
+                "ce:source-text": "M. Venuat et J. Alexandre, « De la carbonatation du beton », Revue des materiaux de construction, vol. 638, p. 640, 1968.fr"
+              },
+              {
+                "ref-fulltext": "Song, H.-W., Kwon, S.-J., Byun, K.-J., et al., Park, C.-K., Predicting carbonation in early-aged cracked concrete. Cement Concr. Res. 36:5 (2006), 979–989.",
+                "@reference-instance-id": "OB2BibRecID-973293227-15918bc8135e66b043029ef30be5e693-44",
+                "@id": "44",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2006"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Predicting carbonation in early-aged cracked concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib44",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "33646106772",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "36",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "979",
+                      "@last": "989"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.-W.",
+                        "@_fa": "true",
+                        "ce:surname": "Song",
+                        "ce:indexed-name": "Song H.-W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.-J.",
+                        "@_fa": "true",
+                        "ce:surname": "Kwon",
+                        "ce:indexed-name": "Kwon S.-J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "K.-J.",
+                        "@_fa": "true",
+                        "ce:surname": "Byun",
+                        "ce:indexed-name": "Byun K.-J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "C.-K.",
+                        "@_fa": "true",
+                        "ce:surname": "Park",
+                        "ce:indexed-name": "Park C.-K."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Cement Concr. Res."
+                },
+                "ce:source-text": "H.-W. Song, S.-J. Kwon, K.-J. Byun, et C.-K. Park, « Predicting carbonation in early-aged cracked concrete », Cement and Concrete Research, vol. 36, no 5, p. 979-989, 2006."
+              },
+              {
+                "ref-fulltext": "Sulapha, P., Wong, S.F., Wee, T.H., Swaddiwudhipong, et S., « carbonation of concrete containing mineral admixtures. J. Mater. Civ. Eng. 15:2 (2003), 134–143.",
+                "@reference-instance-id": "OB2BibRecID-973293227-fa7e1ee7648202be6a35f5a83acae1e8-45",
+                "@id": "45",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2003"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "« carbonation of concrete containing mineral admixtures"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib45",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0038814746",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "15",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "134",
+                      "@last": "143"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Sulapha",
+                        "ce:indexed-name": "Sulapha P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Wong",
+                        "ce:indexed-name": "Wong S.F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "T.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Wee",
+                        "ce:indexed-name": "Wee T.H."
+                      },
+                      {
+                        "ce:given-name": "et S.",
+                        "@seq": "4",
+                        "ce:initials": "E.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Swaddiwudhipong",
+                        "ce:indexed-name": "Swaddiwudhipong E.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Mater. Civ. Eng."
+                },
+                "ce:source-text": "P. Sulapha, S. F. Wong, T. H. Wee, et S. Swaddiwudhipong, « Carbonation of concrete containing mineral admixtures », Journal of materials in civil engineering, vol. 15, no 2, p. 134-143, 2003."
+              },
+              {
+                "ref-fulltext": "Namoulniara, D.K., Etude Expérimentale De la Diffusion Du CO2 Et Des Cinétiques De Carbonatation De Matériaux Cimentaires à Faible Dosage En Clinker., 2015, Université de La Rochelle PhD Thesis.",
+                "@reference-instance-id": "OB2BibRecID-973293227-c5ba01aa4f35fb37242fdac77158f496-46",
+                "@id": "46",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Etude Expérimentale De la Diffusion Du CO2 Et Des Cinétiques De Carbonatation De Matériaux Cimentaires à Faible Dosage En Clinker"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib46",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85021800487",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Université de La Rochelle PhD Thesis",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Namoulniara",
+                        "ce:indexed-name": "Namoulniara D.K."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "D. K. Namoulniara, « Etude experimentale de la diffusion du CO2 et des cinetiques de carbonatation de materiaux cimentaires a faible dosage en clinker », PhD Thesis, Universite de La Rochelle, 2015.fr"
+              },
+              {
+                "ref-fulltext": "Thiery, M., « Modélisation De La Carbonatation Atmosphérique Des Matériaux Cimentaires : Prise En Compte Des Effets Cinétiques Et Des Modifications Microstructurales Et Hydriques », ETUDES ET RECHERCHES DES LABORATOIRES DES PONTS ET CHAUSSEES-SERIE OUVRAGES D'ART, NoOA 52. 2006.",
+                "@reference-instance-id": "OB2BibRecID-973293227-ea6e816217ab4daa13b5c4dec59e5857-47",
+                "@id": "47",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2006"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "« Modélisation De La Carbonatation Atmosphérique Des Matériaux Cimentaires : Prise En Compte Des Effets Cinétiques Et Des Modifications Microstructurales Et Hydriques », ETUDES ET RECHERCHES DES LABORATOIRES DES PONTS ET CHAUSSEES-SERIE OUVRAGES D'ART, NoOA 52"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib47",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "60449112595",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Thiery",
+                        "ce:indexed-name": "Thiery M."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "M. Thiery, « Modelisation de la carbonatation atmospherique des materiaux cimentaires : prise en compte des effets cinetiques et des modifications microstructurales et hydriques », ETUDES ET RECHERCHES DES LABORATOIRES DES PONTS ET CHAUSSEES-SERIE OUVRAGES D'ART, no OA 52, 2006.fr"
+              },
+              {
+                "ref-fulltext": "Delmi, M.M.Y., Aït-Mokhtar, K., et al., Dumargue, P., Experimental quantification of the products of carbonation of cement-based materials. 10th DBMC International Conference on Durability of Building Materials and Components, 2005, 17–20 Lyon.",
+                "@reference-instance-id": "OB2BibRecID-973293227-0ed4d7bb57ac91c59b5b14786e25b68f-48",
+                "@id": "48",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2005"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental quantification of the products of carbonation of cement-based materials"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib48",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105035061187",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "17",
+                      "@last": "20"
+                    }
+                  },
+                  "ref-text": "Lyon",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.M.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Delmi",
+                        "ce:indexed-name": "Delmi M.M.Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Aït-Mokhtar",
+                        "ce:indexed-name": "Ait-Mokhtar K."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Dumargue",
+                        "ce:indexed-name": "Dumargue P."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "10th DBMC International Conference on Durability of Building Materials and Components"
+                },
+                "ce:source-text": "M. M. Y. Delmi, K. Ait-Mokhtar, et P. Dumargue, « Experimental quantification of the products of carbonation of cement-based materials », in 10th DBMC International conference on Durability of Building Materials and Components, Lyon, 2005, p. 17-20."
+              },
+              {
+                "ref-fulltext": "Omikrine Metalssi, O., Étude Des Couplages hydratation-échanges hydriques-carbonatation Dans Les Mortiers Modifiés Polymères., 2007, La Rochelle PhD Thesis.",
+                "@reference-instance-id": "OB2BibRecID-973293227-2bdf079ffee8b20bf2c1f6f29c06e36f-49",
+                "@id": "49",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Étude Des Couplages hydratation-échanges hydriques-carbonatation Dans Les Mortiers Modifiés Polymères"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib49",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105035094749",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "La Rochelle PhD Thesis",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "O.",
+                        "@_fa": "true",
+                        "ce:surname": "Omikrine Metalssi",
+                        "ce:indexed-name": "Omikrine Metalssi O."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "O. Omikrine Metalssi, « Etude des couplages hydratation-echanges hydriques-carbonatation dans les mortiers modifies polymeres », PhD Thesis, La Rochelle, 2007.fr"
+              },
+              {
+                "ref-fulltext": "Omikrine Metalssi, O., et al., Aît-Mokhtar, A., A proposed methodology for a quantitative investigation of carbonation in polymer-modified mortars. Exp. Tech. 33 (2009), 59–65.",
+                "@reference-instance-id": "OB2BibRecID-973293227-7e586c8946d8a729d93a6473e0d57846-50",
+                "@id": "50",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A proposed methodology for a quantitative investigation of carbonation in polymer-modified mortars"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib50",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "75649144919",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "33"
+                    },
+                    "pagerange": {
+                      "@first": "59",
+                      "@last": "65"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "O.",
+                        "@_fa": "true",
+                        "ce:surname": "Omikrine Metalssi",
+                        "ce:indexed-name": "Omikrine Metalssi O."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Aît-Mokhtar",
+                        "ce:indexed-name": "Ait-Mokhtar A."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Exp. Tech."
+                },
+                "ce:source-text": "O. Omikrine Metalssi et A. Ait-Mokhtar, « A proposed methodology for a quantitative investigation of carbonation in polymer-modified mortars », Experimental techniques, vol. 33, p. 59-65, 2009."
+              },
+              {
+                "ref-fulltext": "Hessouh, J.J., Eslami, J., Beaucour, A.-L., Noumowe, A.N., Gotteland, P., et al., Mathieu, F., DURABILITE DES BETONS DE SOLS VIS-A-VIS DES CYCLES DE GEL-DEGEL ET DE LA CARBONATATION », Consulté le : 19 mai 2025. [En ligne]. Disponible sur: https://www.geotechnique.org/jngg2020/files/318707.pdf.",
+                "@reference-instance-id": "OB2BibRecID-973293227-272642461f21c6a05b4ec92f6ee8235b-51",
+                "@id": "51",
+                "ref-info": {
+                  "ref-website": {
+                    "ce:e-address": {
+                      "$": "https://www.geotechnique.org/jngg2020/files/318707.pdf",
+                      "@type": "email"
+                    }
+                  },
+                  "ref-title": {
+                    "ref-titletext": "DURABILITE DES BETONS DE SOLS VIS-A-VIS DES CYCLES DE GEL-DEGEL ET DE LA CARBONATATION », Consulté le : 19 mai 2025"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib51",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105035075006",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "[En ligne]. Disponible sur:",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Hessouh",
+                        "ce:indexed-name": "Hessouh J.J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Eslami",
+                        "ce:indexed-name": "Eslami J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.-L.",
+                        "@_fa": "true",
+                        "ce:surname": "Beaucour",
+                        "ce:indexed-name": "Beaucour A.-L."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "A.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Noumowe",
+                        "ce:indexed-name": "Noumowe A.N."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Gotteland",
+                        "ce:indexed-name": "Gotteland P."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Mathieu",
+                        "ce:indexed-name": "Mathieu F."
+                      }
+                    ],
+                    "et-al": null
+                  }
+                },
+                "ce:source-text": "J. J. Hessouh, J. Eslami, A.-L. Beaucour, A. N. Noumowe, P. Gotteland, et F. Mathieu, « DURABILITE DES BETONS DE SOLS VIS-A-VIS DES CYCLES DE GEL-DEGEL ET DE LA CARBONATATION », Consulte le : 19 mai 2025. [En ligne]. Disponible sur: https://www.geotechnique.org/jngg2020/files/318707.pdffr"
+              },
+              {
+                "ref-fulltext": "Metalssi, O.O., et al., Aït-Mokhtar, A., « a proposed methodology for a quantitative investigation of carbonation in polymer-modified mortars. Exp. Tech., 33(6), 2009.",
+                "@reference-instance-id": "OB2BibRecID-973293227-07a8158a853fa4d820d2882c373df448-52",
+                "@id": "52",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "« a proposed methodology for a quantitative investigation of carbonation in polymer-modified mortars"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib52",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "75649144919",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "33",
+                      "@issue": "6"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "O.O.",
+                        "@_fa": "true",
+                        "ce:surname": "Metalssi",
+                        "ce:indexed-name": "Metalssi O.O."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Aït-Mokhtar",
+                        "ce:indexed-name": "Ait-Mokhtar A."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Exp. Tech."
+                },
+                "ce:source-text": "O. O. Metalssi et A. Ait-Mokhtar, « a proposed methodology for a quantitative investigation of carbonation in polymer-modified mortars. », Experimental techniques, vol. 33, no 6, 2009."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "affiliation": [
+      {
+        "affiliation-city": "Cergy-Pontoise",
+        "@id": "60002272",
+        "affilname": "CY Cergy Paris Université",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60002272",
+        "affiliation-country": "France"
+      },
+      {
+        "affiliation-city": "Yaounde",
+        "@id": "132309450",
+        "affilname": "National Advanced School of Public Works",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/132309450",
+        "affiliation-country": "Cameroon"
+      },
+      {
+        "affiliation-city": "Cameroon",
+        "@id": "130306466",
+        "affilname": "University of Bertoua",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/130306466",
+        "affiliation-country": "Cameroon"
+      }
+    ],
+    "coredata": {
+      "srctype": "j",
+      "eid": "2-s2.0-105035077920",
+      "dc:description": "Soil concrete is a material obtained by mixing soil with cement. It is currently used for the construction of permanent structures such as dykes and retaining walls. The clay content in the soil requires a high-water content during preparation and placement, leading to increased porosity, which increases porosity and can negatively affect the long-term performance of soil concrete structures. In this context, it is essential to assess the durability of this material. Two durability indicators were studied in the laboratory: carbonation (mass loss (ζ), water-accessible porosity (η) and carbonation depth (Xc)) and wetting/drying (W/D) cycles (mass loss (ζ), P-wave velocity (Vp) and compressive strength (Rc)). The objective of this experimental study was to evaluate the role of cement and soil types on the durability performance of soil concretes under carbonation and W/D cycles. For the mixtures, two soils were selected: a clayey sand (SA5) and laterite (LA5), both with a grain size class of 0/5. Soil concretes were prepared at a constant spread of 32–33 cm (mini-slump test) using CEM I 52.5, CEM II 42.5, and CEM III 32.5 binders, with cement contents of 150 and 250 kg/m3. These durability tests were carried out on cylindrical specimens of dimensions (Ø = 60 mm and h = 120 mm) which were cured for 90 days in water prior to testing. The results indicate that mixtures containing CEM III 32.5 exhibited the highest carbonation depths due to the presence of blast-furnace slag, which reduces the availability of carbonatable products. LA5-based mixtures showed greater sensitivity to carbonation, mainly because of their higher porosity. While both soil and cement properties affect carbonation, the nature of the soil exerts a lesser influence on specimens containing Portland cements (CEM I 52.5 and CEM II 42.5) compared to those incorporating slag-based cement (CEM III 32.5). This can be explained by a soil-cement-water interaction. Unlike clinker, the main constituent of Portland cement, which hydrates faster, slag continues to hydrate over long periods. As our samples were cured for 90 days, this will lead to a more significant soil effect during carbonation in the case of formulations with CEM III 32.5 (blast furnace slag cement). Wetting/drying cycles led to higher mass losses and greater reductions in compressive strength in CEM III-based mixtures, particularly those prepared with LA5 soil. This behavior is attributed to the delayed hydraulic reactivity of slag, which causes mechanical instability during cyclic exposure. Overall, the study demonstrates that both cement composition and soil characteristics play a key role in controlling the durability of soil concrete under environmental actions.",
+      "prism:coverDate": "2026-04-15",
+      "prism:aggregationType": "Journal",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105035077920",
+      "subtypeDescription": "Article",
+      "dc:creator": {
+        "author": [
+          {
+            "ce:given-name": "Alain",
+            "preferred-name": {
+              "ce:given-name": "Alain",
+              "ce:initials": "A.",
+              "ce:surname": "Kamdem",
+              "ce:indexed-name": "Kamdem A."
+            },
+            "@seq": "1",
+            "ce:initials": "A.",
+            "@_fa": "true",
+            "affiliation": [
+              {
+                "@id": "60002272",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60002272"
+              },
+              {
+                "@id": "132309450",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/132309450"
+              }
+            ],
+            "ce:surname": "Kamdem",
+            "@auid": "13008871300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/13008871300",
+            "ce:indexed-name": "Kamdem A."
+          }
+        ]
+      },
+      "link": [
+        {
+          "@_fa": "true",
+          "@rel": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105035077920"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105035077920&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105035077920&origin=inward"
+        }
+      ],
+      "prism:publicationName": "Journal of Building Engineering",
+      "source-id": "21100389518",
+      "pii": "S2352710226008077",
+      "citedby-count": "0",
+      "prism:volume": "124",
+      "subtype": "ar",
+      "dc:title": "Durability performance of soil concretes: Role of cement and soil types under carbonation and wetting/drying cycles",
+      "openaccess": "0",
+      "openaccessFlag": "false",
+      "prism:doi": "10.1016/j.jobe.2026.115986",
+      "prism:issn": "23527102",
+      "publishercopyright": "© 2026 Elsevier Ltd",
+      "article-number": "115986",
+      "dc:identifier": "SCOPUS_ID:105035077920",
+      "dc:publisher": "Elsevier Ltd"
+    },
+    "idxterms": {
+      "mainterm": [
+        {
+          "$": "Carbonation depth",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Cement type",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Clay content",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Durability performance",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "High water content",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Mass loss",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Soil concrete",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Soil types",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Spreading",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Wetting/drying cycles",
+          "@weight": "b",
+          "@candidate": "n"
+        }
+      ]
+    },
+    "language": {
+      "@xml:lang": "eng"
+    },
+    "authkeywords": {
+      "author-keyword": [
+        {
+          "@_fa": "true",
+          "$": "Carbonation"
+        },
+        {
+          "@_fa": "true",
+          "$": "Durability"
+        },
+        {
+          "@_fa": "true",
+          "$": "Soil concrete"
+        },
+        {
+          "@_fa": "true",
+          "$": "Spreading"
+        },
+        {
+          "@_fa": "true",
+          "$": "Wetting/drying cycles"
+        }
+      ]
+    },
+    "subject-areas": {
+      "subject-area": [
+        {
+          "@_fa": "true",
+          "$": "Architecture",
+          "@code": "2216",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Civil and Structural Engineering",
+          "@code": "2205",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Building and Construction",
+          "@code": "2215",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Safety, Risk, Reliability and Quality",
+          "@code": "2213",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Mechanics of Materials",
+          "@code": "2211",
+          "@abbrev": "ENGI"
+        }
+      ]
+    },
+    "authors": {
+      "author": [
+        {
+          "ce:given-name": "Alain",
+          "preferred-name": {
+            "ce:given-name": "Alain",
+            "ce:initials": "A.",
+            "ce:surname": "Kamdem",
+            "ce:indexed-name": "Kamdem A."
+          },
+          "@seq": "1",
+          "ce:initials": "A.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "60002272",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60002272"
+            },
+            {
+              "@id": "132309450",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/132309450"
+            }
+          ],
+          "ce:surname": "Kamdem",
+          "@auid": "13008871300",
+          "author-url": "https://api.elsevier.com/content/author/author_id/13008871300",
+          "ce:indexed-name": "Kamdem A."
+        },
+        {
+          "ce:given-name": "Emmanuel",
+          "preferred-name": {
+            "ce:given-name": "Emmanuel",
+            "ce:initials": "E.",
+            "ce:surname": "Elat",
+            "ce:indexed-name": "Elat E."
+          },
+          "@seq": "2",
+          "ce:initials": "E.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60002272",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60002272"
+          },
+          "ce:surname": "Elat",
+          "@auid": "57219208874",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57219208874",
+          "ce:indexed-name": "Elat E."
+        },
+        {
+          "ce:given-name": "Jean Chills",
+          "preferred-name": {
+            "ce:given-name": "Jean Chills",
+            "ce:initials": "J.C.",
+            "ce:surname": "Amba",
+            "ce:indexed-name": "Amba J.C."
+          },
+          "@seq": "3",
+          "ce:initials": "J.C.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "130306466",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/130306466"
+          },
+          "ce:surname": "Amba",
+          "@auid": "57191189671",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57191189671",
+          "ce:indexed-name": "Amba J.C."
+        },
+        {
+          "ce:given-name": "Albert",
+          "preferred-name": {
+            "ce:given-name": "Albert",
+            "ce:initials": "A.",
+            "ce:surname": "Noumowé",
+            "ce:indexed-name": "Noumowé A."
+          },
+          "@seq": "4",
+          "ce:initials": "A.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60002272",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60002272"
+          },
+          "ce:surname": "Noumowé",
+          "@auid": "55914478500",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55914478500",
+          "ce:indexed-name": "Noumowe A."
+        },
+        {
+          "ce:given-name": "Michel",
+          "preferred-name": {
+            "ce:given-name": "Michel",
+            "ce:initials": "M.",
+            "ce:surname": "Mbessa",
+            "ce:indexed-name": "Mbessa M."
+          },
+          "@seq": "5",
+          "ce:initials": "M.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "132309450",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/132309450"
+          },
+          "ce:surname": "Mbessa",
+          "@auid": "15746777100",
+          "author-url": "https://api.elsevier.com/content/author/author_id/15746777100",
+          "ce:indexed-name": "Mbessa M."
+        },
+        {
+          "ce:given-name": "Javad",
+          "preferred-name": {
+            "ce:given-name": "Javad",
+            "ce:initials": "J.",
+            "ce:surname": "Eslami",
+            "ce:indexed-name": "Eslami J."
+          },
+          "@seq": "6",
+          "ce:initials": "J.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60002272",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60002272"
+          },
+          "ce:surname": "Eslami",
+          "@auid": "25649683300",
+          "author-url": "https://api.elsevier.com/content/author/author_id/25649683300",
+          "ce:indexed-name": "Eslami J."
+        }
+      ]
+    }
+  }
+}

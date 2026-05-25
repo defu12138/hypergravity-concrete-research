@@ -1,0 +1,4233 @@
+{
+  "abstracts-retrieval-response": {
+    "item": {
+      "ait:process-info": {
+        "ait:status": {
+          "@state": "new",
+          "@type": "core",
+          "@stage": "S300"
+        },
+        "ait:date-delivered": {
+          "@day": "11",
+          "@timestamp": "2025-07-11T20:17:44.000044-04:00",
+          "@year": "2025",
+          "@month": "07"
+        },
+        "ait:date-sort": {
+          "@day": "05",
+          "@year": "2025",
+          "@month": "09"
+        }
+      },
+      "xocs:meta": {
+        "xocs:funding-list": {
+          "@pui-match": "primary",
+          "@has-funding-info": "1",
+          "xocs:funding": [
+            {
+              "xocs:funding-agency-matched-string": "National Natural Science Foundation Project of China",
+              "xocs:funding-agency-acronym": "NNSF",
+              "xocs:funding-agency": "National Natural Science Foundation of China",
+              "xocs:funding-id": "52178223",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "National Natural Science Foundation Project of China",
+              "xocs:funding-agency-acronym": "NNSF",
+              "xocs:funding-agency": "National Natural Science Foundation of China",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Shandong Natural Science Foundation General Project",
+              "xocs:funding-id": "ZR2023ME044"
+            }
+          ],
+          "xocs:funding-addon-generated-timestamp": "2025-07-11T02:11:06.660Z",
+          "xocs:funding-text": "The author thanks National Natural Science Foundation Project of China ( 52178223 ), the Shandong Natural Science Foundation General Project ( ZR2023ME044 ).",
+          "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }
+      },
+      "bibrecord": {
+        "head": {
+          "author-group": [
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "266109",
+                "@afid": "60088079",
+                "@country": "chn",
+                "city": "Qingdao",
+                "organization": [
+                  {
+                    "$": "College of Civil Engineering & Architecture"
+                  },
+                  {
+                    "$": "Qingdao Agricultural University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60088079",
+                  "@dptid": "132075898"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-965831043-30f180356a249f0c73117c0eb23b77c2-1",
+                "ce:source-text": "College of Civil Engineering & Architecture, Qingdao Agricultural University, Qingdao 266109, China",
+                "@dptid": "132075898"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Liang",
+                  "preferred-name": {
+                    "ce:given-name": "Liang",
+                    "ce:initials": "L.",
+                    "ce:surname": "Wang",
+                    "ce:indexed-name": "Wang L."
+                  },
+                  "@author-instance-id": "OB2BibRecID-965831043-bcd90b67a3b87c110f4c866a53e0e3cc-1",
+                  "@seq": "1",
+                  "ce:initials": "L.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Wang",
+                  "@auid": "57208741376",
+                  "ce:indexed-name": "Wang L."
+                },
+                {
+                  "ce:given-name": "Chunyu",
+                  "preferred-name": {
+                    "ce:given-name": "Chunyu",
+                    "ce:initials": "C.",
+                    "ce:surname": "Ma",
+                    "ce:indexed-name": "Ma C."
+                  },
+                  "@author-instance-id": "OB2BibRecID-965831043-701f40fae9775365029ac244138de5f5-1",
+                  "@seq": "2",
+                  "ce:initials": "C.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Ma",
+                  "@auid": "59912193600",
+                  "ce:indexed-name": "Ma C."
+                },
+                {
+                  "ce:given-name": "Yujiao",
+                  "preferred-name": {
+                    "ce:given-name": "Yujiao",
+                    "ce:initials": "Y.",
+                    "ce:surname": "Li",
+                    "ce:indexed-name": "Li Y."
+                  },
+                  "@author-instance-id": "OB2BibRecID-965831043-b63afa5df37b5deac730b0b16179529e-1",
+                  "@seq": "3",
+                  "ce:initials": "Y.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Li",
+                  "@auid": "57970510700",
+                  "ce:indexed-name": "Li Y."
+                },
+                {
+                  "ce:given-name": "Junzhe",
+                  "preferred-name": {
+                    "ce:given-name": "Junzhe",
+                    "ce:initials": "J.",
+                    "ce:surname": "Liu",
+                    "ce:indexed-name": "Liu J."
+                  },
+                  "@author-instance-id": "OB2BibRecID-965831043-19549fae79efc06de20bb1f7f7fb5480-1",
+                  "@seq": "5",
+                  "ce:initials": "J.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Liu",
+                  "@auid": "56469839200",
+                  "ce:indexed-name": "Liu J."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "315211",
+                "@afid": "60031419",
+                "@country": "chn",
+                "city": "Ningbo",
+                "organization": [
+                  {
+                    "$": "College of Civil Engineering"
+                  },
+                  {
+                    "$": "Ningbo University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60031419",
+                  "@dptid": "118300816"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-965831043-16dc61d3451eafe6aceb7123c919d02a-1",
+                "ce:source-text": "College of Civil Engineering, Ningbo University, Ningbo 315211, China",
+                "@dptid": "118300816"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Mingming",
+                  "preferred-name": {
+                    "ce:given-name": "Mingming",
+                    "ce:initials": "M.",
+                    "ce:surname": "Zhang",
+                    "ce:indexed-name": "Zhang M."
+                  },
+                  "@author-instance-id": "OB2BibRecID-965831043-d8c848bb785423ad78b85cb40a7ef88d-1",
+                  "@seq": "4",
+                  "ce:initials": "M.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Zhang",
+                  "@auid": "59979191400",
+                  "ce:indexed-name": "Zhang M."
+                }
+              ]
+            }
+          ],
+          "citation-title": "The microstructure evolution of cement paste and steel corrosion behavior under natural and accelerated carbonation: CO2 concentration, temperature and humidity",
+          "abstracts": "© 2025Understanding the correlation between natural and accelerated carbonation processes in concrete and their distinct impacts on steel corrosion mechanisms remains a critical challenge for durability prediction. In this study, the steel reinforcement concrete specimens is taken as the main research object, using the methodology of natural and accelerated carbonation, combined with microscopic means, electrochemical parameters, corrosion morphology analysis of steel bars and other evaluation methods, to systematically investigated the coupled effects of CO2 concentration (5–20 %), temperature (20–40°C) and relative humidity (40–70 % RH) on the concrete carbonation kinetics, microstructure evolution and steel corrosion behavior of concrete. The results showed that carbonation depth exhibits a high temperature and CO2 concentration dependence, the relationship between carbonation depth and RH exhibits a quadratic function characteristic, peaking at 55 % RH. Under accelerated carbonation conditions, a low CO2 acceleration (5 %) preserves microstructural similarity to natural carbonation, whereas high CO2 concentrations can cause the substantial reduction of C-S-H but still allow for the observation of Ca(OH)2, high concentrations induce CaCO3 crystallization differences. Compared to temperature and CO2 concentration, the influence of RH on the concrete microstructure is less significant. Under both accelerated and natural carbonation conditions, the corrosion behavior of steel bar in paste is similar but exhibits differences. In most cases, there is a high correlation between accelerated carbonation and natural carbonation, accelerated carbonation tests can effectively reflect the primary characteristics of steel corrosion caused by natural carbonation, offering certain advantages in assessing the corrosion resistance of steel bar. The results presented have a great of importance for advancing concrete carbonation research, enhancing the prediction and improving the reliability of practical applications.",
+          "correspondence": {
+            "affiliation": {
+              "country": "China",
+              "postal-code": "266109",
+              "@country": "chn",
+              "city": "Qingdao",
+              "organization": [
+                {
+                  "$": "College of Civil Engineering & Architecture"
+                },
+                {
+                  "$": "Qingdao Agricultural University"
+                }
+              ],
+              "@affiliation-instance-id": "OB2BibRecID-965831043-81602e7f829b3e9b6bfbcc9e51c907e1-1"
+            },
+            "person": {
+              "ce:given-name": "Junzhe",
+              "@author-instance-id": "OB2BibRecID-965831043-7efea238787056c2575a793285103d56-1",
+              "ce:initials": "J.",
+              "ce:surname": "Liu",
+              "ce:indexed-name": "Liu J."
+            }
+          },
+          "citation-info": {
+            "author-keywords": {
+              "author-keyword": [
+                {
+                  "$": "Accelerated carbonation",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "CO2concentration",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Microstructure",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Steel corrosion",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Temperature and humidity",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                }
+              ]
+            },
+            "citation-type": {
+              "@code": "ar"
+            },
+            "citation-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "abstract-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            }
+          },
+          "source": {
+            "website": {
+              "ce:e-address": {
+                "$": "https://www.sciencedirect.com/science/journal/09500618",
+                "@type": "email"
+              }
+            },
+            "translated-sourcetitle": {
+              "$": "Construction and Building Materials",
+              "@xml:lang": "eng"
+            },
+            "volisspag": {
+              "voliss": {
+                "@volume": "490"
+              }
+            },
+            "@type": "j",
+            "sourcetitle": "Construction and Building Materials",
+            "publicationdate": {
+              "month": "09",
+              "year": "2025",
+              "date-text": {
+                "@xfab-added": "true",
+                "$": "5 September 2025"
+              },
+              "day": "05"
+            },
+            "codencode": "CBUME",
+            "sourcetitle-abbrev": "Constr Build Mater",
+            "@country": "gbr",
+            "issn": {
+              "$": "09500618",
+              "@type": "print"
+            },
+            "publicationyear": {
+              "@first": "2025"
+            },
+            "publisher": {
+              "publishername": "Elsevier Ltd"
+            },
+            "article-number": "142433",
+            "@srcid": "24443"
+          },
+          "enhancement": {
+            "classificationgroup": {
+              "classifications": [
+                {
+                  "@type": "CPXCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "201.5.1.2",
+                      "classification-description": "Rolling Mill Practice"
+                    },
+                    {
+                      "classification-code": "201.9.1",
+                      "classification-description": "Metals Corrosion"
+                    },
+                    {
+                      "classification-code": "202.5.3",
+                      "classification-description": "Steel"
+                    },
+                    {
+                      "classification-code": "214",
+                      "classification-description": "Materials Science"
+                    },
+                    {
+                      "classification-code": "214.1",
+                      "classification-description": "Mechanical Properties of Materials"
+                    },
+                    {
+                      "classification-code": "217.2",
+                      "classification-description": "Concrete"
+                    },
+                    {
+                      "classification-code": "443.1",
+                      "classification-description": "Atmospheric Properties"
+                    },
+                    {
+                      "classification-code": "801.3.1",
+                      "classification-description": "Electrochemistry"
+                    },
+                    {
+                      "classification-code": "802.2",
+                      "classification-description": "Chemical Reactions"
+                    },
+                    {
+                      "classification-code": "804",
+                      "classification-description": "Chemical Products"
+                    },
+                    {
+                      "classification-code": "804.2",
+                      "classification-description": "Inorganic Compounds"
+                    },
+                    {
+                      "classification-code": "901.3",
+                      "classification-description": "Engineering Research"
+                    }
+                  ]
+                },
+                {
+                  "@type": "FLXCLASS",
+                  "classification": {
+                    "classification-code": "78.26",
+                    "classification-description": "CORROSION"
+                  }
+                },
+                {
+                  "@type": "ASJC",
+                  "classification": [
+                    {
+                      "$": "2205"
+                    },
+                    {
+                      "$": "2215"
+                    },
+                    {
+                      "$": "2500"
+                    }
+                  ]
+                },
+                {
+                  "@type": "SUBJABBR",
+                  "classification": [
+                    {
+                      "$": "ENGI"
+                    },
+                    {
+                      "$": "MATE"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "grantlist": {
+            "@complete": "y",
+            "grant-text": {
+              "$": "The author thanks National Natural Science Foundation Project of China (52178223), the Shandong Natural Science Foundation General Project (ZR2023ME044).",
+              "@xml:lang": "eng"
+            }
+          }
+        },
+        "item-info": {
+          "copyright": {
+            "$": "Copyright 2025 Elsevier B.V., All rights reserved.",
+            "@type": "Elsevier"
+          },
+          "dbcollection": [
+            {
+              "$": "CPX"
+            },
+            {
+              "$": "REAXYSCAR"
+            },
+            {
+              "$": "SCOPUS"
+            },
+            {
+              "$": "Scopusbase"
+            }
+          ],
+          "history": {
+            "date-created": {
+              "@day": "10",
+              "@timestamp": "BST 10:54:50",
+              "@year": "2025",
+              "@month": "07"
+            }
+          },
+          "itemidlist": {
+            "itemid": [
+              {
+                "$": "2039537821",
+                "@idtype": "PUI"
+              },
+              {
+                "$": "965831043",
+                "@idtype": "CAR-ID"
+              },
+              {
+                "$": "20252818743074",
+                "@idtype": "CPX"
+              },
+              {
+                "$": "20252040596",
+                "@idtype": "REAXYSCAR"
+              },
+              {
+                "$": "20252828184",
+                "@idtype": "SCOPUS"
+              },
+              {
+                "$": "965831043#77332799",
+                "@idtype": "SRC-OCC-ID"
+              },
+              {
+                "$": "105009934574",
+                "@idtype": "SCP"
+              },
+              {
+                "$": "105009934574",
+                "@idtype": "SGR"
+              }
+            ],
+            "ce:pii": "S095006182502584X",
+            "ce:ern": "pii:S095006182502584X",
+            "ce:doi": "10.1016/j.conbuildmat.2025.142433"
+          }
+        },
+        "tail": {
+          "bibliography": {
+            "@refcount": "57",
+            "reference": [
+              {
+                "ref-fulltext": "Murali, K.S.P., Rui, N., Residual service life of reinforced fly ash recycled aggregate concrete structures subject to carbonation. J. Build. Eng., 2024 available online: 111553.",
+                "@reference-instance-id": "OB2BibRecID-965831043-292990ce5cf1e4309efa65b76415061d-1",
+                "@id": "1",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Residual service life of reinforced fly ash recycled aggregate concrete structures subject to carbonation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib1",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105009954181",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "available online: 111553",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.S.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Murali",
+                        "ce:indexed-name": "Murali K.S.P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Rui",
+                        "ce:indexed-name": "Rui N."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Build. Eng."
+                },
+                "ce:source-text": "K.S.P. Murali, N. Rui. Residual service life of reinforced fly ash recycled aggregate concrete structures subject to carbonation. Journal of Building Engineering, 2024, available online: 111553."
+              },
+              {
+                "ref-fulltext": "Philip, H.D.V., Mieke, S.D., Nele, B.D., Accelerated and natural carbonation of concrete with high volumes of fly ash: chemical, mineralogical and microstructural effects. R. Soc. Open Sci., 6(1), 2019, 181665.",
+                "@reference-instance-id": "OB2BibRecID-965831043-efc1f98be7ea38b67fada947420335f5-2",
+                "@id": "2",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Accelerated and natural carbonation of concrete with high volumes of fly ash: chemical, mineralogical and microstructural effects"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib2",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "181665",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85071156606",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "6",
+                      "@issue": "1"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.D.V.",
+                        "@_fa": "true",
+                        "ce:surname": "Philip",
+                        "ce:indexed-name": "Philip H.D.V."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Mieke",
+                        "ce:indexed-name": "Mieke S.D."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "B.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Nele",
+                        "ce:indexed-name": "Nele B.D."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "R. Soc. Open Sci."
+                },
+                "ce:source-text": "H.D.V. Philip, S.D. Mieke, B.D. Nele. Accelerated and natural carbonation of concrete with high volumes of fly ash: chemical, mineralogical and microstructural effects. Royal Society open science, 2019, 6(1):181665."
+              },
+              {
+                "ref-fulltext": "Mohamed, M., Jayadipta, G., Concurrent modelling of carbonation and chloride-induced deterioration and uncertainty treatment in aging bridge fragility assessment. Struct. Infrastruct. Eng. 18:2 (2020), 197–218.",
+                "@reference-instance-id": "OB2BibRecID-965831043-ba4a336c54e11e73ffbcea801841896e-3",
+                "@id": "3",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Concurrent modelling of carbonation and chloride-induced deterioration and uncertainty treatment in aging bridge fragility assessment"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib3",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85097956965",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "18",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "197",
+                      "@last": "218"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Mohamed",
+                        "ce:indexed-name": "Mohamed M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Jayadipta",
+                        "ce:indexed-name": "Jayadipta G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Struct. Infrastruct. Eng."
+                },
+                "ce:source-text": "M. Mohamed, G. Jayadipta. Concurrent modelling of carbonation and chloride-induced deterioration and uncertainty treatment in aging bridge fragility assessment. Structure and Infrastructure Engineering, 2020, 18(2):197-218."
+              },
+              {
+                "ref-fulltext": "Jiang, Z.L., Li, S.Y., Fu, C.Q., at el. Macrocell corrosion of steel in concrete under carbonation, internal chloride admixing and accelerated chloride penetration conditions. Materials, 14(24), 2021, 7691.",
+                "@reference-instance-id": "OB2BibRecID-965831043-e7692f0b905b67f3be2743b7766bffe2-4",
+                "@id": "4",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "at el. Macrocell corrosion of steel in concrete under carbonation, internal chloride admixing and accelerated chloride penetration conditions"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib4",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85121284309",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "14",
+                      "@issue": "24"
+                    },
+                    "pagerange": {
+                      "@first": "7691"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Jiang",
+                        "ce:indexed-name": "Jiang Z.L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li S.Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Fu",
+                        "ce:indexed-name": "Fu C.Q."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Materials"
+                },
+                "ce:source-text": "Z.L. Jiang, S.Y. Li, C.Q. Fu, at el. Macrocell Corrosion of Steel in Concrete under Carbonation, Internal Chloride Admixing and Accelerated Chloride Penetration Conditions. Materials, 2021, 14(24):7691."
+              },
+              {
+                "ref-fulltext": "Liu, D.Y., Wang, C., Jaime, G., et al. A review of concrete properties under the combined effect of fatigue and corrosion from a material perspective. Constr. Build. Mater., 369, 2023, 130489.",
+                "@reference-instance-id": "OB2BibRecID-965831043-6b6d378d999234a0ef4cd95699cc5fda-5",
+                "@id": "5",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A review of concrete properties under the combined effect of fatigue and corrosion from a material perspective"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib5",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "130489",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85147195723",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "369"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu D.Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Jaime",
+                        "ce:indexed-name": "Jaime G."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "D.Y. Liu, C. Wang, G. Jaime, et al. A review of concrete properties under the combined effect of fatigue and corrosion from a material perspective. Construction and Building Materials, 2023, 369: 130489."
+              },
+              {
+                "ref-fulltext": "Eliana, S., Ana, A., Hugo, C., et al. Durability of mortar matrices of low-cement concrete with specific additions. Constr. Build. Mater., 309, 2021, 125060.",
+                "@reference-instance-id": "OB2BibRecID-965831043-2fda8eff1ac9463826b23c2e896e46ba-6",
+                "@id": "6",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Durability of mortar matrices of low-cement concrete with specific additions"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib6",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "125060",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85117069604",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "309"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Eliana",
+                        "ce:indexed-name": "Eliana S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Ana",
+                        "ce:indexed-name": "Ana A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Hugo",
+                        "ce:indexed-name": "Hugo C."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "S. Eliana, A. Ana, C. Hugo, et al. Durability of mortar matrices of low-cement concrete with specific additions. Construction and Building Materials, 2021, 309: 125060."
+              },
+              {
+                "ref-fulltext": "Zhang, R.X., Scott, A.N., Panesar, D.K., Carbonation and CO2reabsorption of cement-based materials: influence of limestone filler and ground-granulated blast-furnace slag. Constr. Build. Mater., 416, 2024, 135166.",
+                "@reference-instance-id": "OB2BibRecID-965831043-09fc65a1a80fede05ed66ea900fcb033-7",
+                "@id": "7",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Carbonation and CO2reabsorption of cement-based materials: influence of limestone filler and ground-granulated blast-furnace slag"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib7",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "135166",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85184065119",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "416"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.X.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang R.X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Scott",
+                        "ce:indexed-name": "Scott A.N."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Panesar",
+                        "ce:indexed-name": "Panesar D.K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "R.X. Zhang, A.N. Scott, D.K. Panesar. Carbonation and CO2 reabsorption of cement-based materials: Influence of limestone filler and ground-granulated blast-furnace slag. Construction and Building Materials, 2024, 416: 135166."
+              },
+              {
+                "ref-fulltext": "Rotana, H., Li, J.Q., Kemal, C., Phase evolution, micromechanical properties, and morphology of calcium (alumino)silicate hydrates C-(A-)S-H under carbonation. Cem. Concr. Res., 152, 2022, 106683.",
+                "@reference-instance-id": "OB2BibRecID-965831043-da7e41cd23ca5cdd78c4c9d7c49dfe7a-8",
+                "@id": "8",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Phase evolution, micromechanical properties, and morphology of calcium (alumino)silicate hydrates C-(A-)S-H under carbonation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib8",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "106683",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85121129363",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "152"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Rotana",
+                        "ce:indexed-name": "Rotana H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li J.Q."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Kemal",
+                        "ce:indexed-name": "Kemal C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "H. Rotana, J.Q. Li, C. Kemal. Phase evolution, micromechanical properties, and morphology of calcium (alumino)silicate hydrates C-(A-)S-H under carbonation. Cement and Concrete Research, 2022, 152: 106683."
+              },
+              {
+                "ref-fulltext": "Cao, Z.Y., Niu, D.T., Lv, Y., et al. Numerical simulation of neutralization of concrete exposed to CO2and SO2. Constr. Build. Mater., 457, 2024, 139467.",
+                "@reference-instance-id": "OB2BibRecID-965831043-1734f07a26fe89de8262848cbded328b-9",
+                "@id": "9",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Numerical simulation of neutralization of concrete exposed to CO2and SO2"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib9",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "139467",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85211043699",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "457"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Cao",
+                        "ce:indexed-name": "Cao Z.Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Niu",
+                        "ce:indexed-name": "Niu D.T."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Lv",
+                        "ce:indexed-name": "Lv Y."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "Z.Y. Cao, D.T. Niu, Y. Lv, et al. Numerical simulation of neutralization of concrete exposed to CO2 and SO2. Construction and Building Materials, 2024, 457: 139467."
+              },
+              {
+                "ref-fulltext": "Liu, P., Yu, Z.W., Chen, Y., Carbonation depth model and carbonated acceleration rate of concrete under different environment. Cem. Concr. Compos., 114, 2020, 103736.",
+                "@reference-instance-id": "OB2BibRecID-965831043-7ea47af61f9c33647ece8df04a326795-10",
+                "@id": "10",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Carbonation depth model and carbonated acceleration rate of concrete under different environment"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib10",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "103736",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85088865945",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "114"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu Z.W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Compos."
+                },
+                "ce:source-text": "P. Liu, Z.W. Yu, Y. Chen. Carbonation depth model and carbonated acceleration rate of concrete under different environment. Cement and Concrete Composites, 2020, 114: 103736."
+              },
+              {
+                "ref-fulltext": "Ekolu, S.O., A review on effects of curing, sheltering, and CO2concentration upon natural carbonation of concrete. Constr. Build. Mater. 127 (2016), 306–320.",
+                "@reference-instance-id": "OB2BibRecID-965831043-503c583b532ec1f296b2c835e0d55f86-11",
+                "@id": "11",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A review on effects of curing, sheltering, and CO2concentration upon natural carbonation of concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib11",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85032070664",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "127"
+                    },
+                    "pagerange": {
+                      "@first": "306",
+                      "@last": "320"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.O.",
+                        "@_fa": "true",
+                        "ce:surname": "Ekolu",
+                        "ce:indexed-name": "Ekolu S.O."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "S.O. Ekolu. A review on effects of curing, sheltering, and CO2 concentration upon natural carbonation of concrete. Construction and Building Materials, 2016, 127: 306-320."
+              },
+              {
+                "ref-fulltext": "Cui, H.Z., Tang, W.C., Liu, W., et al. Experimental study on effects of CO2concentrations on concrete carbonation and diffusion mechanisms. Constr. Build. Mater. 93 (2015), 522–527.",
+                "@reference-instance-id": "OB2BibRecID-965831043-a493b7a814fe1b36b7596a3666d1acef-12",
+                "@id": "12",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental study on effects of CO2concentrations on concrete carbonation and diffusion mechanisms"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib12",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84935011771",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "93"
+                    },
+                    "pagerange": {
+                      "@first": "522",
+                      "@last": "527"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Cui",
+                        "ce:indexed-name": "Cui H.Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Tang",
+                        "ce:indexed-name": "Tang W.C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu W."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "H.Z. Cui, W.C. Tang, W. Liu, et al. Experimental study on effects of CO2 concentrations on concrete carbonation and diffusion mechanisms. Construction and Building Materials, 2015, 93: 522-527."
+              },
+              {
+                "ref-fulltext": "Liu, W., Li, Y.Q., Tang, L.P., et al. XRD and 29Si MAS NMR study on carbonated cement paste under accelerated carbonation using different concentration of CO2. Mater. Today Commun. 19 (2019), 464–470.",
+                "@reference-instance-id": "OB2BibRecID-965831043-d926f4f42900d926f87e37b9683324e2-13",
+                "@id": "13",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "XRD and 29Si MAS NMR study on carbonated cement paste under accelerated carbonation using different concentration of CO2"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib13",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85065881818",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "19"
+                    },
+                    "pagerange": {
+                      "@first": "464",
+                      "@last": "470"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li Y.Q."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "L.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Tang",
+                        "ce:indexed-name": "Tang L.P."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Mater. Today Commun."
+                },
+                "ce:source-text": "W. Liu, Y.Q. Li, L.P. Tang, et al. XRD and 29Si MAS NMR study on carbonated cement paste under accelerated carbonation using different concentration of CO2. Materials Today Communications, 2019, 19: 464-470."
+              },
+              {
+                "ref-fulltext": "Zhang, Y., Çopuroglu, O., The role of hydrotalcite-like phase and monosulfate in slag cement paste during atmospheric and accelerated carbonation. Cem. Concr. Compos., 132, 2022, 104642.",
+                "@reference-instance-id": "OB2BibRecID-965831043-875bb8d7819dac0824660e8c427af6f5-14",
+                "@id": "14",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The role of hydrotalcite-like phase and monosulfate in slag cement paste during atmospheric and accelerated carbonation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib14",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "104642",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85133605349",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "132"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "O.",
+                        "@_fa": "true",
+                        "ce:surname": "Çopuroglu",
+                        "ce:indexed-name": "Copuroglu O."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Compos."
+                },
+                "ce:source-text": "Y. Zhang, O. Çopuroglu. The role of hydrotalcite-like phase and monosulfate in slag cement paste during atmospheric and accelerated carbonation. Cement and Concrete Composites, 2022, 132: 104642."
+              },
+              {
+                "ref-fulltext": "Castellote, M., Fernandez, L., Andrade, C., et al. Chemical changes and phase analysis of OPC pastes carbonated at different CO2concentrations. Mater. Struct. 42:4 (2009), 515–525.",
+                "@reference-instance-id": "OB2BibRecID-965831043-f8bee69f7a4c4b3a491234771ce333ba-15",
+                "@id": "15",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Chemical changes and phase analysis of OPC pastes carbonated at different CO2concentrations"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib15",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "65049089864",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "42",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "515",
+                      "@last": "525"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Castellote",
+                        "ce:indexed-name": "Castellote M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Fernandez",
+                        "ce:indexed-name": "Fernandez L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Andrade",
+                        "ce:indexed-name": "Andrade C."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Mater. Struct."
+                },
+                "ce:source-text": "M. Castellote, L. Fernandez, C. Andrade, et al. Chemical changes and phase analysis of OPC pastes carbonated at different CO2 concentrations. Materials and Structures, 2009, 42(4): 515-525."
+              },
+              {
+                "ref-fulltext": "Hu, K., Liu, M., Chen, Y.J., et al. Effect and mechanism of accelerated carbonation on the adhesion property of asphalt mixture containing recycled concrete aggregate. Constr. Build. Mater., 445(27), 2024, 137932.",
+                "@reference-instance-id": "OB2BibRecID-965831043-b40165cc10527c8b51cbe7647813ae18-16",
+                "@id": "16",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect and mechanism of accelerated carbonation on the adhesion property of asphalt mixture containing recycled concrete aggregate"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib16",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "137932",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85201512010",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "445",
+                      "@issue": "27"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Hu",
+                        "ce:indexed-name": "Hu K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen Y.J."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "K. Hu, M. Liu, Y.J. Chen, et al. Effect and mechanism of accelerated carbonation on the adhesion property of asphalt mixture containing recycled concrete aggregate. Construction and Building Materials, 2024, 445(27): 137932."
+              },
+              {
+                "ref-fulltext": "Li, T., Yang, W.Y., Zhan, M., et al. Study on the microscopic transmission characteristics and coupled erosion depth of tailings recycled concrete under the coupling effect of carbonation and salt-fog. J. Build. Eng., 95(15), 2024, 110051.",
+                "@reference-instance-id": "OB2BibRecID-965831043-a4bbcaa70955014ecc7b9e3b20f2fb1e-17",
+                "@id": "17",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Study on the microscopic transmission characteristics and coupled erosion depth of tailings recycled concrete under the coupling effect of carbonation and salt-fog"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib17",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "110051",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85197027092",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "95",
+                      "@issue": "15"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang W.Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhan",
+                        "ce:indexed-name": "Zhan M."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "J. Build. Eng."
+                },
+                "ce:source-text": "T. Li, W.Y. Yang, M. Zhan, et al. Study on the microscopic transmission characteristics and coupled erosion depth of tailings recycled concrete under the coupling effect of carbonation and salt-fog. Journal of Building Engineering, 2024, 95(15): 110051."
+              },
+              {
+                "ref-fulltext": "Yang, L., Zhu, Z.D., Sun, H., et al. Durability of waste concrete powder-based geopolymer reclaimed concrete under carbonation and freeze-thaw cycles. Constr. Build. Mater., 403(3), 2023, 133155.",
+                "@reference-instance-id": "OB2BibRecID-965831043-b99e402ba998c5ad5f2ec0fcea4f3ce5-18",
+                "@id": "18",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Durability of waste concrete powder-based geopolymer reclaimed concrete under carbonation and freeze-thaw cycles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib18",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "133155",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85169785608",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "403",
+                      "@issue": "3"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhu",
+                        "ce:indexed-name": "Zhu Z.D."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Sun",
+                        "ce:indexed-name": "Sun H."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "L. Yang, Z.D. Zhu, H. Sun, et al. Durability of waste concrete powder-based geopolymer reclaimed concrete under carbonation and freeze-thaw cycles. Construction and Building Materials, 2023, 403(3): 133155."
+              },
+              {
+                "ref-fulltext": "Du, T., Cai, Y.J., Guo, Y.P., et al. Time-dependent model for in-situ concrete carbonation depth under combined effects of temperature and relative humidity. Case Stud. Constr. Mater., 22, 2025, e04379.",
+                "@reference-instance-id": "OB2BibRecID-965831043-5f8ba1b36854f056d92bbdc15bf402ad-19",
+                "@id": "19",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2025"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Time-dependent model for in-situ concrete carbonation depth under combined effects of temperature and relative humidity"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib19",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "e04379",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85217078107",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "22"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Du",
+                        "ce:indexed-name": "Du T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Cai",
+                        "ce:indexed-name": "Cai Y.J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Guo",
+                        "ce:indexed-name": "Guo Y.P."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Case Stud. Constr. Mater."
+                },
+                "ce:source-text": "T. Du, Y.J. Cai, Y.P. Guo, et al. Time-dependent model for in-situ concrete carbonation depth under combined effects of temperature and relative humidity. Case Studies in Construction Materials, 2025, (22): e04379."
+              },
+              {
+                "ref-fulltext": "Liu, M.W., Ju, X.L., Wu, L.J., et al. Carbonation depth model for loaded reinforced concrete (RC) beams under time-dependent relative humidity conditions. J. Build. Eng., 65, 2023, 105618.",
+                "@reference-instance-id": "OB2BibRecID-965831043-b865beddb6079dffcbaa83ca5a70a238-20",
+                "@id": "20",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Carbonation depth model for loaded reinforced concrete (RC) beams under time-dependent relative humidity conditions"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib20",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105618",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85144456200",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "65"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu M.W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Ju",
+                        "ce:indexed-name": "Ju X.L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "L.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu L.J."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "J. Build. Eng."
+                },
+                "ce:source-text": "M.W. Liu, X.L. Ju, L.J. Wu, et al. Carbonation depth model for loaded reinforced concrete (RC) beams under time-dependent relative humidity conditions, Journal of Building Engineering, 2023, 65: 105618."
+              },
+              {
+                "ref-fulltext": "Mi, T.W., Li, Y.Q., Liu, W., et al. The effect of carbonation on chloride redistribution and corrosion of steel reinforcement. Constr. Build. Mater., 363, 2023, 129641.",
+                "@reference-instance-id": "OB2BibRecID-965831043-e87143332b2dc22bc633fc7496048c6a-21",
+                "@id": "21",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The effect of carbonation on chloride redistribution and corrosion of steel reinforcement"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib21",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "129641",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85143520160",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "363"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Mi",
+                        "ce:indexed-name": "Mi T.W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li Y.Q."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu W."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "T.W. Mi, Y.Q. Li, W. Liu, et al. The effect of carbonation on chloride redistribution and corrosion of steel reinforcement. Construction and Building Materials, 2023, 363: 129641."
+              },
+              {
+                "ref-fulltext": "Zou, G.N., Wang, Q.Y., Wang, G.W., et al. Revealing excellent passivation performance of a novel Cr-alloyed steel rebar in carbonized concrete environment. J. Mater. Res. Technol. 23 (2023), 1848–1861.",
+                "@reference-instance-id": "OB2BibRecID-965831043-9e0892166f81b9dceada4a9b7069f1ff-22",
+                "@id": "22",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Revealing excellent passivation performance of a novel Cr-alloyed steel rebar in carbonized concrete environment"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib22",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85149697835",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "23"
+                    },
+                    "pagerange": {
+                      "@first": "1848",
+                      "@last": "1861"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Zou",
+                        "ce:indexed-name": "Zou G.N."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Q.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang Q.Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "G.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang G.W."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "J. Mater. Res. Technol."
+                },
+                "ce:source-text": "G.N. Zou, Q.Y. Wang, G.W. Wang, et al. Revealing excellent passivation performance of a novel Cr-alloyed steel rebar in carbonized concrete environment. Journal of Materials Research and Technology, 2023, 23: 1848-1861."
+              },
+              {
+                "ref-fulltext": "Liu, J., Fan, X., Liu, J.Y., et al. Investigation on mechanical and micro properties of concrete incorporating seawater and sea sand in carbonized environment. Constr. Build. Mater., 307(8), 2021, 124986.",
+                "@reference-instance-id": "OB2BibRecID-965831043-6d2bff1c46ad4a5feb1cd0805962281f-23",
+                "@id": "23",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Investigation on mechanical and micro properties of concrete incorporating seawater and sea sand in carbonized environment"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib23",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "124986",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85115628248",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "307",
+                      "@issue": "8"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Fan",
+                        "ce:indexed-name": "Fan X."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu J.Y."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "J. Liu, X. Fan, J.Y. Liu, et al. Investigation on mechanical and micro properties of concrete incorporating seawater and sea sand in carbonized environment. Construction and Building Materials, 2021, 307(8): 124986."
+              },
+              {
+                "ref-fulltext": "Guo, Q., Li, X.Z., Song, Y.L., et al. Effect of rust inhibitor on the composition of steel passive film in carbonized concrete. Case Stud. Constr. Mater., 16, 2022, e00892.",
+                "@reference-instance-id": "OB2BibRecID-965831043-c6ca2a42cc8e35dce03699dbd7556252-24",
+                "@id": "24",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of rust inhibitor on the composition of steel passive film in carbonized concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib24",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "e00892",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85122788752",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "16"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Guo",
+                        "ce:indexed-name": "Guo Q."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li X.Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Song",
+                        "ce:indexed-name": "Song Y.L."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Case Stud. Constr. Mater."
+                },
+                "ce:source-text": "Q. Guo, X.Z. Li, Y.L. Song, et al. Effect of rust inhibitor on the composition of steel passive film in carbonized concrete. Case Studies in Construction Materials, 2022, 16: e00892."
+              },
+              {
+                "ref-fulltext": "Ansari, N., Alabtah, F.G., Khraisheh, M., et al. Influence of temperature on corrosion behavior of additively manufactured SS316L stainless steel in CO2-saturated brine solution. Mater. Lett., 376, 2024, 137272.",
+                "@reference-instance-id": "OB2BibRecID-965831043-7fb20947e54c52f73cd6c3b52ef1d016-25",
+                "@id": "25",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Influence of temperature on corrosion behavior of additively manufactured SS316L stainless steel in CO2-saturated brine solution"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib25",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "137272",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85202346519",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "376"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Ansari",
+                        "ce:indexed-name": "Ansari N."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Alabtah",
+                        "ce:indexed-name": "Alabtah F.G."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Khraisheh",
+                        "ce:indexed-name": "Khraisheh M."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Mater. Lett."
+                },
+                "ce:source-text": "N. Ansari, F.G. Alabtah, M. Khraisheh, et al. Influence of temperature on corrosion behavior of additively manufactured SS316L stainless steel in CO2-saturated brine solution. Materials Letters, 2024, 376: 137272."
+              },
+              {
+                "ref-fulltext": "Meng, S., Yue, P.H., Zhang, S.C., et al. Synergistic effects of CO2and H2S on stress corrosion cracking of stainless steel 254SMo in extremely aggressive oilfield environment. Corrosion Communications, 2024, Available online, 10.1016/j.corcom.2024.03.003.",
+                "@reference-instance-id": "OB2BibRecID-965831043-9d6115f988685b937ee09ebac5397aa5-26",
+                "@id": "26",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Synergistic effects of CO2and H2S on stress corrosion cracking of stainless steel 254SMo in extremely aggressive oilfield environment"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.corcom.2024.03.003",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib26",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85210538855",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Available online",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Meng",
+                        "ce:indexed-name": "Meng S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "P.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Yue",
+                        "ce:indexed-name": "Yue P.H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang S.C."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Corrosion Communications"
+                },
+                "ce:source-text": "S. Meng, P.H. Yue, S.C. Zhang, et al. Synergistic effects of CO2 and H2S on stress corrosion cracking of stainless steel 254SMo in extremely aggressive oilfield environment. Corrosion Communications, Available online,2024, in press, doi.org/10.1016/j.corcom.2024.03.003."
+              },
+              {
+                "ref-fulltext": "Chen, Z.H., Xu, M., Hu, T., et al. Effects of H2S content on the corrosion behavior of gas storage reservoir injection and production pipeline steel in CO2-H2S environment. t. Mater. Today Commun., 41, 2024, 110364.",
+                "@reference-instance-id": "OB2BibRecID-965831043-8df2dc1edffb3e983a8ee268c21d139a-27",
+                "@id": "27",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effects of H2S content on the corrosion behavior of gas storage reservoir injection and production pipeline steel in CO2-H2S environment"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib27",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "110364",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85204628849",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "41"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen Z.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Hu",
+                        "ce:indexed-name": "Hu T."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "t. Mater. Today Commun."
+                },
+                "ce:source-text": "Z.H. Chen, M. Xu, T. Hu, et al. Effects of H2S content on the corrosion behavior of gas storage reservoir injection and production pipeline steel in CO2-H2S environmentt. Materials Today Communications, 2024, 41: 110364."
+              },
+              {
+                "ref-fulltext": "Nur Hanani, Z.A., Sonawane, A.D., Mahajan, P.V., et al. Impact of humidity, temperature and condensation on O2and CO2transmission rate of modified atmosphere packages. Food Packag. Shelf Life, 39, 2023, 101132.",
+                "@reference-instance-id": "OB2BibRecID-965831043-67d9aea36ae7c00d4625b203a5c2e9b7-28",
+                "@id": "28",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Impact of humidity, temperature and condensation on O2and CO2transmission rate of modified atmosphere packages"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib28",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "101132",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85166586204",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "39"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Nur Hanani",
+                        "ce:indexed-name": "Nur Hanani Z.A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Sonawane",
+                        "ce:indexed-name": "Sonawane A.D."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "P.V.",
+                        "@_fa": "true",
+                        "ce:surname": "Mahajan",
+                        "ce:indexed-name": "Mahajan P.V."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Food Packag. Shelf Life"
+                },
+                "ce:source-text": "Z.A. Nur Hanani, A.D. Sonawane, P.V. Mahajan, et al. Impact of humidity, temperature and condensation on O2 and CO2 transmission rate of modified atmosphere packages. Food Packaging and Shelf Life, 2023, 39:101132."
+              },
+              {
+                "ref-fulltext": "James, S.L., Robinson, A.J., Arnold, J.C., et al. The effects of humidity on photodegradation of poly(vinyl chloride) and polyethylene as measured by the CO2evolution rate. Polym. Degrad. Stab. 98:2 (2013), 508–513.",
+                "@reference-instance-id": "OB2BibRecID-965831043-c7d1183e1ede6cb07eff3ca7046aa87a-29",
+                "@id": "29",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The effects of humidity on photodegradation of poly(vinyl chloride) and polyethylene as measured by the CO2evolution rate"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib29",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84872106676",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "98",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "508",
+                      "@last": "513"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.L.",
+                        "@_fa": "true",
+                        "ce:surname": "James",
+                        "ce:indexed-name": "James S.L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Robinson",
+                        "ce:indexed-name": "Robinson A.J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Arnold",
+                        "ce:indexed-name": "Arnold J.C."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Polym. Degrad. Stab."
+                },
+                "ce:source-text": "S.L. James, A.J. Robinson, J.C. Arnold, et al. The effects of humidity on photodegradation of poly(vinyl chloride) and polyethylene as measured by the CO2 evolution rate. Polymer Degradation and Stability, 2013, 98(2): 508-513."
+              },
+              {
+                "ref-fulltext": "Zhang, C., Sun, S.Z., Xu, S.J., et al. CO2 capture over steam and KOH activated biochar: Effect of relative humidity. Biomass. Bioenergy, 166, 2022, 106608.",
+                "@reference-instance-id": "OB2BibRecID-965831043-69ccf5d23dbf08e5908930891adcc65b-30",
+                "@id": "30",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "CO2 capture over steam and KOH activated biochar: Effect of relative humidity"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib30",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "106608",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85141336112",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "166"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Sun",
+                        "ce:indexed-name": "Sun S.Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu S.J."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Biomass. Bioenergy"
+                },
+                "ce:source-text": "C. Zhang, S.Z. Sun, S.J. Xu, et al. CO2 capture over steam and KOH activated biochar: Effect of relative humidity. Biomass and Bioenergy, 2022, 166: 106608."
+              },
+              {
+                "ref-fulltext": "Sun, J.Y., Lu, L.G., Coupled effect of axially distributed load and carbonation on permeability of concrete. Constr. Build. Mater. 79:15 (2015), 9–13.",
+                "@reference-instance-id": "OB2BibRecID-965831043-24c8286b5d78796746b60713ce068b05-31",
+                "@id": "31",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Coupled effect of axially distributed load and carbonation on permeability of concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib31",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84921340913",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "79",
+                      "@issue": "15"
+                    },
+                    "pagerange": {
+                      "@first": "9",
+                      "@last": "13"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Sun",
+                        "ce:indexed-name": "Sun J.Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Lu",
+                        "ce:indexed-name": "Lu L.G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "J.Y. Sun, L.G. Lu. Coupled effect of axially distributed load and carbonation on permeability of concrete. Construction and Building Materials, 2015, 79(15): 9-13."
+              },
+              {
+                "ref-fulltext": "Li, X., Wang, X.Y., Li, M., et al. Study on activation and performance of recycled hardened concrete powder based on microbial accelerated carbonation. Biochem. Eng. J., 214, 2025, 109586.",
+                "@reference-instance-id": "OB2BibRecID-965831043-fc75b604b31f1c846c40473f6e5dafc7-32",
+                "@id": "32",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2025"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Study on activation and performance of recycled hardened concrete powder based on microbial accelerated carbonation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib32",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "109586",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85209672572",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "214"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang X.Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li M."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Biochem. Eng. J."
+                },
+                "ce:source-text": "X. Li, X.Y. Wang, M. Li, et al. Study on activation and performance of recycled hardened concrete powder based on microbial accelerated carbonation. Biochemical Engineering Journal, 2025, 214:109586."
+              },
+              {
+                "ref-fulltext": "Zhou, Y.Q., Mahmood, S., Engelberg, D.L., Application of bipolar electrochemistry to assess the corrosion resistance of solution annealed lean duplex stainless steel. Mater. Des., 232, 2023, 112145.",
+                "@reference-instance-id": "OB2BibRecID-965831043-8519e7e46cb578a1afa0b3ea6483f489-33",
+                "@id": "33",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Application of bipolar electrochemistry to assess the corrosion resistance of solution annealed lean duplex stainless steel"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib33",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "112145",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85165096054",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "232"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou Y.Q."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Mahmood",
+                        "ce:indexed-name": "Mahmood S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Engelberg",
+                        "ce:indexed-name": "Engelberg D.L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Mater. Des."
+                },
+                "ce:source-text": "Y.Q. Zhou, S. Mahmood, D.L. Engelberg. Application of bipolar electrochemistry to assess the corrosion resistance of solution annealed lean duplex stainless steel. Materials & Design, 2023, 232: 112145."
+              },
+              {
+                "ref-fulltext": "Serdar, M., Poyet, S., L'Hostis, V., et al. Carbonation of low-alkalinity mortars: influence on corrosion of steel and on mortar microstructure. Cem. Concr. Res. 101 (2017), 33–45.",
+                "@reference-instance-id": "OB2BibRecID-965831043-25eb4c47cb134c0fc595ce320603baa5-34",
+                "@id": "34",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Carbonation of low-alkalinity mortars: influence on corrosion of steel and on mortar microstructure"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib34",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85027686469",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "101"
+                    },
+                    "pagerange": {
+                      "@first": "33",
+                      "@last": "45"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Serdar",
+                        "ce:indexed-name": "Serdar M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Poyet",
+                        "ce:indexed-name": "Poyet S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "V.",
+                        "@_fa": "true",
+                        "ce:surname": "L'Hostis",
+                        "ce:indexed-name": "L'Hostis V."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "M. Serdar, S. Poyet, V. L'Hostis, et al. Carbonation of low-alkalinity mortars: Influence on corrosion of steel and on mortar microstructure. Cement and Concrete Research, 2017, 101: 33-45."
+              },
+              {
+                "ref-fulltext": "Liu, G.J., Li, C., Zhang, Y.S., Study on the correlation between corrosion potential and polarization resistance of steel reinforcement. Electrochim. Acta, 522, 2025, 145957.",
+                "@reference-instance-id": "OB2BibRecID-965831043-d90931f0d4245b61a1b57c6338c28773-35",
+                "@id": "35",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2025"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Study on the correlation between corrosion potential and polarization resistance of steel reinforcement"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib35",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "145957",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85219499960",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "522"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu G.J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Y.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Electrochim. Acta"
+                },
+                "ce:source-text": "G.J. Liu, C. Li, Y.S. Zhang. Study on the correlation between corrosion potential and polarization resistance of steel reinforcement. Electrochimica Acta, 2025, 522: 145957."
+              },
+              {
+                "ref-fulltext": "Xu, Z.H., Zhang, Z.X., Huang, J.S., et al. Effects of temperature, humidity and CO2concentration on carbonation of cement-based materials: a review. Constr. Build. Mater., 346, 2022, 128399.",
+                "@reference-instance-id": "OB2BibRecID-965831043-5e3cf607bef65c8c4b29bc73a700bfda-36",
+                "@id": "36",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effects of temperature, humidity and CO2concentration on carbonation of cement-based materials: a review"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib36",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "128399",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85134739130",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "346"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu Z.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.X.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Z.X."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang J.S."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "Z.H. Xu, Z.X. Zhang, J.S. Huang, et al. Effects of temperature, humidity and CO2 concentration on carbonation of cement-based materials: A review. Construction and Building Materials, 2022, 346: 128399."
+              },
+              {
+                "ref-fulltext": "Xue, Q., Zhang, L.W., Mei, K.Y., et al. Evolution of structural and mechanical properties of concrete exposed to high concentration CO2. Constr. Build. Mater., 343, 2022, 128077.",
+                "@reference-instance-id": "OB2BibRecID-965831043-1f48c38245876506740fb16bf673e9ff-37",
+                "@id": "37",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Evolution of structural and mechanical properties of concrete exposed to high concentration CO2"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib37",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "128077",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85133176526",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "343"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Xue",
+                        "ce:indexed-name": "Xue Q."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang L.W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "K.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Mei",
+                        "ce:indexed-name": "Mei K.Y."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "Q. Xue, L.W. Zhang, K.Y. Mei, et al. Evolution of structural and mechanical properties of concrete exposed to high concentration CO2. Construction and Building Materials, 2022, 343: 128077."
+              },
+              {
+                "ref-fulltext": "Liu, G.J., Li, J.L., Zhang, Y.S., Corrosion of carbon steels subjected to chloride and sulfate in simulated concrete pore solutions with different pH. Constr. Build. Mater., 440, 2024, 137445.",
+                "@reference-instance-id": "OB2BibRecID-965831043-eaa23261e605bc0250a1e42f038fe30f-38",
+                "@id": "38",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Corrosion of carbon steels subjected to chloride and sulfate in simulated concrete pore solutions with different pH"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib38",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "137445",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85198272253",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "440"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu G.J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li J.L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Y.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "G.J. Liu, J.L. Li, Y.S. Zhang. Corrosion of carbon steels subjected to chloride and sulfate in simulated concrete pore solutions with different pH. Construction and Building Materials, 2024, 440: 137445."
+              },
+              {
+                "ref-fulltext": "Brahim, M.N., Mechling, J.M., Sarah, J.B., et al. Early stage ettringite and monosulfoaluminate carbonation investigated by in situ Raman spectroscopy coupled with principal component analysis. Mater. Today Commun., 35, 2023, 105539.",
+                "@reference-instance-id": "OB2BibRecID-965831043-af70df0e70aab2db20b8556e67b6a777-39",
+                "@id": "39",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Early stage ettringite and monosulfoaluminate carbonation investigated by in situ Raman spectroscopy coupled with principal component analysis"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib39",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105539",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85150461695",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "35"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Brahim",
+                        "ce:indexed-name": "Brahim M.N."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Mechling",
+                        "ce:indexed-name": "Mechling J.M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Sarah",
+                        "ce:indexed-name": "Sarah J.B."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Mater. Today Commun."
+                },
+                "ce:source-text": "M.N. Brahim, J.M. Mechling, J.B. Sarah, et al. Early stage ettringite and monosulfoaluminate carbonation investigated by in situ Raman spectroscopy coupled with principal component analysis. Materials Today Communications, 2023, 35: 105539."
+              },
+              {
+                "ref-fulltext": "Wu, S.K., Liu, Q., Li, L.K., et al. Quantitative characterization of recycled cementitious materials before and after carbonation curing: carbonation kinetics, phase assemblage, and microstructure. Constr. Build. Mater., 421, 2024, 135596.",
+                "@reference-instance-id": "OB2BibRecID-965831043-52362af1da71e6eeb65aafa9490c8ced-40",
+                "@id": "40",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Quantitative characterization of recycled cementitious materials before and after carbonation curing: carbonation kinetics, phase assemblage, and microstructure"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib40",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "135596",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85186762649",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "421"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu S.K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu Q."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "L.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li L.K."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "S.K. Wu, Q. Liu, L.K. Li, et al. Quantitative characterization of recycled cementitious materials before and after carbonation curing: Carbonation kinetics, phase assemblage, and microstructure. Construction and Building Materials, 2024, 421: 135596."
+              },
+              {
+                "ref-fulltext": "Zhang, L.W., Xue, Q., Mei, K.Y., et al. Bonding strength evolution of the steel-concrete interface exposed to high concentration CO2up to 1000 kPa partial pressure. Constr. Build. Mater., 417, 2024, 135127.",
+                "@reference-instance-id": "OB2BibRecID-965831043-21076b42fb1e1b7d80c43d559d95340d-41",
+                "@id": "41",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Bonding strength evolution of the steel-concrete interface exposed to high concentration CO2up to 1000 kPa partial pressure"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib41",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "135127",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85184507980",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "417"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang L.W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Xue",
+                        "ce:indexed-name": "Xue Q."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "K.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Mei",
+                        "ce:indexed-name": "Mei K.Y."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "L.W. Zhang, Q. Xue, K.Y. Mei, et al. Bonding strength evolution of the steel-concrete interface exposed to high concentration CO2 up to 1000 kPa partial pressure. Construction and Building Materials, 2024, 417: 135127."
+              },
+              {
+                "ref-fulltext": "Guo, B.B., Qiao, G.F., Han, P., et al. Effect of natural carbonation on chloride binding behaviours in OPC paste investigated by a thermodynamic model. J. Build. Eng., 49, 2022, 104021.",
+                "@reference-instance-id": "OB2BibRecID-965831043-53abac37d0d57fb413b73689350baf85-42",
+                "@id": "42",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of natural carbonation on chloride binding behaviours in OPC paste investigated by a thermodynamic model"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib42",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "104021",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85122620793",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "49"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Guo",
+                        "ce:indexed-name": "Guo B.B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Qiao",
+                        "ce:indexed-name": "Qiao G.F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Han",
+                        "ce:indexed-name": "Han P."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "J. Build. Eng."
+                },
+                "ce:source-text": "B.B. Guo, G.F. Qiao, P. Han, et al. Effect of natural carbonation on chloride binding behaviours in OPC paste investigated by a thermodynamic model. Journal of Building Engineering, 2022, 49: 104021."
+              },
+              {
+                "ref-fulltext": "Zhao, S.X., Liu, Z.C., Wang, F.Z., et al. Elucidating factors on the strength of carbonated compacts: insights from the carbonation of γ-C2S, β-C2S and C3S. Cem. Concr. Compos., 155, 2025, 105806.",
+                "@reference-instance-id": "OB2BibRecID-965831043-6c8869f521dc8d8cbfeb8ede08f88c35-43",
+                "@id": "43",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2025"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Elucidating factors on the strength of carbonated compacts: insights from the carbonation of γ-C2S, β-C2S and C3S"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib43",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105806",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85207349261",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "155"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.X.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao S.X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu Z.C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "F.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang F.Z."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Compos."
+                },
+                "ce:source-text": "S.X. Zhao, Z.C. Liu, F.Z. Wang, et al. Elucidating factors on the strength of carbonated compacts: Insights from the carbonation of γ-C2S, β-C2S and C3S. Cement and Concrete Composites, 2025, 155: 105806."
+              },
+              {
+                "ref-fulltext": "Wang, D., Chang, J., Comparison on accelerated carbonation of β-C2S, Ca(OH)2, and C4AF: reaction degree, multi-properties, and products. Constr. Build. Mater. 224 (2019), 336–347.",
+                "@reference-instance-id": "OB2BibRecID-965831043-b698df69740e4efd85a7d6d36d24f058-44",
+                "@id": "44",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Comparison on accelerated carbonation of β-C2S, Ca(OH)2, and C4AF: reaction degree, multi-properties, and products"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib44",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85068970646",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "224"
+                    },
+                    "pagerange": {
+                      "@first": "336",
+                      "@last": "347"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang D."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Chang",
+                        "ce:indexed-name": "Chang J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "D. Wang, J. Chang. Comparison on accelerated carbonation of β-C2S, Ca(OH)2, and C4AF: Reaction degree, multi-properties, and products. Construction and Building Materials, 2019, 224: 336-347."
+              },
+              {
+                "ref-fulltext": "Silva, B.A., Ferreira Pinto, A.P., Gomes, A., et al. Effects of natural and accelerated carbonation on the properties of lime-based materials. J. CO2Util., 49, 2021, 101552.",
+                "@reference-instance-id": "OB2BibRecID-965831043-1b6cb0cc4a9003075780874c6b30ed90-45",
+                "@id": "45",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effects of natural and accelerated carbonation on the properties of lime-based materials"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib45",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "101552",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85105749400",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "49"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Silva",
+                        "ce:indexed-name": "Silva B.A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Ferreira Pinto",
+                        "ce:indexed-name": "Ferreira Pinto A.P."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Gomes",
+                        "ce:indexed-name": "Gomes A."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "J. CO2Util."
+                },
+                "ce:source-text": "B.A. Silva, A.P. Ferreira Pinto, A. Gomes, et al. Effects of natural and accelerated carbonation on the properties of lime-based materials. Journal of CO2 Utilization, 2021, 49: 101552."
+              },
+              {
+                "ref-fulltext": "Li, X.D., Song, Q.F., Ling, T.C., et al. Roles of CO2-BOFS induced CaCO3in the aluminum-rich GGBS cementitious material system. Cem. Concr. Compos., 150, 2024, 105566.",
+                "@reference-instance-id": "OB2BibRecID-965831043-4e89f71275c9a23eea48465865dc9255-46",
+                "@id": "46",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Roles of CO2-BOFS induced CaCO3in the aluminum-rich GGBS cementitious material system"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib46",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105566",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85191521033",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "150"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li X.D."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Q.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Song",
+                        "ce:indexed-name": "Song Q.F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "T.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Ling",
+                        "ce:indexed-name": "Ling T.C."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Compos."
+                },
+                "ce:source-text": "X.D. Li, Q.F. Song, T.C. Ling, et al. Roles of CO2-BOFS induced CaCO3 in the aluminum-rich GGBS cementitious material system. Cement and Concrete Composites, 2024, 150: 105566."
+              },
+              {
+                "ref-fulltext": "Chen, X., Li, S.C., Hu, M.J., et al. Early age accelerated carbonation of cementitious materials surface in low CO2 concentration condition. Constr. Build. Mater., 445, 2024, 137975.",
+                "@reference-instance-id": "OB2BibRecID-965831043-618beb60718d01b26c03d457c289ae7f-47",
+                "@id": "47",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Early age accelerated carbonation of cementitious materials surface in low CO2 concentration condition"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib47",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "137975",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85201597865",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "445"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li S.C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Hu",
+                        "ce:indexed-name": "Hu M.J."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "X. Chen, S.C. Li, M.J. Hu, et al. Early age accelerated carbonation of cementitious materials surface in low CO2 concentration condition. Construction and Building Materials, 2024, 445: 137975."
+              },
+              {
+                "ref-fulltext": "Baldanza, A., Brondi, C., Loianno, V., et al. Modelling relative humidity and temperature effects on CO2gas transport in polyetherimide. Polymer, 291, 2024, 126595.",
+                "@reference-instance-id": "OB2BibRecID-965831043-da74dd51c55401f0dc610638a1901a68-48",
+                "@id": "48",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Modelling relative humidity and temperature effects on CO2gas transport in polyetherimide"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib48",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "126595",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85180547570",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "291"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Baldanza",
+                        "ce:indexed-name": "Baldanza A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Brondi",
+                        "ce:indexed-name": "Brondi C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "V.",
+                        "@_fa": "true",
+                        "ce:surname": "Loianno",
+                        "ce:indexed-name": "Loianno V."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Polymer"
+                },
+                "ce:source-text": "A. Baldanza, C. Brondi, V. Loianno, et al. Modelling relative humidity and temperature effects on CO2 gas transport in polyetherimide. Polymer, 2024, 291: 126595."
+              },
+              {
+                "ref-fulltext": "Steiner, S., Lothenbach, B., Proske, T., et al. Effect of relative humidity on the carbonation rate of portlandite, calcium silicate hydrates and ettringite. Cem. Concr. Res., 135, 2020, 106116.",
+                "@reference-instance-id": "OB2BibRecID-965831043-3aa005c57844e976b84669b2abc63f7d-49",
+                "@id": "49",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of relative humidity on the carbonation rate of portlandite, calcium silicate hydrates and ettringite"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib49",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "106116",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85085728544",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "135"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Steiner",
+                        "ce:indexed-name": "Steiner S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Lothenbach",
+                        "ce:indexed-name": "Lothenbach B."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Proske",
+                        "ce:indexed-name": "Proske T."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "S. Steiner, B. Lothenbach, T. Proske, et al. Effect of relative humidity on the carbonation rate of portlandite, calcium silicate hydrates and ettringite. Cement and Concrete Research, 2020, 135: 106116."
+              },
+              {
+                "ref-fulltext": "Liu, Z.Y., Philip, H.D.V., Zhang, C., et al. Carbonation of blast furnace slag concrete at different CO2concentrations: carbonation rate, phase assemblage, microstructure and thermodynamic modelling. Cem. Concr. Res., 169, 2023, 107161.",
+                "@reference-instance-id": "OB2BibRecID-965831043-e58647363a71cce766be4bcfb782942f-50",
+                "@id": "50",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Carbonation of blast furnace slag concrete at different CO2concentrations: carbonation rate, phase assemblage, microstructure and thermodynamic modelling"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib50",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "107161",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85152910239",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "169"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu Z.Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.D.V.",
+                        "@_fa": "true",
+                        "ce:surname": "Philip",
+                        "ce:indexed-name": "Philip H.D.V."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang C."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Z.Y. Liu, H.D.V. Philip, C. Zhang, et al. Carbonation of blast furnace slag concrete at different CO2 concentrations: Carbonation rate, phase assemblage, microstructure and thermodynamic modelling. Cement and Concrete Research, 2023, 169: 107161."
+              },
+              {
+                "ref-fulltext": "Liu, G.J., Shen, F.M., Zhang, Y.S., et al. Reactive molecular dynamics study on carbon steel corrosion induced by chloride: effects of applied potential and temperature. Constr. Build. Mater., 411, 2024, 134250.",
+                "@reference-instance-id": "OB2BibRecID-965831043-b2f73753b19d2bcee4aa15e1432fcca1-51",
+                "@id": "51",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Reactive molecular dynamics study on carbon steel corrosion induced by chloride: effects of applied potential and temperature"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib51",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "134250",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85183585778",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "411"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu G.J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Shen",
+                        "ce:indexed-name": "Shen F.M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Y.S."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "G.J. Liu, F.M. Shen, Y.S. Zhang, et al. Reactive molecular dynamics study on carbon steel corrosion induced by chloride: Effects of applied potential and temperature. Construction and Building Materials, 2024, 411:134250."
+              },
+              {
+                "ref-fulltext": "Tian, Z.H., Fu, C.Q., Ye, H.L., How does carbonation of alkali-activated slag and Portland cement systems impact steel corrosion differently?. Cem. Concr. Res., 181, 2024, 107528.",
+                "@reference-instance-id": "OB2BibRecID-965831043-d519680ef17bc4766e1693beaf6eb417-52",
+                "@id": "52",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "How does carbonation of alkali-activated slag and Portland cement systems impact steel corrosion differently?"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib52",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "107528",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85191968688",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "181"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Tian",
+                        "ce:indexed-name": "Tian Z.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Fu",
+                        "ce:indexed-name": "Fu C.Q."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Ye",
+                        "ce:indexed-name": "Ye H.L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "Z.H. Tian, C.Q. Fu, H.L. Ye. How does carbonation of alkali-activated slag and Portland cement systems impact steel corrosion differently? Cement and Concrete Research, 2024, 181: 107528."
+              },
+              {
+                "ref-fulltext": "Chen, M.X., Liu, X.L., Mei, K.Z., et al. Corrosion behavior of steel bar in magnesium oxysulfide cement-based materials: the role of chloride and nitrite. J. Mater. Res. Technol. 32 (2024), 1577–1588.",
+                "@reference-instance-id": "OB2BibRecID-965831043-018bf70e7be9ec3858c35c2116c29228-53",
+                "@id": "53",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Corrosion behavior of steel bar in magnesium oxysulfide cement-based materials: the role of chloride and nitrite"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib53",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85200638423",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "32"
+                    },
+                    "pagerange": {
+                      "@first": "1577",
+                      "@last": "1588"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.X.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen M.X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu X.L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "K.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Mei",
+                        "ce:indexed-name": "Mei K.Z."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "J. Mater. Res. Technol."
+                },
+                "ce:source-text": "M.X. Chen, X.L. Liu, K.Z. Mei, et al. Corrosion behavior of steel bar in magnesium oxysulfide cement-based materials: The role of chloride and nitrite. Journal of Materials Research and Technology, 2024, 32: 1577-1588."
+              },
+              {
+                "ref-fulltext": "Takahashi, H., Kou, T., Kato, Y., et al. Effect of water saturation in hardened mortar around a steel bar on corrosion considering exposure history. J. Build. Eng., 98, 2024, 111213.",
+                "@reference-instance-id": "OB2BibRecID-965831043-9d63a32d3088d3011c136f0d17ae78ff-54",
+                "@id": "54",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of water saturation in hardened mortar around a steel bar on corrosion considering exposure history"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib54",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "111213",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85207693960",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "98"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Takahashi",
+                        "ce:indexed-name": "Takahashi H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Kou",
+                        "ce:indexed-name": "Kou T."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Kato",
+                        "ce:indexed-name": "Kato Y."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "J. Build. Eng."
+                },
+                "ce:source-text": "H. Takahashi, T. Kou, Y. Kato, et al. Effect of water saturation in hardened mortar around a steel bar on corrosion considering exposure history. Journal of Building Engineering, 2024, 98: 111213."
+              },
+              {
+                "ref-fulltext": "Zhang, G.Y., Zhu, Y.F., Lin, X.M., et al. Numerical simulation of electrochemical mechanism of steel rebar corrosion in concrete under natural climate with time-varying temperature and humidity. Constr. Build. Mater., 306, 2021, 124873.",
+                "@reference-instance-id": "OB2BibRecID-965831043-ba6f70d85a2ac906334f530cd53b5fc9-55",
+                "@id": "55",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Numerical simulation of electrochemical mechanism of steel rebar corrosion in concrete under natural climate with time-varying temperature and humidity"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib55",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "124873",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85115304679",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "306"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang G.Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhu",
+                        "ce:indexed-name": "Zhu Y.F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Lin",
+                        "ce:indexed-name": "Lin X.M."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "G.Y. Zhang, Y.F. Zhu, X.M. Lin, et al. Numerical simulation of electrochemical mechanism of steel rebar corrosion in concrete under natural climate with time-varying temperature and humidity. Construction and Building Materials, 2021, 306: 124873."
+              },
+              {
+                "ref-fulltext": "Siddique, S., Naqi, A., Jang, J.G., Influence of water to cement ratio on CO2uptake capacity of belite-rich cement upon exposure to carbonation curing. Cem. Concr. Compos., 111, 2020, 103616.",
+                "@reference-instance-id": "OB2BibRecID-965831043-8d1ddc483a9f918feb906b32f2e17a52-56",
+                "@id": "56",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Influence of water to cement ratio on CO2uptake capacity of belite-rich cement upon exposure to carbonation curing"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib56",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "103616",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85083077064",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "111"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Siddique",
+                        "ce:indexed-name": "Siddique S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Naqi",
+                        "ce:indexed-name": "Naqi A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Jang",
+                        "ce:indexed-name": "Jang J.G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Compos."
+                },
+                "ce:source-text": "S. Siddique, A. Naqi, J.G. Jang. Influence of water to cement ratio on CO2 uptake capacity of belite-rich cement upon exposure to carbonation curing. Cement and Concrete Composites, 2020, 111: 103616."
+              },
+              {
+                "ref-fulltext": "Belayneh, G.B., Kim, N., Seo, J., Effect of fly ash on hydration and carbonation of carbonation-cured Portland cements. J. CO2Util., 88, 2024, 102943.",
+                "@reference-instance-id": "OB2BibRecID-965831043-6d61257214bd287a6a451f7e4c491206-57",
+                "@id": "57",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of fly ash on hydration and carbonation of carbonation-cured Portland cements"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib57",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "102943",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85205436770",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "88"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Belayneh",
+                        "ce:indexed-name": "Belayneh G.B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim N."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Seo",
+                        "ce:indexed-name": "Seo J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. CO2Util."
+                },
+                "ce:source-text": "G.B. Belayneh, N. Kim, J. Seo. Effect of fly ash on hydration and carbonation of carbonation-cured Portland cements. Journal of CO2 Utilization, 2024, 88, 102943."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "affiliation": [
+      {
+        "affiliation-city": "Ningbo",
+        "@id": "60031419",
+        "affilname": "Ningbo University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60031419",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Qingdao",
+        "@id": "60088079",
+        "affilname": "Qingdao Agricultural University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60088079",
+        "affiliation-country": "China"
+      }
+    ],
+    "coredata": {
+      "srctype": "j",
+      "eid": "2-s2.0-105009934574",
+      "dc:description": "Understanding the correlation between natural and accelerated carbonation processes in concrete and their distinct impacts on steel corrosion mechanisms remains a critical challenge for durability prediction. In this study, the steel reinforcement concrete specimens is taken as the main research object, using the methodology of natural and accelerated carbonation, combined with microscopic means, electrochemical parameters, corrosion morphology analysis of steel bars and other evaluation methods, to systematically investigated the coupled effects of CO2 concentration (5–20 %), temperature (20–40°C) and relative humidity (40–70 % RH) on the concrete carbonation kinetics, microstructure evolution and steel corrosion behavior of concrete. The results showed that carbonation depth exhibits a high temperature and CO2 concentration dependence, the relationship between carbonation depth and RH exhibits a quadratic function characteristic, peaking at 55 % RH. Under accelerated carbonation conditions, a low CO2 acceleration (5 %) preserves microstructural similarity to natural carbonation, whereas high CO2 concentrations can cause the substantial reduction of C-S-H but still allow for the observation of Ca(OH)2, high concentrations induce CaCO3 crystallization differences. Compared to temperature and CO2 concentration, the influence of RH on the concrete microstructure is less significant. Under both accelerated and natural carbonation conditions, the corrosion behavior of steel bar in paste is similar but exhibits differences. In most cases, there is a high correlation between accelerated carbonation and natural carbonation, accelerated carbonation tests can effectively reflect the primary characteristics of steel corrosion caused by natural carbonation, offering certain advantages in assessing the corrosion resistance of steel bar. The results presented have a great of importance for advancing concrete carbonation research, enhancing the prediction and improving the reliability of practical applications.",
+      "prism:coverDate": "2025-09-05",
+      "prism:aggregationType": "Journal",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105009934574",
+      "subtypeDescription": "Article",
+      "dc:creator": {
+        "author": [
+          {
+            "ce:given-name": "Liang",
+            "preferred-name": {
+              "ce:given-name": "Liang",
+              "ce:initials": "L.",
+              "ce:surname": "Wang",
+              "ce:indexed-name": "Wang L."
+            },
+            "@seq": "1",
+            "ce:initials": "L.",
+            "@_fa": "true",
+            "affiliation": {
+              "@id": "60088079",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60088079"
+            },
+            "ce:surname": "Wang",
+            "@auid": "57208741376",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57208741376",
+            "ce:indexed-name": "Wang L."
+          }
+        ]
+      },
+      "link": [
+        {
+          "@_fa": "true",
+          "@rel": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105009934574"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105009934574&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105009934574&origin=inward"
+        }
+      ],
+      "prism:publicationName": "Construction and Building Materials",
+      "source-id": "24443",
+      "pii": "S095006182502584X",
+      "citedby-count": "5",
+      "prism:volume": "490",
+      "subtype": "ar",
+      "dc:title": "The microstructure evolution of cement paste and steel corrosion behavior under natural and accelerated carbonation: CO2 concentration, temperature and humidity",
+      "openaccess": "0",
+      "openaccessFlag": "false",
+      "prism:doi": "10.1016/j.conbuildmat.2025.142433",
+      "prism:issn": "09500618",
+      "publishercopyright": "© 2025",
+      "article-number": "142433",
+      "dc:identifier": "SCOPUS_ID:105009934574",
+      "dc:publisher": "Elsevier Ltd"
+    },
+    "idxterms": {
+      "mainterm": [
+        {
+          "$": "Accelerated carbonation",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Carbonation depth",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "CO 2 concentration",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Concrete carbonation",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Condition",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Corrosion behaviour",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Microstructure evolutions",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Natural carbonations",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Steel bars",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Temperature and humidities",
+          "@weight": "b",
+          "@candidate": "n"
+        }
+      ]
+    },
+    "language": {
+      "@xml:lang": "eng"
+    },
+    "authkeywords": {
+      "author-keyword": [
+        {
+          "@_fa": "true",
+          "$": "Accelerated carbonation"
+        },
+        {
+          "@_fa": "true",
+          "$": "CO2 concentration"
+        },
+        {
+          "@_fa": "true",
+          "$": "Microstructure"
+        },
+        {
+          "@_fa": "true",
+          "$": "Steel corrosion"
+        },
+        {
+          "@_fa": "true",
+          "$": "Temperature and humidity"
+        }
+      ]
+    },
+    "subject-areas": {
+      "subject-area": [
+        {
+          "@_fa": "true",
+          "$": "Civil and Structural Engineering",
+          "@code": "2205",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Building and Construction",
+          "@code": "2215",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Materials Science (all)",
+          "@code": "2500",
+          "@abbrev": "MATE"
+        }
+      ]
+    },
+    "authors": {
+      "author": [
+        {
+          "ce:given-name": "Liang",
+          "preferred-name": {
+            "ce:given-name": "Liang",
+            "ce:initials": "L.",
+            "ce:surname": "Wang",
+            "ce:indexed-name": "Wang L."
+          },
+          "@seq": "1",
+          "ce:initials": "L.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60088079",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60088079"
+          },
+          "ce:surname": "Wang",
+          "@auid": "57208741376",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57208741376",
+          "ce:indexed-name": "Wang L."
+        },
+        {
+          "ce:given-name": "Chunyu",
+          "preferred-name": {
+            "ce:given-name": "Chunyu",
+            "ce:initials": "C.",
+            "ce:surname": "Ma",
+            "ce:indexed-name": "Ma C."
+          },
+          "@seq": "2",
+          "ce:initials": "C.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60088079",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60088079"
+          },
+          "ce:surname": "Ma",
+          "@auid": "59912193600",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59912193600",
+          "ce:indexed-name": "Ma C."
+        },
+        {
+          "ce:given-name": "Yujiao",
+          "preferred-name": {
+            "ce:given-name": "Yujiao",
+            "ce:initials": "Y.",
+            "ce:surname": "Li",
+            "ce:indexed-name": "Li Y."
+          },
+          "@seq": "3",
+          "ce:initials": "Y.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60088079",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60088079"
+          },
+          "ce:surname": "Li",
+          "@auid": "57970510700",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57970510700",
+          "ce:indexed-name": "Li Y."
+        },
+        {
+          "ce:given-name": "Mingming",
+          "preferred-name": {
+            "ce:given-name": "Mingming",
+            "ce:initials": "M.",
+            "ce:surname": "Zhang",
+            "ce:indexed-name": "Zhang M."
+          },
+          "@seq": "4",
+          "ce:initials": "M.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60031419",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60031419"
+          },
+          "ce:surname": "Zhang",
+          "@auid": "59979191400",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59979191400",
+          "ce:indexed-name": "Zhang M."
+        },
+        {
+          "ce:given-name": "Junzhe",
+          "preferred-name": {
+            "ce:given-name": "Junzhe",
+            "ce:initials": "J.",
+            "ce:surname": "Liu",
+            "ce:indexed-name": "Liu J."
+          },
+          "@seq": "5",
+          "ce:initials": "J.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60088079",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60088079"
+          },
+          "ce:surname": "Liu",
+          "@auid": "56469839200",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56469839200",
+          "ce:indexed-name": "Liu J."
+        }
+      ]
+    }
+  }
+}

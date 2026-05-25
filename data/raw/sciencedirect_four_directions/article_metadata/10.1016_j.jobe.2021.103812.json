@@ -1,0 +1,2582 @@
+{
+  "abstracts-retrieval-response": {
+    "item": {
+      "ait:process-info": {
+        "ait:status": {
+          "@state": "update",
+          "@type": "core",
+          "@stage": "S300"
+        },
+        "ait:date-delivered": {
+          "@day": "19",
+          "@timestamp": "2025-03-19T22:15:28.000028-04:00",
+          "@year": "2025",
+          "@month": "03"
+        },
+        "ait:date-sort": {
+          "@day": "01",
+          "@year": "2022",
+          "@month": "04"
+        }
+      },
+      "xocs:meta": {
+        "xocs:funding-list": {
+          "@pui-match": "primary",
+          "@has-funding-info": "1",
+          "xocs:funding": [
+            {
+              "xocs:funding-agency-matched-string": "Ministry of Education",
+              "xocs:funding-agency-acronym": "MOE",
+              "xocs:funding-agency": "Ministry of Education",
+              "xocs:funding-id": "NRF-2020R1I1A3054759",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100002701",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1835841/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Ministry of Education",
+              "xocs:funding-agency-acronym": "MOE",
+              "xocs:funding-agency": "Ministry of Education",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100002701",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1835841/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "National Research Foundation of Korea",
+              "xocs:funding-agency-acronym": "NRF",
+              "xocs:funding-agency": "National Research Foundation of Korea",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100003725",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1835841/"
+            }
+          ],
+          "xocs:funding-addon-generated-timestamp": "2022-06-11T17:38:05.704Z",
+          "xocs:funding-text": "This research was supported by Basic Science Research Program through the National Research Foundation of Korea (NRF) funded by the Ministry of Education ( NRF-2020R1I1A3054759 ).",
+          "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }
+      },
+      "bibrecord": {
+        "head": {
+          "author-group": [
+            {
+              "affiliation": {
+                "country": "South Korea",
+                "address-part": "163 Seoulsiripdaero, Dongdaemun-gu",
+                "postal-code": "02504",
+                "@afid": "60027652",
+                "@country": "kor",
+                "city": "Seoul",
+                "organization": [
+                  {
+                    "$": "Department of Architectural Engineering"
+                  },
+                  {
+                    "$": "University of Seoul"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60027652",
+                  "@dptid": "104403572"
+                },
+                "@affiliation-instance-id": "S2352710221016703-aab29716b6ff67607a345ec5109f8c7b",
+                "ce:source-text": "Department of Architectural Engineering, University of Seoul, 163 Seoulsiripdaero, Dongdaemun-gu, Seoul, 02504, Republic of Korea",
+                "@dptid": "104403572"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Sun-Jin",
+                  "preferred-name": {
+                    "ce:given-name": "Sun Jin",
+                    "ce:initials": "S.J.",
+                    "ce:surname": "Han",
+                    "ce:indexed-name": "Han S.J."
+                  },
+                  "@author-instance-id": "S2352710221016703-c424110297de44024efefda0cb1590cd",
+                  "@seq": "1",
+                  "ce:initials": "S.-J.",
+                  "@date-locked": "2022-08-29T23:31:52.069",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Han",
+                  "@auid": "56018817800",
+                  "ce:indexed-name": "Han S.-J."
+                },
+                {
+                  "ce:given-name": "Jungmin",
+                  "preferred-name": {
+                    "ce:given-name": "Jungmin",
+                    "ce:initials": "J.",
+                    "ce:surname": "Lee",
+                    "ce:indexed-name": "Lee J."
+                  },
+                  "@author-instance-id": "S2352710221016703-0390ef8f5e05b83a16c56e3b92a3c773",
+                  "@seq": "2",
+                  "ce:initials": "J.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Lee",
+                  "@auid": "57189260907",
+                  "ce:indexed-name": "Lee J."
+                },
+                {
+                  "ce:given-name": "Jae-Hyun",
+                  "preferred-name": {
+                    "ce:given-name": "Jae Hyun",
+                    "ce:initials": "J.H.",
+                    "ce:surname": "Kim",
+                    "ce:indexed-name": "Kim J.H."
+                  },
+                  "@author-instance-id": "S2352710221016703-244a8d1cb38a610b0338b24f82df3c2b",
+                  "@seq": "3",
+                  "ce:initials": "J.-H.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Kim",
+                  "@auid": "57208317222",
+                  "ce:indexed-name": "Kim J.-H."
+                },
+                {
+                  "ce:given-name": "Min-Seok",
+                  "preferred-name": {
+                    "ce:given-name": "Min Seok",
+                    "ce:initials": "M.S.",
+                    "ce:surname": "Kim",
+                    "ce:indexed-name": "Kim M.S."
+                  },
+                  "@author-instance-id": "S2352710221016703-87c0aa1ff6adfc455a9348a875de4f9f",
+                  "@seq": "4",
+                  "ce:initials": "M.-S.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Kim",
+                  "@auid": "57368154400",
+                  "ce:indexed-name": "Kim M.-S."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "South Korea",
+                "address-part": "163 Seoulsiripdaero, Dongdaemun-gu",
+                "postal-code": "02504",
+                "@afid": "60027652",
+                "@country": "kor",
+                "city": "Seoul",
+                "organization": [
+                  {
+                    "$": "Department of Architectural Engineering and Smart City Interdisciplinary Major Program"
+                  },
+                  {
+                    "$": "University of Seoul"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60027652",
+                  "@dptid": "125635506"
+                },
+                "@affiliation-instance-id": "S2352710221016703-38147af883025336cb6bca29ce76a609",
+                "ce:source-text": "Department of Architectural Engineering and Smart City Interdisciplinary Major Program, University of Seoul, 163 Seoulsiripdaero, Dongdaemun-gu, Seoul, 02504, Republic of Korea",
+                "@dptid": "125635506"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Kang Su",
+                  "preferred-name": {
+                    "ce:given-name": "Kang Su",
+                    "ce:initials": "K.S.",
+                    "ce:surname": "Kim",
+                    "ce:indexed-name": "Kim K.S."
+                  },
+                  "@author-instance-id": "S2352710221016703-b09bf0168318035b83ad5aa2e4ab4dac",
+                  "@seq": "5",
+                  "ce:initials": "K.S.",
+                  "@date-locked": "2024-03-25T11:17:52.182",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Kim",
+                  "@auid": "54792569800",
+                  "ce:indexed-name": "Kim K.S."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "South Korea",
+                "address-part": "158 Gwanjeodong-ro, Seo-gu",
+                "postal-code": "35365",
+                "@afid": "60003863",
+                "@country": "kor",
+                "city": "Daejeon",
+                "organization": [
+                  {
+                    "$": "Department of Medical Space Design & Management"
+                  },
+                  {
+                    "$": "Konyang University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60003863",
+                  "@dptid": "119067711"
+                },
+                "@affiliation-instance-id": "S2352710221016703-e5434f46a7e204a2ae81d3d7ad916b15",
+                "ce:source-text": "Department of Medical Space Design & Management, Konyang University, 158 Gwanjeodong-ro, Seo-gu, Daejeon, 35365, Republic of Korea",
+                "@dptid": "119067711"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Young-Hun",
+                  "preferred-name": {
+                    "ce:given-name": "Young Hun",
+                    "ce:initials": "Y.H.",
+                    "ce:surname": "Oh",
+                    "ce:indexed-name": "Oh Y.H."
+                  },
+                  "@author-instance-id": "S2352710221016703-603bb5dd80f07fc83303ff96ea572783",
+                  "@seq": "6",
+                  "ce:initials": "Y.-H.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Oh",
+                  "@auid": "57198404882",
+                  "@orcid": "0000-0002-3417-6034",
+                  "ce:indexed-name": "Oh Y.-H."
+                }
+              ]
+            }
+          ],
+          "citation-title": "Experimental shear test of deep PHC piles reinforced by infilled concrete and shear rings",
+          "abstracts": "© 2021 Elsevier LtdThis paper presents experimental shear tests of pretensioned spun high-strength concrete (PHC) piles reinforced by infilled concrete and shear rings with shear span-to-depth ratio of less than 2.0. Seven specimens are designed and fabricated, where the longitudinal reinforcement ratio and presence of shear rings and sludge are set as key variables. The load–deflection responses and crack patterns of the specimens, strain behavior of shear rings, and composite action between the PHC pile and infilled concrete are measured and analyzed comprehensively. Based on the experimental results, this study examined whether the current design codes, which are section-based models, are appropriate for designing PHC piles with infilled concrete. In addition, a strut and tie model is proposed to estimate the shear strengths of PHC piles with circular cross-sections and different material properties. The analysis results show that the code equations can be used for the shear design of deep PHC piles reinforced by infilled concrete and shear rings in a conservative manner, and that the proposed strut and tie model considering different material characteristics of the PHC piles and infilled concrete provides good evaluation results.",
+          "correspondence": {
+            "affiliation": {
+              "country": "South Korea",
+              "address-part": "163 Seoulsiripdaero, Dongdaemun-gu",
+              "postal-code": "02504",
+              "@country": "kor",
+              "city": "Seoul",
+              "organization": [
+                {
+                  "$": "Department of Architectural Engineering and Smart City Interdisciplinary Major Program"
+                },
+                {
+                  "$": "University of Seoul"
+                }
+              ]
+            },
+            "person": {
+              "ce:given-name": "Kang Su",
+              "ce:initials": "K.S.",
+              "ce:surname": "Kim",
+              "ce:indexed-name": "Kim K.S."
+            }
+          },
+          "citation-info": {
+            "author-keywords": {
+              "author-keyword": [
+                {
+                  "$": "Arch action",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Deep member",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "PHC pile",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Prestressed concrete",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Shear strength",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                }
+              ]
+            },
+            "citation-type": {
+              "@code": "ar"
+            },
+            "citation-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "abstract-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            }
+          },
+          "source": {
+            "website": {
+              "ce:e-address": {
+                "$": "http://www.journals.elsevier.com/journal-of-building-engineering/",
+                "@type": "email"
+              }
+            },
+            "translated-sourcetitle": {
+              "@xml:lang": "eng"
+            },
+            "volisspag": {
+              "voliss": {
+                "@volume": "46"
+              }
+            },
+            "@type": "j",
+            "sourcetitle": "Journal of Building Engineering",
+            "publicationdate": {
+              "month": "04",
+              "year": "2022",
+              "date-text": {
+                "@xfab-added": "true",
+                "$": "1 April 2022"
+              },
+              "day": "01"
+            },
+            "sourcetitle-abbrev": "J. Build. Eng.",
+            "@country": "gbr",
+            "issn": {
+              "$": "23527102",
+              "@type": "electronic"
+            },
+            "publicationyear": {
+              "@first": "2022"
+            },
+            "publisher": {
+              "publishername": "Elsevier Ltd"
+            },
+            "article-number": "103812",
+            "@srcid": "21100389518"
+          },
+          "enhancement": {
+            "classificationgroup": {
+              "classifications": [
+                {
+                  "@type": "CPXCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "408.2",
+                      "classification-description": "Structural Members and Shapes"
+                    },
+                    {
+                      "classification-code": "412",
+                      "classification-description": "Concrete"
+                    },
+                    {
+                      "classification-code": "951",
+                      "classification-description": "Materials Science"
+                    }
+                  ]
+                },
+                {
+                  "@type": "FLXCLASS",
+                  "classification": {
+                    "classification-code": "902",
+                    "classification-description": "FLUIDEX; Related Topics"
+                  }
+                },
+                {
+                  "@type": "ASJC",
+                  "classification": [
+                    {
+                      "$": "2205"
+                    },
+                    {
+                      "$": "2216"
+                    },
+                    {
+                      "$": "2215"
+                    },
+                    {
+                      "$": "2213"
+                    },
+                    {
+                      "$": "2211"
+                    }
+                  ]
+                },
+                {
+                  "@type": "SUBJABBR",
+                  "classification": "ENGI"
+                }
+              ]
+            }
+          },
+          "grantlist": {
+            "@complete": "y",
+            "grant-text": {
+              "$": "This research was supported by Basic Science Research Program through the National Research Foundation of Korea(NRF) funded by the Ministry of Education (NRF-2020R1I1A3054759).",
+              "@xml:lang": "eng"
+            },
+            "grant": [
+              {
+                "grant-acronym": "NRF",
+                "grant-agency": {
+                  "@iso-code": "kor",
+                  "$": "National Research Foundation of Korea"
+                },
+                "grant-agency-id": "501100003725"
+              },
+              {
+                "grant-id": "NRF-2020R1I1A3054759",
+                "grant-acronym": "MOE",
+                "grant-agency": {
+                  "@iso-code": "kor",
+                  "$": "Ministry of Education"
+                },
+                "grant-agency-id": "501100002701"
+              }
+            ]
+          }
+        },
+        "item-info": {
+          "copyright": {
+            "$": "Copyright 2021 Elsevier B.V., All rights reserved.",
+            "@type": "Elsevier"
+          },
+          "dbcollection": [
+            {
+              "$": "CPX"
+            },
+            {
+              "$": "REAXYSCAR"
+            },
+            {
+              "$": "SCOPUS"
+            },
+            {
+              "$": "SNCPX"
+            },
+            {
+              "$": "Scopusbase"
+            }
+          ],
+          "history": {
+            "date-created": {
+              "@day": "14",
+              "@timestamp": "BST 10:40:30",
+              "@year": "2021",
+              "@month": "12"
+            }
+          },
+          "itemidlist": {
+            "itemid": [
+              {
+                "$": "2015861805",
+                "@idtype": "PUI"
+              },
+              {
+                "$": "937240518",
+                "@idtype": "CAR-ID"
+              },
+              {
+                "$": "20215011318594",
+                "@idtype": "CPX"
+              },
+              {
+                "$": "20214896970",
+                "@idtype": "REAXYSCAR"
+              },
+              {
+                "$": "20214149606",
+                "@idtype": "SCOPUS"
+              },
+              {
+                "$": "2021161733",
+                "@idtype": "SNCPX"
+              },
+              {
+                "$": "85120853913",
+                "@idtype": "SCP"
+              },
+              {
+                "$": "85120853913",
+                "@idtype": "SGR"
+              }
+            ],
+            "ce:pii": "S2352710221016703",
+            "ce:ern": "pii:S2352710221016703",
+            "ce:doi": "10.1016/j.jobe.2021.103812"
+          }
+        },
+        "tail": {
+          "bibliography": {
+            "@refcount": "31",
+            "reference": [
+              {
+                "ref-fulltext": "Han, S.J., Jeong, J.H., Joo, H.E., Choi, S.H., Kim, K.S., Flexural and shear performance of prestressed composite slabs with inverted multi-ribs. Appl. Sci., 9, 2019, 4946, 10.3390/app9224946.",
+                "@id": "1",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Flexural and shear performance of prestressed composite slabs with inverted multi-ribs"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.3390/app9224946",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib1",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85079601786",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "9"
+                    },
+                    "pagerange": {
+                      "@first": "4946"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Han",
+                        "ce:indexed-name": "Han S.J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Jeong",
+                        "ce:indexed-name": "Jeong J.H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.E.",
+                        "@_fa": "true",
+                        "ce:surname": "Joo",
+                        "ce:indexed-name": "Joo H.E."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "S.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Choi",
+                        "ce:indexed-name": "Choi S.H."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "K.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim K.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Appl. Sci."
+                },
+                "ce:source-text": "S.J. Han, J.H. Jeong, H.E. Joo, S.H. Choi, K.S. Kim, Flexural and shear performance of prestressed composite slabs with inverted multi-ribs. Appl. Sci. 9 (2019) 4946, https://doi.org/10.3390/app9224946."
+              },
+              {
+                "ref-fulltext": "Lee, D.H., Han, S.J., Kim, K.S., Dual potential capacity model for reinforced concrete beams subjected to shear. Struct. Concr. 17:3 (2016), 443–456, 10.1002/suco.201500165.",
+                "@id": "2",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Dual potential capacity model for reinforced concrete beams subjected to shear"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1002/suco.201500165",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib2",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84988432665",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "17",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "443",
+                      "@last": "456"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee D.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Han",
+                        "ce:indexed-name": "Han S.J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "K.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim K.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Struct. Concr."
+                },
+                "ce:source-text": "D.H. Lee, S.J. Han, K.S. Kim, Dual potential capacity model for reinforced concrete beams subjected to shear, Struct. Concr. 17 (3) (2016) 443-456, https://doi.org/10.1002/suco.201500165."
+              },
+              {
+                "ref-fulltext": "Lei, M., Liu, L., Lin, Y., Li, J., Study on flexural bearing capacity calculation method of enclosure pile with partial excision in deep foundation pit. Adv. Civ. Eng., 2019, 4812857, 10.1155/2019/4812857 2019.",
+                "@id": "3",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Study on flexural bearing capacity calculation method of enclosure pile with partial excision in deep foundation pit"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1155/2019/4812857",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib3",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85078829299",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "4812857"
+                    }
+                  },
+                  "ref-text": "2019",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Lei",
+                        "ce:indexed-name": "Lei M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Lin",
+                        "ce:indexed-name": "Lin Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Adv. Civ. Eng."
+                },
+                "ce:source-text": "M. Lei, L. Liu, Y. Lin, J. Li, Study on flexural bearing capacity calculation method of enclosure pile with partial excision in deep foundation pit, Adv. Civ. Eng. 2019 (2019) 4812857, https://doi.org/10.1155/2019/4812857."
+              },
+              {
+                "ref-fulltext": "Yang, Z., Li, G., Wang, W., Lv, Y., Study on the flexural performance of prestressed high strength concrete pile. KSCE J. Civ. Eng. 22 (2018), 4073–4082, 10.1007/s12205-018-1811-y.",
+                "@id": "4",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Study on the flexural performance of prestressed high strength concrete pile"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s12205-018-1811-y",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib4",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85049665032",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "22"
+                    },
+                    "pagerange": {
+                      "@first": "4073",
+                      "@last": "4082"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li G."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang W."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Lv",
+                        "ce:indexed-name": "Lv Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "KSCE J. Civ. Eng."
+                },
+                "ce:source-text": "Z. Yang, G. Li, W. Wang, Y. Lv, Study on the flexural performance of prestressed high strength concrete pile, KSCE J. Civ. Eng. 22 (2018) 4073-4082, https://doi.org/10.1007/s12205-018-1811-y."
+              },
+              {
+                "ref-fulltext": "Kim, H.J., Mission, J.L.C., Improved evaluation of equivalent top-down load-displacement curve from a bottom-up pile load test. J. Geotech. Geoenviron. Eng. 137:6 (2011), 568–578, 10.1061/(ASCE)GT.1943-5606.0000454.",
+                "@id": "5",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Improved evaluation of equivalent top-down load-displacement curve from a bottom-up pile load test"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1061/(ASCE)GT.1943-5606.0000454",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib5",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "79958709513",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "137",
+                      "@issue": "6"
+                    },
+                    "pagerange": {
+                      "@first": "568",
+                      "@last": "578"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim H.J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.L.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Mission",
+                        "ce:indexed-name": "Mission J.L.C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Geotech. Geoenviron. Eng."
+                },
+                "ce:source-text": "H.J. Kim, J.L.C. Mission, Improved evaluation of equivalent top-down load-displacement curve from a bottom-up pile load test, J. Geotech. Geoenviron. Eng. 137 (6) (2011) 568-578, https://doi.org/10.1061/(ASCE)GT.1943-5606.0000454."
+              },
+              {
+                "ref-fulltext": "Choi, Y., Kim, D.C., Kim, T.Y., Field evaluation of the vertical bearing capacity of a screw pretensioned spun high-strength concrete pile. Mar. Georesour. Geotechnol. 34:5 (2016), 474–485, 10.1080/1064119X.2015.1030805.",
+                "@id": "6",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Field evaluation of the vertical bearing capacity of a screw pretensioned spun high-strength concrete pile"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1080/1064119X.2015.1030805",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib6",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84945206767",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "34",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "474",
+                      "@last": "485"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Choi",
+                        "ce:indexed-name": "Choi Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim D.C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "T.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim T.Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Mar. Georesour. Geotechnol."
+                },
+                "ce:source-text": "Y. Choi, D.C. Kim, T.Y. Kim, Field evaluation of the vertical bearing capacity of a screw pretensioned spun high-strength concrete pile, Mar. Georesour. Geotechnol. 34 (5) (2016) 474-485, https://doi.org/10.1080/1064119X.2015.1030805."
+              },
+              {
+                "ref-fulltext": "Zhang, X., Niu, S., Yan, J.B., Zhang, S., Seismic behaviour of prestressed high-strength concrete piles under combined axial compression and cyclic horizontal loads. Adv. Struct. Eng. 22:5 (2018), 1089–1105, 10.1177/1369433218806191.",
+                "@id": "7",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic behaviour of prestressed high-strength concrete piles under combined axial compression and cyclic horizontal loads"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1177/1369433218806191",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib7",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85060235893",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "22",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "1089",
+                      "@last": "1105"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Niu",
+                        "ce:indexed-name": "Niu S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Yan",
+                        "ce:indexed-name": "Yan J.B."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Adv. Struct. Eng."
+                },
+                "ce:source-text": "X. Zhang, S. Niu, J.B. Yan, S. Zhang, Seismic behaviour of prestressed high-strength concrete piles under combined axial compression and cyclic horizontal loads, Adv. Struct. Eng. 22 (5) (2018) 1089-1105, https://doi.org/10.1177/1369433218806191."
+              },
+              {
+                "ref-fulltext": "Akiyama, M., Abe, S., Aoki, N., Flexural test of precast high-strength reinforced concrete pile prestressed with unbonded bars arranged at the center of the cross-section. Eng. Struct. 34:1 (2012), 259–270, 10.1016/j.engstruct.2011.09.007.",
+                "@id": "8",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Flexural test of precast high-strength reinforced concrete pile prestressed with unbonded bars arranged at the center of the cross-section"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.engstruct.2011.09.007",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib8",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "80155156948",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "34",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "259",
+                      "@last": "270"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Akiyama",
+                        "ce:indexed-name": "Akiyama M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Abe",
+                        "ce:indexed-name": "Abe S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Aoki",
+                        "ce:indexed-name": "Aoki N."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Eng. Struct."
+                },
+                "ce:source-text": "M. Akiyama, S. Abe, N. Aoki, Flexural test of precast high-strength reinforced concrete pile prestressed with unbonded bars arranged at the center of the cross-section, Eng. Struct. 34 (1) (2012) 259-270, https://doi.org/10.1016/j.engstruct.2011.09.007."
+              },
+              {
+                "ref-fulltext": "Hyun, J.H., Bang, J.W., Lee, S.S., Kim, Y.Y., Shear strength enhancement of hollow PHC pile reinforced with infilled concrete and shear reinforcement. J. Kor. Concr. Inst. 24:1 (2012), 71–78, 10.4334/JKCI.2012.24.1.071 (In Korean).",
+                "@id": "9",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Shear strength enhancement of hollow PHC pile reinforced with infilled concrete and shear reinforcement"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.4334/JKCI.2012.24.1.071",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib9",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84902515600",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "24",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "71",
+                      "@last": "78"
+                    }
+                  },
+                  "ref-text": "(In Korean)",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Hyun",
+                        "ce:indexed-name": "Hyun J.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Bang",
+                        "ce:indexed-name": "Bang J.W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee S.S."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim Y.Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Kor. Concr. Inst."
+                },
+                "ce:source-text": "J.H. Hyun, J.W. Bang, S.S. Lee, Y.Y. Kim, Shear strength enhancement of hollow PHC pile reinforced with infilled concrete and shear reinforcement, J. Kor. Concr. Inst., 24 (1) (2012) 71-78, https://dx.doi.org/10.4334/JKCI.2012.24.1.071. (In Korean)"
+              },
+              {
+                "ref-fulltext": "Bang, J.W., Hyun, J.H., Lee, B.Y., Lee, S.S., Kim, Y.Y., Flexural strength of PHC pile reinforced with infilled concrete, transverse and longitudinal reinforcements. J. Kor. Concr. Inst. 25:1 (2013), 91–98, 10.4334/JKCI.2013.25.1.091 (In Korean).",
+                "@id": "10",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Flexural strength of PHC pile reinforced with infilled concrete, transverse and longitudinal reinforcements"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.4334/JKCI.2013.25.1.091",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib10",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84902506394",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "25",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "91",
+                      "@last": "98"
+                    }
+                  },
+                  "ref-text": "(In Korean)",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Bang",
+                        "ce:indexed-name": "Bang J.W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Hyun",
+                        "ce:indexed-name": "Hyun J.H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "B.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee B.Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "S.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee S.S."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Y.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim Y.Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Kor. Concr. Inst."
+                },
+                "ce:source-text": "J.W. Bang, J.H. Hyun, B.Y. Lee, S.S. Lee, Y.Y. Kim, Flexural strength of PHC pile reinforced with infilled concrete, transverse and longitudinal reinforcements, J. Kor. Concr. Inst., 25 (1) (2013) 91-98, https://dx.doi.org/10.4334/JKCI.2013.25.1.091. (In Korean)"
+              },
+              {
+                "ref-fulltext": "Kim, J.H., Park, Y.S., Min, C.S., Shear experiments on concrete filled PHC pile with composite shear connectors with rebar holes. J. Kor. Concr. Inst. 29:3 (2017), 259–266, 10.4334/JKCI.2017.29.3.259 (In Korean).",
+                "@id": "11",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Shear experiments on concrete filled PHC pile with composite shear connectors with rebar holes"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.4334/JKCI.2017.29.3.259",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib11",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85120897193",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "29",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "259",
+                      "@last": "266"
+                    }
+                  },
+                  "ref-text": "(In Korean)",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim J.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Park",
+                        "ce:indexed-name": "Park Y.S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Min",
+                        "ce:indexed-name": "Min C.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Kor. Concr. Inst."
+                },
+                "ce:source-text": "J.H. Kim, Y.S. Park, C.S. Min, Shear experiments on concrete filled PHC pile with composite shear connectors with rebar holes, J. Kor. Concr. Inst., 29 (3) (2017) 259-266, https://dx.doi.org/10.4334/JKCI.2017.29.3.259. (In Korean)"
+              },
+              {
+                "ref-fulltext": "Ali, A.H., Mohamed, H.M., Benmokrane, B., Shear behavior of circular concrete members reinforced with GFRP bars and spirals at shear span-to-depth ratios between 1.5 and 3.0. J. Compos. Construct., 20(6), 2016, 04016055, 10.1061/(ASCE)CC.1943-5614.0000707.",
+                "@id": "12",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Shear behavior of circular concrete members reinforced with GFRP bars and spirals at shear span-to-depth ratios between 1.5 and 3.0"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1061/(ASCE)CC.1943-5614.0000707",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib12",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "04016055",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "84996938140",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "20",
+                      "@issue": "6"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Ali",
+                        "ce:indexed-name": "Ali A.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Mohamed",
+                        "ce:indexed-name": "Mohamed H.M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Benmokrane",
+                        "ce:indexed-name": "Benmokrane B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Compos. Construct."
+                },
+                "ce:source-text": "A.H. Ali, H.M. Mohamed, B. Benmokrane, Shear behavior of circular concrete members reinforced with GFRP bars and spirals at shear span-to-depth ratios between 1.5 and 3.0, J. Compos. Construct. 20 (6) (2016) 04016055, https://doi.org/10.1061/(ASCE)CC.1943-5614.0000707."
+              },
+              {
+                "ref-fulltext": "Turmo, J., Ramos, G., Aparicio, A.C., Shear truss analogy for concrete members of solid and hollow circular cross section. Eng. Struct. 31:2 (2009), 455–465, 10.1016/j.engstruct.2008.09.002.",
+                "@id": "13",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Shear truss analogy for concrete members of solid and hollow circular cross section"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.engstruct.2008.09.002",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib13",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "57749181306",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "31",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "455",
+                      "@last": "465"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Turmo",
+                        "ce:indexed-name": "Turmo J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Ramos",
+                        "ce:indexed-name": "Ramos G."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Aparicio",
+                        "ce:indexed-name": "Aparicio A.C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Eng. Struct."
+                },
+                "ce:source-text": "J. Turmo, G. Ramos, A.C. Aparicio, Shear truss analogy for concrete members of solid and hollow circular cross section, Eng. Struct. 31 (2) (2009) 455-465, https://doi.org/10.1016/j.engstruct.2008.09.002."
+              },
+              {
+                "ref-fulltext": "Jensen, U.G., Hoang, L.C., Shear strength of reinforced concrete piers and piles with hollow circular cross section. Struct. Eng. Int. 20:3 (2010), 260–267, 10.2749/101686610792016899.",
+                "@id": "14",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Shear strength of reinforced concrete piers and piles with hollow circular cross section"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.2749/101686610792016899",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib14",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "77955481913",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "20",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "260",
+                      "@last": "267"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "U.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Jensen",
+                        "ce:indexed-name": "Jensen U.G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Hoang",
+                        "ce:indexed-name": "Hoang L.C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Struct. Eng. Int."
+                },
+                "ce:source-text": "U.G. Jensen, L.C. Hoang, Shear strength of reinforced concrete piers and piles with hollow circular cross section, Struct. Eng. Int. 20 (3) (2010) 260-267, https://doi.org/10.2749/101686610792016899."
+              },
+              {
+                "ref-fulltext": "Völgyi, I., Windisch, A., Farkas, G., Resistance of reinforced concrete members with hollow circular cross-sections under combined bending and shear – Part I: experimental investigation. Struct. Concr. 15:1 (2014), 13–20, 10.1002/suco.201200035.",
+                "@id": "15",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Resistance of reinforced concrete members with hollow circular cross-sections under combined bending and shear – Part I: experimental investigation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1002/suco.201200035",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib15",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84896754811",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "15",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "13",
+                      "@last": "20"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "I.",
+                        "@_fa": "true",
+                        "ce:surname": "Völgyi",
+                        "ce:indexed-name": "Volgyi I."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Windisch",
+                        "ce:indexed-name": "Windisch A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Farkas",
+                        "ce:indexed-name": "Farkas G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Struct. Concr."
+                },
+                "ce:source-text": "I. Volgyi, A. Windisch, G. Farkas, Resistance of reinforced concrete members with hollow circular cross-sections under combined bending and shear - Part I: experimental investigation, Struct. Concr. 15 (1) (2014) 13-20, https://doi.org/10.1002/suco.201200035."
+              },
+              {
+                "ref-fulltext": "Völgyi, I., Windisch, A., Resistance of reinforced concrete members with hollow circular cross-sections under combined bending and shear – Part II: new calculation model. Struct. Concr. 15:1 (2014), 21–29, 10.1002/suco.201200036.",
+                "@id": "16",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Resistance of reinforced concrete members with hollow circular cross-sections under combined bending and shear – Part II: new calculation model"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1002/suco.201200036",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib16",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84896803473",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "15",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "21",
+                      "@last": "29"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "I.",
+                        "@_fa": "true",
+                        "ce:surname": "Völgyi",
+                        "ce:indexed-name": "Volgyi I."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Windisch",
+                        "ce:indexed-name": "Windisch A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Struct. Concr."
+                },
+                "ce:source-text": "I. Volgyi, A. Windisch, Resistance of reinforced concrete members with hollow circular cross-sections under combined bending and shear - Part II: new calculation model, Struct. Concr. 15 (1) (2014) 21-29, https://doi.org/10.1002/suco.201200036."
+              },
+              {
+                "ref-fulltext": "Lee, D., Kim, K.S., Han, S.J., Zhang, D., Kim, J., Dual potential capacity model for reinforced concrete short and deep beams subjected to shear. Struct. Concr. 19:1 (2018), 76–85, 10.1002/suco.201700202.",
+                "@id": "17",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Dual potential capacity model for reinforced concrete short and deep beams subjected to shear"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1002/suco.201700202",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib17",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85042199419",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "19",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "76",
+                      "@last": "85"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee D."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim K.S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Han",
+                        "ce:indexed-name": "Han S.J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang D."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Struct. Concr."
+                },
+                "ce:source-text": "D. Lee, K.S. Kim, S.J. Han, D. Zhang, J. Kim, Dual potential capacity model for reinforced concrete short and deep beams subjected to shear, Struct. Concr. 19 (1) (2018) 76-85, https://doi.org/10.1002/suco.201700202."
+              },
+              {
+                "ref-fulltext": "AASHTO, AASHTO LRFD Bridge Design Guide Specifications. 2012 Washington, DC, USA.",
+                "@id": "18",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "AASHTO LRFD Bridge Design Guide Specifications"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib18",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "36248939322",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Washington, DC, USA",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "@_fa": "true",
+                        "ce:surname": "AASHTO",
+                        "ce:indexed-name": "AASHTO"
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "AASHTO, AASHTO LRFD Bridge Design Guide Specifications, Washington, DC, USA, 2012."
+              },
+              {
+                "ref-fulltext": "ACI (American Concrete Institute). Building Code Requirements for Structural Concrete and Commentary. 2014, American Concrete Institute, Farmington Hills, MI, USA.",
+                "@id": "19",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Building Code Requirements for Structural Concrete and Commentary"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib19",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "67349111561",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "American Concrete Institute Farmington Hills, MI, USA",
+                  "ref-authors": {
+                    "collaboration": {
+                      "@seq": "1",
+                      "ce:text": "ACI (American Concrete Institute)",
+                      "ce:indexed-name": "ACI (American Concrete Institute)"
+                    }
+                  }
+                },
+                "ce:source-text": "ACI (American Concrete Institute), Building Code Requirements for Structural Concrete and Commentary, American Concrete Institute, Farmington Hills, MI, USA, 2014."
+              },
+              {
+                "ref-fulltext": "CSA (Canadian Standards Association). Design of Concrete Structures for Buildings, CAN/CSA A23.3-04. 2014 Rexdale, ON, Canada.",
+                "@id": "20",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Design of Concrete Structures for Buildings, CAN/CSA A23.3-04"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib20",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84978750355",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Rexdale, ON, Canada",
+                  "ref-authors": {
+                    "collaboration": {
+                      "@seq": "1",
+                      "ce:text": "CSA (Canadian Standards Association)",
+                      "ce:indexed-name": "CSA (Canadian Standards Association)"
+                    }
+                  }
+                },
+                "ce:source-text": "CSA (Canadian Standards Association), Design of Concrete Structures for Buildings, CAN/CSA A23.3-04, Rexdale, ON, Canada, 2014."
+              },
+              {
+                "ref-fulltext": "M.S. Kim, Flexural and Shear Strength of PHC Piles Reinforced with Infilled Concrete, Master Thesis, University of Seoul, Seoul, South Korea. (In Korean).",
+                "@id": "21",
+                "ref-info": {
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib21",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85120851313",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Flexural and Shear Strength of PHC Piles Reinforced with Infilled Concrete, Master Thesis, University of Seoul, Seoul, South Korea. (In Korean).",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim M.S."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "M.S. Kim, Flexural and Shear Strength of PHC Piles Reinforced with Infilled Concrete, Master Thesis, University of Seoul, Seoul, South Korea. (In Korean)."
+              },
+              {
+                "ref-fulltext": "ACI (American Concrete Institute). Building Code Requirements for Structural Concrete (ACI 318-19) and Commentary. 2019, American Concrete Institute, Farmington Hills, MI.",
+                "@id": "22",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Building Code Requirements for Structural Concrete (ACI 318-19) and Commentary"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib22",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "33846519537",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "American Concrete Institute Farmington Hills, MI",
+                  "ref-authors": {
+                    "collaboration": {
+                      "@seq": "1",
+                      "ce:text": "ACI (American Concrete Institute)",
+                      "ce:indexed-name": "ACI (American Concrete Institute)"
+                    }
+                  }
+                },
+                "ce:source-text": "ACI (American Concrete Institute). Building Code Requirements for Structural Concrete (ACI 318-19) and Commentary. American Concrete Institute, Farmington Hills, MI, 2019."
+              },
+              {
+                "ref-fulltext": "AASHTO, AASHTO LRFD Bridge Design Guide Specifications. 2014 Washington, DC, USA.",
+                "@id": "23",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "AASHTO LRFD Bridge Design Guide Specifications"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib23",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "36248939322",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Washington, DC, USA",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "@_fa": "true",
+                        "ce:surname": "AASHTO",
+                        "ce:indexed-name": "AASHTO"
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "AASHTO. AASHTO LRFD Bridge Design Guide Specifications. Washington, DC, USA, 2014."
+              },
+              {
+                "ref-fulltext": "CEN (European Committee for Standardization). Eurocode 2: Design of Concrete Structures: Part 1-1: General Rules and Rules for Buildings. 2004, European Committee for Standardization, Brussels.",
+                "@id": "24",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2004"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Eurocode 2: Design of Concrete Structures: Part 1-1: General Rules and Rules for Buildings"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib24",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0003726165",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "European Committee for Standardization Brussels",
+                  "ref-authors": {
+                    "collaboration": {
+                      "@seq": "1",
+                      "ce:text": "CEN (European Committee for Standardization)",
+                      "ce:indexed-name": "CEN (European Committee for Standardization)"
+                    }
+                  }
+                },
+                "ce:source-text": "CEN (European Committee for Standardization), Eurocode 2: Design of Concrete Structures: Part 1-1: General Rules and Rules for Buildings, European Committee for Standardization, Brussels, 2004."
+              },
+              {
+                "ref-fulltext": "KS (Korean Industrial Standards), KSF 4306. Pretensioned Spun High Strength Concrete Piles. 2014, Korean Industrial Standards, Seoul, South Korea.",
+                "@id": "25",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Pretensioned Spun High Strength Concrete Piles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib25",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85097525949",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Korean Industrial Standards Seoul, South Korea",
+                  "ref-authors": {
+                    "collaboration": {
+                      "@seq": "1",
+                      "ce:text": "KS (Korean Industrial Standards), KSF 4306",
+                      "ce:indexed-name": "KS (Korean Industrial Standards), KSF 4306"
+                    }
+                  }
+                },
+                "ce:source-text": "KS (Korean Industrial Standards), KSF 4306. Pretensioned Spun High Strength Concrete Piles, Korean Industrial Standards, Seoul, South Korea, 2014."
+              },
+              {
+                "ref-fulltext": "Ju, H., Han, S.J., Joo, H.E., Cho, H.C., Kim, K.S., Oh, Y.H., Shear performance of optimized-section precast slab with tapered cross section. Sustainability, 11, 2018, 163, 10.3390/su11010163.",
+                "@id": "26",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Shear performance of optimized-section precast slab with tapered cross section"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.3390/su11010163",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib26",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85059346742",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "11"
+                    },
+                    "pagerange": {
+                      "@first": "163"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Ju",
+                        "ce:indexed-name": "Ju H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Han",
+                        "ce:indexed-name": "Han S.J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.E.",
+                        "@_fa": "true",
+                        "ce:surname": "Joo",
+                        "ce:indexed-name": "Joo H.E."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "H.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Cho",
+                        "ce:indexed-name": "Cho H.C."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "K.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim K.S."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "Y.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Oh",
+                        "ce:indexed-name": "Oh Y.H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Sustainability"
+                },
+                "ce:source-text": "H. Ju, S.J. Han, H.E. Joo, H.C. Cho, K.S. Kim, Y.H. Oh, Shear performance of optimized-section precast slab with tapered cross section, Sustainability, 11 (2018) 163, https://doi.org/10.3390/su11010163."
+              },
+              {
+                "ref-fulltext": "Kovach, J.D., Naito, C., Horizontal Shear Capacity of Composite Concrete Beams without Interface Ties, ATLSS REPORT NO. 08-05., 2008, Lehigh University, Bethlehem, PA, USA.",
+                "@id": "27",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2008"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Horizontal Shear Capacity of Composite Concrete Beams without Interface Ties, ATLSS REPORT NO. 08-05"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib27",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84882331681",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Lehigh University Bethlehem, PA, USA",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Kovach",
+                        "ce:indexed-name": "Kovach J.D."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Naito",
+                        "ce:indexed-name": "Naito C."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "J.D. Kovach, C. Naito, reportHorizontal Shear Capacity of Composite Concrete Beams without Interface Ties, ATLSS REPORT NO. 08-05, Lehigh University, Bethlehem, PA, USA, 2008."
+              },
+              {
+                "ref-fulltext": "Lee, S.L., Kang, S.S., Yoo, S.W., Experimental study on segregated layers of materials and compressive strength of concrete for pretensioned spun high strength concrete pile. Int. J. Kor. Concr. Inst. 13:1 (2001), 16–22 (In Korean).",
+                "@id": "28",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2001"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental study on segregated layers of materials and compressive strength of concrete for pretensioned spun high strength concrete pile"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib28",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85120910747",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "13",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "16",
+                      "@last": "22"
+                    }
+                  },
+                  "ref-text": "(In Korean)",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee S.L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Kang",
+                        "ce:indexed-name": "Kang S.S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Yoo",
+                        "ce:indexed-name": "Yoo S.W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Int. J. Kor. Concr. Inst."
+                },
+                "ce:source-text": "S.L. Lee, S.S. Kang, S.W. Yoo, Experimental study on segregated layers of materials and compressive strength of concrete for pretensioned spun high strength concrete pile, Int. J. Kor. Concr. Inst. 13 (1) (2001) 16-22. (In Korean)"
+              },
+              {
+                "ref-fulltext": "Joo, H.E., Han, S.J., Kim, K.S., Analytical model for shear strength of prestressed hollow-core slabs reinforced with core-filling concrete. J. Build. Eng., 42, 2021, 102819, 10.1016/j.jobe.2021.102819.",
+                "@id": "29",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Analytical model for shear strength of prestressed hollow-core slabs reinforced with core-filling concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.jobe.2021.102819",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib29",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85107813017",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "42"
+                    },
+                    "pagerange": {
+                      "@first": "102819"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.E.",
+                        "@_fa": "true",
+                        "ce:surname": "Joo",
+                        "ce:indexed-name": "Joo H.E."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Han",
+                        "ce:indexed-name": "Han S.J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "K.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim K.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Build. Eng."
+                },
+                "ce:source-text": "H.E. Joo, S.J. Han, K.S. Kim, Analytical model for shear strength of prestressed hollow-core slabs reinforced with core-filling concrete, J. Build. Eng. 42 (2021) 102819, https://doi.org/10.1016/j.jobe.2021.102819."
+              },
+              {
+                "ref-fulltext": "KCI (Korea Concrete Institute). Korea Model Code 2017. 2017, Korea Concrete Institute, Seoul, Korea.",
+                "@id": "30",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Korea Model Code 2017"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib30",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85099258705",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Korea Concrete Institute Seoul, Korea",
+                  "ref-authors": {
+                    "collaboration": {
+                      "@seq": "1",
+                      "ce:text": "KCI (Korea Concrete Institute)",
+                      "ce:indexed-name": "KCI (Korea Concrete Institute)"
+                    }
+                  }
+                },
+                "ce:source-text": "KCI (Korea Concrete Institute), Korea Model Code 2017, Korea Concrete Institute, Seoul, Korea, 2017."
+              },
+              {
+                "ref-fulltext": "Ugural, A.C., Fenster, S.K., Advanced Strength and Applied Elasticity. 2003, Prentice-Hall, Ontario, Canada.",
+                "@id": "31",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2003"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Advanced Strength and Applied Elasticity"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib31",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0004032085",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Prentice-Hall Ontario, Canada",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Ugural",
+                        "ce:indexed-name": "Ugural A.C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Fenster",
+                        "ce:indexed-name": "Fenster S.K."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "A.C. Ugural, S.K. Fenster, Advanced Strength and Applied Elasticity, Prentice-Hall, Ontario, Canada, 2003."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "affiliation": [
+      {
+        "affiliation-city": "Seoul",
+        "@id": "60027652",
+        "affilname": "University of Seoul",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60027652",
+        "affiliation-country": "South Korea"
+      },
+      {
+        "affiliation-city": "Nonsan",
+        "@id": "60003863",
+        "affilname": "Konyang University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60003863",
+        "affiliation-country": "South Korea"
+      }
+    ],
+    "coredata": {
+      "srctype": "j",
+      "eid": "2-s2.0-85120853913",
+      "dc:description": "This paper presents experimental shear tests of pretensioned spun high-strength concrete (PHC) piles reinforced by infilled concrete and shear rings with shear span-to-depth ratio of less than 2.0. Seven specimens are designed and fabricated, where the longitudinal reinforcement ratio and presence of shear rings and sludge are set as key variables. The load–deflection responses and crack patterns of the specimens, strain behavior of shear rings, and composite action between the PHC pile and infilled concrete are measured and analyzed comprehensively. Based on the experimental results, this study examined whether the current design codes, which are section-based models, are appropriate for designing PHC piles with infilled concrete. In addition, a strut and tie model is proposed to estimate the shear strengths of PHC piles with circular cross-sections and different material properties. The analysis results show that the code equations can be used for the shear design of deep PHC piles reinforced by infilled concrete and shear rings in a conservative manner, and that the proposed strut and tie model considering different material characteristics of the PHC piles and infilled concrete provides good evaluation results.",
+      "prism:coverDate": "2022-04-01",
+      "prism:aggregationType": "Journal",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85120853913",
+      "subtypeDescription": "Article",
+      "dc:creator": {
+        "author": [
+          {
+            "ce:given-name": "Sun-Jin",
+            "preferred-name": {
+              "ce:given-name": "Sun Jin",
+              "ce:initials": "S.J.",
+              "ce:surname": "Han",
+              "ce:indexed-name": "Han S.J."
+            },
+            "@seq": "1",
+            "ce:initials": "S.-J.",
+            "@_fa": "true",
+            "affiliation": {
+              "@id": "60027652",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60027652"
+            },
+            "ce:surname": "Han",
+            "@auid": "56018817800",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56018817800",
+            "ce:indexed-name": "Han S.-J."
+          }
+        ]
+      },
+      "link": [
+        {
+          "@_fa": "true",
+          "@rel": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85120853913"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85120853913&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85120853913&origin=inward"
+        }
+      ],
+      "prism:publicationName": "Journal of Building Engineering",
+      "source-id": "21100389518",
+      "pii": "S2352710221016703",
+      "citedby-count": "8",
+      "prism:volume": "46",
+      "subtype": "ar",
+      "dc:title": "Experimental shear test of deep PHC piles reinforced by infilled concrete and shear rings",
+      "openaccess": "0",
+      "openaccessFlag": "false",
+      "prism:doi": "10.1016/j.jobe.2021.103812",
+      "prism:issn": "23527102",
+      "publishercopyright": "© 2021 Elsevier Ltd",
+      "article-number": "103812",
+      "dc:identifier": "SCOPUS_ID:85120853913",
+      "dc:publisher": "Elsevier Ltd"
+    },
+    "idxterms": {
+      "mainterm": [
+        {
+          "$": "Arch action",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Deep member",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "High strength concretes",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Longitudinal reinforcement",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Pretensioned",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Pretensioned spun high-strength concrete pile",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Shear span-to-depth ratios",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Shear tests",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Shears strength",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Strut-and-tie model",
+          "@weight": "b",
+          "@candidate": "n"
+        }
+      ]
+    },
+    "language": {
+      "@xml:lang": "eng"
+    },
+    "authkeywords": {
+      "author-keyword": [
+        {
+          "@_fa": "true",
+          "$": "Arch action"
+        },
+        {
+          "@_fa": "true",
+          "$": "Deep member"
+        },
+        {
+          "@_fa": "true",
+          "$": "PHC pile"
+        },
+        {
+          "@_fa": "true",
+          "$": "Prestressed concrete"
+        },
+        {
+          "@_fa": "true",
+          "$": "Shear strength"
+        }
+      ]
+    },
+    "subject-areas": {
+      "subject-area": [
+        {
+          "@_fa": "true",
+          "$": "Civil and Structural Engineering",
+          "@code": "2205",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Architecture",
+          "@code": "2216",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Building and Construction",
+          "@code": "2215",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Safety, Risk, Reliability and Quality",
+          "@code": "2213",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Mechanics of Materials",
+          "@code": "2211",
+          "@abbrev": "ENGI"
+        }
+      ]
+    },
+    "authors": {
+      "author": [
+        {
+          "ce:given-name": "Sun-Jin",
+          "preferred-name": {
+            "ce:given-name": "Sun Jin",
+            "ce:initials": "S.J.",
+            "ce:surname": "Han",
+            "ce:indexed-name": "Han S.J."
+          },
+          "@seq": "1",
+          "ce:initials": "S.-J.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60027652",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60027652"
+          },
+          "ce:surname": "Han",
+          "@auid": "56018817800",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56018817800",
+          "ce:indexed-name": "Han S.-J."
+        },
+        {
+          "ce:given-name": "Jungmin",
+          "preferred-name": {
+            "ce:given-name": "Jungmin",
+            "ce:initials": "J.",
+            "ce:surname": "Lee",
+            "ce:indexed-name": "Lee J."
+          },
+          "@seq": "2",
+          "ce:initials": "J.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60027652",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60027652"
+          },
+          "ce:surname": "Lee",
+          "@auid": "57189260907",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57189260907",
+          "ce:indexed-name": "Lee J."
+        },
+        {
+          "ce:given-name": "Jae-Hyun",
+          "preferred-name": {
+            "ce:given-name": "Jae Hyun",
+            "ce:initials": "J.H.",
+            "ce:surname": "Kim",
+            "ce:indexed-name": "Kim J.H."
+          },
+          "@seq": "3",
+          "ce:initials": "J.-H.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60027652",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60027652"
+          },
+          "ce:surname": "Kim",
+          "@auid": "57208317222",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57208317222",
+          "ce:indexed-name": "Kim J.-H."
+        },
+        {
+          "ce:given-name": "Min-Seok",
+          "preferred-name": {
+            "ce:given-name": "Min Seok",
+            "ce:initials": "M.S.",
+            "ce:surname": "Kim",
+            "ce:indexed-name": "Kim M.S."
+          },
+          "@seq": "4",
+          "ce:initials": "M.-S.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60027652",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60027652"
+          },
+          "ce:surname": "Kim",
+          "@auid": "57368154400",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57368154400",
+          "ce:indexed-name": "Kim M.-S."
+        },
+        {
+          "ce:given-name": "Kang Su",
+          "preferred-name": {
+            "ce:given-name": "Kang Su",
+            "ce:initials": "K.S.",
+            "ce:surname": "Kim",
+            "ce:indexed-name": "Kim K.S."
+          },
+          "@seq": "5",
+          "ce:initials": "K.S.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60027652",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60027652"
+          },
+          "ce:surname": "Kim",
+          "@auid": "54792569800",
+          "author-url": "https://api.elsevier.com/content/author/author_id/54792569800",
+          "ce:indexed-name": "Kim K.S."
+        },
+        {
+          "ce:given-name": "Young-Hun",
+          "preferred-name": {
+            "ce:given-name": "Young Hun",
+            "ce:initials": "Y.H.",
+            "ce:surname": "Oh",
+            "ce:indexed-name": "Oh Y.H."
+          },
+          "@seq": "6",
+          "ce:initials": "Y.-H.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60003863",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60003863"
+          },
+          "ce:surname": "Oh",
+          "@auid": "57198404882",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57198404882",
+          "ce:indexed-name": "Oh Y.-H."
+        }
+      ]
+    }
+  }
+}

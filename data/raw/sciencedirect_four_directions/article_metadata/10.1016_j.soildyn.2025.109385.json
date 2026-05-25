@@ -1,0 +1,3272 @@
+{
+  "abstracts-retrieval-response": {
+    "item": {
+      "ait:process-info": {
+        "ait:status": {
+          "@state": "update",
+          "@type": "core",
+          "@stage": "S300"
+        },
+        "ait:date-delivered": {
+          "@day": "03",
+          "@timestamp": "2025-04-03T02:51:14.000014-04:00",
+          "@year": "2025",
+          "@month": "04"
+        },
+        "ait:date-sort": {
+          "@day": "01",
+          "@year": "2025",
+          "@month": "07"
+        }
+      },
+      "xocs:meta": {
+        "xocs:funding-list": {
+          "@pui-match": "primary",
+          "@has-funding-info": "1",
+          "xocs:funding": [
+            {
+              "xocs:funding-agency-matched-string": "Fundamental Research Funds for the Central Universities",
+              "xocs:funding-agency": "Fundamental Research Funds for the Central Universities",
+              "xocs:funding-id": [
+                {
+                  "$": "22120230077"
+                },
+                {
+                  "$": "2023-2-ZD-01"
+                }
+              ],
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100012226",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Fundamental Research Funds for the Central Universities",
+              "xocs:funding-agency": "Fundamental Research Funds for the Central Universities",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100012226",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            }
+          ],
+          "xocs:funding-addon-generated-timestamp": "2025-03-23T03:44:44.252Z",
+          "xocs:funding-text": "This work was supported by the Fundamental Research Funds for the Central Universities [No. 22120230077 and 2023-2-ZD-01] in China.",
+          "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }
+      },
+      "bibrecord": {
+        "head": {
+          "author-group": [
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "200092",
+                "@afid": "60073652",
+                "@country": "chn",
+                "city": "Shanghai",
+                "organization": [
+                  {
+                    "$": "Department of Geotechnical Engineering"
+                  },
+                  {
+                    "$": "Tongji University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60073652",
+                  "@dptid": "104830272"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-963186017-8f76937ef1777f7fbf1c3010a6484c00-1",
+                "ce:source-text": "Department of Geotechnical Engineering, Tongji University, Shanghai, 200092, China",
+                "@dptid": "104830272"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Xianfeng",
+                  "preferred-name": {
+                    "ce:given-name": "Xianfeng",
+                    "ce:initials": "X.",
+                    "ce:surname": "Ma",
+                    "ce:indexed-name": "Ma X."
+                  },
+                  "@author-instance-id": "OB2BibRecID-963186017-508d582d9726c32a18c42f77510723f9-1",
+                  "@seq": "1",
+                  "ce:initials": "X.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Ma",
+                  "@auid": "59222989300",
+                  "ce:indexed-name": "Ma X."
+                },
+                {
+                  "ce:given-name": "Guohang",
+                  "preferred-name": {
+                    "ce:given-name": "Guohang",
+                    "ce:initials": "G.",
+                    "ce:surname": "Tang",
+                    "ce:indexed-name": "Tang G."
+                  },
+                  "@author-instance-id": "OB2BibRecID-963186017-814103d156c44b0e81935c7d4e05d40c-1",
+                  "@seq": "2",
+                  "ce:initials": "G.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Tang",
+                  "@auid": "58303552200",
+                  "ce:indexed-name": "Tang G."
+                },
+                {
+                  "ce:given-name": "Chiyuan",
+                  "preferred-name": {
+                    "ce:given-name": "Chiyuan",
+                    "ce:initials": "C.",
+                    "ce:surname": "Ma",
+                    "ce:indexed-name": "Ma C."
+                  },
+                  "@author-instance-id": "OB2BibRecID-963186017-cc03c0c46e98ae495322209dfe8c4b5e-1",
+                  "@seq": "3",
+                  "ce:initials": "C.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Ma",
+                  "@auid": "59414183100",
+                  "ce:indexed-name": "Ma C."
+                },
+                {
+                  "ce:given-name": "Haihua",
+                  "preferred-name": {
+                    "ce:given-name": "Haihua",
+                    "ce:initials": "H.",
+                    "ce:surname": "Zhang",
+                    "ce:indexed-name": "Zhang H."
+                  },
+                  "@author-instance-id": "OB2BibRecID-963186017-d5e78f76f8bd7becd07bd4a3ca38e1fa-1",
+                  "@seq": "4",
+                  "ce:initials": "H.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Zhang",
+                  "@auid": "55792893900",
+                  "ce:indexed-name": "Zhang H."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "200092",
+                "@afid": "60129289",
+                "@country": "chn",
+                "city": "Shanghai",
+                "organization": {
+                  "$": "Key Lab of Geotechnical and Underground Engineering of Ministry of Education"
+                },
+                "affiliation-id": [
+                  {
+                    "@afid": "60129289"
+                  },
+                  {
+                    "@afid": "60001604"
+                  }
+                ],
+                "@affiliation-instance-id": "OB2BibRecID-963186017-2f617e6cfbb92e1336ea2a2859432182-1",
+                "ce:source-text": "Key Lab of Geotechnical and Underground Engineering of Ministry of Education, Shanghai, 200092, China"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Xianfeng",
+                  "preferred-name": {
+                    "ce:given-name": "Xianfeng",
+                    "ce:initials": "X.",
+                    "ce:surname": "Ma",
+                    "ce:indexed-name": "Ma X."
+                  },
+                  "@author-instance-id": "OB2BibRecID-963186017-508d582d9726c32a18c42f77510723f9-1",
+                  "@seq": "1",
+                  "ce:initials": "X.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Ma",
+                  "@auid": "59222989300",
+                  "ce:indexed-name": "Ma X."
+                },
+                {
+                  "ce:given-name": "Guohang",
+                  "preferred-name": {
+                    "ce:given-name": "Guohang",
+                    "ce:initials": "G.",
+                    "ce:surname": "Tang",
+                    "ce:indexed-name": "Tang G."
+                  },
+                  "@author-instance-id": "OB2BibRecID-963186017-814103d156c44b0e81935c7d4e05d40c-1",
+                  "@seq": "2",
+                  "ce:initials": "G.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Tang",
+                  "@auid": "58303552200",
+                  "ce:indexed-name": "Tang G."
+                },
+                {
+                  "ce:given-name": "Chiyuan",
+                  "preferred-name": {
+                    "ce:given-name": "Chiyuan",
+                    "ce:initials": "C.",
+                    "ce:surname": "Ma",
+                    "ce:indexed-name": "Ma C."
+                  },
+                  "@author-instance-id": "OB2BibRecID-963186017-cc03c0c46e98ae495322209dfe8c4b5e-1",
+                  "@seq": "3",
+                  "ce:initials": "C.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Ma",
+                  "@auid": "59414183100",
+                  "ce:indexed-name": "Ma C."
+                },
+                {
+                  "ce:given-name": "Haihua",
+                  "preferred-name": {
+                    "ce:given-name": "Haihua",
+                    "ce:initials": "H.",
+                    "ce:surname": "Zhang",
+                    "ce:indexed-name": "Zhang H."
+                  },
+                  "@author-instance-id": "OB2BibRecID-963186017-d5e78f76f8bd7becd07bd4a3ca38e1fa-1",
+                  "@seq": "4",
+                  "ce:initials": "H.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Zhang",
+                  "@auid": "55792893900",
+                  "ce:indexed-name": "Zhang H."
+                }
+              ]
+            }
+          ],
+          "citation-title": "Seismic response of cross-passages between parallel tunnels with varied connection rigidities in centrifuge model tests",
+          "abstracts": "© 2025 Elsevier LtdTraffic tunnels normally have cross-passages between parallel tunnels with close proximity to facilitate materials/human transportation and evacuation. It is obviously essential to maintain the structural integrity and functionality of cross passages under extreme conditions, such as seismic events. Due to the spatial configuration of the cross passage, its connection to running tunnels would be a key point to its seismic response and the subject of research in terms of enhancing the seismic resilience. This study adopted centrifugal model tests to investigate three types of connections with different rigidities and their influences on seismic performance of tunnel-cross passage structures in subway systems: flexible connections, rigid connections, and Shape Memory Alloy (SMA) connections, reflecting respectively cast-in-site concrete, segment assembling, and an innovative connection. The results indicated that regardless of the connection method used, the maximum strain at the tunnel-cross passage junction consistently occurs at the middle of the junction. The flexible connection exhibited a significantly lower maximum strain compared to the rigid connection, while the rigid connection demonstrated a higher degree of structural integrity. The SMA connection, with its energy absorption and dissipation capabilities, maintained structural integrity comparable to that of the rigid connection while exhibiting a lower maximum strain and significantly reducing stress concentration in localized areas of the tunnel-cross passage structure.",
+          "correspondence": {
+            "affiliation": {
+              "country": "China",
+              "postal-code": "200092",
+              "@country": "chn",
+              "city": "Shanghai",
+              "organization": [
+                {
+                  "$": "Department of Geotechnical Engineering"
+                },
+                {
+                  "$": "Tongji University"
+                }
+              ],
+              "@affiliation-instance-id": "OB2BibRecID-963186017-81602e7f829b3e9b6bfbcc9e51c907e1-1"
+            },
+            "person": {
+              "ce:given-name": "Guohang",
+              "@author-instance-id": "OB2BibRecID-963186017-750cd00d9616426f2c34d4ab063f0643-1",
+              "ce:initials": "G.",
+              "ce:surname": "Tang",
+              "ce:indexed-name": "Tang G."
+            }
+          },
+          "citation-info": {
+            "author-keywords": {
+              "author-keyword": [
+                {
+                  "$": "Centrifugal model test",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Cross-passage",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Earthquake",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Seismic performance",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Shape memory alloy connection",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                }
+              ]
+            },
+            "citation-type": {
+              "@code": "ar"
+            },
+            "citation-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "abstract-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            }
+          },
+          "source": {
+            "website": {
+              "ce:e-address": {
+                "$": "https://www.sciencedirect.com/science/journal/02677261",
+                "@type": "email"
+              }
+            },
+            "translated-sourcetitle": {
+              "$": "Soil Dynamics and Earthquake Engineering",
+              "@xml:lang": "eng"
+            },
+            "volisspag": {
+              "voliss": {
+                "@volume": "194"
+              }
+            },
+            "@type": "j",
+            "sourcetitle": "Soil Dynamics and Earthquake Engineering",
+            "publicationdate": {
+              "month": "07",
+              "year": "2025",
+              "date-text": "July 2025",
+              "day": "01"
+            },
+            "sourcetitle-abbrev": "Soil Dyn. Earthqu. Eng.",
+            "@country": "gbr",
+            "issn": {
+              "$": "02677261",
+              "@type": "print"
+            },
+            "publicationyear": {
+              "@first": "2025"
+            },
+            "publisher": {
+              "publishername": "Elsevier Ltd"
+            },
+            "article-number": "109385",
+            "@srcid": "28960"
+          },
+          "enhancement": {
+            "classificationgroup": {
+              "classifications": [
+                {
+                  "@type": "CPXCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "214",
+                      "classification-description": "Materials Science"
+                    },
+                    {
+                      "classification-code": "214.1.1",
+                      "classification-description": "Stress and Strain"
+                    },
+                    {
+                      "classification-code": "401.2",
+                      "classification-description": "Tunnels and Tunneling"
+                    },
+                    {
+                      "classification-code": "408",
+                      "classification-description": "Structural Design"
+                    },
+                    {
+                      "classification-code": "408.1",
+                      "classification-description": "Structural Members and Shapes"
+                    },
+                    {
+                      "classification-code": "433.1",
+                      "classification-description": "Passenger Railroad Transportation"
+                    },
+                    {
+                      "classification-code": "484",
+                      "classification-description": "Seismology"
+                    },
+                    {
+                      "classification-code": "681",
+                      "classification-description": "Railway Plant and Structures"
+                    }
+                  ]
+                },
+                {
+                  "@type": "FLXCLASS",
+                  "classification": {
+                    "classification-code": "902",
+                    "classification-description": "FLUIDEX; Related Topics"
+                  }
+                },
+                {
+                  "@type": "GEOCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "72.13.4",
+                      "classification-description": "Engineering seismology"
+                    },
+                    {
+                      "classification-code": "77.10.12",
+                      "classification-description": "Influence of dynamic loads"
+                    }
+                  ]
+                },
+                {
+                  "@type": "ASJC",
+                  "classification": [
+                    {
+                      "$": "2205"
+                    },
+                    {
+                      "$": "1909"
+                    },
+                    {
+                      "$": "1111"
+                    }
+                  ]
+                },
+                {
+                  "@type": "SUBJABBR",
+                  "classification": [
+                    {
+                      "$": "ENGI"
+                    },
+                    {
+                      "$": "EART"
+                    },
+                    {
+                      "$": "AGRI"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "grantlist": {
+            "@complete": "y",
+            "grant-text": {
+              "$": "This work was supported by the Fundamental Research Funds for the Central Universities [No. 22120230077 and 2023-2-ZD-01] in China.",
+              "@xml:lang": "eng"
+            },
+            "grant": [
+              {
+                "grant-id": "2023-2-ZD-01",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "Fundamental Research Funds for the Central Universities"
+                },
+                "grant-agency-id": "501100012226"
+              },
+              {
+                "grant-id": "22120230077",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "Fundamental Research Funds for the Central Universities"
+                },
+                "grant-agency-id": "501100012226"
+              }
+            ]
+          }
+        },
+        "item-info": {
+          "copyright": {
+            "$": "Copyright 2025 Elsevier B.V., All rights reserved.",
+            "@type": "Elsevier"
+          },
+          "dbcollection": [
+            {
+              "$": "CPX"
+            },
+            {
+              "$": "GEO"
+            },
+            {
+              "$": "REAXYSCAR"
+            },
+            {
+              "$": "SCOPUS"
+            },
+            {
+              "$": "Scopusbase"
+            }
+          ],
+          "history": {
+            "date-created": {
+              "@day": "26",
+              "@timestamp": "BST 14:04:19",
+              "@year": "2025",
+              "@month": "03"
+            }
+          },
+          "itemidlist": {
+            "itemid": [
+              {
+                "$": "2037964791",
+                "@idtype": "PUI"
+              },
+              {
+                "$": "963186017",
+                "@idtype": "CAR-ID"
+              },
+              {
+                "$": "20251218080361",
+                "@idtype": "CPX"
+              },
+              {
+                "$": "11117947",
+                "@idtype": "GEO"
+              },
+              {
+                "$": "20250870021",
+                "@idtype": "REAXYSCAR"
+              },
+              {
+                "$": "20251160474",
+                "@idtype": "SCOPUS"
+              },
+              {
+                "$": "963186017#77201499",
+                "@idtype": "SRC-OCC-ID"
+              },
+              {
+                "$": "105000332463",
+                "@idtype": "SCP"
+              },
+              {
+                "$": "105000332463",
+                "@idtype": "SGR"
+              }
+            ],
+            "ce:pii": "S0267726125001782",
+            "ce:ern": "pii:S0267726125001782",
+            "ce:doi": "10.1016/j.soildyn.2025.109385"
+          }
+        },
+        "tail": {
+          "bibliography": {
+            "@refcount": "37",
+            "reference": [
+              {
+                "ref-fulltext": "Su, Z., Li, Y., Zhong, H., Li, J., Guo, Z., Yang, X., Yang, S., Advancements in smoke control strategies for metro tunnel cross-passage: a theoretical and numerical study on critical velocity and driving force. Tunn Undergr Space Technol, 147, 2024, 105734, 10.1016/j.tust.2024.105734.",
+                "@reference-instance-id": "OB2BibRecID-963186017-027e39c73085719880d575f065dd0835-1",
+                "@id": "1",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Advancements in smoke control strategies for metro tunnel cross-passage: a theoretical and numerical study on critical velocity and driving force"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2024.105734",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib1",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105734",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85189513181",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "147"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Su",
+                        "ce:indexed-name": "Su Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhong",
+                        "ce:indexed-name": "Zhong H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li J."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Guo",
+                        "ce:indexed-name": "Guo Z."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang X."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn Undergr Space Technol"
+                },
+                "ce:source-text": "Su Z, Li Y, Zhong H, Li J, Guo Z, Yang X, Yang S. Advancements in smoke control strategies for metro tunnel cross-passage: A theoretical and numerical study on critical velocity and driving force. Tunn. Undergr. Space Technol. 2024;147:105734. https://doi.org/10.1016/j.tust.2024.105734"
+              },
+              {
+                "ref-fulltext": "JTG D70-2004. Code for design of road tunnel. 2004, Ministry of Transport of the People's Republic of China, Beijing.",
+                "@reference-instance-id": "OB2BibRecID-963186017-db12fb1c1f797951ee9e5e1685ae8e9f-2",
+                "@id": "2",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2004"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Code for design of road tunnel"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib2",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "29244453527",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Ministry of Transport of the People's Republic of China Beijing",
+                  "ref-authors": {
+                    "collaboration": {
+                      "@seq": "1",
+                      "ce:text": "JTG D70-2004",
+                      "ce:indexed-name": "JTG D70-2004"
+                    }
+                  }
+                },
+                "ce:source-text": "JTG D70-2004. Code for Design of Road Tunnel. Beijing: Ministry of Transport of the People's Republic of China, 2004."
+              },
+              {
+                "ref-fulltext": "ITA COSUF. Current practice on cross-passage design to support safety in rail and metro tunnels. 2019, International Tunnelling and Underground Space Association, Paris.",
+                "@reference-instance-id": "OB2BibRecID-963186017-ea5801c639f7e6e47aa1455b364186cc-3",
+                "@id": "3",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Current practice on cross-passage design to support safety in rail and metro tunnels"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib3",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85127503475",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "International Tunnelling and Underground Space Association Paris",
+                  "ref-authors": {
+                    "collaboration": {
+                      "@seq": "1",
+                      "ce:text": "ITA COSUF",
+                      "ce:indexed-name": "ITA COSUF"
+                    }
+                  }
+                },
+                "ce:source-text": "ITA COSUF. Current Practice on Cross-Passage Design to Support Safety in Rail and Metro Tunnels. Paris: International Tunnelling and Underground Space Association, 2019."
+              },
+              {
+                "ref-fulltext": "Jayasiri, N.S., Chao, K.C., Phien-Wej, N., et al. Design and analysis of tunnel cross-passage openings: 3D finite element analysis versus 3D shell-spring approach. Innov. Infrastruct. Solut., 7, 2022, 204, 10.1007/s41062-022-00204-3.",
+                "@reference-instance-id": "OB2BibRecID-963186017-e278b749eac54b0acfe207f62b9450e8-4",
+                "@id": "4",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Design and analysis of tunnel cross-passage openings: 3D finite element analysis versus 3D shell-spring approach"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s41062-022-00204-3",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib4",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85127535197",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "7"
+                    },
+                    "pagerange": {
+                      "@first": "204"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "N.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Jayasiri",
+                        "ce:indexed-name": "Jayasiri N.S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Chao",
+                        "ce:indexed-name": "Chao K.C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Phien-Wej",
+                        "ce:indexed-name": "Phien-Wej N."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Innov. Infrastruct. Solut."
+                },
+                "ce:source-text": "Jayasiri NS, Chao KC, Phien-Wej N, et al. Design and analysis of tunnel cross-passage openings: 3D finite element analysis versus 3D shell-spring approach. Innov. Infrastruct. Solut. 2022;7:204. https://doi.org/10.1007/s41062-022-00204-3"
+              },
+              {
+                "ref-fulltext": "Wright, P., Assessment of London Underground tube tunnels – investigation, monitoring and analysis. Smart Struct Syst 6 (2010), 239–262, 10.12989/sast.2010.239.",
+                "@reference-instance-id": "OB2BibRecID-963186017-c1380bb27f3c1e9546f1489e8c503f16-5",
+                "@id": "5",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Assessment of London Underground tube tunnels – investigation, monitoring and analysis"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.12989/sast.2010.239",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib5",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "77951926352",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "6"
+                    },
+                    "pagerange": {
+                      "@first": "239",
+                      "@last": "262"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Wright",
+                        "ce:indexed-name": "Wright P."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Smart Struct Syst"
+                },
+                "ce:source-text": "Wright P. Assessment of London Underground tube tunnels - investigation, monitoring and analysis. Smart Struct. Syst. 2010;6:239-262. https://doi.org/10.12989/sast.2010.239"
+              },
+              {
+                "ref-fulltext": "Yu, H., Chen, J., Yuan, Y., Seismic damage of mountain tunnels during the 5.12 Wenchuan earthquake. J Mt Sci 13 (2016), 1958–1972, 10.1007/s11629-016-4229-7.",
+                "@reference-instance-id": "OB2BibRecID-963186017-227d8d4acc95ed2e6bfec38a3599f54f-6",
+                "@id": "6",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic damage of mountain tunnels during the 5.12 Wenchuan earthquake"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s11629-016-4229-7",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib6",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84992390769",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "13"
+                    },
+                    "pagerange": {
+                      "@first": "1958",
+                      "@last": "1972"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Yuan",
+                        "ce:indexed-name": "Yuan Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Mt Sci"
+                },
+                "ce:source-text": "Yu H, Chen J, Yuan Y. Seismic damage of mountain tunnels during the 5.12 Wenchuan earthquake. J. Mt. Sci. 2016;13:1958-1972. https://doi.org/10.1007/s11629-016-4229-7"
+              },
+              {
+                "ref-fulltext": "Zhang, Z.Q., Xu, J., Wan, X.Y., Study on tunnel construction mechanics at intersection of horizontal adit and major tunnel in highway. Yantu Lixue/Rock Soil Mech 28:2 (2007), 247–252.",
+                "@reference-instance-id": "OB2BibRecID-963186017-68ba0994d643a306a55b85ade87ea819-7",
+                "@id": "7",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Study on tunnel construction mechanics at intersection of horizontal adit and major tunnel in highway"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib7",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "33947521658",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "28",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "247",
+                      "@last": "252"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Z.Q."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Wan",
+                        "ce:indexed-name": "Wan X.Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Yantu Lixue/Rock Soil Mech"
+                },
+                "ce:source-text": "Zhang ZQ, Xu J, Wan XY. Study on tunnel construction mechanics at intersection of horizontal adit and major tunnel in highway. Yantu Lixue/Rock Soil Mech. 2007;28(2):247-252."
+              },
+              {
+                "ref-fulltext": "Zhou, P.Y., Wang, J.B., Song, Z.P., Cao, Z.L., Pei, Z.M., Construction method optimization for transfer section between cross passage and main tunnel of metro station. Front Earth Sci, 10, 2022, 770888, 10.1007/s11707-022-0770888.",
+                "@reference-instance-id": "OB2BibRecID-963186017-10a402eb222c0abeeb64cc8c0788ab90-8",
+                "@id": "8",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Construction method optimization for transfer section between cross passage and main tunnel of metro station"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s11707-022-0770888",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib8",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "770888",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85127151631",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "10"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou P.Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang J.B."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Z.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Song",
+                        "ce:indexed-name": "Song Z.P."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Z.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Cao",
+                        "ce:indexed-name": "Cao Z.L."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Z.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Pei",
+                        "ce:indexed-name": "Pei Z.M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Front Earth Sci"
+                },
+                "ce:source-text": "Zhou PY, Wang JB, Song ZP, Cao ZL, Pei ZM. Construction method optimization for transfer section between cross passage and main tunnel of metro station. Front. Earth Sci. 2022;10:770888. https://doi.org/10.1007/s11707-022-0770888"
+              },
+              {
+                "ref-fulltext": "Chortis, F., Kavvadas, M., Three-dimensional numerical analyses of perpendicular tunnel intersections. Geotech Geol Eng 39:3 (2021), 1771–1793, 10.1007/s10706-021-02145-9.",
+                "@reference-instance-id": "OB2BibRecID-963186017-7cca7a6363ab797c8c39bde0598ee621-9",
+                "@id": "9",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Three-dimensional numerical analyses of perpendicular tunnel intersections"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s10706-021-02145-9",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib9",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85092256284",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "39",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "1771",
+                      "@last": "1793"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Chortis",
+                        "ce:indexed-name": "Chortis F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Kavvadas",
+                        "ce:indexed-name": "Kavvadas M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geotech Geol Eng"
+                },
+                "ce:source-text": "Chortis F, Kavvadas M. Three-dimensional numerical analyses of perpendicular tunnel intersections. Geotech. Geol. Eng. 2021;39(3):1771-1793. https://doi.org/10.1007/s10706-021-02145-9"
+              },
+              {
+                "ref-fulltext": "Li, Y., Jin, X., Lv, Z., Dong, J., Guo, J., Deformation and mechanical characteristics of tunnel lining in tunnel intersection between subway station tunnel and construction tunnel. Tunn Undergr Space Technol 56 (2016), 22–33, 10.1016/j.tust.2016.06.009.",
+                "@reference-instance-id": "OB2BibRecID-963186017-38a925c25b0abfa4d1f239fc021c542c-10",
+                "@id": "10",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Deformation and mechanical characteristics of tunnel lining in tunnel intersection between subway station tunnel and construction tunnel"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2016.06.009",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib10",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84960489555",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "56"
+                    },
+                    "pagerange": {
+                      "@first": "22",
+                      "@last": "33"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Jin",
+                        "ce:indexed-name": "Jin X."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Lv",
+                        "ce:indexed-name": "Lv Z."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Dong",
+                        "ce:indexed-name": "Dong J."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Guo",
+                        "ce:indexed-name": "Guo J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn Undergr Space Technol"
+                },
+                "ce:source-text": "Li Y, Jin X, Lv Z, Dong J, Guo J. Deformation and mechanical characteristics of tunnel lining in tunnel intersection between subway station tunnel and construction tunnel. Tunn. Undergr. Space Technol. 2016;56:22-33. https://doi.org/10.1016/j.tust.2016.06.009"
+              },
+              {
+                "ref-fulltext": "He, Y., He, C., Geng, P., Zhang, J., Dai, C., Zhang, Z., Shaking table test on seismic response of structure at shield tunnel and transverse passage. China J Highw Transp 30:8 (2017), 193–200, 10.1007/s11409-017-0420-y.",
+                "@reference-instance-id": "OB2BibRecID-963186017-663ea72da23ba605b5a16e3c9a806bc2-11",
+                "@id": "11",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Shaking table test on seismic response of structure at shield tunnel and transverse passage"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s11409-017-0420-y",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib11",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85030763277",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "30",
+                      "@issue": "8"
+                    },
+                    "pagerange": {
+                      "@first": "193",
+                      "@last": "200"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "He",
+                        "ce:indexed-name": "He Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "He",
+                        "ce:indexed-name": "He C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Geng",
+                        "ce:indexed-name": "Geng P."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang J."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Dai",
+                        "ce:indexed-name": "Dai C."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Z."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "China J Highw Transp"
+                },
+                "ce:source-text": "He Y, He C, Geng P, Zhang J, Dai C, Zhang Z. Shaking table test on seismic response of structure at shield tunnel and transverse passage. China J. Highw. Transp. 2017;30(8):193-200. https://doi.org/10.1007/s11409-017-0420-y"
+              },
+              {
+                "ref-fulltext": "He, H.X., Chen, K., Li, R.F., Seismic performances of replaceable steel connection with low yield point metal. Adv Mater Sci Eng, 2015(1), 2015, 134189, 10.1155/2015/134189.",
+                "@reference-instance-id": "OB2BibRecID-963186017-2911145b1c1a5a7018f553d962123786-12",
+                "@id": "12",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic performances of replaceable steel connection with low yield point metal"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1155/2015/134189",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib12",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "134189",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "84944240034",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "2015",
+                      "@issue": "1"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.X.",
+                        "@_fa": "true",
+                        "ce:surname": "He",
+                        "ce:indexed-name": "He H.X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen K."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "R.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li R.F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Adv Mater Sci Eng"
+                },
+                "ce:source-text": "He HX, Chen K, Li RF. Seismic performances of replaceable steel connection with low yield point metal. Adv. Mater. Sci. Eng. 2015; 2015(1): 134189. https://doi.org/10.1155/2015/134189"
+              },
+              {
+                "ref-fulltext": "Rabeti Moghadam, M., Baziar, M.H., Seismic ground motion amplification pattern induced by a subway tunnel: shaking table testing and numerical simulation. Soil Dynam Earthq Eng 83 (2016), 81–97, 10.1016/j.soildyn.2015.10.023.",
+                "@reference-instance-id": "OB2BibRecID-963186017-8b5837a8c6cd77dadd38294cbe469dc3-13",
+                "@id": "13",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic ground motion amplification pattern induced by a subway tunnel: shaking table testing and numerical simulation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.soildyn.2015.10.023",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib13",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84955596206",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "83"
+                    },
+                    "pagerange": {
+                      "@first": "81",
+                      "@last": "97"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Rabeti Moghadam",
+                        "ce:indexed-name": "Rabeti Moghadam M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Baziar",
+                        "ce:indexed-name": "Baziar M.H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dynam Earthq Eng"
+                },
+                "ce:source-text": "Rabeti Moghadam M, Baziar MH. Seismic ground motion amplification pattern induced by a subway tunnel: Shaking table testing and numerical simulation. Soil Dyn. Earthq. Eng. 2016;83:81-97. https://doi.org/10.1016/j.soildyn.2015.10.023"
+              },
+              {
+                "ref-fulltext": "Chen, M.S., Zou, M.Y., Zhu, L., Frequency-domain response analysis of adjacent multiple floaters with flexible connections. J Ship Mech 22:9 (2018), 1164–1180, 10.3969/j.issn.1007-7294.2018.09.011.",
+                "@reference-instance-id": "OB2BibRecID-963186017-9554c800219a26a114c629f9cc3c9e8d-14",
+                "@id": "14",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Frequency-domain response analysis of adjacent multiple floaters with flexible connections"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.3969/j.issn.1007-7294.2018.09.011",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib14",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85055467948",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "22",
+                      "@issue": "9"
+                    },
+                    "pagerange": {
+                      "@first": "1164",
+                      "@last": "1180"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen M.S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Zou",
+                        "ce:indexed-name": "Zou M.Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhu",
+                        "ce:indexed-name": "Zhu L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Ship Mech"
+                },
+                "ce:source-text": "Chen MS, Zou MY, Zhu L. Frequency-domain Response Analysis of Adjacent Multiple Floaters with Flexible Connections. Journal of Ship Mechanics. 2018;22(9):1164-1180. https://doi.org/10.3969/j.issn.1007-7294.2018.09.011"
+              },
+              {
+                "ref-fulltext": "Gul, O., Song, M., Gu, C.Y., Ahn, J., Lee, K., Ahn, J., Kim, H.J., Kim, T.S., Park, I., Bioinspired interfacial engineering for highly stretchable electronics. Nat Commun, 16(1), 2025, 1337, 10.1038/s41467-025-56502-9.",
+                "@reference-instance-id": "OB2BibRecID-963186017-4bd303b7634534b01dbab15245e57fb4-15",
+                "@id": "15",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2025"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Bioinspired interfacial engineering for highly stretchable electronics"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1038/s41467-025-56502-9",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib15",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85218055995",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "16",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "1337"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "O.",
+                        "@_fa": "true",
+                        "ce:surname": "Gul",
+                        "ce:indexed-name": "Gul O."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Song",
+                        "ce:indexed-name": "Song M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Gu",
+                        "ce:indexed-name": "Gu C.Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Ahn",
+                        "ce:indexed-name": "Ahn J."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee K."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Ahn",
+                        "ce:indexed-name": "Ahn J."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "H.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim H.J."
+                      },
+                      {
+                        "@seq": "8",
+                        "ce:initials": "T.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim T.S."
+                      },
+                      {
+                        "@seq": "9",
+                        "ce:initials": "I.",
+                        "@_fa": "true",
+                        "ce:surname": "Park",
+                        "ce:indexed-name": "Park I."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Nat Commun"
+                },
+                "ce:source-text": "Gul O, Song M, Gu CY, Ahn J, Lee K, Ahn J, Kim HJ, Kim TS, Park I. Bioinspired interfacial engineering for highly stretchable electronics. Nat. Commun. 2025;16(1):1337. https://doi.org/10.1038/s41467-025-56502-9"
+              },
+              {
+                "ref-fulltext": "Razavykia, A., Tahir, M.M., Faridmehr, I., Osman, M.H., An overview of the connection classification index. Adv Steel Constr 15:2 (2019), 145–156, 10.18057/IJASC.2019.15.2.4.",
+                "@reference-instance-id": "OB2BibRecID-963186017-f1e1ba614172765f28e15db6d3a5728a-16",
+                "@id": "16",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "An overview of the connection classification index"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.18057/IJASC.2019.15.2.4",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib16",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85070213526",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "15",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "145",
+                      "@last": "156"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Razavykia",
+                        "ce:indexed-name": "Razavykia A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Tahir",
+                        "ce:indexed-name": "Tahir M.M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "I.",
+                        "@_fa": "true",
+                        "ce:surname": "Faridmehr",
+                        "ce:indexed-name": "Faridmehr I."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "M.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Osman",
+                        "ce:indexed-name": "Osman M.H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Adv Steel Constr"
+                },
+                "ce:source-text": "Razavykia A, Tahir MM, Faridmehr I, Osman MH. An overview of the connection classification index. Adv. Steel Constr. 2019;15(2):145-156. https://doi.org/10.18057/IJASC.2019.15.2.4"
+              },
+              {
+                "ref-fulltext": "Hou, H.W., Wang, W., Feng, D.L., A quantitative classification criterion for beam-to-column rigid connections in steel braced frames. Eng Struct, 322(Part A), 2025, 119126, 10.1016/j.engstruct.2024.119126.",
+                "@reference-instance-id": "OB2BibRecID-963186017-76027c1bee4fd84e3730bc6acfcaf0c1-17",
+                "@id": "17",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2025"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A quantitative classification criterion for beam-to-column rigid connections in steel braced frames"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.engstruct.2024.119126",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib17",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "119126",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85206182790",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "322"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Hou",
+                        "ce:indexed-name": "Hou H.W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Feng",
+                        "ce:indexed-name": "Feng D.L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Eng Struct"
+                },
+                "ce:source-text": "Hou HW, Wang W, Feng DL. A quantitative classification criterion for beam-to-column rigid connections in steel braced frames. Eng. Struct. 2025;322(Part A):119126. https://doi.org/10.1016/j.engstruct.2024.119126"
+              },
+              {
+                "ref-fulltext": "Hashash, Y.M.A., Hook, J.J., Schmidt, B., Yao, J.I., Seismic design and analysis of underground structures. Tunn Undergr Space Technol 16:4 (2001), 247–293, 10.1016/S0886-7798(01)00011-7.",
+                "@reference-instance-id": "OB2BibRecID-963186017-b50aa881c293ff4f904c78a4b580712f-18",
+                "@id": "18",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2001"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic design and analysis of underground structures"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/S0886-7798(01)00011-7",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib18",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0035492228",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "16",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "247",
+                      "@last": "293"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.M.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Hashash",
+                        "ce:indexed-name": "Hashash Y.M.A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Hook",
+                        "ce:indexed-name": "Hook J.J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Schmidt",
+                        "ce:indexed-name": "Schmidt B."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.I.",
+                        "@_fa": "true",
+                        "ce:surname": "Yao",
+                        "ce:indexed-name": "Yao J.I."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn Undergr Space Technol"
+                },
+                "ce:source-text": "Hashash YMA, Hook JJ, Schmidt B, Yao JI. Seismic design and analysis of underground structures. Tunn. Undergr. Space Technol. 2001;16(4):247-293. https://doi.org/10.1016/S0886-7798(01)00011-7"
+              },
+              {
+                "ref-fulltext": "Zareie, S., Issa, A.S., Seethaler, R.J., Zabihollah, A., Recent advances in the applications of shape memory alloys in civil infrastructures: a review. Struct 27 (2020), 1535–1550, 10.1016/j.istruc.2020.07.001.",
+                "@reference-instance-id": "OB2BibRecID-963186017-321293161e51b3f1026a4fbc6512c257-19",
+                "@id": "19",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Recent advances in the applications of shape memory alloys in civil infrastructures: a review"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.istruc.2020.07.001",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib19",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85088960729",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "27"
+                    },
+                    "pagerange": {
+                      "@first": "1535",
+                      "@last": "1550"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Zareie",
+                        "ce:indexed-name": "Zareie S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Issa",
+                        "ce:indexed-name": "Issa A.S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "R.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Seethaler",
+                        "ce:indexed-name": "Seethaler R.J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Zabihollah",
+                        "ce:indexed-name": "Zabihollah A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Struct"
+                },
+                "ce:source-text": "Zareie S, Issa AS, Seethaler RJ, Zabihollah A. Recent advances in the applications of shape memory alloys in civil infrastructures: A review. Struct. 2020;27:1535-1550. https://doi.org/10.1016/j.istruc.2020.07.001"
+              },
+              {
+                "ref-fulltext": "DesRoches, R., McCormick, J., Delemont, M., Cyclic properties of superelastic shape memory alloy wires and bars. J Struct Eng 130:1 (2004), 38–46, 10.1061/(ASCE)0733-9445(2004)130:1(38.",
+                "@reference-instance-id": "OB2BibRecID-963186017-057fe983df18a52b2fcae635834680e5-20",
+                "@id": "20",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2004"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Cyclic properties of superelastic shape memory alloy wires and bars"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib20",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "10.1061/(ASCE)0733-9445(2004)130:1(38",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "3543150792",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "130",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "38",
+                      "@last": "46"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "DesRoches",
+                        "ce:indexed-name": "DesRoches R."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "McCormick",
+                        "ce:indexed-name": "McCormick J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Delemont",
+                        "ce:indexed-name": "Delemont M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Struct Eng"
+                },
+                "ce:source-text": "DesRoches R, McCormick J, Delemont M. Cyclic properties of superelastic shape memory alloy wires and bars. J. Struct. Eng. 2004;130(1):38-46. https://doi.org/10.1061/(ASCE)0733-9445(2004)130:1(38)"
+              },
+              {
+                "ref-fulltext": "Fang, C., SMAs for infrastructures in seismic zones: a critical review of latest trends and future needs. J Build Eng, 57, 2022, 104918, 10.1016/j.eng.2022.104918.",
+                "@reference-instance-id": "OB2BibRecID-963186017-2f5499fe905050634bc665e7e7a4f2f2-21",
+                "@id": "21",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "SMAs for infrastructures in seismic zones: a critical review of latest trends and future needs"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.eng.2022.104918",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib21",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "104918",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85133662839",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "57"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Fang",
+                        "ce:indexed-name": "Fang C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Build Eng"
+                },
+                "ce:source-text": "Fang C. SMAs for infrastructures in seismic zones: A critical review of latest trends and future needs. J. Build. Eng. 2022;57:104918. https://doi.org/10.1016/j.eng.2022.104918"
+              },
+              {
+                "ref-fulltext": "Ghafoori, E., Wang, B., Andrawes, B., Shape memory alloys for structural engineering: an editorial overview of research and future potentials. Eng Struct, 273, 2022, 115138, 10.1016/j.engstruct.2022.115138.",
+                "@reference-instance-id": "OB2BibRecID-963186017-9d1a05d1578c49c936e2b2db03854585-22",
+                "@id": "22",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Shape memory alloys for structural engineering: an editorial overview of research and future potentials"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.engstruct.2022.115138",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib22",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "115138",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85140081385",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "273"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Ghafoori",
+                        "ce:indexed-name": "Ghafoori E."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang B."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Andrawes",
+                        "ce:indexed-name": "Andrawes B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Eng Struct"
+                },
+                "ce:source-text": "Ghafoori E, Wang B, Andrawes B. Shape memory alloys for structural engineering: An editorial overview of research and future potentials. Eng. Struct. 2022;273:115138. https://doi.org/10.1016/j.engstruct.2022.115138"
+              },
+              {
+                "ref-fulltext": "Moss, R.E.S., Crosariol, V.A., Scale model shake table testing of an underground tunnel cross section in soft clay. Earthq Spectra 29:4 (2013), 1413–1440, 10.1193/1.4000080.",
+                "@reference-instance-id": "OB2BibRecID-963186017-762fc9c1b0383ef873a8de416d9fc58c-23",
+                "@id": "23",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Scale model shake table testing of an underground tunnel cross section in soft clay"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1193/1.4000080",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib23",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84904730315",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "29",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "1413",
+                      "@last": "1440"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.E.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Moss",
+                        "ce:indexed-name": "Moss R.E.S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "V.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Crosariol",
+                        "ce:indexed-name": "Crosariol V.A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Earthq Spectra"
+                },
+                "ce:source-text": "Moss RES, Crosariol VA. Scale model shake table testing of an underground tunnel cross section in soft clay. Earthq. Spectra. 2013;29(4):1413-1440. https://doi.org/10.1193/1.4000080"
+              },
+              {
+                "ref-fulltext": "Jaimin, Aarjoo, Kotkunde, Nitin, Singh, Swadesh Kumar, Saxena, Kuldeep Kumar, Studies on flow stress behaviour prediction of AZ31B alloy: microstructural evolution and fracture mechanism. J Mater Res Technol 27 (2023), 5541–5558, 10.1016/j.jmrt.2023.05.005.",
+                "@reference-instance-id": "OB2BibRecID-963186017-e24d3702bc3380a24f8abd258a189255-24",
+                "@id": "24",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Studies on flow stress behaviour prediction of AZ31B alloy: microstructural evolution and fracture mechanism"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.jmrt.2023.05.005",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib24",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85178929940",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "27"
+                    },
+                    "pagerange": {
+                      "@first": "5541",
+                      "@last": "5558"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "ce:given-name": "Aarjoo",
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Jaimin",
+                        "ce:indexed-name": "Jaimin A."
+                      },
+                      {
+                        "ce:given-name": "Nitin",
+                        "@seq": "2",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Kotkunde",
+                        "ce:indexed-name": "Kotkunde N."
+                      },
+                      {
+                        "ce:given-name": "Swadesh Kumar",
+                        "@seq": "3",
+                        "ce:initials": "S.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Singh",
+                        "ce:indexed-name": "Singh S.K."
+                      },
+                      {
+                        "ce:given-name": "Kuldeep Kumar",
+                        "@seq": "4",
+                        "ce:initials": "K.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Saxena",
+                        "ce:indexed-name": "Saxena K.K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Mater Res Technol"
+                },
+                "ce:source-text": "Aarjoo Jaimin, Nitin Kotkunde, Swadesh Kumar Singh, Kuldeep Kumar Saxena. Studies on flow stress behaviour prediction of AZ31B alloy: Microstructural evolution and fracture mechanism. Journal of Materials Research and Technology, 2023;27:5541-5558. https://doi.org/10.1016/j.jmrt.2023.05.005"
+              },
+              {
+                "ref-fulltext": "Shen, Y.S., Wang, Z.Z., Yu, J., Zhang, X., Gao, B., Shaking table test on flexible joints of mountain tunnels passing through normal fault. Tunn Undergr Space Technol, 98, 2020, 103299, 10.1016/j.tust.2020.103299.",
+                "@reference-instance-id": "OB2BibRecID-963186017-466699f76fea7ccd3bfbfbb588da6de8-25",
+                "@id": "25",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Shaking table test on flexible joints of mountain tunnels passing through normal fault"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2020.103299",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib25",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "103299",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85077946082",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "98"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Shen",
+                        "ce:indexed-name": "Shen Y.S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang Z.Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang X."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Gao",
+                        "ce:indexed-name": "Gao B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn Undergr Space Technol"
+                },
+                "ce:source-text": "Shen YS, Wang ZZ, Yu J, Zhang X, Gao B. Shaking table test on flexible joints of mountain tunnels passing through normal fault. Tunn. Undergr. Space Technol. 2020;98:103299. https://doi.org/10.1016/j.tust.2020.103299"
+              },
+              {
+                "ref-fulltext": "GB 18306-2015. Seismic ground motion parameters zonation map of China. Beijing: general administration of quality supervision, inspection and quarantine of the people's Republic of China. 2015, Standardization Administration of China (in Chinese).",
+                "@reference-instance-id": "OB2BibRecID-963186017-c0246ed8f92a3dab698dcfe46bdb07b9-26",
+                "@id": "26",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic ground motion parameters zonation map of China. Beijing: general administration of quality supervision, inspection and quarantine of the people's Republic of China"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib26",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105000308723",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Standardization Administration of China (in Chinese)",
+                  "ref-authors": {
+                    "collaboration": {
+                      "@seq": "1",
+                      "ce:text": "GB 18306-2015",
+                      "ce:indexed-name": "GB 18306-2015"
+                    }
+                  }
+                },
+                "ce:source-text": "GB 18306-2015. Seismic ground motion parameters zonation map of China. Beijing: General Administration of Quality Supervision, Inspection and Quarantine of the People's Republic of China; Standardization Administration of China, 2015. (in Chinese)"
+              },
+              {
+                "ref-fulltext": "Chen, Z.Y., Huang, P.F., Chen, W., Seismic response characteristics of multi-story subway station through shaking table test. Adv Struct Eng 24:10 (2021), 2185–2200, 10.1007/s11464-021-2200-y.",
+                "@reference-instance-id": "OB2BibRecID-963186017-d38666c39b1b3f10f6cd8f905b8037c8-27",
+                "@id": "27",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic response characteristics of multi-story subway station through shaking table test"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s11464-021-2200-y",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib27",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85101455241",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "24",
+                      "@issue": "10"
+                    },
+                    "pagerange": {
+                      "@first": "2185",
+                      "@last": "2200"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen Z.Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "P.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang P.F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Adv Struct Eng"
+                },
+                "ce:source-text": "Chen ZY, Huang PF, Chen W. Seismic response characteristics of multi-story subway station through shaking table test. Adv. Struct. Eng. 2021:24(10):2185-2200. https://doi.org/10.1007/s11464-021-2200-y"
+              },
+              {
+                "ref-fulltext": "Lee, S.H., Choo, Y.W., Kim, D.S., Performance of an equivalent shear beam (ESB) model container for dynamic geotechnical centrifuge tests. Soil Dynam Earthq Eng 44 (2013), 102–114, 10.1016/j.soildyn.2012.10.005.",
+                "@reference-instance-id": "OB2BibRecID-963186017-1f3b1950b9e1dda129083ac959199800-28",
+                "@id": "28",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Performance of an equivalent shear beam (ESB) model container for dynamic geotechnical centrifuge tests"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.soildyn.2012.10.005",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib28",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84867617159",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "44"
+                    },
+                    "pagerange": {
+                      "@first": "102",
+                      "@last": "114"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee S.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Choo",
+                        "ce:indexed-name": "Choo Y.W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim D.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dynam Earthq Eng"
+                },
+                "ce:source-text": "Lee SH, Choo YW, Kim DS. Performance of an equivalent shear beam (ESB) model container for dynamic geotechnical centrifuge tests. Soil Dynamics and Earthquake Engineering, 2013;44:102-114. https://doi.org/10.1016/j.soildyn.2012.10.005"
+              },
+              {
+                "ref-fulltext": "Lunne, T., Robertson, P.K., Powell, J.J.M., Cone penetration testing in geotechnical practice. 1997, Blackie Academic & Professional, London.",
+                "@reference-instance-id": "OB2BibRecID-963186017-c8bd16c6c250262dfc39f7252cec5739-29",
+                "@id": "29",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1997"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Cone penetration testing in geotechnical practice"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib29",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0004069777",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Blackie Academic & Professional London",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Lunne",
+                        "ce:indexed-name": "Lunne T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "P.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Robertson",
+                        "ce:indexed-name": "Robertson P.K."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.J.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Powell",
+                        "ce:indexed-name": "Powell J.J.M."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Lunne T, Robertson PK, Powell JJM. Cone penetration testing in geotechnical practice. London: Blackie Academic & Professional, 1997."
+              },
+              {
+                "ref-fulltext": "Mayne, P.W., Peuchen, J.C., CPTu bearing factor Nkt for undrained strength evaluation in clays. Proceedings of the fourth international symposium on cone penetration testing (CPT2018), 2018, Delft.",
+                "@reference-instance-id": "OB2BibRecID-963186017-753daaac8717c3d572da7bd718cc7c15-30",
+                "@id": "30",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "CPTu bearing factor Nkt for undrained strength evaluation in clays"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib30",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85102277585",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Delft",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Mayne",
+                        "ce:indexed-name": "Mayne P.W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Peuchen",
+                        "ce:indexed-name": "Peuchen J.C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Proceedings of the fourth international symposium on cone penetration testing (CPT2018)"
+                },
+                "ce:source-text": "Mayne PW, Peuchen JC. CPTu bearing factor Nkt for undrained strength evaluation in clays. Proceedings of the Fourth International Symposium on Cone Penetration Testing (CPT2018). Delft, 2018."
+              },
+              {
+                "ref-fulltext": "Tan, Y., Wei, B., Observed behaviors of a long and deep excavation constructed by cut-and-cover technique in Shanghai soft clay. J Geotech Geoenviron Eng 138:1 (2012), 69–88, 10.1061/(ASCE)GT.1943-5606.0000629.",
+                "@reference-instance-id": "OB2BibRecID-963186017-acb0bc44009bf0cf662557cfa3e117ab-31",
+                "@id": "31",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Observed behaviors of a long and deep excavation constructed by cut-and-cover technique in Shanghai soft clay"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1061/(ASCE)GT.1943-5606.0000629",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib31",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84856212017",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "138",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "69",
+                      "@last": "88"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Tan",
+                        "ce:indexed-name": "Tan Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Wei",
+                        "ce:indexed-name": "Wei B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Geotech Geoenviron Eng"
+                },
+                "ce:source-text": "Tan Y, Wei B. Observed Behaviors of a Long and Deep Excavation Constructed by Cut-and-Cover Technique in Shanghai Soft Clay. Journal of Geotechnical & Geoenvironmental Engineering, 2012;138(1):69-88. https://doi.org/10.1061/(ASCE)GT.1943-5606.0000629"
+              },
+              {
+                "ref-fulltext": "Wang, J.H., Xu, Z.H., Wang, W.D., Wall and ground movements due to deep excavations in Shanghai soft soils. J Geotech Geoenviron Eng 136:7 (2010), 985–994, 10.1061/(ASCE)GT.1943-5606.0000333.",
+                "@reference-instance-id": "OB2BibRecID-963186017-6c29d6c3c084d40ed32d4c6d81d9bfc7-32",
+                "@id": "32",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Wall and ground movements due to deep excavations in Shanghai soft soils"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1061/(ASCE)GT.1943-5606.0000333",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib32",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "77955615306",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "136",
+                      "@issue": "7"
+                    },
+                    "pagerange": {
+                      "@first": "985",
+                      "@last": "994"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang J.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu Z.H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "W.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang W.D."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Geotech Geoenviron Eng"
+                },
+                "ce:source-text": "Wang JH, Xu ZH, Wang WD. Wall and Ground Movements due to Deep Excavations in Shanghai Soft Soils. Journal of Geotechnical and Geoenvironmental Engineering, 2010;136(7):985-994. https://doi.org/10.1061/(ASCE)GT.1943-5606.0000333"
+              },
+              {
+                "ref-fulltext": "Cheng, X.L., Li, Q.Q., Hai, R., Guo, S.S., Xing, X.F., Research progress and prospects of seismic performance on underground structure embedded in soft soil foundation. Sci Rep, 14(1), 2024, 21883, 10.1038/s41598-024-21883.",
+                "@reference-instance-id": "OB2BibRecID-963186017-ddbcf5facf9ad06ad531c1358dc5a417-33",
+                "@id": "33",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Research progress and prospects of seismic performance on underground structure embedded in soft soil foundation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1038/s41598-024-21883",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib33",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "21883",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85204471064",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "14",
+                      "@issue": "1"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Cheng",
+                        "ce:indexed-name": "Cheng X.L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Q.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li Q.Q."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Hai",
+                        "ce:indexed-name": "Hai R."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "S.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Guo",
+                        "ce:indexed-name": "Guo S.S."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "X.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Xing",
+                        "ce:indexed-name": "Xing X.F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Sci Rep"
+                },
+                "ce:source-text": "Cheng XL, Li QQ, Hai R, Guo SS, Xing XF. Research progress and prospects of seismic performance on underground structure embedded in soft soil foundation. Sci. Rep. 2024;14(1):21883. https://doi.org/10.1038/s41598-024-21883"
+              },
+              {
+                "ref-fulltext": "Yan, G.Y., Xu, C.S., Zhang, Z.H., Du, X.L., Wang, X.L., Numerical analysis on seismic performance of underground structures in liquefiable interlayer sites from centrifuge shaking table test. Earthq Eng Eng Vib 23:24 (2024), 781–798, 10.1007/s11803-024-07798.",
+                "@reference-instance-id": "OB2BibRecID-963186017-cd89201e6eb85052b545929db29d8a30-34",
+                "@id": "34",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Numerical analysis on seismic performance of underground structures in liquefiable interlayer sites from centrifuge shaking table test"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s11803-024-07798",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib34",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85206218227",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "23",
+                      "@issue": "24"
+                    },
+                    "pagerange": {
+                      "@first": "781",
+                      "@last": "798"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Yan",
+                        "ce:indexed-name": "Yan G.Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu C.S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Z.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Z.H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "X.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Du",
+                        "ce:indexed-name": "Du X.L."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "X.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang X.L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Earthq Eng Eng Vib"
+                },
+                "ce:source-text": "Yan GY, Xu CS, Zhang ZH, Du XL, Wang XL. Numerical analysis on seismic performance of underground structures in liquefiable interlayer sites from centrifuge shaking table test. Earthquake Engineering and Engineering Vibration. 2024;23(24):781-798. https://doi.org/10.1007/s11803-024-07798"
+              },
+              {
+                "ref-fulltext": "Chen, Q.J., Zhang, T.Y., Hong, N., Huang, B., Seismic performance of a subway station-tunnel junction structure: a shaking table investigation and numerical analysis. KSCE J Civ Eng 25:5 (2021), 1653–1669, 10.1007/s12205-021-01669-y.",
+                "@reference-instance-id": "OB2BibRecID-963186017-4fb612c6355cbe9d6aad5b0dd7e74d7c-35",
+                "@id": "35",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic performance of a subway station-tunnel junction structure: a shaking table investigation and numerical analysis"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s12205-021-01669-y",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib35",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85101775079",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "25",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "1653",
+                      "@last": "1669"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Q.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen Q.J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang T.Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Hong",
+                        "ce:indexed-name": "Hong N."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "KSCE J Civ Eng"
+                },
+                "ce:source-text": "Chen QJ, Zhang TY, Hong N, Huang B. Seismic Performance of a Subway Station-Tunnel Junction Structure: A Shaking Table Investigation and Numerical Analysis. KSCE J. Civ. Eng. 2021;25(5):1653-1669. https://doi.org/10.1007/s12205-021-01669-y"
+              },
+              {
+                "ref-fulltext": "Khalil, L., Sadek, M., Shahrour, I., Influence of the soil-structure interaction on the fundamental period of buildings. Earthq Eng Struct D 36:15 (2007), 2445–2453, 10.1002/eqe.738.",
+                "@reference-instance-id": "OB2BibRecID-963186017-bea7c11f4dae9aa0426c1954bc307df0-36",
+                "@id": "36",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Influence of the soil-structure interaction on the fundamental period of buildings"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1002/eqe.738",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib36",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "36749055263",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "36",
+                      "@issue": "15"
+                    },
+                    "pagerange": {
+                      "@first": "2445",
+                      "@last": "2453"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Khalil",
+                        "ce:indexed-name": "Khalil L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Sadek",
+                        "ce:indexed-name": "Sadek M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "I.",
+                        "@_fa": "true",
+                        "ce:surname": "Shahrour",
+                        "ce:indexed-name": "Shahrour I."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Earthq Eng Struct D"
+                },
+                "ce:source-text": "Khalil L, Sadek M, Shahrour I. Influence of the soil-structure interaction on the fundamental period of buildings. EARTHQ ENG STRUCT D. 2007;36(15):2445-2453. https://doi.org/10.1002/eqe.738"
+              },
+              {
+                "ref-fulltext": "Forcellini, D.A., Novel framework to assess soil structure interaction (SSI) effects with equivalent fixed-based models. Appl Sci, 11(21), 2021, 10472, 10.3390/app112110472.",
+                "@reference-instance-id": "OB2BibRecID-963186017-626954fb687c522bb09c97db441a4212-37",
+                "@id": "37",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Novel framework to assess soil structure interaction (SSI) effects with equivalent fixed-based models"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.3390/app112110472",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib37",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "10472",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85118922796",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "11",
+                      "@issue": "21"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Forcellini",
+                        "ce:indexed-name": "Forcellini D.A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Appl Sci"
+                },
+                "ce:source-text": "Forcellini D. A Novel Framework to Assess Soil Structure Interaction (SSI) Effects with Equivalent Fixed-Based Models. Appl. Sci. 2021;11(21):10472. https://doi.org/10.3390/app112110472"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "affiliation": [
+      {
+        "affiliation-city": "Shanghai",
+        "@id": "60073652",
+        "affilname": "Tongji University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073652",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Shanghai",
+        "@id": "60129289",
+        "affilname": "Key Laboratory of Geotechnical and Underground Engineering, Ministry of Education",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60129289",
+        "affiliation-country": "China"
+      }
+    ],
+    "coredata": {
+      "srctype": "j",
+      "eid": "2-s2.0-105000332463",
+      "dc:description": "Traffic tunnels normally have cross-passages between parallel tunnels with close proximity to facilitate materials/human transportation and evacuation. It is obviously essential to maintain the structural integrity and functionality of cross passages under extreme conditions, such as seismic events. Due to the spatial configuration of the cross passage, its connection to running tunnels would be a key point to its seismic response and the subject of research in terms of enhancing the seismic resilience. This study adopted centrifugal model tests to investigate three types of connections with different rigidities and their influences on seismic performance of tunnel-cross passage structures in subway systems: flexible connections, rigid connections, and Shape Memory Alloy (SMA) connections, reflecting respectively cast-in-site concrete, segment assembling, and an innovative connection. The results indicated that regardless of the connection method used, the maximum strain at the tunnel-cross passage junction consistently occurs at the middle of the junction. The flexible connection exhibited a significantly lower maximum strain compared to the rigid connection, while the rigid connection demonstrated a higher degree of structural integrity. The SMA connection, with its energy absorption and dissipation capabilities, maintained structural integrity comparable to that of the rigid connection while exhibiting a lower maximum strain and significantly reducing stress concentration in localized areas of the tunnel-cross passage structure.",
+      "prism:coverDate": "2025-07-01",
+      "prism:aggregationType": "Journal",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105000332463",
+      "subtypeDescription": "Article",
+      "dc:creator": {
+        "author": [
+          {
+            "ce:given-name": "Xianfeng",
+            "preferred-name": {
+              "ce:given-name": "Xianfeng",
+              "ce:initials": "X.",
+              "ce:surname": "Ma",
+              "ce:indexed-name": "Ma X."
+            },
+            "@seq": "1",
+            "ce:initials": "X.",
+            "@_fa": "true",
+            "affiliation": [
+              {
+                "@id": "60073652",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073652"
+              },
+              {
+                "@id": "60129289",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60129289"
+              }
+            ],
+            "ce:surname": "Ma",
+            "@auid": "59222989300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/59222989300",
+            "ce:indexed-name": "Ma X."
+          }
+        ]
+      },
+      "link": [
+        {
+          "@_fa": "true",
+          "@rel": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105000332463"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105000332463&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105000332463&origin=inward"
+        }
+      ],
+      "prism:publicationName": "Soil Dynamics and Earthquake Engineering",
+      "source-id": "28960",
+      "pii": "S0267726125001782",
+      "citedby-count": "3",
+      "prism:volume": "194",
+      "subtype": "ar",
+      "dc:title": "Seismic response of cross-passages between parallel tunnels with varied connection rigidities in centrifuge model tests",
+      "openaccess": "0",
+      "openaccessFlag": "false",
+      "prism:doi": "10.1016/j.soildyn.2025.109385",
+      "prism:issn": "02677261",
+      "publishercopyright": "© 2025 Elsevier Ltd",
+      "article-number": "109385",
+      "dc:identifier": "SCOPUS_ID:105000332463",
+      "dc:publisher": "Elsevier Ltd"
+    },
+    "idxterms": {
+      "mainterm": [
+        {
+          "$": "Centrifugal modeling test",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Cross passages",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Flexible connections",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Maximum strains",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Memory alloy",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Parallel tunnels",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Rigid connection",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Seismic Performance",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Shape memory alloy connection",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Shape-memory",
+          "@weight": "b",
+          "@candidate": "n"
+        }
+      ]
+    },
+    "language": {
+      "@xml:lang": "eng"
+    },
+    "authkeywords": {
+      "author-keyword": [
+        {
+          "@_fa": "true",
+          "$": "Centrifugal model test"
+        },
+        {
+          "@_fa": "true",
+          "$": "Cross-passage"
+        },
+        {
+          "@_fa": "true",
+          "$": "Earthquake"
+        },
+        {
+          "@_fa": "true",
+          "$": "Seismic performance"
+        },
+        {
+          "@_fa": "true",
+          "$": "Shape memory alloy connection"
+        }
+      ]
+    },
+    "subject-areas": {
+      "subject-area": [
+        {
+          "@_fa": "true",
+          "$": "Civil and Structural Engineering",
+          "@code": "2205",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Geotechnical Engineering and Engineering Geology",
+          "@code": "1909",
+          "@abbrev": "EART"
+        },
+        {
+          "@_fa": "true",
+          "$": "Soil Science",
+          "@code": "1111",
+          "@abbrev": "AGRI"
+        }
+      ]
+    },
+    "authors": {
+      "author": [
+        {
+          "ce:given-name": "Xianfeng",
+          "preferred-name": {
+            "ce:given-name": "Xianfeng",
+            "ce:initials": "X.",
+            "ce:surname": "Ma",
+            "ce:indexed-name": "Ma X."
+          },
+          "@seq": "1",
+          "ce:initials": "X.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "60073652",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073652"
+            },
+            {
+              "@id": "60129289",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60129289"
+            }
+          ],
+          "ce:surname": "Ma",
+          "@auid": "59222989300",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59222989300",
+          "ce:indexed-name": "Ma X."
+        },
+        {
+          "ce:given-name": "Guohang",
+          "preferred-name": {
+            "ce:given-name": "Guohang",
+            "ce:initials": "G.",
+            "ce:surname": "Tang",
+            "ce:indexed-name": "Tang G."
+          },
+          "@seq": "2",
+          "ce:initials": "G.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "60073652",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073652"
+            },
+            {
+              "@id": "60129289",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60129289"
+            }
+          ],
+          "ce:surname": "Tang",
+          "@auid": "58303552200",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58303552200",
+          "ce:indexed-name": "Tang G."
+        },
+        {
+          "ce:given-name": "Chiyuan",
+          "preferred-name": {
+            "ce:given-name": "Chiyuan",
+            "ce:initials": "C.",
+            "ce:surname": "Ma",
+            "ce:indexed-name": "Ma C."
+          },
+          "@seq": "3",
+          "ce:initials": "C.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "60073652",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073652"
+            },
+            {
+              "@id": "60129289",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60129289"
+            }
+          ],
+          "ce:surname": "Ma",
+          "@auid": "59414183100",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59414183100",
+          "ce:indexed-name": "Ma C."
+        },
+        {
+          "ce:given-name": "Haihua",
+          "preferred-name": {
+            "ce:given-name": "Haihua",
+            "ce:initials": "H.",
+            "ce:surname": "Zhang",
+            "ce:indexed-name": "Zhang H."
+          },
+          "@seq": "4",
+          "ce:initials": "H.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "60073652",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073652"
+            },
+            {
+              "@id": "60129289",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60129289"
+            }
+          ],
+          "ce:surname": "Zhang",
+          "@auid": "55792893900",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55792893900",
+          "ce:indexed-name": "Zhang H."
+        }
+      ]
+    }
+  }
+}

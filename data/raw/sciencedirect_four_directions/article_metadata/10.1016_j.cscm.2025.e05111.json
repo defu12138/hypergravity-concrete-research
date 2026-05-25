@@ -1,0 +1,4339 @@
+{
+  "abstracts-retrieval-response": {
+    "item": {
+      "ait:process-info": {
+        "ait:status": {
+          "@state": "update",
+          "@type": "core",
+          "@stage": "S300"
+        },
+        "ait:date-delivered": {
+          "@day": "20",
+          "@timestamp": "2026-02-20T03:57:46.000046-05:00",
+          "@year": "2026",
+          "@month": "02"
+        },
+        "ait:date-sort": {
+          "@day": "01",
+          "@year": "2025",
+          "@month": "12"
+        }
+      },
+      "xocs:meta": {
+        "xocs:funding-list": {
+          "@pui-match": "primary",
+          "@has-funding-info": "1",
+          "xocs:funding": [
+            {
+              "xocs:funding-agency-matched-string": "Priority Academic Program Development of Jiangsu Higher Education Institutions",
+              "xocs:funding-agency-acronym": "PAPD",
+              "xocs:funding-agency": "Priority Academic Program Development of Jiangsu Higher Education Institutions",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100012246",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Ningbo Major Science and Technology",
+              "xocs:funding-id": "2022Z030"
+            }
+          ],
+          "xocs:funding-addon-generated-timestamp": "2025-08-01T00:28:19.573Z",
+          "xocs:funding-text": "I hereby express gratitude for the financial support of the Science and Technology Innovation 2025 Major Special Project (Ningbo Major Science and Technology Task Tackling Project), 2022Z030, the Priority Academic Program Development of Jiangsu Higher Education Institutions (PAPD).",
+          "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }
+      },
+      "bibrecord": {
+        "head": {
+          "author-group": [
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "211816",
+                "@afid": "60025441",
+                "@country": "chn",
+                "city": "Nanjing",
+                "organization": [
+                  {
+                    "$": "College of Materials Science and Engineering"
+                  },
+                  {
+                    "$": "Nanjing Tech University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60025441",
+                  "@dptid": "110105126"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-966357340-0b93b13636bc26a023ad86dd261f4ead-1",
+                "ce:source-text": "College of Materials Science and Engineering, Nanjing Tech University, Nanjing 211816, China",
+                "@dptid": "110105126"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Yu",
+                  "preferred-name": {
+                    "ce:given-name": "Yu",
+                    "ce:initials": "Y.",
+                    "ce:surname": "Wang",
+                    "ce:indexed-name": "Wang Y."
+                  },
+                  "@author-instance-id": "OB2BibRecID-966357340-90b909ad567ee5e0ec9257a192a65861-1",
+                  "@seq": "1",
+                  "ce:initials": "Y.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Wang",
+                  "@auid": "59757099400",
+                  "@orcid": "0000-0002-5000-8962",
+                  "ce:indexed-name": "Wang Y."
+                },
+                {
+                  "ce:given-name": "Yinglei",
+                  "preferred-name": {
+                    "ce:given-name": "Yinglei",
+                    "ce:initials": "Y.",
+                    "ce:surname": "Wang",
+                    "ce:indexed-name": "Wang Y."
+                  },
+                  "@author-instance-id": "OB2BibRecID-966357340-00712487832c6ca5c8aef22c3db1f654-1",
+                  "@seq": "2",
+                  "ce:initials": "Y.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Wang",
+                  "@auid": "59510308400",
+                  "ce:indexed-name": "Wang Y."
+                },
+                {
+                  "ce:given-name": "Zhuqing",
+                  "preferred-name": {
+                    "ce:given-name": "Zhuqing",
+                    "ce:initials": "Z.",
+                    "ce:surname": "Yu",
+                    "ce:indexed-name": "Yu Z."
+                  },
+                  "@author-instance-id": "OB2BibRecID-966357340-d4cc82a4979c6877d93a197c7afe0ad9-1",
+                  "@seq": "4",
+                  "ce:initials": "Z.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Yu",
+                  "@auid": "15926455800",
+                  "ce:indexed-name": "Yu Z."
+                },
+                {
+                  "ce:given-name": "Min",
+                  "preferred-name": {
+                    "ce:given-name": "Min",
+                    "ce:initials": "M.",
+                    "ce:surname": "Deng",
+                    "ce:indexed-name": "Deng M."
+                  },
+                  "@author-instance-id": "OB2BibRecID-966357340-f7aea3f17a5bc648440d40f9636eed54-1",
+                  "@seq": "5",
+                  "ce:initials": "M.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Deng",
+                  "@auid": "59939391600",
+                  "ce:indexed-name": "Deng M."
+                },
+                {
+                  "ce:given-name": "Anqun",
+                  "preferred-name": {
+                    "ce:given-name": "Anqun",
+                    "ce:initials": "A.",
+                    "ce:surname": "Lu",
+                    "ce:indexed-name": "Lu A."
+                  },
+                  "@author-instance-id": "OB2BibRecID-966357340-7b9adcb0fddd96296f4c00618a589043-1",
+                  "@seq": "6",
+                  "ce:initials": "A.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Lu",
+                  "@auid": "55899553300",
+                  "ce:indexed-name": "Lu A."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "315000",
+                "@afid": "115545504",
+                "@country": "chn",
+                "city": "Ningbo",
+                "organization": {
+                  "$": "Ningbo ZCONE High-tech Holdings Co. Ltd"
+                },
+                "affiliation-id": {
+                  "@afid": "115545504"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-966357340-db5bbc5e6740973d9f670eccf4baedb0-1",
+                "ce:source-text": "Ningbo ZCONE High-tech Holdings Co. Ltd., Ningbo 315000, China"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Rihong",
+                  "preferred-name": {
+                    "ce:given-name": "Rihong",
+                    "ce:initials": "R.",
+                    "ce:surname": "Zhang",
+                    "ce:indexed-name": "Zhang R."
+                  },
+                  "@author-instance-id": "OB2BibRecID-966357340-80465c47ef0deeba3abda8c7b4cc6218-1",
+                  "@seq": "3",
+                  "ce:initials": "R.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Zhang",
+                  "@auid": "24170522300",
+                  "ce:indexed-name": "Zhang R."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "31500",
+                "@afid": "60031419",
+                "@country": "chn",
+                "city": "Ningbo",
+                "organization": [
+                  {
+                    "$": "Faculty of Architectural"
+                  },
+                  {
+                    "$": "Civil Engineering and Environment"
+                  },
+                  {
+                    "$": "Ningbo University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60031419",
+                  "@dptid": "104596266"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-966357340-5b226520a2201f72bcfe68271c4af432-1",
+                "ce:source-text": "Faculty of Architectural, Civil Engineering and Environment, Ningbo University, Ningbo 31500, China",
+                "@dptid": "104596266"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Rihong",
+                  "preferred-name": {
+                    "ce:given-name": "Rihong",
+                    "ce:initials": "R.",
+                    "ce:surname": "Zhang",
+                    "ce:indexed-name": "Zhang R."
+                  },
+                  "@author-instance-id": "OB2BibRecID-966357340-80465c47ef0deeba3abda8c7b4cc6218-1",
+                  "@seq": "3",
+                  "ce:initials": "R.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Zhang",
+                  "@auid": "24170522300",
+                  "ce:indexed-name": "Zhang R."
+                },
+                {
+                  "ce:given-name": "Jiajin",
+                  "preferred-name": {
+                    "ce:given-name": "Jiajin",
+                    "ce:initials": "J.",
+                    "ce:surname": "Zhou",
+                    "ce:indexed-name": "Zhou J."
+                  },
+                  "@author-instance-id": "OB2BibRecID-966357340-d72a156b2a0c5b38354be22a128517df-1",
+                  "@seq": "7",
+                  "ce:initials": "J.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Zhou",
+                  "@auid": "55892732100",
+                  "ce:indexed-name": "Zhou J."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "211816",
+                "@afid": "60025441",
+                "@country": "chn",
+                "city": "Nanjing",
+                "organization": {
+                  "$": "State Key Laboratory of Materials-Oriented Chemical Engineering"
+                },
+                "affiliation-id": {
+                  "@afid": "60025441"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-966357340-1b2426388f872c81467483972f900446-1",
+                "ce:source-text": "State Key Laboratory of Materials-Oriented Chemical Engineering, Nanjing 211816, China"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Zhuqing",
+                  "preferred-name": {
+                    "ce:given-name": "Zhuqing",
+                    "ce:initials": "Z.",
+                    "ce:surname": "Yu",
+                    "ce:indexed-name": "Yu Z."
+                  },
+                  "@author-instance-id": "OB2BibRecID-966357340-d4cc82a4979c6877d93a197c7afe0ad9-1",
+                  "@seq": "4",
+                  "ce:initials": "Z.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Yu",
+                  "@auid": "15926455800",
+                  "ce:indexed-name": "Yu Z."
+                },
+                {
+                  "ce:given-name": "Min",
+                  "preferred-name": {
+                    "ce:given-name": "Min",
+                    "ce:initials": "M.",
+                    "ce:surname": "Deng",
+                    "ce:indexed-name": "Deng M."
+                  },
+                  "@author-instance-id": "OB2BibRecID-966357340-f7aea3f17a5bc648440d40f9636eed54-1",
+                  "@seq": "5",
+                  "ce:initials": "M.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Deng",
+                  "@auid": "59939391600",
+                  "ce:indexed-name": "Deng M."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "210008",
+                "@afid": "113018390",
+                "@country": "chn",
+                "city": "Nanjing",
+                "organization": {
+                  "$": "State Key Laboratory of High Performance Civil Engineering Materials"
+                },
+                "affiliation-id": {
+                  "@afid": "113018390"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-966357340-6c3a272396803c9e89fa224941aaab4e-1",
+                "ce:source-text": "State Key Laboratory of High Performance Civil Engineering Materials, Nanjing 210008, China"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Anqun",
+                  "preferred-name": {
+                    "ce:given-name": "Anqun",
+                    "ce:initials": "A.",
+                    "ce:surname": "Lu",
+                    "ce:indexed-name": "Lu A."
+                  },
+                  "@author-instance-id": "OB2BibRecID-966357340-7b9adcb0fddd96296f4c00618a589043-1",
+                  "@seq": "6",
+                  "ce:initials": "A.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Lu",
+                  "@auid": "55899553300",
+                  "ce:indexed-name": "Lu A."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "310058",
+                "@afid": "60003970",
+                "@country": "chn",
+                "city": "Hangzhou",
+                "organization": [
+                  {
+                    "$": "Research Center of Coastal and Urban Geotechnical Engineering"
+                  },
+                  {
+                    "$": "Zhejiang University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60003970",
+                  "@dptid": "113377968"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-966357340-7cf689e8e26c6906dbe84bacc52a9141-1",
+                "ce:source-text": "Research Center of Coastal and Urban Geotechnical Engineering, Zhejiang University, Hangzhou 310058, China",
+                "@dptid": "113377968"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Jiajin",
+                  "preferred-name": {
+                    "ce:given-name": "Jiajin",
+                    "ce:initials": "J.",
+                    "ce:surname": "Zhou",
+                    "ce:indexed-name": "Zhou J."
+                  },
+                  "@author-instance-id": "OB2BibRecID-966357340-d72a156b2a0c5b38354be22a128517df-1",
+                  "@seq": "7",
+                  "ce:initials": "J.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Zhou",
+                  "@auid": "55892732100",
+                  "ce:indexed-name": "Zhou J."
+                }
+              ]
+            }
+          ],
+          "citation-title": "Durability of prestressed high-strength concrete (PHC) piles in landfill leachate: Corrosion behavior, microstructural evolution, and structural integrity assessment",
+          "abstracts": "© 2025 The AuthorsThis study investigates the corrosion behavior of prestressed high-strength concrete (PHC) piles in the aggressive environment of landfill leachate, with a focus on mechanisms and durability implications. Through accelerated corrosion tests simulating 50 years of service, the research reveals a critical overlooked factor in traditional durability analyses: the uneven layered microstructure of PHC piles induced by centrifugal force during manufacturing. Chloride ion concentration in concrete progressively increased to 0.065–0.072 % post-corrosion, accompanied by a corrosion potential drop to −341 mV. Despite minor surface rusting of reinforcement, the tensile strength of prestressed steel bars decreased by only 2 %, while concrete retained compressive strengths of 79.0–80.1 MPa-still meeting design specifications. Advanced analyses (XRD, SEM, MIP, X-CT) identified ettringite formation and a distinct pore gradient between inner and outer concrete layers, a direct result of centrifugal casting. The outer layer exhibited lower porosity (3.59–3.70 %) compared to inner regions (4.86–5.90 %), enhancing resistance to ion ingress. Finite element analysis confirmed that PHC piles maintained structural stability under design loads, with post-corrosion effective stress at 51.79 MPa and a safety margin of 21.11 MPa. These results demonstrate that the centrifugally induced layered microstructure plays a critical role in mitigating corrosion propagation. The findings provide a revised durability evaluation paradigm for PHC piles and offer scientifically grounded criteria for landfill foundation design.",
+          "correspondence": {
+            "affiliation": {
+              "country": "China",
+              "postal-code": "211816",
+              "@country": "chn",
+              "city": "Nanjing",
+              "organization": [
+                {
+                  "$": "College of Materials Science and Engineering"
+                },
+                {
+                  "$": "Nanjing Tech University"
+                }
+              ],
+              "@affiliation-instance-id": "OB2BibRecID-966357340-81602e7f829b3e9b6bfbcc9e51c907e1-1"
+            },
+            "person": {
+              "ce:given-name": "Zhuqing",
+              "@author-instance-id": "OB2BibRecID-966357340-2b95e1826b98fe32af6a53df95f083af-1",
+              "ce:initials": "Z.",
+              "ce:surname": "Yu",
+              "ce:indexed-name": "Yu Z."
+            }
+          },
+          "citation-info": {
+            "author-keywords": {
+              "author-keyword": [
+                {
+                  "$": "Accelerated corrosion",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Finite element analysis",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Landfill leachate",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Microstructure",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Prestressed concrete",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                }
+              ]
+            },
+            "citation-type": {
+              "@code": "ar"
+            },
+            "citation-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "abstract-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            }
+          },
+          "source": {
+            "website": {
+              "ce:e-address": {
+                "$": "https://www.sciencedirect.com/science/journal/22145095",
+                "@type": "email"
+              }
+            },
+            "translated-sourcetitle": {
+              "$": "Case Studies in Construction Materials",
+              "@xml:lang": "eng"
+            },
+            "volisspag": {
+              "voliss": {
+                "@volume": "23"
+              }
+            },
+            "@type": "j",
+            "sourcetitle": "Case Studies in Construction Materials",
+            "publicationdate": {
+              "month": "12",
+              "year": "2025",
+              "date-text": "December 2025",
+              "day": "01"
+            },
+            "sourcetitle-abbrev": "Case Stud. Constr. Mater.",
+            "@country": "gbr",
+            "issn": {
+              "$": "22145095",
+              "@type": "print"
+            },
+            "publicationyear": {
+              "@first": "2025"
+            },
+            "publisher": {
+              "publishername": "Elsevier Ltd"
+            },
+            "article-number": "e05111",
+            "@srcid": "21100296223"
+          },
+          "enhancement": {
+            "classificationgroup": {
+              "classifications": [
+                {
+                  "@type": "CPXCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "1501.3.1",
+                      "classification-description": "Recycling Waste"
+                    },
+                    {
+                      "classification-code": "201.4.2",
+                      "classification-description": "Foundry Practice"
+                    },
+                    {
+                      "classification-code": "201.9.1",
+                      "classification-description": "Metals Corrosion"
+                    },
+                    {
+                      "classification-code": "202.5.3",
+                      "classification-description": "Steel"
+                    },
+                    {
+                      "classification-code": "214",
+                      "classification-description": "Materials Science"
+                    },
+                    {
+                      "classification-code": "214.1",
+                      "classification-description": "Mechanical Properties of Materials"
+                    },
+                    {
+                      "classification-code": "217.2",
+                      "classification-description": "Concrete"
+                    },
+                    {
+                      "classification-code": "408",
+                      "classification-description": "Structural Design"
+                    },
+                    {
+                      "classification-code": "408.1",
+                      "classification-description": "Structural Members and Shapes"
+                    },
+                    {
+                      "classification-code": "802.3",
+                      "classification-description": "Chemical Operations"
+                    }
+                  ]
+                },
+                {
+                  "@type": "FLXCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "78.23",
+                      "classification-description": "MIXING AND SEPARATION"
+                    },
+                    {
+                      "classification-code": "78.26",
+                      "classification-description": "CORROSION"
+                    },
+                    {
+                      "classification-code": "79.26",
+                      "classification-description": "WASTEWATER AND OTHER EFFLUENT/LIQUID WASTE ENGIN."
+                    }
+                  ]
+                },
+                {
+                  "@type": "ASJC",
+                  "classification": "2501"
+                },
+                {
+                  "@type": "SUBJABBR",
+                  "classification": "MATE"
+                }
+              ]
+            }
+          },
+          "grantlist": {
+            "@complete": "y",
+            "grant-text": {
+              "$": "I hereby express gratitude for the financial support of the Science and Technology Innovation 2025 Major Special Project (Ningbo Major Science and Technology Task Tackling Project), 2022Z030, the Priority Academic Program Development of Jiangsu Higher Education Institutions (PAPD).",
+              "@xml:lang": "eng"
+            },
+            "grant": {
+              "grant-acronym": "PAPD",
+              "grant-agency": {
+                "@iso-code": "chn",
+                "$": "Priority Academic Program Development of Jiangsu Higher Education Institutions"
+              },
+              "grant-agency-id": "501100012246"
+            }
+          }
+        },
+        "item-info": {
+          "copyright": {
+            "$": "Copyright 2025 Elsevier B.V., All rights reserved.",
+            "@type": "Elsevier"
+          },
+          "dbcollection": [
+            {
+              "$": "CPX"
+            },
+            {
+              "$": "REAXYSCAR"
+            },
+            {
+              "$": "SCOPUS"
+            },
+            {
+              "$": "SNCPX"
+            },
+            {
+              "$": "Scopusbase"
+            }
+          ],
+          "history": {
+            "date-created": {
+              "@day": "31",
+              "@timestamp": "BST 11:12:40",
+              "@year": "2025",
+              "@month": "07"
+            }
+          },
+          "itemidlist": {
+            "itemid": [
+              {
+                "$": "2039791853",
+                "@idtype": "PUI"
+              },
+              {
+                "$": "966357340",
+                "@idtype": "CAR-ID"
+              },
+              {
+                "$": "20253118889249",
+                "@idtype": "CPX"
+              },
+              {
+                "$": "20252272256",
+                "@idtype": "REAXYSCAR"
+              },
+              {
+                "$": "20253187826",
+                "@idtype": "SCOPUS"
+              },
+              {
+                "$": "2025089175",
+                "@idtype": "SNCPX"
+              },
+              {
+                "$": "966357340#338246199",
+                "@idtype": "SRC-OCC-ID"
+              },
+              {
+                "$": "105011845211",
+                "@idtype": "SCP"
+              },
+              {
+                "$": "105011845211",
+                "@idtype": "SGR"
+              }
+            ],
+            "ce:pii": "S221450952500909X",
+            "ce:ern": "pii:S221450952500909X",
+            "ce:doi": "10.1016/j.cscm.2025.e05111"
+          }
+        },
+        "tail": {
+          "bibliography": {
+            "@refcount": "48",
+            "reference": [
+              {
+                "ref-fulltext": "Feng, W., Evaluation of macro- and meso-mechanical properties of concrete under the aggressiveness of landfill leachate. Sci. Rep., 12(1), 2022, 3976.",
+                "@reference-instance-id": "OB2BibRecID-966357340-357761ac9a132329dd9863271591a771-1",
+                "@id": "1",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Evaluation of macro- and meso-mechanical properties of concrete under the aggressiveness of landfill leachate"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib1",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85126211887",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "12",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "3976"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Feng",
+                        "ce:indexed-name": "Feng W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Sci. Rep."
+                },
+                "ce:source-text": "W. Feng. Evaluation of macro- and meso-mechanical properties of concrete under the aggressiveness of landfill leachate. Sci. Rep., 12(1) (2022) 3976."
+              },
+              {
+                "ref-fulltext": "Teng, C., Zhou, K., Peng, C., Chen, W., Characterization and treatment of landfill leachate: a review. Water Res, 203, 2021, 117525.",
+                "@reference-instance-id": "OB2BibRecID-966357340-bf7a47108c4e07c11288e0781a06e6e5-2",
+                "@id": "2",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Characterization and treatment of landfill leachate: a review"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib2",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "117525",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85112223558",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "203"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Teng",
+                        "ce:indexed-name": "Teng C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou K."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Peng",
+                        "ce:indexed-name": "Peng C."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Water Res"
+                },
+                "ce:source-text": "C. Teng, K. Zhou, C. Peng, W. Chen. Characterization and treatment of landfill leachate: A review. Water Res., 203 (2021) 117525."
+              },
+              {
+                "ref-fulltext": "Chan, T.K., Poh, C.K., Behaviour of precast reinforced concrete pile caps. Constr. Build. Mater. 14:2 (2000), 73–78.",
+                "@reference-instance-id": "OB2BibRecID-966357340-17956a7647997efb3f3945ab6e8fd9bc-3",
+                "@id": "3",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2000"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Behaviour of precast reinforced concrete pile caps"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib3",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0033742378",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "14",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "73",
+                      "@last": "78"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Chan",
+                        "ce:indexed-name": "Chan T.K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Poh",
+                        "ce:indexed-name": "Poh C.K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "T.K. Chan, C.K. Poh. Behaviour of precast reinforced concrete pile caps. Constr. Build. Mater., 14(2) (2000) 73-78."
+              },
+              {
+                "ref-fulltext": "Saeed, T., Miah, M., Majed, N., Hasan, M., Khan, T., Pollutant removal from landfill leachate employing two-stage constructed wetland mesocosms: co-treatment with municipal sewage. Environ. Sci. Pollut. Res. Int. 27:22 (2020), 28316–28332.",
+                "@reference-instance-id": "OB2BibRecID-966357340-430f1ebd5cdda7396d4defda4896dea8-4",
+                "@id": "4",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Pollutant removal from landfill leachate employing two-stage constructed wetland mesocosms: co-treatment with municipal sewage"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib4",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85084707320",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "27",
+                      "@issue": "22"
+                    },
+                    "pagerange": {
+                      "@first": "28316",
+                      "@last": "28332"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Saeed",
+                        "ce:indexed-name": "Saeed T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Miah",
+                        "ce:indexed-name": "Miah M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Majed",
+                        "ce:indexed-name": "Majed N."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Hasan",
+                        "ce:indexed-name": "Hasan M."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Khan",
+                        "ce:indexed-name": "Khan T."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Environ. Sci. Pollut. Res. Int."
+                },
+                "ce:source-text": "T. Saeed, M. Miah, N. Majed, M. Hasan, T. Khan. Pollutant removal from landfill leachate employing two-stage constructed wetland mesocosms: co-treatment with municipal sewage. Environ. Sci. Pollut. Res. Int., 27(22) (2020) 28316-28332."
+              },
+              {
+                "ref-fulltext": "Yu, X., Hu, T., Khodadadi, N., Liu, J., Nanni, A., Predictive and experimental assessment of chloride ion permeation in concrete subjected to multi-factorial conditions using the XGBoost algorithm. J. Build. Eng., 98, 2024, 111041.",
+                "@reference-instance-id": "OB2BibRecID-966357340-6df7b81b286e2fbad1ef5ca6d1cae91d-5",
+                "@id": "5",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Predictive and experimental assessment of chloride ion permeation in concrete subjected to multi-factorial conditions using the XGBoost algorithm"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib5",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "111041",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85206251043",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "98"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Hu",
+                        "ce:indexed-name": "Hu T."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Khodadadi",
+                        "ce:indexed-name": "Khodadadi N."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu J."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Nanni",
+                        "ce:indexed-name": "Nanni A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Build. Eng."
+                },
+                "ce:source-text": "X. Yu, T. Hu, N. Khodadadi, J. Liu, A. Nanni. Predictive and experimental assessment of chloride ion permeation in concrete subjected to multi-factorial conditions using the XGBoost algorithm. J. Build. Eng., 98 (2024) 111041."
+              },
+              {
+                "ref-fulltext": "Li, W., Chen, Z., Qin, G., Lian, S., Yao, G., Lin, J., Luo, S., Huang, P., Equivalent thickness method of CFRP in chloride ion diffusion equation for CFRP–strengthened RC members and its load capacity assessment method. J. Build. Eng., 98, 2024, 111283.",
+                "@reference-instance-id": "OB2BibRecID-966357340-bac707a0ceddb1c52997e8a253721a6f-6",
+                "@id": "6",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Equivalent thickness method of CFRP in chloride ion diffusion equation for CFRP–strengthened RC members and its load capacity assessment method"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib6",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "111283",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85209642783",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "98"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Qin",
+                        "ce:indexed-name": "Qin G."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Lian",
+                        "ce:indexed-name": "Lian S."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Yao",
+                        "ce:indexed-name": "Yao G."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Lin",
+                        "ce:indexed-name": "Lin J."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Luo",
+                        "ce:indexed-name": "Luo S."
+                      },
+                      {
+                        "@seq": "8",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang P."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Build. Eng."
+                },
+                "ce:source-text": "W. Li, Z. Chen, G. Qin, S. Lian, G. Yao, J. Lin, S. Luo, P. Huang. Equivalent thickness method of CFRP in chloride ion diffusion equation for CFRP–strengthened RC members and its load capacity assessment method. J. Build. Eng., 98 (2024) 111283."
+              },
+              {
+                "ref-fulltext": "Yang, J., Zhang, R., Xue, Y., Wang, X., Dou, X., Song, Y., Damage evolution and life prediction of concrete in sulfate corrosion environments in Northwest China. J. Build. Eng., 97, 2024, 110909.",
+                "@reference-instance-id": "OB2BibRecID-966357340-196016cbc3c9e8e7b7194d81478b6111-7",
+                "@id": "7",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Damage evolution and life prediction of concrete in sulfate corrosion environments in Northwest China"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib7",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "110909",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85205472027",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "97"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang R."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Xue",
+                        "ce:indexed-name": "Xue Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang X."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Dou",
+                        "ce:indexed-name": "Dou X."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Song",
+                        "ce:indexed-name": "Song Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Build. Eng."
+                },
+                "ce:source-text": "J. Yang, R. Zhang, Y. Xue, X. Wang, X. Dou, Y. Song. Damage evolution and life prediction of concrete in sulfate corrosion environments in Northwest China.J. Build. Eng., 97 (2024) 110909."
+              },
+              {
+                "ref-fulltext": "Xia, W., Wang, G., Ge, T., Bai, E., Qin, L., Zhao, J., Liu, G., Dynamic compression mechanical behavior and strength prediction modeling of sulfate attacked concrete under triaxial static pre-loading. J. Build. Eng., 100, 2025, 111784.",
+                "@reference-instance-id": "OB2BibRecID-966357340-59be1526abbb9f47cae148f98afb7df7-8",
+                "@id": "8",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2025"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Dynamic compression mechanical behavior and strength prediction modeling of sulfate attacked concrete under triaxial static pre-loading"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib8",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "111784",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85214502358",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "100"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Xia",
+                        "ce:indexed-name": "Xia W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang G."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Ge",
+                        "ce:indexed-name": "Ge T."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Bai",
+                        "ce:indexed-name": "Bai E."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Qin",
+                        "ce:indexed-name": "Qin L."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao J."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Build. Eng."
+                },
+                "ce:source-text": "W. Xia, G. Wang, T. Ge, E. Bai, L. Qin, J. Zhao, G. Liu. Dynamic compression mechanical behavior and strength prediction modeling of sulfate attacked concrete under triaxial static pre-loading. J. Build. Eng., 100 (2025) 111784."
+              },
+              {
+                "ref-fulltext": "Wang, L., Zhuo, W., He, T., Wan, M., Pan, X., Li, Y., Yang, Z., Insights into microbial actions on hydraulic concrete structures: effects of ammonia and sulfate on community structure, function and biofilm morphology. J. Environ. Sci., 2024.",
+                "@reference-instance-id": "OB2BibRecID-966357340-21f1206b8da97ac5277ad84ec2dfe823-9",
+                "@id": "9",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Insights into microbial actions on hydraulic concrete structures: effects of ammonia and sulfate on community structure, function and biofilm morphology"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib9",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105008540965",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhuo",
+                        "ce:indexed-name": "Zhuo W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "He",
+                        "ce:indexed-name": "He T."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Wan",
+                        "ce:indexed-name": "Wan M."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Pan",
+                        "ce:indexed-name": "Pan X."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li Y."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang Z."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Environ. Sci."
+                },
+                "ce:source-text": "L. Wang, W. Zhuo, T. He, M. Wan, X. Pan, Y. Li, Z. Yang. Insights into microbial actions on hydraulic concrete structures: Effects of ammonia and sulfate on community structure, function and biofilm morphology. J. Environ. Sci., (2024)."
+              },
+              {
+                "ref-fulltext": "Burchill, W., Reville, F., Misselbrook, T.H., Connell, C.O., Lanigan, G.J., Ammonia emissions and mitigation from a concrete yard used by cattle. Biosyst. Eng. 184 (2019), 181–189.",
+                "@reference-instance-id": "OB2BibRecID-966357340-13e80889a27a3cb16d499d9fb0a5e37f-10",
+                "@id": "10",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Ammonia emissions and mitigation from a concrete yard used by cattle"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib10",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85068079044",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "184"
+                    },
+                    "pagerange": {
+                      "@first": "181",
+                      "@last": "189"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Burchill",
+                        "ce:indexed-name": "Burchill W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Reville",
+                        "ce:indexed-name": "Reville F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "T.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Misselbrook",
+                        "ce:indexed-name": "Misselbrook T.H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "C.O.",
+                        "@_fa": "true",
+                        "ce:surname": "Connell",
+                        "ce:indexed-name": "Connell C.O."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "G.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Lanigan",
+                        "ce:indexed-name": "Lanigan G.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Biosyst. Eng."
+                },
+                "ce:source-text": "W. Burchill, F. Reville, T.H. Misselbrook, C.O.'Connell, G.J. Lanigan. Ammonia emissions and mitigation from a concrete yard used by cattle. Biosyst. Eng., 184 (2019) 181-189."
+              },
+              {
+                "ref-fulltext": "Nassar, R., Soroushian, P., Ghebrab, T., Sufyan, M., Development and evaluation of mixture formulations to enhance concrete resistance to microbial-induced corrosion. Res. Mater., 24, 2024, 100644.",
+                "@reference-instance-id": "OB2BibRecID-966357340-4156e00e7d7f7d84f7b5648c0897e4e5-11",
+                "@id": "11",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Development and evaluation of mixture formulations to enhance concrete resistance to microbial-induced corrosion"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib11",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "100644",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85209098241",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "24"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Nassar",
+                        "ce:indexed-name": "Nassar R."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Soroushian",
+                        "ce:indexed-name": "Soroushian P."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Ghebrab",
+                        "ce:indexed-name": "Ghebrab T."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Sufyan",
+                        "ce:indexed-name": "Sufyan M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Res. Mater."
+                },
+                "ce:source-text": "R. Nassar, P. Soroushian, T. Ghebrab, M. Sufyan. Development and evaluation of mixture formulations to enhance concrete resistance to microbial-induced corrosion. Res. Mater., 24 (2024) 100644."
+              },
+              {
+                "ref-fulltext": "Feng, S., Zhao, Y., Zhang, X., Bai, Z., Leachate leakage investigation, assessment and engineering countermeasures for tunneling underneath a MSW landfill. Eng. Geol., 265, 2020, 105447.",
+                "@reference-instance-id": "OB2BibRecID-966357340-69b92dcecc17a17b9ce9ff5a34bbdae2-12",
+                "@id": "12",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Leachate leakage investigation, assessment and engineering countermeasures for tunneling underneath a MSW landfill"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib12",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105447",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85075930407",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "265"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Feng",
+                        "ce:indexed-name": "Feng S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang X."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Bai",
+                        "ce:indexed-name": "Bai Z."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Eng. Geol."
+                },
+                "ce:source-text": "S. Feng, Y. Zhao, X. Zhang, Z. Bai. Leachate leakage investigation, assessment and engineering countermeasures for tunneling underneath a MSW landfill. Eng. Geol., 265 (2020) 105447."
+              },
+              {
+                "ref-fulltext": "Liu, Y., Cheng, Z., Chen, A.Y., Geng, Y., Zhang, K., Zhu, N., Skitmore, M., Cai, B., Zhang, X., Lou, Z., Big disparities in CH4emission patterns from landfills between the United States and China and their behind driving forces. Fundam. Res. 5:2 (2022), 734–739.",
+                "@reference-instance-id": "OB2BibRecID-966357340-f4200305343f81739f505147689a18c3-13",
+                "@id": "13",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Big disparities in CH4emission patterns from landfills between the United States and China and their behind driving forces"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib13",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105001400610",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "5",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "734",
+                      "@last": "739"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Cheng",
+                        "ce:indexed-name": "Cheng Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen A.Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Geng",
+                        "ce:indexed-name": "Geng Y."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang K."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhu",
+                        "ce:indexed-name": "Zhu N."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Skitmore",
+                        "ce:indexed-name": "Skitmore M."
+                      },
+                      {
+                        "@seq": "8",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Cai",
+                        "ce:indexed-name": "Cai B."
+                      },
+                      {
+                        "@seq": "9",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang X."
+                      },
+                      {
+                        "@seq": "10",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Lou",
+                        "ce:indexed-name": "Lou Z."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Fundam. Res."
+                },
+                "ce:source-text": "Y. Liu, Z. Cheng, A.Y. Chen, Y. Geng, K. Zhang, N. Zhu, M. Skitmore, B. Cai, X. Zhang, Z. Lou. Big disparities in CH4 emission patterns from landfills between the United States and China and their behind driving forces. Fundamental Research, 5(2) (2022) 734-739."
+              },
+              {
+                "ref-fulltext": "Yao, D., Jia, J., Wu, F., Yu, F., Shear performance of prestressed ultra high strength concrete encased steel beams. Constr. Build. Mater. 52 (2014), 194–201.",
+                "@reference-instance-id": "OB2BibRecID-966357340-361e2a5f65744f1bc5d37e311672522d-14",
+                "@id": "14",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Shear performance of prestressed ultra high strength concrete encased steel beams"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib14",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84890089172",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "52"
+                    },
+                    "pagerange": {
+                      "@first": "194",
+                      "@last": "201"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Yao",
+                        "ce:indexed-name": "Yao D."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Jia",
+                        "ce:indexed-name": "Jia J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu F."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "D. Yao, J. Jia, F. Wu, F. Yu. Shear performance of prestressed ultra high strength concrete encased steel beams. Constr. Build. Mater., 52 (2014) 194-201."
+              },
+              {
+                "ref-fulltext": "Yan, Q., Chen, T., Xie, Z., Seismic experimental study on a precast concrete beam-column connection with grout sleeves. Eng. Struct. 155 (2018), 330–344.",
+                "@reference-instance-id": "OB2BibRecID-966357340-04b89c7a5f061508f77a99b97b095ebd-15",
+                "@id": "15",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic experimental study on a precast concrete beam-column connection with grout sleeves"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib15",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85034572723",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "155"
+                    },
+                    "pagerange": {
+                      "@first": "330",
+                      "@last": "344"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Yan",
+                        "ce:indexed-name": "Yan Q."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen T."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Xie",
+                        "ce:indexed-name": "Xie Z."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Eng. Struct."
+                },
+                "ce:source-text": "Q. Yan, T. Chen, Z. Xie. Seismic experimental study on a precast concrete beam-column connection with grout sleeves. Eng. Struct., 155 (2018) 330-344."
+              },
+              {
+                "ref-fulltext": "Stoll, F., E. Saliba, J., E. Casper, L., Experimental study of CFRP-prestressed high-strength concrete bridge beams. Com. Struct. 49:2 (2000), 191–200.",
+                "@reference-instance-id": "OB2BibRecID-966357340-539e269f11fcb06b220a20e93c011b34-16",
+                "@id": "16",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2000"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental study of CFRP-prestressed high-strength concrete bridge beams"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib16",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0033996195",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "49",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "191",
+                      "@last": "200"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Stoll",
+                        "ce:indexed-name": "Stoll F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "E. Saliba",
+                        "ce:indexed-name": "E. Saliba J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "E. Casper",
+                        "ce:indexed-name": "E. Casper L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Com. Struct."
+                },
+                "ce:source-text": "F. Stoll, J. E. Saliba, L. E. Casper. Experimental study of CFRP-prestressed high-strength concrete bridge beams. Com. Struct., 49(2) (2000) 191-200."
+              },
+              {
+                "ref-fulltext": "Han, X., Du, Z., Wang, P., Zhang, R., Gao, J., Ling, Z., Wei, D., Multi-scale microstructure quantitative characterization and anti-erosion performance of PHC pipe pile. Constr. Build. Mater., 406, 2023, 133464.",
+                "@reference-instance-id": "OB2BibRecID-966357340-0b618fcc06b0a2ea5ae3d6c6a0ab10f4-17",
+                "@id": "17",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Multi-scale microstructure quantitative characterization and anti-erosion performance of PHC pipe pile"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib17",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "133464",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85172317714",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "406"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Han",
+                        "ce:indexed-name": "Han X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Du",
+                        "ce:indexed-name": "Du Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang P."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang R."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Gao",
+                        "ce:indexed-name": "Gao J."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Ling",
+                        "ce:indexed-name": "Ling Z."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Wei",
+                        "ce:indexed-name": "Wei D."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "X. Han, Z. Du, P. Wang, R. Zhang, J. Gao, Z. Ling, D. Wei. Multi-scale microstructure quantitative characterization and anti-erosion performance of PHC pipe pile. Constr. Build. Mater., 406 (2023) 133464."
+              },
+              {
+                "ref-fulltext": "Liu, Z., Bu, L., Wang, Z., Hu, G., Durability and microstructure of steam cured and autoclaved PHC pipe piles. Constr. Build. Mater. 209 (2019), 679–689.",
+                "@reference-instance-id": "OB2BibRecID-966357340-15a44b91302129b0fddc0b0679f21392-18",
+                "@id": "18",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Durability and microstructure of steam cured and autoclaved PHC pipe piles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib18",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85063036827",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "209"
+                    },
+                    "pagerange": {
+                      "@first": "679",
+                      "@last": "689"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Bu",
+                        "ce:indexed-name": "Bu L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang Z."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Hu",
+                        "ce:indexed-name": "Hu G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "Z. Liu, L. Bu, Z. Wang, G. Hu. Durability and microstructure of steam cured and autoclaved PHC pipe piles. Constr. Build. Mater., 209 (2019) 679-689."
+              },
+              {
+                "ref-fulltext": "Lawrence, C., Mortar expansions due to delayed ettringite formation. Effects of curing period and temperature. Cem. Conf. Res. 25:4 (1995), 903–914.",
+                "@reference-instance-id": "OB2BibRecID-966357340-667274a45906329b4f66c70f291514ac-19",
+                "@id": "19",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1995"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Mortar expansions due to delayed ettringite formation. Effects of curing period and temperature"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib19",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0029305077",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "25",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "903",
+                      "@last": "914"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Lawrence",
+                        "ce:indexed-name": "Lawrence C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Conf. Res."
+                },
+                "ce:source-text": "C. Lawrence. Mortar expansions due to delayed ettringite formation. Effects of curing period and temperature. Cem. Con. Res., 25(4) (1995) 903-914."
+              },
+              {
+                "ref-fulltext": "Alhozaimy, A., Jaafar, M., Al-Negheimish, A., Abdullah, A., Taufiq-Yap, Y., Noorzaei, J., Alawad, O., Properties of high strength concrete using white and dune sands under normal and autoclaved curing. Constr. Build. Mater. 27:1 (2012), 218–222.",
+                "@reference-instance-id": "OB2BibRecID-966357340-df75cc1901b0319e71446c0e911dc212-20",
+                "@id": "20",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Properties of high strength concrete using white and dune sands under normal and autoclaved curing"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib20",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "80755163489",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "27",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "218",
+                      "@last": "222"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Alhozaimy",
+                        "ce:indexed-name": "Alhozaimy A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Jaafar",
+                        "ce:indexed-name": "Jaafar M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Al-Negheimish",
+                        "ce:indexed-name": "Al-Negheimish A."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Abdullah",
+                        "ce:indexed-name": "Abdullah A."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Taufiq-Yap",
+                        "ce:indexed-name": "Taufiq-Yap Y."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Noorzaei",
+                        "ce:indexed-name": "Noorzaei J."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "O.",
+                        "@_fa": "true",
+                        "ce:surname": "Alawad",
+                        "ce:indexed-name": "Alawad O."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "A. Alhozaimy, M. Jaafar, A. Al-Negheimish, A. Abdullah, Y. Taufiq-Yap, J. Noorzaei, O. Alawad. Properties of high strength concrete using white and dune sands under normal and autoclaved curing. Constr. Build. Mater., 27(1) (2012) 218-222."
+              },
+              {
+                "ref-fulltext": "Liu, F., Feng, W., Xiong, Z., Li, L., Yang, Y., Lin, H., Shen, Y., Impact performance of new prestressed high-performance concrete pipe piles manufactured with an environmentally friendly technique. J. Clean. Prod. 231 (2019), 683–697.",
+                "@reference-instance-id": "OB2BibRecID-966357340-0dfaa2d3f5caed9a98e0b94e1b843037-21",
+                "@id": "21",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Impact performance of new prestressed high-performance concrete pipe piles manufactured with an environmentally friendly technique"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib21",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85067083592",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "231"
+                    },
+                    "pagerange": {
+                      "@first": "683",
+                      "@last": "697"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Feng",
+                        "ce:indexed-name": "Feng W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Xiong",
+                        "ce:indexed-name": "Xiong Z."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li L."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang Y."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Lin",
+                        "ce:indexed-name": "Lin H."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Shen",
+                        "ce:indexed-name": "Shen Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Clean. Prod."
+                },
+                "ce:source-text": "F. Liu, W. Feng, Z. Xiong, L. Li, Y. Yang, H. Lin, Y. Shen. Impact performance of new prestressed high-performance concrete pipe piles manufactured with an environmentally friendly technique. J. Cleaner Prod., 231 (2019) 683-697."
+              },
+              {
+                "ref-fulltext": "Shi, J., Liu, B., Zhou, F., Shen, S., Dai, J., Ji, R., Tan, J., Heat damage of concrete surfaces under steam curing and improvement measures. Constr. Build. Mater., 252, 2020, 119104.",
+                "@reference-instance-id": "OB2BibRecID-966357340-ea86e1807764119214ff8518c1c6c81e-22",
+                "@id": "22",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Heat damage of concrete surfaces under steam curing and improvement measures"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib22",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "119104",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85082959233",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "252"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu B."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou F."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Shen",
+                        "ce:indexed-name": "Shen S."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Dai",
+                        "ce:indexed-name": "Dai J."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Ji",
+                        "ce:indexed-name": "Ji R."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Tan",
+                        "ce:indexed-name": "Tan J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "J. Shi, B. Liu, F. Zhou, S. Shen, J. Dai, R. Ji, J. Tan. Heat damage of concrete surfaces under steam curing and improvement measures. Constr. Build. Mater., 252 (2020) 119104."
+              },
+              {
+                "ref-fulltext": "Tatsuya, Y., Masafumi, S., Shinjiro, M., Characteristic of prestressing steel bars in pretensioned spun concrete piles with age of 32 years. Proc. Jpn. Conf. Inst. 23 (2001), 667–672.",
+                "@reference-instance-id": "OB2BibRecID-966357340-53dc18ae249c36c4f2ace538970f5a48-23",
+                "@id": "23",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2001"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Characteristic of prestressing steel bars in pretensioned spun concrete piles with age of 32 years"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib23",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85214736788",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "23"
+                    },
+                    "pagerange": {
+                      "@first": "667",
+                      "@last": "672"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Tatsuya",
+                        "ce:indexed-name": "Tatsuya Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Masafumi",
+                        "ce:indexed-name": "Masafumi S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Shinjiro",
+                        "ce:indexed-name": "Shinjiro M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Proc. Jpn. Conf. Inst."
+                },
+                "ce:source-text": "Y. Tatsuya, S. Masafumi, M. Shinjiro, Characteristic of prestressing steel bars in pretensioned spun concrete piles with age of 32 years. Proc. Jap. Con. Inst., 23, (2001) 667-672."
+              },
+              {
+                "ref-fulltext": "Eiji, Y., Yoshihiro, I., Eizabro, O., Characteristic of prestressing steel bars in pretensioned spun concrete piles with age of 16 years. Proc. Jpn. Conf. Inst. 9 (1987), 345–350.",
+                "@reference-instance-id": "OB2BibRecID-966357340-d240a1e6e1bd0f1c041a4e837ae2f02d-24",
+                "@id": "24",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1987"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Characteristic of prestressing steel bars in pretensioned spun concrete piles with age of 16 years"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib24",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85214749816",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "9"
+                    },
+                    "pagerange": {
+                      "@first": "345",
+                      "@last": "350"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Eiji",
+                        "ce:indexed-name": "Eiji Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "I.",
+                        "@_fa": "true",
+                        "ce:surname": "Yoshihiro",
+                        "ce:indexed-name": "Yoshihiro I."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "O.",
+                        "@_fa": "true",
+                        "ce:surname": "Eizabro",
+                        "ce:indexed-name": "Eizabro O."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Proc. Jpn. Conf. Inst."
+                },
+                "ce:source-text": "Y. Eiji, I. Yoshihiro, O. Eizabro. Characteristic of prestressing steel bars in pretensioned spun concrete piles with age of 16 years. Proc. Jap. Con. Instit., 9 (1987) 345-350."
+              },
+              {
+                "ref-fulltext": "Keisuke, N., Hiroyuki, K., Kensuke, I., Characteristic of prestressing steel bars in pretensioned spun concrete piles with age of 50 years. Proc. Jpn. Con. Inst. 42 (2020), 449–454.",
+                "@reference-instance-id": "OB2BibRecID-966357340-497a8ab2d4ecf0a62e80641c47b03b2d-25",
+                "@id": "25",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Characteristic of prestressing steel bars in pretensioned spun concrete piles with age of 50 years"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib25",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85214721144",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "42"
+                    },
+                    "pagerange": {
+                      "@first": "449",
+                      "@last": "454"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Keisuke",
+                        "ce:indexed-name": "Keisuke N."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Hiroyuki",
+                        "ce:indexed-name": "Hiroyuki K."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "I.",
+                        "@_fa": "true",
+                        "ce:surname": "Kensuke",
+                        "ce:indexed-name": "Kensuke I."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Proc. Jpn. Con. Inst."
+                },
+                "ce:source-text": "N. Keisuke, K. Hiroyuki, I. Kensuke. Characteristic of prestressing steel bars in pretensioned spun concrete piles with age of 50 years. Proc. Jap. Con. Inst., 42 (2020) 449-454."
+              },
+              {
+                "ref-fulltext": "J. Hou. Research on several issues concerning the durability of concrete structures in soil and groundwater environments. Zhejiang University (2020).",
+                "@reference-instance-id": "OB2BibRecID-966357340-5c2c54f050c3f8ae1a6fed87d697bf7e-26",
+                "@id": "26",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib26",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105011842966",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "J. Hou. Research on several issues concerning the durability of concrete structures in soil and groundwater environments. Zhejiang University."
+                },
+                "ce:source-text": "J. Hou. Research on several issues concerning the durability of concrete structures in soil and groundwater environments. Zhejiang University (2020)."
+              },
+              {
+                "ref-fulltext": "Huang, F., Wu, S., Luo, X., Chen, B., Lin, Y., Pseudo-static low cycle test on the mechanical behavior of PHC pipe piles with consideration of soil-pile interaction. Eng. Struct. 171 (2018), 992–1006.",
+                "@reference-instance-id": "OB2BibRecID-966357340-a6c6a4035c98b4b7e75a060707e5f666-27",
+                "@id": "27",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Pseudo-static low cycle test on the mechanical behavior of PHC pipe piles with consideration of soil-pile interaction"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib27",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85044515925",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "171"
+                    },
+                    "pagerange": {
+                      "@first": "992",
+                      "@last": "1006"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Luo",
+                        "ce:indexed-name": "Luo X."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen B."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Lin",
+                        "ce:indexed-name": "Lin Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Eng. Struct."
+                },
+                "ce:source-text": "F. Huang, S. Wu, X. Luo, B. Chen, Y. Lin. Pseudo-static low cycle test on the mechanical behavior of PHC pipe piles with consideration of soil-pile interaction. Eng. Struct., 171 (2018) 992-1006."
+              },
+              {
+                "ref-fulltext": "Zhan, Y., Yang, Y., Wu, X., Xie, Y., Luo, J., Guo, W., Hao, Y., Wang, H., Experimental study on non-autoclaved PHC Pile concrete applying polycarboxylate superplasticizer. Key Eng. Mater. 629-630 (2014), 345–350.",
+                "@reference-instance-id": "OB2BibRecID-966357340-e0f84c91b7e450945fff7890c73a1622-28",
+                "@id": "28",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental study on non-autoclaved PHC Pile concrete applying polycarboxylate superplasticizer"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib28",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84920747145",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "629-630"
+                    },
+                    "pagerange": {
+                      "@first": "345",
+                      "@last": "350"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhan",
+                        "ce:indexed-name": "Zhan Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu X."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Xie",
+                        "ce:indexed-name": "Xie Y."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Luo",
+                        "ce:indexed-name": "Luo J."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Guo",
+                        "ce:indexed-name": "Guo W."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Hao",
+                        "ce:indexed-name": "Hao Y."
+                      },
+                      {
+                        "@seq": "8",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Key Eng. Mater."
+                },
+                "ce:source-text": "Y. Zhan, Y. Yang, X. Wu, Y. Xie, J. Luo, W. Guo, Y. Hao, H. Wang. Experimental study on non-autoclaved PHC Pile concrete applying polycarboxylate superplasticizer. Key Eng. Mater., 629-630 (2014) 345-350."
+              },
+              {
+                "ref-fulltext": "2010-G22, Pre-Tensioned Prestressed Concrete Pipe Pile. 2020, Beijing China Planning Publishing House, Zhejiang,China.",
+                "@reference-instance-id": "OB2BibRecID-966357340-6c24654d5d3d74a590ae73a5eedea733-29",
+                "@id": "29",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Pre-Tensioned Prestressed Concrete Pipe Pile"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib29",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85214723894",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Beijing China Planning Publishing House Zhejiang,China",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "@_fa": "true",
+                        "ce:surname": "2010-G22",
+                        "ce:indexed-name": "2010-G22"
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "2010-G22, Pre-tensioned prestressed concrete pipe pile. Beijing China Planning Publishing House: Zhejiang,China, 2020."
+              },
+              {
+                "ref-fulltext": "W. Liu, Study on long-term durability of prestressed concrete square pile connection joints with resilient clamping, Zhejiang University, 2020).",
+                "@reference-instance-id": "OB2BibRecID-966357340-d0af754dcf7378af4bff8dc0985aad37-30",
+                "@id": "30",
+                "ref-info": {
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib30",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105011831343",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Study on long-term durability of prestressed concrete square pile connection joints with resilient clamping, Zhejiang University, 2020).",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu W."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "W. Liu, Study on long-term durability of prestressed concrete square pile connection joints with resilient clamping, Zhejiang University, 2020)."
+              },
+              {
+                "ref-fulltext": "ASTM C1556-22, Standard test method for determining the apparent chloride diffusion coefficient of cementitious mixtures by bulk diffusion: West Con-shohocken, PA, USA, 2022.",
+                "@reference-instance-id": "OB2BibRecID-966357340-285517bff3d380ebbeab758c14a364f2-31",
+                "@id": "31",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib31",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105011844741",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Standard test method for determining the apparent chloride diffusion coefficient of cementitious mixtures by bulk diffusion: West Con-shohocken, PA, USA.",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.S.T.M.",
+                        "@_fa": "true",
+                        "ce:surname": "C1556-22",
+                        "ce:indexed-name": "C1556-22 A.S.T.M."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "ASTM C1556-22, Standard test method for determining the apparent chloride diffusion coefficient of cementitious mixtures by bulk diffusion: West Con-shohocken, PA, USA, 2022."
+              },
+              {
+                "ref-fulltext": "ASTM C876-15 Standard test method for corrosion potentials of uncoated reinforcing steel in concrete. ASTM International: West Con-shohocken, PA, USA, 2015.",
+                "@reference-instance-id": "OB2BibRecID-966357340-8450cdbd6039567f2365df10e2669d31-32",
+                "@id": "32",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib32",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105011849022",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "ASTM C876-15 Standard test method for corrosion potentials of uncoated reinforcing steel in concrete. ASTM International: West Con-shohocken, PA, USA."
+                },
+                "ce:source-text": "ASTM C876-15 Standard test method for corrosion potentials of uncoated reinforcing steel in concrete. ASTM International: West Con-shohocken, PA, USA, 2015."
+              },
+              {
+                "ref-fulltext": "Rincón, O., Sánchez, M., Millano, V., Fernández, R., Partidas, E., Andrade, C., Effect of the marine environment on reinforced concrete durability in Iberoamerican countries: DURACON project/CYTED. Corros. Sci. 49 (2007), 2832–2843.",
+                "@reference-instance-id": "OB2BibRecID-966357340-fe0d458589f105047559edc781f95afb-33",
+                "@id": "33",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of the marine environment on reinforced concrete durability in Iberoamerican countries: DURACON project/CYTED"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib33",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "34249107768",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "49"
+                    },
+                    "pagerange": {
+                      "@first": "2832",
+                      "@last": "2843"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "O.",
+                        "@_fa": "true",
+                        "ce:surname": "Rincón",
+                        "ce:indexed-name": "Rincon O."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Sánchez",
+                        "ce:indexed-name": "Sanchez M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "V.",
+                        "@_fa": "true",
+                        "ce:surname": "Millano",
+                        "ce:indexed-name": "Millano V."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Fernández",
+                        "ce:indexed-name": "Fernandez R."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Partidas",
+                        "ce:indexed-name": "Partidas E."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Andrade",
+                        "ce:indexed-name": "Andrade C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Corros. Sci."
+                },
+                "ce:source-text": "O. Rincón, M. Sánchez, V. Millano, R. Fernández, E. Partidas,C. Andrade. Effect of the marine environment on reinforced concrete durability in Iberoamerican countries: DURACON project/CYTED. Corros. Sci., 49 (2007) 2832-2843."
+              },
+              {
+                "ref-fulltext": "Malumbela, G., Moyo, P., Alexander, M., A step towards standardising accelerated corrosion tests on laboratory reinforced concrete specimens. J. S. Afr. Inst. Civ. Eng. 54 (2012), 51–60.",
+                "@reference-instance-id": "OB2BibRecID-966357340-02a47a49a0c1b95b31125a773d73f26e-34",
+                "@id": "34",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A step towards standardising accelerated corrosion tests on laboratory reinforced concrete specimens"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib34",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84870261972",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "54"
+                    },
+                    "pagerange": {
+                      "@first": "51",
+                      "@last": "60"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Malumbela",
+                        "ce:indexed-name": "Malumbela G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Moyo",
+                        "ce:indexed-name": "Moyo P."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Alexander",
+                        "ce:indexed-name": "Alexander M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. S. Afr. Inst. Civ. Eng."
+                },
+                "ce:source-text": "G., Malumbela. P. Moyo, M. Alexander, A step towards standardising accelerated corrosion tests on laboratory reinforced concrete specimens. J. S. Afr. Inst. Civ. Eng., 54 (2012) 51-60."
+              },
+              {
+                "ref-fulltext": "Ahmad, S., Techniques for inducing accelerated corrosion of steel in concrete. AJSE 34 (2009), 95–104.",
+                "@reference-instance-id": "OB2BibRecID-966357340-67f7e9f88bc654a322a266d7f4ca4565-35",
+                "@id": "35",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Techniques for inducing accelerated corrosion of steel in concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib35",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "77954007038",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "34"
+                    },
+                    "pagerange": {
+                      "@first": "95",
+                      "@last": "104"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Ahmad",
+                        "ce:indexed-name": "Ahmad S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "AJSE"
+                },
+                "ce:source-text": "S.Ahmad, Techniques for inducing accelerated corrosion of steel in concrete. AJSE., 34 (2009) 95-104."
+              },
+              {
+                "ref-fulltext": "Shi, J., Ming, J., Sun, W., Accelerated corrosion behavior of steel in concrete subjected to sustained flexural loading using electrochemical methods and X-Ray computed tomography. J. Mater. Civ. Eng., 30, 2018, 2337.",
+                "@reference-instance-id": "OB2BibRecID-966357340-1eae0541dc94ec23cb470b6bb24fc025-36",
+                "@id": "36",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Accelerated corrosion behavior of steel in concrete subjected to sustained flexural loading using electrochemical methods and X-Ray computed tomography"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib36",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85046131886",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "30"
+                    },
+                    "pagerange": {
+                      "@first": "2337"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Ming",
+                        "ce:indexed-name": "Ming J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Sun",
+                        "ce:indexed-name": "Sun W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Mater. Civ. Eng."
+                },
+                "ce:source-text": "J. Shi, J. Ming, W. Sun. Accelerated corrosion behavior of steel in concrete subjected to sustained flexural loading using electrochemical methods and X-Ray computed tomography. J. Mater. Civ. Eng., 30 (2018) 2337."
+              },
+              {
+                "ref-fulltext": "Feng, W., Tarakbay, A., Memon, S., Tang, W., Cui, Hong, Methods of accelerating chloride-induced corrosion in steel-reinforced concrete: A comparative review. Constr. Build. Mater., 289, 2021, 123165.",
+                "@reference-instance-id": "OB2BibRecID-966357340-21fba6701e613d2f93ffd551b1be0e16-37",
+                "@id": "37",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Methods of accelerating chloride-induced corrosion in steel-reinforced concrete: A comparative review"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib37",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "123165",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85103787807",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "289"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Feng",
+                        "ce:indexed-name": "Feng W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Tarakbay",
+                        "ce:indexed-name": "Tarakbay A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Memon",
+                        "ce:indexed-name": "Memon S."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Tang",
+                        "ce:indexed-name": "Tang W."
+                      },
+                      {
+                        "ce:given-name": "Hong",
+                        "@seq": "5",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Cui",
+                        "ce:indexed-name": "Cui H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "W. Feng, A. Tarakbay, S. Memon, W. Tang, Hong, Cui. Methods of accelerating chloride-induced corrosion in steel-reinforced concrete: A comparative review. Constr. Build. Mater., 289 (2021) 123165."
+              },
+              {
+                "ref-fulltext": "Yu, F., Guo, J., Liu, J., Cai, H., Huang, Y., A review of the pore structure of pervious concrete: analyzing method, characterization parameters and the effect on performance. Constr. Build. Mater., 365, 2023, 129971.",
+                "@reference-instance-id": "OB2BibRecID-966357340-2a568c47d585e8810f2eac34da28ee7c-38",
+                "@id": "38",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A review of the pore structure of pervious concrete: analyzing method, characterization parameters and the effect on performance"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib38",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "129971",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85144457305",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "365"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Guo",
+                        "ce:indexed-name": "Guo J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Cai",
+                        "ce:indexed-name": "Cai H."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "F. Yu, J. Guo, J. Liu, H. Cai, Y. Huang. A review of the pore structure of pervious concrete: Analyzing method, characterization parameters and the effect on performance. Constr. Build. Mater., 365 (2023) 129971."
+              },
+              {
+                "ref-fulltext": "Ler, K., Ma, C., Chin, C., Ibrahim, I., Padil, K., Ghafar, M., Lenya, A., Porosity and durability tests on 3D printing concrete: a review. Constr. Build. Mater., 446, 2024, 137973.",
+                "@reference-instance-id": "OB2BibRecID-966357340-de9d78e58519dc628d4b9ea7e197ce8c-39",
+                "@id": "39",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Porosity and durability tests on 3D printing concrete: a review"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib39",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "137973",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85202290739",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "446"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Ler",
+                        "ce:indexed-name": "Ler K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Ma",
+                        "ce:indexed-name": "Ma C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Chin",
+                        "ce:indexed-name": "Chin C."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "I.",
+                        "@_fa": "true",
+                        "ce:surname": "Ibrahim",
+                        "ce:indexed-name": "Ibrahim I."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Padil",
+                        "ce:indexed-name": "Padil K."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Ghafar",
+                        "ce:indexed-name": "Ghafar M."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Lenya",
+                        "ce:indexed-name": "Lenya A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "K. Ler, C. Ma, C. Chin, I. Ibrahim, K. Padil, M. Ghafar, A. Lenya. Porosity and durability tests on 3D printing concrete: A review. Constr. Build. Mater., 446 (2024) 137973."
+              },
+              {
+                "ref-fulltext": "Xu, C., Li, Q., Wang, P., Fan, Q., Kong, Z., Wang, L., Yue, G., Zheng, S., Shao, C., Guo, Y., Theoretical porosity design, mechanical properties, and durability of large-pore sandy recycled concrete. Case Stud. Constr. Mater., 21, 2025, e03655.",
+                "@reference-instance-id": "OB2BibRecID-966357340-af0bab08bdf891636ade3179d94c05c6-40",
+                "@id": "40",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2025"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Theoretical porosity design, mechanical properties, and durability of large-pore sandy recycled concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib40",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "e03655",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85201751392",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "21"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li Q."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang P."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Fan",
+                        "ce:indexed-name": "Fan Q."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Kong",
+                        "ce:indexed-name": "Kong Z."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang L."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Yue",
+                        "ce:indexed-name": "Yue G."
+                      },
+                      {
+                        "@seq": "8",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Zheng",
+                        "ce:indexed-name": "Zheng S."
+                      },
+                      {
+                        "@seq": "9",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Shao",
+                        "ce:indexed-name": "Shao C."
+                      },
+                      {
+                        "@seq": "10",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Guo",
+                        "ce:indexed-name": "Guo Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Case Stud. Constr. Mater."
+                },
+                "ce:source-text": "C. Xu, Q. Li, P. Wang, Q. Fan, Z. Kong, L. Wang, G. Yue, S. Zheng, C. Shao, Y. Guo. Theoretical porosity design, mechanical properties, and durability of large-pore sandy recycled concrete. Case Stud. Constr. Mater., 21 (2025) e03655."
+              },
+              {
+                "ref-fulltext": "Alemu, A., Yoon, J., Tafesse, M., Seo, Y., Kim, H., Pyo, S., Practical considerations of porosity, strength, and acoustic absorption of structural pervious concrete. Case Stud. Constr. Mater., 15, 2021, e00764.",
+                "@reference-instance-id": "OB2BibRecID-966357340-22211ae01c375f080e74e4e11d58586e-41",
+                "@id": "41",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Practical considerations of porosity, strength, and acoustic absorption of structural pervious concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib41",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "e00764",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85118804563",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "15"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Alemu",
+                        "ce:indexed-name": "Alemu A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Yoon",
+                        "ce:indexed-name": "Yoon J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Tafesse",
+                        "ce:indexed-name": "Tafesse M."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Seo",
+                        "ce:indexed-name": "Seo Y."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim H."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Pyo",
+                        "ce:indexed-name": "Pyo S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Case Stud. Constr. Mater."
+                },
+                "ce:source-text": "A. Alemu, J. Yoon, M. Tafesse, Y. Seo, H. Kim, S. Pyo. Practical considerations of porosity, strength, and acoustic absorption of structural pervious concrete. Case Stud. Constr. Mater., 15 (2021) e00764."
+              },
+              {
+                "ref-fulltext": "Kubba, Z., Huseien, G., Sam, A., Shah, K., Asaad, M., Ismail, M., Tahir, M., Mirza, J., Impact of curing temperatures and alkaline activators on compressive strength and porosity of ternary blended geopolymer mortars. Case Stud. Constr. Mater., 9, 2018, e00205.",
+                "@reference-instance-id": "OB2BibRecID-966357340-fb7a765257d641b9d30ce91570ead9c4-42",
+                "@id": "42",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Impact of curing temperatures and alkaline activators on compressive strength and porosity of ternary blended geopolymer mortars"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib42",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "e00205",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85054744253",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "9"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Kubba",
+                        "ce:indexed-name": "Kubba Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Huseien",
+                        "ce:indexed-name": "Huseien G."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Sam",
+                        "ce:indexed-name": "Sam A."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Shah",
+                        "ce:indexed-name": "Shah K."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Asaad",
+                        "ce:indexed-name": "Asaad M."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Ismail",
+                        "ce:indexed-name": "Ismail M."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Tahir",
+                        "ce:indexed-name": "Tahir M."
+                      },
+                      {
+                        "@seq": "8",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Mirza",
+                        "ce:indexed-name": "Mirza J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Case Stud. Constr. Mater."
+                },
+                "ce:source-text": "Z. Kubba, G.Huseien, A. Sam, K. Shah, M. Asaad, M. Ismail, M. Tahir, J. Mirza. Impact of curing temperatures and alkaline activators on compressive strength and porosity of ternary blended geopolymer mortars. Case Stud. Constr. Mater., 9 (2018) e00205."
+              },
+              {
+                "ref-fulltext": "al-Swaidani, A., Use of micro and nano volcanic scoria in the concrete binder: Study of compressive strength, porosity and sulfate resistance. Case Stud. Constr. Mater., 11, 2019, e00294.",
+                "@reference-instance-id": "OB2BibRecID-966357340-3aa3fb557c33025798175df19f11f8c9-43",
+                "@id": "43",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Use of micro and nano volcanic scoria in the concrete binder: Study of compressive strength, porosity and sulfate resistance"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib43",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "e00294",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85074005490",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "11"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "al-Swaidani",
+                        "ce:indexed-name": "al-Swaidani A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Case Stud. Constr. Mater."
+                },
+                "ce:source-text": "A. al-Swaidani. Use of micro and nano volcanic scoria in the concrete binder: Study of compressive strength, porosity and sulfate resistance. Case Stud. Constr. Mater., 11 (2019) e00294."
+              },
+              {
+                "ref-fulltext": "Anovitz, L., Cole, D., Characterization and analysis of porosity and pore structures. Rev. Mineral. Geochem 80 (2015), 61–164.",
+                "@reference-instance-id": "OB2BibRecID-966357340-e8389dc4d921d20c9be40694d433f989-44",
+                "@id": "44",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Characterization and analysis of porosity and pore structures"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib44",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84948695438",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "80"
+                    },
+                    "pagerange": {
+                      "@first": "61",
+                      "@last": "164"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Anovitz",
+                        "ce:indexed-name": "Anovitz L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Cole",
+                        "ce:indexed-name": "Cole D."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Rev. Mineral. Geochem"
+                },
+                "ce:source-text": "L. Anovitz, D. Cole. Characterization and analysis of porosity and pore structures. Rev. Mineral. Geochem., 80 (2015) 61-164."
+              },
+              {
+                "ref-fulltext": "Lai, J., Wang, G., Wang, Z., Chen, J., Pang, X., Wang, S., Zhou, Z., He, Z., Qin, Z., Fan, X., A review on pore structure characterization in tight sandstones. Earth Sci. Rev. 4177 (2018), 436–457.",
+                "@reference-instance-id": "OB2BibRecID-966357340-64446c5e94e512838247989fbe98fefc-45",
+                "@id": "45",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A review on pore structure characterization in tight sandstones"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib45",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85040597581",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "4177"
+                    },
+                    "pagerange": {
+                      "@first": "436",
+                      "@last": "457"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Lai",
+                        "ce:indexed-name": "Lai J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang G."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang Z."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen J."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Pang",
+                        "ce:indexed-name": "Pang X."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang S."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou Z."
+                      },
+                      {
+                        "@seq": "8",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "He",
+                        "ce:indexed-name": "He Z."
+                      },
+                      {
+                        "@seq": "9",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Qin",
+                        "ce:indexed-name": "Qin Z."
+                      },
+                      {
+                        "@seq": "10",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Fan",
+                        "ce:indexed-name": "Fan X."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Earth Sci. Rev."
+                },
+                "ce:source-text": "J. Lai, G. Wang, Z. Wang, J. Chen, X. Pang, S. Wang, Z. Zhou, Z. He, Z. Qin, X. Fan. A review on pore structure characterization in tight sandstones. Earth. Sci. Rev., 4177 (2018) 436-457."
+              },
+              {
+                "ref-fulltext": "Baeza, J., Compán, V., Pachón, P., Aguilar, J., Cámara, M., Influence of moisture content on the mechanical properties of an ancient high-porosity building sandstone: San Cristóbal's stone (Andalusia, Spain). Case Stud. Constr. Mater., 18, 2023, e02128.",
+                "@reference-instance-id": "OB2BibRecID-966357340-ccdd046c9ad7154b62ea549b9e6ebf36-46",
+                "@id": "46",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Influence of moisture content on the mechanical properties of an ancient high-porosity building sandstone: San Cristóbal's stone (Andalusia, Spain)"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib46",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "e02128",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85159053975",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "18"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Baeza",
+                        "ce:indexed-name": "Baeza J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "V.",
+                        "@_fa": "true",
+                        "ce:surname": "Compán",
+                        "ce:indexed-name": "Compan V."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Pachón",
+                        "ce:indexed-name": "Pachon P."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Aguilar",
+                        "ce:indexed-name": "Aguilar J."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Cámara",
+                        "ce:indexed-name": "Camara M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Case Stud. Constr. Mater."
+                },
+                "ce:source-text": "J. Baeza, V. Compán, P. Pachón, J. Aguilar, M. Cámara. Influence of moisture content on the mechanical properties of an ancient high-porosity building sandstone: San Cristóbal's stone (Andalusia, Spain). Case Stud. Constr. Mater., 18 (2023) e02128."
+              },
+              {
+                "ref-fulltext": "ACI 318-19, Building Code requirements for structural concrete. 2019, ACI committee, Farmington Hills, MI, USA.",
+                "@reference-instance-id": "OB2BibRecID-966357340-e02b30ca599e34e928c160abc18ee92f-47",
+                "@id": "47",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Building Code requirements for structural concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib47",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "33846519537",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "ACI committee Farmington Hills, MI, USA",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "@_fa": "true",
+                        "ce:surname": "ACI 318-19",
+                        "ce:indexed-name": "ACI 318-19"
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "ACI 318-19, Building Code requirements for structural concrete. ACI committee: Farmington Hills, MI, USA, 2019."
+              },
+              {
+                "ref-fulltext": "GB/T 50010-2010, Code for design of concrete structures. 2010, China Architecture and Building Press, Beijing, China.",
+                "@reference-instance-id": "OB2BibRecID-966357340-6e530d0eacf9a0f2079a1f86d2d53ab8-48",
+                "@id": "48",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Code for design of concrete structures"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib48",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84875787975",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "China Architecture and Building Press Beijing, China",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "@_fa": "true",
+                        "ce:surname": "GB/T 50010-2010",
+                        "ce:indexed-name": "GB/T 50010-2010"
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "GB/T 50010-2010, Code for design of concrete structures. China Architecture and Building Press: Beijing, China, 2010."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "affiliation": [
+      {
+        "affiliation-city": "Hangzhou",
+        "@id": "60003970",
+        "affilname": "Zhejiang University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60003970",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Nanjing",
+        "@id": "60025441",
+        "affilname": "Nanjing Tech University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60025441",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Ningbo",
+        "@id": "60031419",
+        "affilname": "Ningbo University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60031419",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Nanjing",
+        "@id": "113018390",
+        "affilname": "State Key Laboratory of High Performance Civil Engineering Materials",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/113018390",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Ningbo",
+        "@id": "115545504",
+        "affilname": "ZCONE High-tech Pile Industry Holdings Co., Ltd.",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/115545504",
+        "affiliation-country": "China"
+      }
+    ],
+    "coredata": {
+      "srctype": "j",
+      "eid": "2-s2.0-105011845211",
+      "dc:description": "This study investigates the corrosion behavior of prestressed high-strength concrete (PHC) piles in the aggressive environment of landfill leachate, with a focus on mechanisms and durability implications. Through accelerated corrosion tests simulating 50 years of service, the research reveals a critical overlooked factor in traditional durability analyses: the uneven layered microstructure of PHC piles induced by centrifugal force during manufacturing. Chloride ion concentration in concrete progressively increased to 0.065–0.072 % post-corrosion, accompanied by a corrosion potential drop to −341 mV. Despite minor surface rusting of reinforcement, the tensile strength of prestressed steel bars decreased by only 2 %, while concrete retained compressive strengths of 79.0–80.1 MPa-still meeting design specifications. Advanced analyses (XRD, SEM, MIP, X-CT) identified ettringite formation and a distinct pore gradient between inner and outer concrete layers, a direct result of centrifugal casting. The outer layer exhibited lower porosity (3.59–3.70 %) compared to inner regions (4.86–5.90 %), enhancing resistance to ion ingress. Finite element analysis confirmed that PHC piles maintained structural stability under design loads, with post-corrosion effective stress at 51.79 MPa and a safety margin of 21.11 MPa. These results demonstrate that the centrifugally induced layered microstructure plays a critical role in mitigating corrosion propagation. The findings provide a revised durability evaluation paradigm for PHC piles and offer scientifically grounded criteria for landfill foundation design.",
+      "prism:coverDate": "2025-12-01",
+      "prism:aggregationType": "Journal",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105011845211",
+      "subtypeDescription": "Article",
+      "dc:creator": {
+        "author": [
+          {
+            "ce:given-name": "Yu",
+            "preferred-name": {
+              "ce:given-name": "Yu",
+              "ce:initials": "Y.",
+              "ce:surname": "Wang",
+              "ce:indexed-name": "Wang Y."
+            },
+            "@seq": "1",
+            "ce:initials": "Y.",
+            "@_fa": "true",
+            "affiliation": {
+              "@id": "60025441",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60025441"
+            },
+            "ce:surname": "Wang",
+            "@auid": "59757099400",
+            "author-url": "https://api.elsevier.com/content/author/author_id/59757099400",
+            "ce:indexed-name": "Wang Y."
+          }
+        ]
+      },
+      "link": [
+        {
+          "@_fa": "true",
+          "@rel": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105011845211"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105011845211&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105011845211&origin=inward"
+        }
+      ],
+      "prism:publicationName": "Case Studies in Construction Materials",
+      "source-id": "21100296223",
+      "pii": "S221450952500909X",
+      "citedby-count": "1",
+      "prism:volume": "23",
+      "subtype": "ar",
+      "dc:title": "Durability of prestressed high-strength concrete (PHC) piles in landfill leachate: Corrosion behavior, microstructural evolution, and structural integrity assessment",
+      "openaccess": "1",
+      "openaccessFlag": "true",
+      "prism:doi": "10.1016/j.cscm.2025.e05111",
+      "prism:issn": "22145095",
+      "publishercopyright": "© 2025 The Authors",
+      "article-number": "e05111",
+      "dc:identifier": "SCOPUS_ID:105011845211",
+      "dc:publisher": "Elsevier Ltd"
+    },
+    "idxterms": {
+      "mainterm": [
+        {
+          "$": "Accelerated corrosion",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Aggressive environment",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Corrosion behaviour",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Finite element analyse",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "High strength concretes",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Landfill leachates",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Layered microstructure",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Micro-structural",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Pre-stressed",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Structural integrity assessment",
+          "@weight": "b",
+          "@candidate": "n"
+        }
+      ]
+    },
+    "language": {
+      "@xml:lang": "eng"
+    },
+    "authkeywords": {
+      "author-keyword": [
+        {
+          "@_fa": "true",
+          "$": "Accelerated corrosion"
+        },
+        {
+          "@_fa": "true",
+          "$": "Finite element analysis"
+        },
+        {
+          "@_fa": "true",
+          "$": "Landfill leachate"
+        },
+        {
+          "@_fa": "true",
+          "$": "Microstructure"
+        },
+        {
+          "@_fa": "true",
+          "$": "Prestressed concrete"
+        }
+      ]
+    },
+    "subject-areas": {
+      "subject-area": [
+        {
+          "@_fa": "true",
+          "$": "Materials Science (miscellaneous)",
+          "@code": "2501",
+          "@abbrev": "MATE"
+        }
+      ]
+    },
+    "authors": {
+      "author": [
+        {
+          "ce:given-name": "Yu",
+          "preferred-name": {
+            "ce:given-name": "Yu",
+            "ce:initials": "Y.",
+            "ce:surname": "Wang",
+            "ce:indexed-name": "Wang Y."
+          },
+          "@seq": "1",
+          "ce:initials": "Y.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60025441",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60025441"
+          },
+          "ce:surname": "Wang",
+          "@auid": "59757099400",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59757099400",
+          "ce:indexed-name": "Wang Y."
+        },
+        {
+          "ce:given-name": "Yinglei",
+          "preferred-name": {
+            "ce:given-name": "Yinglei",
+            "ce:initials": "Y.",
+            "ce:surname": "Wang",
+            "ce:indexed-name": "Wang Y."
+          },
+          "@seq": "2",
+          "ce:initials": "Y.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60025441",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60025441"
+          },
+          "ce:surname": "Wang",
+          "@auid": "59510308400",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59510308400",
+          "ce:indexed-name": "Wang Y."
+        },
+        {
+          "ce:given-name": "Rihong",
+          "preferred-name": {
+            "ce:given-name": "Rihong",
+            "ce:initials": "R.",
+            "ce:surname": "Zhang",
+            "ce:indexed-name": "Zhang R."
+          },
+          "@seq": "3",
+          "ce:initials": "R.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "115545504",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/115545504"
+            },
+            {
+              "@id": "60031419",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60031419"
+            }
+          ],
+          "ce:surname": "Zhang",
+          "@auid": "24170522300",
+          "author-url": "https://api.elsevier.com/content/author/author_id/24170522300",
+          "ce:indexed-name": "Zhang R."
+        },
+        {
+          "ce:given-name": "Zhuqing",
+          "preferred-name": {
+            "ce:given-name": "Zhuqing",
+            "ce:initials": "Z.",
+            "ce:surname": "Yu",
+            "ce:indexed-name": "Yu Z."
+          },
+          "@seq": "4",
+          "ce:initials": "Z.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "60025441",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60025441"
+            },
+            {
+              "@id": "60025441",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60025441"
+            }
+          ],
+          "ce:surname": "Yu",
+          "@auid": "15926455800",
+          "author-url": "https://api.elsevier.com/content/author/author_id/15926455800",
+          "ce:indexed-name": "Yu Z."
+        },
+        {
+          "ce:given-name": "Min",
+          "preferred-name": {
+            "ce:given-name": "Min",
+            "ce:initials": "M.",
+            "ce:surname": "Deng",
+            "ce:indexed-name": "Deng M."
+          },
+          "@seq": "5",
+          "ce:initials": "M.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "60025441",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60025441"
+            },
+            {
+              "@id": "60025441",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60025441"
+            }
+          ],
+          "ce:surname": "Deng",
+          "@auid": "59939391600",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59939391600",
+          "ce:indexed-name": "Deng M."
+        },
+        {
+          "ce:given-name": "Anqun",
+          "preferred-name": {
+            "ce:given-name": "Anqun",
+            "ce:initials": "A.",
+            "ce:surname": "Lu",
+            "ce:indexed-name": "Lu A."
+          },
+          "@seq": "6",
+          "ce:initials": "A.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "60025441",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60025441"
+            },
+            {
+              "@id": "113018390",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/113018390"
+            }
+          ],
+          "ce:surname": "Lu",
+          "@auid": "55899553300",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55899553300",
+          "ce:indexed-name": "Lu A."
+        },
+        {
+          "ce:given-name": "Jiajin",
+          "preferred-name": {
+            "ce:given-name": "Jiajin",
+            "ce:initials": "J.",
+            "ce:surname": "Zhou",
+            "ce:indexed-name": "Zhou J."
+          },
+          "@seq": "7",
+          "ce:initials": "J.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "60031419",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60031419"
+            },
+            {
+              "@id": "60003970",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60003970"
+            }
+          ],
+          "ce:surname": "Zhou",
+          "@auid": "55892732100",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55892732100",
+          "ce:indexed-name": "Zhou J."
+        }
+      ]
+    }
+  }
+}

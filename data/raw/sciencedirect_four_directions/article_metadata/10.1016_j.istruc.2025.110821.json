@@ -1,0 +1,3277 @@
+{
+  "abstracts-retrieval-response": {
+    "item": {
+      "ait:process-info": {
+        "ait:status": {
+          "@state": "new",
+          "@type": "core",
+          "@stage": "S300"
+        },
+        "ait:date-delivered": {
+          "@day": "20",
+          "@timestamp": "2025-12-20T04:59:27.000027-05:00",
+          "@year": "2025",
+          "@month": "12"
+        },
+        "ait:date-sort": {
+          "@day": "01",
+          "@year": "2025",
+          "@month": "12"
+        }
+      },
+      "xocs:meta": {
+        "xocs:funding-list": {
+          "@pui-match": "primary",
+          "@has-funding-info": "1",
+          "xocs:funding": [
+            {
+              "xocs:funding-agency-matched-string": "National Natural Science Foundation of China",
+              "xocs:funding-agency-acronym": "NNSFC",
+              "xocs:funding-agency": "National Natural Science Foundation of China",
+              "xocs:funding-id": "52478527",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Joint Project of Industry-University-Research of Jiangsu Province",
+              "xocs:funding-agency": "Joint Project of Industry-University-Research of Jiangsu Province",
+              "xocs:funding-id": "BY2021059",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100012489",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Scientific Research Foundation for High-Level Talents of Jinling Institute of Technology",
+              "xocs:funding-agency-acronym": "JIT",
+              "xocs:funding-agency": "Jinling Institute of Technology",
+              "xocs:funding-id": "jit-b-202210",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100012221",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            }
+          ],
+          "xocs:funding-addon-generated-timestamp": "2026-01-20T20:32:16.201Z",
+          "xocs:funding-text": "The authors gratefully acknowledge the financial supports from the National Natural Science Foundation of China (Grant No. 52478527 ), Joint Project of Industry-University-Research of Jiangsu Province ( BY2021059 ), Scientific Research Foundation for High-Level Talents of Jinling Institute of Technology (Grant No. jit-b-202210 ).",
+          "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }
+      },
+      "bibrecord": {
+        "head": {
+          "author-group": [
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "211169",
+                "@afid": "60216191",
+                "@country": "chn",
+                "city": "Nanjing",
+                "organization": [
+                  {
+                    "$": "School of Architectural Engineering"
+                  },
+                  {
+                    "$": "Jinling Institute of Technology"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60216191",
+                  "@dptid": "126526522"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-970298602-39f701058c9f11b2af0a24e4c29ebbdd-1",
+                "ce:source-text": "School of Architectural Engineering, Jinling Institute of Technology, Nanjing, 211169, China",
+                "@dptid": "126526522"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Yuzhi",
+                  "preferred-name": {
+                    "ce:given-name": "Yuzhi",
+                    "ce:initials": "Y.",
+                    "ce:surname": "Chen",
+                    "ce:indexed-name": "Chen Y."
+                  },
+                  "@author-instance-id": "OB2BibRecID-970298602-a81867eef65c52b99517b953783c810c-1",
+                  "@seq": "1",
+                  "ce:initials": "Y.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Chen",
+                  "@auid": "52163294400",
+                  "@orcid": "0009-0005-2518-4592",
+                  "ce:indexed-name": "Chen Y."
+                },
+                {
+                  "ce:given-name": "Xinyang",
+                  "preferred-name": {
+                    "ce:given-name": "Xinyang",
+                    "ce:initials": "X.",
+                    "ce:surname": "Li",
+                    "ce:indexed-name": "Li X."
+                  },
+                  "@author-instance-id": "OB2BibRecID-970298602-5f95db294e300332c2e701b118762ac5-1",
+                  "@seq": "2",
+                  "ce:initials": "X.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Li",
+                  "@auid": "59979345300",
+                  "ce:indexed-name": "Li X."
+                },
+                {
+                  "ce:given-name": "Hailin",
+                  "preferred-name": {
+                    "ce:given-name": "Hailin",
+                    "ce:initials": "H.",
+                    "ce:surname": "Miao",
+                    "ce:indexed-name": "Miao H."
+                  },
+                  "@author-instance-id": "OB2BibRecID-970298602-86c162a8565bbfe800f1608bf19b0601-1",
+                  "@seq": "4",
+                  "ce:initials": "H.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Miao",
+                  "@auid": "58168100000",
+                  "ce:indexed-name": "Miao H."
+                },
+                {
+                  "ce:given-name": "Xi",
+                  "preferred-name": {
+                    "ce:given-name": "Xi",
+                    "ce:initials": "X.",
+                    "ce:surname": "Zuo",
+                    "ce:indexed-name": "Zuo X."
+                  },
+                  "@author-instance-id": "OB2BibRecID-970298602-12181978004e11743f9ac1df4f4fb1b2-1",
+                  "@seq": "5",
+                  "ce:initials": "X.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Zuo",
+                  "@auid": "22137177000",
+                  "@orcid": "0000-0002-2366-1990",
+                  "ce:indexed-name": "Zuo X."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "210098",
+                "@afid": "60010851",
+                "@country": "chn",
+                "city": "Nanjing",
+                "organization": [
+                  {
+                    "$": "College of Water Conservancy and Hydropower Engineering"
+                  },
+                  {
+                    "$": "Hohai University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60010851",
+                  "@dptid": "103586536"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-970298602-91b11e17e1c8f7a05486b71faa35f45d-1",
+                "ce:source-text": "College of Water Conservancy and Hydropower Engineering, Hohai University, Nanjing, 210098, China",
+                "@dptid": "103586536"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Wenlei",
+                  "preferred-name": {
+                    "ce:given-name": "Wenlei",
+                    "ce:initials": "W.",
+                    "ce:surname": "Xu",
+                    "ce:indexed-name": "Xu W."
+                  },
+                  "@author-instance-id": "OB2BibRecID-970298602-82015bbcb9cb950e7be429f462e22189-1",
+                  "@seq": "3",
+                  "ce:initials": "W.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Xu",
+                  "@auid": "57205673679",
+                  "@orcid": "0000-0002-1872-5734",
+                  "ce:indexed-name": "Xu W."
+                }
+              ]
+            }
+          ],
+          "citation-title": "Experimental investigation and statistical evaluation of mechanical properties of centrifuged PHC pipe pile concrete",
+          "abstracts": "© 2025 Institution of Structural Engineers. Published by Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.Due to the inherent differences in molding processes, the test results obtained from traditional vibrated concrete specimens may not reliably represent the true mechanical properties of centrifuged prestressed high-strength concrete (PHC) pipe pile concrete. To address this limitation, a specialized laboratory-scale centrifuge was developed in this study to fabricate prismatic centrifuged concrete specimens. The mechanical properties of centrifuged concrete under different steam curing regimes were systematically investigated and compared with those of vibrated concrete, with particular attention to strength, stiffness, and fracture energy. Analysis of variance (ANOVA) was conducted to evaluate the effects of molding methods and steam curing regimes on all mechanical response variables, supplemented by an examination of pore structure differences. The results demonstrate that centrifuged concrete exhibits significantly improved mechanical properties compared with vibrated concrete. Extending the pre-curing time from 2 h to 4 h enhances strength development but inhibits the growth of fracture energy. Moreover, prolonged steam curing exerts a pronounced negative effect on the mechanical properties of vibrated concrete, whereas it shows a slightly positive effect on centrifuged concrete. The optimal performance of centrifuged concrete, characterized by the lowest porosity and superior mechanical properties, was achieved with a pre-curing time of 4 h and a holding time of 9 h.",
+          "correspondence": {
+            "affiliation": {
+              "country": "China",
+              "postal-code": "210098",
+              "@country": "chn",
+              "city": "Nanjing",
+              "organization": [
+                {
+                  "$": "College of Water Conservancy and Hydropower Engineering"
+                },
+                {
+                  "$": "Hohai University"
+                }
+              ],
+              "@affiliation-instance-id": "OB2BibRecID-970298602-3f2d61e4f0bcdddc505eda2b7ddbf280-1",
+              "ce:source-text": "College of Water Conservancy and Hydropower Engineering, Hohai University, Nanjing, 210098, China"
+            },
+            "person": {
+              "ce:given-name": "Wenlei",
+              "@author-instance-id": "OB2BibRecID-970298602-4ffbfb9b3c6db83fe55fcaae729befa6-1",
+              "ce:initials": "W.",
+              "ce:surname": "Xu",
+              "ce:indexed-name": "Xu W."
+            }
+          },
+          "citation-info": {
+            "author-keywords": {
+              "author-keyword": [
+                {
+                  "$": "Analysis of variance (ANOVA)",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Centrifugation",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Mechanical properties",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "PHC pipe pile concrete",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Steam curing",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                }
+              ]
+            },
+            "citation-type": {
+              "@code": "ar"
+            },
+            "citation-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "abstract-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            }
+          },
+          "source": {
+            "website": {
+              "ce:e-address": {
+                "$": "https://www.sciencedirect.com/science/journal/23520124",
+                "@type": "email"
+              }
+            },
+            "translated-sourcetitle": {
+              "@xml:lang": "eng"
+            },
+            "volisspag": {
+              "voliss": {
+                "@volume": "82"
+              }
+            },
+            "@type": "j",
+            "sourcetitle": "Structures",
+            "publicationdate": {
+              "month": "12",
+              "year": "2025",
+              "date-text": "December 2025",
+              "day": "01"
+            },
+            "sourcetitle-abbrev": "Structures",
+            "@country": "gbr",
+            "issn": {
+              "$": "23520124",
+              "@type": "electronic"
+            },
+            "preferred-sourcetitle": "Structures",
+            "publicationyear": {
+              "@first": "2025"
+            },
+            "publisher": {
+              "publishername": "Elsevier Ltd"
+            },
+            "article-number": "110821",
+            "@srcid": "21100372467"
+          },
+          "enhancement": {
+            "classificationgroup": {
+              "classifications": [
+                {
+                  "@type": "CPXCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "1106.2.1",
+                      "classification-description": "Data Mining"
+                    },
+                    {
+                      "classification-code": "1202",
+                      "classification-description": "Statistical Methods"
+                    },
+                    {
+                      "classification-code": "1301.1.2",
+                      "classification-description": "Physical Properties of Gases, Liquids and Solids"
+                    },
+                    {
+                      "classification-code": "214.1.2",
+                      "classification-description": "Fatigue, Cracks and Fracture"
+                    },
+                    {
+                      "classification-code": "217.2",
+                      "classification-description": "Concrete"
+                    },
+                    {
+                      "classification-code": "408.1",
+                      "classification-description": "Structural Members and Shapes"
+                    },
+                    {
+                      "classification-code": "802.2",
+                      "classification-description": "Chemical Reactions"
+                    },
+                    {
+                      "classification-code": "802.3",
+                      "classification-description": "Chemical Operations"
+                    },
+                    {
+                      "classification-code": "913.4",
+                      "classification-description": "Manufacturing"
+                    }
+                  ]
+                },
+                {
+                  "@type": "FLXCLASS",
+                  "classification": {
+                    "classification-code": "78.23",
+                    "classification-description": "MIXING AND SEPARATION"
+                  }
+                },
+                {
+                  "@type": "ASJC",
+                  "classification": [
+                    {
+                      "$": "2216"
+                    },
+                    {
+                      "$": "2205"
+                    },
+                    {
+                      "$": "2215"
+                    },
+                    {
+                      "$": "2213"
+                    }
+                  ]
+                },
+                {
+                  "@type": "SUBJABBR",
+                  "classification": "ENGI"
+                }
+              ]
+            }
+          },
+          "grantlist": {
+            "@complete": "y",
+            "grant-text": {
+              "$": "The authors gratefully acknowledge the financial supports from the National Natural Science Foundation of China (Grant No. 52478527), Joint Project of Industry-University-Research of Jiangsu Province (BY2021059), Scientific Research Foundation for High-Level Talents of Jinling Institute of Technology (Grant No. jit-b-202210).",
+              "@xml:lang": "eng"
+            },
+            "grant": {
+              "grant-id": "52478527",
+              "grant-agency": {
+                "@iso-code": "chn",
+                "$": "National Natural Science Foundation of China"
+              },
+              "grant-agency-id": "501100001809"
+            }
+          }
+        },
+        "item-info": {
+          "copyright": {
+            "$": "Copyright 2025 Elsevier B.V., All rights reserved.",
+            "@type": "Elsevier"
+          },
+          "dbcollection": [
+            {
+              "$": "CPX"
+            },
+            {
+              "$": "REAXYSCAR"
+            },
+            {
+              "$": "SCOPUS"
+            },
+            {
+              "$": "SNCPX"
+            },
+            {
+              "$": "Scopusbase"
+            }
+          ],
+          "history": {
+            "date-created": {
+              "@day": "19",
+              "@timestamp": "BST 12:47:24",
+              "@year": "2025",
+              "@month": "12"
+            }
+          },
+          "itemidlist": {
+            "itemid": [
+              {
+                "$": "2042280980",
+                "@idtype": "PUI"
+              },
+              {
+                "$": "970298602",
+                "@idtype": "CAR-ID"
+              },
+              {
+                "$": "20255119741685",
+                "@idtype": "CPX"
+              },
+              {
+                "$": "20253948554",
+                "@idtype": "REAXYSCAR"
+              },
+              {
+                "$": "20255351203",
+                "@idtype": "SCOPUS"
+              },
+              {
+                "$": "2025148644",
+                "@idtype": "SNCPX"
+              },
+              {
+                "$": "970298602#628892956",
+                "@idtype": "SRC-OCC-ID"
+              },
+              {
+                "$": "105024879555",
+                "@idtype": "SCP"
+              },
+              {
+                "$": "105024879555",
+                "@idtype": "SGR"
+              }
+            ],
+            "ce:pii": "S2352012425026384",
+            "ce:ern": "pii:S2352012425026384",
+            "ce:doi": "10.1016/j.istruc.2025.110821"
+          }
+        },
+        "tail": {
+          "bibliography": {
+            "@refcount": "33",
+            "reference": [
+              {
+                "ref-fulltext": "Y. Yao, B. Hong, X. Liu, G. Wang, Z. Shao, D. Sun, Field and numerical study of the bearing capacity of pre-stressed high-strength concrete (PHC)-pipe-pile-reinforced soft soil foundations with tie beams, Appl. Sci.-Basel 13(21) (2023) 11786. https://doi.org/10.3390/app132111786",
+                "@reference-instance-id": "OB2BibRecID-970298602-11ea67c732aba8dd974ca08a1ed96be4-1",
+                "@id": "1",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Field and numerical study of the bearing capacity of pre-stressed high-strength concrete (PHC)-pipe-pile-reinforced soft soil foundations with tie beams"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.3390/app132111786",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "11786",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "bib1",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85192386791",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "13",
+                      "@issue": "21"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Yao",
+                        "ce:indexed-name": "Yao Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Hong",
+                        "ce:indexed-name": "Hong B."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu X."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang G."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Shao",
+                        "ce:indexed-name": "Shao Z."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Sun",
+                        "ce:indexed-name": "Sun D."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Appl Sci Basel"
+                },
+                "ce:source-text": "Y. Yao, B. Hong, X. Liu, G. Wang, Z. Shao, D. Sun, Field and numerical study of the bearing capacity of pre-stressed high-strength concrete (PHC)-pipe-pile-reinforced soft soil foundations with tie beams, Appl. Sci.-Basel 13(21) (2023) 11786. https://doi.org/10.3390/app132111786"
+              },
+              {
+                "ref-fulltext": "X. Zheng, B. Shi, H.-H. Zhu, C.-C. Zhang, X. Wang, M.-Y. Sun, Performance monitoring of offshore PHC pipe pile using BOFDA-based distributed fiber optic sensing system, Geomech. Eng. 24(4) (2021) 337-348. https://doi.org/10.12989/gae.2021.24.4.337",
+                "@reference-instance-id": "OB2BibRecID-970298602-2a7dac91b9b6c15457d43ecbf3f97c53-2",
+                "@id": "2",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Performance monitoring of offshore PHC pipe pile using BOFDA-based distributed fiber optic sensing system"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.12989/gae.2021.24.4.337",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib2",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85105375631",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "24",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "337",
+                      "@last": "348"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Zheng",
+                        "ce:indexed-name": "Zheng X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi B."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.-H.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhu",
+                        "ce:indexed-name": "Zhu H.-H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "C.-C.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang C.-C."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang X."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "M.-Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Sun",
+                        "ce:indexed-name": "Sun M.-Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geomech Eng"
+                },
+                "ce:source-text": "X. Zheng, B. Shi, H.-H. Zhu, C.-C. Zhang, X. Wang, M.-Y. Sun, Performance monitoring of offshore PHC pipe pile using BOFDA-based distributed fiber optic sensing system, Geomech. Eng. 24(4) (2021) 337-348. https://doi.org/10.12989/gae.2021.24.4.337"
+              },
+              {
+                "ref-fulltext": "G.-W. Li, H.-F. Pei, J.-H. Yin, X.-C. Lu, J. Teng, Monitoring and analysis of PHC pipe piles under hydraulic jacking using FBG sensing technology, Measurement 49 (2014) 358-367. https://doi.org/10.1016/j.measurement.2013.11.046",
+                "@reference-instance-id": "OB2BibRecID-970298602-66f74200d6bee7fc6d8e2ffd4d18fa0c-3",
+                "@id": "3",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Monitoring and analysis of PHC pipe piles under hydraulic jacking using FBG sensing technology"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.measurement.2013.11.046",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib3",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84891721743",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "49"
+                    },
+                    "pagerange": {
+                      "@first": "358",
+                      "@last": "367"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.-W.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li G.-W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.-F.",
+                        "@_fa": "true",
+                        "ce:surname": "Pei",
+                        "ce:indexed-name": "Pei H.-F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.-H.",
+                        "@_fa": "true",
+                        "ce:surname": "Yin",
+                        "ce:indexed-name": "Yin J.-H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "X.-C.",
+                        "@_fa": "true",
+                        "ce:surname": "Lu",
+                        "ce:indexed-name": "Lu X.-C."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Teng",
+                        "ce:indexed-name": "Teng J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Measurement"
+                },
+                "ce:source-text": "G.-W. Li, H.-F. Pei, J.-H. Yin, X.-C. Lu, J. Teng, Monitoring and analysis of PHC pipe piles under hydraulic jacking using FBG sensing technology, Measurement 49 (2014) 358-367. https://doi.org/10.1016/j.measurement.2013.11.046"
+              },
+              {
+                "ref-fulltext": "F. Lyu, H. Shao, W. Zhang, Comparative analysis about carbon emission of precast pile and cast-in-situ pile, Energy Rep. 8 (2022) 514-525. https://doi.org/10.1016/j.egyr.2022.03.101",
+                "@reference-instance-id": "OB2BibRecID-970298602-3f632adf08f974d42135fdb480a3ca76-4",
+                "@id": "4",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Comparative analysis about carbon emission of precast pile and cast-in-situ pile"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.egyr.2022.03.101",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib4",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85127107958",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "8"
+                    },
+                    "pagerange": {
+                      "@first": "514",
+                      "@last": "525"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Lyu",
+                        "ce:indexed-name": "Lyu F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Shao",
+                        "ce:indexed-name": "Shao H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Energy Rep"
+                },
+                "ce:source-text": "F. Lyu, H. Shao, W. Zhang, Comparative analysis about carbon emission of precast pile and cast-in-situ pile, Energy Rep. 8 (2022) 514-525. https://doi.org/10.1016/j.egyr.2022.03.101"
+              },
+              {
+                "ref-fulltext": "X. Han, Z. Du, P. Wang, R. Zhang, J. Gao, Z. Ling, D. Wei, Multi-scale microstructure quantitative characterization and anti-erosion performance of PHC pipe pile, Constr. Build. Mater. 406 (2023) 133464. https://doi.org/10.1016/j.conbuildmat.2023.133464",
+                "@reference-instance-id": "OB2BibRecID-970298602-df9f07db3274a4b5905e3744999f62a7-5",
+                "@id": "5",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Multi-scale microstructure quantitative characterization and anti-erosion performance of PHC pipe pile"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.conbuildmat.2023.133464",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "133464",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "bib5",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85172317714",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "406"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Han",
+                        "ce:indexed-name": "Han X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Du",
+                        "ce:indexed-name": "Du Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang P."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang R."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Gao",
+                        "ce:indexed-name": "Gao J."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Ling",
+                        "ce:indexed-name": "Ling Z."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Constr Build Mater"
+                },
+                "ce:source-text": "X. Han, Z. Du, P. Wang, R. Zhang, J. Gao, Z. Ling, D. Wei, Multi-scale microstructure quantitative characterization and anti-erosion performance of PHC pipe pile, Constr. Build. Mater. 406 (2023) 133464. https://doi.org/10.1016/j.conbuildmat.2023.133464"
+              },
+              {
+                "ref-fulltext": "S. Lan, F. Liu, F. Yang, H. Li, D. Chen, K. Xu, H. Zhang, J. Kuang, Z. Fang, W. Feng, Dynamic compressive and splitting tensile characteristics of rubber-modified non-autoclaved concrete pipe piles, J. Build. Eng. 69 (2023) 106292. https://doi.org/10.1016/j.jobe.2023.106292",
+                "@reference-instance-id": "OB2BibRecID-970298602-80ecc20eb65b59649514c4942c4b9be4-6",
+                "@id": "6",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Dynamic compressive and splitting tensile characteristics of rubber-modified non-autoclaved concrete pipe piles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.jobe.2023.106292",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "106292",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "bib6",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85150873290",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "69"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Lan",
+                        "ce:indexed-name": "Lan S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang F."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li H."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen D."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu K."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "J Build Eng"
+                },
+                "ce:source-text": "S. Lan, F. Liu, F. Yang, H. Li, D. Chen, K. Xu, H. Zhang, J. Kuang, Z. Fang, W. Feng, Dynamic compressive and splitting tensile characteristics of rubber-modified non-autoclaved concrete pipe piles, J. Build. Eng. 69 (2023) 106292. https://doi.org/10.1016/j.jobe.2023.106292"
+              },
+              {
+                "ref-fulltext": "A. Alhozaimy, M.S. Jaafar, A. Al-Negheimish, A. Abdullah, Y.H. Taufiq-Yap, J. Noorzaei, O.A. Alawad, Properties of high strength concrete using white and dune sands under normal and autoclaved curing, Constr. Build. Mater. 27(1) (2012) 218-222. https://doi.org/10.1016/j.conbuildmat.2011.07.057",
+                "@reference-instance-id": "OB2BibRecID-970298602-ea81ec4a22ea4c09547d2eb5a0912ce4-7",
+                "@id": "7",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Properties of high strength concrete using white and dune sands under normal and autoclaved curing"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.conbuildmat.2011.07.057",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib7",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "80755163489",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "27",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "218",
+                      "@last": "222"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Alhozaimy",
+                        "ce:indexed-name": "Alhozaimy A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Jaafar",
+                        "ce:indexed-name": "Jaafar M.S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Al-Negheimish",
+                        "ce:indexed-name": "Al-Negheimish A."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Abdullah",
+                        "ce:indexed-name": "Abdullah A."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Y.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Taufiq-Yap",
+                        "ce:indexed-name": "Taufiq-Yap Y.H."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Noorzaei",
+                        "ce:indexed-name": "Noorzaei J."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Constr Build Mater"
+                },
+                "ce:source-text": "A. Alhozaimy, M.S. Jaafar, A. Al-Negheimish, A. Abdullah, Y.H. Taufiq-Yap, J. Noorzaei, O.A. Alawad, Properties of high strength concrete using white and dune sands under normal and autoclaved curing, Constr. Build. Mater. 27(1) (2012) 218-222. https://doi.org/10.1016/j.conbuildmat.2011.07.057"
+              },
+              {
+                "ref-fulltext": "F. Liu, W. Feng, Z. Xiong, L. Li, Y. Yang, H. Lin, Y. Shen, Impact performance of new prestressed high-performance concrete pipe piles manufactured with an environmentally friendly technique, J. Clean Prod. 231 (2019) 683-697. https://doi.org/10.1016/j.jclepro.2019.05.241",
+                "@reference-instance-id": "OB2BibRecID-970298602-9d6c64decda7f507013db04b0cd7e1b3-8",
+                "@id": "8",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Impact performance of new prestressed high-performance concrete pipe piles manufactured with an environmentally friendly technique"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.jclepro.2019.05.241",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib8",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85067083592",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "231"
+                    },
+                    "pagerange": {
+                      "@first": "683",
+                      "@last": "697"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Feng",
+                        "ce:indexed-name": "Feng W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Xiong",
+                        "ce:indexed-name": "Xiong Z."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li L."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang Y."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Lin",
+                        "ce:indexed-name": "Lin H."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "J Clean Prod"
+                },
+                "ce:source-text": "F. Liu, W. Feng, Z. Xiong, L. Li, Y. Yang, H. Lin, Y. Shen, Impact performance of new prestressed high-performance concrete pipe piles manufactured with an environmentally friendly technique, J. Clean Prod. 231 (2019) 683-697. https://doi.org/10.1016/j.jclepro.2019.05.241"
+              },
+              {
+                "ref-fulltext": "W. Shao, J. Li, Service life prediction of cracked RC pipe piles exposed to marine environments, Constr. Build. Mater. 64 (2014) 301-307. https://doi.org/10.1016/j.conbuildmat.2014.04.094",
+                "@reference-instance-id": "OB2BibRecID-970298602-64f21d73fa50e7e843b0e5e0710621ed-9",
+                "@id": "9",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Service life prediction of cracked RC pipe piles exposed to marine environments"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.conbuildmat.2014.04.094",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib9",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84899795354",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "64"
+                    },
+                    "pagerange": {
+                      "@first": "301",
+                      "@last": "307"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Shao",
+                        "ce:indexed-name": "Shao W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr Build Mater"
+                },
+                "ce:source-text": "W. Shao, J. Li, Service life prediction of cracked RC pipe piles exposed to marine environments, Constr. Build. Mater. 64 (2014) 301-307. https://doi.org/10.1016/j.conbuildmat.2014.04.094"
+              },
+              {
+                "ref-fulltext": "P. Ni, S. Mangalathu, G. Mei, Y. Zhao, Compressive and flexural behaviour of reinforced concrete permeable piles, Eng. Struct. 147 (2017) 316-327. https://doi.org/10.1016/j.engstruct.2017.06.007",
+                "@reference-instance-id": "OB2BibRecID-970298602-d662b82e9fce4aef74751e1895aa9354-10",
+                "@id": "10",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Compressive and flexural behaviour of reinforced concrete permeable piles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.engstruct.2017.06.007",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib10",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85020625598",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "147"
+                    },
+                    "pagerange": {
+                      "@first": "316",
+                      "@last": "327"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Ni",
+                        "ce:indexed-name": "Ni P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Mangalathu",
+                        "ce:indexed-name": "Mangalathu S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Mei",
+                        "ce:indexed-name": "Mei G."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Eng Struct"
+                },
+                "ce:source-text": "P. Ni, S. Mangalathu, G. Mei, Y. Zhao, Compressive and flexural behaviour of reinforced concrete permeable piles, Eng. Struct. 147 (2017) 316-327. https://doi.org/10.1016/j.engstruct.2017.06.007"
+              },
+              {
+                "ref-fulltext": "Y. Hu, L. Ma, T. He, Effect of mineral admixtures on the sulfate resistance of high-strength piles mortar, Materials 13(16) (2020) 3500. https://doi.org/10.3390/ma13163500",
+                "@reference-instance-id": "OB2BibRecID-970298602-7773ab21ddda8f792c4c562541c5515d-11",
+                "@id": "11",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of mineral admixtures on the sulfate resistance of high-strength piles mortar"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.3390/ma13163500",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "3500",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "bib11",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85090052650",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "13",
+                      "@issue": "16"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Hu",
+                        "ce:indexed-name": "Hu Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Ma",
+                        "ce:indexed-name": "Ma L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "He",
+                        "ce:indexed-name": "He T."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Materials"
+                },
+                "ce:source-text": "Y. Hu, L. Ma, T. He, Effect of mineral admixtures on the sulfate resistance of high-strength piles mortar, Materials 13(16) (2020) 3500. https://doi.org/10.3390/ma13163500"
+              },
+              {
+                "ref-fulltext": "S. Lan, F. Liu, F. Yang, W. Feng, D. Chen, Study on the dynamic performance and damage evaluation of rubber-modified non-autoclaved concrete pipe piles under axial drop hammer impact, Buildings-Basel 14(2) (2024) 489. https://doi.org/10.3390/buildings14020489",
+                "@reference-instance-id": "OB2BibRecID-970298602-dc84f4324ea931160c8c569b8117f3f8-12",
+                "@id": "12",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Study on the dynamic performance and damage evaluation of rubber-modified non-autoclaved concrete pipe piles under axial drop hammer impact"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.3390/buildings14020489",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "489",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "bib12",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85185720061",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "14",
+                      "@issue": "2"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Lan",
+                        "ce:indexed-name": "Lan S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang F."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Feng",
+                        "ce:indexed-name": "Feng W."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen D."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "BuildBasel"
+                },
+                "ce:source-text": "S. Lan, F. Liu, F. Yang, W. Feng, D. Chen, Study on the dynamic performance and damage evaluation of rubber-modified non-autoclaved concrete pipe piles under axial drop hammer impact, Buildings-Basel 14(2) (2024) 489. https://doi.org/10.3390/buildings14020489"
+              },
+              {
+                "ref-fulltext": "J. Han, Z. Shui, G. Wang, T. Sun, X. Gao, Performance evaluation of steam cured HPC pipe piles produced with metakaolin based mineral additives, Constr. Build. Mater. 189 (2018) 719-727. https://doi.org/10.1016/j.conbuildmat.2018.09.044",
+                "@reference-instance-id": "OB2BibRecID-970298602-df3ea3a0887e090dc935840c938472bc-13",
+                "@id": "13",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Performance evaluation of steam cured HPC pipe piles produced with metakaolin based mineral additives"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.conbuildmat.2018.09.044",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib13",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85053413869",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "189"
+                    },
+                    "pagerange": {
+                      "@first": "719",
+                      "@last": "727"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Han",
+                        "ce:indexed-name": "Han J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Shui",
+                        "ce:indexed-name": "Shui Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang G."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Sun",
+                        "ce:indexed-name": "Sun T."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Gao",
+                        "ce:indexed-name": "Gao X."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr Build Mater"
+                },
+                "ce:source-text": "J. Han, Z. Shui, G. Wang, T. Sun, X. Gao, Performance evaluation of steam cured HPC pipe piles produced with metakaolin based mineral additives, Constr. Build. Mater. 189 (2018) 719-727. https://doi.org/10.1016/j.conbuildmat.2018.09.044"
+              },
+              {
+                "ref-fulltext": "G. Li, J. Zhou, J. Yue, X. Gao, K. Wang, Effects of nano-SiO2 and secondary water curing on the carbonation and chloride resistance of autoclaved concrete, Constr. Build. Mater. 235 (2020) 117465. https://doi.org/10.1016/j.conbuildmat.2019.117465",
+                "@reference-instance-id": "OB2BibRecID-970298602-517ef857d71e31b2bc1768d133bbe66e-14",
+                "@id": "14",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effects of nano-SiO2 and secondary water curing on the carbonation and chloride resistance of autoclaved concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.conbuildmat.2019.117465",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "117465",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "bib14",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85074687441",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "235"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Yue",
+                        "ce:indexed-name": "Yue J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Gao",
+                        "ce:indexed-name": "Gao X."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr Build Mater"
+                },
+                "ce:source-text": "G. Li, J. Zhou, J. Yue, X. Gao, K. Wang, Effects of nano-SiO2 and secondary water curing on the carbonation and chloride resistance of autoclaved concrete, Constr. Build. Mater. 235 (2020) 117465. https://doi.org/10.1016/j.conbuildmat.2019.117465"
+              },
+              {
+                "ref-fulltext": "P. Wang, H. Fu, W. Zuo, S. Luo, H. Zhao, P. Feng, H. Wang, Effect of n-C-S-H-PCE and slag powder on the autogenous shrinkage of high-strength steam-free pipe pile concrete, Constr. Build. Mater. 325 (2022) 126815. https://doi.org/10.1016/j.conbuildmat.2022.126815",
+                "@reference-instance-id": "OB2BibRecID-970298602-79df8076011578a97bbf2f2d6e26a563-15",
+                "@id": "15",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of n-C-S-H-PCE and slag powder on the autogenous shrinkage of high-strength steam-free pipe pile concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.conbuildmat.2022.126815",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "126815",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "bib15",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85124487503",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "325"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Fu",
+                        "ce:indexed-name": "Fu H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Zuo",
+                        "ce:indexed-name": "Zuo W."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Luo",
+                        "ce:indexed-name": "Luo S."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao H."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Feng",
+                        "ce:indexed-name": "Feng P."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Constr Build Mater"
+                },
+                "ce:source-text": "P. Wang, H. Fu, W. Zuo, S. Luo, H. Zhao, P. Feng, H. Wang, Effect of n-C-S-H-PCE and slag powder on the autogenous shrinkage of high-strength steam-free pipe pile concrete, Constr. Build. Mater. 325 (2022) 126815. https://doi.org/10.1016/j.conbuildmat.2022.126815"
+              },
+              {
+                "ref-fulltext": "B. Lou, F. Ma, Evolution on fracture properties of concrete during steam curing, Case Stud. Constr. Mater. 16 (2022) e01105. https://doi.org/10.1016/j.cscm.2022.e01105",
+                "@reference-instance-id": "OB2BibRecID-970298602-d86b1ff4813d087baf6a2b7104dbb64c-16",
+                "@id": "16",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Evolution on fracture properties of concrete during steam curing"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.cscm.2022.e01105",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "e01105",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "bib16",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85129256868",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "16"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Lou",
+                        "ce:indexed-name": "Lou B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Ma",
+                        "ce:indexed-name": "Ma F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Case Stud Constr Mater"
+                },
+                "ce:source-text": "B. Lou, F. Ma, Evolution on fracture properties of concrete during steam curing, Case Stud. Constr. Mater. 16 (2022) e01105. https://doi.org/10.1016/j.cscm.2022.e01105"
+              },
+              {
+                "ref-fulltext": "Xiang Y., Lai W., Lan S., Zhang S., Wang J., Xiao Q., Synthetical improvement of dynamic mechanical property and toughness for precast concrete element based on optimization design of composition and curing regime, 95 (2024) 110348. https://doi.org/10.1016/j.jobe.2024.110348.",
+                "@reference-instance-id": "OB2BibRecID-970298602-545997b2fb60a239b77277d11601f5b8-17",
+                "@id": "17",
+                "ref-info": {
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib17",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105024915731",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Xiang Y., Lai W., Lan S., Zhang S., Wang J., Xiao Q., Synthetical improvement of dynamic mechanical property and toughness for precast concrete element based on optimization design of composition and curing regime, 95 (2024) 110348. https://doi.org/10.1016/j.jobe.2024.110348"
+                },
+                "ce:source-text": "Xiang Y., Lai W., Lan S., Zhang S., Wang J., Xiao Q., Synthetical improvement of dynamic mechanical property and toughness for precast concrete element based on optimization design of composition and curing regime, 95 (2024) 110348. https://doi.org/10.1016/j.jobe.2024.110348."
+              },
+              {
+                "ref-fulltext": "B. Feng, Y.-H. Zhu, F. Xie, J. Chen, C.-B. Liu, Experimental investigation and design of hollow section, centrifugal concrete-filled GFRP tube columns, Buildings-Basel 11(12) (2021) 598. https://doi.org/10.3390/buildings11120598",
+                "@reference-instance-id": "OB2BibRecID-970298602-222d877562cb45024040d890deed1efb-18",
+                "@id": "18",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental investigation and design of hollow section, centrifugal concrete-filled GFRP tube columns"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.3390/buildings11120598",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "598",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "bib18",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85121635357",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "11",
+                      "@issue": "12"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Feng",
+                        "ce:indexed-name": "Feng B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.-H.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhu",
+                        "ce:indexed-name": "Zhu Y.-H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Xie",
+                        "ce:indexed-name": "Xie F."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen J."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "C.-B.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu C.-B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "BuildBasel"
+                },
+                "ce:source-text": "B. Feng, Y.-H. Zhu, F. Xie, J. Chen, C.-B. Liu, Experimental investigation and design of hollow section, centrifugal concrete-filled GFRP tube columns, Buildings-Basel 11(12) (2021) 598. https://doi.org/10.3390/buildings11120598"
+              },
+              {
+                "ref-fulltext": "E.M. Shcherban’, S.A. Stel’makh, L.R. Mailyan, A.N. Beskopylny, A.S. Smolyanichenko, A. Chernil’nik, D. Elshaeva, N. Beskopylny, Analytical review of the current state of technology, structure formation, and properties of variatropic centrifugally compacted concrete, Materials 17(8) (2024) 1889. https://doi.org/10.3390/ma17081889",
+                "@reference-instance-id": "OB2BibRecID-970298602-9401ee00c29397e1162ebcc8ff844636-19",
+                "@id": "19",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Analytical review of the current state of technology, structure formation, and properties of variatropic centrifugally compacted concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.3390/ma17081889",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "1889",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "bib19",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85191411181",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "17",
+                      "@issue": "8"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "E.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Shcherban’",
+                        "ce:indexed-name": "Shcherban' E.M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Stel’makh",
+                        "ce:indexed-name": "Stel'makh S.A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "L.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Mailyan",
+                        "ce:indexed-name": "Mailyan L.R."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "A.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Beskopylny",
+                        "ce:indexed-name": "Beskopylny A.N."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "A.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Smolyanichenko",
+                        "ce:indexed-name": "Smolyanichenko A.S."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Chernil’nik",
+                        "ce:indexed-name": "Chernil'nik A."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Materials"
+                },
+                "ce:source-text": "E.M. Shcherban’, S.A. Stel’makh, L.R. Mailyan, A.N. Beskopylny, A.S. Smolyanichenko, A. Chernil’nik, D. Elshaeva, N. Beskopylny, Analytical review of the current state of technology, structure formation, and properties of variatropic centrifugally compacted concrete, Materials 17(8) (2024) 1889. https://doi.org/10.3390/ma17081889"
+              },
+              {
+                "ref-fulltext": "Z. Yue, J. Li, W. Shao, L. Li, Effect of crack opening and recovery on chloride penetration into reinforced concrete hollow piles, Mater. Struct. 49(8) (2016) 3217-3226. https://doi.org/10.1617/s11527-015-0714-3",
+                "@reference-instance-id": "OB2BibRecID-970298602-0b14bb1bc0499637ed33e0dc9d347ff2-20",
+                "@id": "20",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of crack opening and recovery on chloride penetration into reinforced concrete hollow piles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1617/s11527-015-0714-3",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib20",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84944707488",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "49",
+                      "@issue": "8"
+                    },
+                    "pagerange": {
+                      "@first": "3217",
+                      "@last": "3226"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Yue",
+                        "ce:indexed-name": "Yue Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Shao",
+                        "ce:indexed-name": "Shao W."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Mater Struct"
+                },
+                "ce:source-text": "Z. Yue, J. Li, W. Shao, L. Li, Effect of crack opening and recovery on chloride penetration into reinforced concrete hollow piles, Mater. Struct. 49(8) (2016) 3217-3226. https://doi.org/10.1617/s11527-015-0714-3"
+              },
+              {
+                "ref-fulltext": "H. Wang, H. Chen, C. Yang, J. Li, Durable life assessment of centrifugal stratified PHC piles in marine environment, Eng. Struct. 263 (2022) 114404. https://doi.org/10.1016/j.engstruct.2022.114404",
+                "@reference-instance-id": "OB2BibRecID-970298602-4e31f34a030b6dc9189cb976012a1a31-21",
+                "@id": "21",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Durable life assessment of centrifugal stratified PHC piles in marine environment"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.engstruct.2022.114404",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "114404",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "bib21",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85130603625",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "263"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang C."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Eng Struct"
+                },
+                "ce:source-text": "H. Wang, H. Chen, C. Yang, J. Li, Durable life assessment of centrifugal stratified PHC piles in marine environment, Eng. Struct. 263 (2022) 114404. https://doi.org/10.1016/j.engstruct.2022.114404"
+              },
+              {
+                "ref-fulltext": "L. Li, W. Gong, J. Li, Service life of prestressed high-strength concrete pile in marine environment considering effects of concrete stratification and temperature, Constr. Build. Mater. 253 (2020) 119233. https://doi.org/10.1016/j.conbuildmat.2020.119233",
+                "@reference-instance-id": "OB2BibRecID-970298602-07b33bef1526b2693b3601dbabd4c07a-22",
+                "@id": "22",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Service life of prestressed high-strength concrete pile in marine environment considering effects of concrete stratification and temperature"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.conbuildmat.2020.119233",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "119233",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "bib22",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85083570205",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "253"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Gong",
+                        "ce:indexed-name": "Gong W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr Build Mater"
+                },
+                "ce:source-text": "L. Li, W. Gong, J. Li, Service life of prestressed high-strength concrete pile in marine environment considering effects of concrete stratification and temperature, Constr. Build. Mater. 253 (2020) 119233. https://doi.org/10.1016/j.conbuildmat.2020.119233"
+              },
+              {
+                "ref-fulltext": "A.M. Zeyad, M.A.M. Johari, Y.R. Alharbi, A.A. Abadel, Y.H.M. Amran, B.A. Tayeh, A. Abutaleb, Influence of steam curing regimes on the properties of ultrafine POFA-based high-strength green concrete, J. Build. Eng. 38 (2021) 102204. https://doi.org/10.1016/j.jobe.2021.102204",
+                "@reference-instance-id": "OB2BibRecID-970298602-9f7930c87ec8d8340484e48bb0406d76-23",
+                "@id": "23",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Influence of steam curing regimes on the properties of ultrafine POFA-based high-strength green concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.jobe.2021.102204",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "102204",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "bib23",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85100441450",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "38"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Zeyad",
+                        "ce:indexed-name": "Zeyad A.M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.A.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Johari",
+                        "ce:indexed-name": "Johari M.A.M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Alharbi",
+                        "ce:indexed-name": "Alharbi Y.R."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "A.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Abadel",
+                        "ce:indexed-name": "Abadel A.A."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Y.H.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Amran",
+                        "ce:indexed-name": "Amran Y.H.M."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "B.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Tayeh",
+                        "ce:indexed-name": "Tayeh B.A."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "J Build Eng"
+                },
+                "ce:source-text": "A.M. Zeyad, M.A.M. Johari, Y.R. Alharbi, A.A. Abadel, Y.H.M. Amran, B.A. Tayeh, A. Abutaleb, Influence of steam curing regimes on the properties of ultrafine POFA-based high-strength green concrete, J. Build. Eng. 38 (2021) 102204. https://doi.org/10.1016/j.jobe.2021.102204"
+              },
+              {
+                "ref-fulltext": "J. Yang, H. Hu, X. He, Y. Su, Y. Wang, H. Tan, H. Pan, Effect of steam curing on compressive strength and microstructure of high volume ultrafine fly ash cement mortar, Constr. Build. Mater. 266 (2021) 120894. https://doi.org/10.1016/j.conbuildmat.2020.120894",
+                "@reference-instance-id": "OB2BibRecID-970298602-bbb10f397438f5d5b2bf60fa1be8a3c6-24",
+                "@id": "24",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of steam curing on compressive strength and microstructure of high volume ultrafine fly ash cement mortar"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.conbuildmat.2020.120894",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "120894",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "bib24",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85092305127",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "266"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Hu",
+                        "ce:indexed-name": "Hu H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "He",
+                        "ce:indexed-name": "He X."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Su",
+                        "ce:indexed-name": "Su Y."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang Y."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Tan",
+                        "ce:indexed-name": "Tan H."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Constr Build Mater"
+                },
+                "ce:source-text": "J. Yang, H. Hu, X. He, Y. Su, Y. Wang, H. Tan, H. Pan, Effect of steam curing on compressive strength and microstructure of high volume ultrafine fly ash cement mortar, Constr. Build. Mater. 266 (2021) 120894. https://doi.org/10.1016/j.conbuildmat.2020.120894"
+              },
+              {
+                "ref-fulltext": "Y. Chen, F. Al-Neshawy, J. Punkki, Investigation on the effect of entrained air on pore structure in hardened concrete using MIP, Constr. Build. Mater. 292 (2021) 123441. https://doi.org/10.1016/j.conbuildmat.2021.123441",
+                "@reference-instance-id": "OB2BibRecID-970298602-5de1abfadc551b7b9890fdb3fb258d5b-25",
+                "@id": "25",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Investigation on the effect of entrained air on pore structure in hardened concrete using MIP"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.conbuildmat.2021.123441",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "123441",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "bib25",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85105076480",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "292"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Al-Neshawy",
+                        "ce:indexed-name": "Al-Neshawy F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Punkki",
+                        "ce:indexed-name": "Punkki J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr Build Mater"
+                },
+                "ce:source-text": "Y. Chen, F. Al-Neshawy, J. Punkki, Investigation on the effect of entrained air on pore structure in hardened concrete using MIP, Constr. Build. Mater. 292 (2021) 123441. https://doi.org/10.1016/j.conbuildmat.2021.123441"
+              },
+              {
+                "ref-fulltext": "S. Xue, P. Zhang, J. Bao, L. He, Y. Hu, S. Yang, Comparison of mercury intrusion porosimetry and multi-scale X-ray CT on characterizing the microstructure of heat-treated cement mortar, Mater. Charact. 160 (2020) 110085. https://doi.org/10.1016/j.matchar.2019.110085",
+                "@reference-instance-id": "OB2BibRecID-970298602-41df9f410910ede952c794e02f66ce6e-26",
+                "@id": "26",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Comparison of mercury intrusion porosimetry and multi-scale X-ray CT on characterizing the microstructure of heat-treated cement mortar"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.matchar.2019.110085",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "110085",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "bib26",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85077505360",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "160"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Xue",
+                        "ce:indexed-name": "Xue S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang P."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Bao",
+                        "ce:indexed-name": "Bao J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "He",
+                        "ce:indexed-name": "He L."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Hu",
+                        "ce:indexed-name": "Hu Y."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Mater Charact"
+                },
+                "ce:source-text": "S. Xue, P. Zhang, J. Bao, L. He, Y. Hu, S. Yang, Comparison of mercury intrusion porosimetry and multi-scale X-ray CT on characterizing the microstructure of heat-treated cement mortar, Mater. Charact. 160 (2020) 110085. https://doi.org/10.1016/j.matchar.2019.110085"
+              },
+              {
+                "ref-fulltext": "A. Šapalas, A. Mudrov, Analysing the confinement effect in hollow core steel-concrete composite columns under axial compression, Materials 14(20) (2021) 6046. https://doi.org/10.3390/ma14206046",
+                "@reference-instance-id": "OB2BibRecID-970298602-071fc2b498852d388450c75a08128864-27",
+                "@id": "27",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Analysing the confinement effect in hollow core steel-concrete composite columns under axial compression"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.3390/ma14206046",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "6046",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "bib27",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85117509821",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "14",
+                      "@issue": "20"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Šapalas",
+                        "ce:indexed-name": "Sapalas A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Mudrov",
+                        "ce:indexed-name": "Mudrov A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Materials"
+                },
+                "ce:source-text": "A. Šapalas, A. Mudrov, Analysing the confinement effect in hollow core steel-concrete composite columns under axial compression, Materials 14(20) (2021) 6046. https://doi.org/10.3390/ma14206046"
+              },
+              {
+                "ref-fulltext": "Y. Chen, Y. Ning, X. Chen, W. Xuan, Y. Guo, Effects of steam curing on the pore structure of recycled aggregate concrete, Adv. Cem. Res. 36(12) (2024) 557-566. https://doi.org/10.1680/jadcr.22.00092",
+                "@reference-instance-id": "OB2BibRecID-970298602-3d5033c7b6f174567db104d451614a52-28",
+                "@id": "28",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effects of steam curing on the pore structure of recycled aggregate concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1680/jadcr.22.00092",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib28",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85185794630",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "36",
+                      "@issue": "12"
+                    },
+                    "pagerange": {
+                      "@first": "557",
+                      "@last": "566"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Ning",
+                        "ce:indexed-name": "Ning Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen X."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Xuan",
+                        "ce:indexed-name": "Xuan W."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Guo",
+                        "ce:indexed-name": "Guo Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Adv Cem Res"
+                },
+                "ce:source-text": "Y. Chen, Y. Ning, X. Chen, W. Xuan, Y. Guo, Effects of steam curing on the pore structure of recycled aggregate concrete, Adv. Cem. Res. 36(12) (2024) 557-566. https://doi.org/10.1680/jadcr.22.00092"
+              },
+              {
+                "ref-fulltext": "H. Zhu, Z. Wang, J. Xu, Q. Han, Microporous structures and compressive strength of high-performance rubber concrete with internal curing agent, Constr. Build. Mater. 215 (2019) 128-134. https://doi.org/10.1016/j.conbuildmat.2019.04.184",
+                "@reference-instance-id": "OB2BibRecID-970298602-8aa25d5fad075520345fbc88f4affb1f-29",
+                "@id": "29",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Microporous structures and compressive strength of high-performance rubber concrete with internal curing agent"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.conbuildmat.2019.04.184",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib29",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85064628741",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "215"
+                    },
+                    "pagerange": {
+                      "@first": "128",
+                      "@last": "134"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhu",
+                        "ce:indexed-name": "Zhu H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Han",
+                        "ce:indexed-name": "Han Q."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr Build Mater"
+                },
+                "ce:source-text": "H. Zhu, Z. Wang, J. Xu, Q. Han, Microporous structures and compressive strength of high-performance rubber concrete with internal curing agent, Constr. Build. Mater. 215 (2019) 128-134. https://doi.org/10.1016/j.conbuildmat.2019.04.184"
+              },
+              {
+                "ref-fulltext": "L. Meng, C. Zhang, J. Wei, L. Li, J. Liu, S. Wang, Y. Ding, Mechanical properties and microstructure of ultra-high strength concrete with lightweight aggregate, Case Stud. Constr. Mater. 18 (2023) e01745. https://doi.org/10.1016/j.cscm.2022.e01745",
+                "@reference-instance-id": "OB2BibRecID-970298602-2683adf9831cee73bb15e4e2febbcfa1-30",
+                "@id": "30",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Mechanical properties and microstructure of ultra-high strength concrete with lightweight aggregate"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.cscm.2022.e01745",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "e01745",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "bib30",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85143864108",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "18"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Meng",
+                        "ce:indexed-name": "Meng L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Wei",
+                        "ce:indexed-name": "Wei J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li L."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu J."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang S."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Case Stud Constr Mater"
+                },
+                "ce:source-text": "L. Meng, C. Zhang, J. Wei, L. Li, J. Liu, S. Wang, Y. Ding, Mechanical properties and microstructure of ultra-high strength concrete with lightweight aggregate, Case Stud. Constr. Mater. 18 (2023) e01745. https://doi.org/10.1016/j.cscm.2022.e01745"
+              },
+              {
+                "ref-fulltext": "S. Men, W. Tangchirapat, C. Jaturapitakkul, C.C. Ban, Strength, fluid transport and microstructure of high-strength concrete incorporating high-volume ground palm oil fuel ash blended with fly ash and limestone powder, J. Build. Eng. 56 (2022) 104714. https://doi.org/10.1016/j.jobe.2022.104714",
+                "@reference-instance-id": "OB2BibRecID-970298602-f0a5725514bc051d89382931aed9b931-31",
+                "@id": "31",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Strength, fluid transport and microstructure of high-strength concrete incorporating high-volume ground palm oil fuel ash blended with fly ash and limestone powder"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.jobe.2022.104714",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "104714",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "bib31",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85131399921",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "56"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Men",
+                        "ce:indexed-name": "Men S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Tangchirapat",
+                        "ce:indexed-name": "Tangchirapat W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Jaturapitakkul",
+                        "ce:indexed-name": "Jaturapitakkul C."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "C.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Ban",
+                        "ce:indexed-name": "Ban C.C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Build Eng"
+                },
+                "ce:source-text": "S. Men, W. Tangchirapat, C. Jaturapitakkul, C.C. Ban, Strength, fluid transport and microstructure of high-strength concrete incorporating high-volume ground palm oil fuel ash blended with fly ash and limestone powder, J. Build. Eng. 56 (2022) 104714. https://doi.org/10.1016/j.jobe.2022.104714"
+              },
+              {
+                "ref-fulltext": "J.H. Kim, S.W. Choi, K.M. Lee, Y.C. Choi, Influence of internal curing on the pore size distribution of high strength concrete, Constr. Build. Mater. 192 (2018) 50-57. https://doi.org/10.1016/j.conbuildmat.2018.10.130",
+                "@reference-instance-id": "OB2BibRecID-970298602-1d45d13dca3605c371a7a8a3c0820a73-32",
+                "@id": "32",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Influence of internal curing on the pore size distribution of high strength concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.conbuildmat.2018.10.130",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib32",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85055199756",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "192"
+                    },
+                    "pagerange": {
+                      "@first": "50",
+                      "@last": "57"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim J.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Choi",
+                        "ce:indexed-name": "Choi S.W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "K.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee K.M."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Choi",
+                        "ce:indexed-name": "Choi Y.C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr Build Mater"
+                },
+                "ce:source-text": "J.H. Kim, S.W. Choi, K.M. Lee, Y.C. Choi, Influence of internal curing on the pore size distribution of high strength concrete, Constr. Build. Mater. 192 (2018) 50-57. https://doi.org/10.1016/j.conbuildmat.2018.10.130"
+              },
+              {
+                "ref-fulltext": "A.N. Beskopylny, S.A. Stel'makh, E.M. Shcherban, L.R. Mailyan, B. Meskhi, N. Beskopylny, D. El'shaeva, M. Kotenko, The investigation of compacting cement systems for studying the fundamental process of cement gel formation, Gels 8(9) (2022) 530. https://doi.org/10.3390/gels8090530",
+                "@reference-instance-id": "OB2BibRecID-970298602-fdc32351c428d53fabfe7542958c73ef-33",
+                "@id": "33",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The investigation of compacting cement systems for studying the fundamental process of cement gel formation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.3390/gels8090530",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "530",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "bib33",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85138753713",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "8",
+                      "@issue": "9"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Beskopylny",
+                        "ce:indexed-name": "Beskopylny A.N."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Stel'makh",
+                        "ce:indexed-name": "Stel'makh S.A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "E.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Shcherban",
+                        "ce:indexed-name": "Shcherban E.M."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "L.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Mailyan",
+                        "ce:indexed-name": "Mailyan L.R."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Meskhi",
+                        "ce:indexed-name": "Meskhi B."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Beskopylny",
+                        "ce:indexed-name": "Beskopylny N."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Gels"
+                },
+                "ce:source-text": "A.N. Beskopylny, S.A. Stel'makh, E.M. Shcherban, L.R. Mailyan, B. Meskhi, N. Beskopylny, D. El'shaeva, M. Kotenko, The investigation of compacting cement systems for studying the fundamental process of cement gel formation, Gels 8(9) (2022) 530. https://doi.org/10.3390/gels8090530"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "affiliation": [
+      {
+        "affiliation-city": "Nanjing",
+        "@id": "60010851",
+        "affilname": "Hohai University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60010851",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Nanjing",
+        "@id": "60216191",
+        "affilname": "Jinling Institute of Technology",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60216191",
+        "affiliation-country": "China"
+      }
+    ],
+    "coredata": {
+      "srctype": "j",
+      "eid": "2-s2.0-105024879555",
+      "dc:description": "Due to the inherent differences in molding processes, the test results obtained from traditional vibrated concrete specimens may not reliably represent the true mechanical properties of centrifuged prestressed high-strength concrete (PHC) pipe pile concrete. To address this limitation, a specialized laboratory-scale centrifuge was developed in this study to fabricate prismatic centrifuged concrete specimens. The mechanical properties of centrifuged concrete under different steam curing regimes were systematically investigated and compared with those of vibrated concrete, with particular attention to strength, stiffness, and fracture energy. Analysis of variance (ANOVA) was conducted to evaluate the effects of molding methods and steam curing regimes on all mechanical response variables, supplemented by an examination of pore structure differences. The results demonstrate that centrifuged concrete exhibits significantly improved mechanical properties compared with vibrated concrete. Extending the pre-curing time from 2 h to 4 h enhances strength development but inhibits the growth of fracture energy. Moreover, prolonged steam curing exerts a pronounced negative effect on the mechanical properties of vibrated concrete, whereas it shows a slightly positive effect on centrifuged concrete. The optimal performance of centrifuged concrete, characterized by the lowest porosity and superior mechanical properties, was achieved with a pre-curing time of 4 h and a holding time of 9 h.",
+      "prism:coverDate": "2025-12-01",
+      "prism:aggregationType": "Journal",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105024879555",
+      "subtypeDescription": "Article",
+      "dc:creator": {
+        "author": [
+          {
+            "ce:given-name": "Yuzhi",
+            "preferred-name": {
+              "ce:given-name": "Yuzhi",
+              "ce:initials": "Y.",
+              "ce:surname": "Chen",
+              "ce:indexed-name": "Chen Y."
+            },
+            "@seq": "1",
+            "ce:initials": "Y.",
+            "@_fa": "true",
+            "affiliation": {
+              "@id": "60216191",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60216191"
+            },
+            "ce:surname": "Chen",
+            "@auid": "52163294400",
+            "author-url": "https://api.elsevier.com/content/author/author_id/52163294400",
+            "ce:indexed-name": "Chen Y."
+          }
+        ]
+      },
+      "link": [
+        {
+          "@_fa": "true",
+          "@rel": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105024879555"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105024879555&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105024879555&origin=inward"
+        }
+      ],
+      "prism:publicationName": "Structures",
+      "source-id": "21100372467",
+      "pii": "S2352012425026384",
+      "citedby-count": "1",
+      "prism:volume": "82",
+      "subtype": "ar",
+      "dc:title": "Experimental investigation and statistical evaluation of mechanical properties of centrifuged PHC pipe pile concrete",
+      "openaccess": "0",
+      "openaccessFlag": "false",
+      "prism:doi": "10.1016/j.istruc.2025.110821",
+      "prism:issn": "23520124",
+      "publishercopyright": "© 2025 Institution of Structural Engineers. Published by Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+      "article-number": "110821",
+      "dc:identifier": "SCOPUS_ID:105024879555",
+      "dc:publisher": "Elsevier Ltd"
+    },
+    "idxterms": {
+      "mainterm": [
+        {
+          "$": "Analyse of variances",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Analyze of variance",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Concrete specimens",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Mechanical",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Pile concretes",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Prestressed high strength concrete pipe piles",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Prestressed high-strength concrete pipe pile concrete",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Property",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Steam curing",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Vibrated concretes",
+          "@weight": "b",
+          "@candidate": "n"
+        }
+      ]
+    },
+    "language": {
+      "@xml:lang": "eng"
+    },
+    "authkeywords": {
+      "author-keyword": [
+        {
+          "@_fa": "true",
+          "$": "Analysis of variance (ANOVA)"
+        },
+        {
+          "@_fa": "true",
+          "$": "Centrifugation"
+        },
+        {
+          "@_fa": "true",
+          "$": "Mechanical properties"
+        },
+        {
+          "@_fa": "true",
+          "$": "PHC pipe pile concrete"
+        },
+        {
+          "@_fa": "true",
+          "$": "Steam curing"
+        }
+      ]
+    },
+    "subject-areas": {
+      "subject-area": [
+        {
+          "@_fa": "true",
+          "$": "Architecture",
+          "@code": "2216",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Civil and Structural Engineering",
+          "@code": "2205",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Building and Construction",
+          "@code": "2215",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Safety, Risk, Reliability and Quality",
+          "@code": "2213",
+          "@abbrev": "ENGI"
+        }
+      ]
+    },
+    "authors": {
+      "author": [
+        {
+          "ce:given-name": "Yuzhi",
+          "preferred-name": {
+            "ce:given-name": "Yuzhi",
+            "ce:initials": "Y.",
+            "ce:surname": "Chen",
+            "ce:indexed-name": "Chen Y."
+          },
+          "@seq": "1",
+          "ce:initials": "Y.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60216191",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60216191"
+          },
+          "ce:surname": "Chen",
+          "@auid": "52163294400",
+          "author-url": "https://api.elsevier.com/content/author/author_id/52163294400",
+          "ce:indexed-name": "Chen Y."
+        },
+        {
+          "ce:given-name": "Xinyang",
+          "preferred-name": {
+            "ce:given-name": "Xinyang",
+            "ce:initials": "X.",
+            "ce:surname": "Li",
+            "ce:indexed-name": "Li X."
+          },
+          "@seq": "2",
+          "ce:initials": "X.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60216191",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60216191"
+          },
+          "ce:surname": "Li",
+          "@auid": "59979345300",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59979345300",
+          "ce:indexed-name": "Li X."
+        },
+        {
+          "ce:given-name": "Wenlei",
+          "preferred-name": {
+            "ce:given-name": "Wenlei",
+            "ce:initials": "W.",
+            "ce:surname": "Xu",
+            "ce:indexed-name": "Xu W."
+          },
+          "@seq": "3",
+          "ce:initials": "W.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60010851",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60010851"
+          },
+          "ce:surname": "Xu",
+          "@auid": "57205673679",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57205673679",
+          "ce:indexed-name": "Xu W."
+        },
+        {
+          "ce:given-name": "Hailin",
+          "preferred-name": {
+            "ce:given-name": "Hailin",
+            "ce:initials": "H.",
+            "ce:surname": "Miao",
+            "ce:indexed-name": "Miao H."
+          },
+          "@seq": "4",
+          "ce:initials": "H.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60216191",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60216191"
+          },
+          "ce:surname": "Miao",
+          "@auid": "58168100000",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58168100000",
+          "ce:indexed-name": "Miao H."
+        },
+        {
+          "ce:given-name": "Xi",
+          "preferred-name": {
+            "ce:given-name": "Xi",
+            "ce:initials": "X.",
+            "ce:surname": "Zuo",
+            "ce:indexed-name": "Zuo X."
+          },
+          "@seq": "5",
+          "ce:initials": "X.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60216191",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60216191"
+          },
+          "ce:surname": "Zuo",
+          "@auid": "22137177000",
+          "author-url": "https://api.elsevier.com/content/author/author_id/22137177000",
+          "ce:indexed-name": "Zuo X."
+        }
+      ]
+    }
+  }
+}

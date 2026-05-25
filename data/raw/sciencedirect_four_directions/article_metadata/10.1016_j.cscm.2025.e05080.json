@@ -1,0 +1,4418 @@
+{
+  "abstracts-retrieval-response": {
+    "item": {
+      "ait:process-info": {
+        "ait:status": {
+          "@state": "update",
+          "@type": "core",
+          "@stage": "S300"
+        },
+        "ait:date-delivered": {
+          "@day": "30",
+          "@timestamp": "2026-03-30T13:38:03.000003-04:00",
+          "@year": "2026",
+          "@month": "03"
+        },
+        "ait:date-sort": {
+          "@day": "01",
+          "@year": "2025",
+          "@month": "12"
+        }
+      },
+      "xocs:meta": {
+        "xocs:funding-list": {
+          "@pui-match": "primary",
+          "@has-funding-info": "1",
+          "xocs:funding": [
+            {
+              "xocs:funding-agency-matched-string": "Shandong Provincial Natural Science Fund for Excellent Young Scientists Fund Program",
+              "xocs:funding-agency": "Excellent Young Scientists Fund",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100010909",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "National Natural Science Foundation of China",
+              "xocs:funding-agency-acronym": "NSFC",
+              "xocs:funding-agency": "National Natural Science Foundation of China",
+              "xocs:funding-id": [
+                {
+                  "$": "U2006233"
+                },
+                {
+                  "$": "52308264"
+                }
+              ],
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "National Natural Science Foundation of China",
+              "xocs:funding-agency-acronym": "NSFC",
+              "xocs:funding-agency": "National Natural Science Foundation of China",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Mount Taishan Scholar Programme of Shandong Province",
+              "xocs:funding-id": [
+                {
+                  "$": "tsqn202408222"
+                },
+                {
+                  "$": "2025HWYQ-066"
+                }
+              ]
+            }
+          ],
+          "xocs:funding-addon-generated-timestamp": "2025-08-14T23:17:02.327Z",
+          "xocs:funding-text": "Financial support of ongoing projects by National Natural Science Foundation of China ( U2006233 , 52308264 ) is greatly acknowledged. Yubin Cao was supported by Mount Taishan Scholar Programme of Shandong Province ( tsqn202408222 ) and 2025HWYQ-066 supported by Shandong Provincial Natural Science Fund for Excellent Young Scientists Fund Program (overseas) .",
+          "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }
+      },
+      "bibrecord": {
+        "head": {
+          "author-group": [
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "266033",
+                "@afid": "60012223",
+                "@country": "chn",
+                "city": "Qingdao",
+                "organization": [
+                  {
+                    "$": "School of Civil Engineering"
+                  },
+                  {
+                    "$": "Qingdao University of Technology"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60012223",
+                  "@dptid": "100262081"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-966640878-0b7bfcf9d70435aeb539d573ef23c402-1",
+                "ce:source-text": "School of Civil Engineering, Qingdao University of Technology, Qingdao 266033, PR China",
+                "@dptid": "100262081"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Yubin",
+                  "preferred-name": {
+                    "ce:given-name": "Yubin",
+                    "ce:initials": "Y.",
+                    "ce:surname": "Cao",
+                    "ce:indexed-name": "Cao Y."
+                  },
+                  "@author-instance-id": "OB2BibRecID-966640878-796e548fbc3469184318e7b27622dd2d-1",
+                  "@seq": "1",
+                  "ce:initials": "Y.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Cao",
+                  "@auid": "57207822140",
+                  "ce:indexed-name": "Cao Y."
+                },
+                {
+                  "ce:given-name": "Mengjie",
+                  "preferred-name": {
+                    "ce:given-name": "Mengjie",
+                    "ce:initials": "M.",
+                    "ce:surname": "Liu",
+                    "ce:indexed-name": "Liu M."
+                  },
+                  "@author-instance-id": "OB2BibRecID-966640878-d9145943ab0f03fa7c4b60596cbed1a5-1",
+                  "@seq": "2",
+                  "ce:initials": "M.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Liu",
+                  "@auid": "60032043000",
+                  "ce:indexed-name": "Liu M."
+                },
+                {
+                  "ce:given-name": "Shiyinuo",
+                  "preferred-name": {
+                    "ce:given-name": "Shiyinuo",
+                    "ce:initials": "S.",
+                    "ce:surname": "Wang",
+                    "ce:indexed-name": "Wang S."
+                  },
+                  "@author-instance-id": "OB2BibRecID-966640878-095325d18314e7ffd4f226f4e8fa7def-1",
+                  "@seq": "3",
+                  "ce:initials": "S.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Wang",
+                  "@auid": "58766523100",
+                  "ce:indexed-name": "Wang S."
+                },
+                {
+                  "ce:given-name": "Song",
+                  "preferred-name": {
+                    "ce:given-name": "Song",
+                    "ce:initials": "S.",
+                    "ce:surname": "Gao",
+                    "ce:indexed-name": "Gao S."
+                  },
+                  "@author-instance-id": "OB2BibRecID-966640878-9489a806eab402b735fe6c14f7df05d0-1",
+                  "@seq": "4",
+                  "ce:initials": "S.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Gao",
+                  "@auid": "36720325000",
+                  "ce:indexed-name": "Gao S."
+                },
+                {
+                  "ce:given-name": "Xu",
+                  "preferred-name": {
+                    "ce:given-name": "Xu",
+                    "ce:initials": "X.",
+                    "ce:surname": "Chen",
+                    "ce:indexed-name": "Chen X."
+                  },
+                  "@author-instance-id": "OB2BibRecID-966640878-096623e1394f2ee0c3c6f1ee5aab6e1f-1",
+                  "@seq": "6",
+                  "ce:initials": "X.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Chen",
+                  "@auid": "57207472302",
+                  "ce:indexed-name": "Chen X."
+                },
+                {
+                  "ce:given-name": "Zhenwei",
+                  "preferred-name": {
+                    "ce:given-name": "Zhenwei",
+                    "ce:initials": "Z.",
+                    "ce:surname": "Qin",
+                    "ce:indexed-name": "Qin Z."
+                  },
+                  "@author-instance-id": "OB2BibRecID-966640878-ac2df0250af1f91f0e46e5cd4ca4330d-1",
+                  "@seq": "7",
+                  "ce:initials": "Z.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Qin",
+                  "@auid": "57838506300",
+                  "ce:indexed-name": "Qin Z."
+                },
+                {
+                  "ce:given-name": "Ran",
+                  "preferred-name": {
+                    "ce:given-name": "Ran",
+                    "ce:initials": "R.",
+                    "ce:surname": "Li",
+                    "ce:indexed-name": "Li R."
+                  },
+                  "@author-instance-id": "OB2BibRecID-966640878-51b11236dc28e927efc9fe8015fd2a51-1",
+                  "@seq": "10",
+                  "ce:initials": "R.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Li",
+                  "@auid": "57218950408",
+                  "ce:indexed-name": "Li R."
+                },
+                {
+                  "ce:given-name": "Yanru",
+                  "preferred-name": {
+                    "ce:given-name": "Yanru",
+                    "ce:initials": "Y.",
+                    "ce:surname": "Wang",
+                    "ce:indexed-name": "Wang Y."
+                  },
+                  "@author-instance-id": "OB2BibRecID-966640878-daea64f145256cbe81491edb12b5427a-1",
+                  "@seq": "11",
+                  "ce:initials": "Y.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Wang",
+                  "@auid": "58855565100",
+                  "ce:indexed-name": "Wang Y."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "United Kingdom",
+                "postal-code": "WC1E 6BT",
+                "@afid": "60176024",
+                "@country": "gbr",
+                "city": "London",
+                "organization": [
+                  {
+                    "$": "Department of Civil"
+                  },
+                  {
+                    "$": "Environmental and Geomatic Engineering"
+                  },
+                  {
+                    "$": "University College London"
+                  }
+                ],
+                "affiliation-id": [
+                  {
+                    "@afid": "60176024"
+                  },
+                  {
+                    "@afid": "60022148"
+                  }
+                ],
+                "@affiliation-instance-id": "OB2BibRecID-966640878-5d6cab12a257ac197ebe122ee76214d7-1",
+                "ce:source-text": "Department of Civil, Environmental and Geomatic Engineering, University College London, London WC1E 6BT, United Kingdom"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Leqing",
+                  "preferred-name": {
+                    "ce:given-name": "Leqing",
+                    "ce:initials": "L.",
+                    "ce:surname": "Lin",
+                    "ce:indexed-name": "Lin L."
+                  },
+                  "@author-instance-id": "OB2BibRecID-966640878-de2eb87dcfb7b76abae77c139f1c1edd-1",
+                  "@seq": "5",
+                  "ce:initials": "L.",
+                  "@date-locked": "2025-10-26T02:17:44.207",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Lin",
+                  "@auid": "59417143700",
+                  "ce:indexed-name": "Lin L."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "830000",
+                "@afid": "107136462",
+                "@country": "chn",
+                "city": "Urumqi",
+                "organization": [
+                  {
+                    "$": "China West Construction Group Xinjiang Co."
+                  },
+                  {
+                    "$": "Ltd"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "107136462"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-966640878-e5953d1839ccc6c937baba84060c8a87-1",
+                "ce:source-text": "China West Construction Group Xinjiang Co., Ltd, Urumqi 830000, China"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Xu",
+                  "preferred-name": {
+                    "ce:given-name": "Xu",
+                    "ce:initials": "X.",
+                    "ce:surname": "Chen",
+                    "ce:indexed-name": "Chen X."
+                  },
+                  "@author-instance-id": "OB2BibRecID-966640878-096623e1394f2ee0c3c6f1ee5aab6e1f-1",
+                  "@seq": "6",
+                  "ce:initials": "X.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Chen",
+                  "@auid": "57207472302",
+                  "ce:indexed-name": "Chen X."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "address-part": "7 Nanliu Road, Chengyang District",
+                "postal-code": "266108",
+                "@afid": "60374780",
+                "@country": "chn",
+                "city": "Qingdao",
+                "organization": [
+                  {
+                    "$": "Qingdao Qingjian New Material Group Co."
+                  },
+                  {
+                    "$": "Ltd."
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60374780"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-966640878-46966055c16740d3ed26ab5343993bcd-1",
+                "ce:source-text": "Qingdao Qingjian New Material Group Co., Ltd., 7 Nanliu Road, Chengyang District, Qingdao 266108, China"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Qi",
+                  "preferred-name": {
+                    "ce:given-name": "Qi",
+                    "ce:initials": "Q.",
+                    "ce:surname": "Yu",
+                    "ce:indexed-name": "Yu Q."
+                  },
+                  "@author-instance-id": "OB2BibRecID-966640878-be8b66f46c6f051a435d59996c2f2586-1",
+                  "@seq": "8",
+                  "ce:initials": "Q.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Yu",
+                  "@auid": "57291597700",
+                  "ce:indexed-name": "Yu Q."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "510000",
+                "@afid": "126155473",
+                "@country": "chn",
+                "city": "Guangzhou",
+                "organization": [
+                  {
+                    "$": "China Railway 20th Bureau Group South Engineering Company Co."
+                  },
+                  {
+                    "$": "Ltd"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "126155473"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-966640878-67a16be3b39187a1613806fd847ef4ee-1",
+                "ce:source-text": "China Railway 20th Bureau Group South Engineering Company Co., Ltd., Guangzhou 510000, China"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Pengjie",
+                  "preferred-name": {
+                    "ce:given-name": "Pengjie",
+                    "ce:initials": "P.",
+                    "ce:surname": "Song",
+                    "ce:indexed-name": "Song P."
+                  },
+                  "@author-instance-id": "OB2BibRecID-966640878-e6d395dadc64a93b3b2c3ff76d1ce1e8-1",
+                  "@seq": "9",
+                  "ce:initials": "P.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Song",
+                  "@auid": "59468610700",
+                  "ce:indexed-name": "Song P."
+                }
+              ]
+            }
+          ],
+          "citation-title": "Effect of CO2 mineralization on phase evolution and microstructure development of blended cement formulated with large proportion of steel slag",
+          "abstracts": "© 2025The presence of larger percentage of inert components, f-CaO and brucite in blended cementitious materials formulated with steel slag results in lower reactivity and poor volume stability, which restricts the utilization of steel slag as supplementary cementitious materials. The aim of this paper is to investigate the effect of CO2 mineralisation on the strength development, phase evolution and microstructure improvement of blended cementitious materials formulated with different proportions of steel slag at different water to binder ratios (w/b). Densiﬁed system with ultra-ﬁne particles (DSPs) was adopted to guide the mixture formulation to enhance the strength. The results showed that, CO2 mineralisation dominantly increased the compressive strength development compared with the control sample and reduced the flexural strength. Samples with high w/b ratio (i.e., 0.30, 0.35 and 0.40) showed the highest carbonation depth after 3 days carbonation curing. Calcite with good crystal morphology was the mainly carbonated products in the fully carbonation zone, whilst metastable aragonite and vaterite were formed in the carbonation interfacial transition zone, which may be influenced by the CO2 concentration and curing time. Phase evolution caused by carbonation curing significantly refined the pore size to harmless and reduced the porosity, especially for that with higher w/b ratio.",
+          "correspondence": {
+            "affiliation": {
+              "country": "China",
+              "postal-code": "266033",
+              "@country": "chn",
+              "city": "Qingdao",
+              "organization": [
+                {
+                  "$": "School of Civil Engineering"
+                },
+                {
+                  "$": "Qingdao University of Technology"
+                }
+              ],
+              "@affiliation-instance-id": "OB2BibRecID-966640878-81602e7f829b3e9b6bfbcc9e51c907e1-1"
+            },
+            "person": {
+              "ce:given-name": "Song",
+              "@author-instance-id": "OB2BibRecID-966640878-66d7c89fa9556578161893f8897bedc1-1",
+              "ce:initials": "S.",
+              "ce:surname": "Gao",
+              "ce:indexed-name": "Gao S."
+            }
+          },
+          "citation-info": {
+            "author-keywords": {
+              "author-keyword": [
+                {
+                  "$": "Cementitious materials",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "CO2mineralisation",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Microstructure",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Phase evolution",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Steel slag",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                }
+              ]
+            },
+            "citation-type": {
+              "@code": "ar"
+            },
+            "citation-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "abstract-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            }
+          },
+          "source": {
+            "website": {
+              "ce:e-address": {
+                "$": "https://www.sciencedirect.com/science/journal/22145095",
+                "@type": "email"
+              }
+            },
+            "translated-sourcetitle": {
+              "$": "Case Studies in Construction Materials",
+              "@xml:lang": "eng"
+            },
+            "volisspag": {
+              "voliss": {
+                "@volume": "23"
+              }
+            },
+            "@type": "j",
+            "sourcetitle": "Case Studies in Construction Materials",
+            "publicationdate": {
+              "month": "12",
+              "year": "2025",
+              "date-text": "December 2025",
+              "day": "01"
+            },
+            "sourcetitle-abbrev": "Case Stud. Constr. Mater.",
+            "@country": "gbr",
+            "issn": {
+              "$": "22145095",
+              "@type": "print"
+            },
+            "publicationyear": {
+              "@first": "2025"
+            },
+            "publisher": {
+              "publishername": "Elsevier Ltd"
+            },
+            "article-number": "e05080",
+            "@srcid": "21100296223"
+          },
+          "enhancement": {
+            "classificationgroup": {
+              "classifications": [
+                {
+                  "@type": "CPXCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "1301.1.2",
+                      "classification-description": "Physical Properties of Gases, Liquids and Solids"
+                    },
+                    {
+                      "classification-code": "1501.3",
+                      "classification-description": "Sustainable Waste Managment"
+                    },
+                    {
+                      "classification-code": "201.2.2",
+                      "classification-description": "Blast Furnaces"
+                    },
+                    {
+                      "classification-code": "214",
+                      "classification-description": "Materials Science"
+                    },
+                    {
+                      "classification-code": "451.3",
+                      "classification-description": "Industrial Wastes"
+                    },
+                    {
+                      "classification-code": "482",
+                      "classification-description": "Mineralogy"
+                    },
+                    {
+                      "classification-code": "802.2",
+                      "classification-description": "Chemical Reactions"
+                    },
+                    {
+                      "classification-code": "804.2",
+                      "classification-description": "Inorganic Compounds"
+                    }
+                  ]
+                },
+                {
+                  "@type": "FLXCLASS",
+                  "classification": {
+                    "classification-code": "902",
+                    "classification-description": "FLUIDEX; Related Topics"
+                  }
+                },
+                {
+                  "@type": "ASJC",
+                  "classification": "2501"
+                },
+                {
+                  "@type": "SUBJABBR",
+                  "classification": "MATE"
+                }
+              ]
+            }
+          },
+          "grantlist": {
+            "@complete": "y",
+            "grant-text": {
+              "$": "Financial support of ongoing projects by National Natural Science Foundation of China (U2006233, 52308264) is greatly acknowledged. Yubin Cao was supported by Mount Taishan Scholar Programme of Shandong Province (tsqn202408222) and 2025HWYQ-066 supported by Shandong Provincial Natural Science Fund for Excellent Young Scientists Fund Program (overseas).",
+              "@xml:lang": "eng"
+            },
+            "grant": [
+              {
+                "grant-id": "52308264",
+                "grant-acronym": "NSFC",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "National Natural Science Foundation of China"
+                },
+                "grant-agency-id": "501100001809"
+              },
+              {
+                "grant-id": "U2006233",
+                "grant-acronym": "NSFC",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "National Natural Science Foundation of China"
+                },
+                "grant-agency-id": "501100001809"
+              }
+            ]
+          }
+        },
+        "item-info": {
+          "copyright": {
+            "$": "Copyright 2025 Elsevier B.V., All rights reserved.",
+            "@type": "Elsevier"
+          },
+          "dbcollection": [
+            {
+              "$": "CPX"
+            },
+            {
+              "$": "REAXYSCAR"
+            },
+            {
+              "$": "SCOPUS"
+            },
+            {
+              "$": "SNCPX"
+            },
+            {
+              "$": "Scopusbase"
+            }
+          ],
+          "history": {
+            "date-created": {
+              "@day": "12",
+              "@timestamp": "BST 09:09:22",
+              "@year": "2025",
+              "@month": "08"
+            }
+          },
+          "itemidlist": {
+            "itemid": [
+              {
+                "$": "2039974824",
+                "@idtype": "PUI"
+              },
+              {
+                "$": "966640878",
+                "@idtype": "CAR-ID"
+              },
+              {
+                "$": "20253218960411",
+                "@idtype": "CPX"
+              },
+              {
+                "$": "20252383732",
+                "@idtype": "REAXYSCAR"
+              },
+              {
+                "$": "20253377324",
+                "@idtype": "SCOPUS"
+              },
+              {
+                "$": "2025092494",
+                "@idtype": "SNCPX"
+              },
+              {
+                "$": "966640878#338246199",
+                "@idtype": "SRC-OCC-ID"
+              },
+              {
+                "$": "105012738744",
+                "@idtype": "SCP"
+              },
+              {
+                "$": "105012738744",
+                "@idtype": "SGR"
+              }
+            ],
+            "ce:pii": "S2214509525008782",
+            "ce:ern": "pii:S2214509525008782",
+            "ce:doi": "10.1016/j.cscm.2025.e05080"
+          }
+        },
+        "tail": {
+          "bibliography": {
+            "@refcount": "45",
+            "reference": [
+              {
+                "ref-fulltext": "Li, L., Jiang, Y., Pan, S.Y., Ling, T.C., Comparative life cycle assessment to maximize CO2 sequestration of steel slag products. Constr. Build. Mater., 298, 2021, 123876.",
+                "@reference-instance-id": "OB2BibRecID-966640878-282abdeb52ee53d2de5eeaabe12cd5a7-1",
+                "@id": "1",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Comparative life cycle assessment to maximize CO2 sequestration of steel slag products"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib1",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "123876",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85107724062",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "298"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Jiang",
+                        "ce:indexed-name": "Jiang Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Pan",
+                        "ce:indexed-name": "Pan S.Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "T.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Ling",
+                        "ce:indexed-name": "Ling T.C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "L. Li, Y. Jiang, S.Y. Pan, T.C. Ling, Comparative life cycle assessment to maximize CO2 sequestration of steel slag products, Constr. Build. Mater. 298 (2021) 123876."
+              },
+              {
+                "ref-fulltext": "Wang, J., Zhang, Y., Yu, L., Cui, K., Fu, T., Mao, H., Effective separation and recovery of valuable metals from waste Ni-based batteries: a comprehensive review. Chem. Eng. J., 439, 2022, 135767.",
+                "@reference-instance-id": "OB2BibRecID-966640878-696b06ae50c3be244fef48014839dc8a-2",
+                "@id": "2",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effective separation and recovery of valuable metals from waste Ni-based batteries: a comprehensive review"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib2",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "135767",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85126291905",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "439"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu L."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Cui",
+                        "ce:indexed-name": "Cui K."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Fu",
+                        "ce:indexed-name": "Fu T."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Mao",
+                        "ce:indexed-name": "Mao H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Chem. Eng. J."
+                },
+                "ce:source-text": "J. Wang, Y. Zhang, L. Yu, K. Cui, T. Fu, H. Mao, Effective separation and recovery of valuable metals from waste Ni-based batteries: A comprehensive review, Chem. Eng. J. 439 (2022) 135767."
+              },
+              {
+                "ref-fulltext": "Doucet, F.J., Effective CO2-specific sequestration capacity of steel slags and variability in their leaching behaviour in view of industrial mineral carbonation. Miner. Eng. 23:3 (2010), 262–269.",
+                "@reference-instance-id": "OB2BibRecID-966640878-ca7ecb9c188a18fc1d1b559bbe045e3b-3",
+                "@id": "3",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effective CO2-specific sequestration capacity of steel slags and variability in their leaching behaviour in view of industrial mineral carbonation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib3",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "75949122339",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "23",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "262",
+                      "@last": "269"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Doucet",
+                        "ce:indexed-name": "Doucet F.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Miner. Eng."
+                },
+                "ce:source-text": "F.J. Doucet, Effective CO2-specific sequestration capacity of steel slags and variability in their leaching behaviour in view of industrial mineral carbonation, Miner. Eng. 23 (3) (2010) 262-269."
+              },
+              {
+                "ref-fulltext": "Zheng, H., Ge, L., Carbon emissions reduction effects of sustainable development policy in resource-based cities from the perspective of resource dependence: theory and Chinese experience. Resour. Policy, 78, 2022, 102799.",
+                "@reference-instance-id": "OB2BibRecID-966640878-707c4759a481981c98c8fee663f62f89-4",
+                "@id": "4",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Carbon emissions reduction effects of sustainable development policy in resource-based cities from the perspective of resource dependence: theory and Chinese experience"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib4",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "102799",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85131367347",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "78"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Zheng",
+                        "ce:indexed-name": "Zheng H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Ge",
+                        "ce:indexed-name": "Ge L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Resour. Policy"
+                },
+                "ce:source-text": "H. Zheng, L. Ge, Carbon emissions reduction effects of sustainable development policy in resource-based cities from the perspective of resource dependence: Theory and Chinese experience, Resour. Policy. 78 (2022) 102799."
+              },
+              {
+                "ref-fulltext": "Liu, L., Lu, Y., Qiu, D., Wang, D., Ding, Y., Wang, G., Liang, Z., Shen, Z., Li, A., Chen, X., Song, H., Sodium alginate-derived porous carbon: Self-template carbonization mechanism and application in capacitive energy storage. J. Colloid Interface Sci. 620 (2022), 284–292.",
+                "@reference-instance-id": "OB2BibRecID-966640878-a735e49a672d2a03f441d91e11779467-5",
+                "@id": "5",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Sodium alginate-derived porous carbon: Self-template carbonization mechanism and application in capacitive energy storage"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib5",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85128169604",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "620"
+                    },
+                    "pagerange": {
+                      "@first": "284",
+                      "@last": "292"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Lu",
+                        "ce:indexed-name": "Lu Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Qiu",
+                        "ce:indexed-name": "Qiu D."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang D."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Ding",
+                        "ce:indexed-name": "Ding Y."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang G."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Liang",
+                        "ce:indexed-name": "Liang Z."
+                      },
+                      {
+                        "@seq": "8",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Shen",
+                        "ce:indexed-name": "Shen Z."
+                      },
+                      {
+                        "@seq": "9",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li A."
+                      },
+                      {
+                        "@seq": "10",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen X."
+                      },
+                      {
+                        "@seq": "11",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Song",
+                        "ce:indexed-name": "Song H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Colloid Interface Sci."
+                },
+                "ce:source-text": "L. Liu, Y. Lu, D. Qiu, D. Wang, Y. Ding, G. Wang, Z. Liang, Z. Shen, A. Li, X. Chen, H. Song, Sodium alginate-derived porous carbon: Self-template carbonization mechanism and application in capacitive energy storage, J. Colloid Interface Sci. 620 (2022) 284-292."
+              },
+              {
+                "ref-fulltext": "Chen, J., Xing, Y., Wang, Y., Zhang, W., Guo, Z., Su, W., Application of iron and steel slags in mitigating greenhouse gas emissions: a review. Sci. Total Environ., 844, 2022, 157041.",
+                "@reference-instance-id": "OB2BibRecID-966640878-1ce385510d4af8ccb4e97ee7cd657b8f-6",
+                "@id": "6",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Application of iron and steel slags in mitigating greenhouse gas emissions: a review"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib6",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "157041",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85133667919",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "844"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Xing",
+                        "ce:indexed-name": "Xing Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang W."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Guo",
+                        "ce:indexed-name": "Guo Z."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Su",
+                        "ce:indexed-name": "Su W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Sci. Total Environ."
+                },
+                "ce:source-text": "J. Chen, Y. Xing, Y. Wang, W. Zhang, Z. Guo, W. Su, Application of iron and steel slags in mitigating greenhouse gas emissions: a review, Sci. Total Environ. 844 (2022) 157041."
+              },
+              {
+                "ref-fulltext": "Duan, S., Wu, H., Zhang, K., Liao, H., Ma, Z., Cheng, F., Effect of curing temperature on the reaction kinetics of cementitious steel slag-fly ash-desulfurized gypsum composites system. J. Build. Eng., 62, 2022, 105368.",
+                "@reference-instance-id": "OB2BibRecID-966640878-b63b5331fddba601c614ccce2c54a2f0-7",
+                "@id": "7",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of curing temperature on the reaction kinetics of cementitious steel slag-fly ash-desulfurized gypsum composites system"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib7",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105368",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85139331266",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "62"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Duan",
+                        "ce:indexed-name": "Duan S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang K."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Liao",
+                        "ce:indexed-name": "Liao H."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Ma",
+                        "ce:indexed-name": "Ma Z."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Cheng",
+                        "ce:indexed-name": "Cheng F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Build. Eng."
+                },
+                "ce:source-text": "S. Duan, H. Wu, K. Zhang, H. Liao, Z. Ma, F. Cheng, Effect of curing temperature on the reaction kinetics of cementitious steel slag-fly ash-desulfurized gypsum composites system, J. Build. Eng. 62 (2022) 105368."
+              },
+              {
+                "ref-fulltext": "Zhang, S., Ghouleh, Z., Mucci, A., Bahn, O., Provençal, R., Shao, Y., Production of cleaner high-strength cementing material using steel slag under elevated-temperature carbonation. J. Clean. Prod., 342, 2022, 130948.",
+                "@reference-instance-id": "OB2BibRecID-966640878-2810e92ff985beddaab79ab295807293-8",
+                "@id": "8",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Production of cleaner high-strength cementing material using steel slag under elevated-temperature carbonation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib8",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "130948",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85124653876",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "342"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Ghouleh",
+                        "ce:indexed-name": "Ghouleh Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Mucci",
+                        "ce:indexed-name": "Mucci A."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "O.",
+                        "@_fa": "true",
+                        "ce:surname": "Bahn",
+                        "ce:indexed-name": "Bahn O."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Provençal",
+                        "ce:indexed-name": "Provencal R."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Shao",
+                        "ce:indexed-name": "Shao Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Clean. Prod."
+                },
+                "ce:source-text": "S. Zhang, Z. Ghouleh, A. Mucci, O. Bahn, R. Provençal, Y. Shao, Production of cleaner high-strength cementing material using steel slag under elevated-temperature carbonation, J. Cleaner Prod. 342 (2022) 130948."
+              },
+              {
+                "ref-fulltext": "Chen, J., Xing, Y., Wang, Y., Zhang, W., Guo, Z., Su, W., Application of iron and steel slags in mitigating greenhouse gas emissions: A review. Sci. Total Environ., 844, 2022, 157041.",
+                "@reference-instance-id": "OB2BibRecID-966640878-f63052a8c7262f05d53435d4e9672000-9",
+                "@id": "9",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Application of iron and steel slags in mitigating greenhouse gas emissions: A review"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib9",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "157041",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85133667919",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "844"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Xing",
+                        "ce:indexed-name": "Xing Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang W."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Guo",
+                        "ce:indexed-name": "Guo Z."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Su",
+                        "ce:indexed-name": "Su W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Sci. Total Environ."
+                },
+                "ce:source-text": "J. Chen, Y. Xing, Y. Wang, W. Zhang, Z. Guo, W. Su, Application of iron and steel slags in mitigating greenhouse gas emissions: A review, Sci. Total Environ. 844 (2022) 157041."
+              },
+              {
+                "ref-fulltext": "Ahmedzade, P., Sengoz, B., Evaluation of steel slag coarse aggregate in hot mix asphalt concrete. J. Hazard. Mater. 165:1–3 (2009), 300–305.",
+                "@reference-instance-id": "OB2BibRecID-966640878-81e991d4ed33c1c09e2c674de3ee33c1-10",
+                "@id": "10",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Evaluation of steel slag coarse aggregate in hot mix asphalt concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib10",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "64549113608",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "165",
+                      "@issue": "1-3"
+                    },
+                    "pagerange": {
+                      "@first": "300",
+                      "@last": "305"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Ahmedzade",
+                        "ce:indexed-name": "Ahmedzade P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Sengoz",
+                        "ce:indexed-name": "Sengoz B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Hazard. Mater."
+                },
+                "ce:source-text": "P. Ahmedzade, B. Sengoz, Evaluation of steel slag coarse aggregate in hot mix asphalt concrete, J. Hazard. Mater. 165 (1–3) 2009 300-305."
+              },
+              {
+                "ref-fulltext": "Pasetto, M., Baliello, A., Giacomello, G., Pasquini, E., Sustainable solutions for road pavements: a multi-scale characterization of warm mix asphalts containing steel slags. J. Clean. Prod. 166 (2017), 835–843.",
+                "@reference-instance-id": "OB2BibRecID-966640878-389a1c72abeb5e0befbbdcf341d48dbe-11",
+                "@id": "11",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Sustainable solutions for road pavements: a multi-scale characterization of warm mix asphalts containing steel slags"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib11",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85029188117",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "166"
+                    },
+                    "pagerange": {
+                      "@first": "835",
+                      "@last": "843"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Pasetto",
+                        "ce:indexed-name": "Pasetto M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Baliello",
+                        "ce:indexed-name": "Baliello A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Giacomello",
+                        "ce:indexed-name": "Giacomello G."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Pasquini",
+                        "ce:indexed-name": "Pasquini E."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Clean. Prod."
+                },
+                "ce:source-text": "M. Pasetto, A. Baliello, G. Giacomello, E. Pasquini, Sustainable solutions for road pavements: A multi-scale characterization of warm mix asphalts containing steel slags, J. Cleaner Prod. 166 (2017) 835-843."
+              },
+              {
+                "ref-fulltext": "Yi, H., Xu, G., Cheng, H., Wang, J., Wan, Y., Chen, Hui, An overview of utilization of steel slag. Procedia Environ. Sci. 16 (2012), 791–801.",
+                "@reference-instance-id": "OB2BibRecID-966640878-d1aed00ea90bb08b20cb4a99a6ae1277-12",
+                "@id": "12",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "An overview of utilization of steel slag"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib12",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84876134000",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "16"
+                    },
+                    "pagerange": {
+                      "@first": "791",
+                      "@last": "801"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Yi",
+                        "ce:indexed-name": "Yi H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu G."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Cheng",
+                        "ce:indexed-name": "Cheng H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang J."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Wan",
+                        "ce:indexed-name": "Wan Y."
+                      },
+                      {
+                        "ce:given-name": "Hui",
+                        "@seq": "6",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Procedia Environ. Sci."
+                },
+                "ce:source-text": "H. Yi, G. Xu, H. Cheng, J. Wang, Y. Wan, Hui Chen, An Overview of Utilization of Steel Slag, Procedia Environ. Sci. 16 (2012) 791-801."
+              },
+              {
+                "ref-fulltext": "Sas, W., Głuchowski, A., Radziemska, M., Dzięcioł, J., Szymański, A., Environmental and geotechnical assessment of the steel slags as a material for road structure. Materials 8:8 (2015), 4857–4875.",
+                "@reference-instance-id": "OB2BibRecID-966640878-420b712fcd218480a65a4981649f1169-13",
+                "@id": "13",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Environmental and geotechnical assessment of the steel slags as a material for road structure"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib13",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84940033058",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "8",
+                      "@issue": "8"
+                    },
+                    "pagerange": {
+                      "@first": "4857",
+                      "@last": "4875"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Sas",
+                        "ce:indexed-name": "Sas W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Głuchowski",
+                        "ce:indexed-name": "Gluchowski A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Radziemska",
+                        "ce:indexed-name": "Radziemska M."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Dzięcioł",
+                        "ce:indexed-name": "Dzieciol J."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Szymański",
+                        "ce:indexed-name": "Szymanski A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Materials"
+                },
+                "ce:source-text": "W. Sas, A. Głuchowski, M. Radziemska, J. Dzięcioł, A. Szymański, Environmental and geotechnical assessment of the steel slags as a material for road structure, Materials. 8 (8) (2015) 4857-4875."
+              },
+              {
+                "ref-fulltext": "Gao, D., Wang, F.P., Wang, Y.T., Zeng, Y.N., Sustainable utilization of steel slag from traditional industry and agriculture to catalysis. Sustainability, 12(21), 2020, 9295.",
+                "@reference-instance-id": "OB2BibRecID-966640878-cb46e4d9481be4f7281bbc5f88eb711d-14",
+                "@id": "14",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Sustainable utilization of steel slag from traditional industry and agriculture to catalysis"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib14",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85095860254",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "12",
+                      "@issue": "21"
+                    },
+                    "pagerange": {
+                      "@first": "9295"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Gao",
+                        "ce:indexed-name": "Gao D."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang F.P."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang Y.T."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Zeng",
+                        "ce:indexed-name": "Zeng Y.N."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Sustainability"
+                },
+                "ce:source-text": "D. Gao, F.P. Wang, Y.T. Wang, Y.N. Zeng, Sustainable utilization of steel slag from traditional industry and agriculture to catalysis, Sustainability. 12 (21) (2020) 9295."
+              },
+              {
+                "ref-fulltext": "Zhao, Y., Yue, Q., Li, Q., Xu, X., Yang, Z., Wang, X., Gao, B., Yu, H., Characterization of red mud granular adsorbent (RMGA) and its performance on phosphate removal from aqueous solution. Chem. Eng. J., 2012, 193–194 161-168.",
+                "@reference-instance-id": "OB2BibRecID-966640878-9f8b9369f435f5be5ad2a0cb7971b1c6-15",
+                "@id": "15",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Characterization of red mud granular adsorbent (RMGA) and its performance on phosphate removal from aqueous solution"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib15",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84862513541",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "193",
+                      "@last": "194"
+                    }
+                  },
+                  "ref-text": "161-168",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Yue",
+                        "ce:indexed-name": "Yue Q."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li Q."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu X."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang Z."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang X."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Gao",
+                        "ce:indexed-name": "Gao B."
+                      },
+                      {
+                        "@seq": "8",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Chem. Eng. J."
+                },
+                "ce:source-text": "Y. Zhao, Q. Yue, Q. Li, X. Xu, Z. Yang, X. Wang, B. Gao, H. Yu, Characterization of red mud granular adsorbent (RMGA) and its performance on phosphate removal from aqueous solution, Chem. Eng. J. 193–194 (2012) 161-168."
+              },
+              {
+                "ref-fulltext": "Jiang, Y., Ling, T.C., Shi, C., Pan, S.Y., Characteristics of steel slags and their use in cement and concrete—a review. Resour. Conserv. Recycl 136 (2018), 187–197.",
+                "@reference-instance-id": "OB2BibRecID-966640878-e60b27905fec1b2f3cb0bbca2635ac62-16",
+                "@id": "16",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Characteristics of steel slags and their use in cement and concrete—a review"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib16",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85046407259",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "136"
+                    },
+                    "pagerange": {
+                      "@first": "187",
+                      "@last": "197"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Jiang",
+                        "ce:indexed-name": "Jiang Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Ling",
+                        "ce:indexed-name": "Ling T.C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi C."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "S.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Pan",
+                        "ce:indexed-name": "Pan S.Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Resour. Conserv. Recycl"
+                },
+                "ce:source-text": "Y. Jiang, T.C. Ling, C. Shi, S.Y. Pan, Characteristics of steel slags and their use in cement and concrete—A review, Resour. Conserv. Recycl. 136 (2018) 187-197."
+              },
+              {
+                "ref-fulltext": "Altun, İ.A., Yılmaz, İ., Study on steel furnace slags with high MgO as additive in Portland cement. Cem. Concr. Res. 32:8 (2002), 1247–1249.",
+                "@reference-instance-id": "OB2BibRecID-966640878-3ddc8bf6a3210c31d0f4fd2f4bca6c26-17",
+                "@id": "17",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2002"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Study on steel furnace slags with high MgO as additive in Portland cement"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib17",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0036680649",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "32",
+                      "@issue": "8"
+                    },
+                    "pagerange": {
+                      "@first": "1247",
+                      "@last": "1249"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "İ.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Altun",
+                        "ce:indexed-name": "Altun I.A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "İ.",
+                        "@_fa": "true",
+                        "ce:surname": "Yılmaz",
+                        "ce:indexed-name": "Yilmaz I."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "İ.A. Altun, İ. Yılmaz, Study on steel furnace slags with high MgO as additive in Portland cement, Cem. Concr. Res. 32 (8) (2002) 1247-1249."
+              },
+              {
+                "ref-fulltext": "Monteiro, J., Roussanaly, S., CCUS scenarios for the cement industry: Is CO2 utilization feasible?. J. CO2 Util., 61, 2022, 102015.",
+                "@reference-instance-id": "OB2BibRecID-966640878-c76d75e47405ab04fe21ffc0cd287a1b-18",
+                "@id": "18",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "CCUS scenarios for the cement industry: Is CO2 utilization feasible?"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib18",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "102015",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85130260996",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "61"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Monteiro",
+                        "ce:indexed-name": "Monteiro J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Roussanaly",
+                        "ce:indexed-name": "Roussanaly S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. CO2 Util."
+                },
+                "ce:source-text": "J. Monteiro, S. Roussanaly, CCUS scenarios for the cement industry: Is CO2 utilization feasible?, J. CO2 Util. 61 (2022) 102015."
+              },
+              {
+                "ref-fulltext": "Guo, X., Shi, H., Wu, K., Effects of steel slag powder on workability and durability of concrete. J. Wuhan. Univ. Technol. 29:4 (2014), 733–739.",
+                "@reference-instance-id": "OB2BibRecID-966640878-4fc72ba46b03e65bea30e5fc380f3d5b-19",
+                "@id": "19",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effects of steel slag powder on workability and durability of concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib19",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84905965377",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "29",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "733",
+                      "@last": "739"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Guo",
+                        "ce:indexed-name": "Guo X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Wuhan. Univ. Technol."
+                },
+                "ce:source-text": "X. Guo, H. Shi, K. Wu, Effects of steel slag powder on workability and durability of concrete, J. Wuhan Univ. Technol. 29 (4) (2014) 733-739."
+              },
+              {
+                "ref-fulltext": "Pang, B., Zhou, Z., Xu, H., Utilization of carbonated and granulated steel slag aggregate in concrete. Constr. Build. Mater. 84 (2015), 454–467.",
+                "@reference-instance-id": "OB2BibRecID-966640878-bb89d617de65403babd1332a946b99fb-20",
+                "@id": "20",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Utilization of carbonated and granulated steel slag aggregate in concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib20",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84925834699",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "84"
+                    },
+                    "pagerange": {
+                      "@first": "454",
+                      "@last": "467"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Pang",
+                        "ce:indexed-name": "Pang B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "B. Pang, Z. Zhou, H. Xu, Utilization of carbonated and granulated steel slag aggregate in concrete, Constr. Build. Mater. 84 (2015) 454-467."
+              },
+              {
+                "ref-fulltext": "Hou, G., Yan, Z., Sun, J., Naguib, H.M., Lu, B., Zhang, Z., Microstructure and mechanical properties of CO2-cured steel slag brick in pilot-scale. Constr. Build. Mater., 271, 2021, 121581.",
+                "@reference-instance-id": "OB2BibRecID-966640878-edc417cd79b9232dc660c3824dede72e-21",
+                "@id": "21",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Microstructure and mechanical properties of CO2-cured steel slag brick in pilot-scale"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib21",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "121581",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85096442525",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "271"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Hou",
+                        "ce:indexed-name": "Hou G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Yan",
+                        "ce:indexed-name": "Yan Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Sun",
+                        "ce:indexed-name": "Sun J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "H.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Naguib",
+                        "ce:indexed-name": "Naguib H.M."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Lu",
+                        "ce:indexed-name": "Lu B."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Z."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "G. Hou, Z. Yan, J. Sun, H.M. Naguib, B. Lu, Z. Zhang, Microstructure and mechanical properties of CO2-cured steel slag brick in pilot-scale, Constr. Build. Mater. 271 (2021) 121581."
+              },
+              {
+                "ref-fulltext": "Wang, D., Zhang, H., Liu, M., Fu, Y., Si, Z., Zhang, X., Zhong, Q., The characterization and mechanism of carbonated steel slag and its products under low CO2 pressure. Mater. Today Commun., 35, 2023, 105827.",
+                "@reference-instance-id": "OB2BibRecID-966640878-f24fb5abf5058e7600f1b1af66b72f1e-22",
+                "@id": "22",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The characterization and mechanism of carbonated steel slag and its products under low CO2 pressure"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib22",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105827",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85150434221",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "35"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang D."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu M."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Fu",
+                        "ce:indexed-name": "Fu Y."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Si",
+                        "ce:indexed-name": "Si Z."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang X."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhong",
+                        "ce:indexed-name": "Zhong Q."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Mater. Today Commun."
+                },
+                "ce:source-text": "D. Wang, H. Zhang, M. Liu, Y. Fu, Z. Si, X. Zhang, Q. Zhong, The characterization and mechanism of carbonated steel slag and its products under low CO2 pressure, Mater. Today Commun. 35 (2023) 105827."
+              },
+              {
+                "ref-fulltext": "Shao, Y., El-Baghdadi, A., He, Z., Mucci, A., Fournier, B., Carbon dioxide–activated steel slag for slag-bonded wallboard application. J. Mater. Civ. Eng., 27(3), 2015, 04014119.",
+                "@reference-instance-id": "OB2BibRecID-966640878-e9dc5babd3389240594fe6bc3b085597-23",
+                "@id": "23",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Carbon dioxide–activated steel slag for slag-bonded wallboard application"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib23",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "04014119",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "84923171689",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "27",
+                      "@issue": "3"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Shao",
+                        "ce:indexed-name": "Shao Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "El-Baghdadi",
+                        "ce:indexed-name": "El-Baghdadi A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "He",
+                        "ce:indexed-name": "He Z."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Mucci",
+                        "ce:indexed-name": "Mucci A."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Fournier",
+                        "ce:indexed-name": "Fournier B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Mater. Civ. Eng."
+                },
+                "ce:source-text": "Y. Shao A. El-Baghdadi Z. He A. Mucci B. Fournier Carbon dioxide–activated steel slag for slag-bonded wallboard application J. Mater. Civ. Eng. 27 3 2015 04014119"
+              },
+              {
+                "ref-fulltext": "Liu, Q., Liu, J., Qi, L., Effects of temperature and carbonation curing on the mechanical properties of steel slag-cement binding materials. Constr. Build. Mater. 124 (2016), 999–1006.",
+                "@reference-instance-id": "OB2BibRecID-966640878-7fc929bdcc82e9e2e6f294ff96cf6776-24",
+                "@id": "24",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effects of temperature and carbonation curing on the mechanical properties of steel slag-cement binding materials"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib24",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84984804825",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "124"
+                    },
+                    "pagerange": {
+                      "@first": "999",
+                      "@last": "1006"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu Q."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Qi",
+                        "ce:indexed-name": "Qi L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "Q. Liu, J. Liu, L. Qi, Effects of temperature and carbonation curing on the mechanical properties of steel slag-cement binding materials, Constr. Build. Mater. 124 (2016) 999-1006."
+              },
+              {
+                "ref-fulltext": "Xu, Z., Zhou, Y., Zhang, Y., Ultra-high strength carbonated slab prepared with steel slag powders via accelerated carbonation for CO2 sequestration. J. Mater. Res. Technol. 24 (2023), 9058–9068.",
+                "@reference-instance-id": "OB2BibRecID-966640878-08cedce8c4d458251f8d46de7fcd78db-25",
+                "@id": "25",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Ultra-high strength carbonated slab prepared with steel slag powders via accelerated carbonation for CO2 sequestration"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib25",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85160009727",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "24"
+                    },
+                    "pagerange": {
+                      "@first": "9058",
+                      "@last": "9068"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Mater. Res. Technol."
+                },
+                "ce:source-text": "Z. Xu, Y. Zhou, Y. Zhang, Ultra-high strength carbonated slab prepared with steel slag powders via accelerated carbonation for CO2 sequestration, J. Mater. Res. Technol. 24 (2023) 9058-9068."
+              },
+              {
+                "ref-fulltext": "Song, Q., Guo, M.Z., Wang, L., Ling, T.C., Use of steel slag as sustainable construction materials: a review of accelerated carbonation treatment. Resour. Conserv. Recycl, 173, 2021, 105740.",
+                "@reference-instance-id": "OB2BibRecID-966640878-b25f5f1de127e8eae3971c504f51d397-26",
+                "@id": "26",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Use of steel slag as sustainable construction materials: a review of accelerated carbonation treatment"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib26",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105740",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85108314384",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "173"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Song",
+                        "ce:indexed-name": "Song Q."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Guo",
+                        "ce:indexed-name": "Guo M.Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang L."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "T.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Ling",
+                        "ce:indexed-name": "Ling T.C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Resour. Conserv. Recycl"
+                },
+                "ce:source-text": "Q. Song, M.Z. Guo, L. Wang, T.C. Ling, Use of steel slag as sustainable construction materials: A review of accelerated carbonation treatment, Resour. Conserv. Recycl. 173 (2021) 105740."
+              },
+              {
+                "ref-fulltext": "Toma, R., Estimates for representation numbers of binary quadratic forms and Apollonian circle packings. J. Number Theory 214 (2020), 399–413.",
+                "@reference-instance-id": "OB2BibRecID-966640878-39298176bc161c7addf47593315ffc79-27",
+                "@id": "27",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Estimates for representation numbers of binary quadratic forms and Apollonian circle packings"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib27",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85084210659",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "214"
+                    },
+                    "pagerange": {
+                      "@first": "399",
+                      "@last": "413"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Toma",
+                        "ce:indexed-name": "Toma R."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Number Theory"
+                },
+                "ce:source-text": "R. Toma, Estimates for representation numbers of binary quadratic forms and Apollonian circle packings, J. Number Theory. 214 (2020) 399-413."
+              },
+              {
+                "ref-fulltext": "Wang, X., Ma, Z., Wang, X., Xue, S., Shen, W., Wu, D., Zhang, X., Han, Z., Sui, S., Wang, M., Hou, D., Li, Z., Design of self-compacting ultra-high performance concrete (SCUHPC) towards to the cementitious materials packing optimization. Cem. Concr. Compos, 148, 2024, 105443.",
+                "@reference-instance-id": "OB2BibRecID-966640878-4e1d4adc88ff199de7104c1d9936f18d-28",
+                "@id": "28",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Design of self-compacting ultra-high performance concrete (SCUHPC) towards to the cementitious materials packing optimization"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib28",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105443",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85184517335",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "148"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Ma",
+                        "ce:indexed-name": "Ma Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang X."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Xue",
+                        "ce:indexed-name": "Xue S."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Shen",
+                        "ce:indexed-name": "Shen W."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu D."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang X."
+                      },
+                      {
+                        "@seq": "8",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Han",
+                        "ce:indexed-name": "Han Z."
+                      },
+                      {
+                        "@seq": "9",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Sui",
+                        "ce:indexed-name": "Sui S."
+                      },
+                      {
+                        "@seq": "10",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang M."
+                      },
+                      {
+                        "@seq": "11",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Hou",
+                        "ce:indexed-name": "Hou D."
+                      },
+                      {
+                        "@seq": "12",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li Z."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Compos"
+                },
+                "ce:source-text": "X. Wang, Z. Ma, X. Wang, S. Xue, W. Shen, D. Wu, X. Zhang, Z. Han, S. Sui, M. Wang, D. Hou, Z. Li, Design of self-compacting ultra-high performance concrete (SCUHPC) towards to the cementitious materials packing optimization, Cem. Concr. Compos. 148 (2024) 105443."
+              },
+              {
+                "ref-fulltext": "Hou, D., Zhang, M., Ma, Z., Wu, D., Song, Q., Zheng, Q., Wang, M., Sui, S., Zhang, X., Wang, X., Comparative optimization of densified system of ultra-fine particles (DSP) and Horsfield filling toward UHPC fabrication. Cem. Concr. Compos., 144, 2023, 105267.",
+                "@reference-instance-id": "OB2BibRecID-966640878-32efa1908e7e19dcc7152b6d0a555a37-29",
+                "@id": "29",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Comparative optimization of densified system of ultra-fine particles (DSP) and Horsfield filling toward UHPC fabrication"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib29",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105267",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85170647684",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "144"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Hou",
+                        "ce:indexed-name": "Hou D."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Ma",
+                        "ce:indexed-name": "Ma Z."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu D."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Song",
+                        "ce:indexed-name": "Song Q."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Zheng",
+                        "ce:indexed-name": "Zheng Q."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang M."
+                      },
+                      {
+                        "@seq": "8",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Sui",
+                        "ce:indexed-name": "Sui S."
+                      },
+                      {
+                        "@seq": "9",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang X."
+                      },
+                      {
+                        "@seq": "10",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang X."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Compos."
+                },
+                "ce:source-text": "D. Hou, M. Zhang, Z. Ma, D. Wu, Q. Song, Q. Zheng, M. Wang, S. Sui, X. Zhang, X. Wang, Comparative optimization of densified system of ultra-fine particles (DSP) and Horsfield filling toward UHPC fabrication, Cem. Concr. Compos. 144 (2023) 105267."
+              },
+              {
+                "ref-fulltext": "Xie, H., Deng, F., Wang, H., Liu, J., Han, S., Feng, F., Study of the proportioning design method and mechanical properties of a cBN–TiN composite. Int. J. Refract. Met. H., 89, 2020, 105209.",
+                "@reference-instance-id": "OB2BibRecID-966640878-2be9e2867f1e1e27d19a9e31e0c13464-30",
+                "@id": "30",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Study of the proportioning design method and mechanical properties of a cBN–TiN composite"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib30",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105209",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85079677518",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "89"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Xie",
+                        "ce:indexed-name": "Xie H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Deng",
+                        "ce:indexed-name": "Deng F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu J."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Han",
+                        "ce:indexed-name": "Han S."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Feng",
+                        "ce:indexed-name": "Feng F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Int. J. Refract. Met. H."
+                },
+                "ce:source-text": "H. Xie, F. Deng, H. Wang, J. Liu, S. Han, F. Feng, Study of the proportioning design method and mechanical properties of a cBN–TiN composite, Int. J. Refract. Met. H. 89 (2020) 105209."
+              },
+              {
+                "ref-fulltext": "Zhu, P., Ji, Y., Discussion on the test methods of apparent density and water absorption of artificial lightweight fine aggregate. Fly. Ash 06 (2004), 42–44.",
+                "@reference-instance-id": "OB2BibRecID-966640878-1bceb3edd42ea1388b14945e0e848685-31",
+                "@id": "31",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2004"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Discussion on the test methods of apparent density and water absorption of artificial lightweight fine aggregate"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib31",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85211812862",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "6"
+                    },
+                    "pagerange": {
+                      "@first": "42",
+                      "@last": "44"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhu",
+                        "ce:indexed-name": "Zhu P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Ji",
+                        "ce:indexed-name": "Ji Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Fly. Ash"
+                },
+                "ce:source-text": "P. Zhu, Y. Ji, Discussion on the test methods of apparent density and water absorption of artificial lightweight fine aggregate [J], Fly ash, 06 (2004) 42-44 (in Chinese)."
+              },
+              {
+                "ref-fulltext": "Tu, M., Zhao, H., Lei, Z., Wang, L., Chen, D., Yu, H., Qi, T., Aqueous carbonation of steel slag: a kinetics study. ISIJ Int 55:11 (2015), 2509–2514.",
+                "@reference-instance-id": "OB2BibRecID-966640878-2b94228801c1c0c3bfc15f83d12c2011-32",
+                "@id": "32",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Aqueous carbonation of steel slag: a kinetics study"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib32",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84948765224",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "55",
+                      "@issue": "11"
+                    },
+                    "pagerange": {
+                      "@first": "2509",
+                      "@last": "2514"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Tu",
+                        "ce:indexed-name": "Tu M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Lei",
+                        "ce:indexed-name": "Lei Z."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang L."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen D."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu H."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Qi",
+                        "ce:indexed-name": "Qi T."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "ISIJ Int"
+                },
+                "ce:source-text": "M. Tu, H. Zhao, Z. Lei, L. Wang, D. Chen, H. Yu, T. Qi, Aqueous carbonation of steel slag: a kinetics study, ISIJ Int. 55 (11) (2015) 2509-2514."
+              },
+              {
+                "ref-fulltext": "Huang, X., Zhang, J., Zhang, L., Accelerated carbonation of steel slag: a review of methods, mechanisms and influencing factors. Constr. Build. Mater., 411, 2024, 134603.",
+                "@reference-instance-id": "OB2BibRecID-966640878-33d72c670075c9dbd6641e84faa8f63d-33",
+                "@id": "33",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Accelerated carbonation of steel slag: a review of methods, mechanisms and influencing factors"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib33",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "134603",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85180536881",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "411"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "X. Huang, J. Zhang, L. Zhang, Accelerated carbonation of steel slag: A review of methods, mechanisms and influencing factors, Constr. Build. Mater. 411 (2024) 134603."
+              },
+              {
+                "ref-fulltext": "Zhang, X., Zhao, J., Liu, Y., Li, J., Use of steel slag as carbonation material: a review of carbonation methods and evaluation, environmental factors and carbon conversion process. J. CO2 Util., 88, 2024, 102947.",
+                "@reference-instance-id": "OB2BibRecID-966640878-5cc84ea8c00a3d62a15726fc7382b111-34",
+                "@id": "34",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Use of steel slag as carbonation material: a review of carbonation methods and evaluation, environmental factors and carbon conversion process"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib34",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "102947",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85205932853",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "88"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. CO2 Util."
+                },
+                "ce:source-text": "X. Zhang, J. Zhao, Y. Liu, J. Li, Use of steel slag as carbonation material: A review of carbonation methods and evaluation, environmental factors and carbon conversion process, J. CO2 Util. 88 (2024) 102947."
+              },
+              {
+                "ref-fulltext": "Liu, J., Ren, F., Ding, T., Jia, J., Exploring the effect mechanism of Bayer red mud on cement hydration and mechanical properties. Constr. Build. Mater., 435, 2024, 136741.",
+                "@reference-instance-id": "OB2BibRecID-966640878-6b1889903f537d24805a316cde9211de-35",
+                "@id": "35",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Exploring the effect mechanism of Bayer red mud on cement hydration and mechanical properties"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib35",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "136741",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85194504168",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "435"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Ren",
+                        "ce:indexed-name": "Ren F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Ding",
+                        "ce:indexed-name": "Ding T."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Jia",
+                        "ce:indexed-name": "Jia J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "J. Liu, F. Ren, T. Ding, J. Jia, Exploring the effect mechanism of Bayer red mud on cement hydration and mechanical properties, Constr. Build. Mater. 435 (2024) 136741."
+              },
+              {
+                "ref-fulltext": "Xuan, D., Zhan, B., Poon, C.S., Zheng, W., Carbon dioxide sequestration of concrete slurry waste and its valorisation in construction products. Constr. Build. Mater. 113 (2016), 664–672.",
+                "@reference-instance-id": "OB2BibRecID-966640878-67e5fc419c77ce560561be949e53525b-36",
+                "@id": "36",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Carbon dioxide sequestration of concrete slurry waste and its valorisation in construction products"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib36",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84962280445",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "113"
+                    },
+                    "pagerange": {
+                      "@first": "664",
+                      "@last": "672"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Xuan",
+                        "ce:indexed-name": "Xuan D."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhan",
+                        "ce:indexed-name": "Zhan B."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Poon",
+                        "ce:indexed-name": "Poon C.S."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Zheng",
+                        "ce:indexed-name": "Zheng W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "D. Xuan, B. Zhan, C.S. Poon, W. Zheng, Carbon dioxide sequestration of concrete slurry waste and its valorisation in construction products, Constr. Build. Mater. 113 (2016) 664-672."
+              },
+              {
+                "ref-fulltext": "Xuequan, W., Hong, Z., Xinkai, H., Husen, L., Study on steel slag and fly ash composite Portland cement. Cem. Concr. Res. 29:7 (1999), 1103–1106.",
+                "@reference-instance-id": "OB2BibRecID-966640878-3ca7ef0c4153bbaaa714c5156f096e05-37",
+                "@id": "37",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1999"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Study on steel slag and fly ash composite Portland cement"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib37",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0005850204",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "29",
+                      "@issue": "7"
+                    },
+                    "pagerange": {
+                      "@first": "1103",
+                      "@last": "1106"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Xuequan",
+                        "ce:indexed-name": "Xuequan W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Hong",
+                        "ce:indexed-name": "Hong Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Xinkai",
+                        "ce:indexed-name": "Xinkai H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Husen",
+                        "ce:indexed-name": "Husen L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "W. Xuequan, Z. Hong, H. Xinkai, L. Husen, Study on steel slag and fly ash composite Portland cement, Cem. Concr. Res. 29 (7) (1999) 1103-1106."
+              },
+              {
+                "ref-fulltext": "Martins, A.C.P., De Carvalho, J.M.F., Costa, L.C.B., Andrade, H.D., de Melo, T.V., Ribeiro, J.C.L., Pedroti, L.G., Peixoto, R.A.F., Steel slags in cement-based composites: an ultimate review on characterization, applications and performance. Constr. Build. Mater., 291, 2021, 123265.",
+                "@reference-instance-id": "OB2BibRecID-966640878-2c5ed6519c831265b3118978f4de9dd8-38",
+                "@id": "38",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Steel slags in cement-based composites: an ultimate review on characterization, applications and performance"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib38",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "123265",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85105335081",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "291"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.C.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Martins",
+                        "ce:indexed-name": "Martins A.C.P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.M.F.",
+                        "@_fa": "true",
+                        "ce:surname": "De Carvalho",
+                        "ce:indexed-name": "De Carvalho J.M.F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "L.C.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Costa",
+                        "ce:indexed-name": "Costa L.C.B."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "H.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Andrade",
+                        "ce:indexed-name": "Andrade H.D."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "T.V.",
+                        "@_fa": "true",
+                        "ce:surname": "de Melo",
+                        "ce:indexed-name": "de Melo T.V."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "J.C.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Ribeiro",
+                        "ce:indexed-name": "Ribeiro J.C.L."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "L.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Pedroti",
+                        "ce:indexed-name": "Pedroti L.G."
+                      },
+                      {
+                        "@seq": "8",
+                        "ce:initials": "R.A.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Peixoto",
+                        "ce:indexed-name": "Peixoto R.A.F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "A.C.P. Martins, J.M.F. De Carvalho, L.C.B. Costa, H.D. Andrade, T.V. de Melo, J.C.L. Ribeiro, L.G. Pedroti, R.A.F. Peixoto, Steel slags in cement-based composites: An ultimate review on characterization, applications and performance, Constr. Build. Mater. 291 (2021) 123265."
+              },
+              {
+                "ref-fulltext": "Rahou, J., Rezqi, H., El Ouahabi, M., Fagel, N., Characterization of Moroccan steel slag waste: the potential green resource for ceramic production. Constr. Build. Mater., 314, 2022, 125663.",
+                "@reference-instance-id": "OB2BibRecID-966640878-efa823ac436c1b7187ca6e9bf7e672a3-39",
+                "@id": "39",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Characterization of Moroccan steel slag waste: the potential green resource for ceramic production"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib39",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "125663",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85119476828",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "314"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Rahou",
+                        "ce:indexed-name": "Rahou J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Rezqi",
+                        "ce:indexed-name": "Rezqi H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "El Ouahabi",
+                        "ce:indexed-name": "El Ouahabi M."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Fagel",
+                        "ce:indexed-name": "Fagel N."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "J. Rahou, H. Rezqi, M. El Ouahabi, N. Fagel, Characterization of Moroccan steel slag waste: The potential green resource for ceramic production, Constr. Build. Mater. 314 (2022) 125663."
+              },
+              {
+                "ref-fulltext": "Ghouleh, Z., Guthrie, R.I.L., Shao, Y., High-strength KOBM steel slag binder activated by carbonation. Constr. Build. Mater. 99 (2015), 175–183.",
+                "@reference-instance-id": "OB2BibRecID-966640878-e7cb34a18a445e7c49227921f7a0c7f6-40",
+                "@id": "40",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "High-strength KOBM steel slag binder activated by carbonation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib40",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84942809308",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "99"
+                    },
+                    "pagerange": {
+                      "@first": "175",
+                      "@last": "183"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Ghouleh",
+                        "ce:indexed-name": "Ghouleh Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.I.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Guthrie",
+                        "ce:indexed-name": "Guthrie R.I.L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Shao",
+                        "ce:indexed-name": "Shao Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "Z. Ghouleh, R.I.L. Guthrie, Y. Shao, High-strength KOBM steel slag binder activated by carbonation, Constr. Build. Mater. 99 (2015) 175-183."
+              },
+              {
+                "ref-fulltext": "He, P., Drissi, S., Hu, X., Liu, J., Shi, C., Investigation on the influential mechanism of FA and GGBS on the properties of CO2-cured cement paste. Cem. Concr. Compos, 142, 2023, 105186.",
+                "@reference-instance-id": "OB2BibRecID-966640878-a9fff7b46bfab39b9f986422dade5e82-41",
+                "@id": "41",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Investigation on the influential mechanism of FA and GGBS on the properties of CO2-cured cement paste"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib41",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105186",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85163206911",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "142"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "He",
+                        "ce:indexed-name": "He P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Drissi",
+                        "ce:indexed-name": "Drissi S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Hu",
+                        "ce:indexed-name": "Hu X."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu J."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Compos"
+                },
+                "ce:source-text": "P. He, S. Drissi, X. Hu, J. Liu, C. Shi, Investigation on the influential mechanism of FA and GGBS on the properties of CO2-cured cement paste, Cem. Concr. Compos. 142 (2023) 105186."
+              },
+              {
+                "ref-fulltext": "Qasrawi, H., The use of steel slag aggregate to enhance the mechanical properties of recycled aggregate concrete and retain the environment. Constr. Build. Mater. 54 (2014), 298–304.",
+                "@reference-instance-id": "OB2BibRecID-966640878-b1a39f8a0ac61590d8f42a98ee42d15d-42",
+                "@id": "42",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The use of steel slag aggregate to enhance the mechanical properties of recycled aggregate concrete and retain the environment"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib42",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84892724192",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "54"
+                    },
+                    "pagerange": {
+                      "@first": "298",
+                      "@last": "304"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Qasrawi",
+                        "ce:indexed-name": "Qasrawi H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr. Build. Mater."
+                },
+                "ce:source-text": "H. Qasrawi, The use of steel slag aggregate to enhance the mechanical properties of recycled aggregate concrete and retain the environment, Constr. Build. Mater. 54 (2014) 298-304."
+              },
+              {
+                "ref-fulltext": "Liu, K., Zhang, C., Wang, J., Xue, C., Wang, B., Zhang, M., Yang, Y., Zhou, Y., Quantifying the effects of carbides and pores on fatigue damages of Ni-based single crystal superalloys at elevated temperature using X-Ray CT scans. J. Nondestr. Eval., 41(2), 2022, 47.",
+                "@reference-instance-id": "OB2BibRecID-966640878-e5151f146148979fb8cb4f5cb030781a-43",
+                "@id": "43",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Quantifying the effects of carbides and pores on fatigue damages of Ni-based single crystal superalloys at elevated temperature using X-Ray CT scans"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib43",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85131015627",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "41",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "47"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Xue",
+                        "ce:indexed-name": "Xue C."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang B."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang M."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang Y."
+                      },
+                      {
+                        "@seq": "8",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Nondestr. Eval."
+                },
+                "ce:source-text": "K. Liu, C. Zhang, J. Wang, C. Xue, B. Wang, M. Zhang, Y. Yang, Y. Zhou, Quantifying the Effects of Carbides and Pores on Fatigue Damages of Ni-Based Single Crystal Superalloys at Elevated Temperature Using X-Ray CT Scans, J. Nondestr. Eval. 41 (2) (2022), 47."
+              },
+              {
+                "ref-fulltext": "Sharma, R., Kim, H., Lee, N.K., Park, J.-J., Jang, J.G., Microstructural characteristics and CO2 uptake of calcium sulfoaluminate cement by carbonation curing at different water-to-cement ratios. Cem. Concr. Res., 163, 2023, 107012.",
+                "@reference-instance-id": "OB2BibRecID-966640878-9d250aae125d63ac50a5609fa0630f84-44",
+                "@id": "44",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Microstructural characteristics and CO2 uptake of calcium sulfoaluminate cement by carbonation curing at different water-to-cement ratios"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib44",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "107012",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85141748604",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "163"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Sharma",
+                        "ce:indexed-name": "Sharma R."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "N.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee N.K."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.-J.",
+                        "@_fa": "true",
+                        "ce:surname": "Park",
+                        "ce:indexed-name": "Park J.-J."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "J.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Jang",
+                        "ce:indexed-name": "Jang J.G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem. Concr. Res."
+                },
+                "ce:source-text": "R. Sharma, H. Kim, N.K. Lee, J.-J. Park, J.G. Jang, Microstructural characteristics and CO2 uptake of calcium sulfoaluminate cement by carbonation curing at different water-to-cement ratios, Cem. Concr. Res. 163 (2023) 107012."
+              },
+              {
+                "ref-fulltext": "Bertos, M.F., Simons, S.J.R., Hills, C.D., Carey, P.J., A review of accelerated carbonation technology in the treatment of cement-based materials and sequestration of CO2. J. Hazard. Mater. 112:3 (2004), 193–205.",
+                "@reference-instance-id": "OB2BibRecID-966640878-9db2e91de5f2129af398b6d40a460f6c-45",
+                "@id": "45",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2004"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A review of accelerated carbonation technology in the treatment of cement-based materials and sequestration of CO2"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib45",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "4043150689",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "112",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "193",
+                      "@last": "205"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Bertos",
+                        "ce:indexed-name": "Bertos M.F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.J.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Simons",
+                        "ce:indexed-name": "Simons S.J.R."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Hills",
+                        "ce:indexed-name": "Hills C.D."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "P.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Carey",
+                        "ce:indexed-name": "Carey P.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Hazard. Mater."
+                },
+                "ce:source-text": "M.F. Bertos, S.J.R. Simons, C.D. Hills, P.J. Carey, A review of accelerated carbonation technology in the treatment of cement-based materials and sequestration of CO2, J. Hazard. Mater. 112 (3) (2004) 193-205."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "affiliation": [
+      {
+        "affiliation-city": "Qingdao",
+        "@id": "60012223",
+        "affilname": "Qingdao University of Technology",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012223",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "London",
+        "@id": "60176024",
+        "affilname": "UCL Engineering",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60176024",
+        "affiliation-country": "United Kingdom"
+      },
+      {
+        "affiliation-city": "Guangzhou",
+        "@id": "126155473",
+        "affilname": "Ltd.",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/126155473",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Urumqi",
+        "@id": "107136462",
+        "affilname": "Ltd.",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/107136462",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Qingdao",
+        "@id": "60374780",
+        "affilname": "Qingdao Qingjian New Materials Group Co., Ltd.",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60374780",
+        "affiliation-country": "China"
+      }
+    ],
+    "coredata": {
+      "srctype": "j",
+      "eid": "2-s2.0-105012738744",
+      "dc:description": "The presence of larger percentage of inert components, f-CaO and brucite in blended cementitious materials formulated with steel slag results in lower reactivity and poor volume stability, which restricts the utilization of steel slag as supplementary cementitious materials. The aim of this paper is to investigate the effect of CO2 mineralisation on the strength development, phase evolution and microstructure improvement of blended cementitious materials formulated with different proportions of steel slag at different water to binder ratios (w/b). Densiﬁed system with ultra-ﬁne particles (DSPs) was adopted to guide the mixture formulation to enhance the strength. The results showed that, CO2 mineralisation dominantly increased the compressive strength development compared with the control sample and reduced the flexural strength. Samples with high w/b ratio (i.e., 0.30, 0.35 and 0.40) showed the highest carbonation depth after 3 days carbonation curing. Calcite with good crystal morphology was the mainly carbonated products in the fully carbonation zone, whilst metastable aragonite and vaterite were formed in the carbonation interfacial transition zone, which may be influenced by the CO2 concentration and curing time. Phase evolution caused by carbonation curing significantly refined the pore size to harmless and reduced the porosity, especially for that with higher w/b ratio.",
+      "prism:coverDate": "2025-12-01",
+      "prism:aggregationType": "Journal",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105012738744",
+      "subtypeDescription": "Article",
+      "dc:creator": {
+        "author": [
+          {
+            "ce:given-name": "Yubin",
+            "preferred-name": {
+              "ce:given-name": "Yubin",
+              "ce:initials": "Y.",
+              "ce:surname": "Cao",
+              "ce:indexed-name": "Cao Y."
+            },
+            "@seq": "1",
+            "ce:initials": "Y.",
+            "@_fa": "true",
+            "affiliation": {
+              "@id": "60012223",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012223"
+            },
+            "ce:surname": "Cao",
+            "@auid": "57207822140",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57207822140",
+            "ce:indexed-name": "Cao Y."
+          }
+        ]
+      },
+      "link": [
+        {
+          "@_fa": "true",
+          "@rel": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105012738744"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105012738744&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105012738744&origin=inward"
+        }
+      ],
+      "prism:publicationName": "Case Studies in Construction Materials",
+      "source-id": "21100296223",
+      "pii": "S2214509525008782",
+      "citedby-count": "4",
+      "prism:volume": "23",
+      "subtype": "ar",
+      "dc:title": "Effect of CO2 mineralization on phase evolution and microstructure development of blended cement formulated with large proportion of steel slag",
+      "openaccess": "1",
+      "openaccessFlag": "true",
+      "prism:doi": "10.1016/j.cscm.2025.e05080",
+      "prism:issn": "22145095",
+      "publishercopyright": "© 2025",
+      "article-number": "e05080",
+      "dc:identifier": "SCOPUS_ID:105012738744",
+      "dc:publisher": "Elsevier Ltd"
+    },
+    "idxterms": {
+      "mainterm": [
+        {
+          "$": "Blended cement",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Cementitious materials",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "CO2 mineralization",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Effect of CO",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Inert components",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Microstructure development",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Mineralisation",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Phase evolutions",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Steel slag",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Strength development",
+          "@weight": "b",
+          "@candidate": "n"
+        }
+      ]
+    },
+    "language": {
+      "@xml:lang": "eng"
+    },
+    "authkeywords": {
+      "author-keyword": [
+        {
+          "@_fa": "true",
+          "$": "Cementitious materials"
+        },
+        {
+          "@_fa": "true",
+          "$": "CO2 mineralisation"
+        },
+        {
+          "@_fa": "true",
+          "$": "Microstructure"
+        },
+        {
+          "@_fa": "true",
+          "$": "Phase evolution"
+        },
+        {
+          "@_fa": "true",
+          "$": "Steel slag"
+        }
+      ]
+    },
+    "subject-areas": {
+      "subject-area": [
+        {
+          "@_fa": "true",
+          "$": "Materials Science (miscellaneous)",
+          "@code": "2501",
+          "@abbrev": "MATE"
+        }
+      ]
+    },
+    "authors": {
+      "author": [
+        {
+          "ce:given-name": "Yubin",
+          "preferred-name": {
+            "ce:given-name": "Yubin",
+            "ce:initials": "Y.",
+            "ce:surname": "Cao",
+            "ce:indexed-name": "Cao Y."
+          },
+          "@seq": "1",
+          "ce:initials": "Y.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60012223",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012223"
+          },
+          "ce:surname": "Cao",
+          "@auid": "57207822140",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57207822140",
+          "ce:indexed-name": "Cao Y."
+        },
+        {
+          "ce:given-name": "Mengjie",
+          "preferred-name": {
+            "ce:given-name": "Mengjie",
+            "ce:initials": "M.",
+            "ce:surname": "Liu",
+            "ce:indexed-name": "Liu M."
+          },
+          "@seq": "2",
+          "ce:initials": "M.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60012223",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012223"
+          },
+          "ce:surname": "Liu",
+          "@auid": "60032043000",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60032043000",
+          "ce:indexed-name": "Liu M."
+        },
+        {
+          "ce:given-name": "Shiyinuo",
+          "preferred-name": {
+            "ce:given-name": "Shiyinuo",
+            "ce:initials": "S.",
+            "ce:surname": "Wang",
+            "ce:indexed-name": "Wang S."
+          },
+          "@seq": "3",
+          "ce:initials": "S.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60012223",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012223"
+          },
+          "ce:surname": "Wang",
+          "@auid": "58766523100",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58766523100",
+          "ce:indexed-name": "Wang S."
+        },
+        {
+          "ce:given-name": "Song",
+          "preferred-name": {
+            "ce:given-name": "Song",
+            "ce:initials": "S.",
+            "ce:surname": "Gao",
+            "ce:indexed-name": "Gao S."
+          },
+          "@seq": "4",
+          "ce:initials": "S.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60012223",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012223"
+          },
+          "ce:surname": "Gao",
+          "@auid": "36720325000",
+          "author-url": "https://api.elsevier.com/content/author/author_id/36720325000",
+          "ce:indexed-name": "Gao S."
+        },
+        {
+          "ce:given-name": "Leqing",
+          "preferred-name": {
+            "ce:given-name": "Leqing",
+            "ce:initials": "L.",
+            "ce:surname": "Lin",
+            "ce:indexed-name": "Lin L."
+          },
+          "@seq": "5",
+          "ce:initials": "L.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60176024",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60176024"
+          },
+          "ce:surname": "Lin",
+          "@auid": "59417143700",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59417143700",
+          "ce:indexed-name": "Lin L."
+        },
+        {
+          "ce:given-name": "Xu",
+          "preferred-name": {
+            "ce:given-name": "Xu",
+            "ce:initials": "X.",
+            "ce:surname": "Chen",
+            "ce:indexed-name": "Chen X."
+          },
+          "@seq": "6",
+          "ce:initials": "X.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "60012223",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012223"
+            },
+            {
+              "@id": "107136462",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/107136462"
+            }
+          ],
+          "ce:surname": "Chen",
+          "@auid": "57207472302",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57207472302",
+          "ce:indexed-name": "Chen X."
+        },
+        {
+          "ce:given-name": "Zhenwei",
+          "preferred-name": {
+            "ce:given-name": "Zhenwei",
+            "ce:initials": "Z.",
+            "ce:surname": "Qin",
+            "ce:indexed-name": "Qin Z."
+          },
+          "@seq": "7",
+          "ce:initials": "Z.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60012223",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012223"
+          },
+          "ce:surname": "Qin",
+          "@auid": "57838506300",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57838506300",
+          "ce:indexed-name": "Qin Z."
+        },
+        {
+          "ce:given-name": "Qi",
+          "preferred-name": {
+            "ce:given-name": "Qi",
+            "ce:initials": "Q.",
+            "ce:surname": "Yu",
+            "ce:indexed-name": "Yu Q."
+          },
+          "@seq": "8",
+          "ce:initials": "Q.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60374780",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60374780"
+          },
+          "ce:surname": "Yu",
+          "@auid": "57291597700",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57291597700",
+          "ce:indexed-name": "Yu Q."
+        },
+        {
+          "ce:given-name": "Pengjie",
+          "preferred-name": {
+            "ce:given-name": "Pengjie",
+            "ce:initials": "P.",
+            "ce:surname": "Song",
+            "ce:indexed-name": "Song P."
+          },
+          "@seq": "9",
+          "ce:initials": "P.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "126155473",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/126155473"
+          },
+          "ce:surname": "Song",
+          "@auid": "59468610700",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59468610700",
+          "ce:indexed-name": "Song P."
+        },
+        {
+          "ce:given-name": "Ran",
+          "preferred-name": {
+            "ce:given-name": "Ran",
+            "ce:initials": "R.",
+            "ce:surname": "Li",
+            "ce:indexed-name": "Li R."
+          },
+          "@seq": "10",
+          "ce:initials": "R.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60012223",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012223"
+          },
+          "ce:surname": "Li",
+          "@auid": "57218950408",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57218950408",
+          "ce:indexed-name": "Li R."
+        },
+        {
+          "ce:given-name": "Yanru",
+          "preferred-name": {
+            "ce:given-name": "Yanru",
+            "ce:initials": "Y.",
+            "ce:surname": "Wang",
+            "ce:indexed-name": "Wang Y."
+          },
+          "@seq": "11",
+          "ce:initials": "Y.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60012223",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012223"
+          },
+          "ce:surname": "Wang",
+          "@auid": "58855565100",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58855565100",
+          "ce:indexed-name": "Wang Y."
+        }
+      ]
+    }
+  }
+}

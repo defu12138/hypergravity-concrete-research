@@ -1,0 +1,3672 @@
+{
+  "abstracts-retrieval-response": {
+    "item": {
+      "ait:process-info": {
+        "ait:status": {
+          "@state": "update",
+          "@type": "core",
+          "@stage": "S300"
+        },
+        "ait:date-delivered": {
+          "@day": "10",
+          "@year": "2024",
+          "@timestamp": "2024-05-10T09:37:38.000038-04:00",
+          "@month": "05"
+        },
+        "ait:date-sort": {
+          "@day": "01",
+          "@year": "2022",
+          "@month": "08"
+        }
+      },
+      "xocs:meta": {
+        "xocs:funding-list": {
+          "@pui-match": "primary",
+          "@has-funding-info": "1",
+          "xocs:funding": [
+            {
+              "xocs:funding-agency-matched-string": "Tra Vinh University",
+              "xocs:funding-agency-acronym": "TVU",
+              "xocs:funding-agency": "Trường Đại học Trà Vinh",
+              "xocs:funding-id": "205/HÐ-HÐKH",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/100018444",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1562822/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Tra Vinh University",
+              "xocs:funding-agency-acronym": "TVU",
+              "xocs:funding-agency": "Trường Đại học Trà Vinh",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/100018444",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1562822/"
+            }
+          ],
+          "xocs:funding-addon-generated-timestamp": "2022-06-12T05:38:16.367Z",
+          "xocs:funding-text": "This research was fully funded by Tra Vinh University under grant contract number 205/HÐ-HÐKH.ÐHTV.",
+          "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }
+      },
+      "bibrecord": {
+        "head": {
+          "author-group": [
+            {
+              "affiliation": {
+                "country": "Viet Nam",
+                "address-part": "No.126 Nguyen Thien Thanh Street, Hamlet 4, Ward 5",
+                "postal-code": "940000",
+                "@afid": "60110954",
+                "@country": "vnm",
+                "city": "Travinh City",
+                "organization": [
+                  {
+                    "$": "Dept. of Civil Engineering"
+                  },
+                  {
+                    "$": "School of Engineering and Technology"
+                  },
+                  {
+                    "$": "Tra Vinh University"
+                  },
+                  {
+                    "$": "Vietnam"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60110954",
+                  "@dptid": "125789756"
+                },
+                "state": "Travinh Province",
+                "@affiliation-instance-id": "S0038080622000713-598cc39a357e5c33d721767e110eb6ce",
+                "ce:source-text": "Dept. of Civil Engineering, School of Engineering and Technology, Tra Vinh University, Vietnam, No.126 Nguyen Thien Thanh Street, Hamlet 4, Ward 5, Travinh City, Travinh Province 940000, Viet Nam",
+                "@dptid": "125789756"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Van-Hiep",
+                  "preferred-name": {
+                    "ce:given-name": "Van Hiep",
+                    "ce:initials": "V.H.",
+                    "ce:surname": "Huynh",
+                    "ce:indexed-name": "Huynh V.H."
+                  },
+                  "@seq": "1",
+                  "@author-instance-id": "S0038080622000713-dd7aed29d753e0a173cbe5a31db0661f",
+                  "ce:initials": "V.-H.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Huynh",
+                  "@auid": "57222038796",
+                  "ce:indexed-name": "Huynh V.-H."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "Viet Nam",
+                "@afid": "60078563",
+                "@country": "vnm",
+                "city": "Ho Chi Minh City",
+                "organization": [
+                  {
+                    "$": "Sustainable Developments in Civil Engineering Research Group"
+                  },
+                  {
+                    "$": "Faculty of Civil Engineering"
+                  },
+                  {
+                    "$": "Ton Duc Thang University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60078563",
+                  "@dptid": "118140560"
+                },
+                "@affiliation-instance-id": "S0038080622000713-0d4106427d4613d9abb68ba338ddd4d5",
+                "ce:source-text": "Sustainable Developments in Civil Engineering Research Group, Faculty of Civil Engineering, Ton Duc Thang University, Ho Chi Minh City, Viet Nam",
+                "@dptid": "118140560"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Tan",
+                  "preferred-name": {
+                    "ce:given-name": "Tan",
+                    "ce:initials": "T.",
+                    "ce:surname": "Nguyen",
+                    "ce:indexed-name": "Nguyen T."
+                  },
+                  "@seq": "2",
+                  "@author-instance-id": "S0038080622000713-da0c6d241bbf093d3d47c4e8a3052569",
+                  "ce:initials": "T.",
+                  "@date-locked": "2022-10-26T04:02:26.322",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Nguyen",
+                  "@auid": "57209167030",
+                  "ce:indexed-name": "Nguyen T."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "Viet Nam",
+                "address-part": "Ho Chi Minh City",
+                "@afid": "60078563",
+                "@country": "vnm",
+                "city": "Viet Nam",
+                "organization": [
+                  {
+                    "$": "Faculty of Civil Engineering"
+                  },
+                  {
+                    "$": "Ton Duc Thang University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60078563",
+                  "@dptid": "109487360"
+                },
+                "@affiliation-instance-id": "S0038080622000713-cc8d6168c00e8bbfdee2c5161476239a",
+                "ce:source-text": "Faculty of Civil Engineering of the Brno University of Technology, Czech Republic",
+                "@dptid": "109487360"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Dinh-Phi",
+                  "preferred-name": {
+                    "ce:given-name": "Dinh Phi",
+                    "ce:initials": "D.P.",
+                    "ce:surname": "Nguyen",
+                    "ce:indexed-name": "Nguyen D.P."
+                  },
+                  "@seq": "3",
+                  "@author-instance-id": "S0038080622000713-44424c3748283b44d6d194f867a920c8",
+                  "ce:initials": "D.-P.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Nguyen",
+                  "@auid": "57730399700",
+                  "ce:indexed-name": "Nguyen D.-P."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "Viet Nam",
+                "address-part": "Vietnam No.24 Nguyen Du Street, Ward 7",
+                "@afid": "127987724",
+                "@country": "vnm",
+                "city": "Tuy Hoa City",
+                "organization": [
+                  {
+                    "$": "Dept. of Civil Engineering"
+                  },
+                  {
+                    "$": "Mien Trung University of Civil Engineering"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "127987724",
+                  "@dptid": "128190921"
+                },
+                "state": "Phu Yen Province",
+                "@affiliation-instance-id": "S0038080622000713-b8a5b744cb4531309cb8462606b38707",
+                "ce:source-text": "Dept. of Civil Engineering, Mien Trung University of Civil Engineering, Vietnam No.24 Nguyen Du Street, Ward 7, Tuy Hoa City, Phu Yen Province, Viet Nam",
+                "@dptid": "128190921"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Thanh-Son",
+                  "preferred-name": {
+                    "ce:given-name": "Thanh Son",
+                    "ce:initials": "T.S.",
+                    "ce:surname": "Nguyen",
+                    "ce:indexed-name": "Nguyen T.S."
+                  },
+                  "@seq": "4",
+                  "@author-instance-id": "S0038080622000713-15e7a8df0196e738c8576bb9566117d1",
+                  "ce:initials": "T.-S.",
+                  "@date-locked": "2023-08-04T16:33:47.927",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Nguyen",
+                  "@auid": "57216184499",
+                  "ce:indexed-name": "Nguyen T.-S."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "Viet Nam",
+                "address-part": "No.126 Nguyen Thien Thanh Street, Hamlet 4, Ward 5",
+                "postal-code": "940000",
+                "@afid": "60110954",
+                "@country": "vnm",
+                "city": "Travinh City",
+                "organization": [
+                  {
+                    "$": "Dept. of Civil Engineering"
+                  },
+                  {
+                    "$": "School of Engineering and Technology"
+                  },
+                  {
+                    "$": "Tra Vinh University"
+                  },
+                  {
+                    "$": "Vietnam"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60110954",
+                  "@dptid": "125789756"
+                },
+                "state": "Travinh Province",
+                "@affiliation-instance-id": "S0038080622000713-bf556c0778816b4d8d91de23ff204f99",
+                "ce:source-text": "Dept. of Civil Engineering, School of Engineering and Technology, Tra Vinh University, Vietnam, No.126 Nguyen Thien Thanh Street, Hamlet 4, Ward 5, Travinh City, Travinh Province 940000, Viet Nam",
+                "@dptid": "125789756"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Thi-My-Dung",
+                  "preferred-name": {
+                    "ce:given-name": "Thi My Dung",
+                    "ce:initials": "T.M.D.",
+                    "ce:surname": "Huynh",
+                    "ce:indexed-name": "Huynh T.M.D."
+                  },
+                  "@seq": "5",
+                  "@author-instance-id": "S0038080622000713-afbce31ec4a946d52f48b6848b2136c8",
+                  "ce:initials": "T.-M.-D.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Huynh",
+                  "@auid": "57222054416",
+                  "ce:indexed-name": "Huynh T.-M.-D."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "Viet Nam",
+                "address-part": "No.126 Nguyen Thien Thanh Street, Hamlet 4, Ward 5",
+                "postal-code": "940000",
+                "@afid": "60110954",
+                "@country": "vnm",
+                "city": "Travinh City",
+                "organization": [
+                  {
+                    "$": "Dept. of Civil Engineering"
+                  },
+                  {
+                    "$": "School of Engineering and Technology"
+                  },
+                  {
+                    "$": "Tra Vinh University"
+                  },
+                  {
+                    "$": "Vietnam"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60110954",
+                  "@dptid": "125789756"
+                },
+                "state": "Travinh Province",
+                "@affiliation-instance-id": "S0038080622000713-f667759e4d4ef5064e8c5ef61e6e8ade",
+                "ce:source-text": "Dept. of Civil Engineering, School of Engineering and Technology, Tra Vinh University, Vietnam, No.126 Nguyen Thien Thanh Street, Hamlet 4, Ward 5, Travinh City, Travinh Province 940000, Viet Nam",
+                "@dptid": "125789756"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Thanh-Cong",
+                  "preferred-name": {
+                    "ce:given-name": "Thanh Cong",
+                    "ce:initials": "T.C.",
+                    "ce:surname": "Nguyen",
+                    "ce:indexed-name": "Nguyen T.C."
+                  },
+                  "@seq": "6",
+                  "@author-instance-id": "S0038080622000713-00189c11d2b95f6f0b7362b1a6147228",
+                  "ce:initials": "T.-C.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Nguyen",
+                  "@auid": "59051796500",
+                  "ce:indexed-name": "Nguyen T.-C."
+                }
+              ]
+            }
+          ],
+          "citation-title": "A novel direct SPT method to accurately estimate ultimate axial bearing capacity of bored PHC nodular piles with 81 case studies in Vietnam",
+          "abstracts": "© 2022Bored PHC nodular piles (BPNP) are an eco-friendly and advantageous option for pile foundations of medium-rise to high-rise buildings. As none of the current methods to estimate the ultimate axial load-bearing capacity is accurate enough for BPNP in engineering practice, this study aims to achieve that objective by developing a new direct SPT method. To that end, we use static pile load test and SPT data of 81 PHC nodular piles collected in Vietnam. The ultimate bearing capacity is interpreted from the load–displacement curve in pile static load tests by various methods to determine the most suitable method for the nodular piles. Furthermore, 8 methods to determine axial load pile capacity directly from the standard penetration test are examined. Each method's effectiveness is evaluated by comparing its predicted values with the measured values. Finally, the genetic algorithm for function optimization is employed to develop a new direct SPT method that can accurately predict the ultimate axial load-bearing capacity of nodular piles. The reliability of the proposed formula is justified by comparing the proportion of end bearing capacity with other published works. It is verified that the developed directed SPT method outperforms all current methods and could be implemented directly in engineering practice.",
+          "correspondence": {
+            "affiliation": {
+              "country": "Viet Nam",
+              "@country": "vnm",
+              "city": "Ho Chi Minh City",
+              "organization": [
+                {
+                  "$": "Sustainable Developments in Civil Engineering Research Group"
+                },
+                {
+                  "$": "Faculty of Civil Engineering"
+                },
+                {
+                  "$": "Ton Duc Thang University"
+                }
+              ]
+            },
+            "person": {
+              "ce:given-name": "Tan",
+              "ce:initials": "T.",
+              "ce:surname": "Nguyen",
+              "ce:indexed-name": "Nguyen T."
+            }
+          },
+          "citation-info": {
+            "author-keywords": {
+              "author-keyword": [
+                {
+                  "$": "Bored PHC nodular piles",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "direct SPT method",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Genetic algorithm",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Standard penetration test",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Static load tests",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Ultimate bearing capacity",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                }
+              ]
+            },
+            "citation-type": {
+              "@code": "ar"
+            },
+            "citation-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "abstract-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            }
+          },
+          "source": {
+            "website": {
+              "ce:e-address": {
+                "$": "https://www.journals.elsevier.com/soils-and-foundations",
+                "@type": "email"
+              }
+            },
+            "translated-sourcetitle": {
+              "$": "Soils and Foundations",
+              "@xml:lang": "eng"
+            },
+            "volisspag": {
+              "voliss": {
+                "@volume": "62",
+                "@issue": "4"
+              }
+            },
+            "@type": "j",
+            "sourcetitle": "Soils and Foundations",
+            "publicationdate": {
+              "month": "08",
+              "year": "2022",
+              "date-text": "August 2022",
+              "day": "01"
+            },
+            "codencode": "SOIFB",
+            "sourcetitle-abbrev": "Soils Found.",
+            "@country": "jpn",
+            "issn": {
+              "$": "00380806",
+              "@type": "print"
+            },
+            "publicationyear": {
+              "@first": "2022"
+            },
+            "publisher": {
+              "publishername": "Elsevier B.V."
+            },
+            "article-number": "101163",
+            "@srcid": "17392"
+          },
+          "enhancement": {
+            "classificationgroup": {
+              "classifications": [
+                {
+                  "@type": "CPXCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "402",
+                      "classification-description": "Buildings and Towers"
+                    },
+                    {
+                      "classification-code": "408",
+                      "classification-description": "Structural Design"
+                    },
+                    {
+                      "classification-code": "408.2",
+                      "classification-description": "Structural Members and Shapes"
+                    },
+                    {
+                      "classification-code": "483.2",
+                      "classification-description": "Foundations"
+                    }
+                  ]
+                },
+                {
+                  "@type": "FLXCLASS",
+                  "classification": {
+                    "classification-code": "902",
+                    "classification-description": "FLUIDEX; Related Topics"
+                  }
+                },
+                {
+                  "@type": "ASJC",
+                  "classification": [
+                    {
+                      "$": "2205"
+                    },
+                    {
+                      "$": "1909"
+                    }
+                  ]
+                },
+                {
+                  "@type": "SUBJABBR",
+                  "classification": [
+                    {
+                      "$": "ENGI"
+                    },
+                    {
+                      "$": "EART"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "grantlist": {
+            "@complete": "y",
+            "grant-text": {
+              "$": "This research was fully funded by Tra Vinh University under grant contract number 205/HÐ-HÐKH.ÐHTV. All data generated or analyzed during this study are included in the submitted article. The raw data are available from the corresponding author upon reasonable request.",
+              "@xml:lang": "eng"
+            }
+          }
+        },
+        "item-info": {
+          "copyright": {
+            "$": "Copyright 2022 Elsevier B.V., All rights reserved.",
+            "@type": "Elsevier"
+          },
+          "dbcollection": [
+            {
+              "$": "CPX"
+            },
+            {
+              "$": "REAXYSCAR"
+            },
+            {
+              "$": "SCOPUS"
+            },
+            {
+              "$": "Scopusbase"
+            }
+          ],
+          "history": {
+            "date-created": {
+              "@day": "11",
+              "@year": "2022",
+              "@timestamp": "BST 14:01:22",
+              "@month": "06"
+            }
+          },
+          "itemidlist": {
+            "itemid": [
+              {
+                "$": "2018509511",
+                "@idtype": "PUI"
+              },
+              {
+                "$": "940708659",
+                "@idtype": "CAR-ID"
+              },
+              {
+                "$": "20222412211445",
+                "@idtype": "CPX"
+              },
+              {
+                "$": "20221766523",
+                "@idtype": "REAXYSCAR"
+              },
+              {
+                "$": "20221977394",
+                "@idtype": "SCOPUS"
+              },
+              {
+                "$": "85131413348",
+                "@idtype": "SCP"
+              },
+              {
+                "$": "85131413348",
+                "@idtype": "SGR"
+              }
+            ],
+            "ce:pii": "S0038080622000713",
+            "ce:ern": "pii:S0038080622000713",
+            "ce:doi": "10.1016/j.sandf.2022.101163"
+          }
+        },
+        "tail": {
+          "bibliography": {
+            "@refcount": "50",
+            "reference": [
+              {
+                "ref-fulltext": "Abu-Farsakh, M., Yu, X., Yoon, S., Tsai, C., Calibration of Resistance Factors Needed in the LRFD Design of Drilled Shafts. 2010, Louisiana Transportation Research Center, Baton Rouge, LA.",
+                "@id": "1",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Calibration of Resistance Factors Needed in the LRFD Design of Drilled Shafts"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0005",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84861892083",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Louisiana Transportation Research Center Baton Rouge, LA",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Abu-Farsakh",
+                        "ce:indexed-name": "Abu-Farsakh M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu X."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Yoon",
+                        "ce:indexed-name": "Yoon S."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Tsai",
+                        "ce:indexed-name": "Tsai C."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Abu-Farsakh, M., Yu, X., and Yoon, S., and Tsai, C. 2010. Calibration of Resistance Factors Needed in the LRFD Design of Drilled Shafts. Louisiana Transportation Research Center, Baton Rouge, LA."
+              },
+              {
+                "ref-fulltext": "American Society of Testing and Material (ASTM), Standard test method for piles under static axial compressive load. In ASTM D1143–81 (1994), 768–778.",
+                "@id": "2",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1994"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Standard test method for piles under static axial compressive load"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0010",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85131399324",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "D1143–81"
+                    },
+                    "pagerange": {
+                      "@first": "768",
+                      "@last": "778"
+                    }
+                  },
+                  "ref-authors": {
+                    "collaboration": {
+                      "@seq": "1",
+                      "ce:text": "American Society of Testing and Material (ASTM)",
+                      "ce:indexed-name": "American Society of Testing and Material (ASTM)"
+                    }
+                  },
+                  "ref-sourcetitle": "In ASTM"
+                },
+                "ce:source-text": "American Society of Testing and Material (ASTM). 1994. Standard test method for piles under static axial compressive load. In ASTM D1143-81. pp. 768–778."
+              },
+              {
+                "ref-fulltext": "American Society of Testing and Material (ASTM), 1999. Standard Test Method for Penetration Test and Split-Barrel Sampling of Soil.",
+                "@id": "3",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1999"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0015",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85131414591",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Standard Test Method for Penetration Test and Split-Barrel Sampling of Soil.",
+                  "ref-authors": {
+                    "collaboration": {
+                      "@seq": "1",
+                      "ce:text": "American Society of Testing and Material (ASTM)",
+                      "ce:indexed-name": "American Society of Testing and Material (ASTM)"
+                    }
+                  }
+                },
+                "ce:source-text": "American Society of Testing and Material (ASTM), 1999. Standard Test Method for Penetration Test and Split-Barrel Sampling of Soil."
+              },
+              {
+                "ref-fulltext": "Bazaraa, A.R., Kurkur, A.R., N-Values Used to Predict Settlements of Piles in Egypt. Use of In Situ Tests in Geotechnical Engineering. ASCE, 1986, 462–474.",
+                "@id": "4",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1986"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "N-Values Used to Predict Settlements of Piles in Egypt"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0020",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0022583682",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "462",
+                      "@last": "474"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Bazaraa",
+                        "ce:indexed-name": "Bazaraa A.R."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Kurkur",
+                        "ce:indexed-name": "Kurkur A.R."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Use of In Situ Tests in Geotechnical Engineering. ASCE"
+                },
+                "ce:source-text": "Bazaraa, A.R., and Kurkur, A.R. 1986. N-Values Used to Predict Settlements of Piles in Egypt. In Use of In Situ Tests in Geotechnical Engineering. ASCE. pp. 462–474."
+              },
+              {
+                "ref-fulltext": "Briaud, J.L., Tucker, L.M., Measured and Predicted Axial Response of 98 Piles. J. Geotech. Eng. 114:9 (1988), 984–1001, 10.1061/(asce)0733-9410(1988)114:9(984).",
+                "@id": "5",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1988"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Measured and Predicted Axial Response of 98 Piles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1061/(asce)0733-9410(1988)114:9(984)",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0025",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0024082772",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "114",
+                      "@issue": "9"
+                    },
+                    "pagerange": {
+                      "@first": "984",
+                      "@last": "1001"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Briaud",
+                        "ce:indexed-name": "Briaud J.L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Tucker",
+                        "ce:indexed-name": "Tucker L.M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Geotech. Eng."
+                },
+                "ce:source-text": "Briaud, J.L., and Tucker, L.M. 1988. Measured and Predicted Axial Response of 98 Piles. Journal of Geotechnical Engineering, 114(9): 984-1001. doi:10.1061/(asce)0733-9410(1988)114:9(984)."
+              },
+              {
+                "ref-fulltext": "Burland, J.F., Shaft friction of piles in clay. Ground Eng. 6:3 (1973), 30–38.",
+                "@id": "6",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1973"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Shaft friction of piles in clay"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0030",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0002700570",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "6",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "30",
+                      "@last": "38"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Burland",
+                        "ce:indexed-name": "Burland J.F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Ground Eng."
+                },
+                "ce:source-text": "Burland, J.F. 1973. Shaft friction of piles in clay. Ground Engineering, 6(3): 30-38."
+              },
+              {
+                "ref-fulltext": "Carr, J., An introduction to genetic algorithms. Senior Project, 1(40), 2014, 7.",
+                "@id": "7",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "An introduction to genetic algorithms"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0035",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84971443920",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "1",
+                      "@issue": "40"
+                    },
+                    "pagerange": {
+                      "@first": "7"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Carr",
+                        "ce:indexed-name": "Carr J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Senior Project"
+                },
+                "ce:source-text": "Carr, J. 2014. An introduction to genetic algorithms. Senior Project, 1(40): 7."
+              },
+              {
+                "ref-fulltext": "Chin, F.K., 1970. Estimation of the ultimate load of piles from tests not carried to failure. In: Proc. 2nd Southeast Asian Conference on Soil Engineering, Singapore, 1970. Singapore, 1970. Edited by L. Peter. The Southeast Asia Society of Soil Engineering.",
+                "@id": "8",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1970"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0040",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85131446804",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Estimation of the ultimate load of piles from tests not carried to failure. In: Proc. 2nd Southeast Asian Conference on Soil Engineering, Singapore Singapore Edited by L. Peter. The Southeast Asia Society of Soil Engineering.",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Chin",
+                        "ce:indexed-name": "Chin F.K."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Chin, F.K., 1970. Estimation of the ultimate load of piles from tests not carried to failure. In: Proc. 2nd Southeast Asian Conference on Soil Engineering, Singapore, 1970. Singapore, 1970. Edited by L. Peter. The Southeast Asia Society of Soil Engineering."
+              },
+              {
+                "ref-fulltext": "Chin, F.K., 1972. The inverse slope as a prediction of ultimate bearing capacity of piles. In: Proc. 3rd S. E. Asia Conf. on Soil Engrg., 1972. Hong Kong, 1972. Edited by L. Peter. pp. 83-91.",
+                "@id": "9",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1972"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0045",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0003149431",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "83",
+                      "@last": "91"
+                    }
+                  },
+                  "ref-text": "The inverse slope as a prediction of ultimate bearing capacity of piles. In: Proc. 3rd S. E. Asia Conf. on Soil Engrg. Hong Kong Edited by L. Peter.",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Chin",
+                        "ce:indexed-name": "Chin F.K."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Chin, F.K., 1972. The inverse slope as a prediction of ultimate bearing capacity of piles. In: Proc. 3rd S. E. Asia Conf. on Soil Engrg., 1972. Hong Kong, 1972. Edited by L. Peter. pp. 83-91."
+              },
+              {
+                "ref-fulltext": "Chipperfield, A., Fleming, P., 1995. The MATLAB genetic algorithm toolbox.",
+                "@id": "10",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1995"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0050",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85131433112",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "AB genetic algorithm toolbox.",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Chipperfield",
+                        "ce:indexed-name": "Chipperfield A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Fleming",
+                        "ce:indexed-name": "Fleming P."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.A.T.L.",
+                        "@_fa": "true",
+                        "ce:surname": "The",
+                        "ce:indexed-name": "The M.A.T.L."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Chipperfield, A., Fleming, P., 1995. The MATLAB genetic algorithm toolbox."
+              },
+              {
+                "ref-fulltext": "Chipperfield, A., Fleming, P., Pohlheim, H., Fonseca, C., 1994. Genetic algorithm toolbox for use with MATLAB.",
+                "@id": "11",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1994"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0055",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85131416987",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Genetic algorithm toolbox for use with MATLAB.",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Chipperfield",
+                        "ce:indexed-name": "Chipperfield A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Fleming",
+                        "ce:indexed-name": "Fleming P."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Pohlheim",
+                        "ce:indexed-name": "Pohlheim H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Fonseca",
+                        "ce:indexed-name": "Fonseca C."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Chipperfield, A., Fleming, P., Pohlheim, H., Fonseca, C., 1994. Genetic algorithm toolbox for use with MATLAB."
+              },
+              {
+                "ref-fulltext": "Davisson, M.T., 1972. High capacity piles. In: Soil Mechanics Lecture Series on Innovations in Foundation Construction. New York. ASCE pp. 81–112.",
+                "@id": "12",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1972"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0060",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85131423477",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "81",
+                      "@last": "112"
+                    }
+                  },
+                  "ref-text": "High capacity piles. In: Soil Mechanics Lecture Series on Innovations in Foundation Construction. New York. ASCE",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Davisson",
+                        "ce:indexed-name": "Davisson M.T."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Davisson, M.T., 1972. High capacity piles. In: Soil Mechanics Lecture Series on Innovations in Foundation Construction. New York. ASCE pp. 81–112."
+              },
+              {
+                "ref-fulltext": "Decourt, L., 1995. Prediction of load settlement relationships for foundations on the basis of the SPT-T. In: Ciclo de Conferencias Inter. ‘‘Leonardo Zeevaert’’. UNAM, Mexico, pp. 85–104.",
+                "@id": "13",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1995"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0065",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85131419963",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "85",
+                      "@last": "104"
+                    }
+                  },
+                  "ref-text": "Prediction of load settlement relationships for foundations on the basis of the SPT-T. In: Ciclo de Conferencias Inter. ‘‘Leonardo Zeevaert’’. UNAM, Mexico,",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Decourt",
+                        "ce:indexed-name": "Decourt L."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Decourt, L., 1995. Prediction of load settlement relationships for foundations on the basis of the SPT-T. In: Ciclo de Conferencias Inter. ‘‘Leonardo Zeevaert’’. UNAM, Mexico, pp. 85–104."
+              },
+              {
+                "ref-fulltext": "Dithinde, M., Phoon, K.K., De Wet, M., Retief, J.V., Characterization of Model Uncertainty in the Static Pile Design Formula. J. Geotech. Geoenviron. Eng. 137:1 (2011), 70–85, 10.1061/(asce)gt.1943-5606.0000401.",
+                "@id": "14",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Characterization of Model Uncertainty in the Static Pile Design Formula"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1061/(asce)gt.1943-5606.0000401",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0070",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "78650295034",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "137",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "70",
+                      "@last": "85"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Dithinde",
+                        "ce:indexed-name": "Dithinde M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Phoon",
+                        "ce:indexed-name": "Phoon K.K."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "De Wet",
+                        "ce:indexed-name": "De Wet M."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.V.",
+                        "@_fa": "true",
+                        "ce:surname": "Retief",
+                        "ce:indexed-name": "Retief J.V."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Geotech. Geoenviron. Eng."
+                },
+                "ce:source-text": "Dithinde, M., Phoon, K.K., De Wet, M., and Retief, J.V. 2011. Characterization of Model Uncertainty in the Static Pile Design Formula. Journal of Geotechnical and Geoenvironmental Engineering, 137(1): 70-85. doi:10.1061/(asce)gt.1943-5606.0000401."
+              },
+              {
+                "ref-fulltext": "Eslami, A., Fellenius, B.H., Pile capacity by direct CPT and CPTu methods applied to 102 case histories. Can. Geotech. J. 34:6 (1997), 886–904, 10.1139/t97-056.",
+                "@id": "15",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1997"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Pile capacity by direct CPT and CPTu methods applied to 102 case histories"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1139/t97-056",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0075",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0031393089",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "34",
+                      "@issue": "6"
+                    },
+                    "pagerange": {
+                      "@first": "886",
+                      "@last": "904"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Eslami",
+                        "ce:indexed-name": "Eslami A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "B.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Fellenius",
+                        "ce:indexed-name": "Fellenius B.H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Can. Geotech. J."
+                },
+                "ce:source-text": "Eslami, A., and Fellenius, B.H. 1997. Pile capacity by direct CPT and CPTu methods applied to 102 case histories. Canadian Geotechnical Journal, 34(6): 886-904. doi:10.1139/t97-056."
+              },
+              {
+                "ref-fulltext": "Fang, P., Xie, X., Qi, J., 2014. Engineering Character of a New-Style Pretensioned Spun Concrete Nodular Pile. In: Geo-Shanghai 2014,. Shanghai, China. ASCE. pp. 404-413.",
+                "@id": "16",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0080",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85131398282",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "404",
+                      "@last": "413"
+                    }
+                  },
+                  "ref-text": "Engineering Character of a New-Style Pretensioned Spun Concrete Nodular Pile. In: Geo-Shanghai 2014,. Shanghai, China. ASCE.",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Fang",
+                        "ce:indexed-name": "Fang P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Xie",
+                        "ce:indexed-name": "Xie X."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Qi",
+                        "ce:indexed-name": "Qi J."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Fang, P., Xie, X., Qi, J., 2014. Engineering Character of a New-Style Pretensioned Spun Concrete Nodular Pile. In: Geo-Shanghai 2014,. Shanghai, China. ASCE. pp. 404-413."
+              },
+              {
+                "ref-fulltext": "Fellenius, B.H., The analysis of results from routine pile load tests. Ground Eng. 13:6 (1980), 19–31.",
+                "@id": "17",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1980"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The analysis of results from routine pile load tests"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0085",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0019057479",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "13",
+                      "@issue": "6"
+                    },
+                    "pagerange": {
+                      "@first": "19",
+                      "@last": "31"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Fellenius",
+                        "ce:indexed-name": "Fellenius B.H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Ground Eng."
+                },
+                "ce:source-text": "Fellenius, B.H. 1980. The analysis of results from routine pile load tests. Ground Engineering, 13(6): 19 - 31."
+              },
+              {
+                "ref-fulltext": "Homma, Y., 2014. Introduction of base enlarged pre-boring method with nodular pile. In: The 1st workshop on new pile foundation technologies in Vietnam, Ho Chi Minh University of Technology, Vietnam National University-Ho Chi Minh city.",
+                "@id": "18",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0090",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85131406554",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Introduction of base enlarged pre-boring method with nodular pile. In: The 1st workshop on new pile foundation technologies in Vietnam, Ho Chi Minh University of Technology, Vietnam National University-Ho Chi Minh city.",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Homma",
+                        "ce:indexed-name": "Homma Y."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Homma, Y., 2014. Introduction of base enlarged pre-boring method with nodular pile. In: The 1st workshop on new pile foundation technologies in Vietnam, Ho Chi Minh University of Technology, Vietnam National University-Ho Chi Minh city."
+              },
+              {
+                "ref-fulltext": "Horiguchi, T., Karkee, M.B., Load Tests on Bored Phc Nodular Piles in Different Ground Conditions and the Bearing Capacity Based on Simple Soil Parameters. AIJ J. Technol. Design 1:1 (1995), 89–94, 10.3130/aijt.1.89.",
+                "@id": "19",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1995"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Load Tests on Bored Phc Nodular Piles in Different Ground Conditions and the Bearing Capacity Based on Simple Soil Parameters"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.3130/aijt.1.89",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0095",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84886038929",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "1",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "89",
+                      "@last": "94"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Horiguchi",
+                        "ce:indexed-name": "Horiguchi T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Karkee",
+                        "ce:indexed-name": "Karkee M.B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "AIJ J. Technol. Design"
+                },
+                "ce:source-text": "Horiguchi, T., and Karkee, M.B. 1995. Load Tests on Bored Phc Nodular Piles in Different Ground Conditions and the Bearing Capacity Based on Simple Soil Parameters. AIJ Journal of Technology and Design, 1(1): 89-94. doi:10.3130/aijt.1.89."
+              },
+              {
+                "ref-fulltext": "Houck, C.R., Joines, J., Kay, M.G., A genetic algorithm for function optimization: a Matlab implementation. Ncsu-ie tr 95:09 (1995), 1–10.",
+                "@id": "20",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1995"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A genetic algorithm for function optimization: a Matlab implementation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0100",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0003637791",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "95",
+                      "@issue": "9"
+                    },
+                    "pagerange": {
+                      "@first": "1",
+                      "@last": "10"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Houck",
+                        "ce:indexed-name": "Houck C.R."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Joines",
+                        "ce:indexed-name": "Joines J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Kay",
+                        "ce:indexed-name": "Kay M.G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Ncsu-ie tr"
+                },
+                "ce:source-text": "Houck, C.R., Joines, J., and Kay, M.G. 1995. A genetic algorithm for function optimization: a Matlab implementation. Ncsu-ie tr, 95(09): 1-10."
+              },
+              {
+                "ref-fulltext": "Joshi, R.C., Sharma, H.D., Sparrow, D.G., Comparison of pile load test methods. Can. Geotech. J. 26:4 (1989), 742–744, 10.1139/t89-086.",
+                "@id": "21",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1989"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Comparison of pile load test methods"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1139/t89-086",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0105",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0024857422",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "26",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "742",
+                      "@last": "744"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Joshi",
+                        "ce:indexed-name": "Joshi R.C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Sharma",
+                        "ce:indexed-name": "Sharma H.D."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Sparrow",
+                        "ce:indexed-name": "Sparrow D.G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Can. Geotech. J."
+                },
+                "ce:source-text": "Joshi, R.C., Sharma, H.D., and Sparrow, D.G. 1989. Comparison of pile load test methods. Canadian Geotechnical Journal, 26(4): 742-744. doi:10.1139/t89-086."
+              },
+              {
+                "ref-fulltext": "Karkee, B.M., Kanai, S., Horiguchi, T., 1998. Quality assurance in bored PHC nodular piles through control of design capacity based on loading test data. In Proceedings - Seventh International Conference & Exhibition on Piling and Deep Foundations. Vienna, Austria.",
+                "@id": "22",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1998"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0110",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85131456899",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Quality assurance in bored PHC nodular piles through control of design capacity based on loading test data. In Proceedings - Seventh International Conference & Exhibition on Piling and Deep Foundations. Vienna, Austria.",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Karkee",
+                        "ce:indexed-name": "Karkee B.M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Kanai",
+                        "ce:indexed-name": "Kanai S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Horiguchi",
+                        "ce:indexed-name": "Horiguchi T."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Karkee, B.M., Kanai, S., Horiguchi, T., 1998. Quality assurance in bored PHC nodular piles through control of design capacity based on loading test data. In Proceedings - Seventh International Conference & Exhibition on Piling and Deep Foundations. Vienna, Austria."
+              },
+              {
+                "ref-fulltext": "Kobayashi, K., Ogura, H., 2007. Vertical bearing capacity of bored pre-cast pile with enlarged base considering diameter of the enlarged excavation around toe. In: Advances in Deep Foundations. Port and Airport Research Institute, Yokosuka, Japan. Edited by O. Kikuchi, kimura, Morikawa. London : Taylor & Francis.",
+                "@id": "23",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0115",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85131433895",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Vertical bearing capacity of bored pre-cast pile with enlarged base considering diameter of the enlarged excavation around toe. In: Advances in Deep Foundations. Port and Airport Research Institute, Yokosuka, Japan. Edited by O. Kikuchi, kimura, Morikawa. London : Taylor & Francis.",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Kobayashi",
+                        "ce:indexed-name": "Kobayashi K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Ogura",
+                        "ce:indexed-name": "Ogura H."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Kobayashi, K., Ogura, H., 2007. Vertical bearing capacity of bored pre-cast pile with enlarged base considering diameter of the enlarged excavation around toe. In: Advances in Deep Foundations. Port and Airport Research Institute, Yokosuka, Japan. Edited by O. Kikuchi, kimura, Morikawa. London : Taylor & Francis."
+              },
+              {
+                "ref-fulltext": "Kondner, R.L., Hyperbolic Stress-Strain Response: Cohesive Soils. J. Soil Mech. Foundations Division 89:1 (1963), 115–143.",
+                "@id": "24",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1963"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Hyperbolic Stress-Strain Response: Cohesive Soils"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0120",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0001101814",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "89",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "115",
+                      "@last": "143"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Kondner",
+                        "ce:indexed-name": "Kondner R.L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Soil Mech. Foundations Division"
+                },
+                "ce:source-text": "Kondner, R.L. 1963. Hyperbolic Stress-Strain Response: Cohesive Soils. Journal of the Soil Mechanics and Foundations Division, 89(1): 115-143."
+              },
+              {
+                "ref-fulltext": "Ling, Z., Wu, J., Wang, W., Zhang, J., Numerical Analysis of Bearing Behavior of the Prebored Precast Pile with an Enlarged Base. Adv. Civil Eng. 2021 (2021), 1–13, 10.1155/2021/1505482.",
+                "@id": "25",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Numerical Analysis of Bearing Behavior of the Prebored Precast Pile with an Enlarged Base"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1155/2021/1505482",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0125",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85115071514",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "2021"
+                    },
+                    "pagerange": {
+                      "@first": "1",
+                      "@last": "13"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Ling",
+                        "ce:indexed-name": "Ling Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang W."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Adv. Civil Eng."
+                },
+                "ce:source-text": "Ling, Z., Wu, J., Wang, W., and Zhang, J. 2021. Numerical Analysis of Bearing Behavior of the Prebored Precast Pile with an Enlarged Base. Advances in Civil Engineering, 2021: 1-13. doi:10.1155/2021/1505482."
+              },
+              {
+                "ref-fulltext": "Ling, Z., Wang, W., Wu, J., Huang, M., Yuan, J., Shaft resistance of pre-bored precast piles in Shanghai clay. Proc. Inst. Civil Engineers – Geotech. Eng. 172:3 (2019), 228–242.",
+                "@id": "26",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Shaft resistance of pre-bored precast piles in Shanghai clay"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0130",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85065482172",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "172",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "228",
+                      "@last": "242"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Ling",
+                        "ce:indexed-name": "Ling Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang M."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Yuan",
+                        "ce:indexed-name": "Yuan J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Proc. Inst. Civil Engineers – Geotech. Eng."
+                },
+                "ce:source-text": "Ling, Z., Wang, W., Wu, J., Huang, M., and Yuan, J. 2019. Shaft resistance of pre-bored precast piles in Shanghai clay. Proceedings of the Institution of Civil Engineers - Geotechnical Engineering, 172(3): 228-242. doi:10.1680/jgeen.18.00028."
+              },
+              {
+                "ref-fulltext": "Meyerhof, G.G., Bearing Capacity and Settlement of Pile Foundations. J. Geotech. Eng. Div. 102:3 (1976), 197–228.",
+                "@id": "27",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1976"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Bearing Capacity and Settlement of Pile Foundations"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0135",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0016928323",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "102",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "197",
+                      "@last": "228"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Meyerhof",
+                        "ce:indexed-name": "Meyerhof G.G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Geotech. Eng. Div."
+                },
+                "ce:source-text": "Meyerhof, G.G. 1976. Bearing Capacity and Settlement of Pile Foundations. Journal of the Geotechnical Engineering Division, 102(3): 197-228."
+              },
+              {
+                "ref-fulltext": "Schmertmann, J.H. 1978. GUIDELINES FOR CONE PENETRATION TEST (PERFORMANCE AND DESIGN). FHWA-TS-78-209 Final Rpt.",
+                "@id": "28",
+                "ref-info": {
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0140",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85131435099",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "1978. GUIDELINES FOR CONE PENETRATION TEST (PERFORMANCE AND DESIGN). FHWA-TS-78-209 Final Rpt.",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Schmertmann",
+                        "ce:indexed-name": "Schmertmann J.H."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Schmertmann, J.H. 1978. GUIDELINES FOR CONE PENETRATION TEST (PERFORMANCE AND DESIGN). FHWA-TS-78-209 Final Rpt."
+              },
+              {
+                "ref-fulltext": "Shioi, Y., Fukui, J., 1982. Application of N-value to design of foundations in Japan. In: Proceeding of the second European symposium on penetration testing. pp. 159-116.",
+                "@id": "29",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1982"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0145",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0020251336",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "159",
+                      "@last": "116"
+                    }
+                  },
+                  "ref-text": "Application of N-value to design of foundations in Japan. In: Proceeding of the second European symposium on penetration testing.",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Shioi",
+                        "ce:indexed-name": "Shioi Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Fukui",
+                        "ce:indexed-name": "Fukui J."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Shioi, Y., Fukui, J., 1982. Application of N-value to design of foundations in Japan. In: Proceeding of the second European symposium on penetration testing. pp. 159-116."
+              },
+              {
+                "ref-fulltext": "Tomlinson, M.J., The Adhesion of Piles Driven in Clay Soils. Proc Fourth Int. Conf. Soil Mech., 1957, 66–71.",
+                "@id": "30",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1957"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The Adhesion of Piles Driven in Clay Soils"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0150",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0002441801",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "66",
+                      "@last": "71"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Tomlinson",
+                        "ce:indexed-name": "Tomlinson M.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Proc Fourth Int. Conf. Soil Mech."
+                },
+                "ce:source-text": "Tomlinson, M.J. The Adhesion of Piles Driven in Clay Soils In Proc. Fourth Int. Conf. Soil Mech. 1957. pp. 66-71."
+              },
+              {
+                "ref-fulltext": "Vietnam Institute for Building Science and Technology. 1998. TCVN 205-1998, Pile Foundation- Specifications for design. Ministry of Science and Technology of Vietnam.",
+                "@id": "31",
+                "ref-info": {
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0155",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85131444920",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Vietnam Institute for Building Science and Technology. 1998. TCVN 205-1998, Pile Foundation- Specifications for design. Ministry of Science and Technology of Vietnam"
+                },
+                "ce:source-text": "Vietnam Institute for Building Science and Technology. 1998. TCVN 205-1998, Pile Foundation- Specifications for design. Ministry of Science and Technology of Vietnam."
+              },
+              {
+                "ref-fulltext": "Vietnam Institute for Building Science and Technology, 2012a. TCVN 9351-2012: Soil-Field testing method –Standard penetration test. In: National Standard. Ministry of Construction, Ministry of Science and Technology of Vietnam.",
+                "@id": "32",
+                "ref-info": {
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0160",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85131437839",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Vietnam Institute for Building Science and Technology, 2012a. TCVN 9351-2012: Soil-Field testing method –Standard penetration test. In: National Standard. Ministry of Construction, Ministry of Science and Technology of Vietnam."
+                },
+                "ce:source-text": "Vietnam Institute for Building Science and Technology, 2012a. TCVN 9351-2012: Soil-Field testing method –Standard penetration test. In: National Standard. Ministry of Construction, Ministry of Science and Technology of Vietnam."
+              },
+              {
+                "ref-fulltext": "Vietnam Institute for Building Science and Technology. 2012b. TCVN 9393:2012, Piles- Standard test method in situ for piles under axial compressive load. Ministry of Science and Technology of Vietnam. p. 17.",
+                "@id": "33",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0165",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85131428176",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "17"
+                    }
+                  },
+                  "ref-text": "Vietnam Institute for Building Science and Technology. 2012b. TCVN 9393 Piles- Standard test method in situ for piles under axial compressive load. Ministry of Science and Technology of Vietnam."
+                },
+                "ce:source-text": "Vietnam Institute for Building Science and Technology. 2012b. TCVN 9393:2012, Piles- Standard test method in situ for piles under axial compressive load. Ministry of Science and Technology of Vietnam. p. 17."
+              },
+              {
+                "ref-fulltext": "Vietnam National University of Civil Engineering, TCVN 10304–2014, Pile Foundation – Design Standard. 2014, In National Standard, Ministry of Science and Technology of Vietnam.",
+                "@id": "34",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "TCVN 10304–2014, Pile Foundation – Design Standard"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0170",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85131427732",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "In National Standard Ministry of Science and Technology of Vietnam",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "@_fa": "true",
+                        "ce:surname": "Vietnam National University of Civil Engineering",
+                        "ce:indexed-name": "Vietnam National University of Civil Engineering"
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Vietnam National University of Civil Engineering. 2014. TCVN 10304-2014, Pile Foundation – Design Standard. In National Standard. Ministry of Science and Technology of Vietnam."
+              },
+              {
+                "ref-fulltext": "Vijayvergiya, V.A., Focht, J.A.J., 1972. A new way to predict capacity of piles in clays. In: Proceedings of the 4th offshore technology conference. Houston. pp. 865-874.",
+                "@id": "35",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1972"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b0175",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85131456971",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "865",
+                      "@last": "874"
+                    }
+                  },
+                  "ref-text": "A new way to predict capacity of piles in clays. In: Proceedings of the 4th offshore technology conference. Houston.",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "V.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Vijayvergiya",
+                        "ce:indexed-name": "Vijayvergiya V.A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.A.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Focht",
+                        "ce:indexed-name": "Focht J.A.J."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Vijayvergiya, V.A., Focht, J.A.J., 1972. A new way to predict capacity of piles in clays. In: Proceedings of the 4th offshore technology conference. Houston. pp. 865-874."
+              },
+              {
+                "ref-fulltext": "Wang, A., Zhang, D., Deng, Y., A Simplified Approach for Axial Response of Single Precast Concrete Piles in Cement-Treated Soil. Int. J. Civil Eng. 16:10 (2018), 1491–1501, 10.1007/s40999-018-0341-9.",
+                "@id": "36",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A Simplified Approach for Axial Response of Single Precast Concrete Piles in Cement-Treated Soil"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s40999-018-0341-9",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0180",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85053940436",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "16",
+                      "@issue": "10"
+                    },
+                    "pagerange": {
+                      "@first": "1491",
+                      "@last": "1501"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang D."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Deng",
+                        "ce:indexed-name": "Deng Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Int. J. Civil Eng."
+                },
+                "ce:source-text": "Wang, A., Zhang, D., and Deng, Y. 2018. A Simplified Approach for Axial Response of Single Precast Concrete Piles in Cement-Treated Soil. International Journal of Civil Engineering, 16(10): 1491-1501. doi:10.1007/s40999-018-0341-9."
+              },
+              {
+                "ref-fulltext": "Wang, Z.-J., Zhang, R.-H., Xie, X.-Y., Fang, P.-F., Zheng, L.-W., Li, J.-Z., Zhu, D.-Y., Field Tests and Simplified Calculation Method for Static Drill Rooted Nodular Pile. Adv. Civil Eng. 2019 (2019), 1–13, 10.1155/2019/5841840.",
+                "@id": "37",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Field Tests and Simplified Calculation Method for Static Drill Rooted Nodular Pile"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1155/2019/5841840",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0185",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85068882658",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "2019"
+                    },
+                    "pagerange": {
+                      "@first": "1",
+                      "@last": "13"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.-J.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang Z.-J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.-H.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang R.-H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.-Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Xie",
+                        "ce:indexed-name": "Xie X.-Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "P.-F.",
+                        "@_fa": "true",
+                        "ce:surname": "Fang",
+                        "ce:indexed-name": "Fang P.-F."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "L.-W.",
+                        "@_fa": "true",
+                        "ce:surname": "Zheng",
+                        "ce:indexed-name": "Zheng L.-W."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "J.-Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li J.-Z."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "D.-Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhu",
+                        "ce:indexed-name": "Zhu D.-Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Adv. Civil Eng."
+                },
+                "ce:source-text": "Wang, Z.-J., Zhang, R.-H., Xie, X.-Y., Fang, P.-F., Zheng, L.-W., Li, J.-Z., and Zhu, D.-Y. 2019. Field Tests and Simplified Calculation Method for Static Drill Rooted Nodular Pile. Advances in Civil Engineering, 2019: 1-13. doi:10.1155/2019/5841840."
+              },
+              {
+                "ref-fulltext": "Yao, S., Ito, A., Masui, T., Takano, M., Urushizaki, N., Iwasaki, Y., Technology transfer of the nodular cast-in-place concrete pile. Int. J. Technol. Transfer and Commercialisation, 3(2), 2004, 166, 10.1504/ijttc.2004.004755.",
+                "@id": "38",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2004"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Technology transfer of the nodular cast-in-place concrete pile"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1504/ijttc.2004.004755",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0190",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85131398019",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "3",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "166"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Yao",
+                        "ce:indexed-name": "Yao S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Ito",
+                        "ce:indexed-name": "Ito A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Masui",
+                        "ce:indexed-name": "Masui T."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Takano",
+                        "ce:indexed-name": "Takano M."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Urushizaki",
+                        "ce:indexed-name": "Urushizaki N."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Iwasaki",
+                        "ce:indexed-name": "Iwasaki Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Int. J. Technol. Transfer and Commercialisation"
+                },
+                "ce:source-text": "Yao, S., Ito, A., Masui, T., Takano, M., Urushizaki, N., and Iwasaki, Y. 2004. Technology transfer of the nodular cast-in-place concrete pile. International Journal of Technology Transfer and Commercialisation, 3(2): 166. doi:10.1504/ijttc.2004.004755."
+              },
+              {
+                "ref-fulltext": "Yao, W.-J., Lu, W., Cai, C.-Y., Ruan, K.L., The analysis model of shaft resistance softening of a new type of static drill rooted super-long nodular pile. Arabian J. Geosci., 12(5), 2019, 10.1007/s12517-019-4320-5.",
+                "@id": "39",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The analysis model of shaft resistance softening of a new type of static drill rooted super-long nodular pile"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s12517-019-4320-5",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0195",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85062301027",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "12",
+                      "@issue": "5"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.-J.",
+                        "@_fa": "true",
+                        "ce:surname": "Yao",
+                        "ce:indexed-name": "Yao W.-J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Lu",
+                        "ce:indexed-name": "Lu W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.-Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Cai",
+                        "ce:indexed-name": "Cai C.-Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "K.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Ruan",
+                        "ce:indexed-name": "Ruan K.L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Arabian J. Geosci."
+                },
+                "ce:source-text": "Yao, W.-j., Lu, W., Cai, C.-y., and Ruan, K.L. 2019. The analysis model of shaft resistance softening of a new type of static drill rooted super-long nodular pile. Arabian Journal of Geosciences, 12(5). doi:10.1007/s12517-019-4320-5."
+              },
+              {
+                "ref-fulltext": "Yoshimi, Y., Tokimatsu, K., SPT Practice Survey and Comparative Tests. Soils Found. 23:3 (1983), 105–111, 10.3208/sandf1972.23.3_105.",
+                "@id": "40",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1983"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "SPT Practice Survey and Comparative Tests"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.3208/sandf1972.23.3_105",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0200",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0020812288",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "23",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "105",
+                      "@last": "111"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Yoshimi",
+                        "ce:indexed-name": "Yoshimi Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Tokimatsu",
+                        "ce:indexed-name": "Tokimatsu K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soils Found."
+                },
+                "ce:source-text": "Yoshimi, Y., and Tokimatsu, K. 1983. SPT Practice Survey and Comparative Tests. Soils and Foundations, 23(3): 105-111. doi:10.3208/sandf1972.23.3_105."
+              },
+              {
+                "ref-fulltext": "Yu, J.-L., Zhou, J.-J., Gong, X.-N., Zhang, R.-H., Shaft capacity of prestressed high strength concrete (PHC) pile-cemented soil column embedded in clayey soil. Soils Found. 61:4 (2021), 1086–1098, 10.1016/j.sandf.2021.05.006.",
+                "@id": "41",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Shaft capacity of prestressed high strength concrete (PHC) pile-cemented soil column embedded in clayey soil"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.sandf.2021.05.006",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0205",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85107768937",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "61",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "1086",
+                      "@last": "1098"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.-L.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu J.-L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.-J.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou J.-J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.-N.",
+                        "@_fa": "true",
+                        "ce:surname": "Gong",
+                        "ce:indexed-name": "Gong X.-N."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "R.-H.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang R.-H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soils Found."
+                },
+                "ce:source-text": "Yu, J.-l., Zhou, J.-j., Gong, X.-n., and Zhang, R.-h. 2021. Shaft capacity of prestressed high strength concrete (PHC) pile-cemented soil column embedded in clayey soil. Soils and Foundations, 61(4): 1086-1098. doi:10.1016/j.sandf.2021.05.006."
+              },
+              {
+                "ref-fulltext": "Zhou, J.-J., Wang, K.-H., Gong, X.-N., Zhang, R.-H., Bearing capacity and load transfer mechanism of a static drill rooted nodular pile in soft soil areas. J. Zhejiang Univ. Sci. A 14:10 (2013), 705–719, 10.1631/jzus.A1300139.",
+                "@id": "42",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Bearing capacity and load transfer mechanism of a static drill rooted nodular pile in soft soil areas"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1631/jzus.A1300139",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0210",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84886019769",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "14",
+                      "@issue": "10"
+                    },
+                    "pagerange": {
+                      "@first": "705",
+                      "@last": "719"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.-J.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou J.-J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.-H.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang K.-H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.-N.",
+                        "@_fa": "true",
+                        "ce:surname": "Gong",
+                        "ce:indexed-name": "Gong X.-N."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "R.-H.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang R.-H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Zhejiang Univ. Sci. A"
+                },
+                "ce:source-text": "Zhou, J.-j., Wang, K.-h., Gong, X.-n., and Zhang, R.-h. 2013. Bearing capacity and load transfer mechanism of a static drill rooted nodular pile in soft soil areas. Journal of Zhejiang University SCIENCE A, 14(10): 705-719. doi:10.1631/jzus.A1300139."
+              },
+              {
+                "ref-fulltext": "Zhou, J.-J., Gong, X.-N., Wang, K.-H., Zhang, R.-H., Shaft capacity of the pre-bored grouted planted pile in dense sand. Acta Geotech. 13:5 (2018), 1227–1239, 10.1007/s11440-018-0643-8.",
+                "@id": "43",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Shaft capacity of the pre-bored grouted planted pile in dense sand"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s11440-018-0643-8",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0215",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85043485978",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "13",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "1227",
+                      "@last": "1239"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.-J.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou J.-J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.-N.",
+                        "@_fa": "true",
+                        "ce:surname": "Gong",
+                        "ce:indexed-name": "Gong X.-N."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "K.-H.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang K.-H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "R.-H.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang R.-H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Acta Geotech."
+                },
+                "ce:source-text": "Zhou, J.-j., Gong, X.-n., Wang, K.-h., and Zhang, R.-h. 2018. Shaft capacity of the pre-bored grouted planted pile in dense sand. Acta Geotechnica, 13(5): 1227-1239. doi:10.1007/s11440-018-0643-8."
+              },
+              {
+                "ref-fulltext": "Zhou, J.-J., Yu, J.-L., Gong, X.-N., Yan, T.-L., Field tests on behavior of pre-bored grouted planted pile and bored pile embedded in deep soft clay. Soils Found. 60:2 (2020), 551–561, 10.1016/j.sandf.2020.03.013.",
+                "@id": "44",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Field tests on behavior of pre-bored grouted planted pile and bored pile embedded in deep soft clay"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.sandf.2020.03.013",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0220",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85084125083",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "60",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "551",
+                      "@last": "561"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.-J.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou J.-J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.-L.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu J.-L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.-N.",
+                        "@_fa": "true",
+                        "ce:surname": "Gong",
+                        "ce:indexed-name": "Gong X.-N."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "T.-L.",
+                        "@_fa": "true",
+                        "ce:surname": "Yan",
+                        "ce:indexed-name": "Yan T.-L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soils Found."
+                },
+                "ce:source-text": "Zhou, J.-j., Yu, J.-l., Gong, X.-n., and Yan, T.-l. 2020a. Field tests on behavior of pre-bored grouted planted pile and bored pile embedded in deep soft clay. Soils and Foundations, 60(2): 551-561. doi:10.1016/j.sandf.2020.03.013."
+              },
+              {
+                "ref-fulltext": "Zhou, J.-J., Gong, X.-N., Wang, K.-H., Zhang, R.-H., Yan, T.-L., A Model Test on the Behavior of a Static Drill Rooted Nodular Pile Under Compression. Mar. Georesour. Geotechnol. 34:3 (2015), 293–301, 10.1080/1064119x.2015.1012313.",
+                "@id": "45",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A Model Test on the Behavior of a Static Drill Rooted Nodular Pile Under Compression"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1080/1064119x.2015.1012313",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0225",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84958850322",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "34",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "293",
+                      "@last": "301"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.-J.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou J.-J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.-N.",
+                        "@_fa": "true",
+                        "ce:surname": "Gong",
+                        "ce:indexed-name": "Gong X.-N."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "K.-H.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang K.-H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "R.-H.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang R.-H."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "T.-L.",
+                        "@_fa": "true",
+                        "ce:surname": "Yan",
+                        "ce:indexed-name": "Yan T.-L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Mar. Georesour. Geotechnol."
+                },
+                "ce:source-text": "Zhou, J.-j., Gong, X.-n., Wang, K.-H., Zhang, R.-H., and Yan, T.-L. 2015. A Model Test on the Behavior of a Static Drill Rooted Nodular Pile Under Compression. Marine Georesources & Geotechnology, 34(3): 293-301. doi:10.1080/1064119x.2015.1012313."
+              },
+              {
+                "ref-fulltext": "Zhou, J.-J., Gong, X.-N., Wang, K.-H., Zhang, R.-H., Yan, J.-J., Testing and modeling the behavior of pre-bored grouting planted piles under compression and tension. Acta Geotech. 12:5 (2017), 1061–1075, 10.1007/s11440-017-0540-6.",
+                "@id": "46",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Testing and modeling the behavior of pre-bored grouting planted piles under compression and tension"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s11440-017-0540-6",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0230",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85017015189",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "12",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "1061",
+                      "@last": "1075"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.-J.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou J.-J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.-N.",
+                        "@_fa": "true",
+                        "ce:surname": "Gong",
+                        "ce:indexed-name": "Gong X.-N."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "K.-H.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang K.-H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "R.-H.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang R.-H."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "J.-J.",
+                        "@_fa": "true",
+                        "ce:surname": "Yan",
+                        "ce:indexed-name": "Yan J.-J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Acta Geotech."
+                },
+                "ce:source-text": "Zhou, J.-j., Gong, X.-n., Wang, K.-h., Zhang, R.-h., and Yan, J.-j. 2017. Testing and modeling the behavior of pre-bored grouting planted piles under compression and tension. Acta Geotechnica, 12(5): 1061-1075. doi:10.1007/s11440-017-0540-6."
+              },
+              {
+                "ref-fulltext": "Zhou, J.-J., Gong, X.-N., Zhang, R.-H., Hesham El Naggar, M., Wang, K.-H., Field behavior of pre-bored grouted planted nodular pile embedded in deep clayey soil. Acta Geotech. 15:7 (2019), 1847–1857, 10.1007/s11440-019-00891-x.",
+                "@id": "47",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Field behavior of pre-bored grouted planted nodular pile embedded in deep clayey soil"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s11440-019-00891-x",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0235",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85076843342",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "15",
+                      "@issue": "7"
+                    },
+                    "pagerange": {
+                      "@first": "1847",
+                      "@last": "1857"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.-J.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou J.-J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.-N.",
+                        "@_fa": "true",
+                        "ce:surname": "Gong",
+                        "ce:indexed-name": "Gong X.-N."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "R.-H.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang R.-H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Hesham El Naggar",
+                        "ce:indexed-name": "Hesham El Naggar M."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "K.-H.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang K.-H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Acta Geotech."
+                },
+                "ce:source-text": "Zhou, J.-j., Gong, X.-n., Zhang, R.-h., Hesham El Naggar, M., and Wang, K.-h. 2019a. Field behavior of pre-bored grouted planted nodular pile embedded in deep clayey soil. Acta Geotechnica, 15(7): 1847-1857. doi:10.1007/s11440-019-00891-x."
+              },
+              {
+                "ref-fulltext": "Zhou, J.-J., Gong, X.-N., Zhang, R.-H., Wang, K.-H., Yan, T.-L., Shaft capacity of pre-bored grouted planted nodular pile under various overburden pressures in dense sand. Mar. Georesour. Geotechnol. 38:1 (2019), 97–107, 10.1080/1064119x.2018.1553214.",
+                "@id": "48",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Shaft capacity of pre-bored grouted planted nodular pile under various overburden pressures in dense sand"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1080/1064119x.2018.1553214",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0240",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85060896924",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "38",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "97",
+                      "@last": "107"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.-J.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou J.-J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.-N.",
+                        "@_fa": "true",
+                        "ce:surname": "Gong",
+                        "ce:indexed-name": "Gong X.-N."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "R.-H.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang R.-H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "K.-H.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang K.-H."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "T.-L.",
+                        "@_fa": "true",
+                        "ce:surname": "Yan",
+                        "ce:indexed-name": "Yan T.-L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Mar. Georesour. Geotechnol."
+                },
+                "ce:source-text": "Zhou, J.-J., Gong, X.-N., Zhang, R.-H., Wang, K.-H., and Yan, T.-L. 2019b. Shaft capacity of pre-bored grouted planted nodular pile under various overburden pressures in dense sand. Marine Georesources & Geotechnology, 38(1): 97-107. doi:10.1080/1064119x.2018.1553214."
+              },
+              {
+                "ref-fulltext": "Zhou, J.-J., Yu, J.-L., Gong, X.-N., El Naggar, M.H., Zhang, R.-H., Field study on the behavior of pre-bored grouted planted pile with enlarged grout base. Acta Geotech. 16:10 (2021), 3327–3338, 10.1007/s11440-021-01208-7.",
+                "@id": "49",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Field study on the behavior of pre-bored grouted planted pile with enlarged grout base"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s11440-021-01208-7",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0245",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85109013593",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "16",
+                      "@issue": "10"
+                    },
+                    "pagerange": {
+                      "@first": "3327",
+                      "@last": "3338"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.-J.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou J.-J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.-L.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu J.-L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.-N.",
+                        "@_fa": "true",
+                        "ce:surname": "Gong",
+                        "ce:indexed-name": "Gong X.-N."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "M.H.",
+                        "@_fa": "true",
+                        "ce:surname": "El Naggar",
+                        "ce:indexed-name": "El Naggar M.H."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "R.-H.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang R.-H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Acta Geotech."
+                },
+                "ce:source-text": "Zhou, J.-j., Yu, J.-l., Gong, X.-n., El Naggar, M.H., and Zhang, R.-h. 2021. Field study on the behavior of pre-bored grouted planted pile with enlarged grout base. Acta Geotechnica, 16(10): 3327-3338. doi:10.1007/s11440-021-01208-7."
+              },
+              {
+                "ref-fulltext": "Zhou, J., Yu, J., Gong, X., El Naggar, M.H., Zhang, R., The effect of cemented soil strength on the frictional capacity of precast concrete pile–cemented soil interface. Acta Geotech. 15:11 (2020), 3271–3282, 10.1007/s11440-020-00915-x.",
+                "@id": "50",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The effect of cemented soil strength on the frictional capacity of precast concrete pile–cemented soil interface"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s11440-020-00915-x",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "b0250",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85081665246",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "15",
+                      "@issue": "11"
+                    },
+                    "pagerange": {
+                      "@first": "3271",
+                      "@last": "3282"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Gong",
+                        "ce:indexed-name": "Gong X."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "M.H.",
+                        "@_fa": "true",
+                        "ce:surname": "El Naggar",
+                        "ce:indexed-name": "El Naggar M.H."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang R."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Acta Geotech."
+                },
+                "ce:source-text": "Zhou, J., Yu, J., Gong, X., El Naggar, M.H., and Zhang, R. 2020b. The effect of cemented soil strength on the frictional capacity of precast concrete pile–cemented soil interface. Acta Geotechnica, 15(11): 3271-3282. doi:10.1007/s11440-020-00915-x."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "affiliation": [
+      {
+        "affiliation-city": "Ho Chi Minh City",
+        "@id": "60078563",
+        "affilname": "Ton-Duc-Thang University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60078563",
+        "affiliation-country": "Viet Nam"
+      },
+      {
+        "affiliation-city": "Tra Vinh",
+        "@id": "60110954",
+        "affilname": "Tra Vinh University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60110954",
+        "affiliation-country": "Viet Nam"
+      },
+      {
+        "affiliation-city": "Tuy Hoa City",
+        "@id": "127987724",
+        "affilname": "Mientrung University of Civil Engineering",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/127987724",
+        "affiliation-country": "Viet Nam"
+      }
+    ],
+    "coredata": {
+      "srctype": "j",
+      "eid": "2-s2.0-85131413348",
+      "dc:description": "Bored PHC nodular piles (BPNP) are an eco-friendly and advantageous option for pile foundations of medium-rise to high-rise buildings. As none of the current methods to estimate the ultimate axial load-bearing capacity is accurate enough for BPNP in engineering practice, this study aims to achieve that objective by developing a new direct SPT method. To that end, we use static pile load test and SPT data of 81 PHC nodular piles collected in Vietnam. The ultimate bearing capacity is interpreted from the load–displacement curve in pile static load tests by various methods to determine the most suitable method for the nodular piles. Furthermore, 8 methods to determine axial load pile capacity directly from the standard penetration test are examined. Each method's effectiveness is evaluated by comparing its predicted values with the measured values. Finally, the genetic algorithm for function optimization is employed to develop a new direct SPT method that can accurately predict the ultimate axial load-bearing capacity of nodular piles. The reliability of the proposed formula is justified by comparing the proportion of end bearing capacity with other published works. It is verified that the developed directed SPT method outperforms all current methods and could be implemented directly in engineering practice.",
+      "prism:coverDate": "2022-08-01",
+      "prism:aggregationType": "Journal",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85131413348",
+      "dc:creator": {
+        "author": [
+          {
+            "ce:given-name": "Van-Hiep",
+            "preferred-name": {
+              "ce:given-name": "Van Hiep",
+              "ce:initials": "V.H.",
+              "ce:surname": "Huynh",
+              "ce:indexed-name": "Huynh V.H."
+            },
+            "@seq": "1",
+            "ce:initials": "V.-H.",
+            "@_fa": "true",
+            "affiliation": {
+              "@id": "60110954",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60110954"
+            },
+            "ce:surname": "Huynh",
+            "@auid": "57222038796",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57222038796",
+            "ce:indexed-name": "Huynh V.-H."
+          }
+        ]
+      },
+      "link": [
+        {
+          "@_fa": "true",
+          "@rel": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85131413348"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85131413348&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85131413348&origin=inward"
+        }
+      ],
+      "source-id": "17392",
+      "pii": "S0038080622000713",
+      "citedby-count": "33",
+      "prism:volume": "62",
+      "subtype": "ar",
+      "dc:title": "A novel direct SPT method to accurately estimate ultimate axial bearing capacity of bored PHC nodular piles with 81 case studies in Vietnam",
+      "openaccess": "1",
+      "prism:issn": "00380806",
+      "publishercopyright": "© 2022",
+      "article-number": "101163",
+      "prism:issueIdentifier": "4",
+      "subtypeDescription": "Article",
+      "prism:publicationName": "Soils and Foundations",
+      "openaccessFlag": "true",
+      "prism:doi": "10.1016/j.sandf.2022.101163",
+      "dc:identifier": "SCOPUS_ID:85131413348",
+      "dc:publisher": "Elsevier B.V."
+    },
+    "idxterms": {
+      "mainterm": [
+        {
+          "$": "'current",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Bored PHC nodular pile",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Direct SPT method",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Engineering practices",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Load-bearing capacity",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Standard penetration test",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Standard-penetration-test",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Static load tests",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Ultimate bearing capacity",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Viet Nam",
+          "@weight": "b",
+          "@candidate": "n"
+        }
+      ]
+    },
+    "language": {
+      "@xml:lang": "eng"
+    },
+    "authkeywords": {
+      "author-keyword": [
+        {
+          "@_fa": "true",
+          "$": "Bored PHC nodular piles"
+        },
+        {
+          "@_fa": "true",
+          "$": "direct SPT method"
+        },
+        {
+          "@_fa": "true",
+          "$": "Genetic algorithm"
+        },
+        {
+          "@_fa": "true",
+          "$": "Standard penetration test"
+        },
+        {
+          "@_fa": "true",
+          "$": "Static load tests"
+        },
+        {
+          "@_fa": "true",
+          "$": "Ultimate bearing capacity"
+        }
+      ]
+    },
+    "subject-areas": {
+      "subject-area": [
+        {
+          "@_fa": "true",
+          "$": "Civil and Structural Engineering",
+          "@code": "2205",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Geotechnical Engineering and Engineering Geology",
+          "@code": "1909",
+          "@abbrev": "EART"
+        }
+      ]
+    },
+    "authors": {
+      "author": [
+        {
+          "ce:given-name": "Van-Hiep",
+          "preferred-name": {
+            "ce:given-name": "Van Hiep",
+            "ce:initials": "V.H.",
+            "ce:surname": "Huynh",
+            "ce:indexed-name": "Huynh V.H."
+          },
+          "@seq": "1",
+          "ce:initials": "V.-H.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60110954",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60110954"
+          },
+          "ce:surname": "Huynh",
+          "@auid": "57222038796",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57222038796",
+          "ce:indexed-name": "Huynh V.-H."
+        },
+        {
+          "ce:given-name": "Tan",
+          "preferred-name": {
+            "ce:given-name": "Tan",
+            "ce:initials": "T.",
+            "ce:surname": "Nguyen",
+            "ce:indexed-name": "Nguyen T."
+          },
+          "@seq": "2",
+          "ce:initials": "T.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60078563",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60078563"
+          },
+          "ce:surname": "Nguyen",
+          "@auid": "57209167030",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57209167030",
+          "ce:indexed-name": "Nguyen T."
+        },
+        {
+          "ce:given-name": "Dinh-Phi",
+          "preferred-name": {
+            "ce:given-name": "Dinh Phi",
+            "ce:initials": "D.P.",
+            "ce:surname": "Nguyen",
+            "ce:indexed-name": "Nguyen D.P."
+          },
+          "@seq": "3",
+          "ce:initials": "D.-P.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60078563",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60078563"
+          },
+          "ce:surname": "Nguyen",
+          "@auid": "57730399700",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57730399700",
+          "ce:indexed-name": "Nguyen D.-P."
+        },
+        {
+          "ce:given-name": "Thanh-Son",
+          "preferred-name": {
+            "ce:given-name": "Thanh Son",
+            "ce:initials": "T.S.",
+            "ce:surname": "Nguyen",
+            "ce:indexed-name": "Nguyen T.S."
+          },
+          "@seq": "4",
+          "ce:initials": "T.-S.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "127987724",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/127987724"
+          },
+          "ce:surname": "Nguyen",
+          "@auid": "57216184499",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57216184499",
+          "ce:indexed-name": "Nguyen T.-S."
+        },
+        {
+          "ce:given-name": "Thi-My-Dung",
+          "preferred-name": {
+            "ce:given-name": "Thi My Dung",
+            "ce:initials": "T.M.D.",
+            "ce:surname": "Huynh",
+            "ce:indexed-name": "Huynh T.M.D."
+          },
+          "@seq": "5",
+          "ce:initials": "T.-M.-D.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60110954",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60110954"
+          },
+          "ce:surname": "Huynh",
+          "@auid": "57222054416",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57222054416",
+          "ce:indexed-name": "Huynh T.-M.-D."
+        },
+        {
+          "ce:given-name": "Thanh-Cong",
+          "preferred-name": {
+            "ce:given-name": "Thanh Cong",
+            "ce:initials": "T.C.",
+            "ce:surname": "Nguyen",
+            "ce:indexed-name": "Nguyen T.C."
+          },
+          "@seq": "6",
+          "ce:initials": "T.-C.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60110954",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60110954"
+          },
+          "ce:surname": "Nguyen",
+          "@auid": "59051796500",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59051796500",
+          "ce:indexed-name": "Nguyen T.-C."
+        }
+      ]
+    }
+  }
+}

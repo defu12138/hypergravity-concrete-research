@@ -1,0 +1,3450 @@
+{
+  "abstracts-retrieval-response": {
+    "item": {
+      "ait:process-info": {
+        "ait:status": {
+          "@state": "update",
+          "@type": "core",
+          "@stage": "S300"
+        },
+        "ait:date-delivered": {
+          "@day": "04",
+          "@timestamp": "2026-04-04T18:02:45.000045-04:00",
+          "@year": "2026",
+          "@month": "04"
+        },
+        "ait:date-sort": {
+          "@day": "01",
+          "@year": "2026",
+          "@month": "06"
+        }
+      },
+      "xocs:meta": {
+        "xocs:funding-list": {
+          "@pui-match": "primary",
+          "@has-funding-info": "1",
+          "xocs:funding": [
+            {
+              "xocs:funding-agency-matched-string": "National Natural Science Foundation of China",
+              "xocs:funding-agency-acronym": "NNSFC",
+              "xocs:funding-agency": "National Natural Science Foundation of China",
+              "xocs:funding-id": [
+                {
+                  "$": "42272322"
+                },
+                {
+                  "$": "42302311"
+                }
+              ],
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "ARC",
+              "xocs:funding-id": [
+                {
+                  "$": "DP230100126"
+                },
+                {
+                  "$": "DP210100437"
+                }
+              ]
+            },
+            {
+              "xocs:funding-agency-matched-string": "Key Technologies Research and Development Program",
+              "xocs:funding-agency": "Key Technologies Research and Development Program",
+              "xocs:funding-id": "2021YFC3090301",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100012165",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            }
+          ],
+          "xocs:funding-addon-generated-timestamp": "2026-04-13T15:43:16.674Z",
+          "xocs:funding-text": "This study was supported by the National Natural Science Foundation of China (Grant Nos. 42302311 and 42272322 ), the Key Technologies Research and Development Program (Grant No. 2021YFC3090301 ), and the ARC Discovery Project Program (Grant Nos. DP210100437 and DP230100126 )",
+          "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }
+      },
+      "bibrecord": {
+        "head": {
+          "author-group": [
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "213164",
+                "@afid": "60104429",
+                "@country": "chn",
+                "city": "Changzhou",
+                "organization": [
+                  {
+                    "$": "School of Urban Construction"
+                  },
+                  {
+                    "$": "Changzhou University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60104429",
+                  "@dptid": "128617660"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-972632034-a3b4e49328c908a701f6d26e42cc6709-1",
+                "ce:source-text": "School of Urban Construction, Changzhou University, Changzhou 213164, China",
+                "@dptid": "128617660"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Yun",
+                  "preferred-name": {
+                    "ce:given-name": "Yun",
+                    "ce:initials": "Y.",
+                    "ce:surname": "Jiang",
+                    "ce:indexed-name": "Jiang Y."
+                  },
+                  "@author-instance-id": "OB2BibRecID-972632034-a11464d54c851322a9032044166b4203-1",
+                  "@seq": "1",
+                  "ce:initials": "Y.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Jiang",
+                  "@auid": "57860770200",
+                  "ce:indexed-name": "Jiang Y."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "211189",
+                "@afid": "60005244",
+                "@country": "chn",
+                "city": "Nanjing",
+                "organization": [
+                  {
+                    "$": "Institute of Geotechnical Engineering"
+                  },
+                  {
+                    "$": "School of Transportation"
+                  },
+                  {
+                    "$": "Southeast University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60005244",
+                  "@dptid": "105242743"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-972632034-06436865c4017e403553fff3e61bb0d6-1",
+                "ce:source-text": "Institute of Geotechnical Engineering, School of Transportation, Southeast University, Nanjing 211189, China",
+                "@dptid": "105242743"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Yun",
+                  "preferred-name": {
+                    "ce:given-name": "Yun",
+                    "ce:initials": "Y.",
+                    "ce:surname": "Jiang",
+                    "ce:indexed-name": "Jiang Y."
+                  },
+                  "@author-instance-id": "OB2BibRecID-972632034-a11464d54c851322a9032044166b4203-1",
+                  "@seq": "1",
+                  "ce:initials": "Y.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Jiang",
+                  "@auid": "57860770200",
+                  "ce:indexed-name": "Jiang Y."
+                },
+                {
+                  "ce:given-name": "Zi",
+                  "preferred-name": {
+                    "ce:given-name": "Zi",
+                    "ce:initials": "Z.",
+                    "ce:surname": "Ying",
+                    "ce:indexed-name": "Ying Z."
+                  },
+                  "@author-instance-id": "OB2BibRecID-972632034-977ebd71bffeabce3abf023d5104b968-1",
+                  "@seq": "4",
+                  "ce:initials": "Z.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Ying",
+                  "@auid": "57214818531",
+                  "ce:indexed-name": "Ying Z."
+                },
+                {
+                  "ce:given-name": "Yongfeng",
+                  "preferred-name": {
+                    "ce:given-name": "Yongfeng",
+                    "ce:initials": "Y.",
+                    "ce:surname": "Deng",
+                    "ce:indexed-name": "Deng Y."
+                  },
+                  "@author-instance-id": "OB2BibRecID-972632034-91e7511056be8216c3f038635f4df2e9-1",
+                  "@seq": "6",
+                  "ce:initials": "Y.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Deng",
+                  "@auid": "7401531046",
+                  "@orcid": "0000-0002-8223-8711",
+                  "ce:indexed-name": "Deng Y."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "210003",
+                "@afid": "131676334",
+                "@country": "chn",
+                "city": "Nanjing",
+                "organization": [
+                  {
+                    "$": "Transportation Engineering Construction Bureau"
+                  },
+                  {
+                    "$": "Jiangsu Provincial Department of Transportation"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "131676334"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-972632034-635781a716fd38ef8d32c4603099d8ba-1",
+                "ce:source-text": "Transportation Engineering Construction Bureau, Jiangsu Provincial Department of Transportation, Nanjing 210003"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Fa",
+                  "preferred-name": {
+                    "ce:given-name": "Fa",
+                    "ce:initials": "F.",
+                    "ce:surname": "Liu",
+                    "ce:indexed-name": "Liu F."
+                  },
+                  "@author-instance-id": "OB2BibRecID-972632034-2734ba073b4e7e14263c713a2be8f2c5-1",
+                  "@seq": "2",
+                  "ce:initials": "F.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Liu",
+                  "@auid": "59324201100",
+                  "ce:indexed-name": "Liu F."
+                },
+                {
+                  "ce:given-name": "Jinqiu",
+                  "preferred-name": {
+                    "ce:given-name": "Jinqiu",
+                    "ce:initials": "J.",
+                    "ce:surname": "Jin",
+                    "ce:indexed-name": "Jin J."
+                  },
+                  "@author-instance-id": "OB2BibRecID-972632034-ad7fe19ce2a0c90f0dacc54c811100b6-1",
+                  "@seq": "3",
+                  "ce:initials": "J.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Jin",
+                  "@auid": "60507850600",
+                  "ce:indexed-name": "Jin J."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "Australia",
+                "postal-code": "2308",
+                "@afid": "60010571",
+                "@country": "aus",
+                "city": "Callaghan",
+                "organization": [
+                  {
+                    "$": "School of Engineering"
+                  },
+                  {
+                    "$": "The University of Newcastle"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60010571",
+                  "@dptid": "103575422"
+                },
+                "state": "NSW",
+                "@affiliation-instance-id": "OB2BibRecID-972632034-08eaf1952b6685988e9e35dac799409f-1",
+                "ce:source-text": "School of Engineering, The University of Newcastle, Callaghan, NSW 2308, Australia",
+                "@dptid": "103575422"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Shanyong",
+                  "preferred-name": {
+                    "ce:given-name": "Shanyong",
+                    "ce:initials": "S.",
+                    "ce:surname": "Wang",
+                    "ce:indexed-name": "Wang S."
+                  },
+                  "@author-instance-id": "OB2BibRecID-972632034-89107e9110baec316893de6d6cceed89-1",
+                  "@seq": "5",
+                  "ce:initials": "S.",
+                  "@date-locked": "2026-03-28T02:52:16.282",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Wang",
+                  "@auid": "7410342176",
+                  "ce:indexed-name": "Wang S."
+                }
+              ]
+            }
+          ],
+          "citation-title": "Calcium phase evolution and strength development in lime-treated soil under controlled carbonation conditions",
+          "abstracts": "© 2026 Elsevier LtdCarbonation has a significant influence on the time-dependent mechanical behavior of lime-treated soil (LTS), yet its interaction with pozzolanic reactions remains inadequately understood. This study investigates the coupled effects of carbonation and pozzolanic reactions, focusing on calcium transformation and strength evolution within LTS. A series of controlled experiments were conducted under different CO₂ concentrations (2% and 20%), carbonation durations (3, 12, and 24 h), and curing periods (7–90 days) to evaluate their effects on unconfined compressive strength (UCS), calcium phase transition, and physicochemical properties. The exchangeable calcium (CE), carbonated calcium (CCA), and total calcium were quantified using EDTA titration, gasometric analysis, and strong acid extraction to elucidate calcium transformation mechanisms. The results reveal that the carbonation progresses inward from the exposed surface, with the highest CCA accumulation occurring at the top and significantly lower levels in the middle and bottom layers. The continuous formation of C-(A)-S-H densifies the soil matrix, enhancing strength while limiting CO₂ penetration, which substantially reduces carbonation efficiency in long-cured specimens. Additionally, carbonation significantly alters the physicochemical properties of LTS by reducing pH, electrical conductivity, and salinity, while increasing resistivity. Meanwhile, the formation of CaCO₃ fills pore spaces, enhances compaction, and improves strength, especially under high CO₂ concentrations that accelerate calcium transformations. Notably, the interplay between carbonation and pozzolanic reactions exhibits both competitive and synergistic characteristics. Early-age carbonation consumes a large portion of CE, suppressing subsequent pozzolanic reactions and subsequent strength development. However, when carbonation occurs after sufficient pozzolanic progress, the decalcification of C-(A)-S-H gels facilitates CCA formation and even enhances strength through matrix.",
+          "correspondence": {
+            "affiliation": {
+              "country": "China",
+              "postal-code": "211189",
+              "@country": "chn",
+              "city": "Nanjing",
+              "organization": [
+                {
+                  "$": "Institute of Geotechnical Engineering"
+                },
+                {
+                  "$": "School of Transportation"
+                },
+                {
+                  "$": "Southeast University"
+                }
+              ],
+              "@affiliation-instance-id": "OB2BibRecID-972632034-81602e7f829b3e9b6bfbcc9e51c907e1-1"
+            },
+            "person": {
+              "ce:given-name": "Zi",
+              "@author-instance-id": "OB2BibRecID-972632034-5b074e186d17c8fd04ff345f8722a6a1-1",
+              "ce:initials": "Z.",
+              "ce:surname": "Ying",
+              "ce:indexed-name": "Ying Z."
+            }
+          },
+          "citation-info": {
+            "author-keywords": {
+              "author-keyword": [
+                {
+                  "$": "Calcium formation",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Carbonation process",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Chemical reaction identification",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Lime-treated soil",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Pozzolanic reaction",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                }
+              ]
+            },
+            "citation-type": {
+              "@code": "ar"
+            },
+            "citation-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "abstract-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            }
+          },
+          "source": {
+            "website": {
+              "ce:e-address": {
+                "$": "https://www.sciencedirect.com/science/journal/23523808",
+                "@type": "email"
+              }
+            },
+            "translated-sourcetitle": {
+              "@xml:lang": "eng"
+            },
+            "volisspag": {
+              "voliss": {
+                "@volume": "46"
+              }
+            },
+            "@type": "j",
+            "sourcetitle": "Geomechanics for Energy and the Environment",
+            "publicationdate": {
+              "month": "06",
+              "year": "2026",
+              "date-text": "June 2026",
+              "day": "01"
+            },
+            "sourcetitle-abbrev": "Geomech. Energy Environ.",
+            "@country": "gbr",
+            "issn": {
+              "$": "23523808",
+              "@type": "electronic"
+            },
+            "publicationyear": {
+              "@first": "2026"
+            },
+            "publisher": {
+              "publishername": "Elsevier Ltd"
+            },
+            "article-number": "100816",
+            "@srcid": "21100403227"
+          },
+          "enhancement": {
+            "classificationgroup": {
+              "classifications": [
+                {
+                  "@type": "CPXCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "202.9.2",
+                      "classification-description": "Alkaline Earth Metals"
+                    },
+                    {
+                      "classification-code": "214",
+                      "classification-description": "Materials Science"
+                    },
+                    {
+                      "classification-code": "483.1",
+                      "classification-description": "Soils and Soil Mechanics"
+                    },
+                    {
+                      "classification-code": "801.3",
+                      "classification-description": "Physical Chemistry"
+                    },
+                    {
+                      "classification-code": "802.2",
+                      "classification-description": "Chemical Reactions"
+                    },
+                    {
+                      "classification-code": "804",
+                      "classification-description": "Chemical Products"
+                    },
+                    {
+                      "classification-code": "804.2",
+                      "classification-description": "Inorganic Compounds"
+                    },
+                    {
+                      "classification-code": "805",
+                      "classification-description": "Chemical Engineering"
+                    }
+                  ]
+                },
+                {
+                  "@type": "FLXCLASS",
+                  "classification": {
+                    "classification-code": "902",
+                    "classification-description": "FLUIDEX; Related Topics"
+                  }
+                },
+                {
+                  "@type": "GEOCLASS",
+                  "classification": {
+                    "classification-code": "901",
+                    "classification-description": "Geobase; Related Topics"
+                  }
+                },
+                {
+                  "@type": "ASJC",
+                  "classification": [
+                    {
+                      "$": "2213"
+                    },
+                    {
+                      "$": "1909"
+                    },
+                    {
+                      "$": "1903"
+                    }
+                  ]
+                },
+                {
+                  "@type": "SUBJABBR",
+                  "classification": [
+                    {
+                      "$": "ENGI"
+                    },
+                    {
+                      "$": "EART"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "grantlist": {
+            "@complete": "y",
+            "grant-text": {
+              "$": "This study was supported by the National Natural Science Foundation of China (Grant Nos. 42302311 and 42272322), the Key Technologies Research and Development Program (Grant No. 2021YFC3090301), and the ARC Discovery Project Program (Grant Nos. DP210100437 and DP230100126)",
+              "@xml:lang": "eng"
+            },
+            "grant": [
+              {
+                "grant-id": "2021YFC3090301",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "Key Technologies Research and Development Program"
+                },
+                "grant-agency-id": "501100012165"
+              },
+              {
+                "grant-id": "42272322",
+                "grant-acronym": "NSFC",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "National Natural Science Foundation of China"
+                },
+                "grant-agency-id": "501100001809"
+              },
+              {
+                "grant-id": "42302311",
+                "grant-acronym": "NSFC",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "National Natural Science Foundation of China"
+                },
+                "grant-agency-id": "501100001809"
+              }
+            ]
+          }
+        },
+        "item-info": {
+          "copyright": {
+            "$": "Copyright 2026 Elsevier B.V., All rights reserved.",
+            "@type": "Elsevier"
+          },
+          "dbcollection": [
+            {
+              "$": "CPX"
+            },
+            {
+              "$": "GEO"
+            },
+            {
+              "$": "REAXYSCAR"
+            },
+            {
+              "$": "SCOPUS"
+            },
+            {
+              "$": "SNGEO"
+            },
+            {
+              "$": "Scopusbase"
+            }
+          ],
+          "history": {
+            "date-created": {
+              "@day": "19",
+              "@timestamp": "BST 12:04:03",
+              "@year": "2026",
+              "@month": "03"
+            }
+          },
+          "itemidlist": {
+            "itemid": [
+              {
+                "$": "2044151432",
+                "@idtype": "PUI"
+              },
+              {
+                "$": "972632034",
+                "@idtype": "CAR-ID"
+              },
+              {
+                "$": "20261120287110",
+                "@idtype": "CPX"
+              },
+              {
+                "$": "11467421",
+                "@idtype": "GEO"
+              },
+              {
+                "$": "20260792228",
+                "@idtype": "REAXYSCAR"
+              },
+              {
+                "$": "20261232755",
+                "@idtype": "SCOPUS"
+              },
+              {
+                "$": "2026006354",
+                "@idtype": "SNGEO"
+              },
+              {
+                "$": "972632034#637378521",
+                "@idtype": "SRC-OCC-ID"
+              },
+              {
+                "$": "105032864506",
+                "@idtype": "SCP"
+              },
+              {
+                "$": "105032864506",
+                "@idtype": "SGR"
+              }
+            ],
+            "ce:pii": "S2352380826000316",
+            "ce:ern": "pii:S2352380826000316",
+            "ce:doi": "10.1016/j.gete.2026.100816"
+          }
+        },
+        "tail": {
+          "bibliography": {
+            "@refcount": "42",
+            "reference": [
+              {
+                "ref-fulltext": "Bakaiyang, L., Madjadoumbaye, J., Boussafir, Y., Szymkiewicz, F., Duc, M., Re-use in road construction of a Karal-type clay-rich soil from North Cameroon after a lime/cement mixed treatment using two different limes. Case Stud Constr Mater, 15, 2021, e00626, 10.1016/j.cscm.2021.e00626.",
+                "@reference-instance-id": "OB2BibRecID-972632034-89d8cf5ae4c4259033934c984e255c06-1",
+                "@id": "1",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Re-use in road construction of a Karal-type clay-rich soil from North Cameroon after a lime/cement mixed treatment using two different limes"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.cscm.2021.e00626",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib1",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "e00626",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85111059176",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "15"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Bakaiyang",
+                        "ce:indexed-name": "Bakaiyang L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Madjadoumbaye",
+                        "ce:indexed-name": "Madjadoumbaye J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Boussafir",
+                        "ce:indexed-name": "Boussafir Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Szymkiewicz",
+                        "ce:indexed-name": "Szymkiewicz F."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Duc",
+                        "ce:indexed-name": "Duc M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Case Stud Constr Mater"
+                },
+                "ce:source-text": "Bakaiyang, L., Madjadoumbaye, J., Boussafir, Y., Szymkiewicz, F., Duc, M., 2021. Re-use in road construction of a Karal-type clay-rich soil from North Cameroon after a lime/cement mixed treatment using two different limes. Case Stud. Constr. Mater. 15, e00626 https://doi.org/10.1016/j.cscm.2021.e00626."
+              },
+              {
+                "ref-fulltext": "Keybondori, S., Abdi, E., Lime stabilization to improve clay-textured forest soil road subgrades. Int J Eng 32:2 (2021), 112–118, 10.1080/14942119.2021.1876476.",
+                "@reference-instance-id": "OB2BibRecID-972632034-88843e961616be210e394d5e1fae92ca-2",
+                "@id": "2",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Lime stabilization to improve clay-textured forest soil road subgrades"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1080/14942119.2021.1876476",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib2",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85108080825",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "32",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "112",
+                      "@last": "118"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Keybondori",
+                        "ce:indexed-name": "Keybondori S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Abdi",
+                        "ce:indexed-name": "Abdi E."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Int J Eng"
+                },
+                "ce:source-text": "Keybondori, S., Abdi, E., 2021. Lime stabilization to improve clay-textured forest soil road subgrades. Int. J. For. Eng. 32(2), 112-118 https://doi.org/10.1080/14942119.2021.1876476."
+              },
+              {
+                "ref-fulltext": "Orazi, M., Orazi, U.S., Romeo, E., Van Rompaey, G., Tebaldi, G., Mechanical recovery of lime-stabilised clays subjected to freeze-thaw damage. Road Mater Pavement Des 24:8 (2023), 2104–2112, 10.1080/14680629.2022.2117070.",
+                "@reference-instance-id": "OB2BibRecID-972632034-e5556b77a72f7f200c595463494f8c4a-3",
+                "@id": "3",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Mechanical recovery of lime-stabilised clays subjected to freeze-thaw damage"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1080/14680629.2022.2117070",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib3",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85137995916",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "24",
+                      "@issue": "8"
+                    },
+                    "pagerange": {
+                      "@first": "2104",
+                      "@last": "2112"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Orazi",
+                        "ce:indexed-name": "Orazi M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "U.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Orazi",
+                        "ce:indexed-name": "Orazi U.S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Romeo",
+                        "ce:indexed-name": "Romeo E."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Van Rompaey",
+                        "ce:indexed-name": "Van Rompaey G."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Tebaldi",
+                        "ce:indexed-name": "Tebaldi G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Road Mater Pavement Des"
+                },
+                "ce:source-text": "Orazi, M., Orazi, U.S., Romeo, E., Van Rompaey, G., Tebaldi, G., 2023. Mechanical recovery of lime-stabilised clays subjected to freeze-thaw damage. Road Mater. Pavement Des. 24(8), 2104-2112 https://doi.org/10.1080/14680629.2022.2117070."
+              },
+              {
+                "ref-fulltext": "Jiang, Y., Deng, Y.F., Ying, Z., Liu, S.Y., Hong, Z.S., Chen, J.F., Desulphurisation ash recycling in soil modification for roadbed materials: a case study. Road Mater Pavement Des 26:12 (2025), 3284–3295, 10.1080/14680629.2025.2479577.",
+                "@reference-instance-id": "OB2BibRecID-972632034-6c0fb8c48fcb92fd098984523b85c048-4",
+                "@id": "4",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2025"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Desulphurisation ash recycling in soil modification for roadbed materials: a case study"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1080/14680629.2025.2479577",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib4",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105000480056",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "26",
+                      "@issue": "12"
+                    },
+                    "pagerange": {
+                      "@first": "3284",
+                      "@last": "3295"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Jiang",
+                        "ce:indexed-name": "Jiang Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Deng",
+                        "ce:indexed-name": "Deng Y.F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Ying",
+                        "ce:indexed-name": "Ying Z."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "S.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu S.Y."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Z.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Hong",
+                        "ce:indexed-name": "Hong Z.S."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "J.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen J.F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Road Mater Pavement Des"
+                },
+                "ce:source-text": "Jiang, Y., Deng, Y.F., Ying, Z., Liu, S.Y., Hong, Z.S., Chen, J.F., 2025a. Desulphurisation ash recycling in soil modification for roadbed materials: a case study. Road Mater. Pavement Des. 26(12), 3284-3295 https://doi.org/10.1080/14680629.2025.2479577."
+              },
+              {
+                "ref-fulltext": "Al-Alawi, H.S., Ganiyu, A.A., Badr, A., Stabilisation of Sohar's Sabkha soil using waste gypsum plasterboard. IOP Conf Ser Mater Sci Eng, 849(1), 2020, 012028, 10.1088/1757-899x/849/1/012028.",
+                "@reference-instance-id": "OB2BibRecID-972632034-a927e692bb8f8361bda45814c5326cbc-5",
+                "@id": "5",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Stabilisation of Sohar's Sabkha soil using waste gypsum plasterboard"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1088/1757-899x/849/1/012028",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib5",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "012028",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85086724154",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "849",
+                      "@issue": "1"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Al-Alawi",
+                        "ce:indexed-name": "Al-Alawi H.S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Ganiyu",
+                        "ce:indexed-name": "Ganiyu A.A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Badr",
+                        "ce:indexed-name": "Badr A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "IOP Conf Ser Mater Sci Eng"
+                },
+                "ce:source-text": "Al-Alawi, H.S., Ganiyu, A.A., Badr, A., 2020. Stabilisation of Sohar's Sabkha soil using waste gypsum plasterboard. IOP Conf. Ser.: Mater. Sci. Eng. 849(1), 012028 https://doi.org/10.1088/1757-899x/849/1/012028."
+              },
+              {
+                "ref-fulltext": "Chakraborty, S., Nair, S., Impact of different hydrated cementitious phases on moisture-induced damage in lime-stabilised subgrade soils. Road Mater Pavement Des 19:6 (2018), 1389–1405, 10.1080/14680629.2017.1314222.",
+                "@reference-instance-id": "OB2BibRecID-972632034-a825f9122e8ec665649a809739907e28-6",
+                "@id": "6",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Impact of different hydrated cementitious phases on moisture-induced damage in lime-stabilised subgrade soils"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1080/14680629.2017.1314222",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib6",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85017643386",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "19",
+                      "@issue": "6"
+                    },
+                    "pagerange": {
+                      "@first": "1389",
+                      "@last": "1405"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Chakraborty",
+                        "ce:indexed-name": "Chakraborty S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Nair",
+                        "ce:indexed-name": "Nair S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Road Mater Pavement Des"
+                },
+                "ce:source-text": "Chakraborty, S., Nair, S., 2018. Impact of different hydrated cementitious phases on moisture-induced damage in lime-stabilised subgrade soils. Road Mater. Pavement Des. 19(6), 1389-1405 https://doi.org/10.1080/14680629.2017.1314222."
+              },
+              {
+                "ref-fulltext": "Oluwatuyi, O.E., Adeola, B.O., Alhassan, E.A., et al. Ameliorating effect of milled eggshell on cement stabilized lateritic soil for highway construction. Case Stud Constr Mater, 9, 2018, e00191, 10.1016/j.cscm.2018.e00191.",
+                "@reference-instance-id": "OB2BibRecID-972632034-3a70b370742de1f5a96244ec35baa6e3-7",
+                "@id": "7",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Ameliorating effect of milled eggshell on cement stabilized lateritic soil for highway construction"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.cscm.2018.e00191",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib7",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "e00191",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85051642874",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "9"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "O.E.",
+                        "@_fa": "true",
+                        "ce:surname": "Oluwatuyi",
+                        "ce:indexed-name": "Oluwatuyi O.E."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "B.O.",
+                        "@_fa": "true",
+                        "ce:surname": "Adeola",
+                        "ce:indexed-name": "Adeola B.O."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "E.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Alhassan",
+                        "ce:indexed-name": "Alhassan E.A."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Case Stud Constr Mater"
+                },
+                "ce:source-text": "Oluwatuyi, O.E., Adeola, B.O., Alhassan, E.A., Nnochiri, E.S., Modupe, A.E., Elemile, O.O., Obayanju, T., Akerele, G., 2018. Ameliorating effect of milled eggshell on cement stabilized lateritic soil for highway construction. Case Stud. Constr. Mater. 9, e00191 https://doi.org/10.1016/j.cscm.2018.e00191."
+              },
+              {
+                "ref-fulltext": "Oluwatuyi, O.E., Ojuri, O.O., Environmental performance of lime-rice husk ash stabilized lateritic soil contaminated with lead or naphthalene. Geotech Geol Eng 35:6 (2017), 2947–2964, 10.1007/s10706-017-0294-9.",
+                "@reference-instance-id": "OB2BibRecID-972632034-aad93b9658175bbc3a8120a27f067d6a-8",
+                "@id": "8",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Environmental performance of lime-rice husk ash stabilized lateritic soil contaminated with lead or naphthalene"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s10706-017-0294-9",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib8",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85021269067",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "35",
+                      "@issue": "6"
+                    },
+                    "pagerange": {
+                      "@first": "2947",
+                      "@last": "2964"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "O.E.",
+                        "@_fa": "true",
+                        "ce:surname": "Oluwatuyi",
+                        "ce:indexed-name": "Oluwatuyi O.E."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "O.O.",
+                        "@_fa": "true",
+                        "ce:surname": "Ojuri",
+                        "ce:indexed-name": "Ojuri O.O."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geotech Geol Eng"
+                },
+                "ce:source-text": "Oluwatuyi, O.E., Ojuri, O.O., 2017. Environmental performance of lime-rice husk ash stabilized lateritic soil contaminated with lead or naphthalene. Geotech. Geol. Eng. 35(6), 2947-2964 https://doi.org/10.1007/s10706-017-0294-9."
+              },
+              {
+                "ref-fulltext": "Zeng, L., Bian, X., Weng, J., Zhang, T., Wetting-drying effect on the strength and microstructure of cement-phosphogypsum stabilized soils. J Rock Mech Geotech Eng 16:3 (2023), 1049–1058, 10.1016/j.jrmge.2023.06.022.",
+                "@reference-instance-id": "OB2BibRecID-972632034-b867492a938088e5ad02f5f25ac10f2c-9",
+                "@id": "9",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Wetting-drying effect on the strength and microstructure of cement-phosphogypsum stabilized soils"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.jrmge.2023.06.022",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib9",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85182425128",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "16",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "1049",
+                      "@last": "1058"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Zeng",
+                        "ce:indexed-name": "Zeng L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Bian",
+                        "ce:indexed-name": "Bian X."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Weng",
+                        "ce:indexed-name": "Weng J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang T."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Rock Mech Geotech Eng"
+                },
+                "ce:source-text": "Zeng, L., Bian, X., Weng, J., Zhang, T., 2023. Wetting-drying effect on the strength and microstructure of cement-phosphogypsum stabilized soils. J. Rock Mech. Geotech. Eng. 16(3), 1049-1058 https://doi.org/10.1016/j.jrmge.2023.06.022."
+              },
+              {
+                "ref-fulltext": "Van Balen, K., Carbonation reaction of lime, kinetics at ambient temperature. Cem Concr Res 35:4 (2005), 647–657, 10.1016/j.cemconres.2004.06.020.",
+                "@reference-instance-id": "OB2BibRecID-972632034-b3aac781c6466c99d2cb4a0fcdca334a-10",
+                "@id": "10",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2005"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Carbonation reaction of lime, kinetics at ambient temperature"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.cemconres.2004.06.020",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib10",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "15344346392",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "35",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "647",
+                      "@last": "657"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Van Balen",
+                        "ce:indexed-name": "Van Balen K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem Concr Res"
+                },
+                "ce:source-text": "Van Balen, K., 2005. Carbonation reaction of lime, kinetics at ambient temperature. Cem. Concr. Res. 35(4), 647-657 https://doi.org/10.1016/j.cemconres.2004.06.020."
+              },
+              {
+                "ref-fulltext": "Padmaraj, D., Arnepalli, D.N., Mechanism of carbonation in lime-stabilized silty clay from chemical and microstructure perspectives. Int J Geosynth Ground Eng, 7(4), 2021, 74, 10.1007/s40891-021-00318-2.",
+                "@reference-instance-id": "OB2BibRecID-972632034-ab3423763577f4aad250db0ad29394dc-11",
+                "@id": "11",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Mechanism of carbonation in lime-stabilized silty clay from chemical and microstructure perspectives"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s40891-021-00318-2",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib11",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85117399694",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "7",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "74"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Padmaraj",
+                        "ce:indexed-name": "Padmaraj D."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Arnepalli",
+                        "ce:indexed-name": "Arnepalli D.N."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Int J Geosynth Ground Eng"
+                },
+                "ce:source-text": "Padmaraj, D., Arnepalli, D.N., 2021. Mechanism of carbonation in lime-stabilized silty clay from chemical and microstructure perspectives. Int. J. Geosynth. Ground Eng. 7(4), 74 https://doi.org/10.1007/s40891-021-00318-2."
+              },
+              {
+                "ref-fulltext": "Padmaraj, D., Arnepalli, D.N., Carbonation in lime-stabilized clays: mechanism, effects, and future prospects. Bull Eng Geol Environ, 82(7), 2023, 258, 10.1007/s10064-023-03273-6.",
+                "@reference-instance-id": "OB2BibRecID-972632034-25fa4dbac7ba515f1ad8f8f90e305536-12",
+                "@id": "12",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Carbonation in lime-stabilized clays: mechanism, effects, and future prospects"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s10064-023-03273-6",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib12",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85162005615",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "82",
+                      "@issue": "7"
+                    },
+                    "pagerange": {
+                      "@first": "258"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Padmaraj",
+                        "ce:indexed-name": "Padmaraj D."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Arnepalli",
+                        "ce:indexed-name": "Arnepalli D.N."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Bull Eng Geol Environ"
+                },
+                "ce:source-text": "Padmaraj, D., Arnepalli, D.N., 2023. Carbonation in lime-stabilized clays: mechanism, effects, and future prospects. Bull. Eng. Geol. Environ. 82(7), 258 https://doi.org/10.1007/s10064-023-03273-6."
+              },
+              {
+                "ref-fulltext": "Padmaraj, D., Arnepalli, D.N., Comprehensive evaluation of carbonation and leaching reactions in lime stabilised soils. Environ Geotech, 2024, 1–13, 10.1680/jenge.24.00011.",
+                "@reference-instance-id": "OB2BibRecID-972632034-ca3a8ca3136ca256592b8b967abdde9c-13",
+                "@id": "13",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Comprehensive evaluation of carbonation and leaching reactions in lime stabilised soils"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1680/jenge.24.00011",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib13",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85197876703",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "1",
+                      "@last": "13"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Padmaraj",
+                        "ce:indexed-name": "Padmaraj D."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Arnepalli",
+                        "ce:indexed-name": "Arnepalli D.N."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Environ Geotech"
+                },
+                "ce:source-text": "Padmaraj, D., Arnepalli, D.N., 2024. Comprehensive evaluation of carbonation and leaching reactions in lime stabilised soils. Environmental Geotechnics, 1-13 https://doi.org/10.1680/jenge.24.00011."
+              },
+              {
+                "ref-fulltext": "Yang, Z.Q., Guo, J.Y., The physio-mechanical properties and micro-mechanism in lime-soil system. Rock Soil Mech 12:3 (1991), 11–23, 10.16285/j.rsm.1991.03.002.",
+                "@reference-instance-id": "OB2BibRecID-972632034-466f3ee784eabe3cfac8cae6be57ec8a-14",
+                "@id": "14",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1991"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The physio-mechanical properties and micro-mechanism in lime-soil system"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.16285/j.rsm.1991.03.002",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib14",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "77957970729",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "12",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "11",
+                      "@last": "23"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang Z.Q."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Guo",
+                        "ce:indexed-name": "Guo J.Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Rock Soil Mech"
+                },
+                "ce:source-text": "Yang, Z.Q., Guo, J.Y., 1991. The physio-mechanical properties and micro-mechanism in lime-soil system. Rock and Soil Mechanics 12(3), 11-23 https://doi.org/10.16285/j.rsm.1991.03.002."
+              },
+              {
+                "ref-fulltext": "Glenn, G.R., X-ray studies of lime-bentonite reaction products. J Am Ceram Soc 50:6 (1967), 312–316, 10.1111/j.1151-2916.1967.tb15116.x.",
+                "@reference-instance-id": "OB2BibRecID-972632034-0918e62a1214cc1d287956d8f37258e1-15",
+                "@id": "15",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1967"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "X-ray studies of lime-bentonite reaction products"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1111/j.1151-2916.1967.tb15116.x",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib15",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84977697616",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "50",
+                      "@issue": "6"
+                    },
+                    "pagerange": {
+                      "@first": "312",
+                      "@last": "316"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Glenn",
+                        "ce:indexed-name": "Glenn G.R."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Am Ceram Soc"
+                },
+                "ce:source-text": "Glenn, G.R., 1967. X-ray studies of lime-bentonite reaction products. J. Am. Ceram. Soc. 50(6), 312-316 https://doi.org/10.1111/j.1151-2916.1967.tb15116.x."
+              },
+              {
+                "ref-fulltext": "Glenn, G.R., Infrared spectroscopy of reacted mixtures of otay bentonite and lime. J Am Ceram Soc 53:5 (1970), 274–277, 10.1111/j.1151-2916.1970.tb12092.x.",
+                "@reference-instance-id": "OB2BibRecID-972632034-d69c4935d3b8116ba79a1d28380739d6-16",
+                "@id": "16",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1970"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Infrared spectroscopy of reacted mixtures of otay bentonite and lime"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1111/j.1151-2916.1970.tb12092.x",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib16",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0014785107",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "53",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "274",
+                      "@last": "277"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Glenn",
+                        "ce:indexed-name": "Glenn G.R."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Am Ceram Soc"
+                },
+                "ce:source-text": "Glenn, G.R., 1970. Infrared spectroscopy of reacted mixtures of otay bentonite and lime. J. Am. Ceram. Soc. 53(5), 274-277 https://doi.org/10.1111/j.1151-2916.1970.tb12092.x."
+              },
+              {
+                "ref-fulltext": "Papadakis, V.G., Effect of supplementary cementing materials on concrete resistance against carbonation and chloride ingress. Cem Concr Res 30:2 (2000), 291–299, 10.1016/s0008-8846(99)00249-5.",
+                "@reference-instance-id": "OB2BibRecID-972632034-4adfd0f730f5824685068b3223834deb-17",
+                "@id": "17",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2000"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of supplementary cementing materials on concrete resistance against carbonation and chloride ingress"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/s0008-8846(99)00249-5",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib17",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0033906608",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "30",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "291",
+                      "@last": "299"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "V.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Papadakis",
+                        "ce:indexed-name": "Papadakis V.G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem Concr Res"
+                },
+                "ce:source-text": "Papadakis, V.G., 2000. Effect of supplementary cementing materials on concrete resistance against carbonation and chloride ingress. Cem. Concr. Res. 30(2), 291-299 https://doi.org/10.1016/s0008-8846(99)00249-5."
+              },
+              {
+                "ref-fulltext": "Sagar, C., Chauhan, A., Sharma, U.K., Synergistic effect of carbonation and cast-in-chlorides on corrosion initiation in reinforced concrete. Structures, 72, 2025, 108264, 10.1016/j.istruc.2025.108264.",
+                "@reference-instance-id": "OB2BibRecID-972632034-e91c9e41b2aff847054dce7a50b1b679-18",
+                "@id": "18",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2025"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Synergistic effect of carbonation and cast-in-chlorides on corrosion initiation in reinforced concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.istruc.2025.108264",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib18",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "108264",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85215604468",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "72"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Sagar",
+                        "ce:indexed-name": "Sagar C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Chauhan",
+                        "ce:indexed-name": "Chauhan A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "U.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Sharma",
+                        "ce:indexed-name": "Sharma U.K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Structures"
+                },
+                "ce:source-text": "Sagar, C., Chauhan, A., Sharma, U.K., 2025. Synergistic effect of carbonation and cast-in-chlorides on corrosion initiation in reinforced concrete. Structures 72, 108264 https://doi.org/10.1016/j.istruc.2025.108264."
+              },
+              {
+                "ref-fulltext": "Silva, A., Neves, R., de Brito, J., Statistical modelling of carbonation in reinforced concrete. Cem & Concr Compos 50 (2014), 73–81, 10.1016/j.cemconcomp.2013.12.001.",
+                "@reference-instance-id": "OB2BibRecID-972632034-f471eccfa98b2ee2ee5057747089e775-19",
+                "@id": "19",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Statistical modelling of carbonation in reinforced concrete"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.cemconcomp.2013.12.001",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib19",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84899649934",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "50"
+                    },
+                    "pagerange": {
+                      "@first": "73",
+                      "@last": "81"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Silva",
+                        "ce:indexed-name": "Silva A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Neves",
+                        "ce:indexed-name": "Neves R."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "de Brito",
+                        "ce:indexed-name": "de Brito J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Cem & Concr Compos"
+                },
+                "ce:source-text": "Silva, A., Neves, R., de Brito, J., 2014. Statistical modelling of carbonation in reinforced concrete. Cement & Concrete Composites 50, 73-81 https://doi.org/10.1016/j.cemconcomp.2013.12.001."
+              },
+              {
+                "ref-fulltext": "Arandigoyen, M., Bicer-Simsir, B., Alvarez, J.I., Lange, D.A., Variation of microstructure with carbonation in lime and blended pastes. Appl Surf Sci 252:20 (2006), 7562–7571, 10.1016/j.apsusc.2005.09.007.",
+                "@reference-instance-id": "OB2BibRecID-972632034-e891ca80d4405cca5f426a4913a9afc4-20",
+                "@id": "20",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2006"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Variation of microstructure with carbonation in lime and blended pastes"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.apsusc.2005.09.007",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib20",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "33747183993",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "252",
+                      "@issue": "20"
+                    },
+                    "pagerange": {
+                      "@first": "7562",
+                      "@last": "7571"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Arandigoyen",
+                        "ce:indexed-name": "Arandigoyen M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Bicer-Simsir",
+                        "ce:indexed-name": "Bicer-Simsir B."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.I.",
+                        "@_fa": "true",
+                        "ce:surname": "Alvarez",
+                        "ce:indexed-name": "Alvarez J.I."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "D.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Lange",
+                        "ce:indexed-name": "Lange D.A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Appl Surf Sci"
+                },
+                "ce:source-text": "Arandigoyen, M., Bicer-Simsir, B., Alvarez, J.I., Lange, D.A., 2006. Variation of microstructure with carbonation in lime and blended pastes. Appl. Surf. Sci. 252(20), 7562-7571 https://doi.org/10.1016/j.apsusc.2005.09.007."
+              },
+              {
+                "ref-fulltext": "Ho, L.S., Nakarai, K., Ogawa, Y., Sasaki, T., Morioka, M., Strength development of cement-treated soils: Effects of water content, carbonation, and pozzolanic reaction under drying curing condition. Constr Build Mater 134 (2017), 703–712, 10.1016/j.conbuildmat.2016.12.065.",
+                "@reference-instance-id": "OB2BibRecID-972632034-671352cda9d554d948eaf119762af3e2-21",
+                "@id": "21",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Strength development of cement-treated soils: Effects of water content, carbonation, and pozzolanic reaction under drying curing condition"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.conbuildmat.2016.12.065",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib21",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85008600500",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "134"
+                    },
+                    "pagerange": {
+                      "@first": "703",
+                      "@last": "712"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Ho",
+                        "ce:indexed-name": "Ho L.S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Nakarai",
+                        "ce:indexed-name": "Nakarai K."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Ogawa",
+                        "ce:indexed-name": "Ogawa Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Sasaki",
+                        "ce:indexed-name": "Sasaki T."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Morioka",
+                        "ce:indexed-name": "Morioka M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr Build Mater"
+                },
+                "ce:source-text": "Ho, L.S., Nakarai, K., Ogawa, Y., Sasaki, T., Morioka, M., 2017. Strength development of cement-treated soils: Effects of water content, carbonation, and pozzolanic reaction under drying curing condition. Constr. Build. Mater. 134, 703-712 https://doi.org/10.1016/j.conbuildmat.2016.12.065."
+              },
+              {
+                "ref-fulltext": "Nakarai, K., Yoshida, T., Effect of carbonation on strength development of cement-treated Toyoura silica sand. Soils Found 55:4 (2015), 857–865, 10.1016/j.sandf.2015.06.016.",
+                "@reference-instance-id": "OB2BibRecID-972632034-2311fa73a86da93c592db785c2d206c5-22",
+                "@id": "22",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of carbonation on strength development of cement-treated Toyoura silica sand"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.sandf.2015.06.016",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib22",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84940720945",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "55",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "857",
+                      "@last": "865"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Nakarai",
+                        "ce:indexed-name": "Nakarai K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Yoshida",
+                        "ce:indexed-name": "Yoshida T."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soils Found"
+                },
+                "ce:source-text": "Nakarai, K., Yoshida, T., 2015. Effect of carbonation on strength development of cement-treated Toyoura silica sand. Soils Found. 55(4), 857-865 https://doi.org/10.1016/j.sandf.2015.06.016."
+              },
+              {
+                "ref-fulltext": "Savija, B., Lukovic, M., Carbonation of cement paste: Understanding, challenges, and opportunities. Constr Build Mater 117 (2016), 285–301, 10.1016/j.conbuildmat.2016.04.138.",
+                "@reference-instance-id": "OB2BibRecID-972632034-2e64aaf05533f0a079b11018a5ba9469-23",
+                "@id": "23",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Carbonation of cement paste: Understanding, challenges, and opportunities"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.conbuildmat.2016.04.138",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib23",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84968850005",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "117"
+                    },
+                    "pagerange": {
+                      "@first": "285",
+                      "@last": "301"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Savija",
+                        "ce:indexed-name": "Savija B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Lukovic",
+                        "ce:indexed-name": "Lukovic M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Constr Build Mater"
+                },
+                "ce:source-text": "Savija, B., Lukovic, M., 2016. Carbonation of cement paste: Understanding, challenges, and opportunities. Constr. Build. Mater. 117, 285-301 https://doi.org/10.1016/j.conbuildmat.2016.04.138."
+              },
+              {
+                "ref-fulltext": "Deneele, D., Dony, A., Colin, J., Herrier, G., Lesueur, D., The carbonation of a lime-treated soil: experimental approach. Mater Struct 54:1 (2021), 1–12, 10.1617/s11527-021-01617-w.",
+                "@reference-instance-id": "OB2BibRecID-972632034-2353eea2c18d54f4c9233caab5f74dbd-24",
+                "@id": "24",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The carbonation of a lime-treated soil: experimental approach"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1617/s11527-021-01617-w",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib24",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85099293053",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "54",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "1",
+                      "@last": "12"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Deneele",
+                        "ce:indexed-name": "Deneele D."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Dony",
+                        "ce:indexed-name": "Dony A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Colin",
+                        "ce:indexed-name": "Colin J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Herrier",
+                        "ce:indexed-name": "Herrier G."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Lesueur",
+                        "ce:indexed-name": "Lesueur D."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Mater Struct"
+                },
+                "ce:source-text": "Deneele, D., Dony, A., Colin, J., Herrier, G., Lesueur, D., 2021. The carbonation of a lime-treated soil: experimental approach. Mater. Struct. 54(1), 1-12 https://doi.org/10.1617/s11527-021-01617-w."
+              },
+              {
+                "ref-fulltext": "Azdarpour, A., Asadullah, M., Junin, R., et al. Extraction of calcium from red gypsum for calcium carbonate production. Fuel Process Technol 130 (2015), 12–19, 10.1016/j.fuproc.2014.09.034.",
+                "@reference-instance-id": "OB2BibRecID-972632034-4e4f7a718c4e42747e0933175c771d3d-25",
+                "@id": "25",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Extraction of calcium from red gypsum for calcium carbonate production"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.fuproc.2014.09.034",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib25",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84916641163",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "130"
+                    },
+                    "pagerange": {
+                      "@first": "12",
+                      "@last": "19"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Azdarpour",
+                        "ce:indexed-name": "Azdarpour A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Asadullah",
+                        "ce:indexed-name": "Asadullah M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Junin",
+                        "ce:indexed-name": "Junin R."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Fuel Process Technol"
+                },
+                "ce:source-text": "Azdarpour, A., Asadullah, M., Junin, R., Mohammadian, E., Hamidi, H., Daudb, A.R.M., Manan, M., 2015. Extraction of calcium from red gypsum for calcium carbonate production. Fuel Process. Technol. 130, 12-19 https://doi.org/10.1016/j.fuproc.2014.09.034."
+              },
+              {
+                "ref-fulltext": "Yu, H., Wang, S.J., A New Sequential Extraction of Calcium Species in Soil Samples. Rock Miner Anal 26:06 (2007), 436–440, 10.3969/j.issn.0254-5357.2007.06.002.",
+                "@reference-instance-id": "OB2BibRecID-972632034-55fd9a4fab91d9b11c17c9ebe91b4836-26",
+                "@id": "26",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A New Sequential Extraction of Calcium Species in Soil Samples"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.3969/j.issn.0254-5357.2007.06.002",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib26",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85146143826",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "26",
+                      "@issue": "6"
+                    },
+                    "pagerange": {
+                      "@first": "436",
+                      "@last": "440"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang S.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Rock Miner Anal"
+                },
+                "ce:source-text": "Yu, H., Wang, S.J., 2007. A New Sequential Extraction of Calcium Species in Soil Samples. Rock and Mineral Analysis 26(06), 436-440 https://doi.org/10.3969/j.issn.0254-5357.2007.06.002."
+              },
+              {
+                "ref-fulltext": "Das, G., Razakamanantsoa, A., Saussaye, L., Losma, F., Deneele, D., Carbonation investigation on atmospherically exposed lime-treated silty soil. Case Stud Constr Mater, 17, 2022, e01222, 10.1016/j.cscm.2022.e01222.",
+                "@reference-instance-id": "OB2BibRecID-972632034-18074e9e2886d8254004e100a9411476-27",
+                "@id": "27",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Carbonation investigation on atmospherically exposed lime-treated silty soil"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.cscm.2022.e01222",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib27",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "e01222",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85131678404",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "17"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Das",
+                        "ce:indexed-name": "Das G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Razakamanantsoa",
+                        "ce:indexed-name": "Razakamanantsoa A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Saussaye",
+                        "ce:indexed-name": "Saussaye L."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Losma",
+                        "ce:indexed-name": "Losma F."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Deneele",
+                        "ce:indexed-name": "Deneele D."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Case Stud Constr Mater"
+                },
+                "ce:source-text": "Das, G., Razakamanantsoa, A., Saussaye, L., Losma, F., Deneele, D., 2022. Carbonation investigation on atmospherically exposed lime-treated silty soil. Case Stud. Constr. Mater. 17, e01222 https://doi.org/10.1016/j.cscm.2022.e01222."
+              },
+              {
+                "ref-fulltext": "Das, G., Roux, V., Razakamanantsoa, A., Deneele, D., Effect of Carbonation on the Properties of Silty and Sandy Soils Treated with Lime and Cement. J Mater Civ Eng, 37(3), 2025, 10.1061/jmcee7.Mteng-18355.",
+                "@reference-instance-id": "OB2BibRecID-972632034-203c2f7320f58ee60bc2d5647ef14706-28",
+                "@id": "28",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2025"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of Carbonation on the Properties of Silty and Sandy Soils Treated with Lime and Cement"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1061/jmcee7.Mteng-18355",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib28",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85213405330",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "37",
+                      "@issue": "3"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Das",
+                        "ce:indexed-name": "Das G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "V.",
+                        "@_fa": "true",
+                        "ce:surname": "Roux",
+                        "ce:indexed-name": "Roux V."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Razakamanantsoa",
+                        "ce:indexed-name": "Razakamanantsoa A."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Deneele",
+                        "ce:indexed-name": "Deneele D."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Mater Civ Eng"
+                },
+                "ce:source-text": "Das, G., Roux, V., Razakamanantsoa, A., Deneele, D., 2025. Effect of Carbonation on the Properties of Silty and Sandy Soils Treated with Lime and Cement. J. Mater. Civ. Eng. 37(3) https://doi.org/10.1061/jmcee7.Mteng-18355."
+              },
+              {
+                "ref-fulltext": "Jiang, Y., Ying, Z., Liu, F., Jiang, C., Wang, S., Deng, Y., Long-term performance of lime-treated soil and chemical reaction identification. J Rock Mech Geotech Eng 17:8 (2025), 5146–5154, 10.1016/j.jrmge.2025.04.009.",
+                "@reference-instance-id": "OB2BibRecID-972632034-cb3d2185cb0a11c88c45e3a2d328a800-29",
+                "@id": "29",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2025"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Long-term performance of lime-treated soil and chemical reaction identification"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.jrmge.2025.04.009",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib29",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105008307637",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "17",
+                      "@issue": "8"
+                    },
+                    "pagerange": {
+                      "@first": "5146",
+                      "@last": "5154"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Jiang",
+                        "ce:indexed-name": "Jiang Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Ying",
+                        "ce:indexed-name": "Ying Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu F."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Jiang",
+                        "ce:indexed-name": "Jiang C."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang S."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Deng",
+                        "ce:indexed-name": "Deng Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Rock Mech Geotech Eng"
+                },
+                "ce:source-text": "Jiang, Y., Ying, Z., Liu, F., Jiang, C., Wang, S., Deng, Y., 2025b. Long-term performance of lime-treated soil and chemical reaction identification. J. Rock Mech. Geotech. Eng. 17(8), 5146-5154 https://doi.org/10.1016/j.jrmge.2025.04.009."
+              },
+              {
+                "ref-fulltext": "ASTM-D2487, 2017. Standard Practice for Classification of Soils for Engineering Purposes (Unified Soil Classification System). West Conshohocken, PA, USA.",
+                "@reference-instance-id": "OB2BibRecID-972632034-e8d4c196ee436724b8925c3064d16ad5-30",
+                "@id": "30",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib30",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105032891106",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "ASTM-D2487 Standard Practice for Classification of Soils for Engineering Purposes (Unified Soil Classification System). West Conshohocken, PA, USA."
+                },
+                "ce:source-text": "ASTM-D2487, 2017. Standard Practice for Classification of Soils for Engineering Purposes (Unified Soil Classification System). West Conshohocken, PA, USA."
+              },
+              {
+                "ref-fulltext": "ASTM-D422-63, 2007. Standard Test Method for Particle-Size Analysis of Soils. West Conshohocken, PA, USA.",
+                "@reference-instance-id": "OB2BibRecID-972632034-4973a61371b0cb81d2008954f28eccb4-31",
+                "@id": "31",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib31",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105032848389",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "ASTM-D422-63 Standard Test Method for Particle-Size Analysis of Soils. West Conshohocken, PA, USA."
+                },
+                "ce:source-text": "ASTM-D422-63, 2007. Standard Test Method for Particle-Size Analysis of Soils. West Conshohocken, PA, USA."
+              },
+              {
+                "ref-fulltext": "ASTM-D6276-19, 2019. Standard Test Method for Using pH to Estimate the Soil-Lime Proportion Requirement for Soil Stabilization. West Conshohocken, PA, USA.",
+                "@reference-instance-id": "OB2BibRecID-972632034-c4d0eb0c994c4ec78af1ea42ab229128-32",
+                "@id": "32",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib32",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105032819642",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "ASTM-D6276-19 Standard Test Method for Using pH to Estimate the Soil-Lime Proportion Requirement for Soil Stabilization. West Conshohocken, PA, USA."
+                },
+                "ce:source-text": "ASTM-D6276-19, 2019. Standard Test Method for Using pH to Estimate the Soil-Lime Proportion Requirement for Soil Stabilization. West Conshohocken, PA, USA."
+              },
+              {
+                "ref-fulltext": "ASTM-D1557, 2012. Standard Test Methods for Laboratory Compaction Characteristics of Soil Using Modified Effort. West Conshohocken, PA, USA.",
+                "@reference-instance-id": "OB2BibRecID-972632034-4ddad8e38280b84f9f63159ed52f43f8-33",
+                "@id": "33",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib33",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105032916027",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "ASTM-D1557 Standard Test Methods for Laboratory Compaction Characteristics of Soil Using Modified Effort. West Conshohocken, PA, USA."
+                },
+                "ce:source-text": "ASTM-D1557, 2012. Standard Test Methods for Laboratory Compaction Characteristics of Soil Using Modified Effort. West Conshohocken, PA, USA."
+              },
+              {
+                "ref-fulltext": "ASTM-D4373, 2021. Standard Test Method for Rapid Determination of Carbonate Content of Soils. West Conshohocken, PA, USA.",
+                "@reference-instance-id": "OB2BibRecID-972632034-1949a0c8a7f2796fa53e8a913d56d4ac-34",
+                "@id": "34",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib34",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105032898062",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "ASTM-D4373 Standard Test Method for Rapid Determination of Carbonate Content of Soils. West Conshohocken, PA, USA."
+                },
+                "ce:source-text": "ASTM-D4373, 2021. Standard Test Method for Rapid Determination of Carbonate Content of Soils. West Conshohocken, PA, USA."
+              },
+              {
+                "ref-fulltext": "ASTM-D511, 2021. Standard Test Methods for Calcium and Magnesium In Water. West Conshohocken, PA, USA.",
+                "@reference-instance-id": "OB2BibRecID-972632034-8c311f84e047d8bf715b4d4e7896367b-35",
+                "@id": "35",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib35",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105032860914",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "ASTM-D511 Standard Test Methods for Calcium and Magnesium In Water. West Conshohocken, PA, USA."
+                },
+                "ce:source-text": "ASTM-D511, 2021. Standard Test Methods for Calcium and Magnesium In Water. West Conshohocken, PA, USA."
+              },
+              {
+                "ref-fulltext": "Deng, J., Deng, H., Zhang, Y., Luo, Y., Experimental study on microbial-induced calcium carbonate precipitation repairing fractured rock under different temperatures. Sustainability, 14(18), 2022, 11770, 10.3390/su141811770.",
+                "@reference-instance-id": "OB2BibRecID-972632034-91996e8e750ff5ced809c7de0010874a-36",
+                "@id": "36",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental study on microbial-induced calcium carbonate precipitation repairing fractured rock under different temperatures"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.3390/su141811770",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib36",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85138598587",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "14",
+                      "@issue": "18"
+                    },
+                    "pagerange": {
+                      "@first": "11770"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Deng",
+                        "ce:indexed-name": "Deng J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Deng",
+                        "ce:indexed-name": "Deng H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Luo",
+                        "ce:indexed-name": "Luo Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Sustainability"
+                },
+                "ce:source-text": "Deng, J., Deng, H., Zhang, Y., Luo, Y., 2022. Experimental study on microbial-induced calcium carbonate precipitation repairing fractured rock under different temperatures. Sustainability 14(18), 11770 https://doi.org/10.3390/su141811770."
+              },
+              {
+                "ref-fulltext": "Jiang, Y., Dai, H., Fisonga, M., et al. Feasibility and mechanism of high alumina cement-modified chlorine saline soil as subgrade material. Constr Build Mater, 429, 2024, 136411, 10.1016/j.conbuildmat.2024.136411.",
+                "@reference-instance-id": "OB2BibRecID-972632034-fe03ec0ea9229264e4959fdf2c4fc990-37",
+                "@id": "37",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Feasibility and mechanism of high alumina cement-modified chlorine saline soil as subgrade material"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.conbuildmat.2024.136411",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib37",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "136411",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85191442227",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "429"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Jiang",
+                        "ce:indexed-name": "Jiang Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Dai",
+                        "ce:indexed-name": "Dai H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Fisonga",
+                        "ce:indexed-name": "Fisonga M."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Constr Build Mater"
+                },
+                "ce:source-text": "Jiang, Y., Dai, H., Fisonga, M., Li, C., Hong, Z., Xia, C., Deng, Y., 2024. Feasibility and mechanism of high alumina cement-modified chlorine saline soil as subgrade material. Constr. Build. Mater. 429, 136411 https://doi.org/10.1016/j.conbuildmat.2024.136411."
+              },
+              {
+                "ref-fulltext": "ASTM-D2166M, 2016. Standard Test Method for Unconfined Compressive Strength of Cohesive Soil. West Conshohocken, PA, USA.",
+                "@reference-instance-id": "OB2BibRecID-972632034-1c6bf9e52a02ab4d4dcb728425adf708-38",
+                "@id": "38",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bib38",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105032841611",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "ASTM-D2166M Standard Test Method for Unconfined Compressive Strength of Cohesive Soil. West Conshohocken, PA, USA."
+                },
+                "ce:source-text": "ASTM-D2166M, 2016. Standard Test Method for Unconfined Compressive Strength of Cohesive Soil. West Conshohocken, PA, USA."
+              },
+              {
+                "ref-fulltext": "Quang, N.D., Chai, J.C., Permeability of lime-and cement-treated clayey soils. Can Geotech J 52:9 (2015), 1221–1227, 10.1139/cgj-2014-0134.",
+                "@reference-instance-id": "OB2BibRecID-972632034-18bc8620ab238b1aad9b61a8a2cb4c10-39",
+                "@id": "39",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Permeability of lime-and cement-treated clayey soils"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1139/cgj-2014-0134",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib39",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84944062711",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "52",
+                      "@issue": "9"
+                    },
+                    "pagerange": {
+                      "@first": "1221",
+                      "@last": "1227"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "N.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Quang",
+                        "ce:indexed-name": "Quang N.D."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Chai",
+                        "ce:indexed-name": "Chai J.C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Can Geotech J"
+                },
+                "ce:source-text": "Quang, N.D., Chai, J.C., 2015. Permeability of lime-and cement-treated clayey soils. Can. Geotech. J. 52(9), 1221-1227 https://doi.org/10.1139/cgj-2014-0134."
+              },
+              {
+                "ref-fulltext": "Deng, Y., Jiang, Y., Wu, J., Sun, H., Geng, X., Desert silty sand modified by anionic PAM and ordinary portland cement: Microfabric reinforcement and durability. Transp Geotech, 37, 2022, 100846, 10.1016/j.trgeo.2022.100846.",
+                "@reference-instance-id": "OB2BibRecID-972632034-887e33815e396ee26e18633584583058-40",
+                "@id": "40",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Desert silty sand modified by anionic PAM and ordinary portland cement: Microfabric reinforcement and durability"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.trgeo.2022.100846",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib40",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "100846",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85136628708",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "37"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Deng",
+                        "ce:indexed-name": "Deng Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Jiang",
+                        "ce:indexed-name": "Jiang Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Sun",
+                        "ce:indexed-name": "Sun H."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Geng",
+                        "ce:indexed-name": "Geng X."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Transp Geotech"
+                },
+                "ce:source-text": "Deng, Y., Jiang, Y., Wu, J., Sun, H., Geng, X., 2022. Desert silty sand modified by anionic PAM and ordinary portland cement: Microfabric reinforcement and durability. Transp. Geotech. 37, 100846 https://doi.org/10.1016/j.trgeo.2022.100846."
+              },
+              {
+                "ref-fulltext": "Muhammed, A., Kassim, K., Ahmad, K., Zango, M., Chong, C., Makinda, J., Influence of multiple treatment cycles on the strength and microstructure of biocemented sandy soil. Int J Environ Sci Technol 18 (2021), 3427–3440, 10.1007/s13762-020-03073-5.",
+                "@reference-instance-id": "OB2BibRecID-972632034-7d641025f3770a91ed57e9f0ce6d0bf4-41",
+                "@id": "41",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Influence of multiple treatment cycles on the strength and microstructure of biocemented sandy soil"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s13762-020-03073-5",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib41",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85100119481",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "18"
+                    },
+                    "pagerange": {
+                      "@first": "3427",
+                      "@last": "3440"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Muhammed",
+                        "ce:indexed-name": "Muhammed A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Kassim",
+                        "ce:indexed-name": "Kassim K."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Ahmad",
+                        "ce:indexed-name": "Ahmad K."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Zango",
+                        "ce:indexed-name": "Zango M."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Chong",
+                        "ce:indexed-name": "Chong C."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Makinda",
+                        "ce:indexed-name": "Makinda J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Int J Environ Sci Technol"
+                },
+                "ce:source-text": "Muhammed, A., Kassim, K., Ahmad, K., Zango, M., Chong, C., Makinda, J., 2021. Influence of multiple treatment cycles on the strength and microstructure of biocemented sandy soil. Int. J. Environ. Sci. Technol. 18, 3427-3440 https://doi.org/10.1007/s13762-020-03073-5."
+              },
+              {
+                "ref-fulltext": "Vitale, E., Deneele, D., Russo, G., Effects of carbonation on chemo-mechanical behaviour of lime-treated soils. Bull Eng Geol Environ 80:3 (2021), 2687–2700, 10.1007/s10064-020-02042-z.",
+                "@reference-instance-id": "OB2BibRecID-972632034-0b31d9de0e4c87ac93131da85e6552fd-42",
+                "@id": "42",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effects of carbonation on chemo-mechanical behaviour of lime-treated soils"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s10064-020-02042-z",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib42",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85096024497",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "80",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "2687",
+                      "@last": "2700"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Vitale",
+                        "ce:indexed-name": "Vitale E."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Deneele",
+                        "ce:indexed-name": "Deneele D."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Russo",
+                        "ce:indexed-name": "Russo G."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Bull Eng Geol Environ"
+                },
+                "ce:source-text": "Vitale, E., Deneele, D., Russo, G., 2021. Effects of carbonation on chemo-mechanical behaviour of lime-treated soils. Bull. Eng. Geol. Environ. 80(3), 2687-2700 https://doi.org/10.1007/s10064-020-02042-z."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "affiliation": [
+      {
+        "affiliation-city": "Nanjing",
+        "@id": "60005244",
+        "affilname": "Southeast University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60005244",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Callaghan",
+        "@id": "60010571",
+        "affilname": "The University of Newcastle, Australia",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60010571",
+        "affiliation-country": "Australia"
+      },
+      {
+        "affiliation-city": "Changzhou",
+        "@id": "60104429",
+        "affilname": "Changzhou University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60104429",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Nanjing",
+        "@id": "131676334",
+        "affilname": "Transportation Engineering Construction Bureau",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/131676334",
+        "affiliation-country": "China"
+      }
+    ],
+    "coredata": {
+      "srctype": "j",
+      "eid": "2-s2.0-105032864506",
+      "dc:description": "Carbonation has a significant influence on the time-dependent mechanical behavior of lime-treated soil (LTS), yet its interaction with pozzolanic reactions remains inadequately understood. This study investigates the coupled effects of carbonation and pozzolanic reactions, focusing on calcium transformation and strength evolution within LTS. A series of controlled experiments were conducted under different CO₂ concentrations (2% and 20%), carbonation durations (3, 12, and 24 h), and curing periods (7–90 days) to evaluate their effects on unconfined compressive strength (UCS), calcium phase transition, and physicochemical properties. The exchangeable calcium (CE), carbonated calcium (CCA), and total calcium were quantified using EDTA titration, gasometric analysis, and strong acid extraction to elucidate calcium transformation mechanisms. The results reveal that the carbonation progresses inward from the exposed surface, with the highest CCA accumulation occurring at the top and significantly lower levels in the middle and bottom layers. The continuous formation of C-(A)-S-H densifies the soil matrix, enhancing strength while limiting CO₂ penetration, which substantially reduces carbonation efficiency in long-cured specimens. Additionally, carbonation significantly alters the physicochemical properties of LTS by reducing pH, electrical conductivity, and salinity, while increasing resistivity. Meanwhile, the formation of CaCO₃ fills pore spaces, enhances compaction, and improves strength, especially under high CO₂ concentrations that accelerate calcium transformations. Notably, the interplay between carbonation and pozzolanic reactions exhibits both competitive and synergistic characteristics. Early-age carbonation consumes a large portion of CE, suppressing subsequent pozzolanic reactions and subsequent strength development. However, when carbonation occurs after sufficient pozzolanic progress, the decalcification of C-(A)-S-H gels facilitates CCA formation and even enhances strength through matrix.",
+      "prism:coverDate": "2026-06-01",
+      "prism:aggregationType": "Journal",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105032864506",
+      "subtypeDescription": "Article",
+      "dc:creator": {
+        "author": [
+          {
+            "ce:given-name": "Yun",
+            "preferred-name": {
+              "ce:given-name": "Yun",
+              "ce:initials": "Y.",
+              "ce:surname": "Jiang",
+              "ce:indexed-name": "Jiang Y."
+            },
+            "@seq": "1",
+            "ce:initials": "Y.",
+            "@_fa": "true",
+            "affiliation": [
+              {
+                "@id": "60104429",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60104429"
+              },
+              {
+                "@id": "60005244",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60005244"
+              }
+            ],
+            "ce:surname": "Jiang",
+            "@auid": "57860770200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57860770200",
+            "ce:indexed-name": "Jiang Y."
+          }
+        ]
+      },
+      "link": [
+        {
+          "@_fa": "true",
+          "@rel": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105032864506"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105032864506&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105032864506&origin=inward"
+        }
+      ],
+      "prism:publicationName": "Geomechanics for Energy and the Environment",
+      "source-id": "21100403227",
+      "pii": "S2352380826000316",
+      "citedby-count": "0",
+      "prism:volume": "46",
+      "subtype": "ar",
+      "dc:title": "Calcium phase evolution and strength development in lime-treated soil under controlled carbonation conditions",
+      "openaccess": "0",
+      "openaccessFlag": "false",
+      "prism:doi": "10.1016/j.gete.2026.100816",
+      "prism:issn": "23523808",
+      "publishercopyright": "© 2026 Elsevier Ltd",
+      "article-number": "100816",
+      "dc:identifier": "SCOPUS_ID:105032864506",
+      "dc:publisher": "Elsevier Ltd"
+    },
+    "idxterms": {
+      "mainterm": [
+        {
+          "$": "Calcium formation",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Carbonation process",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Carbonation reactions",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Chemical reaction identification",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Condition",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Lime-treated soils",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Phase evolutions",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Physicochemical property",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Pozzolanic reaction",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Strength development",
+          "@weight": "b",
+          "@candidate": "n"
+        }
+      ]
+    },
+    "language": {
+      "@xml:lang": "eng"
+    },
+    "authkeywords": {
+      "author-keyword": [
+        {
+          "@_fa": "true",
+          "$": "Calcium formation"
+        },
+        {
+          "@_fa": "true",
+          "$": "Carbonation process"
+        },
+        {
+          "@_fa": "true",
+          "$": "Chemical reaction identification"
+        },
+        {
+          "@_fa": "true",
+          "$": "Lime-treated soil"
+        },
+        {
+          "@_fa": "true",
+          "$": "Pozzolanic reaction"
+        }
+      ]
+    },
+    "subject-areas": {
+      "subject-area": [
+        {
+          "@_fa": "true",
+          "$": "Safety, Risk, Reliability and Quality",
+          "@code": "2213",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Geotechnical Engineering and Engineering Geology",
+          "@code": "1909",
+          "@abbrev": "EART"
+        },
+        {
+          "@_fa": "true",
+          "$": "Computers in Earth Sciences",
+          "@code": "1903",
+          "@abbrev": "EART"
+        }
+      ]
+    },
+    "authors": {
+      "author": [
+        {
+          "ce:given-name": "Yun",
+          "preferred-name": {
+            "ce:given-name": "Yun",
+            "ce:initials": "Y.",
+            "ce:surname": "Jiang",
+            "ce:indexed-name": "Jiang Y."
+          },
+          "@seq": "1",
+          "ce:initials": "Y.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "60104429",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60104429"
+            },
+            {
+              "@id": "60005244",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60005244"
+            }
+          ],
+          "ce:surname": "Jiang",
+          "@auid": "57860770200",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57860770200",
+          "ce:indexed-name": "Jiang Y."
+        },
+        {
+          "ce:given-name": "Fa",
+          "preferred-name": {
+            "ce:given-name": "Fa",
+            "ce:initials": "F.",
+            "ce:surname": "Liu",
+            "ce:indexed-name": "Liu F."
+          },
+          "@seq": "2",
+          "ce:initials": "F.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "131676334",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/131676334"
+          },
+          "ce:surname": "Liu",
+          "@auid": "59324201100",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59324201100",
+          "ce:indexed-name": "Liu F."
+        },
+        {
+          "ce:given-name": "Jinqiu",
+          "preferred-name": {
+            "ce:given-name": "Jinqiu",
+            "ce:initials": "J.",
+            "ce:surname": "Jin",
+            "ce:indexed-name": "Jin J."
+          },
+          "@seq": "3",
+          "ce:initials": "J.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "131676334",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/131676334"
+          },
+          "ce:surname": "Jin",
+          "@auid": "60507850600",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60507850600",
+          "ce:indexed-name": "Jin J."
+        },
+        {
+          "ce:given-name": "Zi",
+          "preferred-name": {
+            "ce:given-name": "Zi",
+            "ce:initials": "Z.",
+            "ce:surname": "Ying",
+            "ce:indexed-name": "Ying Z."
+          },
+          "@seq": "4",
+          "ce:initials": "Z.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60005244",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60005244"
+          },
+          "ce:surname": "Ying",
+          "@auid": "57214818531",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57214818531",
+          "ce:indexed-name": "Ying Z."
+        },
+        {
+          "ce:given-name": "Shanyong",
+          "preferred-name": {
+            "ce:given-name": "Shanyong",
+            "ce:initials": "S.",
+            "ce:surname": "Wang",
+            "ce:indexed-name": "Wang S."
+          },
+          "@seq": "5",
+          "ce:initials": "S.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60010571",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60010571"
+          },
+          "ce:surname": "Wang",
+          "@auid": "7410342176",
+          "author-url": "https://api.elsevier.com/content/author/author_id/7410342176",
+          "ce:indexed-name": "Wang S."
+        },
+        {
+          "ce:given-name": "Yongfeng",
+          "preferred-name": {
+            "ce:given-name": "Yongfeng",
+            "ce:initials": "Y.",
+            "ce:surname": "Deng",
+            "ce:indexed-name": "Deng Y."
+          },
+          "@seq": "6",
+          "ce:initials": "Y.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60005244",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60005244"
+          },
+          "ce:surname": "Deng",
+          "@auid": "7401531046",
+          "author-url": "https://api.elsevier.com/content/author/author_id/7401531046",
+          "ce:indexed-name": "Deng Y."
+        }
+      ]
+    }
+  }
+}

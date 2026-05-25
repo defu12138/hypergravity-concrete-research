@@ -1,0 +1,4311 @@
+{
+  "abstracts-retrieval-response": {
+    "item": {
+      "ait:process-info": {
+        "ait:status": {
+          "@state": "update",
+          "@type": "core",
+          "@stage": "S300"
+        },
+        "ait:date-delivered": {
+          "@day": "21",
+          "@timestamp": "2024-07-21T01:55:20.000020-04:00",
+          "@year": "2024",
+          "@month": "07"
+        },
+        "ait:date-sort": {
+          "@day": "01",
+          "@year": "2024",
+          "@month": "10"
+        }
+      },
+      "xocs:meta": {
+        "xocs:funding-list": {
+          "@pui-match": "primary",
+          "@has-funding-info": "1",
+          "xocs:funding": {
+            "xocs:funding-agency-matched-string": "NAFOSTED",
+            "xocs:funding-agency-acronym": "NAFOSTED",
+            "xocs:funding-agency": "National Foundation for Science and Technology Development",
+            "xocs:funding-id": "NCUD.02-2022.08",
+            "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/100007224",
+            "xocs:funding-agency-country": "http://sws.geonames.org/1562822/"
+          },
+          "xocs:funding-addon-generated-timestamp": "2024-10-09T00:14:09.241Z",
+          "xocs:funding-text": "This research is funded by Vietnam National Foundation for Science and Technology Development (NAFOSTED) under grant number NCUD.02-2022.08 . This funding is gratefully acknowledged. Finally, we sincerely appreciate the anonymous reviewers for their invaluable time and efforts in providing insightful comments and feedback on our work",
+          "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }
+      },
+      "bibrecord": {
+        "head": {
+          "author-group": [
+            {
+              "affiliation": {
+                "country": "Viet Nam",
+                "@afid": "60274200",
+                "@country": "vnm",
+                "city": "Ho Chi Minh City",
+                "organization": [
+                  {
+                    "$": "Laboratory for Computational Mechanics"
+                  },
+                  {
+                    "$": "Institute for Computational Science and Artificial Intelligence"
+                  },
+                  {
+                    "$": "Van Lang University"
+                  }
+                ],
+                "affiliation-id": [
+                  {
+                    "@afid": "60274200",
+                    "@dptid": "128737782"
+                  },
+                  {
+                    "@afid": "60107345"
+                  }
+                ],
+                "@affiliation-instance-id": "OB2BibRecID-957614825-4b1e07042498edda4a6664f9e6d5bf8d-1",
+                "ce:source-text": "Laboratory for Computational Mechanics, Institute for Computational Science and Artificial Intelligence, Van Lang University, Ho Chi Minh City, Vietnam",
+                "@dptid": "128737782"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Tram",
+                  "preferred-name": {
+                    "ce:given-name": "Tram",
+                    "ce:initials": "T.",
+                    "ce:surname": "Bui-Ngoc",
+                    "ce:indexed-name": "Bui-Ngoc T."
+                  },
+                  "@author-instance-id": "OB2BibRecID-957614825-c267805d9b4536aec80e664fc9f4485c-1",
+                  "@seq": "1",
+                  "ce:initials": "T.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Bui-Ngoc",
+                  "@auid": "58506782000",
+                  "ce:indexed-name": "Bui-Ngoc T."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "Viet Nam",
+                "@afid": "60274200",
+                "@country": "vnm",
+                "city": "Ho Chi Minh City",
+                "organization": [
+                  {
+                    "$": "Faculty of Mechanical - Electrical and Computer Engineering"
+                  },
+                  {
+                    "$": "School of Technology"
+                  },
+                  {
+                    "$": "Van Lang University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60274200",
+                  "@dptid": "128737785"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-957614825-d2ae74b7fedb34e56343f33a79d89b54-1",
+                "ce:source-text": "Faculty of Mechanical - Electrical and Computer Engineering, School of Technology, Van Lang University, Ho Chi Minh City, Vietnam",
+                "@dptid": "128737785"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Tram",
+                  "preferred-name": {
+                    "ce:given-name": "Tram",
+                    "ce:initials": "T.",
+                    "ce:surname": "Bui-Ngoc",
+                    "ce:indexed-name": "Bui-Ngoc T."
+                  },
+                  "@author-instance-id": "OB2BibRecID-957614825-c267805d9b4536aec80e664fc9f4485c-1",
+                  "@seq": "1",
+                  "ce:initials": "T.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Bui-Ngoc",
+                  "@auid": "58506782000",
+                  "ce:indexed-name": "Bui-Ngoc T."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "Viet Nam",
+                "@afid": "60078563",
+                "@country": "vnm",
+                "city": "Ho Chi Minh City",
+                "organization": [
+                  {
+                    "$": "Smart Computing in Civil Engineering Research Group"
+                  },
+                  {
+                    "$": "Ton Duc Thang University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60078563",
+                  "@dptid": "128940733"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-957614825-fd6d3edbe627b7dcabec60a126bed38a-1",
+                "ce:source-text": "Smart Computing in Civil Engineering Research Group, Ton Duc Thang University, Ho Chi Minh City, Vietnam",
+                "@dptid": "128940733"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Tan",
+                  "preferred-name": {
+                    "ce:given-name": "Tan",
+                    "ce:initials": "T.",
+                    "ce:surname": "Nguyen",
+                    "ce:indexed-name": "Nguyen T."
+                  },
+                  "@author-instance-id": "OB2BibRecID-957614825-1b7b871560bf9d8a8213b232ad227249-1",
+                  "@seq": "2",
+                  "ce:initials": "T.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Nguyen",
+                  "@auid": "57209167030",
+                  "@orcid": "0000-0003-4909-4258",
+                  "ce:indexed-name": "Nguyen T."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "Viet Nam",
+                "@afid": "60078563",
+                "@country": "vnm",
+                "city": "Ho Chi Minh City",
+                "organization": [
+                  {
+                    "$": "Faculty of Civil Engineering"
+                  },
+                  {
+                    "$": "Ton Duc Thang University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60078563",
+                  "@dptid": "109487360"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-957614825-42d2d9d80c1cc262882e40d27fdeeebf-1",
+                "ce:source-text": "Faculty of Civil Engineering, Ton Duc Thang University, Ho Chi Minh City, Vietnam",
+                "@dptid": "109487360"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Tan",
+                  "preferred-name": {
+                    "ce:given-name": "Tan",
+                    "ce:initials": "T.",
+                    "ce:surname": "Nguyen",
+                    "ce:indexed-name": "Nguyen T."
+                  },
+                  "@author-instance-id": "OB2BibRecID-957614825-1b7b871560bf9d8a8213b232ad227249-1",
+                  "@seq": "2",
+                  "ce:initials": "T.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Nguyen",
+                  "@auid": "57209167030",
+                  "@orcid": "0000-0003-4909-4258",
+                  "ce:indexed-name": "Nguyen T."
+                },
+                {
+                  "ce:given-name": "Minh-The",
+                  "preferred-name": {
+                    "ce:given-name": "Minh The",
+                    "ce:initials": "M.T.",
+                    "ce:surname": "Nguyen-Quang",
+                    "ce:indexed-name": "Nguyen-Quang M.T."
+                  },
+                  "@author-instance-id": "OB2BibRecID-957614825-7fe5f20f73d1fba33de8e4d9c19643dd-1",
+                  "@seq": "3",
+                  "ce:initials": "M.-T.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Nguyen-Quang",
+                  "@auid": "59218347000",
+                  "ce:indexed-name": "Nguyen-Quang M.-T."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "Australia",
+                "postal-code": "4350",
+                "@afid": "60020321",
+                "@country": "aus",
+                "city": "Toowoomba",
+                "organization": [
+                  {
+                    "$": "School of Engineering"
+                  },
+                  {
+                    "$": "University of Southern Queensland"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60020321",
+                  "@dptid": "124135941"
+                },
+                "state": "QLD",
+                "@affiliation-instance-id": "OB2BibRecID-957614825-bd9e43acae7042dbd601a57d290050f9-1",
+                "ce:source-text": "School of Engineering, University of Southern Queensland, Toowoomba, 4350, QLD, Australia.",
+                "@dptid": "124135941"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Jim",
+                  "preferred-name": {
+                    "ce:given-name": "Jim",
+                    "ce:initials": "J.",
+                    "ce:surname": "Shiau",
+                    "ce:indexed-name": "Shiau J."
+                  },
+                  "@author-instance-id": "OB2BibRecID-957614825-bab52e17cbeaaf3d3ec881f66aec624a-1",
+                  "@seq": "4",
+                  "ce:initials": "J.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Shiau",
+                  "@auid": "25646822900",
+                  "@orcid": "0000-0002-9220-3184",
+                  "ce:indexed-name": "Shiau J."
+                }
+              ]
+            }
+          ],
+          "citation-title": "Predicting load–displacement of driven PHC pipe piles using stacking ensemble with Pareto optimization",
+          "abstracts": "© 2024 Elsevier LtdThe utilization of precast pre-stressed centrifugal concrete (PHC) piles is widespread in high-rise construction owing to their robust load-bearing capacity and enduring characteristics. Yet, accurately predicting the load–displacement traits of these piles remains a formidable engineering challenge. This study presents a dependable and user-centric solution for emulating PHC pile load–displacement behavior, focusing on pile diameters ranging from 0.3 to 0.6 m and embedment lengths from 10 to 49.5 m. The approach employs an interpretable ensemble modeling technique that fuses predictions from diverse individual base learners through Stacked Generalization. The final prediction is generated using a meta-learner to aggregate the predictions of the base learners. Simultaneously, Pareto Multi-Objectives Optimization is utilized to find the optimal R2 value in both training and testing phases, resulting in the best outcome with the associated parameter set. Consequently, the overarching goal is to improve the accuracy of load–displacement predictions. The model is built upon a substantial dataset encompassing 1178 samples from varied projects across Vietnam, with soil profiles characterized by SPT-N values and static load tests gauging pile head displacement in response to applied loads. To consider the load-bearing complexity, the embedment length is segmented into ten parts, each contributing average SPT indices and corresponding vertical effective stress values to the model. Rigorous validation is achieved via importance-driven sensitivity analysis and partial dependence plots, establishing the model's adeptness in predicting load–displacement behaviors with precision and reliability. In essence, this proposed soft computing model provides a practical avenue to simulate PHC pile load–displacement behavior, thereby contributing to safer and more operationally efficient structural design in high-rise constructions and beyond.",
+          "correspondence": {
+            "affiliation": {
+              "country": "Viet Nam",
+              "@country": "vnm",
+              "city": "Ho Chi Minh City",
+              "organization": {
+                "$": "Ton Duc Thang University"
+              },
+              "@affiliation-instance-id": "OB2BibRecID-957614825-81602e7f829b3e9b6bfbcc9e51c907e1-1"
+            },
+            "person": {
+              "ce:given-name": "Tan",
+              "@author-instance-id": "OB2BibRecID-957614825-9bc223c7112c2a11e8c715f2b48d8392-1",
+              "ce:initials": "T.",
+              "ce:surname": "Nguyen",
+              "ce:indexed-name": "Nguyen T."
+            }
+          },
+          "citation-info": {
+            "author-keywords": {
+              "author-keyword": [
+                {
+                  "$": "Load–displacement behavior",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Pareto multi-objectives optimization",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Partial Dependence Plots (PDP)",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "PHC pipe piles",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Soft computing",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Stacked ensemble model",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                }
+              ]
+            },
+            "citation-type": {
+              "@code": "ar"
+            },
+            "citation-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "abstract-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            }
+          },
+          "source": {
+            "website": {
+              "ce:e-address": {
+                "$": "https://www.sciencedirect.com/science/journal/01410296",
+                "@type": "email"
+              }
+            },
+            "translated-sourcetitle": {
+              "$": "Engineering Structures",
+              "@xml:lang": "eng"
+            },
+            "volisspag": {
+              "voliss": {
+                "@volume": "316"
+              }
+            },
+            "@type": "j",
+            "sourcetitle": "Engineering Structures",
+            "publicationdate": {
+              "month": "10",
+              "year": "2024",
+              "date-text": {
+                "@xfab-added": "true",
+                "$": "1 October 2024"
+              },
+              "day": "01"
+            },
+            "codencode": "ENSTD",
+            "sourcetitle-abbrev": "Eng. Struct.",
+            "@country": "gbr",
+            "issn": [
+              {
+                "$": "18737323",
+                "@type": "electronic"
+              },
+              {
+                "$": "01410296",
+                "@type": "print"
+              }
+            ],
+            "publicationyear": {
+              "@first": "2024"
+            },
+            "publisher": {
+              "publishername": "Elsevier Ltd"
+            },
+            "article-number": "118574",
+            "@srcid": "15652"
+          },
+          "enhancement": {
+            "classificationgroup": {
+              "classifications": [
+                {
+                  "@type": "CPXCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "408.1",
+                      "classification-description": "Structural Design, General"
+                    },
+                    {
+                      "classification-code": "408.2",
+                      "classification-description": "Structural Members and Shapes"
+                    },
+                    {
+                      "classification-code": "483.1",
+                      "classification-description": "Soils and Soil Mechanics"
+                    },
+                    {
+                      "classification-code": "723",
+                      "classification-description": "Computer Software, Data Handling and Applications"
+                    },
+                    {
+                      "classification-code": "921",
+                      "classification-description": "Mathematics"
+                    },
+                    {
+                      "classification-code": "921.4",
+                      "classification-description": "Combinatorial Mathematics, Includes Graph Theory, Set Theory"
+                    },
+                    {
+                      "classification-code": "921.5",
+                      "classification-description": "Optimization Techniques"
+                    }
+                  ]
+                },
+                {
+                  "@type": "FLXCLASS",
+                  "classification": {
+                    "classification-code": "902",
+                    "classification-description": "FLUIDEX; Related Topics"
+                  }
+                },
+                {
+                  "@type": "GEOCLASS",
+                  "classification": {
+                    "classification-code": "77.9.3",
+                    "classification-description": "Foundations and piles"
+                  }
+                },
+                {
+                  "@type": "ASJC",
+                  "classification": "2205"
+                },
+                {
+                  "@type": "SUBJABBR",
+                  "classification": "ENGI"
+                }
+              ]
+            }
+          },
+          "grantlist": {
+            "@complete": "y",
+            "grant-text": {
+              "$": "This research is funded by Vietnam National Foundation for Science and Technology Development (NAFOSTED) under grant number NCUD.02-2022.08. This funding is gratefully acknowledged. Finally, we sincerely appreciate the anonymous reviewers for their invaluable time and efforts in providing insightful comments and feedback on our work",
+              "@xml:lang": "eng"
+            },
+            "grant": {
+              "grant-id": "NCUD.02-2022.08",
+              "grant-acronym": "NAFOSTED",
+              "grant-agency": {
+                "@iso-code": "vnm",
+                "$": "National Foundation for Science and Technology Development"
+              },
+              "grant-agency-id": "100007224"
+            }
+          }
+        },
+        "item-info": {
+          "copyright": {
+            "$": "Copyright 2024 Elsevier B.V., All rights reserved.",
+            "@type": "Elsevier"
+          },
+          "dbcollection": [
+            {
+              "$": "CPX"
+            },
+            {
+              "$": "FLX"
+            },
+            {
+              "$": "GEO"
+            },
+            {
+              "$": "REAXYSCAR"
+            },
+            {
+              "$": "SCOPUS"
+            },
+            {
+              "$": "Scopusbase"
+            }
+          ],
+          "history": {
+            "date-created": {
+              "@day": "20",
+              "@timestamp": "BST 10:03:37",
+              "@year": "2024",
+              "@month": "07"
+            }
+          },
+          "itemidlist": {
+            "itemid": [
+              {
+                "$": "2033300944",
+                "@idtype": "PUI"
+              },
+              {
+                "$": "957614825",
+                "@idtype": "CAR-ID"
+              },
+              {
+                "$": "20242916709920",
+                "@idtype": "CPX"
+              },
+              {
+                "$": "1926212",
+                "@idtype": "FLX"
+              },
+              {
+                "$": "10884593",
+                "@idtype": "GEO"
+              },
+              {
+                "$": "20242001403",
+                "@idtype": "REAXYSCAR"
+              },
+              {
+                "$": "20242812756",
+                "@idtype": "SCOPUS"
+              },
+              {
+                "$": "957614825#77103099",
+                "@idtype": "SRC-OCC-ID"
+              },
+              {
+                "$": "85198557448",
+                "@idtype": "SCP"
+              },
+              {
+                "$": "85198557448",
+                "@idtype": "SGR"
+              }
+            ],
+            "ce:pii": "S0141029624011362",
+            "ce:ern": "pii:S0141029624011362",
+            "ce:doi": "10.1016/j.engstruct.2024.118574"
+          }
+        },
+        "tail": {
+          "bibliography": {
+            "@refcount": "60",
+            "reference": [
+              {
+                "ref-fulltext": "Wang, Y., Sang, S., Zhang, M., Bai, X., Su, L., Investigation on in-situ test of penetration characteristics of open and closed PHC pipe piles. Soils Found 61:4 (2021), 960–973.",
+                "@reference-instance-id": "OB2BibRecID-957614825-ee1efd0d6f3769aba9a852567b4d72a1-1",
+                "@id": "1",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Investigation on in-situ test of penetration characteristics of open and closed PHC pipe piles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b1",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85108843508",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "61",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "960",
+                      "@last": "973"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Sang",
+                        "ce:indexed-name": "Sang S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang M."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Bai",
+                        "ce:indexed-name": "Bai X."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Su",
+                        "ce:indexed-name": "Su L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soils Found"
+                },
+                "ce:source-text": "Wang Y, Sang S, Zhang M, Bai X, Su L. Investigation on in-situ test of penetration characteristics of open and closed phc pipe piles. Soils and Foundations 202161(4):960–973."
+              },
+              {
+                "ref-fulltext": "Li, G.-W., Pei, H.-F., Yin, J.-H., Lu, X.-C., Teng, J., Monitoring and analysis of PHC pipe piles under hydraulic jacking using FBG sensing technology. Measurement 49 (2014), 358–367.",
+                "@reference-instance-id": "OB2BibRecID-957614825-73c149ae5eaf3fb898b68fbb7c216038-2",
+                "@id": "2",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Monitoring and analysis of PHC pipe piles under hydraulic jacking using FBG sensing technology"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b2",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84891721743",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "49"
+                    },
+                    "pagerange": {
+                      "@first": "358",
+                      "@last": "367"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.-W.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li G.-W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.-F.",
+                        "@_fa": "true",
+                        "ce:surname": "Pei",
+                        "ce:indexed-name": "Pei H.-F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.-H.",
+                        "@_fa": "true",
+                        "ce:surname": "Yin",
+                        "ce:indexed-name": "Yin J.-H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "X.-C.",
+                        "@_fa": "true",
+                        "ce:surname": "Lu",
+                        "ce:indexed-name": "Lu X.-C."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Teng",
+                        "ce:indexed-name": "Teng J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Measurement"
+                },
+                "ce:source-text": "Li GW, Pei HF, Yin JH, Lu XC, Teng J. Monitoring and analysis of phc pipe piles under hydraulic jacking using fbg sensing technology. Measurement 2014;49:358–367."
+              },
+              {
+                "ref-fulltext": "Lee, J., Salgado, R., Paik, K., Estimation of load capacity of pipe piles in sand based on cone penetration test results. J Geotech Geoenviron Eng 129:5 (2003), 391–403.",
+                "@reference-instance-id": "OB2BibRecID-957614825-42e2459d2146c9731b84d61af5adc8f5-3",
+                "@id": "3",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2003"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Estimation of load capacity of pipe piles in sand based on cone penetration test results"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b3",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0038054326",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "129",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "391",
+                      "@last": "403"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Salgado",
+                        "ce:indexed-name": "Salgado R."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Paik",
+                        "ce:indexed-name": "Paik K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Geotech Geoenviron Eng"
+                },
+                "ce:source-text": "Lee J, Salgado R, Paik K. Estimation of load capacity of pipe piles in sand based on cone penetration test results. Journal of geotechnical and geoenvironmental engineering 2003;129(5):391–403."
+              },
+              {
+                "ref-fulltext": "Poulos, H.G., Davis, E.H., et al. Pile foundation analysis and design, 1980, Wiley, New York.",
+                "@reference-instance-id": "OB2BibRecID-957614825-8c4d6d319f0712ffdd25ba59c1abd8ff-4",
+                "@id": "4",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1980"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b4",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0003967286",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Wiley New York",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Poulos",
+                        "ce:indexed-name": "Poulos H.G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "E.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Davis",
+                        "ce:indexed-name": "Davis E.H."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Pile foundation analysis and design"
+                },
+                "ce:source-text": "Poulos HG, Davis EH, et al. Pile foundation analysis and design, vol. 397. Wiley New York, 1980."
+              },
+              {
+                "ref-fulltext": "Nguyen, T., Ly, D.-K., Huynh, T.Q., Nguyen, T.T., Soft computing for determining base resistance of super-long piles in soft soil: A coupled SPBO-XGBoost approach. Comput Geotech, 162, 2023, 105707.",
+                "@reference-instance-id": "OB2BibRecID-957614825-8c1d7750fe24a3dcc17e321a67b22679-5",
+                "@id": "5",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Soft computing for determining base resistance of super-long piles in soft soil: A coupled SPBO-XGBoost approach"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b5",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105707",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85166640215",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "162"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Nguyen",
+                        "ce:indexed-name": "Nguyen T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.-K.",
+                        "@_fa": "true",
+                        "ce:surname": "Ly",
+                        "ce:indexed-name": "Ly D.-K."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "T.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Huynh",
+                        "ce:indexed-name": "Huynh T.Q."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "T.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Nguyen",
+                        "ce:indexed-name": "Nguyen T.T."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Comput Geotech"
+                },
+                "ce:source-text": "Nguyen T, Ly DK, Huynh TQ, Nguyen TT. Soft computing for determining base resistance of super-long piles in soft soil: A coupled spbo-xgboost approach. Computers and Geotechnics 2023;162:105707."
+              },
+              {
+                "ref-fulltext": "Fellenius, B., Basics of foundation design. 2017, Lulu. com.",
+                "@reference-instance-id": "OB2BibRecID-957614825-6ef3f81f211cdbc7f5b3411c1a8b2a09-6",
+                "@id": "6",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Basics of foundation design"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b6",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0010334297",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Lulu. com",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Fellenius",
+                        "ce:indexed-name": "Fellenius B."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Fellenius B. Basics of foundation design. Lulu. com, 2017."
+              },
+              {
+                "ref-fulltext": "Chin FK. Estimation of the ultimate load of piles from tests not carried to failure. In: Proc. 2nd southeast Asian conference on soil engineering, Singapore, 1970. 1970.",
+                "@reference-instance-id": "OB2BibRecID-957614825-9bb0aac29c4be3dc33d71213e3b1fceb-7",
+                "@id": "7",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1970"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b7",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85198554258",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "Estimation of the ultimate load of piles from tests not carried to failure. In: Proc. 2nd southeast Asian conference on soil engineering, Singapore, 1970.",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Chin",
+                        "ce:indexed-name": "Chin F.K."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Chin FK. Estimation of the ultimate load of piles from tests not carried to failure. In: Proc. 2nd southeast Asian conference on soil engineering, Singapore, 1970. 1970."
+              },
+              {
+                "ref-fulltext": "Decourt L. Behavior of foundations under working load conditions. In: 11th Pan-American conferenvce on soil mechanics and geotechnical engineering, Foz do Iguaçu. Vol. 4, 1999, p. 453–88.",
+                "@reference-instance-id": "OB2BibRecID-957614825-6aac4b9c32cbf9da0d473f875b4d74fb-8",
+                "@id": "8",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1999"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b8",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85198510430",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "4"
+                    }
+                  },
+                  "ref-text": "Behavior of foundations under working load conditions. In: 11th Pan-American conferenvce on soil mechanics and geotechnical engineering, Foz do Iguaçu., p. 453–88.",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Decourt",
+                        "ce:indexed-name": "Decourt L."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Decourt L. Behavior of foundations under working load conditions. In: 11th Pan-American conferenvce on soil mechanics and geotechnical engineering, Foz do Iguaçu. Vol. 4, 1999, p. 453–88."
+              },
+              {
+                "ref-fulltext": "Décourt, L., Loading tests: interpretation and prediction of their results. From research to practice in geotechnical engineering, 2008, 452–470.",
+                "@reference-instance-id": "OB2BibRecID-957614825-821cabc6bce04a13a07d418c264b66f5-9",
+                "@id": "9",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2008"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Loading tests: interpretation and prediction of their results"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b9",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "66449092360",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "452",
+                      "@last": "470"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Décourt",
+                        "ce:indexed-name": "Decourt L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "From research to practice in geotechnical engineering"
+                },
+                "ce:source-text": "Décourt L. Loading tests: interpretation and prediction of their results. In: From Research to Practice in Geotechnical Engineering. 2008, p. 452–470."
+              },
+              {
+                "ref-fulltext": "Gwizdala, K., The analysis of pile settlement employing load-transfer functions. Zesz Nauk(532), 1996.",
+                "@reference-instance-id": "OB2BibRecID-957614825-70cef16b262bdcd46a6006d3dd0df33e-10",
+                "@id": "10",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1996"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The analysis of pile settlement employing load-transfer functions"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b10",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85198506961",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "532"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Gwizdala",
+                        "ce:indexed-name": "Gwizdala K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Zesz Nauk"
+                },
+                "ce:source-text": "Gwizdala K. The analysis of pile settlement employing load-transfer functions. Zeszyty Naukowe 1996;(532)."
+              },
+              {
+                "ref-fulltext": "Van der Veen C. The bearing capacity of pile. In: Proc. 3rd ICSMFE. Vol. 2, 1953, p. 84–90.",
+                "@reference-instance-id": "OB2BibRecID-957614825-cdf4a07dd33d30e4ab2fa61482e76575-11",
+                "@id": "11",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1953"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b11",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85198541128",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "2"
+                    },
+                    "pagerange": {
+                      "@first": "84",
+                      "@last": "90"
+                    }
+                  },
+                  "ref-text": "Van der Veen C. The bearing capacity of pile. In: Proc. 3rd ICSMFE."
+                },
+                "ce:source-text": "Van der Veen C. The bearing capacity of pile. In: Proc. 3rd ICSMFE. Vol. 2, 1953, p. 84–90."
+              },
+              {
+                "ref-fulltext": "Hansen, J.B., Discussion of hyperbolic stress-strain response: cohesive soils. J Soil Mech Found Div 89:4 (1963), 241–242.",
+                "@reference-instance-id": "OB2BibRecID-957614825-8cd92f83165b696cf4777d859ec1cc0f-12",
+                "@id": "12",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1963"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Discussion of hyperbolic stress-strain response: cohesive soils"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b12",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0001101813",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "89",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "241",
+                      "@last": "242"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Hansen",
+                        "ce:indexed-name": "Hansen J.B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Soil Mech Found Div"
+                },
+                "ce:source-text": "Hansen JB. Discussion of “hyperbolic stress–strain response: cohesive soils”. Journal of the Soil Mechanics and Foundations Division 1963;89(4):241–242."
+              },
+              {
+                "ref-fulltext": "Vijivergiya V. Load-movement characteristics of piles. In: 4th symp. of waterway, port, coastal and occean div., ASCE. Vol. 2, 1977, p. 269–84.",
+                "@reference-instance-id": "OB2BibRecID-957614825-e7cbb90a16d6e28dcab713f65889f442-13",
+                "@id": "13",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1977"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b13",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85198551037",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "2"
+                    }
+                  },
+                  "ref-text": "Load-movement characteristics of piles. In: 4th symp. of waterway, port, coastal and occean div., ASCE., p. 269–84.",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "V.",
+                        "@_fa": "true",
+                        "ce:surname": "Vijivergiya",
+                        "ce:indexed-name": "Vijivergiya V."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Vijivergiya V. Load-movement characteristics of piles. In: 4th symp. of waterway, port, coastal and occean div., ASCE. Vol. 2, 1977, p. 269–84."
+              },
+              {
+                "ref-fulltext": "Armaleh, S., Desai, C., Load-deformation response of axially loaded piles. J Geotech Eng 113:12 (1987), 1483–1500.",
+                "@reference-instance-id": "OB2BibRecID-957614825-b3a4307bb8a373f18aec194100d66767-14",
+                "@id": "14",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1987"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Load-deformation response of axially loaded piles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b14",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0023577125",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "113",
+                      "@issue": "12"
+                    },
+                    "pagerange": {
+                      "@first": "1483",
+                      "@last": "1500"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Armaleh",
+                        "ce:indexed-name": "Armaleh S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Desai",
+                        "ce:indexed-name": "Desai C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Geotech Eng"
+                },
+                "ce:source-text": "Armaleh S, Desai C. Load-deformation response of axially loaded piles. Journal of geotechnical engineering 1987;113(12):1483–1500."
+              },
+              {
+                "ref-fulltext": "Guo, W.D., Visco-elastic load transfer models for axially loaded piles. Int J Numer Anal Methods Geomech 24:2 (2000), 135–163.",
+                "@reference-instance-id": "OB2BibRecID-957614825-57eb2274de7a2dd3e55ba9415e92fe81-15",
+                "@id": "15",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2000"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Visco-elastic load transfer models for axially loaded piles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b15",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0034060219",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "24",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "135",
+                      "@last": "163"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Guo",
+                        "ce:indexed-name": "Guo W.D."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Int J Numer Anal Methods Geomech"
+                },
+                "ce:source-text": "Guo WD. Visco-elastic load transfer models for axially loaded piles. International journal for numerical and analytical methods in geomechanics 2000;24(2):135–163."
+              },
+              {
+                "ref-fulltext": "Liu, J., Xiao, H., Tang, J., Li, Q., Analysis of load-transfer of single pile in layered soil. Comput Geotech 31:2 (2004), 127–135.",
+                "@reference-instance-id": "OB2BibRecID-957614825-e2c14d8eb0791572ae2633ac81275fe6-16",
+                "@id": "16",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2004"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Analysis of load-transfer of single pile in layered soil"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b16",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "1842525246",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "31",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "127",
+                      "@last": "135"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Xiao",
+                        "ce:indexed-name": "Xiao H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Tang",
+                        "ce:indexed-name": "Tang J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li Q."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Comput Geotech"
+                },
+                "ce:source-text": "Liu J, Xiao H, Tang J, Li Q. Analysis of load-transfer of single pile in layered soil. Computers and Geotechnics 2004;31(2):127–135."
+              },
+              {
+                "ref-fulltext": "Chen, R., Zhou, W., Chen, Y., Influences of soil consolidation and pile load on the development of negative skin friction of a pile. Comput Geotech 36:8 (2009), 1265–1271.",
+                "@reference-instance-id": "OB2BibRecID-957614825-9224ce7784fd605f4f229ef1bd3c86f2-17",
+                "@id": "17",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Influences of soil consolidation and pile load on the development of negative skin friction of a pile"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b17",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "70349467461",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "36",
+                      "@issue": "8"
+                    },
+                    "pagerange": {
+                      "@first": "1265",
+                      "@last": "1271"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen R."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Comput Geotech"
+                },
+                "ce:source-text": "Chen R, Zhou W, Chen Y. Influences of soil consolidation and pile load on the development of negative skin friction of a pile. Computers and Geotechnics 2009;36(8):1265–1271."
+              },
+              {
+                "ref-fulltext": "Zhang, Q.-Q., Zhang, Z.-M., He, J.-Y., A simplified approach for settlement analysis of single pile and pile groups considering interaction between identical piles in multilayered soils. Comput Geotech 37:7–8 (2010), 969–976.",
+                "@reference-instance-id": "OB2BibRecID-957614825-e23c5144f32c74a68243d0e34a9113c0-18",
+                "@id": "18",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A simplified approach for settlement analysis of single pile and pile groups considering interaction between identical piles in multilayered soils"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b18",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "78349305768",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "37",
+                      "@issue": "7-8"
+                    },
+                    "pagerange": {
+                      "@first": "969",
+                      "@last": "976"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Q.-Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Q.-Q."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.-M.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Z.-M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.-Y.",
+                        "@_fa": "true",
+                        "ce:surname": "He",
+                        "ce:indexed-name": "He J.-Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Comput Geotech"
+                },
+                "ce:source-text": "Zhang QQ, Zhang ZM, He JY. A simplified approach for settlement analysis of single pile and pile groups considering interaction between identical piles in multilayered soils. Computers and Geotechnics 2010;37(7-8):969–976."
+              },
+              {
+                "ref-fulltext": "Zhu, H., Chang, M.-F., Load transfer curves along bored piles considering modulus degradation. J Geotech Geoenviron Eng 128:9 (2002), 764–774.",
+                "@reference-instance-id": "OB2BibRecID-957614825-1d031ecb0bcc12bcf3c55bfae5c6a18d-19",
+                "@id": "19",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2002"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Load transfer curves along bored piles considering modulus degradation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b19",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0036715058",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "128",
+                      "@issue": "9"
+                    },
+                    "pagerange": {
+                      "@first": "764",
+                      "@last": "774"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhu",
+                        "ce:indexed-name": "Zhu H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.-F.",
+                        "@_fa": "true",
+                        "ce:surname": "Chang",
+                        "ce:indexed-name": "Chang M.-F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Geotech Geoenviron Eng"
+                },
+                "ce:source-text": "Zhu H, Chang MF. Load transfer curves along bored piles considering modulus degradation. Journal of Geotechnical and Geoenvironmental Engineering 2002;128(9):764–774."
+              },
+              {
+                "ref-fulltext": "Zhang, Q.-q., Zhang, Z.-m., Simplified calculation approach for settlement of single pile and pile groups. J Comput Civ Eng 26:6 (2012), 750–758.",
+                "@reference-instance-id": "OB2BibRecID-957614825-0045c2ec190704663faf4315cda7c69b-20",
+                "@id": "20",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Simplified calculation approach for settlement of single pile and pile groups"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b20",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84869397059",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "26",
+                      "@issue": "6"
+                    },
+                    "pagerange": {
+                      "@first": "750",
+                      "@last": "758"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Q.-Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Q.-Q."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.-M.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang Z.-M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Comput Civ Eng"
+                },
+                "ce:source-text": "Zhang Qq, Zhang Zm. Simplified calculation approach for settlement of single pile and pile groups. Journal of Computing in Civil Engineering 2012;26(6):750–758."
+              },
+              {
+                "ref-fulltext": "Guo, W.D., Lee, F., Load transfer approach for laterally loaded piles. Int J Numer Anal Methods Geomech 25:11 (2001), 1101–1129.",
+                "@reference-instance-id": "OB2BibRecID-957614825-f6cc1b98d1831a88098cdb8355ff8975-21",
+                "@id": "21",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2001"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Load transfer approach for laterally loaded piles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b21",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0035446157",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "25",
+                      "@issue": "11"
+                    },
+                    "pagerange": {
+                      "@first": "1101",
+                      "@last": "1129"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Guo",
+                        "ce:indexed-name": "Guo W.D."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Int J Numer Anal Methods Geomech"
+                },
+                "ce:source-text": "Guo WD, Lee F. Load transfer approach for laterally loaded piles. International Journal for Numerical and Analytical Methods in Geomechanics 2001;25(11):1101–1129."
+              },
+              {
+                "ref-fulltext": "Kim, H.J., Mission, J.L.C., Park, I.S., Analysis of static axial load capacity of single piles and large diameter shafts using nonlinear load transfer curves. KSCE J Civ Eng 11 (2007), 285–292.",
+                "@reference-instance-id": "OB2BibRecID-957614825-33893e493cd479a17905d8bc3fd3be85-22",
+                "@id": "22",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Analysis of static axial load capacity of single piles and large diameter shafts using nonlinear load transfer curves"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b22",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "57349170900",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "11"
+                    },
+                    "pagerange": {
+                      "@first": "285",
+                      "@last": "292"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim H.J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.L.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Mission",
+                        "ce:indexed-name": "Mission J.L.C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "I.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Park",
+                        "ce:indexed-name": "Park I.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "KSCE J Civ Eng"
+                },
+                "ce:source-text": "Kim HJ, Mission JLC, Park IS. Analysis of static axial load capacity of single piles and large diameter shafts using nonlinear load transfer curves. KSCE Journal of Civil Engineering 2007;11:285–292."
+              },
+              {
+                "ref-fulltext": "Nguyen, D.D.C., Jo, S.-B., Kim, D.-S., Design method of piled-raft foundations under vertical load considering interaction effects. Comput Geotech 47 (2013), 16–27.",
+                "@reference-instance-id": "OB2BibRecID-957614825-4d5177013660b6e131be9fedfbc40ef8-23",
+                "@id": "23",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Design method of piled-raft foundations under vertical load considering interaction effects"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b23",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84864486788",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "47"
+                    },
+                    "pagerange": {
+                      "@first": "16",
+                      "@last": "27"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.D.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Nguyen",
+                        "ce:indexed-name": "Nguyen D.D.C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.-B.",
+                        "@_fa": "true",
+                        "ce:surname": "Jo",
+                        "ce:indexed-name": "Jo S.-B."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.-S.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim D.-S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Comput Geotech"
+                },
+                "ce:source-text": "Nguyen DDC, Jo SB, Kim DS. Design method of piled-raft foundations under vertical load considering interaction effects. Computers and Geotechnics 2013;47:16–27."
+              },
+              {
+                "ref-fulltext": "Vesic, A.S., Design of pile foundations. NCHRP Synth Highw Pract(42), 1977.",
+                "@reference-instance-id": "OB2BibRecID-957614825-087c47fc0a4989257882e577d6a95c80-24",
+                "@id": "24",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1977"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Design of pile foundations"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b24",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0017634564",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "42"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Vesic",
+                        "ce:indexed-name": "Vesic A.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "NCHRP Synth Highw Pract"
+                },
+                "ce:source-text": "Vesic AS. Design of pile foundations. NCHRP synthesis of highway practice 1977;(42)."
+              },
+              {
+                "ref-fulltext": "Fleming, W., A new method for signle pile settlement prediction and analysis. Geotechnique 42:3 (1992), 411–425.",
+                "@reference-instance-id": "OB2BibRecID-957614825-81cf633d3429f730b72f4bf60034e4f1-25",
+                "@id": "25",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1992"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A new method for signle pile settlement prediction and analysis"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b25",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0027009014",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "42",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "411",
+                      "@last": "425"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Fleming",
+                        "ce:indexed-name": "Fleming W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geotechnique"
+                },
+                "ce:source-text": "Fleming W. A new method for signle pile settlement prediction and analysis. Geotechnique 1992;42(3):411–425."
+              },
+              {
+                "ref-fulltext": "Ni, P., Song, L., Mei, G., Zhao, Y., Generalized nonlinear softening load-transfer model for axially loaded piles. Int J Geomech, 17(8), 2017, 04017019.",
+                "@reference-instance-id": "OB2BibRecID-957614825-7e1ff7a8e0f8e4392e5d3f1177b4de11-26",
+                "@id": "26",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Generalized nonlinear softening load-transfer model for axially loaded piles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b26",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "04017019",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85018353304",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "17",
+                      "@issue": "8"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Ni",
+                        "ce:indexed-name": "Ni P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Song",
+                        "ce:indexed-name": "Song L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Mei",
+                        "ce:indexed-name": "Mei G."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Int J Geomech"
+                },
+                "ce:source-text": "Ni P, Song L, Mei G, Zhao Y. Generalized nonlinear softening load-transfer model for axially loaded piles. International Journal of Geomechanics 2017;17(8):04017019."
+              },
+              {
+                "ref-fulltext": "Shahin, M.A., State-of-the-art review of some artificial intelligence applications in pile foundations. Geosci Front 7:1 (2016), 33–44.",
+                "@reference-instance-id": "OB2BibRecID-957614825-2ec40f0d00566f4d265ca3cb39651d00-27",
+                "@id": "27",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "State-of-the-art review of some artificial intelligence applications in pile foundations"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b27",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84955445637",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "7",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "33",
+                      "@last": "44"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Shahin",
+                        "ce:indexed-name": "Shahin M.A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geosci Front"
+                },
+                "ce:source-text": "Shahin MA. State-of-the-art review of some artificial intelligence applications in pile foundations. Geoscience Frontiers 2016;7(1):33–44."
+              },
+              {
+                "ref-fulltext": "Nguyen, T., Ly, K.-D., Nguyen-Thoi, T., Nguyen, B.-P., Doan, N.-P., Prediction of axial load bearing capacity of PHC nodular pile using Bayesian regularization artificial neural network. Soils Found, 62(5), 2022, 101203.",
+                "@reference-instance-id": "OB2BibRecID-957614825-e82e4107538b5e0c5ed68281e8e9aad5-28",
+                "@id": "28",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Prediction of axial load bearing capacity of PHC nodular pile using Bayesian regularization artificial neural network"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b28",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "101203",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85135940638",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "62",
+                      "@issue": "5"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Nguyen",
+                        "ce:indexed-name": "Nguyen T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.-D.",
+                        "@_fa": "true",
+                        "ce:surname": "Ly",
+                        "ce:indexed-name": "Ly K.-D."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Nguyen-Thoi",
+                        "ce:indexed-name": "Nguyen-Thoi T."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "B.-P.",
+                        "@_fa": "true",
+                        "ce:surname": "Nguyen",
+                        "ce:indexed-name": "Nguyen B.-P."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "N.-P.",
+                        "@_fa": "true",
+                        "ce:surname": "Doan",
+                        "ce:indexed-name": "Doan N.-P."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soils Found"
+                },
+                "ce:source-text": "Nguyen T, Ly KD, Nguyen-Thoi T, Nguyen BP, Doan NP. Prediction of axial load bearing capacity of phc nodular pile using bayesian regularization artificial neural network. Soils and Foundations 2022;62(5):101203."
+              },
+              {
+                "ref-fulltext": "Shahin, M.A., Load–settlement modeling of axially loaded drilled shafts using CPT-based recurrent neural networks. Int J Geomech, 14(6), 2014, 06014012.",
+                "@reference-instance-id": "OB2BibRecID-957614825-860267e9229772d0de1873c7d469e24d-29",
+                "@id": "29",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Load–settlement modeling of axially loaded drilled shafts using CPT-based recurrent neural networks"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b29",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "06014012",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "84912016542",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "14",
+                      "@issue": "6"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Shahin",
+                        "ce:indexed-name": "Shahin M.A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Int J Geomech"
+                },
+                "ce:source-text": "Shahin MA. Load–settlement modeling of axially loaded drilled shafts using cpt-based recurrent neural networks. International Journal of Geomechanics 2014;14(6):06014012."
+              },
+              {
+                "ref-fulltext": "Nejad, F.P., Jaksa, M.B., Load-settlement behavior modeling of single piles using artificial neural networks and CPT data. Comput Geotech 89 (2017), 9–21.",
+                "@reference-instance-id": "OB2BibRecID-957614825-da87ebaf16e7bc5b018a17d54a22148f-30",
+                "@id": "30",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Load-settlement behavior modeling of single piles using artificial neural networks and CPT data"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b30",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85017583498",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "89"
+                    },
+                    "pagerange": {
+                      "@first": "9",
+                      "@last": "21"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Nejad",
+                        "ce:indexed-name": "Nejad F.P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Jaksa",
+                        "ce:indexed-name": "Jaksa M.B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Comput Geotech"
+                },
+                "ce:source-text": "Nejad FP, Jaksa MB. Load-settlement behavior modeling of single piles using artificial neural networks and cpt data. Computers and Geotechnics 2017;89:9–21."
+              },
+              {
+                "ref-fulltext": "Ismail, A., Jeng, D.-S., Modelling load–settlement behaviour of piles using high-order neural network (HON-PILE model). Eng Appl Artif Intell 24:5 (2011), 813–821.",
+                "@reference-instance-id": "OB2BibRecID-957614825-57991bb6de5baa26edce881fdbda5034-31",
+                "@id": "31",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2011"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Modelling load–settlement behaviour of piles using high-order neural network (HON-PILE model)"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b31",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "79956105669",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "24",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "813",
+                      "@last": "821"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Ismail",
+                        "ce:indexed-name": "Ismail A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.-S.",
+                        "@_fa": "true",
+                        "ce:surname": "Jeng",
+                        "ce:indexed-name": "Jeng D.-S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Eng Appl Artif Intell"
+                },
+                "ce:source-text": "Ismail A, Jeng DS. Modelling load–settlement behaviour of piles using high-order neural network (hon-pile model). Engineering Applications of Artificial Intelligence 2011;24(5):813–821."
+              },
+              {
+                "ref-fulltext": "Moayedi, H., Hayati, S., Applicability of a CPT-based neural network solution in predicting load-settlement responses of bored pile. Int J Geomech, 18(6), 2018, 06018009.",
+                "@reference-instance-id": "OB2BibRecID-957614825-9a14414f84b104a039fa512db43ca129-32",
+                "@id": "32",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Applicability of a CPT-based neural network solution in predicting load-settlement responses of bored pile"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b32",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "06018009",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85044063070",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "18",
+                      "@issue": "6"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Moayedi",
+                        "ce:indexed-name": "Moayedi H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Hayati",
+                        "ce:indexed-name": "Hayati S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Int J Geomech"
+                },
+                "ce:source-text": "Moayedi H, Hayati S. Applicability of a cpt-based neural network solution in predicting load-settlement responses of bored pile. International Journal of Geomechanics 2018;18(6):06018009."
+              },
+              {
+                "ref-fulltext": "Nejad, F.P., Jaksa, M.B., Kakhi, M., McCabe, B.A., Prediction of pile settlement using artificial neural networks based on standard penetration test data. Comput Geotech 36:7 (2009), 1125–1133.",
+                "@reference-instance-id": "OB2BibRecID-957614825-d6d3914e05db3a7408f6a1b8325fce73-33",
+                "@id": "33",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Prediction of pile settlement using artificial neural networks based on standard penetration test data"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b33",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "67651006180",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "36",
+                      "@issue": "7"
+                    },
+                    "pagerange": {
+                      "@first": "1125",
+                      "@last": "1133"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Nejad",
+                        "ce:indexed-name": "Nejad F.P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Jaksa",
+                        "ce:indexed-name": "Jaksa M.B."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Kakhi",
+                        "ce:indexed-name": "Kakhi M."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "B.A.",
+                        "@_fa": "true",
+                        "ce:surname": "McCabe",
+                        "ce:indexed-name": "McCabe B.A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Comput Geotech"
+                },
+                "ce:source-text": "Nejad FP, Jaksa MB, Kakhi M, McCabe BA. Prediction of pile settlement using artificial neural networks based on standard penetration test data. Computers and geotechnics 2009;36(7):1125–1133."
+              },
+              {
+                "ref-fulltext": "Džeroski, S., Ženko, B., Is combining classifiers with stacking better than selecting the best one?. Mach Learn 54 (2004), 255–273.",
+                "@reference-instance-id": "OB2BibRecID-957614825-ed4de90742c3811d38b50b82ec6ed5e1-34",
+                "@id": "34",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2004"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Is combining classifiers with stacking better than selecting the best one?"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b34",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "12144288329",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "54"
+                    },
+                    "pagerange": {
+                      "@first": "255",
+                      "@last": "273"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Džeroski",
+                        "ce:indexed-name": "Dzeroski S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Ženko",
+                        "ce:indexed-name": "Zenko B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Mach Learn"
+                },
+                "ce:source-text": "Džeroski S, Ženko B. Is combining classifiers with stacking better than selecting the best one? Machine learning 2004;54:255–273."
+              },
+              {
+                "ref-fulltext": "Ren, Y., Zhang, L., Suganthan, P.N., Ensemble classification and regression-recent developments, applications and future directions. IEEE Comput Intell Mag 11:1 (2016), 41–53.",
+                "@reference-instance-id": "OB2BibRecID-957614825-fe0b665a3e21eb90f43d0537a3297a14-35",
+                "@id": "35",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Ensemble classification and regression-recent developments, applications and future directions"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b35",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84962026438",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "11",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "41",
+                      "@last": "53"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Ren",
+                        "ce:indexed-name": "Ren Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "P.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Suganthan",
+                        "ce:indexed-name": "Suganthan P.N."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "IEEE Comput Intell Mag"
+                },
+                "ce:source-text": "Ren Y, Zhang L, Suganthan PN. Ensemble classification and regression-recent developments, applications and future directions. IEEE Computational intelligence magazine 2016;11(1):41–53."
+              },
+              {
+                "ref-fulltext": "Cao, M.-T., Hoang, N.-D., Nhu, V.H., Bui, D.T., An advanced meta-learner based on artificial electric field algorithm optimized stacking ensemble techniques for enhancing prediction accuracy of soil shear strength. Eng Comput, 2020, 1–23.",
+                "@reference-instance-id": "OB2BibRecID-957614825-24802e2eb804d171fbf167e4abf44a17-36",
+                "@id": "36",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "An advanced meta-learner based on artificial electric field algorithm optimized stacking ensemble techniques for enhancing prediction accuracy of soil shear strength"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b36",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85131608818",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "1",
+                      "@last": "23"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.-T.",
+                        "@_fa": "true",
+                        "ce:surname": "Cao",
+                        "ce:indexed-name": "Cao M.-T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "N.-D.",
+                        "@_fa": "true",
+                        "ce:surname": "Hoang",
+                        "ce:indexed-name": "Hoang N.-D."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "V.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Nhu",
+                        "ce:indexed-name": "Nhu V.H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "D.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Bui",
+                        "ce:indexed-name": "Bui D.T."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Eng Comput"
+                },
+                "ce:source-text": "Cao MT, Hoang ND, Nhu VH, Bui DT. An advanced meta-learner based on artificial electric field algorithm optimized stacking ensemble techniques for enhancing prediction accuracy of soil shear strength. Engineering with Computers 2020;:1–23."
+              },
+              {
+                "ref-fulltext": "Kardani, N., Zhou, A., Nazem, M., Shen, S.-L., Improved prediction of slope stability using a hybrid stacking ensemble method based on finite element analysis and field data. J Rock Mech Geotech Eng 13:1 (2021), 188–201.",
+                "@reference-instance-id": "OB2BibRecID-957614825-d10e13fd040925225d74f8615cecb28a-37",
+                "@id": "37",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Improved prediction of slope stability using a hybrid stacking ensemble method based on finite element analysis and field data"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b37",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85098130886",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "13",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "188",
+                      "@last": "201"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Kardani",
+                        "ce:indexed-name": "Kardani N."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Nazem",
+                        "ce:indexed-name": "Nazem M."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "S.-L.",
+                        "@_fa": "true",
+                        "ce:surname": "Shen",
+                        "ce:indexed-name": "Shen S.-L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Rock Mech Geotech Eng"
+                },
+                "ce:source-text": "Kardani N, Zhou A, Nazem M, Shen SL. Improved prediction of slope stability using a hybrid stacking ensemble method based on finite element analysis and field data. Journal of Rock Mechanics and Geotechnical Engineering 2021;13(1):188–201."
+              },
+              {
+                "ref-fulltext": "Sun, J., Wu, S., Zhang, H., Zhang, X., Wang, T., Based on multi-algorithm hybrid method to predict the slope safety factor–stacking ensemble learning with bayesian optimization. J Comput Sci, 59, 2022, 101587.",
+                "@reference-instance-id": "OB2BibRecID-957614825-dc2e3e3f3d0b6ac393e55a7667f0d2c3-38",
+                "@id": "38",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Based on multi-algorithm hybrid method to predict the slope safety factor–stacking ensemble learning with bayesian optimization"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b38",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "101587",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85123822193",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "59"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Sun",
+                        "ce:indexed-name": "Sun J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Wu",
+                        "ce:indexed-name": "Wu S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang X."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang T."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Comput Sci"
+                },
+                "ce:source-text": "Sun J, Wu S, Zhang H, Zhang X, Wang T. Based on multi-algorithm hybrid method to predict the slope safety factor–stacking ensemble learning with bayesian optimization. Journal of Computational Science 2022;59:101587."
+              },
+              {
+                "ref-fulltext": "Wang, Z.Z., Hu, Y., Guo, X., He, X., Kek, H.Y., Ku, T., Goh, S.H., Leung, C.F., Predicting geological interfaces using stacking ensemble learning with multi-scale features. Can Geotech J, 2023.",
+                "@reference-instance-id": "OB2BibRecID-957614825-056e966d6dab600466a393da46a597d4-39",
+                "@id": "39",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Predicting geological interfaces using stacking ensemble learning with multi-scale features"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b39",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85166059436",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang Z.Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Hu",
+                        "ce:indexed-name": "Hu Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Guo",
+                        "ce:indexed-name": "Guo X."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "He",
+                        "ce:indexed-name": "He X."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "H.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Kek",
+                        "ce:indexed-name": "Kek H.Y."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Ku",
+                        "ce:indexed-name": "Ku T."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "S.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Goh",
+                        "ce:indexed-name": "Goh S.H."
+                      },
+                      {
+                        "@seq": "8",
+                        "ce:initials": "C.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Leung",
+                        "ce:indexed-name": "Leung C.F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Can Geotech J"
+                },
+                "ce:source-text": "Wang ZZ, Hu Y, Guo X, He X, Kek HY, Ku T, Goh SH, Leung CF. Predicting geological interfaces using stacking ensemble learning with multi-scale features. Canadian Geotechnical Journal 2023;."
+              },
+              {
+                "ref-fulltext": "Fathipour-Azar, H., Stacking ensemble machine learning-based shear strength model for rock discontinuity. Geotech Geol Eng 40:6 (2022), 3091–3106.",
+                "@reference-instance-id": "OB2BibRecID-957614825-a472a037c40704f6b971153e8f99738c-40",
+                "@id": "40",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Stacking ensemble machine learning-based shear strength model for rock discontinuity"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b40",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85125439293",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "40",
+                      "@issue": "6"
+                    },
+                    "pagerange": {
+                      "@first": "3091",
+                      "@last": "3106"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Fathipour-Azar",
+                        "ce:indexed-name": "Fathipour-Azar H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geotech Geol Eng"
+                },
+                "ce:source-text": "Fathipour-Azar H. Stacking ensemble machine learning-based shear strength model for rock discontinuity. Geotechnical and Geological Engineering 2022;40(6):3091–3106."
+              },
+              {
+                "ref-fulltext": "Li, L., Lai, N., Zhao, X., Zhu, T., Su, Z., A generalized elastoplastic load-transfer model for axially loaded piles in clay: Incorporation of modulus degradation and skin friction softening. Comput Geotech, 161, 2023, 105594.",
+                "@reference-instance-id": "OB2BibRecID-957614825-c64ed864fd7e01e139c218b4f18a436c-41",
+                "@id": "41",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A generalized elastoplastic load-transfer model for axially loaded piles in clay: Incorporation of modulus degradation and skin friction softening"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b41",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105594",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85162139903",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "161"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Lai",
+                        "ce:indexed-name": "Lai N."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao X."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhu",
+                        "ce:indexed-name": "Zhu T."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Su",
+                        "ce:indexed-name": "Su Z."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Comput Geotech"
+                },
+                "ce:source-text": "Li L, Lai N, Zhao X, Zhu T, Su Z. A generalized elastoplastic load-transfer model for axially loaded piles in clay: Incorporation of modulus degradation and skin friction softening. Computers and Geotechnics 2023;161:105594."
+              },
+              {
+                "ref-fulltext": "Nguyen, T., Fellenius, B.H., Bidirectional static loading tests on barrette piles. A case history from Ho Chi Minh City, Vietnam. Can Geotech J(ja), 2024.",
+                "@reference-instance-id": "OB2BibRecID-957614825-d45d6b31e083995ef8e022dc03cbac26-42",
+                "@id": "42",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Bidirectional static loading tests on barrette piles. A case history from Ho Chi Minh City, Vietnam"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b42",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85190284354",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@issue": "ja"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Nguyen",
+                        "ce:indexed-name": "Nguyen T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "B.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Fellenius",
+                        "ce:indexed-name": "Fellenius B.H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Can Geotech J"
+                },
+                "ce:source-text": "Nguyen T, Fellenius BH. Bidirectional static loading tests on barrette piles. a case history from ho chi minh city, vietnam. Canadian Geotechnical Journal 2024;(ja)."
+              },
+              {
+                "ref-fulltext": "Huynh, V.-H., Nguyen, T., Nguyen, D.-P., Nguyen, T.-S., Nguyen, T.-C., et al. A novel direct SPT method to accurately estimate ultimate axial bearing capacity of bored PHC nodular piles with 81 case studies in Vietnam. Soils Found, 62(4), 2022, 101163.",
+                "@reference-instance-id": "OB2BibRecID-957614825-fbd4af139f209864c8e5741cc591f8b0-43",
+                "@id": "43",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A novel direct SPT method to accurately estimate ultimate axial bearing capacity of bored PHC nodular piles with 81 case studies in Vietnam"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b43",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "101163",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85131413348",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "62",
+                      "@issue": "4"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "V.-H.",
+                        "@_fa": "true",
+                        "ce:surname": "Huynh",
+                        "ce:indexed-name": "Huynh V.-H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Nguyen",
+                        "ce:indexed-name": "Nguyen T."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "D.-P.",
+                        "@_fa": "true",
+                        "ce:surname": "Nguyen",
+                        "ce:indexed-name": "Nguyen D.-P."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "T.-S.",
+                        "@_fa": "true",
+                        "ce:surname": "Nguyen",
+                        "ce:indexed-name": "Nguyen T.-S."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "T.-C.",
+                        "@_fa": "true",
+                        "ce:surname": "Nguyen",
+                        "ce:indexed-name": "Nguyen T.-C."
+                      }
+                    ],
+                    "et-al": null
+                  },
+                  "ref-sourcetitle": "Soils Found"
+                },
+                "ce:source-text": "Huynh VH, Nguyen T, Nguyen DP, Nguyen TS, Nguyen TC, et al. A novel direct spt method to accurately estimate ultimate axial bearing capacity of bored phc nodular piles with 81 case studies in vietnam. Soils and Foundations 2022;62(4):101163."
+              },
+              {
+                "ref-fulltext": "Huynh, T.Q., Nguyen, T.T., Nguyen, H., Base resistance of super-large and long piles in soft soil: performance of artificial neural network model and field implications. Acta Geotech 18:5 (2023), 2755–2775.",
+                "@reference-instance-id": "OB2BibRecID-957614825-eab0adcb628cad8e79277c4889ce8c65-44",
+                "@id": "44",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Base resistance of super-large and long piles in soft soil: performance of artificial neural network model and field implications"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b44",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85141563573",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "18",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "2755",
+                      "@last": "2775"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Huynh",
+                        "ce:indexed-name": "Huynh T.Q."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Nguyen",
+                        "ce:indexed-name": "Nguyen T.T."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Nguyen",
+                        "ce:indexed-name": "Nguyen H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Acta Geotech"
+                },
+                "ce:source-text": "Huynh TQ, Nguyen TT, Nguyen H. Base resistance of super-large and long piles in soft soil: performance of artificial neural network model and field implications. Acta Geotechnica 2023;18(5):2755–2775."
+              },
+              {
+                "ref-fulltext": "Nguyen, T., Ly, K.-D., Shiau, J., Nguyen-Dinh, P., Optimizing load-displacement prediction for bored piles with the 3mSOS algorithm and neural networks. Ocean Eng, 304, 2024, 117758.",
+                "@reference-instance-id": "OB2BibRecID-957614825-13a423f0c0fe1ee322d65e974f37f511-45",
+                "@id": "45",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Optimizing load-displacement prediction for bored piles with the 3mSOS algorithm and neural networks"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b45",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "117758",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85190244340",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "304"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Nguyen",
+                        "ce:indexed-name": "Nguyen T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.-D.",
+                        "@_fa": "true",
+                        "ce:surname": "Ly",
+                        "ce:indexed-name": "Ly K.-D."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Shiau",
+                        "ce:indexed-name": "Shiau J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Nguyen-Dinh",
+                        "ce:indexed-name": "Nguyen-Dinh P."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Ocean Eng"
+                },
+                "ce:source-text": "Nguyen T, Ly KD, Shiau J. Optimizing load–displacement prediction for bored piles with the 3msos algorithm and neural networks. Ocean Engineering 2024;304:117758."
+              },
+              {
+                "ref-fulltext": "Chen T, Guestrin C. XGBoost: A scalable tree boosting system. In: Proceedings of the 22nd ACM SIGKDD international conference on knowledge discovery and data mining. 2016, p. 785–94.",
+                "@reference-instance-id": "OB2BibRecID-957614825-315817793d2e8b62852feba03e1eff37-46",
+                "@id": "46",
+                "ref-info": {
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b46",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85198501251",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-text": "XGBoost: A scalable tree boosting system. In: Proceedings of the 22nd ACM SIGKDD international conference on knowledge discovery and data mining. 2016, p. 785–94.",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Guestrin",
+                        "ce:indexed-name": "Guestrin C."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Chen T, Guestrin C. XGBoost: A scalable tree boosting system. In: Proceedings of the 22nd ACM SIGKDD international conference on knowledge discovery and data mining. 2016, p. 785–94."
+              },
+              {
+                "ref-fulltext": "Ke, G., Meng, Q., Finley, T., Wang, T., Chen, W., Ma, W., Ye, Q., Liu, T.-Y., Lightgbm: A highly efficient gradient boosting decision tree. Adv Neural Inf Process Syst, 30, 2017.",
+                "@reference-instance-id": "OB2BibRecID-957614825-892b0c7d9942caa794b4807b37bce6f4-47",
+                "@id": "47",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Lightgbm: A highly efficient gradient boosting decision tree"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b47",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85038215940",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "30"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.",
+                        "@_fa": "true",
+                        "ce:surname": "Ke",
+                        "ce:indexed-name": "Ke G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Meng",
+                        "ce:indexed-name": "Meng Q."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Finley",
+                        "ce:indexed-name": "Finley T."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang T."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen W."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Ma",
+                        "ce:indexed-name": "Ma W."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Ye",
+                        "ce:indexed-name": "Ye Q."
+                      },
+                      {
+                        "@seq": "8",
+                        "ce:initials": "T.-Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu T.-Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Adv Neural Inf Process Syst"
+                },
+                "ce:source-text": "Ke G, Meng Q, Finley T, Wang T, Chen W, Ma W, Ye Q, Liu TY. Lightgbm: A highly efficient gradient boosting decision tree. Advances in neural information processing systems 2017;30."
+              },
+              {
+                "ref-fulltext": "Wang, S.-C., Wang, S.-C., Artificial neural network. Interdiscip Comput Java Program, 2003, 81–100.",
+                "@reference-instance-id": "OB2BibRecID-957614825-327e05fcee1185861de44d82341190dd-48",
+                "@id": "48",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2003"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Artificial neural network"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b48",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84928998747",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "81",
+                      "@last": "100"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.-C.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang S.-C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.-C.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang S.-C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Interdiscip Comput Java Program"
+                },
+                "ce:source-text": "Wang SC, Wang SC. Artificial neural network. Interdisciplinary computing in java programming 2003;:81–100."
+              },
+              {
+                "ref-fulltext": "Brereton, R.G., Lloyd, G.R., Support vector machines for classification and regression. Analyst 135:2 (2010), 230–267.",
+                "@reference-instance-id": "OB2BibRecID-957614825-31dcb9e84dfebe05412b72adfd28ef2a-49",
+                "@id": "49",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Support vector machines for classification and regression"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b49",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "76749142536",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "135",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "230",
+                      "@last": "267"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Brereton",
+                        "ce:indexed-name": "Brereton R.G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Lloyd",
+                        "ce:indexed-name": "Lloyd G.R."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Analyst"
+                },
+                "ce:source-text": "Brereton RG, Lloyd GR. Support vector machines for classification and regression. Analyst 2010;135(2):230–267."
+              },
+              {
+                "ref-fulltext": "Friedman, J.H., Roosen, C.B., An introduction to multivariate adaptive regression splines. 1995.",
+                "@reference-instance-id": "OB2BibRecID-957614825-ec386e4fa4c1d8b459767fb9b313ce86-50",
+                "@id": "50",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1995"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "An introduction to multivariate adaptive regression splines"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b50",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85028647168",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Friedman",
+                        "ce:indexed-name": "Friedman J.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Roosen",
+                        "ce:indexed-name": "Roosen C.B."
+                      }
+                    ]
+                  }
+                },
+                "ce:source-text": "Friedman JH, Roosen CB. An introduction to multivariate adaptive regression splines. 1995."
+              },
+              {
+                "ref-fulltext": "Kavzoglu, T., Teke, A., Advanced hyperparameter optimization for improved spatial prediction of shallow landslides using extreme gradient boosting (XGBoost). Bull Eng Geol Environ, 81(5), 2022, 201.",
+                "@reference-instance-id": "OB2BibRecID-957614825-8bb62ec5bf6954623ea84c2ae06d2e19-51",
+                "@id": "51",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Advanced hyperparameter optimization for improved spatial prediction of shallow landslides using extreme gradient boosting (XGBoost)"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b51",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85128765357",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "81",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "201"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Kavzoglu",
+                        "ce:indexed-name": "Kavzoglu T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Teke",
+                        "ce:indexed-name": "Teke A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Bull Eng Geol Environ"
+                },
+                "ce:source-text": "Kavzoglu T, Teke A. Advanced hyperparameter optimization for improved spatial prediction of shallow landslides using extreme gradient boosting (xgboost). Bulletin of Engineering Geology and the Environment 2022;81(5):201."
+              },
+              {
+                "ref-fulltext": "Pham, K., Won, J., Enhancing the tree-boosting-based pedotransfer function for saturated hydraulic conductivity using data preprocessing and predictor importance using game theory. Geoderma, 420, 2022, 115864.",
+                "@reference-instance-id": "OB2BibRecID-957614825-f57bd557f0c110c2476c2707ce42e27e-52",
+                "@id": "52",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Enhancing the tree-boosting-based pedotransfer function for saturated hydraulic conductivity using data preprocessing and predictor importance using game theory"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b52",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "115864",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85128325134",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "420"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Pham",
+                        "ce:indexed-name": "Pham K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Won",
+                        "ce:indexed-name": "Won J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geoderma"
+                },
+                "ce:source-text": "Pham K, Won J. Enhancing the tree-boosting-based pedotransfer function for saturated hydraulic conductivity using data preprocessing and predictor importance using game theory. Geoderma 2022;420:115864."
+              },
+              {
+                "ref-fulltext": "Wang, T., Zhang, K., Thé, J., Yu, H., Accurate prediction of band gap of materials using stacking machine learning model. Comput Mater Sci, 201, 2022, 110899.",
+                "@reference-instance-id": "OB2BibRecID-957614825-932b9be5069de3e3ab100ca0297d32b6-53",
+                "@id": "53",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Accurate prediction of band gap of materials using stacking machine learning model"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b53",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "110899",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85115743801",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "201"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang K."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Thé",
+                        "ce:indexed-name": "The J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Comput Mater Sci"
+                },
+                "ce:source-text": "Wang T, Zhang K, Thé J, Yu H. Accurate prediction of band gap of materials using stacking machine learning model. Computational Materials Science 2022;201:110899."
+              },
+              {
+                "ref-fulltext": "Massaoudi, M., Refaat, S.S., Chihi, I., Trabelsi, M., Oueslati, F.S., Abu-Rub, H., A novel stacked generalization ensemble-based hybrid LGBM-XGB-MLP model for short-term load forecasting. Energy, 214, 2021, 118874.",
+                "@reference-instance-id": "OB2BibRecID-957614825-aa4cc07d4ef217dbaf91e7f5ac4f8ca4-54",
+                "@id": "54",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A novel stacked generalization ensemble-based hybrid LGBM-XGB-MLP model for short-term load forecasting"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b54",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "118874",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85091783546",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "214"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Massaoudi",
+                        "ce:indexed-name": "Massaoudi M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Refaat",
+                        "ce:indexed-name": "Refaat S.S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "I.",
+                        "@_fa": "true",
+                        "ce:surname": "Chihi",
+                        "ce:indexed-name": "Chihi I."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Trabelsi",
+                        "ce:indexed-name": "Trabelsi M."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "F.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Oueslati",
+                        "ce:indexed-name": "Oueslati F.S."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Abu-Rub",
+                        "ce:indexed-name": "Abu-Rub H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Energy"
+                },
+                "ce:source-text": "Massaoudi M, Refaat SS, Chihi I, Trabelsi M, Oueslati FS, Abu-Rub H. A novel stacked generalization ensemble-based hybrid lgbm-xgb-mlp model for short-term load forecasting. Energy 2021;214:118874."
+              },
+              {
+                "ref-fulltext": "Storn, R., Price, K., Differential evolution–a simple and efficient heuristic for global optimization over continuous spaces. J Global Optim 11 (1997), 341–359.",
+                "@reference-instance-id": "OB2BibRecID-957614825-8d12982d8a487ac5e3d35b8e52e71071-55",
+                "@id": "55",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1997"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Differential evolution–a simple and efficient heuristic for global optimization over continuous spaces"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b55",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0142000477",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "11"
+                    },
+                    "pagerange": {
+                      "@first": "341",
+                      "@last": "359"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.",
+                        "@_fa": "true",
+                        "ce:surname": "Storn",
+                        "ce:indexed-name": "Storn R."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Price",
+                        "ce:indexed-name": "Price K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Global Optim"
+                },
+                "ce:source-text": "Storn R, Price K. Differential evolution–a simple and efficient heuristic for global optimization over continuous spaces. Journal of global optimization 1997;11:341–359."
+              },
+              {
+                "ref-fulltext": "Kukkonen, S., Lampinen, J., GDE3: The third evolution step of generalized differential evolution. 2005 IEEE congress on evolutionary computation, Vol. 1, 2005, IEEE, 443–450.",
+                "@reference-instance-id": "OB2BibRecID-957614825-8f7667828c3dc9f44feb8fe24c2bce69-56",
+                "@id": "56",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2005"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "GDE3: The third evolution step of generalized differential evolution"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b56",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "27144451406",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "1"
+                    },
+                    "pagerange": {
+                      "@first": "443",
+                      "@last": "450"
+                    }
+                  },
+                  "ref-text": "IEEE",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Kukkonen",
+                        "ce:indexed-name": "Kukkonen S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Lampinen",
+                        "ce:indexed-name": "Lampinen J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "2005 IEEE congress on evolutionary computation"
+                },
+                "ce:source-text": "Kukkonen S, Lampinen J. Gde3: The third evolution step of generalized differential evolution. In: 2005 IEEE congress on evolutionary computation, vol. 1. IEEE, 2005, p. 443–450."
+              },
+              {
+                "ref-fulltext": "Fellenius, B.H., Unified design of piles and pile groups. Transp Res Rec 1169 (1989), 75–82.",
+                "@reference-instance-id": "OB2BibRecID-957614825-c2a5680edf33a0d530f166fc76c54d75-57",
+                "@id": "57",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1989"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Unified design of piles and pile groups"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b57",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0024171484",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "1169"
+                    },
+                    "pagerange": {
+                      "@first": "75",
+                      "@last": "82"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Fellenius",
+                        "ce:indexed-name": "Fellenius B.H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Transp Res Rec"
+                },
+                "ce:source-text": "Fellenius BH. Unified design of piles and pile groups. Transportation Research Record 1989;1169:75–82."
+              },
+              {
+                "ref-fulltext": "Jebur, A.A., Atherton, W., Al Khaddar, R.M., Aljanabi, K.R., Performance analysis of an evolutionary LM algorithm to model the load-settlement response of steel piles embedded in sandy soil. Measurement 140 (2019), 622–635.",
+                "@reference-instance-id": "OB2BibRecID-957614825-292160a1ec7aebee2cb45174928b8735-58",
+                "@id": "58",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Performance analysis of an evolutionary LM algorithm to model the load-settlement response of steel piles embedded in sandy soil"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b58",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85064456920",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "140"
+                    },
+                    "pagerange": {
+                      "@first": "622",
+                      "@last": "635"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Jebur",
+                        "ce:indexed-name": "Jebur A.A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Atherton",
+                        "ce:indexed-name": "Atherton W."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "R.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Al Khaddar",
+                        "ce:indexed-name": "Al Khaddar R.M."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "K.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Aljanabi",
+                        "ce:indexed-name": "Aljanabi K.R."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Measurement"
+                },
+                "ce:source-text": "Jebur AA, Atherton W, Al Khaddar RM, Aljanabi KR. Performance analysis of an evolutionary lm algorithm to model the load-settlement response of steel piles embedded in sandy soil. Measurement 2019;140:622–635."
+              },
+              {
+                "ref-fulltext": "Korff, M., Mair, R.J., Van Tol, F.A., Pile-soil interaction and settlement effects induced by deep excavations. J Geotech Geoenviron Eng, 142(8), 2016, 04016034.",
+                "@reference-instance-id": "OB2BibRecID-957614825-553b58e8ef0caccc667b67ae6c6bbeb5-59",
+                "@id": "59",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Pile-soil interaction and settlement effects induced by deep excavations"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b59",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "04016034",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "84978708505",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "142",
+                      "@issue": "8"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Korff",
+                        "ce:indexed-name": "Korff M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Mair",
+                        "ce:indexed-name": "Mair R.J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "F.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Van Tol",
+                        "ce:indexed-name": "Van Tol F.A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Geotech Geoenviron Eng"
+                },
+                "ce:source-text": "Korff M, Mair RJ, Van Tol FA. Pile-soil interaction and settlement effects induced by deep excavations. Journal of Geotechnical and Geoenvironmental Engineering 2016;142(8):04016034."
+              },
+              {
+                "ref-fulltext": "Fellenius, B.H., Unified design of piled foundations with emphasis on settlement analysis. Current practices and future trends in deep foundations, 2004, 253–275.",
+                "@reference-instance-id": "OB2BibRecID-957614825-0279c08656a4426922f1724d56a445c6-60",
+                "@id": "60",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2004"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Unified design of piled foundations with emphasis on settlement analysis"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "b60",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "33744530462",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "pagerange": {
+                      "@first": "253",
+                      "@last": "275"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "B.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Fellenius",
+                        "ce:indexed-name": "Fellenius B.H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Current practices and future trends in deep foundations"
+                },
+                "ce:source-text": "Fellenius BH. Unified design of piled foundations with emphasis on settlement analysis. In: Current practices and future trends in deep foundations. 2004, p. 253–275."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "affiliation": [
+      {
+        "affiliation-city": "Toowoomba",
+        "@id": "60020321",
+        "affilname": "University of Southern Queensland",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60020321",
+        "affiliation-country": "Australia"
+      },
+      {
+        "affiliation-city": "Ho Chi Minh City",
+        "@id": "60078563",
+        "affilname": "Ton-Duc-Thang University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60078563",
+        "affiliation-country": "Viet Nam"
+      },
+      {
+        "affiliation-city": "Ho Chi Minh City",
+        "@id": "60274200",
+        "affilname": "Van Lang University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60274200",
+        "affiliation-country": "Viet Nam"
+      }
+    ],
+    "coredata": {
+      "srctype": "j",
+      "eid": "2-s2.0-85198557448",
+      "dc:description": "The utilization of precast pre-stressed centrifugal concrete (PHC) piles is widespread in high-rise construction owing to their robust load-bearing capacity and enduring characteristics. Yet, accurately predicting the load–displacement traits of these piles remains a formidable engineering challenge. This study presents a dependable and user-centric solution for emulating PHC pile load–displacement behavior, focusing on pile diameters ranging from 0.3 to 0.6 m and embedment lengths from 10 to 49.5 m. The approach employs an interpretable ensemble modeling technique that fuses predictions from diverse individual base learners through Stacked Generalization. The final prediction is generated using a meta-learner to aggregate the predictions of the base learners. Simultaneously, Pareto Multi-Objectives Optimization is utilized to find the optimal R2 value in both training and testing phases, resulting in the best outcome with the associated parameter set. Consequently, the overarching goal is to improve the accuracy of load–displacement predictions. The model is built upon a substantial dataset encompassing 1178 samples from varied projects across Vietnam, with soil profiles characterized by SPT-N values and static load tests gauging pile head displacement in response to applied loads. To consider the load-bearing complexity, the embedment length is segmented into ten parts, each contributing average SPT indices and corresponding vertical effective stress values to the model. Rigorous validation is achieved via importance-driven sensitivity analysis and partial dependence plots, establishing the model's adeptness in predicting load–displacement behaviors with precision and reliability. In essence, this proposed soft computing model provides a practical avenue to simulate PHC pile load–displacement behavior, thereby contributing to safer and more operationally efficient structural design in high-rise constructions and beyond.",
+      "prism:coverDate": "2024-10-01",
+      "prism:aggregationType": "Journal",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85198557448",
+      "subtypeDescription": "Article",
+      "dc:creator": {
+        "author": [
+          {
+            "ce:given-name": "Tram",
+            "preferred-name": {
+              "ce:given-name": "Tram",
+              "ce:initials": "T.",
+              "ce:surname": "Bui-Ngoc",
+              "ce:indexed-name": "Bui-Ngoc T."
+            },
+            "@seq": "1",
+            "ce:initials": "T.",
+            "@_fa": "true",
+            "affiliation": [
+              {
+                "@id": "60274200",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60274200"
+              },
+              {
+                "@id": "60274200",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60274200"
+              }
+            ],
+            "ce:surname": "Bui-Ngoc",
+            "@auid": "58506782000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/58506782000",
+            "ce:indexed-name": "Bui-Ngoc T."
+          }
+        ]
+      },
+      "link": [
+        {
+          "@_fa": "true",
+          "@rel": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85198557448"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85198557448&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85198557448&origin=inward"
+        }
+      ],
+      "prism:publicationName": "Engineering Structures",
+      "source-id": "15652",
+      "pii": "S0141029624011362",
+      "citedby-count": "23",
+      "prism:volume": "316",
+      "subtype": "ar",
+      "dc:title": "Predicting load–displacement of driven PHC pipe piles using stacking ensemble with Pareto optimization",
+      "openaccess": "0",
+      "openaccessFlag": "false",
+      "prism:doi": "10.1016/j.engstruct.2024.118574",
+      "prism:issn": "18737323 01410296",
+      "publishercopyright": "© 2024 Elsevier Ltd",
+      "article-number": "118574",
+      "dc:identifier": "SCOPUS_ID:85198557448",
+      "dc:publisher": "Elsevier Ltd"
+    },
+    "idxterms": {
+      "mainterm": [
+        {
+          "$": "Ensemble models",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Load displacements",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Load-displacement behaviours",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Multi-objectives optimization",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Pareto multi-objective optimization",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Partial dependence plot",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "PHC piles",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "PHC pipe piles",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Soft-Computing",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Stacked ensemble model",
+          "@weight": "b",
+          "@candidate": "n"
+        }
+      ]
+    },
+    "language": {
+      "@xml:lang": "eng"
+    },
+    "authkeywords": {
+      "author-keyword": [
+        {
+          "@_fa": "true",
+          "$": "Load–displacement behavior"
+        },
+        {
+          "@_fa": "true",
+          "$": "Pareto multi-objectives optimization"
+        },
+        {
+          "@_fa": "true",
+          "$": "Partial Dependence Plots (PDP)"
+        },
+        {
+          "@_fa": "true",
+          "$": "PHC pipe piles"
+        },
+        {
+          "@_fa": "true",
+          "$": "Soft computing"
+        },
+        {
+          "@_fa": "true",
+          "$": "Stacked ensemble model"
+        }
+      ]
+    },
+    "subject-areas": {
+      "subject-area": [
+        {
+          "@_fa": "true",
+          "$": "Civil and Structural Engineering",
+          "@code": "2205",
+          "@abbrev": "ENGI"
+        }
+      ]
+    },
+    "authors": {
+      "author": [
+        {
+          "ce:given-name": "Tram",
+          "preferred-name": {
+            "ce:given-name": "Tram",
+            "ce:initials": "T.",
+            "ce:surname": "Bui-Ngoc",
+            "ce:indexed-name": "Bui-Ngoc T."
+          },
+          "@seq": "1",
+          "ce:initials": "T.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "60274200",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60274200"
+            },
+            {
+              "@id": "60274200",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60274200"
+            }
+          ],
+          "ce:surname": "Bui-Ngoc",
+          "@auid": "58506782000",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58506782000",
+          "ce:indexed-name": "Bui-Ngoc T."
+        },
+        {
+          "ce:given-name": "Tan",
+          "preferred-name": {
+            "ce:given-name": "Tan",
+            "ce:initials": "T.",
+            "ce:surname": "Nguyen",
+            "ce:indexed-name": "Nguyen T."
+          },
+          "@seq": "2",
+          "ce:initials": "T.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "60078563",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60078563"
+            },
+            {
+              "@id": "60078563",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60078563"
+            }
+          ],
+          "ce:surname": "Nguyen",
+          "@auid": "57209167030",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57209167030",
+          "ce:indexed-name": "Nguyen T."
+        },
+        {
+          "ce:given-name": "Minh-The",
+          "preferred-name": {
+            "ce:given-name": "Minh The",
+            "ce:initials": "M.T.",
+            "ce:surname": "Nguyen-Quang",
+            "ce:indexed-name": "Nguyen-Quang M.T."
+          },
+          "@seq": "3",
+          "ce:initials": "M.-T.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60078563",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60078563"
+          },
+          "ce:surname": "Nguyen-Quang",
+          "@auid": "59218347000",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59218347000",
+          "ce:indexed-name": "Nguyen-Quang M.-T."
+        },
+        {
+          "ce:given-name": "Jim",
+          "preferred-name": {
+            "ce:given-name": "Jim",
+            "ce:initials": "J.",
+            "ce:surname": "Shiau",
+            "ce:indexed-name": "Shiau J."
+          },
+          "@seq": "4",
+          "ce:initials": "J.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60020321",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60020321"
+          },
+          "ce:surname": "Shiau",
+          "@auid": "25646822900",
+          "author-url": "https://api.elsevier.com/content/author/author_id/25646822900",
+          "ce:indexed-name": "Shiau J."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,3197 @@
+{
+  "abstracts-retrieval-response": {
+    "item": {
+      "ait:process-info": {
+        "ait:status": {
+          "@state": "update",
+          "@type": "core",
+          "@stage": "S300"
+        },
+        "ait:date-delivered": {
+          "@day": "11",
+          "@timestamp": "2026-02-11T00:14:40.000040-05:00",
+          "@year": "2026",
+          "@month": "02"
+        },
+        "ait:date-sort": {
+          "@day": "01",
+          "@year": "2026",
+          "@month": "04"
+        }
+      },
+      "xocs:meta": {
+        "xocs:funding-list": {
+          "@pui-match": "primary",
+          "@has-funding-info": "1",
+          "xocs:funding": [
+            {
+              "xocs:funding-agency-matched-string": "National Natural Science Foundation of China",
+              "xocs:funding-agency-acronym": "NSFC",
+              "xocs:funding-agency": "National Natural Science Foundation of China",
+              "xocs:funding-id": "52278410",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "National Natural Science Foundation of China",
+              "xocs:funding-agency-acronym": "NSFC",
+              "xocs:funding-agency": "National Natural Science Foundation of China",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Key Science and Technology Program of Yunnan Province",
+              "xocs:funding-id": "202402AC080003"
+            }
+          ],
+          "xocs:funding-addon-generated-timestamp": "2026-02-06T03:05:18.995Z",
+          "xocs:funding-text": "The authors express their deepest appreciation to the following foundations for their generous support and invaluable contributions to the project: National Natural Science Foundation of China (Grant No. 52278410) and Key Science and Technology Program of Yunnan Province (Grant No. 202402AC080003).",
+          "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }
+      },
+      "bibrecord": {
+        "head": {
+          "author-group": [
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "200092",
+                "@afid": "60073652",
+                "@country": "chn",
+                "city": "Shanghai",
+                "organization": [
+                  {
+                    "$": "Department of Geotechnical Engineering"
+                  },
+                  {
+                    "$": "Tongji University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60073652",
+                  "@dptid": "104830272"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-971517669-8f76937ef1777f7fbf1c3010a6484c00-1",
+                "ce:source-text": "Department of Geotechnical Engineering, Tongji University, Shanghai, 200092, China",
+                "@dptid": "104830272"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Chongqiang",
+                  "preferred-name": {
+                    "ce:given-name": "Chongqiang",
+                    "ce:initials": "C.",
+                    "ce:surname": "Zhu",
+                    "ce:indexed-name": "Zhu C."
+                  },
+                  "@author-instance-id": "OB2BibRecID-971517669-ab7205a6d5561e4e0108a94b33c92857-1",
+                  "@seq": "1",
+                  "ce:initials": "C.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Zhu",
+                  "@auid": "56183424800",
+                  "@orcid": "0000-0001-6280-6550",
+                  "ce:indexed-name": "Zhu C."
+                },
+                {
+                  "ce:given-name": "Peixiao",
+                  "preferred-name": {
+                    "ce:given-name": "Peixiao",
+                    "ce:initials": "P.",
+                    "ce:surname": "Duan",
+                    "ce:indexed-name": "Duan P."
+                  },
+                  "@author-instance-id": "OB2BibRecID-971517669-5d598202ef31564ec9cb6b3e408c789d-1",
+                  "@seq": "2",
+                  "ce:initials": "P.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Duan",
+                  "@auid": "60364596100",
+                  "ce:indexed-name": "Duan P."
+                },
+                {
+                  "ce:given-name": "Zhiming",
+                  "preferred-name": {
+                    "ce:given-name": "Zhiming",
+                    "ce:initials": "Z.",
+                    "ce:surname": "Peng",
+                    "ce:indexed-name": "Peng Z."
+                  },
+                  "@author-instance-id": "OB2BibRecID-971517669-5e60fb1a08bb49060f8a395c323d04e1-1",
+                  "@seq": "3",
+                  "ce:initials": "Z.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Peng",
+                  "@auid": "60364674400",
+                  "ce:indexed-name": "Peng Z."
+                },
+                {
+                  "ce:given-name": "Yu",
+                  "preferred-name": {
+                    "ce:given-name": "Yu",
+                    "ce:initials": "Y.",
+                    "ce:surname": "Huang",
+                    "ce:indexed-name": "Huang Y."
+                  },
+                  "@author-instance-id": "OB2BibRecID-971517669-9ed8dbb21dd44446f89b915278bbdc95-1",
+                  "@seq": "4",
+                  "ce:initials": "Y.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Huang",
+                  "@auid": "57204857931",
+                  "@orcid": "0000-0002-9935-7717",
+                  "ce:indexed-name": "Huang Y."
+                },
+                {
+                  "ce:given-name": "Zhiyi",
+                  "preferred-name": {
+                    "ce:given-name": "Zhiyi",
+                    "ce:initials": "Z.",
+                    "ce:surname": "Chen",
+                    "ce:indexed-name": "Chen Z."
+                  },
+                  "@author-instance-id": "OB2BibRecID-971517669-e8b105f02d12bd917f7e234aaf299ecd-1",
+                  "@seq": "5",
+                  "ce:initials": "Z.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Chen",
+                  "@auid": "55916976800",
+                  "ce:indexed-name": "Chen Z."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "200092",
+                "@afid": "60129231",
+                "@country": "chn",
+                "city": "Shanghai",
+                "organization": [
+                  {
+                    "$": "State Key Laboratory of Disaster Reduction in Civil Engineering"
+                  },
+                  {
+                    "$": "Tongji University"
+                  }
+                ],
+                "affiliation-id": [
+                  {
+                    "@afid": "60129231"
+                  },
+                  {
+                    "@afid": "60073652"
+                  }
+                ],
+                "@affiliation-instance-id": "OB2BibRecID-971517669-c53a6e3fa8320b45bacfbb384ffb7c1e-1",
+                "ce:source-text": "State Key Laboratory of Disaster Reduction in Civil Engineering, Tongji University, Shanghai, 200092, China"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Chongqiang",
+                  "preferred-name": {
+                    "ce:given-name": "Chongqiang",
+                    "ce:initials": "C.",
+                    "ce:surname": "Zhu",
+                    "ce:indexed-name": "Zhu C."
+                  },
+                  "@author-instance-id": "OB2BibRecID-971517669-ab7205a6d5561e4e0108a94b33c92857-1",
+                  "@seq": "1",
+                  "ce:initials": "C.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Zhu",
+                  "@auid": "56183424800",
+                  "@orcid": "0000-0001-6280-6550",
+                  "ce:indexed-name": "Zhu C."
+                },
+                {
+                  "ce:given-name": "Yu",
+                  "preferred-name": {
+                    "ce:given-name": "Yu",
+                    "ce:initials": "Y.",
+                    "ce:surname": "Huang",
+                    "ce:indexed-name": "Huang Y."
+                  },
+                  "@author-instance-id": "OB2BibRecID-971517669-9ed8dbb21dd44446f89b915278bbdc95-1",
+                  "@seq": "4",
+                  "ce:initials": "Y.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Huang",
+                  "@auid": "57204857931",
+                  "@orcid": "0000-0002-9935-7717",
+                  "ce:indexed-name": "Huang Y."
+                },
+                {
+                  "ce:given-name": "Zhiyi",
+                  "preferred-name": {
+                    "ce:given-name": "Zhiyi",
+                    "ce:initials": "Z.",
+                    "ce:surname": "Chen",
+                    "ce:indexed-name": "Chen Z."
+                  },
+                  "@author-instance-id": "OB2BibRecID-971517669-e8b105f02d12bd917f7e234aaf299ecd-1",
+                  "@seq": "5",
+                  "ce:initials": "Z.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Chen",
+                  "@auid": "55916976800",
+                  "ce:indexed-name": "Chen Z."
+                }
+              ]
+            }
+          ],
+          "citation-title": "Failure mechanism of tunnels subjected to stick-slip behavior of reverse fault using centrifuge model tests",
+          "abstracts": "Copyright © 2026. Published by Elsevier Ltd.In high seismic intensity area, the stick-slip behavior of active faults often leads to severe damage in tunnels crossing the faults. However, fault stick-slip has not yet been effectively simulated in large-scale model experiments. This study developed a centrifuge-based fault simulator with surface treatments on the fault model to achieve the fault locking-rupture process under stick-slip seismic mechanisms. The failure mechanisms were further investigated and validated through complementary numerical simulations. Centrifuge model tests on tunnel failure mechanisms were conducted under reverse fault stick-slip across six slip velocities. Both experimental and numerical results reveal that fault slip induces the formation of a trishear deformation zone within the overburden soil, which experiences the most significant deformation. The tunnel exhibits a three-section failure mechanism. The left fracture, located near the extension of fault plane, is characterized by compacted rupture surfaces and an orientation nearly perpendicular to the horizontal plane, caused by combined tensile-shear and compressive-shear action. In contrast, the right fracture occurs near the right boundary of the trishear deformation zone, displaying an inclination of approximately 42° to the horizontal, caused by tensile-shear action. Numerical analysis further quantified the influence of slip velocity on the damage intensity. Therefore, the trishear deformation zone induced by fault stick-slip constitutes a critical zone for potential tunnel failure, warranting focused consideration in seismic isolation design.",
+          "correspondence": {
+            "affiliation": {
+              "country": "China",
+              "postal-code": "200092",
+              "@country": "chn",
+              "city": "Shanghai",
+              "organization": [
+                {
+                  "$": "of Geotechnical Engineering"
+                },
+                {
+                  "$": "Tongji University"
+                }
+              ],
+              "@affiliation-instance-id": "OB2BibRecID-971517669-272d0762495c13ad8baca0ecface216c-1",
+              "ce:source-text": "Corresponding author. Department of Geotechnical Engineering, Tongji University, Shanghai, 200092, China."
+            },
+            "person": {
+              "ce:given-name": "Zhiyi",
+              "@author-instance-id": "OB2BibRecID-971517669-bfd55a9df2873112253824995ec3e51b-1",
+              "ce:initials": "Z.",
+              "ce:surname": "Chen",
+              "ce:indexed-name": "Chen Z."
+            }
+          },
+          "citation-info": {
+            "author-keywords": {
+              "author-keyword": [
+                {
+                  "$": "Centrifuge model test",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "failure mechanism",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "fault stick-slip",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Reverse fault",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Tunnel",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                }
+              ]
+            },
+            "citation-type": {
+              "@code": "ar"
+            },
+            "citation-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "abstract-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            }
+          },
+          "source": {
+            "website": {
+              "ce:e-address": {
+                "$": "https://www.sciencedirect.com/science/journal/02677261",
+                "@type": "email"
+              }
+            },
+            "translated-sourcetitle": {
+              "$": "Soil Dynamics and Earthquake Engineering",
+              "@xml:lang": "eng"
+            },
+            "volisspag": {
+              "voliss": {
+                "@volume": "203"
+              }
+            },
+            "@type": "j",
+            "sourcetitle": "Soil Dynamics and Earthquake Engineering",
+            "publicationdate": {
+              "month": "04",
+              "year": "2026",
+              "date-text": "April 2026",
+              "day": "01"
+            },
+            "sourcetitle-abbrev": "Soil Dyn. Earthqu. Eng.",
+            "@country": "gbr",
+            "issn": {
+              "$": "02677261",
+              "@type": "print"
+            },
+            "publicationyear": {
+              "@first": "2026"
+            },
+            "publisher": {
+              "publishername": "Elsevier Ltd"
+            },
+            "article-number": "110154",
+            "@srcid": "28960"
+          },
+          "enhancement": {
+            "classificationgroup": {
+              "classifications": [
+                {
+                  "@type": "CPXCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "1301.1.1",
+                      "classification-description": "Mechanics"
+                    },
+                    {
+                      "classification-code": "214.1.2",
+                      "classification-description": "Fatigue, Cracks and Fracture"
+                    },
+                    {
+                      "classification-code": "217.2",
+                      "classification-description": "Concrete"
+                    },
+                    {
+                      "classification-code": "301.1.5",
+                      "classification-description": "Flow of Fluid-Like Materials"
+                    },
+                    {
+                      "classification-code": "401.2",
+                      "classification-description": "Tunnels and Tunneling"
+                    },
+                    {
+                      "classification-code": "408",
+                      "classification-description": "Structural Design"
+                    },
+                    {
+                      "classification-code": "483.1",
+                      "classification-description": "Soils and Soil Mechanics"
+                    },
+                    {
+                      "classification-code": "484",
+                      "classification-description": "Seismology"
+                    },
+                    {
+                      "classification-code": "484.1",
+                      "classification-description": "Earthquake Measurements and Analysis"
+                    },
+                    {
+                      "classification-code": "484.3",
+                      "classification-description": "Earthquake Resistance"
+                    },
+                    {
+                      "classification-code": "601.2",
+                      "classification-description": "Machine Components"
+                    },
+                    {
+                      "classification-code": "706.1.2",
+                      "classification-description": "Electric Power Distribution"
+                    },
+                    {
+                      "classification-code": "802.1",
+                      "classification-description": "Chemical Plants and Equipment"
+                    },
+                    {
+                      "classification-code": "902.3",
+                      "classification-description": "Legal Aspects"
+                    },
+                    {
+                      "classification-code": "914",
+                      "classification-description": "Safety Engineering"
+                    }
+                  ]
+                },
+                {
+                  "@type": "FLXCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "78.21",
+                      "classification-description": "FLUID MECHANICS"
+                    },
+                    {
+                      "classification-code": "78.23",
+                      "classification-description": "MIXING AND SEPARATION"
+                    },
+                    {
+                      "classification-code": "79.21",
+                      "classification-description": "FLUID MECHANICS"
+                    }
+                  ]
+                },
+                {
+                  "@type": "GEOCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "72.13.4",
+                      "classification-description": "Engineering seismology"
+                    },
+                    {
+                      "classification-code": "77.10.12",
+                      "classification-description": "Influence of dynamic loads"
+                    }
+                  ]
+                },
+                {
+                  "@type": "ASJC",
+                  "classification": [
+                    {
+                      "$": "2205"
+                    },
+                    {
+                      "$": "1909"
+                    },
+                    {
+                      "$": "1111"
+                    }
+                  ]
+                },
+                {
+                  "@type": "SUBJABBR",
+                  "classification": [
+                    {
+                      "$": "ENGI"
+                    },
+                    {
+                      "$": "EART"
+                    },
+                    {
+                      "$": "AGRI"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "grantlist": {
+            "@complete": "y",
+            "grant-text": {
+              "$": "The authors express their deepest appreciation to the following foundations for their generous support and invaluable contributions to the project: National Natural Science Foundation of China (Grant No. 52278410) and Key Science and Technology Program of Yunnan Province (Grant No. 202402AC080003).",
+              "@xml:lang": "eng"
+            },
+            "grant": {
+              "grant-id": "52278410",
+              "grant-acronym": "NSFC, NNSF, NNSFC",
+              "grant-agency": {
+                "@iso-code": "chn",
+                "$": "National Natural Science Foundation of China"
+              },
+              "grant-agency-id": "501100001809"
+            }
+          }
+        },
+        "item-info": {
+          "copyright": {
+            "$": "Copyright 2026 Elsevier B.V., All rights reserved.",
+            "@type": "Elsevier"
+          },
+          "dbcollection": [
+            {
+              "$": "CPX"
+            },
+            {
+              "$": "GEO"
+            },
+            {
+              "$": "REAXYSCAR"
+            },
+            {
+              "$": "SCOPUS"
+            },
+            {
+              "$": "Scopusbase"
+            }
+          ],
+          "history": {
+            "date-created": {
+              "@day": "10",
+              "@timestamp": "BST 10:04:49",
+              "@year": "2026",
+              "@month": "02"
+            }
+          },
+          "itemidlist": {
+            "itemid": [
+              {
+                "$": "2042919451",
+                "@idtype": "PUI"
+              },
+              {
+                "$": "971517669",
+                "@idtype": "CAR-ID"
+              },
+              {
+                "$": "20260620011262",
+                "@idtype": "CPX"
+              },
+              {
+                "$": "11427440",
+                "@idtype": "GEO"
+              },
+              {
+                "$": "20260351769",
+                "@idtype": "REAXYSCAR"
+              },
+              {
+                "$": "20260541167",
+                "@idtype": "SCOPUS"
+              },
+              {
+                "$": "971517669#77201499",
+                "@idtype": "SRC-OCC-ID"
+              },
+              {
+                "$": "105029051075",
+                "@idtype": "SCP"
+              },
+              {
+                "$": "105029051075",
+                "@idtype": "SGR"
+              }
+            ],
+            "ce:pii": "S0267726126000667",
+            "ce:ern": "pii:S0267726126000667",
+            "ce:doi": "10.1016/j.soildyn.2026.110154"
+          }
+        },
+        "tail": {
+          "bibliography": {
+            "@refcount": "32",
+            "reference": [
+              {
+                "ref-fulltext": "Chen ZQ, He C, Yang WB, Guo WQ, Li Z, Xu GW. Impacts of geological conditions on instability causes and mechanical behavior of large-scale tunnels: a case study from the Sichuan-Tibet highway, China. Bulletin of Engineering Geology and the Environment 2020; 79(7): 3667-3688. https://doi.org/10.1007/s10064-020-01796-w.",
+                "@reference-instance-id": "OB2BibRecID-971517669-c267fc42c9d05ee2d91acd864b93c261-1",
+                "@id": "1",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Impacts of geological conditions on instability causes and mechanical behavior of large-scale tunnels: a case study from the sichuan-tibet highway, China"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s10064-020-01796-w",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib1",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85083968816",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "79",
+                      "@issue": "7"
+                    },
+                    "pagerange": {
+                      "@first": "3667",
+                      "@last": "3688"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen Z.Q."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "He",
+                        "ce:indexed-name": "He C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "W.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang W.B."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "W.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Guo",
+                        "ce:indexed-name": "Guo W.Q."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li Z."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "G.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu G.W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Bull Eng Geol Environ"
+                },
+                "ce:source-text": "Chen ZQ, He C, Yang WB, Guo WQ, Li Z, Xu GW. Impacts of geological conditions on instability causes and mechanical behavior of large-scale tunnels: a case study from the Sichuan-Tibet highway, China. Bulletin of Engineering Geology and the Environment 2020; 79(7): 3667-3688. https://doi.org/10.1007/s10064-020-01796-w."
+              },
+              {
+                "ref-fulltext": "Wang WL, Wang TT, Su JJ, Lin CH, Seng CR, Huang TH. Assessment of damages in mountain tunnels due to the Taiwan Chi-Chi Earthquake. Tunnelling and Underground Space Technology 2001; 16(3): 133-150. https://doi.org/10.1016/s0886-7798(01)00047-5.",
+                "@reference-instance-id": "OB2BibRecID-971517669-a2282c117f5b00e01a8f4a4d3df3644a-2",
+                "@id": "2",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2001"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Assessment of damages in Mountain tunnels due to the Taiwan chi-chi earthquake"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/s0886-7798(01)00047-5",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib2",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0035402054",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "16",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "133",
+                      "@last": "150"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang W.L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang T.T."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Su",
+                        "ce:indexed-name": "Su J.J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "C.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Lin",
+                        "ce:indexed-name": "Lin C.H."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "C.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Seng",
+                        "ce:indexed-name": "Seng C.R."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "T.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang T.H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn Undergr Space Technol"
+                },
+                "ce:source-text": "Wang WL, Wang TT, Su JJ, Lin CH, Seng CR, Huang TH. Assessment of damages in mountain tunnels due to the Taiwan Chi-Chi Earthquake. Tunnelling and Underground Space Technology 2001; 16(3): 133-150. https://doi.org/10.1016/s0886-7798(01)00047-5."
+              },
+              {
+                "ref-fulltext": "Li TB. Damage to mountain tunnels related to the Wenchuan earthquake and some suggestions for aseismic tunnel construction. Bulletin of Engineering Geology and the Environment 2012; 71(2): 297-308. https://doi.org/10.1007/s10064-011-0367-6.",
+                "@reference-instance-id": "OB2BibRecID-971517669-3fcd2f3cebef5b699cfeed3e8eafec13-3",
+                "@id": "3",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2012"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Damage to Mountain tunnels related to the wenchuan earthquake and some suggestions for aseismic tunnel construction"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s10064-011-0367-6",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib3",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84859099998",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "71",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "297",
+                      "@last": "308"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "T.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li T.B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Bull Eng Geol Environ"
+                },
+                "ce:source-text": "Li TB. Damage to mountain tunnels related to the Wenchuan earthquake and some suggestions for aseismic tunnel construction. Bulletin of Engineering Geology and the Environment 2012; 71(2): 297-308. https://doi.org/10.1007/s10064-011-0367-6."
+              },
+              {
+                "ref-fulltext": "Chen PL, Geng P, Chen JB, Gu WQ. The seismic damage mechanism of Daliang tunnel by fault dislocation during the 2022 Menyuan Ms6.9 earthquake based on unidirectional velocity pulse input. Engineering Failure Analysis 2023; 145: 107047. https://doi.org/10.1016/j.engfailanal.2023.107047.",
+                "@reference-instance-id": "OB2BibRecID-971517669-01959c7822408ff19356023762a4669f-4",
+                "@id": "4",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The seismic damage mechanism of daliang tunnel by fault dislocation during the 2022 menyuan Ms6.9 earthquake based on unidirectional velocity pulse input"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.engfailanal.2023.107047",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib4",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "107047",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85146254929",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "145"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen P.L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Geng",
+                        "ce:indexed-name": "Geng P."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen J.B."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "W.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Gu",
+                        "ce:indexed-name": "Gu W.Q."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Eng Fail Anal"
+                },
+                "ce:source-text": "Chen PL, Geng P, Chen JB, Gu WQ. The seismic damage mechanism of Daliang tunnel by fault dislocation during the 2022 Menyuan Ms6.9 earthquake based on unidirectional velocity pulse input. Engineering Failure Analysis 2023; 145: 107047. https://doi.org/10.1016/j.engfailanal.2023.107047."
+              },
+              {
+                "ref-fulltext": "Sibson RH. Fault rocks and fault mechanisms. Journal of the Geological Society 1997; 133(3): 191-213. https://doi.org/10.1144/gsjgs.133.3.0191.",
+                "@reference-instance-id": "OB2BibRecID-971517669-16a67f25dfff234e5bae1bd62529f7a4-5",
+                "@id": "5",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1997"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Fault rocks and fault mechanisms"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1144/gsjgs.133.3.0191",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib5",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "80051922869",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "133",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "191",
+                      "@last": "213"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Sibson",
+                        "ce:indexed-name": "Sibson R.H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Geol Soc"
+                },
+                "ce:source-text": "Sibson RH. Fault rocks and fault mechanisms. Journal of the Geological Society 1997; 133(3): 191-213. https://doi.org/10.1144/gsjgs.133.3.0191."
+              },
+              {
+                "ref-fulltext": "Zhu D, Zhu ZD, Zhang C, Xie XH. Shaking table test on the tunnel dynamic response under different fault dip angles. Symmetry 2021; 13(8): 1375. https://doi.org/10.3390/sym13081375.",
+                "@reference-instance-id": "OB2BibRecID-971517669-b601f876f406b3574938084192aa5c1e-6",
+                "@id": "6",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Shaking table test on the tunnel dynamic response under different fault dip angles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.3390/sym13081375",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib6",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85111924876",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "13",
+                      "@issue": "8"
+                    },
+                    "pagerange": {
+                      "@first": "1375"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhu",
+                        "ce:indexed-name": "Zhu D."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhu",
+                        "ce:indexed-name": "Zhu Z.D."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang C."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "X.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Xie",
+                        "ce:indexed-name": "Xie X.H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Symmetry"
+                },
+                "ce:source-text": "Zhu D, Zhu ZD, Zhang C, Xie XH. Shaking table test on the tunnel dynamic response under different fault dip angles. Symmetry 2021; 13(8): 1375. https://doi.org/10.3390/sym13081375."
+              },
+              {
+                "ref-fulltext": "Zhou GX, Sheng Q, Cui Z, Wang TQ, Ma YLN, Fu XW. Model test of failure mechanism of tunnel with flexible joint crossing active fault under strike-slip fault dislocation. Rock and Soil Mechanics 2022; 43(1): 37-50. https://doi.org/10.16285/j.rsm.2021.0765.",
+                "@reference-instance-id": "OB2BibRecID-971517669-e792e4e99a014ee764c4e4404c0e844a-7",
+                "@id": "7",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Model test of failure mechanism of tunnel with flexible joint crossing active fault under strike-slip fault dislocation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.16285/j.rsm.2021.0765",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib7",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85122536182",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "43",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "37",
+                      "@last": "50"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.X.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou G.X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Sheng",
+                        "ce:indexed-name": "Sheng Q."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Cui",
+                        "ce:indexed-name": "Cui Z."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "T.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang T.Q."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Y.L.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Ma",
+                        "ce:indexed-name": "Ma Y.L.N."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "X.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Fu",
+                        "ce:indexed-name": "Fu X.W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Rock Soil Mech"
+                },
+                "ce:source-text": "Zhou GX, Sheng Q, Cui Z, Wang TQ, Ma YLN, Fu XW. Model test of failure mechanism of tunnel with flexible joint crossing active fault under strike-slip fault dislocation. Rock and Soil Mechanics 2022; 43(1): 37-50. https://doi.org/10.16285/j.rsm.2021.0765."
+              },
+              {
+                "ref-fulltext": "Fan L, Chen JL, Peng SQ, Qi BX, Zhou QW, Wang F. Seismic response of tunnel under normal fault slips by shaking table test technique. Journal of Central South University 2020; 27(4): 1306-1319. https://doi.org/10.1007/s11771-020-4368-0.",
+                "@reference-instance-id": "OB2BibRecID-971517669-9e1905ee3990c767c6290dfe33c6dac8-8",
+                "@id": "8",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Seismic response of tunnel under normal fault slips by shaking table test technique"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s11771-020-4368-0",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib8",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85084700113",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "27",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "1306",
+                      "@last": "1319"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Fan",
+                        "ce:indexed-name": "Fan L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen J.L."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Peng",
+                        "ce:indexed-name": "Peng S.Q."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "B.X.",
+                        "@_fa": "true",
+                        "ce:surname": "Qi",
+                        "ce:indexed-name": "Qi B.X."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Q.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou Q.W."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Cent South Univ"
+                },
+                "ce:source-text": "Fan L, Chen JL, Peng SQ, Qi BX, Zhou QW, Wang F. Seismic response of tunnel under normal fault slips by shaking table test technique. Journal of Central South University 2020; 27(4): 1306-1319. https://doi.org/10.1007/s11771-020-4368-0."
+              },
+              {
+                "ref-fulltext": "Shen YS, Wang ZZ, Yu J, Zhang X, Gao B. Shaking table test on flexible joints of mountain tunnels passing through normal fault. Tunnelling and Underground Space Technology 2020; 98: 103299. https://doi.org/10.1016/j.tust.2020.103299.",
+                "@reference-instance-id": "OB2BibRecID-971517669-f192252495424c761500ede57e4290ed-9",
+                "@id": "9",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Shaking table test on flexible joints of Mountain tunnels passing through normal fault"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2020.103299",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib9",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "103299",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85077946082",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "98"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Shen",
+                        "ce:indexed-name": "Shen Y.S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang Z.Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang X."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Gao",
+                        "ce:indexed-name": "Gao B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn Undergr Space Technol"
+                },
+                "ce:source-text": "Shen YS, Wang ZZ, Yu J, Zhang X, Gao B. Shaking table test on flexible joints of mountain tunnels passing through normal fault. Tunnelling and Underground Space Technology 2020; 98: 103299. https://doi.org/10.1016/j.tust.2020.103299."
+              },
+              {
+                "ref-fulltext": "Zhao X, Li RH, Yuan Y, Yu HT, Zhao M, Huang JQ. Shaking table tests on fault-crossing tunnels and aseismic effect of grouting. Tunnelling and Underground Space Technology 2022; 125: 104511. https://doi.org/10.1016/j.tust.2022.104511.",
+                "@reference-instance-id": "OB2BibRecID-971517669-52656cba598f16d7f77ed713adfc3cac-10",
+                "@id": "10",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Shaking table tests on fault-crossing tunnels and aseismic effect of grouting"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.tust.2022.104511",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib10",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "104511",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85129002175",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "125"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li R.H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Yuan",
+                        "ce:indexed-name": "Yuan Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "H.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu H.T."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao M."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "J.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang J.Q."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Tunn Undergr Space Technol"
+                },
+                "ce:source-text": "Zhao X, Li RH, Yuan Y, Yu HT, Zhao M, Huang JQ. Shaking table tests on fault-crossing tunnels and aseismic effect of grouting. Tunnelling and Underground Space Technology 2022; 125: 104511. https://doi.org/10.1016/j.tust.2022.104511."
+              },
+              {
+                "ref-fulltext": "Peng SQ, Liu YZ, Fan L, Zeng YK, Wang GB, Xun ZZ, et al. Dynamic response of tunnels with a rubber-sand isolation layer under normal fault creep-slip and subsequent seismic shaking: shaking table testing and numerical simulation. Applied Sciences 2023; 13(11): 6440. https://doi.org/10.3390/app13116440.",
+                "@reference-instance-id": "OB2BibRecID-971517669-41f5d2dd25b9ca43e15c4fca32bbf3b9-11",
+                "@id": "11",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Dynamic response of tunnels with a rubber-sand isolation layer under normal fault creep-slip and subsequent seismic shaking: shaking table testing and numerical simulation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.3390/app13116440",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib11",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85163091062",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "13",
+                      "@issue": "11"
+                    },
+                    "pagerange": {
+                      "@first": "6440"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Peng",
+                        "ce:indexed-name": "Peng S.Q."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu Y.Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Fan",
+                        "ce:indexed-name": "Fan L."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Zeng",
+                        "ce:indexed-name": "Zeng Y.K."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "G.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang G.B."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "Z.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Xun",
+                        "ce:indexed-name": "Xun Z.Z."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Appl Sci"
+                },
+                "ce:source-text": "Peng SQ, Liu YZ, Fan L, Zeng YK, Wang GB, Xun ZZ, et al. Dynamic response of tunnels with a rubber-sand isolation layer under normal fault creep-slip and subsequent seismic shaking: shaking table testing and numerical simulation. Applied Sciences 2023; 13(11): 6440. https://doi.org/10.3390/app13116440."
+              },
+              {
+                "ref-fulltext": "Lin ML, Chung CF, Jeng FS. Deformation of overburden soil induced by thrust fault slip. Engineering Geology 2006; 88(1-2): 70-89. https://doi.org/10.1016/j.enggeo.2006.08.004.",
+                "@reference-instance-id": "OB2BibRecID-971517669-9a88645b6d5cf0e6fac5648e660424c9-12",
+                "@id": "12",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2006"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Deformation of overburden soil induced by thrust fault slip"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.enggeo.2006.08.004",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib12",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "33750833480",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "88",
+                      "@issue": "1-2"
+                    },
+                    "pagerange": {
+                      "@first": "70",
+                      "@last": "89"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Lin",
+                        "ce:indexed-name": "Lin M.L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Chung",
+                        "ce:indexed-name": "Chung C.F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "F.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Jeng",
+                        "ce:indexed-name": "Jeng F.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Eng Geol"
+                },
+                "ce:source-text": "Lin ML, Chung CF, Jeng FS. Deformation of overburden soil induced by thrust fault slip. Engineering Geology 2006; 88(1-2): 70-89. https://doi.org/10.1016/j.enggeo.2006.08.004."
+              },
+              {
+                "ref-fulltext": "Chang YY, Lee CJ, Huang WC, Huang WY, Huang WJ, Lin ML, et al. Evolution of the surface deformation profile and subsurface distortion zone during reverse faulting through overburden sand. Engineering Geology 2015; 184: 52-70. https://doi.org/10.1016/j.enggeo.2014.10.023.",
+                "@reference-instance-id": "OB2BibRecID-971517669-40658724ae6b53ed4802d89fd8a46207-13",
+                "@id": "13",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Evolution of the surface deformation profile and subsurface distortion zone during reverse faulting through overburden sand"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.enggeo.2014.10.023",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib13",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84910674566",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "184"
+                    },
+                    "pagerange": {
+                      "@first": "52",
+                      "@last": "70"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Chang",
+                        "ce:indexed-name": "Chang Y.Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee C.J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "W.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang W.C."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "W.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang W.Y."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "W.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang W.J."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "M.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Lin",
+                        "ce:indexed-name": "Lin M.L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Eng Geol"
+                },
+                "ce:source-text": "Chang YY, Lee CJ, Huang WC, Huang WY, Huang WJ, Lin ML, et al. Evolution of the surface deformation profile and subsurface distortion zone during reverse faulting through overburden sand. Engineering Geology 2015; 184: 52-70. https://doi.org/10.1016/j.enggeo.2014.10.023."
+              },
+              {
+                "ref-fulltext": "Roth WH, Scott RF, Austin I. Centrifuge modeling of fault propagation through alluvial soils. Geophysical Research Letters 1981; 8(6): 561-564. https://doi.org/10.1029/gl008i006p00561.",
+                "@reference-instance-id": "OB2BibRecID-971517669-f6286050a0874eed0130521130a706d7-14",
+                "@id": "14",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1981"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Centrifuge modeling of fault propagation through alluvial soils"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1029/gl008i006p00561",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib14",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0344511621",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "8",
+                      "@issue": "6"
+                    },
+                    "pagerange": {
+                      "@first": "561",
+                      "@last": "564"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Roth",
+                        "ce:indexed-name": "Roth W.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Scott",
+                        "ce:indexed-name": "Scott R.F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "I.",
+                        "@_fa": "true",
+                        "ce:surname": "Austin",
+                        "ce:indexed-name": "Austin I."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geophys Res Lett"
+                },
+                "ce:source-text": "Roth WH, Scott RF, Austin I. Centrifuge modeling of fault propagation through alluvial soils. Geophysical Research Letters 1981; 8(6): 561-564. https://doi.org/10.1029/gl008i006p00561."
+              },
+              {
+                "ref-fulltext": "Bransby M, Davies M, EI Nahas A, Nagaoka S. Centrifuge modelling of reverse fault-foundation interaction. Bulletin of Earthquake Engineering 2008; 6(4): 607-628. https://doi.org/10.1007/s10518-008-9080-7.",
+                "@reference-instance-id": "OB2BibRecID-971517669-63fa8faa74973eaac9e8ee6a20f58083-15",
+                "@id": "15",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2008"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Centrifuge modelling of reverse fault-foundation interaction"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1007/s10518-008-9080-7",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib15",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "55849093584",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "6",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "607",
+                      "@last": "628"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Bransby",
+                        "ce:indexed-name": "Bransby M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Davies",
+                        "ce:indexed-name": "Davies M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Ei Nahas",
+                        "ce:indexed-name": "Ei Nahas A."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Nagaoka",
+                        "ce:indexed-name": "Nagaoka S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Bull Earthq Eng"
+                },
+                "ce:source-text": "Bransby M, Davies M, EI Nahas A, Nagaoka S. Centrifuge modelling of reverse fault-foundation interaction. Bulletin of Earthquake Engineering 2008; 6(4): 607-628. https://doi.org/10.1007/s10518-008-9080-7."
+              },
+              {
+                "ref-fulltext": "Ahmed W, Bransby MF. Interaction of Shallow Foundations with Reverse Faults. Journal of Geotechnical and Geoenvironmental Engineering 2009; 135(7): 914-924. https://doi.org/10.1061/(asce)gt.1943-5606.0000072.",
+                "@reference-instance-id": "OB2BibRecID-971517669-b621ee24bdb59720be9937248cb5edfb-16",
+                "@id": "16",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Interaction of shallow foundations with reverse faults"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1061/(asce)gt.1943-5606.0000072",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib16",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "67649240261",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "135",
+                      "@issue": "7"
+                    },
+                    "pagerange": {
+                      "@first": "914",
+                      "@last": "924"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Ahmed",
+                        "ce:indexed-name": "Ahmed W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Bransby",
+                        "ce:indexed-name": "Bransby M.F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Geotech Geoenviron Eng"
+                },
+                "ce:source-text": "Ahmed W, Bransby MF. Interaction of Shallow Foundations with Reverse Faults. Journal of Geotechnical and Geoenvironmental Engineering 2009; 135(7): 914-924. https://doi.org/10.1061/(asce)gt.1943-5606.0000072."
+              },
+              {
+                "ref-fulltext": "Yao CF, Takemura J. Using laser displacement transducer scanning technique in centrifuge modeling of reverse fault-foundation interaction. Soil Dynamics and Earthquake Engineering 2019; 121: 219-232. https://doi.org/10.1016/j.soildyn.2019.03.018.",
+                "@reference-instance-id": "OB2BibRecID-971517669-9d7bbb193e9900e418e92e50921bb708-17",
+                "@id": "17",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Using laser displacement transducer scanning technique in centrifuge modeling of reverse fault-foundation interaction"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.soildyn.2019.03.018",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib17",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85063355824",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "121"
+                    },
+                    "pagerange": {
+                      "@first": "219",
+                      "@last": "232"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Yao",
+                        "ce:indexed-name": "Yao C.F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Takemura",
+                        "ce:indexed-name": "Takemura J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dynam Earthq Eng"
+                },
+                "ce:source-text": "Yao CF, Takemura J. Using laser displacement transducer scanning technique in centrifuge modeling of reverse fault-foundation interaction. Soil Dynamics and Earthquake Engineering 2019; 121: 219-232. https://doi.org/10.1016/j.soildyn.2019.03.018."
+              },
+              {
+                "ref-fulltext": "Baziar MH, Nabizadeh A, Lee CJ, Hung WY. Centrifuge modeling of interaction between reverse faulting and tunnel. Soil Dynamics and Earthquake Engineering 2014; 65: 151-164. https://doi.org/10.1016/j.soildyn.2014.04.008.",
+                "@reference-instance-id": "OB2BibRecID-971517669-1087f59c22bc2269549eebaf249dbcbe-18",
+                "@id": "18",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Centrifuge modeling of interaction between reverse faulting and tunnel"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.soildyn.2014.04.008",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib18",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84903840123",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "65"
+                    },
+                    "pagerange": {
+                      "@first": "151",
+                      "@last": "164"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Baziar",
+                        "ce:indexed-name": "Baziar M.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Nabizadeh",
+                        "ce:indexed-name": "Nabizadeh A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee C.J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "W.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Hung",
+                        "ce:indexed-name": "Hung W.Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dynam Earthq Eng"
+                },
+                "ce:source-text": "Baziar MH, Nabizadeh A, Lee CJ, Hung WY. Centrifuge modeling of interaction between reverse faulting and tunnel. Soil Dynamics and Earthquake Engineering 2014; 65: 151-164. https://doi.org/10.1016/j.soildyn.2014.04.008."
+              },
+              {
+                "ref-fulltext": "Nabizadeh A, Mojtahedi AS. Centrifuge modeling of normal faulting and underground tunnel in sandy soil deposit. Soils and Rocks 2021; 44(2): e2021059520. https://doi.org/10.28927/sr.2021.059520.",
+                "@reference-instance-id": "OB2BibRecID-971517669-9851dc46842c39466e827718849633e6-19",
+                "@id": "19",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Centrifuge modeling of normal faulting and underground tunnel in sandy soil deposit"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.28927/sr.2021.059520",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib19",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "e2021059520",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85145861102",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "44",
+                      "@issue": "2"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Nabizadeh",
+                        "ce:indexed-name": "Nabizadeh A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Mojtahedi",
+                        "ce:indexed-name": "Mojtahedi A.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soils and Rocks"
+                },
+                "ce:source-text": "Nabizadeh A, Mojtahedi AS. Centrifuge modeling of normal faulting and underground tunnel in sandy soil deposit. Soils and Rocks 2021; 44(2): e2021059520. https://doi.org/10.28927/sr.2021.059520."
+              },
+              {
+                "ref-fulltext": "Brace WF, Byerlee JD. Stick-slip as a mechanism for earthquakes. Science 1996; 153(3739): 990-992. https://doi.org/10.1126/science.153.3739.990.",
+                "@reference-instance-id": "OB2BibRecID-971517669-cdaeefbc3753645a6f4cabd96a8875a7-20",
+                "@id": "20",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1996"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Stick-slip as a mechanism for earthquakes"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1126/science.153.3739.990",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib20",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0000339387",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "153",
+                      "@issue": "3739"
+                    },
+                    "pagerange": {
+                      "@first": "990",
+                      "@last": "992"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Brace",
+                        "ce:indexed-name": "Brace W.F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Byerlee",
+                        "ce:indexed-name": "Byerlee J.D."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Science"
+                },
+                "ce:source-text": "Brace WF, Byerlee JD. Stick-slip as a mechanism for earthquakes. Science 1996; 153(3739): 990-992. https://doi.org/10.1126/science.153.3739.990."
+              },
+              {
+                "ref-fulltext": "Ben-David O, Rubinstein SM, Fineberg J. Slip-stick and the evolution of frictional strength. Nature 2010; 463(7277): 76-79. https://doi.org/10.1038/nature08676.",
+                "@reference-instance-id": "OB2BibRecID-971517669-699e4e4cd1322929ec7c333eeeb90712-21",
+                "@id": "21",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Slip-stick and the evolution of frictional strength"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1038/nature08676",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib21",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "73849084574",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "463",
+                      "@issue": "7277"
+                    },
+                    "pagerange": {
+                      "@first": "76",
+                      "@last": "79"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "O.",
+                        "@_fa": "true",
+                        "ce:surname": "Ben-David",
+                        "ce:indexed-name": "Ben-David O."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Rubinstein",
+                        "ce:indexed-name": "Rubinstein S.M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Fineberg",
+                        "ce:indexed-name": "Fineberg J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Nature"
+                },
+                "ce:source-text": "Ben-David O, Rubinstein SM, Fineberg J. Slip-stick and the evolution of frictional strength. Nature 2010; 463(7277): 76-79. https://doi.org/10.1038/nature08676."
+              },
+              {
+                "ref-fulltext": "Nasuno S, Kudrolli A, Bak A, Gollub JP. Time-resolved studies of stick-slip friction in sheared granular layers. Physical Review 1998; 58(2): 2161-2171. https://doi.org/10.1103/physreve.58.2161.",
+                "@reference-instance-id": "OB2BibRecID-971517669-1c5c6125f53266f281248998f56b7e33-22",
+                "@id": "22",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1998"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Time-resolved studies of stick-slip friction in sheared granular layers"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1103/physreve.58.2161",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib22",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0000805959",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "58",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "2161",
+                      "@last": "2171"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Nasuno",
+                        "ce:indexed-name": "Nasuno S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Kudrolli",
+                        "ce:indexed-name": "Kudrolli A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Bak",
+                        "ce:indexed-name": "Bak A."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Gollub",
+                        "ce:indexed-name": "Gollub J.P."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Phys Rev"
+                },
+                "ce:source-text": "Nasuno S, Kudrolli A, Bak A, Gollub JP. Time-resolved studies of stick-slip friction in sheared granular layers. Physical Review 1998; 58(2): 2161-2171. https://doi.org/10.1103/physreve.58.2161."
+              },
+              {
+                "ref-fulltext": "Mair K, Frye KM, Marone C. Influence of grain characteristics on the friction of granular shear zones. Journal of Geophysical Research-Solid Earth 2002; 107(B10): 2219. https://doi.org/10.1029/2001jb000516.",
+                "@reference-instance-id": "OB2BibRecID-971517669-e08f67547da01112b67e7cc758d15b96-23",
+                "@id": "23",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2002"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Influence of grain characteristics on the friction of granular shear zones"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1029/2001jb000516",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib23",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0037058215",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "107",
+                      "@issue": "B10"
+                    },
+                    "pagerange": {
+                      "@first": "2219"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Mair",
+                        "ce:indexed-name": "Mair K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Frye",
+                        "ce:indexed-name": "Frye K.M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Marone",
+                        "ce:indexed-name": "Marone C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Geophys Res Solid Earth"
+                },
+                "ce:source-text": "Mair K, Frye KM, Marone C. Influence of grain characteristics on the friction of granular shear zones. Journal of Geophysical Research-Solid Earth 2002; 107(B10): 2219. https://doi.org/10.1029/2001jb000516."
+              },
+              {
+                "ref-fulltext": "Anthony JL, Marone C. Influence of particle characteristics on granular friction. Journal of Geophysical Research-Solid Earth 2005; 110(B8): B08409. https://doi.org/10.1029/2004jb003399.",
+                "@reference-instance-id": "OB2BibRecID-971517669-b555ab4ca0e2b3097350c75f99154890-24",
+                "@id": "24",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2005"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Influence of particle characteristics on granular friction"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1029/2004jb003399",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib24",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "B08409",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "26844445550",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "110",
+                      "@issue": "B8"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Anthony",
+                        "ce:indexed-name": "Anthony J.L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Marone",
+                        "ce:indexed-name": "Marone C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Geophys Res Solid Earth"
+                },
+                "ce:source-text": "Anthony JL, Marone C. Influence of particle characteristics on granular friction. Journal of Geophysical Research-Solid Earth 2005; 110(B8): B08409. https://doi.org/10.1029/2004jb003399."
+              },
+              {
+                "ref-fulltext": "Okubo PG, Dieterich JH. Effects of physical fault properties on frictional instabilities produced on simulated faults. Journal of Geophysical Research 1984; 89(NB7): 5817-5827. https://doi.org/10.1029/jb089ib07p05817.",
+                "@reference-instance-id": "OB2BibRecID-971517669-e3fa993dc56d6b66675f9f72edee1380-25",
+                "@id": "25",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1984"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effects of physical fault properties on frictional instabilities produced on simulated faults"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1029/jb089ib07p05817",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib25",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0021613970",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "89",
+                      "@issue": "NB7"
+                    },
+                    "pagerange": {
+                      "@first": "5817",
+                      "@last": "5827"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Okubo",
+                        "ce:indexed-name": "Okubo P.G."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Dieterich",
+                        "ce:indexed-name": "Dieterich J.H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J Geophys Res"
+                },
+                "ce:source-text": "Okubo PG, Dieterich JH. Effects of physical fault properties on frictional instabilities produced on simulated faults. Journal of Geophysical Research 1984; 89(NB7): 5817-5827. https://doi.org/10.1029/jb089ib07p05817."
+              },
+              {
+                "ref-fulltext": "Zhang C, Zhu ZD, Dai L, Wang SY, Shi C. The incompatible deformation mechanism of underground tunnels crossing fault conditions in the southwest edge strong seismic zone of the Qinghai-Tibet Plateau: A study of shaking table test. Soil Dynamics and Earthquake Engineering 2025; 197: 109482. https://doi.org/10.1016/j.soildyn.2025.109482.",
+                "@reference-instance-id": "OB2BibRecID-971517669-825a0c93ae7f3e6abad2563b2efd5532-26",
+                "@id": "26",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2025"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The incompatible deformation mechanism of underground tunnels crossing fault conditions in the southwest edge strong seismic zone of the Qinghai-Tibet Plateau: a study of shaking table test"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.soildyn.2025.109482",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib26",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "109482",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "105008649212",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "197"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhu",
+                        "ce:indexed-name": "Zhu Z.D."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "L.",
+                        "@_fa": "true",
+                        "ce:surname": "Dai",
+                        "ce:indexed-name": "Dai L."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "S.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang S.Y."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Shi",
+                        "ce:indexed-name": "Shi C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dynam Earthq Eng"
+                },
+                "ce:source-text": "Zhang C, Zhu ZD, Dai L, Wang SY, Shi C. The incompatible deformation mechanism of underground tunnels crossing fault conditions in the southwest edge strong seismic zone of the Qinghai-Tibet Plateau: A study of shaking table test. Soil Dynamics and Earthquake Engineering 2025; 197: 109482. https://doi.org/10.1016/j.soildyn.2025.109482."
+              },
+              {
+                "ref-fulltext": "Mei XC, Ding CD, Li JH, Lou B, Cui Z, Xu MN, Sheng Q, Song YJ, Chen J. The response characteristics of fault-crossing tunnel subjected to different sequential combination actions of strike-slip fault dislocation and seismic wave propagation. Soil Dynamics and Earthquake Engineering 2025; 198: 109653. https://doi.org/10.1016/j.soildyn.2025.109653.",
+                "@reference-instance-id": "OB2BibRecID-971517669-1c6213ae10513226e334607a0765f88d-27",
+                "@id": "27",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2025"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The response characteristics of fault-crossing tunnel subjected to different sequential combination actions of strike-slip fault dislocation and seismic wave propagation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.soildyn.2025.109653",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib27",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "109653",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "105009698964",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "198"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Mei",
+                        "ce:indexed-name": "Mei X.C."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Ding",
+                        "ce:indexed-name": "Ding C.D."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li J.H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Lou",
+                        "ce:indexed-name": "Lou B."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Cui",
+                        "ce:indexed-name": "Cui Z."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "M.N.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu M.N."
+                      },
+                      {
+                        "@seq": "7",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Sheng",
+                        "ce:indexed-name": "Sheng Q."
+                      },
+                      {
+                        "@seq": "8",
+                        "ce:initials": "Y.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Song",
+                        "ce:indexed-name": "Song Y.J."
+                      },
+                      {
+                        "@seq": "9",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dynam Earthq Eng"
+                },
+                "ce:source-text": "Mei XC, Ding CD, Li JH, Lou B, Cui Z, Xu MN, Sheng Q, Song YJ, Chen J. The response characteristics of fault-crossing tunnel subjected to different sequential combination actions of strike-slip fault dislocation and seismic wave propagation. Soil Dynamics and Earthquake Engineering 2025; 198: 109653. https://doi.org/10.1016/j.soildyn.2025.109653."
+              },
+              {
+                "ref-fulltext": "Fang H. Construction of Chongqing Tunnel in the Middle Route Project of South-to-North Water Diversion. Yangtze River 2008; 39(8): 36-38. (in Chinese). https://doi.org/10.16232/j.cnki.1001-4179.2008.08.016.",
+                "@reference-instance-id": "OB2BibRecID-971517669-ae11acd62cf32215afe19b3dfdd8ffa6-28",
+                "@id": "28",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2008"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Construction of chongqing tunnel in the middle route project of south-to-north water diversion"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.16232/j.cnki.1001-4179.2008.08.016",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib28",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105029057694",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "39",
+                      "@issue": "8"
+                    },
+                    "pagerange": {
+                      "@first": "36",
+                      "@last": "38"
+                    }
+                  },
+                  "ref-text": "(in Chinese)",
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Fang",
+                        "ce:indexed-name": "Fang H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Yangtze River"
+                },
+                "ce:source-text": "Fang H. Construction of Chongqing Tunnel in the Middle Route Project of South-to-North Water Diversion. Yangtze River 2008; 39(8): 36-38. (in Chinese). https://doi.org/10.16232/j.cnki.1001-4179.2008.08.016."
+              },
+              {
+                "ref-fulltext": "Tali N, Lashkaripour GR, Moghadas NH, Ghalandarzadeh A. Centrifuge modeling of reverse fault rupture propagation through single-layered and stratified soil. Engineering Geology 2019;249: 273-289. https://doi.org/10.1016/j.enggeo.2018.12.021",
+                "@reference-instance-id": "OB2BibRecID-971517669-6337b0a025c8440156e6338b8dbbc5d3-29",
+                "@id": "29",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Centrifuge modeling of reverse fault rupture propagation through single-layered and stratified soil"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.enggeo.2018.12.021",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib29",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85059917346",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "249"
+                    },
+                    "pagerange": {
+                      "@first": "273",
+                      "@last": "289"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "N.",
+                        "@_fa": "true",
+                        "ce:surname": "Tali",
+                        "ce:indexed-name": "Tali N."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Lashkaripour",
+                        "ce:indexed-name": "Lashkaripour G.R."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "N.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Moghadas",
+                        "ce:indexed-name": "Moghadas N.H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Ghalandarzadeh",
+                        "ce:indexed-name": "Ghalandarzadeh A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Eng Geol"
+                },
+                "ce:source-text": "Tali N, Lashkaripour GR, Moghadas NH, Ghalandarzadeh A. Centrifuge modeling of reverse fault rupture propagation through single-layered and stratified soil. Engineering Geology 2019;249: 273-289. https://doi.org/10.1016/j.enggeo.2018.12.021"
+              },
+              {
+                "ref-fulltext": "Lu SS, Xu H, Wang LG, Liu SD, Zhao DX, Nie W. Effect of flexibility ratio on seismic response of rectangular tunnels in sand: Experimental and numerical investigation. Soil Dynamics and Earthquake Engineering 2022; 157: 107256. https://doi.org/10.1016/j.soildyn.2022.107256.",
+                "@reference-instance-id": "OB2BibRecID-971517669-6bd495b2fcf8b37181f92650e5d1dda7-30",
+                "@id": "30",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of flexibility ratio on seismic response of rectangular tunnels in sand: experimental and numerical investigation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1016/j.soildyn.2022.107256",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib30",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "107256",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85126533853",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "157"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Lu",
+                        "ce:indexed-name": "Lu S.S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "L.G.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang L.G."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "S.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu S.D."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "D.X.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao D.X."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Nie",
+                        "ce:indexed-name": "Nie W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soil Dynam Earthq Eng"
+                },
+                "ce:source-text": "Lu SS, Xu H, Wang LG, Liu SD, Zhao DX, Nie W. Effect of flexibility ratio on seismic response of rectangular tunnels in sand: Experimental and numerical investigation. Soil Dynamics and Earthquake Engineering 2022; 157: 107256. https://doi.org/10.1016/j.soildyn.2022.107256."
+              },
+              {
+                "ref-fulltext": "Wells DL, Coppersmith KJ. New empirical relationships among magnitude, rupture length, rupture width, rupture area, and surface displacement. Bulletin of the Seismological Society of America 1994; 84(4): 974-1002. https://doi.org/10.1785/bssa0840040974.",
+                "@reference-instance-id": "OB2BibRecID-971517669-9aafb7032b06b01dc50c6a75c7c5f0ec-31",
+                "@id": "31",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "1994"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "New empirical relationships among magnitude, rupture length, rupture width, rupture area, and surface displacement"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1785/bssa0840040974",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib31",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "0028555013",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "84",
+                      "@issue": "4"
+                    },
+                    "pagerange": {
+                      "@first": "974",
+                      "@last": "1002"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "D.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Wells",
+                        "ce:indexed-name": "Wells D.L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "K.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Coppersmith",
+                        "ce:indexed-name": "Coppersmith K.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Bull Seismol Soc Am"
+                },
+                "ce:source-text": "Wells DL, Coppersmith KJ. New empirical relationships among magnitude, rupture length, rupture width, rupture area, and surface displacement. Bulletin of the Seismological Society of America 1994; 84(4): 974-1002. https://doi.org/10.1785/bssa0840040974."
+              },
+              {
+                "ref-fulltext": "Wang HT, Sun HY, He Y, Su P. Stick-slip behaviour of mortar-rock interface under high loading rate. Proceedings of the Institution of Civil Engineers-Geotechnical Engineering 2021; 174(1): 19-32. https://doi.org/10.1680/jgeen.19.00235.",
+                "@reference-instance-id": "OB2BibRecID-971517669-071c5b0682b82e8853a9ccb1b11ad9ff-32",
+                "@id": "32",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Stick-slip behaviour of mortar-rock interface under high loading rate"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "10.1680/jgeen.19.00235",
+                        "@idtype": "DOI"
+                      },
+                      {
+                        "$": "bib32",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85100877762",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "174",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "19",
+                      "@last": "32"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.T.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang H.T."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Sun",
+                        "ce:indexed-name": "Sun H.Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "He",
+                        "ce:indexed-name": "He Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Su",
+                        "ce:indexed-name": "Su P."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Proc Inst Civ Eng Geotech Eng"
+                },
+                "ce:source-text": "Wang HT, Sun HY, He Y, Su P. Stick-slip behaviour of mortar-rock interface under high loading rate. Proceedings of the Institution of Civil Engineers-Geotechnical Engineering 2021; 174(1): 19-32. https://doi.org/10.1680/jgeen.19.00235."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "affiliation": [
+      {
+        "affiliation-city": "Shanghai",
+        "@id": "60073652",
+        "affilname": "Tongji University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073652",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Shanghai",
+        "@id": "60129231",
+        "affilname": "State Key Laboratory of Disaster Reduction in Civil Engineering",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60129231",
+        "affiliation-country": "China"
+      }
+    ],
+    "coredata": {
+      "srctype": "j",
+      "eid": "2-s2.0-105029051075",
+      "dc:description": "In high seismic intensity area, the stick-slip behavior of active faults often leads to severe damage in tunnels crossing the faults. However, fault stick-slip has not yet been effectively simulated in large-scale model experiments. This study developed a centrifuge-based fault simulator with surface treatments on the fault model to achieve the fault locking-rupture process under stick-slip seismic mechanisms. The failure mechanisms were further investigated and validated through complementary numerical simulations. Centrifuge model tests on tunnel failure mechanisms were conducted under reverse fault stick-slip across six slip velocities. Both experimental and numerical results reveal that fault slip induces the formation of a trishear deformation zone within the overburden soil, which experiences the most significant deformation. The tunnel exhibits a three-section failure mechanism. The left fracture, located near the extension of fault plane, is characterized by compacted rupture surfaces and an orientation nearly perpendicular to the horizontal plane, caused by combined tensile-shear and compressive-shear action. In contrast, the right fracture occurs near the right boundary of the trishear deformation zone, displaying an inclination of approximately 42° to the horizontal, caused by tensile-shear action. Numerical analysis further quantified the influence of slip velocity on the damage intensity. Therefore, the trishear deformation zone induced by fault stick-slip constitutes a critical zone for potential tunnel failure, warranting focused consideration in seismic isolation design.",
+      "prism:coverDate": "2026-04-01",
+      "prism:aggregationType": "Journal",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105029051075",
+      "subtypeDescription": "Article",
+      "dc:creator": {
+        "author": [
+          {
+            "ce:given-name": "Chongqiang",
+            "preferred-name": {
+              "ce:given-name": "Chongqiang",
+              "ce:initials": "C.",
+              "ce:surname": "Zhu",
+              "ce:indexed-name": "Zhu C."
+            },
+            "@seq": "1",
+            "ce:initials": "C.",
+            "@_fa": "true",
+            "affiliation": [
+              {
+                "@id": "60073652",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073652"
+              },
+              {
+                "@id": "60129231",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60129231"
+              }
+            ],
+            "ce:surname": "Zhu",
+            "@auid": "56183424800",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56183424800",
+            "ce:indexed-name": "Zhu C."
+          }
+        ]
+      },
+      "link": [
+        {
+          "@_fa": "true",
+          "@rel": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/105029051075"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105029051075&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105029051075&origin=inward"
+        }
+      ],
+      "prism:publicationName": "Soil Dynamics and Earthquake Engineering",
+      "source-id": "28960",
+      "pii": "S0267726126000667",
+      "citedby-count": "0",
+      "prism:volume": "203",
+      "subtype": "ar",
+      "dc:title": "Failure mechanism of tunnels subjected to stick-slip behavior of reverse fault using centrifuge model tests",
+      "openaccess": "0",
+      "openaccessFlag": "false",
+      "prism:doi": "10.1016/j.soildyn.2026.110154",
+      "prism:issn": "02677261",
+      "publishercopyright": "Copyright © 2026. Published by Elsevier Ltd.",
+      "article-number": "110154",
+      "dc:identifier": "SCOPUS_ID:105029051075",
+      "dc:publisher": "Elsevier Ltd"
+    },
+    "idxterms": {
+      "mainterm": [
+        {
+          "$": "Centrifuge model test",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Deformation zone",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Failure mechanism",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Fault stick-slip",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Reverse faults",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Shear action",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Slip velocity",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Stick-slip behavior",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Tensile shears",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Trishear",
+          "@weight": "b",
+          "@candidate": "n"
+        }
+      ]
+    },
+    "language": {
+      "@xml:lang": "eng"
+    },
+    "authkeywords": {
+      "author-keyword": [
+        {
+          "@_fa": "true",
+          "$": "Centrifuge model test"
+        },
+        {
+          "@_fa": "true",
+          "$": "failure mechanism"
+        },
+        {
+          "@_fa": "true",
+          "$": "fault stick-slip"
+        },
+        {
+          "@_fa": "true",
+          "$": "Reverse fault"
+        },
+        {
+          "@_fa": "true",
+          "$": "Tunnel"
+        }
+      ]
+    },
+    "subject-areas": {
+      "subject-area": [
+        {
+          "@_fa": "true",
+          "$": "Civil and Structural Engineering",
+          "@code": "2205",
+          "@abbrev": "ENGI"
+        },
+        {
+          "@_fa": "true",
+          "$": "Geotechnical Engineering and Engineering Geology",
+          "@code": "1909",
+          "@abbrev": "EART"
+        },
+        {
+          "@_fa": "true",
+          "$": "Soil Science",
+          "@code": "1111",
+          "@abbrev": "AGRI"
+        }
+      ]
+    },
+    "authors": {
+      "author": [
+        {
+          "ce:given-name": "Chongqiang",
+          "preferred-name": {
+            "ce:given-name": "Chongqiang",
+            "ce:initials": "C.",
+            "ce:surname": "Zhu",
+            "ce:indexed-name": "Zhu C."
+          },
+          "@seq": "1",
+          "ce:initials": "C.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "60073652",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073652"
+            },
+            {
+              "@id": "60129231",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60129231"
+            }
+          ],
+          "ce:surname": "Zhu",
+          "@auid": "56183424800",
+          "author-url": "https://api.elsevier.com/content/author/author_id/56183424800",
+          "ce:indexed-name": "Zhu C."
+        },
+        {
+          "ce:given-name": "Peixiao",
+          "preferred-name": {
+            "ce:given-name": "Peixiao",
+            "ce:initials": "P.",
+            "ce:surname": "Duan",
+            "ce:indexed-name": "Duan P."
+          },
+          "@seq": "2",
+          "ce:initials": "P.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60073652",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073652"
+          },
+          "ce:surname": "Duan",
+          "@auid": "60364596100",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60364596100",
+          "ce:indexed-name": "Duan P."
+        },
+        {
+          "ce:given-name": "Zhiming",
+          "preferred-name": {
+            "ce:given-name": "Zhiming",
+            "ce:initials": "Z.",
+            "ce:surname": "Peng",
+            "ce:indexed-name": "Peng Z."
+          },
+          "@seq": "3",
+          "ce:initials": "Z.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60073652",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073652"
+          },
+          "ce:surname": "Peng",
+          "@auid": "60364674400",
+          "author-url": "https://api.elsevier.com/content/author/author_id/60364674400",
+          "ce:indexed-name": "Peng Z."
+        },
+        {
+          "ce:given-name": "Yu",
+          "preferred-name": {
+            "ce:given-name": "Yu",
+            "ce:initials": "Y.",
+            "ce:surname": "Huang",
+            "ce:indexed-name": "Huang Y."
+          },
+          "@seq": "4",
+          "ce:initials": "Y.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "60073652",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073652"
+            },
+            {
+              "@id": "60129231",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60129231"
+            }
+          ],
+          "ce:surname": "Huang",
+          "@auid": "57204857931",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57204857931",
+          "ce:indexed-name": "Huang Y."
+        },
+        {
+          "ce:given-name": "Zhiyi",
+          "preferred-name": {
+            "ce:given-name": "Zhiyi",
+            "ce:initials": "Z.",
+            "ce:surname": "Chen",
+            "ce:indexed-name": "Chen Z."
+          },
+          "@seq": "5",
+          "ce:initials": "Z.",
+          "@_fa": "true",
+          "affiliation": [
+            {
+              "@id": "60073652",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073652"
+            },
+            {
+              "@id": "60129231",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60129231"
+            }
+          ],
+          "ce:surname": "Chen",
+          "@auid": "55916976800",
+          "author-url": "https://api.elsevier.com/content/author/author_id/55916976800",
+          "ce:indexed-name": "Chen Z."
+        }
+      ]
+    }
+  }
+}

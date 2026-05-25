@@ -1,0 +1,3683 @@
+{
+  "abstracts-retrieval-response": {
+    "item": {
+      "ait:process-info": {
+        "ait:status": {
+          "@state": "update",
+          "@type": "core",
+          "@stage": "S300"
+        },
+        "ait:date-delivered": {
+          "@day": "23",
+          "@timestamp": "2024-07-23T14:23:19.000019-04:00",
+          "@year": "2024",
+          "@month": "07"
+        },
+        "ait:date-sort": {
+          "@day": "15",
+          "@year": "2024",
+          "@month": "09"
+        }
+      },
+      "xocs:meta": {
+        "xocs:funding-list": {
+          "@pui-match": "primary",
+          "@has-funding-info": "1",
+          "xocs:funding": [
+            {
+              "xocs:funding-agency-matched-string": "Special Foundation of Postdoctoral support program, Chongqing"
+            },
+            {
+              "xocs:funding-agency-matched-string": "National Natural Science Foundation of China",
+              "xocs:funding-agency-acronym": "NSFC",
+              "xocs:funding-agency": "National Natural Science Foundation of China",
+              "xocs:funding-id": "52278396",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Natural Science Foundation of Chongqing , China",
+              "xocs:funding-agency": "Natural Science Foundation of Chongqing Municipality",
+              "xocs:funding-id": "CSTB2023NSCQ-MSX0583",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100005230",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "China Postdoctoral Science Foundation",
+              "xocs:funding-agency": "China Postdoctoral Science Foundation",
+              "xocs:funding-id": "2023T160766",
+              "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100002858",
+              "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            {
+              "xocs:funding-agency-matched-string": "Special Foundation of Postdoctoral support program , Chongqing",
+              "xocs:funding-id": "2022CQBSHTB3006"
+            }
+          ],
+          "xocs:funding-addon-generated-timestamp": "2024-10-09T06:29:18.135Z",
+          "xocs:funding-text": "The work presented in this paper was sponsored by the National Natural Science Foundation of China (Grant No. 52278396 ), Natural Science Foundation of Chongqing , China ( CSTB2023NSCQ-MSX0583 ), China Postdoctoral Science Foundation , Special Fund (Grant No. 2023T160766 ), Special Foundation of Postdoctoral support program , Chongqing (Grant No. 2022CQBSHTB3006 ).",
+          "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }
+      },
+      "bibrecord": {
+        "head": {
+          "author-group": [
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "400045",
+                "@afid": "60023380",
+                "@country": "chn",
+                "city": "Chongqing",
+                "organization": [
+                  {
+                    "$": "School of Civil Engineering"
+                  },
+                  {
+                    "$": "Chongqing University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60023380"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-957720339-7f4d2e6fe2be41ca939a0e0035734ac3-1",
+                "ce:source-text": "School of Civil Engineering, Chongqing University, Chongqing, 400045, China"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Yachen",
+                  "preferred-name": {
+                    "ce:given-name": "Yachen",
+                    "ce:initials": "Y.",
+                    "ce:surname": "Guo",
+                    "ce:indexed-name": "Guo Y."
+                  },
+                  "@author-instance-id": "OB2BibRecID-957720339-4f3e34d66fad354d411900fb908e982a-1",
+                  "@seq": "1",
+                  "ce:initials": "Y.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Guo",
+                  "@auid": "59224752900",
+                  "ce:indexed-name": "Guo Y."
+                },
+                {
+                  "ce:given-name": "Chenglong",
+                  "preferred-name": {
+                    "ce:given-name": "Chenglong",
+                    "ce:initials": "C.",
+                    "ce:surname": "Wang",
+                    "ce:indexed-name": "Wang C."
+                  },
+                  "@author-instance-id": "OB2BibRecID-957720339-8b0b1d09be652a0a1c4089a1ca98a08d-1",
+                  "@seq": "2",
+                  "ce:initials": "C.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Wang",
+                  "@auid": "57190132465",
+                  "ce:indexed-name": "Wang C."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "Australia",
+                "address-part": "23 College Walk",
+                "postal-code": "3800",
+                "@afid": "60019578",
+                "@country": "aus",
+                "city": "Clayton",
+                "organization": [
+                  {
+                    "$": "Department of Civil Engineering"
+                  },
+                  {
+                    "$": "Monash University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60019578",
+                  "@dptid": "113645216"
+                },
+                "state": "VIC",
+                "@affiliation-instance-id": "OB2BibRecID-957720339-28e2d437fd68a30d7633934ca2dac738-1",
+                "ce:source-text": "Department of Civil Engineering, Monash University, 23 College Walk, Clayton, Vic. 3800, Australia",
+                "@dptid": "113645216"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Abdelmalek",
+                  "preferred-name": {
+                    "ce:given-name": "Abdelmalek",
+                    "ce:initials": "A.",
+                    "ce:surname": "Bouazza",
+                    "ce:indexed-name": "Bouazza A."
+                  },
+                  "@author-instance-id": "OB2BibRecID-957720339-b9a55da684e1b0b360a06f630a66a110-1",
+                  "@seq": "3",
+                  "ce:initials": "A.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Bouazza",
+                  "@auid": "6603689963",
+                  "ce:indexed-name": "Bouazza A."
+                }
+              ]
+            },
+            {
+              "affiliation": {
+                "country": "China",
+                "postal-code": "210024",
+                "@afid": "60010851",
+                "@country": "chn",
+                "city": "Nanjing",
+                "organization": [
+                  {
+                    "$": "School of Civil and Transportation Engineering"
+                  },
+                  {
+                    "$": "Hohai University"
+                  }
+                ],
+                "affiliation-id": {
+                  "@afid": "60010851",
+                  "@dptid": "106952339"
+                },
+                "@affiliation-instance-id": "OB2BibRecID-957720339-56c02438a7187756cd428c485a8789b2-1",
+                "ce:source-text": "School of Civil and Transportation Engineering, Hohai University, Nanjing, 210024, China",
+                "@dptid": "106952339"
+              },
+              "author": [
+                {
+                  "ce:given-name": "Honglin",
+                  "preferred-name": {
+                    "ce:given-name": "Honglin",
+                    "ce:initials": "H.",
+                    "ce:surname": "Chang",
+                    "ce:indexed-name": "Chang H."
+                  },
+                  "@author-instance-id": "OB2BibRecID-957720339-5abfcccc2867a22113565fd5acd415ba-1",
+                  "@seq": "4",
+                  "ce:initials": "H.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Chang",
+                  "@auid": "58534089200",
+                  "ce:indexed-name": "Chang H."
+                },
+                {
+                  "ce:given-name": "Gangqiang",
+                  "preferred-name": {
+                    "ce:given-name": "Gangqiang",
+                    "ce:initials": "G.",
+                    "ce:surname": "Kong",
+                    "ce:indexed-name": "Kong G."
+                  },
+                  "@author-instance-id": "OB2BibRecID-957720339-b6a3331178483bfe87d71ca5e3f4d1d3-1",
+                  "@seq": "5",
+                  "ce:initials": "G.",
+                  "@_fa": "true",
+                  "@type": "auth",
+                  "ce:surname": "Kong",
+                  "@auid": "24066710000",
+                  "ce:indexed-name": "Kong G."
+                }
+              ]
+            }
+          ],
+          "citation-title": "Thermal performance of a full-scale pre-tensioned high strength concrete (PHC) energy pile",
+          "abstracts": "© 2024 Elsevier LtdThis paper examines the thermal performance of pre-tensioned high strength concrete (PHC) energy piles through full-scale experiments. Thermal response tests (TRTs) and thermal performance tests (TPTs) were conducted on a PHC energy pile under different operating modes (continuous mode and intermittent mode) and temperatures (40 °C and 5 °C). The heat transfer efficiency, coefficient of performance (COP), energy efficiency ratio (EER), and temperature variations of the pile and the soil surrounding PHC energy pile were measured and analyzed. The results show that PHC energy piles can be effectively utilized in related energy-efficient buildings as they exhibit high heat exchange efficiency and energy efficiency metrics. As the operating time increases, the heat exchange efficiency and COP gradually decrease. The heat exchange per unit length of the PHC energy pile stabilizes at approximately 81.3 W/m in summer cases, while it stabilizes at approximately 61.9 W/m in winter cases. Moreover, in the intermittent mode, the heat exchange efficiency and EER of the system are approximately 9.2 % and 4.0 % higher than those of the continuous mode, respectively.",
+          "correspondence": {
+            "affiliation": {
+              "country": "China",
+              "postal-code": "400045",
+              "@country": "chn",
+              "city": "Chongqing",
+              "organization": [
+                {
+                  "$": "School of Civil Engineering"
+                },
+                {
+                  "$": "Chongqing University"
+                }
+              ],
+              "@affiliation-instance-id": "OB2BibRecID-957720339-81602e7f829b3e9b6bfbcc9e51c907e1-1"
+            },
+            "person": {
+              "ce:given-name": "Chenglong",
+              "@author-instance-id": "OB2BibRecID-957720339-d9f28931f27cfdd63aba5b1c65b88f85-1",
+              "ce:initials": "C.",
+              "ce:surname": "Wang",
+              "ce:indexed-name": "Wang C."
+            }
+          },
+          "citation-info": {
+            "author-keywords": {
+              "author-keyword": [
+                {
+                  "$": "COP and EER",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Energy pile",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Field test",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "Heat transfer efficiency",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                },
+                {
+                  "$": "PHC pile",
+                  "@xml:lang": "eng",
+                  "@original": "y"
+                }
+              ]
+            },
+            "citation-type": {
+              "@code": "ar"
+            },
+            "citation-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            },
+            "abstract-language": {
+              "@language": "English",
+              "@xml:lang": "eng"
+            }
+          },
+          "source": {
+            "website": {
+              "ce:e-address": {
+                "$": "https://www.sciencedirect.com/science/journal/2352152X",
+                "@type": "email"
+              }
+            },
+            "translated-sourcetitle": {
+              "@xml:lang": "eng"
+            },
+            "volisspag": {
+              "voliss": {
+                "@volume": "98"
+              }
+            },
+            "@type": "j",
+            "part": "Part A",
+            "sourcetitle": "Journal of Energy Storage",
+            "publicationdate": {
+              "month": "09",
+              "year": "2024",
+              "date-text": {
+                "@xfab-added": "true",
+                "$": "15 September 2024"
+              },
+              "day": "15"
+            },
+            "sourcetitle-abbrev": "J. Energy Storage",
+            "@country": "gbr",
+            "issn": {
+              "$": "2352152X",
+              "@type": "electronic"
+            },
+            "publicationyear": {
+              "@first": "2024"
+            },
+            "publisher": {
+              "publishername": "Elsevier Ltd"
+            },
+            "article-number": "112840",
+            "@srcid": "21100400826"
+          },
+          "enhancement": {
+            "classificationgroup": {
+              "classifications": [
+                {
+                  "@type": "CPXCLASS",
+                  "classification": [
+                    {
+                      "classification-code": "408.2",
+                      "classification-description": "Structural Members and Shapes"
+                    },
+                    {
+                      "classification-code": "412",
+                      "classification-description": "Concrete"
+                    },
+                    {
+                      "classification-code": "525.2",
+                      "classification-description": "Energy Conservation"
+                    },
+                    {
+                      "classification-code": "641.2",
+                      "classification-description": "Heat Transfer"
+                    }
+                  ]
+                },
+                {
+                  "@type": "FLXCLASS",
+                  "classification": {
+                    "classification-code": "78.24",
+                    "classification-description": "HEAT EXCHANGE"
+                  }
+                },
+                {
+                  "@type": "ASJC",
+                  "classification": [
+                    {
+                      "$": "2105"
+                    },
+                    {
+                      "$": "2102"
+                    },
+                    {
+                      "$": "2208"
+                    }
+                  ]
+                },
+                {
+                  "@type": "SUBJABBR",
+                  "classification": [
+                    {
+                      "$": "ENER"
+                    },
+                    {
+                      "$": "ENGI"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "grantlist": {
+            "@complete": "y",
+            "grant-text": {
+              "$": "The work presented in this paper was sponsored by the National Natural Science Foundation of China (Grant No. 52278396), Natural Science Foundation of Chongqing, China (CSTB2023NSCQ-MSX0583), China Postdoctoral Science Foundation, Special Fund (Grant No. 2023T160766), Special Foundation of Postdoctoral support program, Chongqing (Grant No. 2022CQBSHTB3006).",
+              "@xml:lang": "eng"
+            },
+            "grant": [
+              {
+                "grant-id": "2023T160766",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "China Postdoctoral Science Foundation"
+                },
+                "grant-agency-id": "501100002858"
+              },
+              {
+                "grant-id": "52278396",
+                "grant-acronym": "NSFC",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "National Natural Science Foundation of China"
+                },
+                "grant-agency-id": "501100001809"
+              },
+              {
+                "grant-id": "CSTB2023NSCQ-MSX0583",
+                "grant-agency": {
+                  "@iso-code": "chn",
+                  "$": "Natural Science Foundation of Chongqing Municipality"
+                },
+                "grant-agency-id": "501100005230"
+              }
+            ]
+          }
+        },
+        "item-info": {
+          "copyright": {
+            "$": "Copyright 2024 Elsevier B.V., All rights reserved.",
+            "@type": "Elsevier"
+          },
+          "dbcollection": [
+            {
+              "$": "CPX"
+            },
+            {
+              "$": "REAXYSCAR"
+            },
+            {
+              "$": "SCOPUS"
+            },
+            {
+              "$": "SNCPX"
+            },
+            {
+              "$": "Scopusbase"
+            }
+          ],
+          "history": {
+            "date-created": {
+              "@day": "22",
+              "@timestamp": "BST 14:02:04",
+              "@year": "2024",
+              "@month": "07"
+            }
+          },
+          "itemidlist": {
+            "itemid": [
+              {
+                "$": "2033418523",
+                "@idtype": "PUI"
+              },
+              {
+                "$": "957720339",
+                "@idtype": "CAR-ID"
+              },
+              {
+                "$": "20243016737904",
+                "@idtype": "CPX"
+              },
+              {
+                "$": "20242051329",
+                "@idtype": "REAXYSCAR"
+              },
+              {
+                "$": "20242884154",
+                "@idtype": "SCOPUS"
+              },
+              {
+                "$": "2024086186",
+                "@idtype": "SNCPX"
+              },
+              {
+                "$": "957720339#637378522",
+                "@idtype": "SRC-OCC-ID"
+              },
+              {
+                "$": "85199004860",
+                "@idtype": "SCP"
+              },
+              {
+                "$": "85199004860",
+                "@idtype": "SGR"
+              }
+            ],
+            "ce:pii": "S2352152X24024265",
+            "ce:ern": "pii:S2352152X24024265",
+            "ce:doi": "10.1016/j.est.2024.112840"
+          }
+        },
+        "tail": {
+          "bibliography": {
+            "@refcount": "43",
+            "reference": [
+              {
+                "ref-fulltext": "Brandl, H., Energy foundations and other thermo-active ground structures. Geotechnique 56:2 (2006), 81–122.",
+                "@reference-instance-id": "OB2BibRecID-957720339-b29186e9a43a8cfe8e4ee1fecf24c9c9-1",
+                "@id": "1",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2006"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Energy foundations and other thermo-active ground structures"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0005",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "33644596527",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "56",
+                      "@issue": "2"
+                    },
+                    "pagerange": {
+                      "@first": "81",
+                      "@last": "122"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Brandl",
+                        "ce:indexed-name": "Brandl H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geotechnique"
+                },
+                "ce:source-text": "H. Brandl, Energy foundations and other thermo-active ground structures, Geotechnique 56 (2) (2006) 81–122."
+              },
+              {
+                "ref-fulltext": "Bourne-Webb, P., Amatya, B., Soga, K., Amis, T., Davidson, C., Payne, P., Energy pile test at Lambeth College, London: geotechnical and thermodynamic aspects of pile response to heat cycles. Geotechnique 59:3 (2009), 237–248.",
+                "@reference-instance-id": "OB2BibRecID-957720339-d747a7b5c1ca95cd9496d08fbe003b53-2",
+                "@id": "2",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2009"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Energy pile test at Lambeth College, London: geotechnical and thermodynamic aspects of pile response to heat cycles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0010",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "58049214205",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "59",
+                      "@issue": "3"
+                    },
+                    "pagerange": {
+                      "@first": "237",
+                      "@last": "248"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Bourne-Webb",
+                        "ce:indexed-name": "Bourne-Webb P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Amatya",
+                        "ce:indexed-name": "Amatya B."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Soga",
+                        "ce:indexed-name": "Soga K."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Amis",
+                        "ce:indexed-name": "Amis T."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Davidson",
+                        "ce:indexed-name": "Davidson C."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Payne",
+                        "ce:indexed-name": "Payne P."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geotechnique"
+                },
+                "ce:source-text": "P. Bourne-Webb, B. Amatya, K. Soga, T. Amis, C. Davidson, P. Payne, Energy pile test at Lambeth College, London: geotechnical and thermodynamic aspects of pile response to heat cycles, Geotechnique 59 (3) (2009) 237-248."
+              },
+              {
+                "ref-fulltext": "Sani, A.K., Singh, R.M., Amis, T., Cavarretta, I., A review on the performance of geothermal energy pile foundation, its design process and applications. Renew. Sust. Energ. Rev. 106 (2019), 54–78.",
+                "@reference-instance-id": "OB2BibRecID-957720339-9cce1de470d1ef9f877073a31f0a01b6-3",
+                "@id": "3",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "A review on the performance of geothermal energy pile foundation, its design process and applications"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0015",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85062222213",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "106"
+                    },
+                    "pagerange": {
+                      "@first": "54",
+                      "@last": "78"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Sani",
+                        "ce:indexed-name": "Sani A.K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "R.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Singh",
+                        "ce:indexed-name": "Singh R.M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Amis",
+                        "ce:indexed-name": "Amis T."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "I.",
+                        "@_fa": "true",
+                        "ce:surname": "Cavarretta",
+                        "ce:indexed-name": "Cavarretta I."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Renew. Sust. Energ. Rev."
+                },
+                "ce:source-text": "A.K. Sani, R.M. Singh, T. Amis, I. Cavarretta, A review on the performance of geothermal energy pile foundation, its design process and applications, Renew. Sustain. Energy Rev 106 (2019) 54–78."
+              },
+              {
+                "ref-fulltext": "Gao, J., Zhang, X., Liu, J., Li, K.S., Yang, J., Thermal performance and ground temperature of vertical pile-foundation heat exchangers: a case study. Appl. Therm. Eng. 28 (2008), 2295–2304.",
+                "@reference-instance-id": "OB2BibRecID-957720339-1fa2a80abd9c6f07ddb137cb66d93ea6-4",
+                "@id": "4",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2008"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Thermal performance and ground temperature of vertical pile-foundation heat exchangers: a case study"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0020",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "50549097966",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "28"
+                    },
+                    "pagerange": {
+                      "@first": "2295",
+                      "@last": "2304"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Gao",
+                        "ce:indexed-name": "Gao J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang X."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu J."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "K.S.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li K.S."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Appl. Therm. Eng."
+                },
+                "ce:source-text": "J. Gao, X. Zhang, J. Liu, K. S. Li, J. Yang, Thermal performance and ground temperature of vertical pile-foundation heat exchangers: a case study, Applied Thermal Engineering 28 (2008) 2295–2304."
+              },
+              {
+                "ref-fulltext": "Moradshahi, A., Faizal, M., Bouazza, A., McCartney, J.S., Cross-sectional thermo-mechanical responses of energy piles. Comput. Geotech., 138, 2021, 104320.",
+                "@reference-instance-id": "OB2BibRecID-957720339-6ef95b6d3ddc5a0e486aaa54dedb911a-5",
+                "@id": "5",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Cross-sectional thermo-mechanical responses of energy piles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0025",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "104320",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85109532030",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "138"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Moradshahi",
+                        "ce:indexed-name": "Moradshahi A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Faizal",
+                        "ce:indexed-name": "Faizal M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Bouazza",
+                        "ce:indexed-name": "Bouazza A."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.S.",
+                        "@_fa": "true",
+                        "ce:surname": "McCartney",
+                        "ce:indexed-name": "McCartney J.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Comput. Geotech."
+                },
+                "ce:source-text": "A. Moradshahi, M. Faizal, A. Bouazza, J. S. McCartney, Cross-sectional thermo-mechanical responses of energy piles, Computers and Geotechnics 138 (2021) 104320."
+              },
+              {
+                "ref-fulltext": "Ding, X.M., Zhang, D.X., Bouazza, A., Wang, C.L., Kong, G.Q., Thermo-mechanical behaviour of energy piles in overconsolidated clay under various mechanical loading levels and thermal cycles. Renew. Energy 201 (2022), 594–607.",
+                "@reference-instance-id": "OB2BibRecID-957720339-a49e0adc8b911df6783729ae6f3e5990-6",
+                "@id": "6",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Thermo-mechanical behaviour of energy piles in overconsolidated clay under various mechanical loading levels and thermal cycles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0030",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85141333049",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "201"
+                    },
+                    "pagerange": {
+                      "@first": "594",
+                      "@last": "607"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Ding",
+                        "ce:indexed-name": "Ding X.M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "D.X.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang D.X."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Bouazza",
+                        "ce:indexed-name": "Bouazza A."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "C.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang C.L."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "G.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Kong",
+                        "ce:indexed-name": "Kong G.Q."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Renew. Energy"
+                },
+                "ce:source-text": "X. M. Ding, D. X. Zhang, A. Bouazza, C. L. Wang, G. Q. Kong, Thermo-mechanical behaviour of energy piles in overconsolidated clay under various mechanical loading levels and thermal cycles, Renewable Energy 201 (2022) 594-607."
+              },
+              {
+                "ref-fulltext": "Ding, X.M., Peng, C., Wang, C.L., Kong, G.Q., Heat transfer performance of energy piles in seasonally frozen soil areas. Renew. Energy 190 (2022), 903–918.",
+                "@reference-instance-id": "OB2BibRecID-957720339-79a6f18f8aae761260b1df8c280faf63-7",
+                "@id": "7",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Heat transfer performance of energy piles in seasonally frozen soil areas"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0035",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85127754220",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "190"
+                    },
+                    "pagerange": {
+                      "@first": "903",
+                      "@last": "918"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Ding",
+                        "ce:indexed-name": "Ding X.M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Peng",
+                        "ce:indexed-name": "Peng C."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang C.L."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "G.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Kong",
+                        "ce:indexed-name": "Kong G.Q."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Renew. Energy"
+                },
+                "ce:source-text": "X. M. Ding, C. Peng, C. L. Wang, G. Q. Kong, Heat transfer performance of energy piles in seasonally frozen soil areas, Renewable Energy 190 (2022) 903-918."
+              },
+              {
+                "ref-fulltext": "Shahidi, S., Hajialilue-Bonab, M., Tohidvand, H.R., Khosravi, A., Experimental investigation on the efficiency of the phase change materials for enhancing the thermal performance of energy piles in sandy soils. Energ. Buildings, 298, 2023, 113544.",
+                "@reference-instance-id": "OB2BibRecID-957720339-b31a48e63ea6c0f4886edf1cc68fe997-8",
+                "@id": "8",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental investigation on the efficiency of the phase change materials for enhancing the thermal performance of energy piles in sandy soils"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0040",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "113544",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85171477706",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "298"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Shahidi",
+                        "ce:indexed-name": "Shahidi S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Hajialilue-Bonab",
+                        "ce:indexed-name": "Hajialilue-Bonab M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Tohidvand",
+                        "ce:indexed-name": "Tohidvand H.R."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Khosravi",
+                        "ce:indexed-name": "Khosravi A."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Energ. Buildings"
+                },
+                "ce:source-text": "S. Shahidi, M. Hajialilue-Bonab, H. R. Tohidvand, A. Khosravi, Experimental investigation on the efficiency of the phase change materials for enhancing the thermal performance of energy piles in sandy soils, Energy and Buildings 298 (2023) 113544."
+              },
+              {
+                "ref-fulltext": "Cao, X., Kong, G.Q., Han, C.J., Feasibility assessment of implementing energy pile-based snowmelt system on a practical bridge deck in diverse climate conditions across China. Energy, 290, 2024, 130317.",
+                "@reference-instance-id": "OB2BibRecID-957720339-0fe366f1e17b40821551e492b3de2cda-9",
+                "@id": "9",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2024"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Feasibility assessment of implementing energy pile-based snowmelt system on a practical bridge deck in diverse climate conditions across China"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0045",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "130317",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85182517141",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "290"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Cao",
+                        "ce:indexed-name": "Cao X."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Kong",
+                        "ce:indexed-name": "Kong G.Q."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Han",
+                        "ce:indexed-name": "Han C.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Energy"
+                },
+                "ce:source-text": "X. Cao, G. Q. Kong, C. J. Han. Feasibility assessment of implementing energy pile-based snowmelt system on a practical bridge deck in diverse climate conditions across China, Energy 290 (2024) 130317."
+              },
+              {
+                "ref-fulltext": "Faizal, M., Bouazza, A., Singh, R.M., An experimental investigation of the influence of intermittent and continuous operating modes on the thermal behaviour of a full scale geothermal energy pile. Geomechanics for Energy and the Environment 8 (2016), 8–29.",
+                "@reference-instance-id": "OB2BibRecID-957720339-9e006c501b2a512a2065d0271a71cbba-10",
+                "@id": "10",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "An experimental investigation of the influence of intermittent and continuous operating modes on the thermal behaviour of a full scale geothermal energy pile"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0050",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85000788440",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "8"
+                    },
+                    "pagerange": {
+                      "@first": "8",
+                      "@last": "29"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Faizal",
+                        "ce:indexed-name": "Faizal M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Bouazza",
+                        "ce:indexed-name": "Bouazza A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "R.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Singh",
+                        "ce:indexed-name": "Singh R.M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geomechanics for Energy and the Environment"
+                },
+                "ce:source-text": "M. Faizal, A. Bouazza, R. M. Singh, An experimental investigation of the influence of intermittent and continuous operating modes on the thermal behaviour of a full scale geothermal energy pile, Geomechanics for Energy and the Environment 8(2016) 8-29."
+              },
+              {
+                "ref-fulltext": "Faizal, M., Bouazza, A., Haberfield, C., McCartney, J.S., Axial and radial thermal responses of a field-scale energy pile under monotonic and cyclic temperature changes. J. Geotech. Geoenviron. Eng., 144(10), 2018, 4018072.",
+                "@reference-instance-id": "OB2BibRecID-957720339-dc5f579bb82c2e5c1ec93df70c31593f-11",
+                "@id": "11",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Axial and radial thermal responses of a field-scale energy pile under monotonic and cyclic temperature changes"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0055",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "4018072",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85050582023",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "144",
+                      "@issue": "10"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Faizal",
+                        "ce:indexed-name": "Faizal M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Bouazza",
+                        "ce:indexed-name": "Bouazza A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Haberfield",
+                        "ce:indexed-name": "Haberfield C."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.S.",
+                        "@_fa": "true",
+                        "ce:surname": "McCartney",
+                        "ce:indexed-name": "McCartney J.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Geotech. Geoenviron. Eng."
+                },
+                "ce:source-text": "M. Faizal, A. Bouazza, C. Haberfield, J. S. McCartney. Axial and radial thermal responses of a field-scale energy pile under monotonic and cyclic temperature changes, Journal of Geotechnical and Geoenvironmental Engineering 144(10) (2018) 4018072."
+              },
+              {
+                "ref-fulltext": "Faizal, M., Bouazza, A., McCartney, J.S., Haberfield, C., Effects of cyclic temperature variations on thermal response of an energy pile under a residential building. J. Geotech. Geoenviron. Eng., 145(10), 2019, 4019066.",
+                "@reference-instance-id": "OB2BibRecID-957720339-db8824a559b6237310fcdb0a8edacd43-12",
+                "@id": "12",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effects of cyclic temperature variations on thermal response of an energy pile under a residential building"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0060",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "4019066",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85069765985",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "145",
+                      "@issue": "10"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Faizal",
+                        "ce:indexed-name": "Faizal M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Bouazza",
+                        "ce:indexed-name": "Bouazza A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.S.",
+                        "@_fa": "true",
+                        "ce:surname": "McCartney",
+                        "ce:indexed-name": "McCartney J.S."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "C.",
+                        "@_fa": "true",
+                        "ce:surname": "Haberfield",
+                        "ce:indexed-name": "Haberfield C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Geotech. Geoenviron. Eng."
+                },
+                "ce:source-text": "M. Faizal, A. Bouazza, J. S. McCartney, C. Haberfield, Effects of Cyclic Temperature Variations on Thermal Response of an Energy Pile under a Residential Building, Journal of Geotechnical and Geoenvironmental Engineering, 145(10) (2019) 4019066."
+              },
+              {
+                "ref-fulltext": "Faizal, M., Moradshahi, A., Bouazza, A., McCartney, J.S., Thermal response to temperature cycles and end boundary conditions of energy piles. J. Geotech. Geoenviron. Eng., 148(5), 2022, 4022027.",
+                "@reference-instance-id": "OB2BibRecID-957720339-777136fd7343f75de81f9301a620e267-13",
+                "@id": "13",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Thermal response to temperature cycles and end boundary conditions of energy piles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0065",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "4022027",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85127052844",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "148",
+                      "@issue": "5"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Faizal",
+                        "ce:indexed-name": "Faizal M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Moradshahi",
+                        "ce:indexed-name": "Moradshahi A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Bouazza",
+                        "ce:indexed-name": "Bouazza A."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.S.",
+                        "@_fa": "true",
+                        "ce:surname": "McCartney",
+                        "ce:indexed-name": "McCartney J.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Geotech. Geoenviron. Eng."
+                },
+                "ce:source-text": "M. Faizal, A. Moradshahi, A. Bouazza, J. S. McCartney, Thermal Response to Temperature Cycles and End Boundary Conditions of Energy Piles, Journal of Geotechnical and Geoenvironmental Engineering 148(5) (2022) 4022027."
+              },
+              {
+                "ref-fulltext": "Yang, W.B., Sun, T.F., Zhang, C.Y., Wang, F., Experimental and numerical investigations of thermo-mechanical behaviour of energy pile under cyclic temperature loads. Energy, 267(15), 2023, 126516.",
+                "@reference-instance-id": "OB2BibRecID-957720339-c82120a7cd40b8783cf0b640f9d83a51-14",
+                "@id": "14",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Experimental and numerical investigations of thermo-mechanical behaviour of energy pile under cyclic temperature loads"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0070",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "126516",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85144900695",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "267",
+                      "@issue": "15"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang W.B."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Sun",
+                        "ce:indexed-name": "Sun T.F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang C.Y."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang F."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Energy"
+                },
+                "ce:source-text": "W. B. Yang, T. F. Sun, C. Y. Zhang, F. Wang. Experimental and numerical investigations of thermo-mechanical behaviour of energy pile under cyclic temperature loads, Energy 267(15) (2023) 126516."
+              },
+              {
+                "ref-fulltext": "Moradshahi, A., Faizal, M., Bouazza, A., McCartney, J.S., Effect of nearby piles and soil properties on thermal behaviour of a field-scale energy pile. Can. Geotech. J. 58:9 (2020), 1351–1364.",
+                "@reference-instance-id": "OB2BibRecID-957720339-e0ba3037d95ee013b2e5a2560985bc3b-15",
+                "@id": "15",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Effect of nearby piles and soil properties on thermal behaviour of a field-scale energy pile"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0075",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85102291863",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "58",
+                      "@issue": "9"
+                    },
+                    "pagerange": {
+                      "@first": "1351",
+                      "@last": "1364"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Moradshahi",
+                        "ce:indexed-name": "Moradshahi A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Faizal",
+                        "ce:indexed-name": "Faizal M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Bouazza",
+                        "ce:indexed-name": "Bouazza A."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.S.",
+                        "@_fa": "true",
+                        "ce:surname": "McCartney",
+                        "ce:indexed-name": "McCartney J.S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Can. Geotech. J."
+                },
+                "ce:source-text": "A. Moradshahi, M. Faizal, A. Bouazza, J. S. McCartney, Effect of nearby piles and soil properties on thermal behaviour of a field-scale energy pile, Canadian Geotechnical Journal 58(9) (2020) 1351-1364."
+              },
+              {
+                "ref-fulltext": "Park, H., Lee, S.R., Yoon, A., Choi, J.C., Evaluation of thermal response and performance of PHC energy pile: field experiments and numerical simulation. Appl. Energy 103 (2013), 12–24.",
+                "@reference-instance-id": "OB2BibRecID-957720339-30ffd7c58e33a16c8c5af47166d9fa7c-16",
+                "@id": "16",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Evaluation of thermal response and performance of PHC energy pile: field experiments and numerical simulation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0080",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84870153750",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "103"
+                    },
+                    "pagerange": {
+                      "@first": "12",
+                      "@last": "24"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Park",
+                        "ce:indexed-name": "Park H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee S.R."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Yoon",
+                        "ce:indexed-name": "Yoon A."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Choi",
+                        "ce:indexed-name": "Choi J.C."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Appl. Energy"
+                },
+                "ce:source-text": "H. Park, S. R. Lee, S. Yoon a, J. C. Choi, Evaluation of thermal response and performance of PHC energy pile: Field experiments and numerical simulation, Applied Energy 103(2013) 12-24."
+              },
+              {
+                "ref-fulltext": "Cao, Z.M., Zhang, G.Z., Liu, Y.P., Zhao, X., Li, C.L., Influence of backfilling phase change material on thermal performance of precast high-strength concrete energy pile. Renew. Energy 184 (2022), 374–390.",
+                "@reference-instance-id": "OB2BibRecID-957720339-3b43eb7ea94abf30ffd3a1c505cee5bb-17",
+                "@id": "17",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Influence of backfilling phase change material on thermal performance of precast high-strength concrete energy pile"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0085",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85120505097",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "184"
+                    },
+                    "pagerange": {
+                      "@first": "374",
+                      "@last": "390"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Z.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Cao",
+                        "ce:indexed-name": "Cao Z.M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang G.Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu Y.P."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "X.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao X."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "C.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li C.L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Renew. Energy"
+                },
+                "ce:source-text": "Z. M. Cao, G. Z. Zhang, Y. P. Liu, X. Zhao, C. L. Li, Influence of backfilling phase change material on thermal performance of precast high-strength concrete energy pile, Renewable Energy 184 (2022) 374-390."
+              },
+              {
+                "ref-fulltext": "Lee, J.U., Kim, T., Leigh, S.B., Thermal performance analysis of a ground-coupled heat pump integrated with building foundation in summer. Energ. Buildings 59 (2013), 37–43.",
+                "@reference-instance-id": "OB2BibRecID-957720339-7d62bc3e07c9ba893a43823cdc389f45-18",
+                "@id": "18",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Thermal performance analysis of a ground-coupled heat pump integrated with building foundation in summer"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0090",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84873819661",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "59"
+                    },
+                    "pagerange": {
+                      "@first": "37",
+                      "@last": "43"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.U.",
+                        "@_fa": "true",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee J.U."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim T."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Leigh",
+                        "ce:indexed-name": "Leigh S.B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Energ. Buildings"
+                },
+                "ce:source-text": "JU Lee, T. Kim, S. B. Leigh, Thermal performance analysis of a ground-coupled heat pump integrated with building foundation in summer, Energy and Buildings 59(2013) 37-43."
+              },
+              {
+                "ref-fulltext": "Go, G.H., Lee, S.R., Yoon, S., Kang, H., Design of spiral coil PHC energy pile considering effective borehole thermal resistance and groundwater advection effects. Appl. Energy 125 (2014), 165–178.",
+                "@reference-instance-id": "OB2BibRecID-957720339-4cdec412f8da92a38226442bd28aef38-19",
+                "@id": "19",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Design of spiral coil PHC energy pile considering effective borehole thermal resistance and groundwater advection effects"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0095",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84899885974",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "125"
+                    },
+                    "pagerange": {
+                      "@first": "165",
+                      "@last": "178"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Go",
+                        "ce:indexed-name": "Go G.H."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee S.R."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Yoon",
+                        "ce:indexed-name": "Yoon S."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Kang",
+                        "ce:indexed-name": "Kang H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Appl. Energy"
+                },
+                "ce:source-text": "G. H. Go, S. R. Lee, S. Yoon, H. Kang, Design of spiral coil PHC energy pile considering effective borehole thermal resistance and groundwater advection effects, Applied Energy 125(2014) 165-178."
+              },
+              {
+                "ref-fulltext": "Lee, J.U., Kim, T., Leigh, S.B., Applications of building-integrated coil-type ground-coupled heat exchangers—comparison of performances of vertical and horizontal installations. Energ. Buildings 93 (2015), 99–109.",
+                "@reference-instance-id": "OB2BibRecID-957720339-51187d1001d0bcd2e05d729a8baad1ec-20",
+                "@id": "20",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Applications of building-integrated coil-type ground-coupled heat exchangers—comparison of performances of vertical and horizontal installations"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0100",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84925601255",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "93"
+                    },
+                    "pagerange": {
+                      "@first": "99",
+                      "@last": "109"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "J.U.",
+                        "@_fa": "true",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee J.U."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "ce:surname": "Kim",
+                        "ce:indexed-name": "Kim T."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Leigh",
+                        "ce:indexed-name": "Leigh S.B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Energ. Buildings"
+                },
+                "ce:source-text": "JU Lee, T. Kim, S. B. Leigh, Applications of building-integrated coil-type ground-coupled heat exchangers—Comparison of performances of vertical and horizontal installations, Energy and Buildings 93(2015) 99-109."
+              },
+              {
+                "ref-fulltext": "Yoon, S., Lee, S.R., Xue, J.F., Zosseder, K., Go, G.H., Park, Hyunku, Evaluation of the thermal efficiency and a cost analysis of different types of ground heat exchangers in energy piles. Energy Convers. Manag. 105 (2015), 393–402.",
+                "@reference-instance-id": "OB2BibRecID-957720339-408385b699b3c80a407831300c34bd32-21",
+                "@id": "21",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Evaluation of the thermal efficiency and a cost analysis of different types of ground heat exchangers in energy piles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0105",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84939166936",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "105"
+                    },
+                    "pagerange": {
+                      "@first": "393",
+                      "@last": "402"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Yoon",
+                        "ce:indexed-name": "Yoon S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee S.R."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "J.F.",
+                        "@_fa": "true",
+                        "ce:surname": "Xue",
+                        "ce:indexed-name": "Xue J.F."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Zosseder",
+                        "ce:indexed-name": "Zosseder K."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "G.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Go",
+                        "ce:indexed-name": "Go G.H."
+                      },
+                      {
+                        "ce:given-name": "Hyunku",
+                        "@seq": "6",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Park",
+                        "ce:indexed-name": "Park H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Energy Convers. Manag."
+                },
+                "ce:source-text": "S. Yoon, S. R. Lee, J. F. Xue, K. Zosseder, G. H. Go, Hyunku Park, Evaluation of the thermal efficiency and a cost analysis of different types of ground heat exchangers in energy piles, Energy Conversion and Management 105(2015) 393-402."
+              },
+              {
+                "ref-fulltext": "Yoon, S., Lee, S.R., Go, G.H., Park, S., An experimental and numerical approach to derive ground thermal conductivity in spiral coil type ground heat exchanger. J. Energy Inst. 88 (2015), 229–240.",
+                "@reference-instance-id": "OB2BibRecID-957720339-6fd619ae63d887f2ed0ebae1b79035ba-22",
+                "@id": "22",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "An experimental and numerical approach to derive ground thermal conductivity in spiral coil type ground heat exchanger"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0110",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84937029373",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "88"
+                    },
+                    "pagerange": {
+                      "@first": "229",
+                      "@last": "240"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Yoon",
+                        "ce:indexed-name": "Yoon S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee S.R."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "G.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Go",
+                        "ce:indexed-name": "Go G.H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Park",
+                        "ce:indexed-name": "Park S."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "J. Energy Inst."
+                },
+                "ce:source-text": "S. Yoon, S. R. Lee, G. H. Go, S. Park, An experimental and numerical approach to derive ground thermal conductivity in spiral coil type ground heat exchanger, Journal of the Energy Institute 88(2015) 229-240."
+              },
+              {
+                "ref-fulltext": "Ren, L.W., Xu, J., Kong, G.Q., Liu, H.L., Field tests on thermal response characteristics of micro-steel-pipe pile under multiple temperature cycles. Renew. Energy 147 (2020), 1098–1106.",
+                "@reference-instance-id": "OB2BibRecID-957720339-a0b3478065b198ba79b7bb36d40b19b5-23",
+                "@id": "23",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Field tests on thermal response characteristics of micro-steel-pipe pile under multiple temperature cycles"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0115",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85072319543",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "147"
+                    },
+                    "pagerange": {
+                      "@first": "1098",
+                      "@last": "1106"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Ren",
+                        "ce:indexed-name": "Ren L.W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu J."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "G.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Kong",
+                        "ce:indexed-name": "Kong G.Q."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "H.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu H.L."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Renew. Energy"
+                },
+                "ce:source-text": "L. W Ren, J. Xu, G. Q. Kong, H. L. Liu, Field tests on thermal response characteristics of micro-steel-pipe pile under multiple temperature cycles, Renewable Energy 147(2020) 1098-1106."
+              },
+              {
+                "ref-fulltext": "Ren, L.W., Ren, J.Y., Han, Z.P., Xu, J., Field tests on the thermomechanical responses of PHC energy piles under cooling and loading conditions. Acta Geotech. 18 (2023), 429–444.",
+                "@reference-instance-id": "OB2BibRecID-957720339-72d2958e5c6d3ed70b6d4cf92b3f6882-24",
+                "@id": "24",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Field tests on the thermomechanical responses of PHC energy piles under cooling and loading conditions"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0120",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85128161900",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "18"
+                    },
+                    "pagerange": {
+                      "@first": "429",
+                      "@last": "444"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "L.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Ren",
+                        "ce:indexed-name": "Ren L.W."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Ren",
+                        "ce:indexed-name": "Ren J.Y."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Z.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Han",
+                        "ce:indexed-name": "Han Z.P."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Xu",
+                        "ce:indexed-name": "Xu J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Acta Geotech."
+                },
+                "ce:source-text": "L. W Ren, J. Y. Ren, Z. P. Han, J. Xu, Field tests on the thermomechanical responses of PHC energy piles under cooling and loading conditions, Acta Geotechnica 18 (2023) 429–444."
+              },
+              {
+                "ref-fulltext": "Guo, Y.M., Zhang, G.Z., Liu, S.Y., Investigation on the thermal response of full-scale PHC energy pile and ground temperature in multi-layer strata. Appl. Therm. Eng. 143 (2018), 836–848.",
+                "@reference-instance-id": "OB2BibRecID-957720339-6d99fbfca9f9f463e44df07978f3c97d-25",
+                "@id": "25",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Investigation on the thermal response of full-scale PHC energy pile and ground temperature in multi-layer strata"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0125",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85051127260",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "143"
+                    },
+                    "pagerange": {
+                      "@first": "836",
+                      "@last": "848"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Guo",
+                        "ce:indexed-name": "Guo Y.M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang G.Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu S.Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Appl. Therm. Eng."
+                },
+                "ce:source-text": "Y. M. Guo, G. Z. Zhang, S. Y. Liu, Investigation on the thermal response of full-scale PHC energy pile and ground temperature in multi-layer strata, Applied Thermal Engineering 143 (2018) 836-848."
+              },
+              {
+                "ref-fulltext": "Guo, Y.M., Zhang, G.Z., Liu, S.Y., Temperature effects on the full-scale mechanical response of clayey soils around an energy pile evaluated by CPTU. Eng. Geol., 276, 2020, 105712.",
+                "@reference-instance-id": "OB2BibRecID-957720339-83dc4eef2edead79410ead7eee72fc0c-26",
+                "@id": "26",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2020"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Temperature effects on the full-scale mechanical response of clayey soils around an energy pile evaluated by CPTU"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0130",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105712",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85088380780",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "276"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Guo",
+                        "ce:indexed-name": "Guo Y.M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang G.Z."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu S.Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Eng. Geol."
+                },
+                "ce:source-text": "Y. M. Guo, G. Z. Zhang, S. Y. Liu, Temperature effects on the full-scale mechanical response of clayey soils around an energy pile evaluated by CPTU, Engineering Geology 276(2020) 105712."
+              },
+              {
+                "ref-fulltext": "Zhang, G.Z., Cao, Z.M., Liu, Y.P., Chen, J.W., Field test and numerical simulation on the long-term thermal response of PHC energy pile in layered foundation. Sensors, 21(11), 2021, 3873.",
+                "@reference-instance-id": "OB2BibRecID-957720339-91a9b640ff79ce6f71198a0d00ccd91e-27",
+                "@id": "27",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Field test and numerical simulation on the long-term thermal response of PHC energy pile in layered foundation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0135",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85107172210",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "21",
+                      "@issue": "11"
+                    },
+                    "pagerange": {
+                      "@first": "3873"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "G.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang G.Z."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Z.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Cao",
+                        "ce:indexed-name": "Cao Z.M."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.P.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu Y.P."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "J.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen J.W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Sensors"
+                },
+                "ce:source-text": "G. Z. Zhang, Z. M. Cao, Y. P. Liu, J. W. Chen, Field Test and Numerical Simulation on the Long-Term Thermal Response of PHC energy pile in Layered Foundation, Sensors 21(11) 2021 3873."
+              },
+              {
+                "ref-fulltext": "You, S., Cheng, X.H., Guo, H.X., Yao, Z.Q., Full-scale experimental study of heat exchange capacity of CFG pile geothermal exchangers. Energ. Buildings 79 (2014), 23–31.",
+                "@reference-instance-id": "OB2BibRecID-957720339-1d9a3ed00b5c2cf7d88e62f11efaec19-28",
+                "@id": "28",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2014"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Full-scale experimental study of heat exchange capacity of CFG pile geothermal exchangers"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0140",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84901036039",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "79"
+                    },
+                    "pagerange": {
+                      "@first": "23",
+                      "@last": "31"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "You",
+                        "ce:indexed-name": "You S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "X.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Cheng",
+                        "ce:indexed-name": "Cheng X.H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "H.X.",
+                        "@_fa": "true",
+                        "ce:surname": "Guo",
+                        "ce:indexed-name": "Guo H.X."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Z.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Yao",
+                        "ce:indexed-name": "Yao Z.Q."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Energ. Buildings"
+                },
+                "ce:source-text": "S. You, X. H. Cheng, H. X. Guo, Z. Q. Yao, Full-scale experimental study of heat exchange capacity of CFG pile geothermal exchangers, Energy and Buildings 79 (2014) 23–31."
+              },
+              {
+                "ref-fulltext": "Loveridge, F., Powrie, W., Temperature response functions (G-functions) for single pile heat exchangers. Energy 57 (2013), 554–564.",
+                "@reference-instance-id": "OB2BibRecID-957720339-cfa7630c76b6c863d4fec25cb83dd7c9-29",
+                "@id": "29",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2013"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Temperature response functions (G-functions) for single pile heat exchangers"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0145",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84880699665",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "57"
+                    },
+                    "pagerange": {
+                      "@first": "554",
+                      "@last": "564"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Loveridge",
+                        "ce:indexed-name": "Loveridge F."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "W.",
+                        "@_fa": "true",
+                        "ce:surname": "Powrie",
+                        "ce:indexed-name": "Powrie W."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Energy"
+                },
+                "ce:source-text": "F. Loveridge, W. Powrie, Temperature response functions (G-functions) for single pile heat Exchangers, Energy 57 (2013) 554-564."
+              },
+              {
+                "ref-fulltext": "Singha, R.M., Bouazzab, A., Wangc, B., Near-field ground thermal response to heating of a geothermal energy pile: observations from a field test. Soils Found. 55:6 (2015), 1412–1426.",
+                "@reference-instance-id": "OB2BibRecID-957720339-a0c421903722039d6db6dc7c0cf78b73-30",
+                "@id": "30",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Near-field ground thermal response to heating of a geothermal energy pile: observations from a field test"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0150",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84959282712",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "55",
+                      "@issue": "6"
+                    },
+                    "pagerange": {
+                      "@first": "1412",
+                      "@last": "1426"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Singha",
+                        "ce:indexed-name": "Singha R.M."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Bouazzab",
+                        "ce:indexed-name": "Bouazzab A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Wangc",
+                        "ce:indexed-name": "Wangc B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Soils Found."
+                },
+                "ce:source-text": "R. M. Singha, A. Bouazzab, B. Wangc, Near-field ground thermal response to heating of a geothermal energy pile: Observations from a field test, Soils and Foundations 55(6) (2015) 1412–1426."
+              },
+              {
+                "ref-fulltext": "Roth, P., Georgiev, A., Busso, A., Barraza, E., First in situ determination of ground and borehole thermal properties in Latin America. Renew. Energy 29 (2004), 1947–1963.",
+                "@reference-instance-id": "OB2BibRecID-957720339-12cc32c643f5018801d801e72393ae1b-31",
+                "@id": "31",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2004"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "First in situ determination of ground and borehole thermal properties in Latin America"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0155",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "2942560418",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "29"
+                    },
+                    "pagerange": {
+                      "@first": "1947",
+                      "@last": "1963"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Roth",
+                        "ce:indexed-name": "Roth P."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Georgiev",
+                        "ce:indexed-name": "Georgiev A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Busso",
+                        "ce:indexed-name": "Busso A."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "E.",
+                        "@_fa": "true",
+                        "ce:surname": "Barraza",
+                        "ce:indexed-name": "Barraza E."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Renew. Energy"
+                },
+                "ce:source-text": "P. Roth, A. Georgiev, A. Busso, E. Barraza, First in situ determination of ground and borehole thermal properties in Latin America, Renewable Energy 29 (2004) 1947-1963."
+              },
+              {
+                "ref-fulltext": "Mehrizi, A.A., Porkhial, S., Bezyan, B., Lotfizadeh, H., Energy pile foundation simulation for different configurations of ground source heat exchanger. International Communications in Heat and Mass Transfer 70 (2016), 105–114.",
+                "@reference-instance-id": "OB2BibRecID-957720339-dbe3b85766ea33cbf661072a38f6204d-32",
+                "@id": "32",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2016"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Energy pile foundation simulation for different configurations of ground source heat exchanger"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0160",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84949991514",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "70"
+                    },
+                    "pagerange": {
+                      "@first": "105",
+                      "@last": "114"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.A.",
+                        "@_fa": "true",
+                        "ce:surname": "Mehrizi",
+                        "ce:indexed-name": "Mehrizi A.A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Porkhial",
+                        "ce:indexed-name": "Porkhial S."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "B.",
+                        "@_fa": "true",
+                        "ce:surname": "Bezyan",
+                        "ce:indexed-name": "Bezyan B."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Lotfizadeh",
+                        "ce:indexed-name": "Lotfizadeh H."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "International Communications in Heat and Mass Transfer"
+                },
+                "ce:source-text": "A. A. Mehrizi, S. Porkhial, B. Bezyan, H. Lotfizadeh, Energy pile foundation simulation for different configurations of ground source heat exchanger, International Communications in Heat and Mass Transfer 70(2016) 105-114."
+              },
+              {
+                "ref-fulltext": "Li, R.R., Kong, G.Q., Sun, G.C., Zhou, Y., Yang, Q., Thermomechanical characteristics of an energy pile-raft foundation under heating operations. Renew. Energy 175 (2021), 580–592.",
+                "@reference-instance-id": "OB2BibRecID-957720339-caa0001b6645a793a9fdf013e58fc962-33",
+                "@id": "33",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Thermomechanical characteristics of an energy pile-raft foundation under heating operations"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0165",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85106289107",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "175"
+                    },
+                    "pagerange": {
+                      "@first": "580",
+                      "@last": "592"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li R.R."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Kong",
+                        "ce:indexed-name": "Kong G.Q."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "G.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Sun",
+                        "ce:indexed-name": "Sun G.C."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou Y."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang Q."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Renew. Energy"
+                },
+                "ce:source-text": "R. R. Li, G. Q. Kong, G. C. Sun, Y. Zhou, Q. Yang, Thermomechanical characteristics of an energy pile-raft foundation under heating operations, Renewable Energy 175(2021) 580-592."
+              },
+              {
+                "ref-fulltext": "Li, R.R., Kong, G.Q., Chen, Y.H., Yang, Q., Thermomechanical behaviour of an energy pile–raft foundation under intermittent cooling operation. Geomechanics for Energy and the Environment, 28, 2021, 100240.",
+                "@reference-instance-id": "OB2BibRecID-957720339-73691de01aeafe65d40f37dc466feedd-34",
+                "@id": "34",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2021"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Thermomechanical behaviour of an energy pile–raft foundation under intermittent cooling operation"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0170",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "100240",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85101535844",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "28"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "R.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li R.R."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "G.Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Kong",
+                        "ce:indexed-name": "Kong G.Q."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "Y.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen Y.H."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Yang",
+                        "ce:indexed-name": "Yang Q."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geomechanics for Energy and the Environment"
+                },
+                "ce:source-text": "R. R. Li, G. Q. Kong, Y. H. Chen, Q. Yang, Thermomechanical behaviour of an energy pile–raft foundation under intermittent cooling operation, Geomechanics for Energy and the Environment 28(2021) 100240"
+              },
+              {
+                "ref-fulltext": "Zhao, Q., Liu, F., Liu, C.W., Tian, M.C., Chen, B.M., Influence of spiral pitch on the thermal behaviors of energy piles with spiral-tube heat exchanger. Appl. Therm. Eng. 125 (2017), 1280–1290.",
+                "@reference-instance-id": "OB2BibRecID-957720339-98aa651da96708089b80643b25c2da83-35",
+                "@id": "35",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2017"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Influence of spiral pitch on the thermal behaviors of energy piles with spiral-tube heat exchanger"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0175",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85025113119",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "125"
+                    },
+                    "pagerange": {
+                      "@first": "1280",
+                      "@last": "1290"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Q.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao Q."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "F.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu F."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "C.W.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu C.W."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "M.C.",
+                        "@_fa": "true",
+                        "ce:surname": "Tian",
+                        "ce:indexed-name": "Tian M.C."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "B.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen B.M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Appl. Therm. Eng."
+                },
+                "ce:source-text": "Q. Zhao, F. Liu, C. W. Liu, M. C. Tian, B. M. Chen, Influence of spiral pitch on the thermal behaviors of energy piles with spiral-tube heat exchanger, Applied Thermal Engineering 125 (2017) 1280–1290."
+              },
+              {
+                "ref-fulltext": "Hamada, Y., Saitoh, H., Nakamura, M., Kubota, H., Ochifuji, K., Field performance of an energy pile system for space heating. Energ. Buildings 39:5 (2007), 517–524.",
+                "@reference-instance-id": "OB2BibRecID-957720339-729d839aa5c33bd91aeab4bbe0fb8a8f-36",
+                "@id": "36",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2007"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Field performance of an energy pile system for space heating"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0180",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "33847670949",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "39",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "517",
+                      "@last": "524"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Hamada",
+                        "ce:indexed-name": "Hamada Y."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Saitoh",
+                        "ce:indexed-name": "Saitoh H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.",
+                        "@_fa": "true",
+                        "ce:surname": "Nakamura",
+                        "ce:indexed-name": "Nakamura M."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Kubota",
+                        "ce:indexed-name": "Kubota H."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "K.",
+                        "@_fa": "true",
+                        "ce:surname": "Ochifuji",
+                        "ce:indexed-name": "Ochifuji K."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Energ. Buildings"
+                },
+                "ce:source-text": "Y. Hamada, H. Saitoh, M. Nakamura, H. Kubota, K. Ochifuji, Field performance of an energy pile system for space heating, Energy and Buildings 39(5) 2007 517-524."
+              },
+              {
+                "ref-fulltext": "Wood, C.J., Liu, H., Riffat, S.B., An investigation of the heat pump performance and ground temperature of a piled foundation heat exchanger system for a residential building. Energy 35:12 (2010), 4932–4940.",
+                "@reference-instance-id": "OB2BibRecID-957720339-f82e5131c914f5e508819d6094a1470b-37",
+                "@id": "37",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2010"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "An investigation of the heat pump performance and ground temperature of a piled foundation heat exchanger system for a residential building"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0185",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "78649878921",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "35",
+                      "@issue": "12"
+                    },
+                    "pagerange": {
+                      "@first": "4932",
+                      "@last": "4940"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Wood",
+                        "ce:indexed-name": "Wood C.J."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "H.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "S.B.",
+                        "@_fa": "true",
+                        "ce:surname": "Riffat",
+                        "ce:indexed-name": "Riffat S.B."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Energy"
+                },
+                "ce:source-text": "C. J. Wood, H. Liu, S. B. Riffat, An investigation of the heat pump performance and ground temperature of a piled foundation heat exchanger system for a residential building, Energy 35(12) 2010 4932-4940."
+              },
+              {
+                "ref-fulltext": "Capozza, A., Zarrella, A., Carli, M.D., Long-term analysis of two GSHP systems using validated numerical models and proposals to optimize the operating parameters. Energ. Buildings 93:15 (2015), 50–64.",
+                "@reference-instance-id": "OB2BibRecID-957720339-9a43394fd9c52916024a6288a5bdac10-38",
+                "@id": "38",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Long-term analysis of two GSHP systems using validated numerical models and proposals to optimize the operating parameters"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0190",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84925680107",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "93",
+                      "@issue": "15"
+                    },
+                    "pagerange": {
+                      "@first": "50",
+                      "@last": "64"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Capozza",
+                        "ce:indexed-name": "Capozza A."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "A.",
+                        "@_fa": "true",
+                        "ce:surname": "Zarrella",
+                        "ce:indexed-name": "Zarrella A."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "M.D.",
+                        "@_fa": "true",
+                        "ce:surname": "Carli",
+                        "ce:indexed-name": "Carli M.D."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Energ. Buildings"
+                },
+                "ce:source-text": "A. Capozza, A. Zarrella, M. D. Carli, Long-term analysis of two GSHP systems using validated numerical models and proposals to optimize the operating parameters, Energy and Buildings 93(15) 2015 50-64."
+              },
+              {
+                "ref-fulltext": "Moon, C.E., Choi, J.M., Heating performance characteristics of the ground source heat pump system with energy-piles and energy-slabs. Energy 81:1 (2015), 27–32.",
+                "@reference-instance-id": "OB2BibRecID-957720339-146c4c0717c706e5fda5a23abc9bf639-39",
+                "@id": "39",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2015"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Heating performance characteristics of the ground source heat pump system with energy-piles and energy-slabs"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0195",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "84924761767",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "81",
+                      "@issue": "1"
+                    },
+                    "pagerange": {
+                      "@first": "27",
+                      "@last": "32"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "C.E.",
+                        "@_fa": "true",
+                        "ce:surname": "Moon",
+                        "ce:indexed-name": "Moon C.E."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.M.",
+                        "@_fa": "true",
+                        "ce:surname": "Choi",
+                        "ce:indexed-name": "Choi J.M."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Energy"
+                },
+                "ce:source-text": "C. E. Moon, J. M. Choi, Heating performance characteristics of the ground source heat pump system with energy-piles and energy-slabs, Energy 81(1) 2015 27-32."
+              },
+              {
+                "ref-fulltext": "Zhang, W.K., Zhang, L.H., Cui, P., Gao, Y., Liu, J.Y., Yu, M.Z., The influence of groundwater seepage on the performance of ground source heat pump system with energy pile. Appl. Therm. Eng., 162(5), 2019, 114217.",
+                "@reference-instance-id": "OB2BibRecID-957720339-50a54a310557838ac78ad16ebb90a291-40",
+                "@id": "40",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2019"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "The influence of groundwater seepage on the performance of ground source heat pump system with energy pile"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0200",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "114217",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85071032492",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "162",
+                      "@issue": "5"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "W.K.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang W.K."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "L.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhang",
+                        "ce:indexed-name": "Zhang L.H."
+                      },
+                      {
+                        "@seq": "3",
+                        "ce:initials": "P.",
+                        "@_fa": "true",
+                        "ce:surname": "Cui",
+                        "ce:indexed-name": "Cui P."
+                      },
+                      {
+                        "@seq": "4",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Gao",
+                        "ce:indexed-name": "Gao Y."
+                      },
+                      {
+                        "@seq": "5",
+                        "ce:initials": "J.Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu J.Y."
+                      },
+                      {
+                        "@seq": "6",
+                        "ce:initials": "M.Z.",
+                        "@_fa": "true",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu M.Z."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Appl. Therm. Eng."
+                },
+                "ce:source-text": "W. K. Zhang, L. H. Zhang, P. Cui, Y. Gao, J. Y. Liu, M. Z. Yu, The influence of groundwater seepage on the performance of ground source heat pump system with energy pile, Applied Thermal Engineering 162(5) 2019 114217."
+              },
+              {
+                "ref-fulltext": "Martins, N.R., Bourne-Webb, P.J., An assessment of the potential effect of climate change on renewable hybrid heating and cooling systems. Journal of Building Engineering, 64(1), 2023, 105598.",
+                "@reference-instance-id": "OB2BibRecID-957720339-7206310bbec6e896d6da10b13445e936-41",
+                "@id": "41",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2023"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "An assessment of the potential effect of climate change on renewable hybrid heating and cooling systems"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0205",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "105598",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85142834749",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "64",
+                      "@issue": "1"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "N.R.",
+                        "@_fa": "true",
+                        "ce:surname": "Martins",
+                        "ce:indexed-name": "Martins N.R."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "P.J.",
+                        "@_fa": "true",
+                        "ce:surname": "Bourne-Webb",
+                        "ce:indexed-name": "Bourne-Webb P.J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Journal of Building Engineering"
+                },
+                "ce:source-text": "N. R. Martins, P. J. Bourne-Webb, An assessment of the potential effect of climate change on renewable hybrid heating and cooling systems, Journal of Building Engineering 64(1) 2023 105598."
+              },
+              {
+                "ref-fulltext": "Cui, Y.L., Zhu, J., CFD assessment of multiple energy piles for ground source heat pump in heating mode. Appl. Therm. Eng. 139:5 (2018), 99–112.",
+                "@reference-instance-id": "OB2BibRecID-957720339-33b5bd012e69e38f315a94945a80aa2a-42",
+                "@id": "42",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2018"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "CFD assessment of multiple energy piles for ground source heat pump in heating mode"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0210",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "85046361583",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "139",
+                      "@issue": "5"
+                    },
+                    "pagerange": {
+                      "@first": "99",
+                      "@last": "112"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "Y.L.",
+                        "@_fa": "true",
+                        "ce:surname": "Cui",
+                        "ce:indexed-name": "Cui Y.L."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "J.",
+                        "@_fa": "true",
+                        "ce:surname": "Zhu",
+                        "ce:indexed-name": "Zhu J."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Appl. Therm. Eng."
+                },
+                "ce:source-text": "Y. L. Cui, J. Zhu, CFD assessment of multiple energy piles for ground source heat pump in heating mode, Applied Thermal Engineering 139(5) 2018 99-112."
+              },
+              {
+                "ref-fulltext": "Bae, S., Nam, Y., Economic and environmental analysis of ground source heat pump system according to operation methods. Geothermics, 101(2), 2022, 102373.",
+                "@reference-instance-id": "OB2BibRecID-957720339-4f1acd46ab97718db46f7cb277b62443-43",
+                "@id": "43",
+                "ref-info": {
+                  "ref-publicationyear": {
+                    "@first": "2022"
+                  },
+                  "ref-title": {
+                    "ref-titletext": "Economic and environmental analysis of ground source heat pump system according to operation methods"
+                  },
+                  "refd-itemidlist": {
+                    "itemid": [
+                      {
+                        "$": "bb0215",
+                        "@idtype": "FRAGMENTID"
+                      },
+                      {
+                        "$": "102373",
+                        "@idtype": "ARTNUM"
+                      },
+                      {
+                        "$": "85124976382",
+                        "@idtype": "SGR"
+                      }
+                    ]
+                  },
+                  "ref-volisspag": {
+                    "voliss": {
+                      "@volume": "101",
+                      "@issue": "2"
+                    }
+                  },
+                  "ref-authors": {
+                    "author": [
+                      {
+                        "@seq": "1",
+                        "ce:initials": "S.",
+                        "@_fa": "true",
+                        "ce:surname": "Bae",
+                        "ce:indexed-name": "Bae S."
+                      },
+                      {
+                        "@seq": "2",
+                        "ce:initials": "Y.",
+                        "@_fa": "true",
+                        "ce:surname": "Nam",
+                        "ce:indexed-name": "Nam Y."
+                      }
+                    ]
+                  },
+                  "ref-sourcetitle": "Geothermics"
+                },
+                "ce:source-text": "S. Bae, Y. Nam, Economic and environmental analysis of ground source heat pump system according to operation methods, Geothermics 101(2) 2022 102373."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "affiliation": [
+      {
+        "affiliation-city": "Melbourne",
+        "@id": "60019578",
+        "affilname": "Monash University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019578",
+        "affiliation-country": "Australia"
+      },
+      {
+        "affiliation-city": "Chongqing",
+        "@id": "60023380",
+        "affilname": "Chongqing University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60023380",
+        "affiliation-country": "China"
+      },
+      {
+        "affiliation-city": "Nanjing",
+        "@id": "60010851",
+        "affilname": "Hohai University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60010851",
+        "affiliation-country": "China"
+      }
+    ],
+    "coredata": {
+      "srctype": "j",
+      "eid": "2-s2.0-85199004860",
+      "dc:description": "This paper examines the thermal performance of pre-tensioned high strength concrete (PHC) energy piles through full-scale experiments. Thermal response tests (TRTs) and thermal performance tests (TPTs) were conducted on a PHC energy pile under different operating modes (continuous mode and intermittent mode) and temperatures (40 °C and 5 °C). The heat transfer efficiency, coefficient of performance (COP), energy efficiency ratio (EER), and temperature variations of the pile and the soil surrounding PHC energy pile were measured and analyzed. The results show that PHC energy piles can be effectively utilized in related energy-efficient buildings as they exhibit high heat exchange efficiency and energy efficiency metrics. As the operating time increases, the heat exchange efficiency and COP gradually decrease. The heat exchange per unit length of the PHC energy pile stabilizes at approximately 81.3 W/m in summer cases, while it stabilizes at approximately 61.9 W/m in winter cases. Moreover, in the intermittent mode, the heat exchange efficiency and EER of the system are approximately 9.2 % and 4.0 % higher than those of the continuous mode, respectively.",
+      "prism:coverDate": "2024-09-15",
+      "prism:aggregationType": "Journal",
+      "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85199004860",
+      "subtypeDescription": "Article",
+      "dc:creator": {
+        "author": [
+          {
+            "ce:given-name": "Yachen",
+            "preferred-name": {
+              "ce:given-name": "Yachen",
+              "ce:initials": "Y.",
+              "ce:surname": "Guo",
+              "ce:indexed-name": "Guo Y."
+            },
+            "@seq": "1",
+            "ce:initials": "Y.",
+            "@_fa": "true",
+            "affiliation": {
+              "@id": "60023380",
+              "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60023380"
+            },
+            "ce:surname": "Guo",
+            "@auid": "59224752900",
+            "author-url": "https://api.elsevier.com/content/author/author_id/59224752900",
+            "ce:indexed-name": "Guo Y."
+          }
+        ]
+      },
+      "link": [
+        {
+          "@_fa": "true",
+          "@rel": "self",
+          "@href": "https://api.elsevier.com/content/abstract/scopus_id/85199004860"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus",
+          "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85199004860&origin=inward"
+        },
+        {
+          "@_fa": "true",
+          "@rel": "scopus-citedby",
+          "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85199004860&origin=inward"
+        }
+      ],
+      "prism:publicationName": "Journal of Energy Storage",
+      "source-id": "21100400826",
+      "pii": "S2352152X24024265",
+      "citedby-count": "19",
+      "prism:volume": "98",
+      "subtype": "ar",
+      "dc:title": "Thermal performance of a full-scale pre-tensioned high strength concrete (PHC) energy pile",
+      "openaccess": "0",
+      "openaccessFlag": "false",
+      "prism:doi": "10.1016/j.est.2024.112840",
+      "prism:issn": "2352152X",
+      "publishercopyright": "© 2024 Elsevier Ltd",
+      "article-number": "112840",
+      "dc:identifier": "SCOPUS_ID:85199004860",
+      "dc:publisher": "Elsevier Ltd"
+    },
+    "idxterms": {
+      "mainterm": [
+        {
+          "$": "Coefficient of Performance",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Coefficient of performance and energy efficiency ratio",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Energy efficiency ratio",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Energy piles",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Field test",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Heat exchange efficiency",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Heat transfer efficiency",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "High strength concretes",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Pre-tensioned high strength concrete pile",
+          "@weight": "b",
+          "@candidate": "n"
+        },
+        {
+          "$": "Thermal Performance",
+          "@weight": "b",
+          "@candidate": "n"
+        }
+      ]
+    },
+    "language": {
+      "@xml:lang": "eng"
+    },
+    "authkeywords": {
+      "author-keyword": [
+        {
+          "@_fa": "true",
+          "$": "COP and EER"
+        },
+        {
+          "@_fa": "true",
+          "$": "Energy pile"
+        },
+        {
+          "@_fa": "true",
+          "$": "Field test"
+        },
+        {
+          "@_fa": "true",
+          "$": "Heat transfer efficiency"
+        },
+        {
+          "@_fa": "true",
+          "$": "PHC pile"
+        }
+      ]
+    },
+    "subject-areas": {
+      "subject-area": [
+        {
+          "@_fa": "true",
+          "$": "Renewable Energy, Sustainability and the Environment",
+          "@code": "2105",
+          "@abbrev": "ENER"
+        },
+        {
+          "@_fa": "true",
+          "$": "Energy Engineering and Power Technology",
+          "@code": "2102",
+          "@abbrev": "ENER"
+        },
+        {
+          "@_fa": "true",
+          "$": "Electrical and Electronic Engineering",
+          "@code": "2208",
+          "@abbrev": "ENGI"
+        }
+      ]
+    },
+    "authors": {
+      "author": [
+        {
+          "ce:given-name": "Yachen",
+          "preferred-name": {
+            "ce:given-name": "Yachen",
+            "ce:initials": "Y.",
+            "ce:surname": "Guo",
+            "ce:indexed-name": "Guo Y."
+          },
+          "@seq": "1",
+          "ce:initials": "Y.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60023380",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60023380"
+          },
+          "ce:surname": "Guo",
+          "@auid": "59224752900",
+          "author-url": "https://api.elsevier.com/content/author/author_id/59224752900",
+          "ce:indexed-name": "Guo Y."
+        },
+        {
+          "ce:given-name": "Chenglong",
+          "preferred-name": {
+            "ce:given-name": "Chenglong",
+            "ce:initials": "C.",
+            "ce:surname": "Wang",
+            "ce:indexed-name": "Wang C."
+          },
+          "@seq": "2",
+          "ce:initials": "C.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60023380",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60023380"
+          },
+          "ce:surname": "Wang",
+          "@auid": "57190132465",
+          "author-url": "https://api.elsevier.com/content/author/author_id/57190132465",
+          "ce:indexed-name": "Wang C."
+        },
+        {
+          "ce:given-name": "Abdelmalek",
+          "preferred-name": {
+            "ce:given-name": "Abdelmalek",
+            "ce:initials": "A.",
+            "ce:surname": "Bouazza",
+            "ce:indexed-name": "Bouazza A."
+          },
+          "@seq": "3",
+          "ce:initials": "A.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60019578",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019578"
+          },
+          "ce:surname": "Bouazza",
+          "@auid": "6603689963",
+          "author-url": "https://api.elsevier.com/content/author/author_id/6603689963",
+          "ce:indexed-name": "Bouazza A."
+        },
+        {
+          "ce:given-name": "Honglin",
+          "preferred-name": {
+            "ce:given-name": "Honglin",
+            "ce:initials": "H.",
+            "ce:surname": "Chang",
+            "ce:indexed-name": "Chang H."
+          },
+          "@seq": "4",
+          "ce:initials": "H.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60010851",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60010851"
+          },
+          "ce:surname": "Chang",
+          "@auid": "58534089200",
+          "author-url": "https://api.elsevier.com/content/author/author_id/58534089200",
+          "ce:indexed-name": "Chang H."
+        },
+        {
+          "ce:given-name": "Gangqiang",
+          "preferred-name": {
+            "ce:given-name": "Gangqiang",
+            "ce:initials": "G.",
+            "ce:surname": "Kong",
+            "ce:indexed-name": "Kong G."
+          },
+          "@seq": "5",
+          "ce:initials": "G.",
+          "@_fa": "true",
+          "affiliation": {
+            "@id": "60010851",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60010851"
+          },
+          "ce:surname": "Kong",
+          "@auid": "24066710000",
+          "author-url": "https://api.elsevier.com/content/author/author_id/24066710000",
+          "ce:indexed-name": "Kong G."
+        }
+      ]
+    }
+  }
+}

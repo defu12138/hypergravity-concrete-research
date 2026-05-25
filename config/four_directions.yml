@@ -1,0 +1,165 @@
+metadata:
+  version: 1
+  created_for: "ScienceDirect-oriented four-direction hypergravity concrete review"
+  default_from_year: 1990
+  default_count_per_query: 20
+  note: "ELSEVIER_API_KEY must be read from the environment. Do not write keys to code, logs, reports, or commits."
+
+directions:
+  - id: D1
+    slug: centrifuged_concrete
+    name_zh: 离心成型混凝土
+    name_en: Centrifuged / centrifugally cast / spun concrete
+    common_names:
+      - centrifuged concrete
+      - centrifugal casting concrete
+      - centrifugally cast concrete
+      - centrifugally formed concrete
+      - spun concrete
+      - PHC pile
+      - prestressed high-strength concrete pipe pile
+      - hollow concrete pile
+      - concrete pipe pile
+      - centrifugal forming technique
+    queries:
+      - '"centrifuged concrete"'
+      - '"centrifugal casting concrete"'
+      - '"centrifugally cast concrete"'
+      - '"centrifugally formed concrete"'
+      - '"spun concrete"'
+      - '"PHC pile"'
+      - '"prestressed high-strength concrete pipe pile"'
+      - '"hollow concrete pile"'
+      - '"concrete pipe pile"'
+      - '"centrifugal forming technique" concrete'
+    inclusion:
+      - concrete
+      - mortar
+      - cement-based materials
+      - PHC pipe piles
+      - centrifugal pipes
+      - hollow columns
+      - centrifugal casting or forming
+      - fiber concrete
+      - UHPC or SFRC
+    exclusion:
+      - metal centrifugal casting
+      - plastic centrifugal forming
+      - blood centrifugation
+      - pure mechanical parts
+
+  - id: D2
+    slug: geotechnical_centrifuge_modeling
+    name_zh: 土工离心模型
+    name_en: Geotechnical centrifuge modeling involving concrete structures
+    common_names:
+      - geotechnical centrifuge modeling
+      - geotechnical centrifuge modelling
+      - centrifuge model test
+      - geotechnical centrifuge test
+      - shield tunnel AND centrifuge
+      - cross passage AND centrifuge
+      - soil-structure interaction AND centrifuge
+      - concrete lining AND centrifuge
+      - pile foundation AND centrifuge
+    queries:
+      - '"geotechnical centrifuge modeling" concrete'
+      - '"geotechnical centrifuge modelling" concrete'
+      - '"centrifuge model test" concrete'
+      - '"geotechnical centrifuge test" concrete'
+      - '"shield tunnel" AND centrifuge'
+      - '"cross passage" AND centrifuge'
+      - '"soil-structure interaction" AND centrifuge AND concrete'
+      - '"concrete lining" AND centrifuge'
+      - '"pile foundation" AND centrifuge AND concrete'
+    inclusion:
+      - centrifuge model tests involving concrete structures
+      - tunnel linings
+      - tunnel segments
+      - pile foundations
+      - soil-structure interaction with concrete components
+    exclusion:
+      - soil-only centrifuge studies
+      - slope stability without concrete structures
+      - liquefaction without concrete structures
+      - seabed-only studies
+
+  - id: D3
+    slug: gravity_cement_hydration
+    name_zh: 水泥水化重力效应
+    name_en: Gravity effects on cement hydration and microstructure
+    common_names:
+      - cement hydration AND microgravity
+      - cement hydration AND hypergravity
+      - cement paste AND gravity
+      - cement hydration AND centrifugation
+      - calcium silicate hydrate AND microgravity
+      - C-S-H AND gravity
+      - cement solidification AND microgravity
+    queries:
+      - '"cement hydration" AND microgravity'
+      - '"cement hydration" AND hypergravity'
+      - '"cement paste" AND gravity'
+      - '"cement hydration" AND centrifugation'
+      - '"calcium silicate hydrate" AND microgravity'
+      - '"C-S-H" AND gravity'
+      - '"cement solidification" AND microgravity'
+    inclusion:
+      - gravity field effects
+      - microgravity
+      - hypergravity
+      - centrifugal acceleration
+      - cement hydration
+      - C-S-H
+      - pore structure
+      - setting
+      - bleeding
+      - particle sedimentation
+      - microstructure evolution
+    exclusion:
+      - ordinary cement hydration with no gravity-field variable
+
+  - id: D4
+    slug: high_gravity_carbonation_mineralization
+    name_zh: 高重力碳化/矿化
+    name_en: High-gravity carbonation / mineralization of cementitious or calcium-rich materials
+    common_names:
+      - high gravity carbonation
+      - rotating packed bed AND carbonation
+      - rotating packed bed AND cement
+      - rotating packed bed AND calcium hydroxide
+      - rotating packed bed AND CaO
+      - CO2 mineralization AND cement
+      - CO2 mineralisation AND cement
+      - accelerated carbonation AND cement paste
+      - accelerated carbonation AND recycled concrete fines
+      - carbonation curing AND cementitious
+    queries:
+      - '"high gravity carbonation"'
+      - '"rotating packed bed" AND carbonation'
+      - '"rotating packed bed" AND cement'
+      - '"rotating packed bed" AND "calcium hydroxide"'
+      - '"rotating packed bed" AND CaO'
+      - '"CO2 mineralization" AND cement'
+      - '"CO2 mineralisation" AND cement'
+      - '"accelerated carbonation" AND "cement paste"'
+      - '"accelerated carbonation" AND "recycled concrete fines"'
+      - '"carbonation curing" AND cementitious'
+    inclusion:
+      - CO2 mineralization
+      - carbonation curing
+      - accelerated carbonation
+      - rotating packed bed
+      - high-gravity carbonation
+      - cement
+      - concrete
+      - CaO
+      - Ca(OH)2
+      - calcium silicate
+      - steel slag
+      - recycled concrete fines
+      - waste cement slurry
+    exclusion:
+      - amine absorption only
+      - general gas-liquid mass transfer without cement or calcium-rich solids
+      - chemical CO2 absorption unrelated to cement or concrete
