@@ -73,3 +73,12 @@ B/C/F 当前暂缓，不作为第一阶段主攻方向。
 - 本地文献的 SCI 收录、JCR 分区、中科院分区、中文来源级别和部分 DOI/年份仍需人工核验。
 - 本地 SCI 主流性报告中的 SCIE 状态来自公开期刊页，正式开题引用前仍建议通过 Web of Science/JCR/中科院分区人工复核。
 - 当前系统中的 `python` 可能是 Windows Store 占位符；运行 `scripts/index_local_literature.py` 前需确认 Python 环境可用。
+
+## 2026-05-25 Elsevier / ScienceDirect API 修复状态
+
+- 已新增 `src/search_elsevier.py`，提供 `--diagnose-elsevier` 诊断入口。
+- Elsevier API key 仅从 `os.environ.get("ELSEVIER_API_KEY", "").strip()` 读取，不硬编码、不打印原文。
+- ScienceDirect Search API 请求头使用 `X-ELS-APIKey` 和 `Accept: application/json`。
+- 诊断请求使用 `requests.Session()` 且设置 `session.trust_env = False`，避免 Python 默认走系统/全局代理导致认证异常。
+- 诊断输出仅包含 key 是否存在、key 长度、请求域名、是否禁用代理、HTTP 状态码、`X-ELS-Status` 和错误摘要。
+- 2026-05-25 实测 `python src/search_elsevier.py --diagnose-elsevier` 返回 `http_status=200`、`x_els_status=OK`。

@@ -78,6 +78,14 @@ C:\Users\DELL\Desktop\超重力混凝土\hypergravity_concrete_scout
 
 ## 下一步优先任务
 
+工具链提示：2026-05-25 已新增 `src/search_elsevier.py`，可用以下命令诊断 ScienceDirect / Elsevier API：
+
+```powershell
+python src/search_elsevier.py --diagnose-elsevier
+```
+
+该诊断从 `ELSEVIER_API_KEY` 环境变量读取 key，禁用系统代理，只输出 key 是否存在、长度、请求域名、代理禁用状态、HTTP 状态码和 `X-ELS-Status`。最近一次联网实测返回 `http_status=200`、`x_els_status=OK`。当前本地 Python 环境缺少 `pytest`，后续测试前需先安装或恢复 pytest。
+
 如果用户没有指定具体产出，优先从以下任务之一开始：
 
 1. 人工核验本地核心候选文献的 SCI/JCR/中科院分区和中文来源级别；

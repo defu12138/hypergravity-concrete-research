@@ -18,9 +18,18 @@ OpenAlex 是主数据源。建议配置 API key 和联系邮箱，避免被限�
 $env:OPENALEX_API_KEY="你的 OpenAlex API key"
 $env:CONTACT_EMAIL="you@example.com"
 $env:SEMANTIC_SCHOLAR_API_KEY="可选"
+$env:ELSEVIER_API_KEY="可选，用于 ScienceDirect / Elsevier API 诊断"
 ```
 
 如果暂时没有 key，可以先运行 `--dry-run` 或 `--sample` 命令检查项目结构。
+
+ScienceDirect / Elsevier API 诊断可运行：
+
+```powershell
+python src/search_elsevier.py --diagnose-elsevier
+```
+
+该诊断请求会禁用系统代理，只输出 key 是否存在、长度、请求域名、代理禁用状态、HTTP 状态码和 `X-ELS-Status`，不会打印 API Key 原文。
 
 ## 3. 推荐运行流程
 

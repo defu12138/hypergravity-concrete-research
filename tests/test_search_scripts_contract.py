@@ -10,6 +10,7 @@ SRC = PROJECT_ROOT / "src"
 sys.path.insert(0, str(SRC))
 
 import search_crossref  # noqa: E402
+import search_elsevier  # noqa: E402
 import search_openalex  # noqa: E402
 import search_semantic_scholar  # noqa: E402
 
@@ -121,3 +122,41 @@ def test_crossref_query_search_writes_required_raw_csv(tmp_path: Path, monkeypat
     assert len(frame) == 10
     assert frame.iloc[0]["authors"] == "Carol Chen"
     assert frame.iloc[0]["source_database"] == "Crossref"
+
+
+def test_elsevier_diagnosis_uses_env_key_and_disables_proxy(monkeypatch) -> None:
+    captured = {}
+
+    class FakeResponse:
+        status_code = 200
+        headers = {"X-ELS-Status": "OK"}
+
+    class FakeSession:
+        def __init__(self) -> None:
+            self.trust_env = True
+
+        def get(self, url, params=None, headers=None, timeout=None):
+            captured["trust_env"] = self.trust_env
+            captured["url"] = url
+            captured["params"] = params
+            captured["headers"] = headers
+            captured["timeout"] = timeout
+            return FakeResponse()
+
+        def close(self) -> None:
+            captured["closed"] = True
+
+    monkeypatch.setenv("ELSEVIER_API_KEY", " secret-key ")
+    monkeypatch.setattr(search_elsevier.requests, "Session", FakeSession)
+
+    result = search_elsevier.diagnose_elsevier(timeout=7)
+
+    assert captured["trust_env"] is False
+    assert captured["headers"]["X-ELS-APIKey"] == "secret-key"
+    assert captured["headers"]["Accept"] == "application/json"
+    assert result["key_present"] is True
+    assert result["key_length"] == len("secret-key")
+    assert result["request_domain"] == "api.elsevier.com"
+    assert result["proxy_disabled"] is True
+    assert result["http_status"] == 200
+    assert result["x_els_status"] == "OK"

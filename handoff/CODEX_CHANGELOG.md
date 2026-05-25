@@ -81,3 +81,23 @@
   - `handoff/NEXT_SESSION_PROMPT.md`
 - 关键结论：22 篇本地文献中，13 篇英文文献的来源期刊可通过公开期刊页确认 SCIE；但主线 E+D+A 的直接补强仍主要来自 concrete sludge-derived material 和 CO2-CaO dry grinding 两篇，B 方向文献数量和主流期刊背景最强。
 - 遗留问题：中文文献、来源不明文献、JCR 分区和中科院分区仍需人工通过 Web of Science/JCR/中科院分区核验。
+
+## 2026-05-25 Elsevier / ScienceDirect API 代理修复
+
+- 任务：根据 `PROMPT_ELSEVIER_FIX.txt` 检查并修复 Elsevier / ScienceDirect API 请求代码，解决 Python 默认走系统/全局代理导致认证异常的问题。
+- 修改文件：
+  - `src/search_elsevier.py`
+  - `tests/test_search_scripts_contract.py`
+  - `README.md`
+  - `handoff/PROJECT_STATE.md`
+  - `handoff/CODEX_CHANGELOG.md`
+  - `handoff/RESEARCH_DECISIONS.md`
+  - `handoff/TODO_NEXT.md`
+  - `handoff/NEXT_SESSION_PROMPT.md`
+- 关键结论：
+  - 新增 `python src/search_elsevier.py --diagnose-elsevier`。
+  - key 从 `ELSEVIER_API_KEY` 环境变量读取并 `.strip()`，不硬编码、不输出原文。
+  - 请求头使用 `X-ELS-APIKey` 和 `Accept: application/json`。
+  - `requests.Session()` 设置 `trust_env = False`，诊断确认禁用系统代理。
+  - 提升权限联网实测返回 `http_status=200`、`x_els_status=OK`。
+- 遗留问题：本地 Python 环境缺少 `pytest`，未能运行 pytest 测试；已运行 `python -m py_compile src/search_elsevier.py` 通过语法检查。

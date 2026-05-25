@@ -1,0 +1,16 @@
+请检查并修复项目中 Elsevier / ScienceDirect API 请求代码。
+
+已验证：
+1. curl --noproxy "*" 使用 ELSEVIER_API_KEY 调用 ScienceDirect Search API 返回 200 OK；
+2. Python urllib 默认请求返回 401；
+3. Python urllib 使用 ProxyHandler({}) 禁用代理后返回 200 OK。
+
+所以问题是 Python 请求默认走了系统/全局代理。请修复脚本：
+
+- 从 os.environ.get("ELSEVIER_API_KEY", "").strip() 读取 key；
+- 不要硬编码 key；
+- 请求头使用 X-ELS-APIKey 和 Accept: application/json；
+- 如果用 requests，必须设置 session.trust_env = False；
+- 如果用 urllib，必须使用 urllib.request.ProxyHandler({})；
+- 诊断输出不得打印 API Key 原文，只输出 key 是否存在、长度、请求域名、是否禁用代理、HTTP 状态码、X-ELS-Status；
+- 修复后运行 --diagnose-elsevier，目标是 http_status=200、x_els_status=OK。

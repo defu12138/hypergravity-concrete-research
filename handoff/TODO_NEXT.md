@@ -4,6 +4,11 @@
 
 ## 下一轮最重要任务
 
+0. 完善本地开发测试环境
+   - 安装或恢复 `pytest` 后运行 `python -m pytest`。
+   - 重点复核新增的 Elsevier 诊断测试，以及既有检索脚本合约测试。
+   - 如后续需要把 ScienceDirect 纳入正式检索流程，应在 `src/search_elsevier.py` 基础上补充结果规范化、审计 CSV 和去重接口，不要直接打印或保存 API key。
+
 1. 人工核验本地核心候选文献的来源级别
    - 对 `reports/local_literature/core_literature_candidates.md` 中的核心必读和背景支撑文献，核验 SCI、JCR 分区、中科院分区、中文期刊来源和年份。
    - 对 `reports/local_literature/sci_mainstream_relevance_audit.md` 中已标注 SCIE 的期刊，通过 Web of Science/JCR/中科院分区做正式复核。
