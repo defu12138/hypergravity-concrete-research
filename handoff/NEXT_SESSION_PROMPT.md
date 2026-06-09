@@ -20,6 +20,13 @@ C:\Users\DELL\Desktop\超重力混凝土\hypergravity_concrete_scout
 
 然后根据需要阅读支撑文件：
 
+- `group_meetings/README.md`
+- `group_meetings/2026-06-03_first_group_meeting.md`
+- `group_meetings/current_research_summary.md`
+- `group_meetings/four_directions_research_landscape_2026.md`
+- `reports/four_directions_landscape.md`
+- `reports/four_directions_comparison.md`
+- `reports/teacher_meeting_outline.md`
 - `reports/final_research_map.md`
 - `reports/direction_score_report.md`
 - `reports/reading_list_by_direction.md`
@@ -62,6 +69,13 @@ C:\Users\DELL\Desktop\超重力混凝土\hypergravity_concrete_scout
 
 > 碳化固废 SCM + CO2 养护 + 超重力/等效强化碳化变量
 
+2026-06-09 组会归档后的四方向定位：
+
+- 高重力碳化/矿化：对应旧 E/D/A 组合路线，当前最优先候选主线。
+- 离心成型混凝土：对应旧 B 方向，作为工程备选。
+- 水泥水化重力效应：对应旧 C 方向，作为机制支撑。
+- 土工离心模型：作为平行参考，不作为混凝土材料主线。
+
 ## 本地文献核验结果
 
 已完成对 `C:\Users\DELL\Desktop\超重力混凝土\孟老师资料\离心混凝土文献资料` 中 22 个 PDF 的元数据级核验，结果保存在：
@@ -88,11 +102,12 @@ python src/search_elsevier.py --diagnose-elsevier
 
 如果用户没有指定具体产出，优先从以下任务之一开始：
 
-1. 人工核验本地核心候选文献的 SCI/JCR/中科院分区和中文来源级别；
-2. 开题报告大纲；
-3. E/D/A 三方向核心文献精读表；
-4. 第一轮最小可行实验矩阵；
-5. 实验数据记录模板。
+1. 核对第一次组会 PPT 的日期和文献数量口径；
+2. 将 `group_meetings/four_directions_research_landscape_2026.md` 压缩成下一次组会 PPT 提纲；
+3. 人工核验本地核心候选文献的 SCI/JCR/中科院分区和中文来源级别；
+4. 开题报告大纲；
+5. E/D/A 或四方向核心文献精读表；
+6. 第一轮最小可行实验矩阵和实验数据记录模板。
 
 ## 交接与 Git 规则
 

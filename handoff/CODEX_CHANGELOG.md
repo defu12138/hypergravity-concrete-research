@@ -1,6 +1,6 @@
 # CODEX_CHANGELOG
 
-更新时间：2026-05-22
+更新时间：2026-06-09
 
 ## 截至目前已完成的主要工作
 
@@ -101,3 +101,21 @@
   - `requests.Session()` 设置 `trust_env = False`，诊断确认禁用系统代理。
   - 提升权限联网实测返回 `http_status=200`、`x_els_status=OK`。
 - 遗留问题：本地 Python 环境缺少 `pytest`，未能运行 pytest 测试；已运行 `python -m py_compile src/search_elsevier.py` 通过语法检查。
+
+## 2026-06-09 组会记录区与四方向科研环境归总
+
+- 任务：根据第一次组会 PPT 建立 GitHub 可见的组会记录区，并整理当前研究内容和四方向科研环境判断。
+- 修改文件：
+  - `README.md`
+  - `group_meetings/README.md`
+  - `group_meetings/template.md`
+  - `group_meetings/2026-06-03_first_group_meeting.md`
+  - `group_meetings/current_research_summary.md`
+  - `group_meetings/four_directions_research_landscape_2026.md`
+  - `handoff/PROJECT_STATE.md`
+  - `handoff/CODEX_CHANGELOG.md`
+  - `handoff/RESEARCH_DECISIONS.md`
+  - `handoff/TODO_NEXT.md`
+  - `handoff/NEXT_SESSION_PROMPT.md`
+- 关键结论：四方向中，高重力碳化/矿化最适合作为低碳材料主线；离心成型混凝土作为工程备选；水泥水化重力效应作为高创新机制支撑；土工离心模型作为平行参考。
+- 遗留问题：第一次组会 PPT 的封面日期与文件名日期不一致；PPT/报告中高重力碳化/矿化相关数 79 与当前 CSV `included` 数 71 需回到筛选口径核对。

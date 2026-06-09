@@ -27,6 +27,17 @@ The four directions are:
 
 The current workbook contains only ScienceDirect / Elsevier-sourced records. Supplemental sources such as Crossref, Semantic Scholar, or Google Scholar are not mixed into this workbook.
 
+## Group Meeting Records
+
+Use `group_meetings/` as the GitHub-visible area for every mentor/group meeting:
+
+- Index and workflow: `group_meetings/README.md`
+- First meeting record: `group_meetings/2026-06-03_first_group_meeting.md`
+- Current research summary: `group_meetings/current_research_summary.md`
+- Four-direction research landscape: `group_meetings/four_directions_research_landscape_2026.md`
+
+Meeting records should capture the PPT/report content, conclusions, open questions, and next actions. Do not commit local PPT/PDF/Word/CAJ originals unless there is an explicit decision that the file is safe and useful to publish on GitHub.
+
 ## Legacy: Six-Direction Review
 
 The earlier six-direction scouting results remain in the repository for traceability:

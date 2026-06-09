@@ -8,6 +8,13 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_PATH = PROJECT_ROOT / "NEXT_SESSION_PROMPT.md"
 
 KEY_FILES = [
+    PROJECT_ROOT / "group_meetings" / "README.md",
+    PROJECT_ROOT / "group_meetings" / "2026-06-03_first_group_meeting.md",
+    PROJECT_ROOT / "group_meetings" / "current_research_summary.md",
+    PROJECT_ROOT / "group_meetings" / "four_directions_research_landscape_2026.md",
+    PROJECT_ROOT / "reports" / "four_directions_landscape.md",
+    PROJECT_ROOT / "reports" / "four_directions_comparison.md",
+    PROJECT_ROOT / "reports" / "teacher_meeting_outline.md",
     PROJECT_ROOT / "reports" / "final_research_map.md",
     PROJECT_ROOT / "reports" / "direction_score_report.md",
     PROJECT_ROOT / "reports" / "reading_list_by_direction.md",
@@ -22,6 +29,10 @@ TRACE_FILES = [
 ]
 
 FUTURE_WORK_KEYWORDS = [
+    "组会",
+    "meeting",
+    "summary",
+    "landscape",
     "开题",
     "精读",
     "实验",
@@ -47,7 +58,7 @@ def status_line(path: Path) -> str:
 
 def discover_recent_project_outputs() -> list[Path]:
     candidates: list[Path] = []
-    for folder_name in ["reports", "data/processed"]:
+    for folder_name in ["group_meetings", "reports", "data/processed"]:
         folder = PROJECT_ROOT / folder_name
         if not folder.exists():
             continue
@@ -78,7 +89,7 @@ def build_prompt() -> str:
 请继续接手这个项目：超重力与混凝土结合方向的文献侦察与选题可行性分析。
 
 当前项目路径：
-D:\\work\\codex\\超重力混凝土\\hypergravity_concrete_scout
+{PROJECT_ROOT}
 
 ## 重要要求
 
@@ -86,14 +97,23 @@ D:\\work\\codex\\超重力混凝土\\hypergravity_concrete_scout
 
 本轮项目已经完成了文献侦察、方向评分、阅读清单、最终研究地图和研究结果文件汇总。你需要基于现有文件继续推进后续工作。
 
+2026-06-09 已建立 GitHub 可见的组会记录区 `group_meetings/`，用于持续记录每次组会汇报内容、当前研究归总和四方向科研环境判断。
+
 ## 开始前必须先阅读的文件
 
 请先检查并阅读以下文件：
 
-1. reports/final_research_map.md
-2. reports/direction_score_report.md
-3. reports/reading_list_by_direction.md
-4. reports/research_results_file_summary.xlsx
+1. group_meetings/README.md
+2. group_meetings/2026-06-03_first_group_meeting.md
+3. group_meetings/current_research_summary.md
+4. group_meetings/four_directions_research_landscape_2026.md
+5. reports/four_directions_landscape.md
+6. reports/four_directions_comparison.md
+7. reports/teacher_meeting_outline.md
+8. reports/final_research_map.md
+9. reports/direction_score_report.md
+10. reports/reading_list_by_direction.md
+11. reports/research_results_file_summary.xlsx
 
 如需要追溯数据，再查看：
 
@@ -127,27 +147,43 @@ D:\\work\\codex\\超重力混凝土\\hypergravity_concrete_scout
    - F：旋转填充床与传质强化，偏化工过程，和混凝土直接耦合证据不足。
    这些方向暂时作为背景或后续拓展，不作为当前主攻方向。
 
+2026-06-09 组会归档后的四方向定位：
+
+- 高重力碳化/矿化：对应旧 E/D/A 组合路线，当前最优先候选主线。
+- 离心成型混凝土：对应旧 B 方向，作为工程备选。
+- 水泥水化重力效应：对应旧 C 方向，作为机制支撑。
+- 土工离心模型：作为平行参考，不作为混凝土材料主线。
+
 ## 后续工作重点
 
 请围绕以下任务继续推进，不要继续扩大文献检索范围：
 
-1. 开题报告
+0. 组会记录维护
+   - 每次组会后在 group_meetings/ 下新增 Markdown 记录；
+   - 若形成新研究判断，同步更新 group_meetings/current_research_summary.md 和 handoff/RESEARCH_DECISIONS.md；
+   - 不提交 PPT/PDF/Word/CAJ 原件，除非明确确认适合公开到 GitHub。
+
+1. 数据口径核对
+   - 核对第一次组会 PPT 封面日期 `2025.06.03` 与文件名 `2026-06-03` 的不一致；
+   - 核对四方向相关文献数量，尤其是高重力碳化/矿化方向 79/71 的筛选口径差异。
+
+2. 开题报告
    - 基于 E+D+A 组合形成研究问题；
    - 梳理研究背景、研究意义、国内外现状、研究内容、技术路线、创新点和可行性；
    - 明确主线为“碳化固废 SCM + CO2 养护 + 超重力/强化碳化变量”。
 
-2. 文献精读
+3. 文献精读
    - 从 reading_list_by_direction.md 和 reading_list_by_direction.csv 中优先选择 E、D、A 方向代表论文；
    - 每篇精读时提取：研究问题、材料体系、实验方法、关键指标、主要结论、可借鉴点、局限性；
    - 不要编造论文细节。如果摘要或全文信息不足，标注“数据不足，需人工补充检索或下载全文”。
 
-3. 实验矩阵
+4. 实验矩阵
    - 优先设计普通材料实验室可完成的最小可行实验；
    - 主线建议为：废混凝土粉或钢渣粉预碳化，作为 SCM 掺入水泥/砂浆体系，再结合 CO2 养护；
    - A 方向作为强化碳化变量，可先用高 CO2 浓度、湿度、薄层暴露、搅拌或等效强化方式模拟；
    - 不要一开始设计过大的全因子实验。
 
-4. 数据记录模板
+5. 数据记录模板
    - 为后续实验建立可直接使用的记录表；
    - 至少包括：原材料信息、预碳化条件、配合比、养护制度、质量变化、强度、pH/酚酞、XRD/TG/碳酸盐含量等指标；
    - 如果某项仪器条件未知，标注“待确认”。
@@ -180,8 +216,9 @@ python scripts\\update_next_session_prompt.py
 请优先询问用户下一步想做哪一类产出；如果用户没有指定，推荐从以下三项之一开始：
 
 1. 开题报告大纲；
-2. E/D/A 三方向核心文献精读表；
-3. 第一轮最小可行实验矩阵和数据记录模板。
+2. 下一次组会 PPT 提纲；
+3. E/D/A 或四方向核心文献精读表；
+4. 第一轮最小可行实验矩阵和数据记录模板。
 ```
 
 ## 维护说明
